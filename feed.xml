@@ -5,7 +5,7 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Fri, 06 Nov 2026 19:14:16 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 21:29:07 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
@@ -289,15 +289,6 @@
     <media:content url="https://echodesanges.fr/img/entreprises/essilorluxottica-rachete-pulse-audition.jpg" medium="image"/>
   </item>
   <item>
-    <title>Vincent Lavallée, de la restauration à l'hôtellerie : le parcours discret d'un investisseur martégal</title>
-    <link>https://echodesanges.fr/a/2025-07-01-vincent-lavallee-force-invest-martigues.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2025-07-01-vincent-lavallee-force-invest-martigues.html</guid>
-    <pubDate>Wed, 01 Jan 2025 07:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Depuis Martigues, sa holding Force Invest pilote un restaurant de la place de la Joliette et un hôtel de Miramas. Il figure au palmarès des « 100 leaders…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/vincent-lavallee-force-invest-martigues.jpg" medium="image"/>
-  </item>
-  <item>
     <title>À Marseille, l'association Melting Pot initie les jeunes à la vie démocratique</title>
     <link>https://echodesanges.fr/a/2025-07-01-melting-pot-association-jeunes-citoyennete-marseille.html</link>
     <guid isPermaLink="true">https://echodesanges.fr/a/2025-07-01-melting-pot-association-jeunes-citoyennete-marseille.html</guid>
@@ -305,6 +296,15 @@
     <category>Nice &amp; Côte d'Azur</category>
     <description>Fondée en 2022 par Alexandre Pastor, l'association multiplie les ateliers dans les écoles et les centres sociaux pour lutter contre l'abstention des plus…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/melting-pot-association-jeunes-citoyennete-marseille.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Vincent Lavallée, de la restauration à l'hôtellerie : le parcours discret d'un investisseur martégal</title>
+    <link>https://echodesanges.fr/a/2025-07-01-vincent-lavallee-force-invest-martigues.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2025-07-01-vincent-lavallee-force-invest-martigues.html</guid>
+    <pubDate>Wed, 01 Jan 2025 07:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Depuis Martigues, sa holding Force Invest pilote un restaurant de la place de la Joliette et un hôtel de Miramas. Il figure au palmarès des « 100 leaders…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/vincent-lavallee-force-invest-martigues.jpg" medium="image"/>
   </item>
   <item>
     <title>Batteries sur roulettes : PESS Energy lève 2,2 millions d'euros pour remplacer les groupes électrogènes</title>
