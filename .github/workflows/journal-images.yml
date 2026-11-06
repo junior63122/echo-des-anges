@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [articles.json]
+    paths: [articles.json, scripts/fetch-article-images.mjs]
 
 permissions:
   contents: write
