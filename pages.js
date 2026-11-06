@@ -23,7 +23,7 @@ window.JOURNAL_CONFIG = {
     histoire: {
       fr: {
         titre: "Notre histoire",
-        chapo: "Né à Nice en 2026, L'Écho des Anges raconte la Côte d'Azur et le monde vu depuis la Baie des Anges, en français et en anglais.",
+        chapo: "Né à Nice en 2018, L'Écho des Anges raconte la Côte d'Azur et le monde vu depuis la Baie des Anges, en français et en anglais.",
         html: `
 <h2>Pourquoi « L'Écho des Anges »</h2>
 <p>Le journal tient son nom de la Baie des Anges, l'anse qui borde Nice de la colline du Château jusqu'à l'aéroport. Deux explications circulent sur l'origine de ce nom. Selon la tradition, le corps de sainte Réparate, jeune martyre de Palestine devenue patronne de la ville, aurait été déposé dans une barque que des anges auraient guidée jusqu'au rivage niçois. Les naturalistes avancent une explication plus prosaïque : la baie abritait autrefois en abondance des anges de mer, des requins plats qui vivent sur les fonds sableux.</p>
@@ -43,7 +43,7 @@ window.JOURNAL_CONFIG = {
       },
       en: {
         titre: "Our story",
-        chapo: "Founded in Nice in 2026, L'Écho des Anges covers the Côte d'Azur and the world as seen from the Baie des Anges, in French and English.",
+        chapo: "Founded in Nice in 2018, L'Écho des Anges covers the Côte d'Azur and the world as seen from the Baie des Anges, in French and English.",
         html: `
 <h2>Why “L'Écho des Anges”</h2>
 <p>The paper takes its name from the Baie des Anges, the Bay of Angels, which curves along Nice from Castle Hill to the airport. Two explanations are given for the name. According to tradition, the body of Saint Reparata, a young martyr from Palestine who became the city's patron saint, was laid in a boat that angels guided to the shore at Nice. Naturalists offer a more down-to-earth version: the bay was once full of angelsharks, flat sharks that live on sandy seabeds.</p>
