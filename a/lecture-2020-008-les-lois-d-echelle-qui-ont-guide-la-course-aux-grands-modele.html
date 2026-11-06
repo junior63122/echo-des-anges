@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les « lois d&#39;échelle » qui ont guidé la course aux grands modèles | L&#39;Écho des Anges</title>
+<meta name="description" content="En 2020, des chercheurs d&#39;OpenAI mesurent comment la performance d&#39;un modèle de langage progresse avec sa taille, ses données et la puissance de calcul.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://echodesanges.fr/a/lecture-2020-008-les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele.html">
+
+<meta property="og:site_name" content="L&#39;Écho des Anges">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Les « lois d&#39;échelle » qui ont guidé la course aux grands modèles | L&#39;Écho des Anges">
+<meta property="og:description" content="En 2020, des chercheurs d&#39;OpenAI mesurent comment la performance d&#39;un modèle de langage progresse avec sa taille, ses données et la puissance de calcul.">
+<meta property="og:url" content="https://echodesanges.fr/a/lecture-2020-008-les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele.html">
+<meta property="og:image" content="https://echodesanges.fr/img/stock/tech-2.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Les « lois d&#39;échelle » qui ont guidé la course aux grands modèles | L&#39;Écho des Anges">
+<meta name="twitter:description" content="En 2020, des chercheurs d&#39;OpenAI mesurent comment la performance d&#39;un modèle de langage progresse avec sa taille, ses données et la puissance de calcul.">
+<meta name="twitter:image" content="https://echodesanges.fr/img/stock/tech-2.jpg">
+<meta property="article:published_time" content="2020">
+<meta property="article:section" content="Tech">
+<meta name="theme-color" content="#0c1a2b">
+<link rel="alternate" type="application/rss+xml" title="L&#39;Écho des Anges" href="https://echodesanges.fr/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,600;1,6..72,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://echodesanges.fr/journal.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Les « lois d'échelle » qui ont guidé la course aux grands modèles","description":"En 2020, des chercheurs d'OpenAI mesurent comment la performance d'un modèle de langage progresse avec sa taille, ses données et la puissance de calcul.","inLanguage":"fr","datePublished":"2020","dateModified":"2020","articleSection":"Tech","mainEntityOfPage":"https://echodesanges.fr/a/lecture-2020-008-les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele.html","url":"https://echodesanges.fr/a/lecture-2020-008-les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele.html","image":["https://echodesanges.fr/img/stock/tech-2.jpg"],"author":{"@type":"Organization","name":"Rédaction de L'Écho des Anges","url":"https://echodesanges.fr/"},"publisher":{"@type":"NewsMediaOrganization","name":"L'Écho des Anges","url":"https://echodesanges.fr/","logo":{"@type":"ImageObject","url":"https://echodesanges.fr/img/og-default.jpg"}},"articleBody":"L'article « Scaling Laws for Neural Language Models » établit que l'erreur d'un modèle de langage diminue de façon régulière, selon des lois de puissance, à mesure que l'on augmente le nombre de paramètres, la quantité de données et le calcul consacré à l'entraînement.\n\nLes auteurs en tirent des recommandations pratiques : pour un budget de calcul donné, il vaut mieux entraîner un modèle plus grand, sans forcément le mener jusqu'à la convergence. Ces relations se vérifient sur plusieurs ordres de grandeur.\n\nCes travaux ont fourni une justification quantitative aux investissements massifs dans des modèles toujours plus grands. Leurs conclusions sur l'équilibre entre taille et données ont été révisées deux ans plus tard par DeepMind avec le modèle Chinchilla.","citation":[{"@type":"CreativeWork","name":"Scaling Laws for Neural Language Models","url":"https://arxiv.org/abs/2001.08361","publisher":"arXiv"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"L'Écho des Anges","item":"https://echodesanges.fr/"},{"@type":"ListItem","position":2,"name":"Archives","item":"https://echodesanges.fr/#archives"},{"@type":"ListItem","position":3,"name":"Les « lois d'échelle » qui ont guidé la course aux grands modèles","item":"https://echodesanges.fr/a/lecture-2020-008-les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele.html"}]}</script>
+</head>
+<body><header class="site-header">
+  <div class="header-top">
+    <div class="header-left"></div>
+    <a class="logo" href="https://echodesanges.fr/" aria-label="L&#39;Écho des Anges">
+      <svg class="emblem" viewBox="0 0 48 40" aria-hidden="true"><path d="M4 30 C14 28 22 22 26 8" /><path d="M10 33 C21 31 30 24 34 10" /><path d="M17 36 C28 34 38 27 44 14" /></svg>
+      <span class="logo-text">L'Écho <em>des</em> Anges</span>
+    </a>
+    <div class="header-right"></div>
+  </div>
+  <nav class="sections" aria-label="Rubriques"><a class="home" href="https://echodesanges.fr/">À la une</a><a href="https://echodesanges.fr/#r/economie">Économie</a><a href="https://echodesanges.fr/#r/finance">Finance</a><a href="https://echodesanges.fr/#r/evenementiel">Événementiel</a><a href="https://echodesanges.fr/#r/tech">Tech</a><a href="https://echodesanges.fr/#r/international">International</a><a href="https://echodesanges.fr/#r/nice">Nice &amp; Côte d&#39;Azur</a><a href="https://echodesanges.fr/#r/sport">Sport</a><a href="https://echodesanges.fr/#archives">Archives</a></nav>
+</header>
+<main>
+<article class="article">
+  <div class="crumbs">Archives · Tech · Intelligence artificielle</div>
+  <h1>Les « lois d&#39;échelle » qui ont guidé la course aux grands modèles</h1>
+  <p class="chapo">En 2020, des chercheurs d&#39;OpenAI mesurent comment la performance d&#39;un modèle de langage progresse avec sa taille, ses données et la puissance de calcul.</p>
+  <div class="meta-line"><strong>Par Nathan Belkacem</strong><span class="when"><time datetime="2020">2020</time></span><span class="sources">Sources : arXiv</span></div>
+  <figure class="fig hero"><img src="https://echodesanges.fr/img/stock/tech-2.jpg" alt="Les « lois d&#39;échelle » qui ont guidé la course aux grands modèles" loading="eager"><figcaption><span class="credit">Photo : BalticServers.com / Wikimedia Commons (CC BY-SA 3.0)</span></figcaption></figure>
+  <p class="body">L&#39;article « Scaling Laws for Neural Language Models » établit que l&#39;erreur d&#39;un modèle de langage diminue de façon régulière, selon des lois de puissance, à mesure que l&#39;on augmente le nombre de paramètres, la quantité de données et le calcul consacré à l&#39;entraînement.</p>
+  <p class="body">Les auteurs en tirent des recommandations pratiques : pour un budget de calcul donné, il vaut mieux entraîner un modèle plus grand, sans forcément le mener jusqu&#39;à la convergence. Ces relations se vérifient sur plusieurs ordres de grandeur.</p>
+  <p class="body">Ces travaux ont fourni une justification quantitative aux investissements massifs dans des modèles toujours plus grands. Leurs conclusions sur l&#39;équilibre entre taille et données ont été révisées deux ans plus tard par DeepMind avec le modèle Chinchilla.</p>
+  
+  <section class="sources-list"><h2>Sources</h2><ul><li><a href="https://arxiv.org/abs/2001.08361" rel="noopener nofollow" target="_blank">Scaling Laws for Neural Language Models</a> <span>— arXiv</span></li></ul></section>
+</article>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><span class="logo-text">L'Écho <em>des</em> Anges</span><p>Le quotidien de la Baie des Anges.</p></div>
+    <div><ul class="footer-list"><li><a href="https://echodesanges.fr/a/">Tous les articles</a></li><li><a href="https://echodesanges.fr/p/histoire.html">Notre histoire</a></li><li><a href="https://echodesanges.fr/p/mentions.html">Mentions légales</a></li><li><a href="https://echodesanges.fr/feed.xml">Fil RSS</a></li></ul></div>
+  </div>
+  <p class="copyright">© 2026 L&#39;Écho des Anges · Nice</p>
+</footer>
+</body>
+</html>

@@ -31,7 +31,7 @@ window.JOURNAL_CONFIG = {
 
 <h2>Ce que nous faisons</h2>
 <p>L'Écho des Anges couvre sept rubriques : l'économie et la vie des entreprises, la finance, l'événementiel, la tech, l'international, Nice et la Côte d'Azur, et le sport. Le journal paraît en continu, avec deux éditions par jour, en français et en anglais, pour une région où se croisent habitants, visiteurs et résidents étrangers.</p>
-<p>Les archives retracent les grands événements de la Riviera depuis 2020 : la tempête Alex, la crise sanitaire, les palmarès du Festival de Cannes, les Grands Prix de Monaco, les grands rendez-vous internationaux accueillis à Nice.</p>
+<p>Les archives retracent les grands événements de la Riviera, de la tempête Alex aux palmarès du Festival de Cannes et aux Grands Prix de Monaco. Elles rassemblent aussi plus de deux cents notes de lecture, publiées depuis 2018, sur les travaux et les rapports qui ont marqué l'intelligence artificielle, la cybersécurité, l'entrepreneuriat, la finance et l'événementiel.</p>
 
 <h2>Notre ligne éditoriale</h2>
 <ul>
@@ -51,7 +51,7 @@ window.JOURNAL_CONFIG = {
 
 <h2>What we do</h2>
 <p>L'Écho des Anges covers seven sections: business, finance, events, tech, world news, Nice and the Riviera, and sport. The paper publishes continuously, with two editions a day, in French and English, for a region where residents, visitors and expatriates meet.</p>
-<p>Our archives trace the Riviera's major events since 2020: Storm Alex, the pandemic, the Cannes Film Festival awards, the Monaco Grand Prix and the international gatherings hosted in Nice.</p>
+<p>Our archives trace the Riviera's major events, from Storm Alex to the Cannes Film Festival awards and the Monaco Grand Prix. They also gather more than two hundred reading notes, published since 2018, on the research and reports that shaped artificial intelligence, cybersecurity, entrepreneurship, finance and events.</p>
 
 <h2>Our editorial standards</h2>
 <ul>

@@ -45,7 +45,8 @@ const xml = (s) => String(s ?? "").replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<"
 const langOf = (a) => a.lang || "fr";
 const twinKey = (a) => (langOf(a) === "en" ? a.id.replace(/^((?:archive-)?\d{4}-\d\d-\d\d)-en-/, "$1-") : a.id);
 const hash = (str) => { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
-const iso = (a) => a.heure || `${a.date}T12:00:00+01:00`;
+const iso = (a) => a.heure || (a.precision === "annee" ? a.date.slice(0, 4) : `${a.date}T12:00:00+01:00`);
+const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : dateLong(a.date, langOf(a)));
 const dateLong = (d, lang) => new Date(d + "T12:00:00Z").toLocaleDateString(lang === "en" ? "en-GB" : "fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const fichier = (a) => `${a.id.replace(/[^a-z0-9-]/gi, "-")}.html`;
 const url = (a) => `${SITE}/a/${fichier(a)}`;
@@ -100,7 +101,7 @@ ${extra}
 <link rel="alternate" type="application/rss+xml" title="${esc(NOM)}" href="${SITE}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,700;1,9..144,900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,600;1,6..72,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${SITE}/journal.css">
 ${jsonld.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n")}
 </head>
@@ -173,7 +174,7 @@ function pageArticle(a) {
     { "@type": "ListItem", position: 3, name: a.titre, item: url(a) },
   ] };
   const T = lang === "en" ? { by: "By", pub: "Published on", src: "Sources", photo: "Photo" } : { by: "Par", pub: "Publié le", src: "Sources", photo: "Photo" };
-  const kicker = `${a.type === "archive" ? "Archives · " : ""}${sec[lang]}${a.type === "article" && a.rubrique ? ` · ${a.rubrique}` : ""}`;
+  const kicker = `${a.type === "archive" ? "Archives · " : ""}${sec[lang]}${a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? ` · ${a.rubrique}` : ""}`;
   const fig = img ? `<figure class="fig ${a.image ? "hero-portrait" : "hero"}"><img src="${SITE}/${esc(img.src)}" alt="${esc(img.legende || a.titre)}" loading="eager"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
   const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="${SITE}/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}" loading="lazy"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
   const sources = a.liens?.length ? `<section class="sources-list"><h2>${T.src}</h2><ul>${a.liens.map((l) => `<li><a href="${esc(l.url)}" rel="noopener nofollow" target="_blank">${esc(l.titre)}</a> <span>— ${esc(l.source)}</span></li>`).join("")}</ul></section>` : "";
@@ -186,7 +187,7 @@ function pageArticle(a) {
   <div class="crumbs">${esc(kicker)}</div>
   <h1>${esc(a.titre)}</h1>
   <p class="chapo">${esc(a.chapo)}</p>
-  <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? "" : T.pub + " "}<time datetime="${iso(a)}">${esc(dateLong(a.date, lang))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}</div>
+  <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? "" : T.pub + " "}<time datetime="${iso(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}</div>
   ${fig}
   ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
   ${galerie}
@@ -242,7 +243,7 @@ writeFileSync(join(J, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
   <url><loc>${SITE}/</loc><lastmod>${maj}</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
   <url><loc>${SITE}/a/</loc><lastmod>${maj}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
 ${fixes.map((u) => `  <url><loc>${u}</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>`).join("\n")}
-${indexables.map((a) => `  <url><loc>${url(a)}</loc><lastmod>${(a.heure || a.date).slice(0, 10)}</lastmod><priority>${a.type === "archive" ? "0.5" : "0.7"}</priority></url>`).join("\n")}
+${indexables.map((a) => `  <url><loc>${url(a)}</loc>${a.precision === "annee" ? "" : `<lastmod>${(a.heure || a.date).slice(0, 10)}</lastmod>`}<priority>${a.type === "archive" ? "0.5" : "0.7"}</priority></url>`).join("\n")}
 </urlset>
 `);
 
@@ -284,8 +285,9 @@ ${recents.map((a) => `  <item>
 `);
 
 // llms.txt : résumé lisible par les IA (convention llmstxt.org)
-const ligne = (a) => `- [${a.titre}](${url(a)}) (${a.date}) : ${resume(a)}`;
+const ligne = (a) => `- [${a.titre}](${url(a)}) (${a.precision === "annee" ? a.date.slice(0, 4) : a.date}) : ${resume(a)}`;
 const fr = indexables.filter((a) => langOf(a) === "fr");
+// L'ordre des sections de llms.txt suit la date ; les notes de lecture n'ont que l'année.
 const llms = `# ${NOM}
 
 > ${DESC_FR}
@@ -302,7 +304,7 @@ ${NOM} est un quotidien d'information en ligne basé à Nice, publié en frança
 ## Articles
 ${fr.filter((a) => a.type !== "archive").sort((x, y) => iso(y).localeCompare(iso(x))).map(ligne).join("\n")}
 
-## Archives (événements de la Côte d'Azur depuis 2020)
+## Archives (événements de la Côte d'Azur et notes de lecture depuis 2018)
 ${fr.filter((a) => a.type === "archive").sort((x, y) => y.date.localeCompare(x.date)).map(ligne).join("\n")}
 
 ## English edition
