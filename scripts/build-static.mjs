@@ -15,7 +15,7 @@ import vm from "node:vm";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const J = ROOT; // le site est à la racine du dépôt
-const SITE = (process.env.SITE_URL || "https://junior63122.github.io/echo-des-anges").replace(/\/$/, "");
+const SITE = (process.env.SITE_URL || "https://echodesanges.fr").replace(/\/$/, "");
 const NOM = "L'Écho des Anges";
 const DESC_FR = "L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.";
 const DESC_EN = "L'Écho des Anges, the daily of the Baie des Anges: news from Nice, Cannes, Monaco and the French Riviera, business, finance, events, tech, world and sport.";

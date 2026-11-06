@@ -16,7 +16,7 @@ const PAR_RUBRIQUE = 5;
 const PAR_RECHERCHE = 2; // pour varier les sujets
 // Pas de personnalités reconnaissables pour illustrer une actualité quelconque.
 const EXCLUS = /putin|poutine|trump|macron|biden|xi jinping|zelensk|erdogan|modi|meloni|scholz|starmer|portrait/i;
-const UA = "EchoDesAnges/1.0 (https://junior63122.github.io/echo-des-anges/) Node.js";
+const UA = "EchoDesAnges/1.0 (https://echodesanges.fr/) Node.js";
 
 const RECHERCHES = {
   Business: ["La Défense Paris skyscrapers", "business meeting office", "container port cargo ship"],

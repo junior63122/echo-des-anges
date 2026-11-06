@@ -3,7 +3,7 @@
 Quotidien en ligne de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur,
 en français et en anglais, mis à jour deux fois par jour par un workflow GitHub Actions.
 
-**Site : https://junior63122.github.io/echo-des-anges/**
+**Site : https://echodesanges.fr/**
 
 ## Contenu du dépôt
 
@@ -32,6 +32,10 @@ en français et en anglais, mis à jour deux fois par jour par un workflow GitHu
 ## Mise en service
 
 1. **GitHub Pages** : Settings → Pages → Source *Deploy from a branch*, branche `main`, dossier `/ (root)`.
+   Domaine personnalisé : `echodesanges.fr` (fichier `CNAME`), puis cocher *Enforce HTTPS*.
+   DNS du domaine : enregistrements A vers 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 ;
+   AAAA vers 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153 ;
+   CNAME `www` vers `junior63122.github.io`.
 2. **Clé API** (rédaction automatique) : Settings → Secrets and variables → Actions → New repository secret,
    nom `ANTHROPIC_API_KEY`. Sans clé, les rubriques restent en revue de presse (titres, résumés, liens).
 3. **Mentions légales** : compléter `JOURNAL_CONFIG` en haut de `pages.js` (raison sociale, forme et capital,

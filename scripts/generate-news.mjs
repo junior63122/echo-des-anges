@@ -108,7 +108,7 @@ export function parseFeed(xml, feedUrl = "") {
 
 async function fetchFeed(url) {
   const res = await fetch(url, {
-    headers: { "User-Agent": "Mozilla/5.0 (compatible; EchoDesAnges/1.0; +https://junior63122.github.io/echo-des-anges/)" },
+    headers: { "User-Agent": "Mozilla/5.0 (compatible; EchoDesAnges/1.0; +https://echodesanges.fr/)" },
     signal: AbortSignal.timeout(20000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
