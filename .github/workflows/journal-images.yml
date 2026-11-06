@@ -23,6 +23,12 @@ jobs:
           node-version: 20
       - name: Photos libres de droits pour les articles (Wikimedia Commons)
         run: node scripts/fetch-article-images.mjs
+      - name: Redimensionner les nouvelles photos (1280 px)
+        run: |
+          nouvelles=$(git ls-files --others --exclude-standard img/entreprises | grep -i '\.jpe\?g$' || true)
+          [ -z "$nouvelles" ] && exit 0
+          command -v mogrify >/dev/null || (sudo apt-get update -q && sudo apt-get install -y -q imagemagick)
+          for f in $nouvelles; do mogrify -resize '1280x>' -strip -quality 82 -interlace Plane "$f"; done
       - name: Référencement
         run: node scripts/build-static.mjs
       - name: Publier
