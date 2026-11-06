@@ -6,7 +6,7 @@ window.JOURNAL_CONFIG = {
   editeur: "",          // raison sociale de la société éditrice (ex. « L'Écho des Anges SAS »)
   forme: "",            // forme juridique et capital (ex. « SAS au capital de 10 000 € »)
   rcs: "",              // immatriculation (ex. « RCS Nice 123 456 789 »)
-  siege: "",            // adresse du siège social
+  siege: "Juan-les-Pins", // ville du siège social
   telephone: "",        // numéro de téléphone de l'éditeur
   tva: "",              // numéro de TVA intracommunautaire (si assujetti)
   directeur: "Jules Vernet",          // directeur de la publication
@@ -69,8 +69,8 @@ window.JOURNAL_CONFIG = {
         chapo: "Informations relatives à l'éditeur, à l'hébergement, aux contenus et aux données personnelles, conformément à la loi pour la confiance dans l'économie numérique (LCEN) et au RGPD.",
         html: `
 <h2>Éditeur</h2>
-<p>Le site L'Écho des Anges est édité par ${v(C.editeur)}, ${v(C.forme)}, immatriculée sous le numéro ${v(C.rcs)}, dont le siège social est situé ${v(C.siege)}.<br>
-Téléphone : ${v(C.telephone)} — Courriel : ${mail}${C.tva ? `<br>TVA intracommunautaire : ${C.tva}` : ""}</p>
+<p>Le siège social est situé à ${C.siege}.<br>
+Courriel : ${mail}${C.tva ? `<br>TVA intracommunautaire : ${C.tva}` : ""}</p>
 
 <h2>Directeur de la publication</h2>
 <p>${v(C.directeur)}.</p>
@@ -110,8 +110,8 @@ Téléphone : ${v(C.telephone)} — Courriel : ${mail}${C.tva ? `<br>TVA intraco
         chapo: "Information about the publisher, hosting, content and personal data, in accordance with French law (LCEN) and the GDPR.",
         html: `
 <h2>Publisher</h2>
-<p>L'Écho des Anges is published by ${v(C.editeur)}, ${v(C.forme)}, registered under number ${v(C.rcs)}, with its registered office at ${v(C.siege)}.<br>
-Telephone: ${v(C.telephone)} — Email: ${mail}${C.tva ? `<br>EU VAT number: ${C.tva}` : ""}</p>
+<p>The registered office is in ${C.siege}.<br>
+Email: ${mail}${C.tva ? `<br>EU VAT number: ${C.tva}` : ""}</p>
 
 <h2>Publication director</h2>
 <p>${v(C.directeur)}.</p>
