@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page introuvable | L'Écho des Anges</title>
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,600;1,6..72,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/journal.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-top">
+    <div class="header-left"></div>
+    <a class="logo" href="/" aria-label="L'Écho des Anges">
+      <svg class="emblem" viewBox="0 0 48 40" aria-hidden="true"><path d="M4 30 C14 28 22 22 26 8" /><path d="M10 33 C21 31 30 24 34 10" /><path d="M17 36 C28 34 38 27 44 14" /></svg>
+      <span class="logo-text">L'Écho <em>des</em> Anges</span>
+    </a>
+    <div class="header-right"></div>
+  </div>
+</header>
+<main id="contenu">
+<article class="article page">
+  <h1>Page introuvable</h1>
+  <p class="chapo">L'article ou la page que vous cherchez n'existe pas, ou a changé d'adresse.</p>
+  <p class="body"><a href="/">Retourner à la une</a> · <a href="/a/">Consulter tous les articles</a> · <a href="/#archives">Parcourir les archives</a></p>
+  <form class="search-404" action="/" onsubmit="event.preventDefault();var q=this.q.value.trim();if(q)location.href='/#recherche/'+encodeURIComponent(q);">
+    <label for="q">Rechercher un article</label>
+    <input id="q" name="q" type="search" placeholder="Nice, Oneera, cybersécurité…">
+    <button type="submit">Rechercher</button>
+  </form>
+</article>
+</main>
+</body>
+</html>

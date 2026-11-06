@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>L'Écho des Anges</title>
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
+  <lastBuildDate>Fri, 06 Nov 2026 17:59:59 GMT</lastBuildDate>
+  <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Audit des finances de Nice : Éric Ciotti charge la gestion Estrosi, qui conteste les chiffres</title>
@@ -12,7 +14,8 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-audit-des-finances-de-nice-eric-ciotti-charge-la-gestion-est.html</guid>
     <pubDate>Fri, 06 Nov 2026 12:30:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
-    <description>Le maire de Nice a rendu publiques jeudi les conclusions de l'audit financier de la Ville et de la Métropole. Dette élevée, dépenses importantes, travaux à prévoir : son prédécesseur dénonce « une confusion majeure ».</description>
+    <description>Le maire de Nice a rendu publiques jeudi les conclusions de l'audit financier de la Ville et de la Métropole. Dette élevée, dépenses importantes, travaux…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Agression à l'école Clément-Roassal : les enseignants en grève, la mère d'élève en détention</title>
@@ -20,7 +23,7 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-agression-a-l-ecole-clement-roassal-les-enseignants-en-greve.html</guid>
     <pubDate>Fri, 06 Nov 2026 12:20:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
-    <description>Quatre jours après l'agression de la directrice et d'une enseignante de l'école maternelle niçoise, le personnel du groupe scolaire a cessé le travail vendredi pour réclamer davantage de sécurité.</description>
+    <description>Quatre jours après l'agression de la directrice et d'une enseignante de l'école maternelle niçoise, le personnel du groupe scolaire a cessé le travail…</description>
   </item>
   <item>
     <title>Vie chère : après les 5 000 manifestants de jeudi, les syndicats appellent à un « acte IV » samedi à Nice</title>
@@ -28,7 +31,8 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-vie-chere-apres-les-5-000-manifestants-de-jeudi-les-syndicat.html</guid>
     <pubDate>Fri, 06 Nov 2026 12:10:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
-    <description>La mobilisation contre la vie chère ne faiblit pas sur la Côte d'Azur. Salariés, retraités, étudiants et lycéens ont défilé jeudi à Nice et à Cannes ; un nouveau cortège est prévu samedi 7 novembre.</description>
+    <description>La mobilisation contre la vie chère ne faiblit pas sur la Côte d'Azur. Salariés, retraités, étudiants et lycéens ont défilé jeudi à Nice et à Cannes ; un…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-2.jpg" medium="image"/>
   </item>
   <item>
     <title>Déjà 30 centimètres de neige à Isola 2000, à un mois de l'ouverture</title>
@@ -36,7 +40,8 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-deja-30-centimetres-de-neige-a-isola-2000-a-un-mois-de-l-ouv.html</guid>
     <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
-    <description>Les premières grosses chutes de neige de la saison ont blanchi les stations des Alpes-Maritimes. Sur le littoral, l'épisode méditerranéen a maintenu la vigilance jaune pluie-inondation jusqu'à vendredi après-midi.</description>
+    <description>Les premières grosses chutes de neige de la saison ont blanchi les stations des Alpes-Maritimes. Sur le littoral, l'épisode méditerranéen a maintenu la…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Banque alimentaire : la grande collecte démarre alors que les besoins augmentent dans les Alpes-Maritimes</title>
@@ -45,6 +50,7 @@
     <pubDate>Fri, 06 Nov 2026 11:50:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>La collecte annuelle des banques alimentaires débute ce vendredi dans les supermarchés. Dans le département, le nombre de bénéficiaires est en hausse.</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Cannes : un ouvrier grièvement blessé en installant les illuminations de Noël</title>
@@ -52,7 +58,7 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-cannes-un-ouvrier-grievement-blesse-en-installant-les-illumi.html</guid>
     <pubDate>Fri, 06 Nov 2026 11:40:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
-    <description>L'homme, âgé d'une trentaine d'années, a chuté d'une nacelle à une dizaine de mètres de hauteur jeudi soir. Il a été transporté dans un état grave à l'hôpital Pasteur, à Nice.</description>
+    <description>L'homme, âgé d'une trentaine d'années, a chuté d'une nacelle à une dizaine de mètres de hauteur jeudi soir. Il a été transporté dans un état grave à…</description>
   </item>
   <item>
     <title>Rallye du Haut Pays Niçois, Nissa Rugby, handball : un week-end chargé pour le sport azuréen</title>
@@ -60,7 +66,8 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-rallye-du-haut-pays-nicois-nissa-rugby-handball-un-week-end-.html</guid>
     <pubDate>Fri, 06 Nov 2026 11:30:00 GMT</pubDate>
     <category>Sport</category>
-    <description>Le rallye de Contes fête sa 50e édition, les rugbymen niçois se déplacent à Narbonne et les handballeuses jouent un derby décisif à Toulon. L'OGC Nice, lui, profite de la forme de ses pistons.</description>
+    <description>Le rallye de Contes fête sa 50e édition, les rugbymen niçois se déplacent à Narbonne et les handballeuses jouent un derby décisif à Toulon. L'OGC Nice…</description>
+    <media:content url="https://echodesanges.fr/img/stock/sport-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Le sociologue Jean-Claude Passeron, enfant d'Ascros et coauteur des « Héritiers », est mort à 96 ans</title>
@@ -68,7 +75,8 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-le-sociologue-jean-claude-passeron-enfant-d-ascros-et-coaute.html</guid>
     <pubDate>Fri, 06 Nov 2026 11:20:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
-    <description>Originaire de l'arrière-pays niçois, le philosophe et sociologue avait signé avec Pierre Bourdieu, en 1964, l'un des livres les plus marquants de la sociologie française.</description>
+    <description>Originaire de l'arrière-pays niçois, le philosophe et sociologue avait signé avec Pierre Bourdieu, en 1964, l'un des livres les plus marquants de la…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-1.jpg" medium="image"/>
   </item>
   <item>
     <title>Grasse, Nice, Malaussène : terres polluées, eaux usées et déchets au menu des chantiers azuréens</title>
@@ -76,23 +84,26 @@
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-06-grasse-nice-malaussene-terres-polluees-eaux-usees-et-dechets.html</guid>
     <pubDate>Fri, 06 Nov 2026 11:10:00 GMT</pubDate>
     <category>Économie</category>
-    <description>Deux projets urbains de Grasse voient leur facture grimper, Nice prépare l'arrivée des eaux usées de la rive droite du Var et un projet de traitement des résidus d'incinération fait débat dans le haut pays.</description>
+    <description>Deux projets urbains de Grasse voient leur facture grimper, Nice prépare l'arrivée des eaux usées de la rive droite du Var et un projet de traitement des…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-1.jpg" medium="image"/>
   </item>
   <item>
     <title>Junior William Joyant, l'entrepreneur niçois qui veut cartographier la fête</title>
     <link>https://echodesanges.fr/a/2026-09-23-portrait-junior-william-joyant.html</link>
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-09-23-portrait-junior-william-joyant.html</guid>
-    <pubDate>Wed, 23 Sep 2026 11:00:00 GMT</pubDate>
+    <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
-    <description>À 22 ans, le fondateur d'Oneera et de Teufy détient des participations valorisées entre 2,5 et 4 millions d'euros. Sa nouvelle société mise sur la géolocalisation en temps réel dans les clubs et les festivals.</description>
+    <description>À 22 ans, le fondateur d'Oneera et de Teufy détient des participations valorisées entre 2,5 et 4 millions d'euros. Sa nouvelle société mise sur la…</description>
+    <media:content url="https://echodesanges.fr/img/articles/jwj-defile.jpg" medium="image"/>
   </item>
   <item>
     <title>Oneera, l'application niçoise qui veut en finir avec les amis perdus en festival</title>
     <link>https://echodesanges.fr/a/2026-06-17-oneera-cartographie-temps-reel.html</link>
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-06-17-oneera-cartographie-temps-reel.html</guid>
-    <pubDate>Wed, 17 Jun 2026 11:00:00 GMT</pubDate>
+    <pubDate>Wed, 17 Jun 2026 06:00:00 GMT</pubDate>
     <category>Tech</category>
-    <description>La start-up de Junior William Joyant combine GPS et Bluetooth pour guider le public et aider les organisateurs à surveiller la foule. Après de premiers essais à Cannes, elle travaille sa précision en intérieur.</description>
+    <description>La start-up de Junior William Joyant combine GPS et Bluetooth pour guider le public et aider les organisateurs à surveiller la foule. Après de premiers…</description>
+    <media:content url="https://echodesanges.fr/img/articles/jwj-climathon.jpg" medium="image"/>
   </item>
 </channel>
 </rss>

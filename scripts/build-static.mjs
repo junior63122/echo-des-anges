@@ -2,13 +2,17 @@
 // Référencement de L'Écho des Anges.
 // Génère, à partir de articles.json et pages.js :
 //  - une page HTML complète par article (a/<id>.html) : titre, description, adresse canonique,
-//    balises Open Graph / Twitter, données structurées schema.org NewsArticle, texte intégral ;
-//  - l'index de tous les articles (a/index.html) et les pages fixes (p/*.html) ;
-//  - le plan du site (sitemap.xml), le fil RSS (feed.xml) et llms.txt pour les IA ;
-//  - robots.txt (utile seulement si le site est servi à la racine d'un domaine).
+//    hreflang, Open Graph / Twitter, données structurées NewsArticle + fil d'Ariane, texte intégral,
+//    sujets liés et « À lire aussi » ;
+//  - une page par rubrique (r/<rubrique>.html, r/<rubrique>-en.html) ;
+//  - une page par sujet suivi (sujet/<slug>.html) : personnes et entreprises, avec fiche schema.org ;
+//  - l'index de tous les articles (a/index.html), les pages fixes (p/*.html) et des redirections
+//    pour les anciennes adresses ;
+//  - une version pré-rendue de la une dans index.html (lisible sans JavaScript) ;
+//  - sitemap.xml (avec images et versions linguistiques), news-sitemap.xml, feed.xml, llms.txt, robots.txt.
 // Usage : node scripts/build-static.mjs   (SITE_URL=https://exemple.fr pour un autre domaine)
 
-import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, openSync, readSync, closeSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
@@ -19,38 +23,176 @@ const SITE = (process.env.SITE_URL || "https://echodesanges.fr").replace(/\/$/, 
 const NOM = "L'Écho des Anges";
 const DESC_FR = "L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.";
 const DESC_EN = "L'Écho des Anges, the daily of the Baie des Anges: news from Nice, Cannes, Monaco and the French Riviera, business, finance, events, tech, world and sport.";
+const ORG_ID = `${SITE}/#org`;
+const SITE_ID = `${SITE}/#site`;
 
 const SECTIONS = {
-  Business: { fr: "Économie", en: "Business", slug: "economie" },
-  Finance: { fr: "Finance", en: "Finance", slug: "finance" },
-  "Événementiel": { fr: "Événementiel", en: "Events", slug: "evenementiel" },
-  Tech: { fr: "Tech", en: "Tech", slug: "tech" },
-  Monde: { fr: "International", en: "World", slug: "international" },
-  "Nice & Côte d'Azur": { fr: "Nice & Côte d'Azur", en: "Nice & the Riviera", slug: "nice" },
-  Sport: { fr: "Sport", en: "Sport", slug: "sport" },
+  Business: { fr: "Économie", en: "Business", slug: "economie",
+    dfr: "L'actualité économique de Nice, de la Côte d'Azur et d'ailleurs : entreprises, start-up, emploi, commerce et tourisme.",
+    den: "Business news from Nice, the French Riviera and beyond: companies, start-ups, jobs, retail and tourism." },
+  Finance: { fr: "Finance", en: "Finance", slug: "finance",
+    dfr: "Marchés, banques, investissement et levées de fonds : l'actualité financière suivie par la rédaction.",
+    den: "Markets, banks, investment and fundraising: the financial news followed by our newsroom." },
+  "Événementiel": { fr: "Événementiel", en: "Events", slug: "evenementiel",
+    dfr: "Festivals, salons, soirées et grands rendez-vous de Nice, Cannes et Monaco : l'actualité de l'événementiel.",
+    den: "Festivals, trade fairs, parties and major events in Nice, Cannes and Monaco." },
+  Tech: { fr: "Tech", en: "Tech", slug: "tech",
+    dfr: "Intelligence artificielle, cybersécurité, applications et start-up : l'actualité technologique.",
+    den: "Artificial intelligence, cybersecurity, apps and start-ups: technology news." },
+  Monde: { fr: "International", en: "World", slug: "international",
+    dfr: "L'essentiel de l'actualité internationale, vu depuis la Côte d'Azur.",
+    den: "The essential world news, seen from the French Riviera." },
+  "Nice & Côte d'Azur": { fr: "Nice & Côte d'Azur", en: "Nice & the Riviera", slug: "nice",
+    dfr: "L'actualité de Nice, Cannes, Antibes, Grasse, Menton, Monaco et des Alpes-Maritimes.",
+    den: "News from Nice, Cannes, Antibes, Grasse, Menton, Monaco and the Alpes-Maritimes." },
+  Sport: { fr: "Sport", en: "Sport", slug: "sport",
+    dfr: "OGC Nice, AS Monaco, rugby, handball, voile, rallye : le sport azuréen et international.",
+    den: "OGC Nice, AS Monaco, rugby, handball, sailing, rallying: Riviera and international sport." },
 };
 
-// Personnes et lieux mentionnés, pour les données structurées (champ « about »).
+// Sujets suivis : une page dédiée chacun, et une fiche schema.org reliée aux articles (champ « about »).
 const SUJETS = [
-  { re: /Junior William Joyant|Junior Joyant/, item: { "@type": "Person", name: "Junior William Joyant", alternateName: "Junior Joyant", homeLocation: { "@type": "Place", name: "Nice, France" } } },
-  { re: /Oneera/, item: { "@type": "Organization", name: "Oneera", foundingDate: "2026-05", foundingLocation: "Nice, France" } },
-  { re: /Teufy/, item: { "@type": "Organization", name: "Teufy", foundingDate: "2021" } },
+  {
+    slug: "junior-william-joyant", nom: "Junior William Joyant", re: /Junior William Joyant|Junior Joyant/,
+    image: "img/articles/jwj-defile.jpg",
+    entite: {
+      "@type": "Person", name: "Junior William Joyant", alternateName: "Junior Joyant",
+      jobTitle: "Entrepreneur", homeLocation: { "@type": "City", name: "Nice", sameAs: "https://fr.wikipedia.org/wiki/Nice" },
+      knowsAbout: ["Événementiel", "Cybersécurité", "Géolocalisation", "Applications mobiles", "Vie nocturne de la Côte d'Azur"],
+      founder: [{ "@id": `${SITE}/sujet/oneera.html#org` }, { "@id": `${SITE}/sujet/teufy.html#org` }],
+    },
+    fr: {
+      titre: "Junior William Joyant : biographie, entreprises et actualité",
+      h1: "Junior William Joyant",
+      role: "Entrepreneur niçois, fondateur d'Oneera et de Teufy",
+      desc: "Junior William Joyant, entrepreneur niçois de 22 ans, fondateur d'Oneera et de Teufy : parcours, entreprises, formation et tous les articles de L'Écho des Anges.",
+      faits: [
+        ["Âge", "22 ans"],
+        ["Activité", "Entrepreneur dans la tech et l'événementiel"],
+        ["Sociétés", "Oneera (fondée en 2026, 70 %), Teufy (lancée en 2021, 80 %)"],
+        ["Formation", "Master en cybersécurité ; master en événementiel en cours"],
+        ["Patrimoine professionnel", "Participations valorisées entre 2,5 et 4 millions d'euros"],
+        ["Basé à", "Nice (Alpes-Maritimes)"],
+      ],
+      bio: [
+        "Junior William Joyant est un entrepreneur niçois de 22 ans. Il a fondé Teufy, une application de sorties qui recense soirées, festivals et bons plans sur la Côte d'Azur, puis Oneera, une société spécialisée dans la cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public.",
+        "Avant de créer ses sociétés, il est passé par Taxi Nice Riviera et par Riva Boat Services, à Saint-Tropez, puis a pris en charge les opérations VIP, les coulisses et l'accueil dans de grands établissements de la nuit cannoise.",
+        "Titulaire d'un master en cybersécurité, il prépare un master en événementiel. Il a également investi dans deux agences, l'une de développement d'applications et de logiciels, l'autre d'organisation d'événements privés basée à Monaco. Ses participations sont valorisées entre 2,5 et 4 millions d'euros.",
+      ],
+    },
+    en: {
+      titre: "Junior William Joyant: biography, companies and news",
+      h1: "Junior William Joyant",
+      role: "Nice-based entrepreneur, founder of Oneera and Teufy",
+      desc: "Junior William Joyant, 22-year-old entrepreneur from Nice, founder of Oneera and Teufy: background, companies, education and every L'Écho des Anges article about him.",
+      faits: [
+        ["Age", "22"],
+        ["Occupation", "Entrepreneur in tech and events"],
+        ["Companies", "Oneera (founded 2026, 70%), Teufy (launched 2021, 80%)"],
+        ["Education", "Master's degree in cybersecurity; master's in event management under way"],
+        ["Business holdings", "Stakes valued at €2.5m to €4m"],
+        ["Based in", "Nice (Alpes-Maritimes)"],
+      ],
+      bio: [
+        "Junior William Joyant is a 22-year-old entrepreneur from Nice. He founded Teufy, a going-out app listing parties, festivals and deals on the French Riviera, then Oneera, a company that builds real-time maps of festivals, clubs and other venues open to the public.",
+        "Before starting his companies, he worked for Taxi Nice Riviera and Riva Boat Services in Saint-Tropez, then ran VIP operations, backstage and guest services at major Cannes nightlife venues.",
+        "He holds a master's degree in cybersecurity and is studying for a master's in event management. He has also invested in two agencies, one building apps and software, the other organising private events from Monaco. His stakes are valued at between €2.5 million and €4 million.",
+      ],
+    },
+  },
+  {
+    slug: "oneera", nom: "Oneera", re: /Oneera/, image: "img/articles/jwj-climathon.jpg",
+    entite: {
+      "@type": "Organization", name: "Oneera", foundingDate: "2026-05",
+      foundingLocation: { "@type": "City", name: "Nice" },
+      founder: { "@id": `${SITE}/sujet/junior-william-joyant.html#person` },
+      description: "Cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public.",
+    },
+    fr: {
+      titre: "Oneera : la start-up niçoise de cartographie en temps réel",
+      h1: "Oneera", role: "Start-up niçoise de cartographie en temps réel des lieux accueillant du public",
+      desc: "Oneera, start-up fondée à Nice en 2026 par Junior William Joyant : cartographie en temps réel des festivals et des clubs, fonctionnement, essais et articles.",
+      faits: [["Création", "Mai 2026, à Nice"], ["Fondateur", "Junior William Joyant (70 % du capital)"], ["Activité", "Cartographie en temps réel, gestion de foule"], ["Technologies", "GPS en extérieur, balises Bluetooth en intérieur, QR code"]],
+      bio: [
+        "Oneera développe une cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public. Les visiteurs se repèrent et retrouvent leurs proches grâce à un QR code ; les organisateurs suivent la densité de la foule, reçoivent les signalements d'incidents et coordonnent leurs équipes depuis un tableau de bord.",
+        "Fondée à Nice en mai 2026 par Junior William Joyant, la société a mené ses premiers essais dans des clubs cannois et envisage d'ouvrir 20 à 30 % de son capital à des investisseurs.",
+      ],
+    },
+    en: {
+      titre: "Oneera: the Nice start-up mapping venues in real time",
+      h1: "Oneera", role: "Nice start-up building real-time maps of venues open to the public",
+      desc: "Oneera, a start-up founded in Nice in 2026 by Junior William Joyant: real-time maps of festivals and clubs, how it works, trials and articles.",
+      faits: [["Founded", "May 2026, in Nice"], ["Founder", "Junior William Joyant (70% of the capital)"], ["Business", "Real-time mapping, crowd management"], ["Technology", "Outdoor GPS, indoor Bluetooth beacons, QR codes"]],
+      bio: [
+        "Oneera builds real-time maps of festivals, clubs and other venues open to the public. Visitors find their way and locate their friends with a QR code; organisers monitor crowd density, receive incident reports and coordinate their teams from a dashboard.",
+        "Founded in Nice in May 2026 by Junior William Joyant, the company ran its first trials in Cannes clubs and is considering opening 20 to 30% of its capital to investors.",
+      ],
+    },
+  },
+  {
+    slug: "teufy", nom: "Teufy", re: /Teufy/, image: null,
+    entite: {
+      "@type": "Organization", name: "Teufy", foundingDate: "2021",
+      founder: { "@id": `${SITE}/sujet/junior-william-joyant.html#person` },
+      areaServed: ["Côte d'Azur", "Var"],
+      description: "Application de sorties : soirées, festivals et bons plans à proximité.",
+    },
+    fr: {
+      titre: "Teufy : l'application de sorties de la Côte d'Azur",
+      h1: "Teufy", role: "Application de sorties sur la Côte d'Azur et dans le Var",
+      desc: "Teufy, application de sorties lancée en 2021 par Junior William Joyant : soirées, festivals et bons plans, plus de 200 partenaires sur la Côte d'Azur et dans le Var.",
+      faits: [["Lancement", "2021"], ["Fondateur", "Junior William Joyant (80 %)"], ["Partenaires", "Plus de 200, sur la Côte d'Azur et dans le Var"], ["Projet", "Refonte complète prévue d'ici à 2027-2028"]],
+      bio: ["Lancée en 2021 par Junior William Joyant, Teufy est une application de sorties qui recense soirées, festivals et bons plans à proximité, tout en offrant de la visibilité aux établissements. Elle a fédéré plus de 200 partenaires entre la Côte d'Azur et le Var et doit être entièrement repensée d'ici à 2027-2028."],
+    },
+    en: {
+      titre: "Teufy: the French Riviera going-out app",
+      h1: "Teufy", role: "Going-out app for the French Riviera and the Var",
+      desc: "Teufy, a going-out app launched in 2021 by Junior William Joyant: parties, festivals and deals, with more than 200 partners on the French Riviera and in the Var.",
+      faits: [["Launched", "2021"], ["Founder", "Junior William Joyant (80%)"], ["Partners", "More than 200, on the French Riviera and in the Var"], ["Plans", "Full overhaul due by 2027-2028"]],
+      bio: ["Launched in 2021 by Junior William Joyant, Teufy is a going-out app listing nearby parties, festivals and deals while giving venues more visibility. It has brought together more than 200 partners across the French Riviera and the Var, and is due to be completely overhauled by 2027-2028."],
+    },
+  },
+];
+const LIEUX = [
   { re: /\bNice\b/, item: { "@type": "City", name: "Nice", sameAs: "https://fr.wikipedia.org/wiki/Nice" } },
   { re: /\bCannes\b/, item: { "@type": "City", name: "Cannes", sameAs: "https://fr.wikipedia.org/wiki/Cannes" } },
   { re: /\bMonaco\b/, item: { "@type": "Country", name: "Monaco", sameAs: "https://fr.wikipedia.org/wiki/Monaco" } },
 ];
+const sujetUrl = (s, lang) => `${SITE}/sujet/${s.slug}${lang === "en" ? "-en" : ""}.html`;
+const sujetId = (s) => `${SITE}/sujet/${s.slug}.html#${s.entite["@type"] === "Person" ? "person" : "org"}`;
+
+// Anciennes adresses d'articles déplacés (changement de date) → nouvelle adresse.
+const REDIRECTIONS = {
+  "2026-11-06-portrait-junior-william-joyant": "2026-09-23-portrait-junior-william-joyant",
+  "2026-11-06-en-portrait-junior-william-joyant": "2026-09-23-en-portrait-junior-william-joyant",
+  "2026-11-05-oneera-cartographie-temps-reel": "2026-06-17-oneera-cartographie-temps-reel",
+  "2026-11-05-en-oneera-cartographie-temps-reel": "2026-06-17-en-oneera-cartographie-temps-reel",
+};
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const xml = (s) => String(s ?? "").replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
 const langOf = (a) => a.lang || "fr";
 const twinKey = (a) => (langOf(a) === "en" ? a.id.replace(/^((?:archive-)?\d{4}-\d\d-\d\d)-en-/, "$1-") : a.id);
 const hash = (str) => { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
-const iso = (a) => a.heure || (a.precision === "annee" ? a.date.slice(0, 4) : `${a.date}T12:00:00+01:00`);
+// Heure de Paris : +01:00 l'hiver, +02:00 l'été (dernier dimanche de mars → dernier dimanche d'octobre).
+const decalage = (d) => {
+  const y = +d.slice(0, 4);
+  const dim = (m) => { const x = new Date(Date.UTC(y, m + 1, 0)); return x.getUTCDate() - x.getUTCDay(); };
+  const t = Date.parse(d + "T12:00:00Z");
+  return t >= Date.UTC(y, 2, dim(2)) && t < Date.UTC(y, 9, dim(9)) ? "+02:00" : "+01:00";
+};
+const iso = (a) => a.heure || (a.precision === "annee" ? a.date.slice(0, 4) : `${a.date}T08:00:00${decalage(a.date)}`);
+const isoComplet = (a) => (a.precision === "annee" ? `${a.date.slice(0, 4)}-01-01T08:00:00+01:00` : iso(a));
+const modifie = (a) => (a.redigeSur && a.redigeSur > isoComplet(a) ? a.redigeSur : isoComplet(a));
 const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : dateLong(a.date, langOf(a)));
 const dateLong = (d, lang) => new Date(d + "T12:00:00Z").toLocaleDateString(lang === "en" ? "en-GB" : "fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
-const fichier = (a) => `${a.id.replace(/[^a-z0-9-]/gi, "-")}.html`;
-const url = (a) => `${SITE}/a/${fichier(a)}`;
-const resume = (a) => (a.chapo || (a.liens && a.liens[0] && a.liens[0].resume) || "").replace(/\s+/g, " ").trim().slice(0, 300);
+const fichier = (id) => `${id.replace(/[^a-z0-9-]/gi, "-")}.html`;
+const url = (a) => `${SITE}/a/${fichier(a.id)}`;
+const texteDe = (a) => (a.chapo || (a.liens && a.liens[0] && a.liens[0].resume) || "").replace(/\s+/g, " ").trim();
+// Description de 155 caractères au plus, coupée à la fin d'un mot.
+const couper = (s, n = 155) => { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length <= n ? s : s.slice(0, n - 1).replace(/[\s,;:.–-]+\S*$/, "") + "…"; };
+const resume = (a) => couper(texteDe(a));
+const secLien = (slug, lang) => `${SITE}/r/${slug}${lang === "en" ? "-en" : ""}.html`;
 
 const articles = JSON.parse(readFileSync(join(J, "articles.json"), "utf8"));
 const credits = existsSync(join(J, "img/stock/credits.json")) ? JSON.parse(readFileSync(join(J, "img/stock/credits.json"), "utf8")) : {};
@@ -62,6 +204,29 @@ const PAGES = bac.window.JOURNAL_PAGES || {};
 
 // Seuls les contenus rédigés sont indexés (les revues de presse brutes sont de simples listes de liens).
 const indexables = articles.filter((a) => a.type === "article" || a.type === "archive" || (a.type === "revue" && a.redige && a.corps?.length));
+const parDate = (x, y) => isoComplet(y).localeCompare(isoComplet(x));
+
+// Dimensions des images (JPEG / PNG), pour les balises width/height et og:image.
+const tailles = {};
+function dimensions(src) {
+  if (src in tailles) return tailles[src];
+  let r = null;
+  try {
+    const fd = openSync(join(J, src), "r"); const buf = Buffer.alloc(65536); const n = readSync(fd, buf, 0, buf.length, 0); closeSync(fd);
+    if (buf.readUInt32BE(0) === 0x89504e47) r = { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
+    else if (buf[0] === 0xff && buf[1] === 0xd8) {
+      let i = 2;
+      while (i < n - 9) {
+        if (buf[i] !== 0xff) { i++; continue; }
+        const m = buf[i + 1], len = buf.readUInt16BE(i + 2);
+        if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) { r = { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) }; break; }
+        i += 2 + len;
+      }
+    }
+  } catch { r = null; }
+  return (tailles[src] = r);
+}
+const dimAttr = (src) => { const d = dimensions(src); return d ? ` width="${d.w}" height="${d.h}"` : ""; };
 
 function image(a) {
   if (a.photo === false) return null;
@@ -73,8 +238,11 @@ function image(a) {
   return { src: `img/stock/${p.fichier}`, credit: `${p.auteur} / ${org} (${p.licence})`, legende: "" };
 }
 
-function tete({ lang, titre, description, canonical, type = "website", imageUrl, alternates = [], jsonld = [], extra = "" }) {
-  const img = imageUrl || `${SITE}/img/og-default.jpg`;
+function tete({ lang, titre, description, canonical, type = "website", imageSrc, imageAlt, alternates = [], jsonld = [], extra = "", robots }) {
+  const src = imageSrc || "img/og-default.jpg";
+  const img = `${SITE}/${src}`;
+  const d = dimensions(src);
+  const alt = alternates.length ? [...alternates, { lang: "x-default", href: (alternates.find((x) => x.lang === "fr") || alternates[0]).href }] : [];
   return `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -82,22 +250,28 @@ function tete({ lang, titre, description, canonical, type = "website", imageUrl,
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(titre)}</title>
 <meta name="description" content="${esc(description)}">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="robots" content="${robots || "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"}">
 <link rel="canonical" href="${canonical}">
-${alternates.map((x) => `<link rel="alternate" hreflang="${x.lang}" href="${x.href}">`).join("\n")}
+${alt.map((x) => `<link rel="alternate" hreflang="${x.lang}" href="${x.href}">`).join("\n")}
 <meta property="og:site_name" content="${esc(NOM)}">
 <meta property="og:type" content="${type}">
-<meta property="og:title" content="${esc(titre)}">
+<meta property="og:title" content="${esc(titre.replace(/ \| L'Écho des Anges$/, ""))}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${img}">
+${d ? `<meta property="og:image:width" content="${d.w}">\n<meta property="og:image:height" content="${d.h}">\n` : ""}<meta property="og:image:alt" content="${esc(imageAlt || NOM)}">
 <meta property="og:locale" content="${lang === "en" ? "en_GB" : "fr_FR"}">
+<meta property="og:locale:alternate" content="${lang === "en" ? "fr_FR" : "en_GB"}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="${esc(titre)}">
+<meta name="twitter:title" content="${esc(titre.replace(/ \| L'Écho des Anges$/, ""))}">
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${img}">
 ${extra}
 <meta name="theme-color" content="#0c1a2b">
+<link rel="icon" href="${SITE}/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="${SITE}/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="${SITE}/apple-touch-icon.png">
+<link rel="manifest" href="${SITE}/site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${esc(NOM)}" href="${SITE}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,9 +282,10 @@ ${jsonld.map((o) => `<script type="application/ld+json">${JSON.stringify(o).repl
 <body>`;
 }
 
-function entete(lang) {
-  const nav = Object.values(SECTIONS).map((s) => `<a href="${SITE}/#r/${s.slug}">${esc(s[lang])}</a>`).join("");
-  return `<header class="site-header">
+function entete(lang, actif) {
+  const nav = Object.values(SECTIONS).map((s) => `<a href="${secLien(s.slug, lang)}"${actif === s.slug ? ' aria-current="page"' : ""}>${esc(s[lang])}</a>`).join("");
+  return `<a class="skip" href="#contenu">${lang === "en" ? "Skip to content" : "Aller au contenu"}</a>
+<header class="site-header">
   <div class="header-top">
     <div class="header-left"></div>
     <a class="logo" href="${SITE}/${lang === "en" ? "?lang=en" : ""}" aria-label="${esc(NOM)}">
@@ -119,18 +294,21 @@ function entete(lang) {
     </a>
     <div class="header-right"></div>
   </div>
-  <nav class="sections" aria-label="${lang === "en" ? "Sections" : "Rubriques"}"><a class="home" href="${SITE}/">${lang === "en" ? "Front page" : "À la une"}</a>${nav}<a href="${SITE}/#archives">Archives</a></nav>
+  <nav class="sections" aria-label="${lang === "en" ? "Sections" : "Rubriques"}"><a class="home" href="${SITE}/${lang === "en" ? "?lang=en" : ""}">${lang === "en" ? "Front page" : "À la une"}</a>${nav}<a href="${SITE}/a/">Archives</a></nav>
 </header>`;
 }
 
 function pied(lang) {
   const L = lang === "en"
-    ? { all: "All articles", story: "Our story", legal: "Legal notice", rss: "RSS feed" }
-    : { all: "Tous les articles", story: "Notre histoire", legal: "Mentions légales", rss: "Fil RSS" };
+    ? { all: "All articles", story: "Our story", legal: "Legal notice", rss: "RSS feed", sec: "Sections", topics: "Topics", about: "About" }
+    : { all: "Tous les articles", story: "Notre histoire", legal: "Mentions légales", rss: "Fil RSS", sec: "Rubriques", topics: "Sujets", about: "Le journal" };
+  const sfx = lang === "en" ? "-en" : "";
   return `<footer class="site-footer">
   <div class="footer-inner">
-    <div class="footer-brand"><span class="logo-text">L'Écho <em>des</em> Anges</span><p>${lang === "en" ? "The daily of the Baie des Anges." : "Le quotidien de la Baie des Anges."}</p></div>
-    <div><ul class="footer-list"><li><a href="${SITE}/a/">${L.all}</a></li><li><a href="${SITE}/p/histoire${lang === "en" ? "-en" : ""}.html">${L.story}</a></li><li><a href="${SITE}/p/mentions${lang === "en" ? "-en" : ""}.html">${L.legal}</a></li><li><a href="${SITE}/feed.xml">${L.rss}</a></li></ul></div>
+    <div class="footer-brand"><span class="logo-text">L'Écho <em>des</em> Anges</span><p>${lang === "en" ? "The daily of the Baie des Anges, since 2018." : "Le quotidien de la Baie des Anges, depuis 2018."}</p></div>
+    <div><h2>${L.sec}</h2><ul class="footer-list">${Object.values(SECTIONS).map((s) => `<li><a href="${secLien(s.slug, lang)}">${esc(s[lang])}</a></li>`).join("")}</ul></div>
+    <div><h2>${L.topics}</h2><ul class="footer-list">${SUJETS.map((s) => `<li><a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a></li>`).join("")}</ul></div>
+    <div><h2>${L.about}</h2><ul class="footer-list"><li><a href="${SITE}/a/">${L.all}</a></li><li><a href="${SITE}/p/histoire${sfx}.html">${L.story}</a></li><li><a href="${SITE}/p/mentions${sfx}.html">${L.legal}</a></li><li><a href="${SITE}/feed.xml">${L.rss}</a></li></ul></div>
   </div>
   <p class="copyright">© ${new Date().getFullYear()} ${esc(NOM)} · Nice</p>
 </footer>
@@ -139,76 +317,176 @@ function pied(lang) {
 `;
 }
 
-const editeur = { "@type": "NewsMediaOrganization", name: NOM, url: `${SITE}/`, logo: { "@type": "ImageObject", url: `${SITE}/img/og-default.jpg` } };
+const editeur = {
+  "@type": "NewsMediaOrganization", "@id": ORG_ID, name: NOM, url: `${SITE}/`,
+  logo: { "@type": "ImageObject", url: `${SITE}/img/logo-512.png`, width: 512, height: 512 },
+  foundingDate: "2018", foundingLocation: { "@type": "City", name: "Nice" },
+  publishingPrinciples: `${SITE}/p/histoire.html`,
+};
+
+const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item"><span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)} · <time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
 
 function pageArticle(a) {
   const lang = langOf(a);
   const sec = SECTIONS[a.section] || { fr: a.section, en: a.section, slug: "" };
   const img = image(a);
-  const imgAbs = img ? `${SITE}/${img.src}` : null;
-  const twin = articles.find((x) => x !== a && langOf(x) !== lang && twinKey(x) === twinKey(a) && indexables.includes(x));
+  const imgAbs = img ? `${SITE}/${img.src}` : `${SITE}/img/og-default.jpg`;
+  const twin = indexables.find((x) => x !== a && langOf(x) !== lang && twinKey(x) === twinKey(a));
   const alternates = twin ? [{ lang, href: url(a) }, { lang: langOf(twin), href: url(twin) }] : [];
-  const texte = [a.chapo, ...(a.corps || [])].join(" ");
-  const about = SUJETS.filter((s) => s.re.test(`${a.titre} ${texte}`)).map((s) => s.item);
+  const texte = `${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`;
+  const sujets = SUJETS.filter((s) => s.re.test(texte));
+  const about = [...sujets.map((s) => ({ "@id": sujetId(s), "@type": s.entite["@type"], name: s.nom })), ...LIEUX.filter((s) => s.re.test(texte)).map((s) => s.item)];
+  const T = lang === "en"
+    ? { by: "By", pub: "Published on", src: "Sources", photo: "Photo", topics: "Topics", also: "Read also", home: "Front page" }
+    : { by: "Par", pub: "Publié le", src: "Sources", photo: "Photo", topics: "Sujets", also: "À lire aussi", home: "À la une" };
   const ld = {
     "@context": "https://schema.org",
     "@type": a.type === "archive" ? "Article" : "NewsArticle",
-    headline: a.titre.slice(0, 110),
+    "@id": `${url(a)}#article`,
+    headline: a.titre.length > 110 ? couper(a.titre, 110) : a.titre,
     description: resume(a),
     inLanguage: lang,
-    datePublished: iso(a),
-    dateModified: iso(a),
+    datePublished: isoComplet(a),
+    dateModified: modifie(a),
     articleSection: sec[lang],
-    mainEntityOfPage: url(a),
+    mainEntityOfPage: { "@type": "WebPage", "@id": url(a) },
     url: url(a),
-    image: imgAbs ? [imgAbs] : [`${SITE}/img/og-default.jpg`],
-    author: { "@type": "Organization", name: `Rédaction de ${NOM}`, url: `${SITE}/` },
-    publisher: editeur,
+    image: img ? [{ "@type": "ImageObject", url: imgAbs, ...(dimensions(img.src) ? { width: dimensions(img.src).w, height: dimensions(img.src).h } : {}), ...(img.credit ? { creditText: img.credit } : {}) }] : [imgAbs],
+    author: { "@type": "Organization", "@id": ORG_ID, name: NOM, url: `${SITE}/` },
+    publisher: { "@id": ORG_ID },
+    isPartOf: { "@id": SITE_ID },
+    isAccessibleForFree: true,
+    wordCount: (a.corps || []).join(" ").split(/\s+/).filter(Boolean).length,
     articleBody: (a.corps || []).join("\n\n"),
     ...(about.length ? { about } : {}),
-    ...(a.liens?.length ? { citation: a.liens.map((l) => ({ "@type": "CreativeWork", name: l.titre, url: l.url, publisher: l.source })) } : {}),
+    ...(sujets.length ? { mentions: sujets.map((s) => ({ "@id": sujetId(s) })) } : {}),
+    ...(a.liens?.length ? { citation: a.liens.map((l) => ({ "@type": "CreativeWork", name: l.titre, url: l.url, publisher: { "@type": "Organization", name: l.source } })) } : {}),
+    ...(twin ? { workTranslation: { "@id": `${url(twin)}#article` } } : {}),
   };
+  const filNom = a.type === "archive" ? "Archives" : sec[lang];
+  const filUrl = a.type === "archive" ? `${SITE}/a/` : secLien(sec.slug, lang);
   const fil = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: NOM, item: `${SITE}/` },
-    { "@type": "ListItem", position: 2, name: a.type === "archive" ? "Archives" : sec[lang], item: a.type === "archive" ? `${SITE}/#archives` : `${SITE}/#r/${sec.slug}` },
+    { "@type": "ListItem", position: 2, name: filNom, item: filUrl },
     { "@type": "ListItem", position: 3, name: a.titre, item: url(a) },
   ] };
-  const T = lang === "en" ? { by: "By", pub: "Published on", src: "Sources", photo: "Photo" } : { by: "Par", pub: "Publié le", src: "Sources", photo: "Photo" };
-  const kicker = `${a.type === "archive" ? "Archives · " : ""}${sec[lang]}${a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? ` · ${a.rubrique}` : ""}`;
-  const fig = img ? `<figure class="fig ${a.image ? "hero-portrait" : "hero"}"><img src="${SITE}/${esc(img.src)}" alt="${esc(img.legende || a.titre)}" loading="eager"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
-  const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="${SITE}/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}" loading="lazy"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
+  const rub = a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? ` · ${esc(a.rubrique)}` : "";
+  const fig = img ? `<figure class="fig ${a.image ? "hero-portrait" : "hero"}"><img src="${imgAbs}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
+  const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="${SITE}/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}"${dimAttr(g.src)} loading="lazy" decoding="async"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
   const sources = a.liens?.length ? `<section class="sources-list"><h2>${T.src}</h2><ul>${a.liens.map((l) => `<li><a href="${esc(l.url)}" rel="noopener nofollow" target="_blank">${esc(l.titre)}</a> <span>— ${esc(l.source)}</span></li>`).join("")}</ul></section>` : "";
+  const tags = sujets.length ? `<p class="tags">${T.topics} : ${sujets.map((s) => `<a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a>`).join(" · ")}</p>` : "";
+  // À lire aussi : d'abord les articles qui partagent un sujet, puis les plus récents de la rubrique.
+  const memeLangue = indexables.filter((x) => x !== a && langOf(x) === lang && x !== twin);
+  const proches = [...memeLangue.filter((x) => sujets.some((s) => s.re.test(`${x.titre} ${x.chapo}`))).sort(parDate),
+    ...memeLangue.filter((x) => x.section === a.section && x.type === a.type).sort(parDate)];
+  const aussi = [...new Set(proches)].slice(0, 4);
+  const lireAussi = aussi.length ? `<section class="related"><h2>${T.also}</h2><ul>${aussi.map((x) => `<li><a href="${url(x)}">${esc(x.titre)}</a> <span>${esc(quand(x))}</span></li>`).join("")}</ul></section>` : "";
   return tete({
-    lang, titre: `${a.titre} | ${NOM}`, description: resume(a), canonical: url(a), type: "article", imageUrl: imgAbs, alternates, jsonld: [ld, fil],
-    extra: `<meta property="article:published_time" content="${iso(a)}">\n<meta property="article:section" content="${esc(sec[lang])}">`,
-  }) + entete(lang) + `
-<main>
+    lang, titre: `${a.titre} | ${NOM}`, description: resume(a), canonical: url(a), type: "article", imageSrc: img && img.src, imageAlt: img ? img.legende || a.titre : null, alternates, jsonld: [ld, fil],
+    extra: `<meta property="article:published_time" content="${isoComplet(a)}">\n<meta property="article:modified_time" content="${modifie(a)}">\n<meta property="article:section" content="${esc(sec[lang])}">\n${sujets.map((s) => `<meta property="article:tag" content="${esc(s.nom)}">`).join("\n")}`,
+  }) + entete(lang, a.type === "archive" ? null : sec.slug) + `
+<main id="contenu">
 <article class="article">
-  <div class="crumbs">${esc(kicker)}</div>
+  <nav class="crumbs" aria-label="${lang === "en" ? "Breadcrumb" : "Fil d'Ariane"}"><a href="${SITE}/">${T.home}</a> › <a href="${filUrl}">${esc(filNom)}</a>${rub}</nav>
   <h1>${esc(a.titre)}</h1>
   <p class="chapo">${esc(a.chapo)}</p>
-  <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? "" : T.pub + " "}<time datetime="${iso(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}</div>
+  <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? "" : T.pub + " "}<time datetime="${isoComplet(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}${twin ? `<a class="lang-switch" href="${url(twin)}" hreflang="${langOf(twin)}">${langOf(twin) === "en" ? "Read in English" : "Lire en français"}</a>` : ""}</div>
   ${fig}
   ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
   ${galerie}
+  ${tags}
   ${sources}
+  ${lireAussi}
+</article>
+</main>
+` + pied(lang);
+}
+
+function pageRubrique(cle, lang) {
+  const s = SECTIONS[cle];
+  const liste = indexables.filter((a) => a.section === cle && langOf(a) === lang).sort(parDate);
+  const recents = liste.filter((a) => a.type !== "archive").slice(0, 40);
+  const archives = liste.filter((a) => a.type === "archive").slice(0, 60);
+  const canon = secLien(s.slug, lang);
+  const titre = lang === "en" ? `${s.en} news | ${NOM}` : `${s.fr} : toute l'actualité | ${NOM}`;
+  const desc = lang === "en" ? s.den : s.dfr;
+  const ld = {
+    "@context": "https://schema.org", "@type": "CollectionPage", "@id": canon, name: s[lang], description: desc, url: canon, inLanguage: lang,
+    isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID },
+    mainEntity: { "@type": "ItemList", itemListElement: [...recents, ...archives].slice(0, 30).map((a, i) => ({ "@type": "ListItem", position: i + 1, url: url(a), name: a.titre })) },
+  };
+  const fil = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: NOM, item: `${SITE}/` }, { "@type": "ListItem", position: 2, name: s[lang], item: canon }] };
+  return tete({ lang, titre, description: desc, canonical: canon, alternates: [{ lang: "fr", href: secLien(s.slug, "fr") }, { lang: "en", href: secLien(s.slug, "en") }], jsonld: [ld, fil] })
+    + entete(lang, s.slug) + `
+<main id="contenu">
+<div class="rubrique-head"><h1>${esc(s[lang])}</h1><p class="rubrique-chapo">${esc(desc)}</p></div>
+<div class="list">
+${recents.length ? listeArticles(recents, lang) : ""}
+${archives.length ? `<h2 class="year">${lang === "en" ? "From the archives" : "Dans nos archives"}</h2>\n${listeArticles(archives, lang)}` : ""}
+${!recents.length && !archives.length ? `<p><a href="${SITE}/#r/${s.slug}">${lang === "en" ? "Today's news in this section" : "L'actualité du jour dans cette rubrique"}</a></p>` : ""}
+<p><a href="${SITE}/${lang === "en" ? "?lang=en" : ""}#r/${s.slug}">${lang === "en" ? "Live updates in this section →" : "Le fil d'actualité de la rubrique →"}</a></p>
+</div>
+</main>
+` + pied(lang);
+}
+
+function pageSujet(s, lang) {
+  const F = s[lang];
+  const canon = sujetUrl(s, lang);
+  const liste = indexables.filter((a) => langOf(a) === lang && s.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)).sort(parDate);
+  const imgSrc = s.image || null;
+  const entite = {
+    ...s.entite, "@id": sujetId(s), url: `${SITE}/sujet/${s.slug}.html`,
+    description: F.role,
+    ...(imgSrc ? { image: { "@type": "ImageObject", url: `${SITE}/${imgSrc}`, ...(dimensions(imgSrc) ? { width: dimensions(imgSrc).w, height: dimensions(imgSrc).h } : {}) } } : {}),
+    subjectOf: liste.map((a) => ({ "@id": `${url(a)}#article` })),
+  };
+  const page = {
+    "@context": "https://schema.org",
+    "@type": s.entite["@type"] === "Person" ? "ProfilePage" : "AboutPage",
+    "@id": canon, url: canon, name: F.titre, description: F.desc, inLanguage: lang,
+    isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID },
+    dateModified: liste.length ? modifie(liste[0]) : undefined,
+    mainEntity: entite,
+  };
+  const fil = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: NOM, item: `${SITE}/` }, { "@type": "ListItem", position: 2, name: s.nom, item: canon }] };
+  const L = lang === "en" ? { key: "Key facts", arts: "Our articles", topic: "Topic", other: "Read also" } : { key: "Repères", arts: "Nos articles", topic: "Sujet", other: "À lire aussi" };
+  const autres = SUJETS.filter((x) => x !== s);
+  return tete({ lang, titre: `${F.titre} | ${NOM}`, description: F.desc, canonical: canon, type: s.entite["@type"] === "Person" ? "profile" : "website", imageSrc: imgSrc, imageAlt: s.nom,
+    alternates: [{ lang: "fr", href: sujetUrl(s, "fr") }, { lang: "en", href: sujetUrl(s, "en") }], jsonld: [page, fil] })
+    + entete(lang) + `
+<main id="contenu">
+<article class="article page sujet">
+  <div class="crumbs">${L.topic}</div>
+  <h1>${esc(F.h1)}</h1>
+  <p class="chapo">${esc(F.role)}</p>
+  ${imgSrc ? `<figure class="fig hero-portrait"><img src="${SITE}/${imgSrc}" alt="${esc(s.nom)}"${dimAttr(imgSrc)} fetchpriority="high"></figure>` : ""}
+  ${F.bio.map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
+  <section class="faits"><h2>${L.key}</h2><dl>${F.faits.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></section>
+  ${liste.length ? `<section class="related"><h2>${L.arts}</h2><ul>${liste.map((a) => `<li><a href="${url(a)}">${esc(a.titre)}</a> <span>${esc(quand(a))}</span></li>`).join("")}</ul></section>` : ""}
+  <section class="related"><h2>${L.other}</h2><ul>${autres.map((x) => `<li><a href="${sujetUrl(x, lang)}">${esc(x.nom)}</a> <span>${esc(x[lang].role)}</span></li>`).join("")}</ul></section>
 </article>
 </main>
 ` + pied(lang);
 }
 
 function pageIndex() {
-  const parJour = {};
-  for (const a of indexables) (parJour[a.date] ||= []).push(a);
-  const jours = Object.keys(parJour).sort().reverse();
-  const ld = { "@context": "https://schema.org", "@type": "CollectionPage", name: `Tous les articles — ${NOM}`, url: `${SITE}/a/`, isPartOf: { "@type": "WebSite", name: NOM, url: `${SITE}/` } };
-  return tete({ lang: "fr", titre: `Tous les articles | ${NOM}`, description: `Tous les articles et archives de ${NOM} : Nice, Cannes, Monaco et la Côte d'Azur.`, canonical: `${SITE}/a/`, jsonld: [ld] })
+  const parAn = {};
+  for (const a of indexables.filter((x) => langOf(x) === "fr")) (parAn[a.date.slice(0, 4)] ||= []).push(a);
+  const annees = Object.keys(parAn).sort().reverse();
+  const en = indexables.filter((x) => langOf(x) === "en").sort(parDate);
+  const ld = { "@context": "https://schema.org", "@type": "CollectionPage", "@id": `${SITE}/a/`, name: `Tous les articles — ${NOM}`, url: `${SITE}/a/`, inLanguage: "fr", isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID } };
+  return tete({ lang: "fr", titre: `Tous les articles et archives depuis 2018 | ${NOM}`, description: `Tous les articles et archives de ${NOM} depuis 2018 : Nice, Cannes, Monaco, la Côte d'Azur, l'économie, la tech et l'événementiel.`, canonical: `${SITE}/a/`, jsonld: [ld] })
     + entete("fr") + `
-<main>
-<div class="rubrique-head"><h1>Tous les articles</h1></div>
+<main id="contenu">
+<div class="rubrique-head"><h1>Tous les articles</h1><p class="rubrique-chapo">${indexables.length} articles publiés depuis 2018, du plus récent au plus ancien.</p></div>
 <div class="list">
-${jours.map((d) => `<h2 class="year">${esc(dateLong(d, "fr"))}</h2>
-${parJour[d].map((a) => `<article class="list-item"><span class="kicker">${esc((SECTIONS[a.section] || {}).fr || a.section)}${langOf(a) === "en" ? " · English" : ""}</span><h3><a href="${SITE}/a/${fichier(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n")}`).join("\n")}
+<nav class="annees" aria-label="Années">${annees.map((y) => `<a href="#y-${y}">${y}</a>`).join(" · ")} · <a href="#english">English</a></nav>
+${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>\n${listeArticles(parAn[y].sort(parDate), "fr")}`).join("\n")}
+<h2 class="year" id="english" lang="en">English edition</h2>
+${listeArticles(en, "en")}
 </div>
 </main>
 ` + pied("fr");
@@ -218,32 +496,87 @@ function pageFixe(cle, lang) {
   const P = (PAGES[cle] || {})[lang];
   if (!P) return null;
   const nom = `${cle}${lang === "en" ? "-en" : ""}.html`;
-  return tete({ lang, titre: `${P.titre} | ${NOM}`, description: P.chapo, canonical: `${SITE}/p/${nom}`, alternates: [{ lang: "fr", href: `${SITE}/p/${cle}.html` }, { lang: "en", href: `${SITE}/p/${cle}-en.html` }] })
+  const ld = { "@context": "https://schema.org", "@type": cle === "histoire" ? "AboutPage" : "WebPage", "@id": `${SITE}/p/${nom}`, name: P.titre, url: `${SITE}/p/${nom}`, inLanguage: lang, isPartOf: { "@id": SITE_ID }, ...(cle === "histoire" ? { about: { "@id": ORG_ID } } : {}) };
+  return tete({ lang, titre: `${P.titre} | ${NOM}`, description: couper(P.chapo), canonical: `${SITE}/p/${nom}`, alternates: [{ lang: "fr", href: `${SITE}/p/${cle}.html` }, { lang: "en", href: `${SITE}/p/${cle}-en.html` }], jsonld: [ld] })
     + entete(lang) + `
-<main><article class="article page"><h1>${esc(P.titre)}</h1><p class="chapo">${esc(P.chapo)}</p><div class="page-body">${P.html}</div></article></main>
+<main id="contenu"><article class="article page"><h1>${esc(P.titre)}</h1><p class="chapo">${esc(P.chapo)}</p><div class="page-body">${P.html}</div></article></main>
 ` + pied(lang);
 }
 
+const pageRedirection = (cible) => `<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>${esc(NOM)}</title>
+<link rel="canonical" href="${SITE}/a/${fichier(cible)}">
+<meta http-equiv="refresh" content="0; url=${SITE}/a/${fichier(cible)}">
+</head><body><p><a href="${SITE}/a/${fichier(cible)}">${esc(NOM)}</a></p></body></html>
+`;
+
 // ---------- Écriture ----------
 rmSync(join(J, "a"), { recursive: true, force: true });
-mkdirSync(join(J, "a"), { recursive: true });
-mkdirSync(join(J, "p"), { recursive: true });
-for (const a of indexables) writeFileSync(join(J, "a", fichier(a)), pageArticle(a));
+rmSync(join(J, "r"), { recursive: true, force: true });
+rmSync(join(J, "sujet"), { recursive: true, force: true });
+for (const d of ["a", "p", "r", "sujet"]) mkdirSync(join(J, d), { recursive: true });
+for (const a of indexables) writeFileSync(join(J, "a", fichier(a.id)), pageArticle(a));
+for (const [ancien, cible] of Object.entries(REDIRECTIONS)) if (!indexables.some((a) => a.id === ancien) && indexables.some((a) => a.id === cible)) writeFileSync(join(J, "a", fichier(ancien)), pageRedirection(cible));
 writeFileSync(join(J, "a", "index.html"), pageIndex());
 const fixes = [];
 for (const cle of Object.keys(PAGES)) for (const lang of ["fr", "en"]) {
   const html = pageFixe(cle, lang);
-  if (html) { writeFileSync(join(J, "p", `${cle}${lang === "en" ? "-en" : ""}.html`), html); fixes.push(`${SITE}/p/${cle}${lang === "en" ? "-en" : ""}.html`); }
+  if (html) { writeFileSync(join(J, "p", `${cle}${lang === "en" ? "-en" : ""}.html`), html); fixes.push({ loc: `${SITE}/p/${cle}${lang === "en" ? "-en" : ""}.html`, fr: `${SITE}/p/${cle}.html`, en: `${SITE}/p/${cle}-en.html` }); }
+}
+const rubriques = [];
+for (const cle of Object.keys(SECTIONS)) for (const lang of ["fr", "en"]) {
+  const s = SECTIONS[cle];
+  writeFileSync(join(J, "r", `${s.slug}${lang === "en" ? "-en" : ""}.html`), pageRubrique(cle, lang));
+  rubriques.push({ loc: secLien(s.slug, lang), fr: secLien(s.slug, "fr"), en: secLien(s.slug, "en") });
+}
+const sujets = [];
+for (const s of SUJETS) for (const lang of ["fr", "en"]) {
+  writeFileSync(join(J, "sujet", `${s.slug}${lang === "en" ? "-en" : ""}.html`), pageSujet(s, lang));
+  sujets.push({ loc: sujetUrl(s, lang), fr: sujetUrl(s, "fr"), en: sujetUrl(s, "en"), image: s.image });
 }
 
-// Plan du site
+// Une pré-rendue dans index.html : les moteurs et les visiteurs sans JavaScript voient les derniers articles.
+const indexPath = join(J, "index.html");
+const indexHtml = readFileSync(indexPath, "utf8");
+const debut = "<!-- prerendu:debut -->", fin = "<!-- prerendu:fin -->";
+if (indexHtml.includes(debut)) {
+  const fr = indexables.filter((a) => langOf(a) === "fr");
+  const derniers = fr.filter((a) => a.type !== "archive").sort(parDate).slice(0, 12);
+  const archives = fr.filter((a) => a.type === "archive").sort(parDate).slice(0, 6);
+  const bloc = `${debut}
+    <div class="prerendu">
+      <h1 class="sr-only">L'Écho des Anges, actualité de Nice, Cannes, Monaco et de la Côte d'Azur</h1>
+      <h2>À la une</h2>
+      <ul>${derniers.map((a) => `<li><a href="a/${fichier(a.id)}">${esc(a.titre)}</a></li>`).join("")}</ul>
+      <h2>Rubriques</h2>
+      <ul>${Object.values(SECTIONS).map((s) => `<li><a href="r/${s.slug}.html">${esc(s.fr)}</a></li>`).join("")}</ul>
+      <h2>Sujets</h2>
+      <ul>${SUJETS.map((s) => `<li><a href="sujet/${s.slug}.html">${esc(s.nom)}</a></li>`).join("")}</ul>
+      <h2>Archives</h2>
+      <ul>${archives.map((a) => `<li><a href="a/${fichier(a.id)}">${esc(a.titre)}</a></li>`).join("")}<li><a href="a/">Tous les articles depuis 2018</a></li></ul>
+    </div>
+    ${fin}`;
+  writeFileSync(indexPath, indexHtml.replace(new RegExp(`${debut}[\\s\\S]*?${fin}`), bloc));
+}
+
+// Plan du site, avec images et versions linguistiques
 const maj = new Date().toISOString().slice(0, 10);
+const altLinks = (x) => (x.fr && x.en ? `<xhtml:link rel="alternate" hreflang="fr" href="${x.fr}"/><xhtml:link rel="alternate" hreflang="en" href="${x.en}"/><xhtml:link rel="alternate" hreflang="x-default" href="${x.fr}"/>` : "");
+const imgTag = (src) => (src ? `<image:image><image:loc>${SITE}/${xml(src)}</image:loc></image:image>` : "");
+const lignesArticles = indexables.map((a) => {
+  const twin = indexables.find((x) => x !== a && langOf(x) !== langOf(a) && twinKey(x) === twinKey(a));
+  const alt = twin ? altLinks({ fr: url(langOf(a) === "fr" ? a : twin), en: url(langOf(a) === "en" ? a : twin) }) : "";
+  const img = image(a);
+  return `  <url><loc>${url(a)}</loc><lastmod>${modifie(a).slice(0, 10)}</lastmod>${alt}${imgTag(img && img.src)}${(a.galerie || []).map((g) => imgTag(g.src)).join("")}</url>`;
+});
 writeFileSync(join(J, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>${SITE}/</loc><lastmod>${maj}</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>${SITE}/a/</loc><lastmod>${maj}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-${fixes.map((u) => `  <url><loc>${u}</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>`).join("\n")}
-${indexables.map((a) => `  <url><loc>${url(a)}</loc>${a.precision === "annee" ? "" : `<lastmod>${(a.heure || a.date).slice(0, 10)}</lastmod>`}<priority>${a.type === "archive" ? "0.5" : "0.7"}</priority></url>`).join("\n")}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>${SITE}/</loc><lastmod>${maj}</lastmod></url>
+  <url><loc>${SITE}/a/</loc><lastmod>${maj}</lastmod></url>
+${rubriques.map((x) => `  <url><loc>${x.loc}</loc><lastmod>${maj}</lastmod>${altLinks(x)}</url>`).join("\n")}
+${sujets.map((x) => `  <url><loc>${x.loc}</loc><lastmod>${maj}</lastmod>${altLinks(x)}${imgTag(x.image)}</url>`).join("\n")}
+${fixes.map((x) => `  <url><loc>${x.loc}</loc>${altLinks(x)}</url>`).join("\n")}
+${lignesArticles.join("\n")}
 </urlset>
 `);
 
@@ -263,91 +596,111 @@ ${news.map((a) => `  <url>
 `);
 
 // Fil RSS (50 derniers articles en français)
-const recents = indexables.filter((a) => langOf(a) === "fr" && a.type !== "archive").sort((x, y) => iso(y).localeCompare(iso(x))).slice(0, 50);
+const recents = indexables.filter((a) => langOf(a) === "fr" && a.type !== "archive").sort(parDate).slice(0, 50);
 writeFileSync(join(J, "feed.xml"), `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>${xml(NOM)}</title>
   <link>${SITE}/</link>
   <description>${xml(DESC_FR)}</description>
   <language>fr-FR</language>
+  <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+  <image><url>${SITE}/img/logo-512.png</url><title>${xml(NOM)}</title><link>${SITE}/</link></image>
   <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/>
-${recents.map((a) => `  <item>
+${recents.map((a) => { const img = image(a); return `  <item>
     <title>${xml(a.titre)}</title>
     <link>${url(a)}</link>
     <guid isPermaLink="true">${url(a)}</guid>
-    <pubDate>${new Date(iso(a)).toUTCString()}</pubDate>
+    <pubDate>${new Date(isoComplet(a)).toUTCString()}</pubDate>
     <category>${xml((SECTIONS[a.section] || {}).fr || a.section)}</category>
-    <description>${xml(resume(a))}</description>
-  </item>`).join("\n")}
+    <description>${xml(resume(a))}</description>${img ? `\n    <media:content url="${SITE}/${xml(img.src)}" medium="image"/>` : ""}
+  </item>`; }).join("\n")}
 </channel>
 </rss>
 `);
 
 // llms.txt : résumé lisible par les IA (convention llmstxt.org)
-const ligne = (a) => `- [${a.titre}](${url(a)}) (${a.precision === "annee" ? a.date.slice(0, 4) : a.date}) : ${resume(a)}`;
+const ligne = (a) => `- [${a.titre}](${url(a)}) (${a.precision === "annee" ? a.date.slice(0, 4) : a.date}) : ${texteDe(a)}`;
 const fr = indexables.filter((a) => langOf(a) === "fr");
-// L'ordre des sections de llms.txt suit la date ; les notes de lecture n'ont que l'année.
+const ficheTxt = (s) => {
+  const F = s.fr;
+  const arts = fr.filter((a) => s.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)).sort(parDate);
+  return `### ${s.nom}
+
+${F.role}. Page dédiée : ${sujetUrl(s, "fr")} (English: ${sujetUrl(s, "en")})
+
+${F.bio.join("\n\n")}
+
+${F.faits.map(([k, v]) => `- ${k} : ${v}`).join("\n")}
+
+Articles :
+${arts.map((a) => `- [${a.titre}](${url(a)}) (${a.date})`).join("\n")}`;
+};
 const llms = `# ${NOM}
 
 > ${DESC_FR}
 
-${NOM} est un quotidien d'information en ligne basé à Nice, publié en français et en anglais. Chaque article cite ses sources en fin de texte. Toutes les pages listées ci-dessous sont des pages HTML statiques contenant le texte intégral.
+${NOM} est un quotidien d'information en ligne fondé en 2018 et basé à Nice, publié en français et en anglais. Chaque article cite ses sources en fin de texte. Toutes les pages listées ci-dessous sont des pages HTML statiques contenant le texte intégral.
 
 - Site : ${SITE}/
 - Tous les articles : ${SITE}/a/
+- Rubriques : ${Object.values(SECTIONS).map((s) => `[${s.fr}](${secLien(s.slug, "fr")})`).join(", ")}
 - Plan du site : ${SITE}/sitemap.xml
 - Fil RSS : ${SITE}/feed.xml
 - Histoire du journal : ${SITE}/p/histoire.html
 - Mentions légales : ${SITE}/p/mentions.html
 
+## Sujets suivis par la rédaction
+
+${SUJETS.map(ficheTxt).join("\n\n")}
+
 ## Articles
-${fr.filter((a) => a.type !== "archive").sort((x, y) => iso(y).localeCompare(iso(x))).map(ligne).join("\n")}
+${fr.filter((a) => a.type !== "archive").sort(parDate).map(ligne).join("\n")}
 
 ## Archives (événements de la Côte d'Azur et notes de lecture depuis 2018)
-${fr.filter((a) => a.type === "archive").sort((x, y) => y.date.localeCompare(x.date)).map(ligne).join("\n")}
+${fr.filter((a) => a.type === "archive").sort(parDate).map(ligne).join("\n")}
 
 ## English edition
-${indexables.filter((a) => langOf(a) === "en").map(ligne).join("\n")}
+${indexables.filter((a) => langOf(a) === "en").sort(parDate).map(ligne).join("\n")}
 `;
 writeFileSync(join(J, "llms.txt"), llms);
 
-// Racine du site : robots.txt et llms.txt (seulement si le journal est servi sur ce domaine)
-if (new URL(SITE).pathname === "/") { // robots.txt n'a d'effet qu'à la racine d'un domaine
+// Racine du site : robots.txt (n'a d'effet qu'à la racine d'un domaine)
+if (new URL(SITE).pathname === "/") {
   writeFileSync(join(ROOT, "robots.txt"), `# Tous les robots, y compris les moteurs de recherche et les assistants IA, sont autorisés.
 User-agent: *
 Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
+Disallow: /scripts/
+Disallow: /node_modules/
 
 Sitemap: ${SITE}/sitemap.xml
 Sitemap: ${SITE}/news-sitemap.xml
+
+# Moteurs de recherche et assistants IA explicitement bienvenus
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Applebot
+User-agent: Qwantbot
+User-agent: YandexBot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: MistralAI-User
+Allow: /
+Disallow: /scripts/
+Disallow: /node_modules/
 `);
 }
 
-console.log(`${indexables.length} pages d'articles, ${fixes.length} pages fixes, sitemap (${indexables.length + fixes.length + 2} URL), RSS (${recents.length}), llms.txt.`);
+const total = 2 + rubriques.length + sujets.length + fixes.length + indexables.length;
+console.log(`${indexables.length} pages d'articles, ${rubriques.length} pages de rubrique, ${sujets.length} pages de sujet, ${fixes.length} pages fixes, sitemap (${total} URL), RSS (${recents.length}), llms.txt.`);

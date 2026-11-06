@@ -1,0 +1,16 @@
+{
+  "name": "L'Écho des Anges",
+  "short_name": "L'Écho des Anges",
+  "description": "Le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0c1a2b",
+  "theme_color": "#0c1a2b",
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
