@@ -8519,7 +8519,17 @@
       "Port Fréjus",
       "Port-Fréjus marina",
       "boat dismantling"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/sclavo-deconstruction-bateaux-frejus.jpg",
+      "credit": "Stefi123 / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=4478877",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-10-27-paprec-pizzorno-offre-publique",
@@ -8583,7 +8593,17 @@
       "Draguignan",
       "Draguignan Var panorama",
       "garbage truck France"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/paprec-pizzorno-offre-publique.jpg",
+      "credit": "Hogne / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=241392",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2024-05-15-promega-la-farlede-radioprotection",
@@ -8630,7 +8650,17 @@
       "La Farlède",
       "Toulon rade panorama",
       "X-ray room hospital"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/promega-la-farlede-radioprotection.jpg",
+      "credit": "WCOMFR Mireille GRUMBERG / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=109451935",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2021-08-20-ophelie-mandier-groupe-pierman-frejus",
@@ -8671,7 +8701,17 @@
       "Fréjus",
       "Fréjus panorama",
       "Massif de l'Esterel"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/ophelie-mandier-groupe-pierman-frejus.jpg",
+      "credit": "Florian Pépellin / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=8037636",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-08-14-hugo-lucchino-villa-noailles-hyeres",
@@ -8717,7 +8757,17 @@
       "Villa Noailles Hyères",
       "Villa Noailles Mallet-Stevens",
       "Hyères vieille ville"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/hugo-lucchino-villa-noailles-hyeres.jpg",
+      "credit": "Jean-Pierre Dalbéra from Paris, France / Wikimedia Commons (CC BY 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=75009392",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-09-22-heritage-victoire-huile-olive-sainte-victoire",
@@ -8783,7 +8833,17 @@
       "Montagne Sainte-Victoire olive trees",
       "Montagne Sainte-Victoire",
       "olive grove Provence"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/heritage-victoire-huile-olive-sainte-victoire.jpg",
+      "credit": "Jean-Marc Rosier http://www.cjrosier.com + http://www.gordes-immobilier.com) / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=3821785",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-10-05-camille-andrieu-directrice-generale-cma-media",
@@ -8841,7 +8901,17 @@
       "CMA CGM Tower Marseille",
       "Tour CMA CGM",
       "Marseille Arenc"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/camille-andrieu-directrice-generale-cma-media.jpg",
+      "credit": "Wiki Remi / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=125789552",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-09-01-la-meridionale-etienne-melliani-charles-henry-de-lignac",
@@ -8885,7 +8955,17 @@
       "La Méridionale ferry Marseille",
       "ferry Marseille port",
       "Port of Marseille ferry"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/la-meridionale-etienne-melliani-charles-henry-de-lignac.jpg",
+      "credit": "Didier Duforest / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=27149918",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2021-01-20-tchek-leve-3-millions-inspection-vehicules",
@@ -8932,7 +9012,17 @@
       "used car dealership France",
       "car parking lot cars rows",
       "Marseille Euroméditerranée"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/tchek-leve-3-millions-inspection-vehicules.jpg",
+      "credit": "JuxtaposedJacob / Wikimedia Commons (CC0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=160818207",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-10-12-entent-pulse-50-chaleur-fatale-michelin",
@@ -8997,7 +9087,17 @@
       "industrial waste heat",
       "factory chimney steam industrial",
       "Aix-en-Provence Arbois"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/entent-pulse-50-chaleur-fatale-michelin.jpg",
+      "credit": "Lisa Buddrus / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=45092541",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2024-09-27-ephyra-station-hydrogene-anse-de-la-reserve",
@@ -9051,7 +9151,17 @@
       "Anse de la Réserve Marseille",
       "Corniche Kennedy Marseille",
       "Vallon des Auffes"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/ephyra-station-hydrogene-anse-de-la-reserve.jpg",
+      "credit": "Gadmer Frédéric / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=193360262",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-07-01-vincent-lavallee-force-invest-martigues",
@@ -9108,7 +9218,17 @@
       "Martigues canal Saint-Sébastien",
       "Martigues miroir aux oiseaux",
       "Place de la Joliette Marseille"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/vincent-lavallee-force-invest-martigues.jpg",
+      "credit": "User:civodule / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=1040580",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-15-krokola-merveilles-du-monde-10-millions",
@@ -9166,7 +9286,17 @@
       "chocolate bars",
       "chocolate tablet",
       "cocoa beans"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/krokola-merveilles-du-monde-10-millions.jpg",
+      "credit": "Simon A. Eugster / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=44091839",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-10-08-doors3-leve-1-million-9-capital",
@@ -9217,7 +9347,17 @@
       "Marseille Prado",
       "Marseille Vieux-Port panorama",
       "Marseille skyline"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/doors3-leve-1-million-9-capital.jpg",
+      "credit": "Michiel1972 / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=8015262",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-05-20-groupe-renaudi-anthony-renaudi-directeur-general",
@@ -9269,7 +9409,17 @@
       "Cagnes-sur-Mer",
       "Haut-de-Cagnes",
       "excavator construction site France"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/groupe-renaudi-anthony-renaudi-directeur-general.jpg",
+      "credit": "Georges Emile Lebacq / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=4644095",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-21-citycare-guillaume-fornas-pdg-defibrillateurs",
@@ -9314,7 +9464,17 @@
       "automated external defibrillator",
       "defibrillator AED wall",
       "défibrillateur"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/citycare-guillaume-fornas-pdg-defibrillateurs.jpg",
+      "credit": "Warszawska róg Szerokiej w Tomaszowie Mazowieckim w województwie łódzkim, PL, EU / Wikimedia Commons (CC0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=85691940",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-08-25-shadow-sante-leve-2-5-millions-hopitaux",
@@ -9367,7 +9527,17 @@
       "Sophia Antipolis",
       "Hôpital Pasteur Nice",
       "hospital building France"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/shadow-sante-leve-2-5-millions-hopitaux.jpg",
+      "credit": "Alexberlioz / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=19952456",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2022-09-14-nolt-maillots-recycles-collection-running",
@@ -9413,7 +9583,17 @@
       "Promenade des Anglais runners",
       "marathon runners Nice",
       "running race France"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/nolt-maillots-recycles-collection-running.jpg",
+      "credit": "Donan Raven / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=4695559",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2024-07-01-somanity-exosquelettes-imprimes-3d",
@@ -9454,7 +9634,17 @@
       "exoskeleton",
       "3D printer printing",
       "3D printing"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/somanity-exosquelettes-imprimes-3d.jpg",
+      "credit": "Bernard DUPONT from FRANCE / Wikimedia Commons (CC BY-SA 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=40737676",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-26-play-azur-festival-contrefacons-saisies",
@@ -9506,7 +9696,17 @@
       "cosplay convention France",
       "cosplay convention",
       "Palais des Expositions Nice"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/play-azur-festival-contrefacons-saisies.jpg",
+      "credit": "Chongkian / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=87190582",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2023-04-19-robertet-villa-blu-accelerateur-grasse",
@@ -9557,7 +9757,17 @@
       "Grasse panorama",
       "Grasse vieille ville",
       "Grasse perfume"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/robertet-villa-blu-accelerateur-grasse.jpg",
+      "credit": "Andrew Curtis / Wikimedia Commons (CC BY-SA 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=14470617",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-03-10-la-pousseraie-micropousses-levee-montauroux",
@@ -9608,7 +9818,17 @@
       "microgreens",
       "microgreens tray",
       "aquaponics"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/la-pousseraie-micropousses-levee-montauroux.jpg",
+      "credit": "Idéalités / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=76794473",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-05-pearcode-coffre-fort-adn-sophia-antipolis",
@@ -9667,7 +9887,17 @@
       "DNA double helix",
       "DNA model",
       "Sophia Antipolis"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/pearcode-coffre-fort-adn-sophia-antipolis.jpg",
+      "credit": "Simon Harriyott from Uckfield, England / Wikimedia Commons (CC BY 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=24732219",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2022-12-05-perfumist-crowdcube-application-parfum-grasse",
@@ -9724,7 +9954,17 @@
       "perfume bottles",
       "Grasse vieille ville",
       "Grasse panorama"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/perfumist-crowdcube-application-parfum-grasse.jpg",
+      "credit": "Copyleft / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=16078274",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-03-18-datagreen-data-centers-monaco-telis",
@@ -9823,7 +10063,17 @@
       "Citadelle Villefranche-sur-Mer",
       "Citadelle Saint-Elme Villefranche",
       "Villefranche-sur-Mer rade"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/camille-frasca-musees-citadelle-villefranche.jpg",
+      "credit": "Broenberr / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=84855609",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-01-02-essilorluxottica-rachete-pulse-audition",
@@ -9881,7 +10131,17 @@
       "eyeglasses",
       "glasses on table",
       "Sophia Antipolis"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/essilorluxottica-rachete-pulse-audition.jpg",
+      "credit": "Aliis Sinisalu / stocksnap (CC0)",
+      "page": "https://stocksnap.io/photo/eyeglasses-macbook-2SLJBDK4T0",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-23-mysunbed-transats-plages-paris",
@@ -9927,7 +10187,17 @@
       "Nice beach sunbeds",
       "plage Nice transats",
       "Baie des Anges Nice plage"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/mysunbed-transats-plages-paris.jpg",
+      "credit": "Carnaval.com Studios from The Inner Mission San Francisco, Earth / Wikimedia Commons (CC BY 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=151904368",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-10-bioceanor-bouee-connectee-baie-de-cannes",
@@ -9980,7 +10250,17 @@
       "Baie de Cannes",
       "Cannes bay sea",
       "Îles de Lérins"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/bioceanor-bouee-connectee-baie-de-cannes.jpg",
+      "credit": "Olivier Cleynen / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=19375402",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2022-05-11-telaqua-leve-4-millions-irrigation-connectee",
@@ -10037,7 +10317,17 @@
       "drip irrigation orchard",
       "irrigation field France",
       "Provence orchard"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/telaqua-leve-4-millions-irrigation-connectee.jpg",
+      "credit": "Florian Pépellin / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=129286458",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2024-12-04-pess-energy-leve-2-2-millions-batteries-mobiles",
@@ -10144,7 +10434,17 @@
       "Villeneuve-Loubet",
       "Nice Promenade des Anglais panorama",
       "Nice Côte d'Azur panorama"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/pierre-ippolito-president-team-nice-cote-dazur.jpg",
+      "credit": "Olivier Cleynen / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=19368959",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-10-30-palmares-choiseul-sud-2026-jeunes-leaders",
@@ -10206,7 +10506,17 @@
       "Nice panorama Colline du Château",
       "Baie des Anges panorama",
       "Nice skyline"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/palmares-choiseul-sud-2026-jeunes-leaders.jpg",
+      "credit": "maczter from Austin, TX, United States / Wikimedia Commons (CC BY 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=91389164",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-01-20-go-capital-marseille-fonds-maritimes",
@@ -10259,7 +10569,17 @@
       "Grand port maritime de Marseille",
       "container ship Marseille",
       "Marseille port La Joliette"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/go-capital-marseille-fonds-maritimes.jpg",
+      "credit": "Robert Valette / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=9771274",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-07-01-melting-pot-association-jeunes-citoyennete-marseille",
@@ -10306,7 +10626,17 @@
       "Hôtel de ville de Marseille",
       "ballot box France election",
       "urne électorale"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/melting-pot-association-jeunes-citoyennete-marseille.jpg",
+      "credit": "Robert Valette / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=4249902",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2024-06-15-legapass-jean-charles-chemin-nice-starts-up",
@@ -10346,7 +10676,17 @@
       "Nice Méridia",
       "Nice Promenade des Anglais",
       "Nice France city"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/legapass-jean-charles-chemin-nice-starts-up.jpg",
+      "credit": "Николай Максимович / Wikimedia Commons (CC BY 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=55130008",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2022-07-01-smart-connective-batiments-connectes-sophia",
@@ -10386,7 +10726,17 @@
       "office building interior lights",
       "Sophia Antipolis",
       "smart building"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/smart-connective-batiments-connectes-sophia.jpg",
+      "credit": "i_am_jim / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=24041100",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2020-07-01-neptech-bateaux-bas-carbone-aix",
@@ -10426,6 +10776,16 @@
       "electric boat",
       "hydrofoil boat",
       "Marseille Vieux-Port boats"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/neptech-bateaux-bas-carbone-aix.jpg",
+      "credit": "Beyond My Ken / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=120131375",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   }
 ]

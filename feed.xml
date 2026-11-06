@@ -5,7 +5,7 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Fri, 06 Nov 2026 18:43:38 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 18:49:53 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
@@ -94,7 +94,7 @@
     <pubDate>Fri, 30 Oct 2026 07:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>La 7e édition du classement de l'Institut Choiseul distingue des dirigeants de moins de 40 ans de la région Sud. Start-up, entreprises familiales…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/palmares-choiseul-sud-2026-jeunes-leaders.jpg" medium="image"/>
   </item>
   <item>
     <title>Pizzorno Environnement : la note d'information de Paprec publiée, l'offre sur le groupe varois peut s'ouvrir</title>
@@ -103,7 +103,7 @@
     <pubDate>Tue, 27 Oct 2026 07:00:00 GMT</pubDate>
     <category>Finance</category>
     <description>Le géant du recyclage, qui contrôle depuis juin le spécialiste dracénois des déchets, propose 62,50 euros par action aux actionnaires minoritaires. Le…</description>
-    <media:content url="https://echodesanges.fr/img/stock/finance-5.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/paprec-pizzorno-offre-publique.jpg" medium="image"/>
   </item>
   <item>
     <title>Chaleur perdue, électricité gagnée : l'aixois Entent dévoile sa première machine industrielle</title>
@@ -112,7 +112,7 @@
     <pubDate>Mon, 12 Oct 2026 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Après huit ans de recherche, la start-up cofondée par Mathias Fonlupt teste sa Pulse 50 sur un site Michelin. Objectif : transformer la chaleur rejetée…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/entent-pulse-50-chaleur-fatale-michelin.jpg" medium="image"/>
   </item>
   <item>
     <title>Intelligence artificielle et blockchain : le cabinet marseillais Doors3 lève 1 million d'euros</title>
@@ -121,7 +121,7 @@
     <pubDate>Thu, 08 Oct 2026 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Cofondé par Karen Jouve, le cabinet de conseil en technologies émergentes ouvre son capital au family office 9 Capital Management et vise 10 millions…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-5.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/doors3-leve-1-million-9-capital.jpg" medium="image"/>
   </item>
   <item>
     <title>Camille Andrieu prend la direction générale de CMA Media, le pôle médias de Rodolphe Saadé</title>
@@ -130,7 +130,7 @@
     <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Ancienne directrice de cabinet du patron de CMA CGM, elle succède à Claire Léost à la tête de l'ensemble qui réunit BFMTV, RMC et La Tribune, et annonce…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/camille-andrieu-directrice-generale-cma-media.jpg" medium="image"/>
   </item>
   <item>
     <title>Junior William Joyant, l'entrepreneur niçois qui veut cartographier la fête</title>
@@ -148,7 +148,7 @@
     <pubDate>Tue, 01 Sep 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>La compagnie maritime marseillaise, filiale de CMA CGM, confie sa direction à Charles-Henry de Lignac. Son prédécesseur reste dans le groupe.</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-5.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/la-meridionale-etienne-melliani-charles-henry-de-lignac.jpg" medium="image"/>
   </item>
   <item>
     <title>Sophia Antipolis : Shadow lève 2,5 millions d'euros pour verdir les hôpitaux</title>
@@ -157,7 +157,7 @@
     <pubDate>Tue, 25 Aug 2026 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>La start-up cofondée par Alexis Patissier, qui aide les établissements de santé à piloter leur empreinte carbone, boucle sa première levée de fonds avec…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-1.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/shadow-sante-leve-2-5-millions-hopitaux.jpg" medium="image"/>
   </item>
   <item>
     <title>Réserver son transat en un clic : les Niçois de MySunbed lèvent 1,6 million d'euros et visent Paris</title>
@@ -166,7 +166,7 @@
     <pubDate>Tue, 23 Jun 2026 06:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>La plateforme cofondée par Sébastien Tomi et Brice Sorgia équipe plages privées et piscines d'hôtels. Après une levée de fonds au printemps, elle…</description>
-    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-1.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/mysunbed-transats-plages-paris.jpg" medium="image"/>
   </item>
   <item>
     <title>Oneera, l'application niçoise qui veut en finir avec les amis perdus en festival</title>
@@ -184,7 +184,7 @@
     <pubDate>Fri, 05 Jun 2026 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Issue du CNRS et d'Université Côte d'Azur, la start-up de Sophia Antipolis dirigée par Melpomeni Dimopoulou commercialise sa première offre d'archivage…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/pearcode-coffre-fort-adn-sophia-antipolis.jpg" medium="image"/>
   </item>
   <item>
     <title>Travaux publics : chez Renaudi, la troisième génération prend place à Cagnes-sur-Mer</title>
@@ -193,7 +193,7 @@
     <pubDate>Wed, 20 May 2026 06:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>Anthony Renaudi devient directeur général de la holding du groupe familial fondé en 1964, aux côtés de son père Philippe, figure du patronat azuréen.</description>
-    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-3.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/groupe-renaudi-anthony-renaudi-directeur-general.jpg" medium="image"/>
   </item>
   <item>
     <title>Pierre Ippolito prend la présidence de Team Nice Côte d'Azur</title>
@@ -202,7 +202,7 @@
     <pubDate>Tue, 12 May 2026 06:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>Déjà président de la CCI Nice Côte d'Azur, le dirigeant du groupe familial Ippolito, ETI de plus de 1 200 salariés, prend la tête de l'agence…</description>
-    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/pierre-ippolito-president-team-nice-cote-dazur.jpg" medium="image"/>
   </item>
   <item>
     <title>Play Azur Festival : près de 1 600 contrefaçons saisies par la douane au Palais des Expositions de Nice</title>
@@ -211,7 +211,7 @@
     <pubDate>Sun, 26 Apr 2026 06:00:00 GMT</pubDate>
     <category>Événementiel</category>
     <description>Figurines, peluches, affiches : les douaniers ont contrôlé les stands de la 9e édition du salon de la pop culture. Son fondateur, Bastien Vergoni…</description>
-    <media:content url="https://echodesanges.fr/img/stock/evenementiel-1.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/play-azur-festival-contrefacons-saisies.jpg" medium="image"/>
   </item>
   <item>
     <title>Défibrillateurs connectés : Guillaume Fornas succède à son père à la tête de Citycare</title>
@@ -220,7 +220,7 @@
     <pubDate>Tue, 21 Apr 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>La PME de Venelles, qui loue plus de 10 500 défibrillateurs surveillés à distance, change de président-directeur général. Le fils du fondateur veut «…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/citycare-guillaume-fornas-pdg-defibrillateurs.jpg" medium="image"/>
   </item>
   <item>
     <title>Krokola, le chocolatier marseillais qui a ressuscité Merveilles du Monde, vise les 10 millions d'euros</title>
@@ -229,7 +229,7 @@
     <pubDate>Wed, 15 Apr 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Cinq ans après sa création, l'entreprise d'Amélie Coulombe et Alexandre Kanar a réalisé 8,3 millions d'euros de chiffre d'affaires en 2025 et élargit la…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-1.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/krokola-merveilles-du-monde-10-millions.jpg" medium="image"/>
   </item>
   <item>
     <title>Une bouée connectée de Bioceanor surveille la qualité de l'eau dans la baie de Cannes</title>
@@ -238,7 +238,7 @@
     <pubDate>Fri, 10 Apr 2026 06:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>L'agglomération Cannes Lérins expérimente le dispositif de la start-up de Sophia Antipolis cofondée par Charlotte et Samuel Dupont, qui prédit…</description>
-    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/bioceanor-bouee-connectee-baie-de-cannes.jpg" medium="image"/>
   </item>
   <item>
     <title>Data centers sobres pour l'IA : le niçois Datagreen s'installe à Monaco avec Telis</title>
@@ -256,7 +256,7 @@
     <pubDate>Tue, 20 Jan 2026 07:00:00 GMT</pubDate>
     <category>Finance</category>
     <description>La société de gestion rennaise, passée sous le contrôle de Magellim, accompagne Opsealog avec le fonds Sud Mer Invest. Son bureau marseillais, où officie…</description>
-    <media:content url="https://echodesanges.fr/img/stock/finance-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/go-capital-marseille-fonds-maritimes.jpg" medium="image"/>
   </item>
   <item>
     <title>Au pied de la Sainte-Victoire, Julie Davico-Pahin fait renaître des oliviers millénaires</title>
@@ -265,7 +265,7 @@
     <pubDate>Mon, 22 Sep 2025 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Après avoir cofondé Ombrea, revendue à TotalEnergies, l'entrepreneuse aixoise transforme avec son père le terrain familial de Saint-Antonin-sur-Bayon en…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-5.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/heritage-victoire-huile-olive-sainte-victoire.jpg" medium="image"/>
   </item>
   <item>
     <title>Hugo Lucchino prend la direction de la Villa Noailles et confirme le Festival de Hyères</title>
@@ -274,7 +274,7 @@
     <pubDate>Thu, 14 Aug 2025 06:00:00 GMT</pubDate>
     <category>Événementiel</category>
     <description>Désigné à l'unanimité par un jury, il succède à Jean-Pierre Blanc avec la mission de relancer une institution fragilisée.</description>
-    <media:content url="https://echodesanges.fr/img/stock/evenementiel-1.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/hugo-lucchino-villa-noailles-hyeres.jpg" medium="image"/>
   </item>
   <item>
     <title>La Pousseraie, la ferme niçoise de micropousses, lève 1 million d'euros pour changer d'échelle</title>
@@ -283,7 +283,7 @@
     <pubDate>Mon, 10 Mar 2025 07:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>Installée au rez-de-chaussée d'un immeuble de Saint-Roch, la start-up cofondée par Blanche Duncombe fournit les restaurants de la Côte d'Azur. Elle…</description>
-    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/la-pousseraie-micropousses-levee-montauroux.jpg" medium="image"/>
   </item>
   <item>
     <title>EssilorLuxottica rachète Pulse Audition, la start-up azuréenne des lunettes qui filtrent le bruit</title>
@@ -292,7 +292,7 @@
     <pubDate>Thu, 02 Jan 2025 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Le géant de l'optique acquiert la jeune entreprise cofondée par Manuel Pariente, qui utilise l'intelligence artificielle pour faire ressortir la voix…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/essilorluxottica-rachete-pulse-audition.jpg" medium="image"/>
   </item>
   <item>
     <title>Vincent Lavallée, de la restauration à l'hôtellerie : le parcours discret d'un investisseur martégal</title>
@@ -301,7 +301,7 @@
     <pubDate>Wed, 01 Jan 2025 07:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Depuis Martigues, sa holding Force Invest pilote un restaurant de la place de la Joliette et un hôtel de Miramas. Il figure au palmarès des « 100 leaders…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/vincent-lavallee-force-invest-martigues.jpg" medium="image"/>
   </item>
   <item>
     <title>À Marseille, l'association Melting Pot initie les jeunes à la vie démocratique</title>
@@ -310,7 +310,7 @@
     <pubDate>Wed, 01 Jan 2025 07:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>Fondée en 2022 par Alexandre Pastor, l'association multiplie les ateliers dans les écoles et les centres sociaux pour lutter contre l'abstention des plus…</description>
-    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-3.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/melting-pot-association-jeunes-citoyennete-marseille.jpg" medium="image"/>
   </item>
   <item>
     <title>Batteries sur roulettes : PESS Energy lève 2,2 millions d'euros pour remplacer les groupes électrogènes</title>
@@ -328,7 +328,7 @@
     <pubDate>Fri, 27 Sep 2024 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Installée au port de l'Anse de la Réserve, la station alimente des bateaux électriques à hydrogène. Le projet est porté par Chloé Zaied, également à la…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/ephyra-station-hydrogene-anse-de-la-reserve.jpg" medium="image"/>
   </item>
   <item>
     <title>À La Farlède, Promega change de statut et de direction</title>
@@ -337,7 +337,7 @@
     <pubDate>Wed, 15 May 2024 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Le fabricant varois de vêtements de radioprotection devient une société par actions simplifiée. Tiffany Zizard est nommée directrice générale aux côtés…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/promega-la-farlede-radioprotection.jpg" medium="image"/>
   </item>
   <item>
     <title>Somanity, la jeune pousse azuréenne qui imprime des exosquelettes en 3D</title>
@@ -346,7 +346,7 @@
     <pubDate>Mon, 01 Jan 2024 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Fondée en 2023 par Mathieu Mérian, alors étudiant à SKEMA, la start-up conçoit des exosquelettes ergonomiques et adaptables, avec le soutien de l'Agence…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/somanity-exosquelettes-imprimes-3d.jpg" medium="image"/>
   </item>
   <item>
     <title>Jean-Charles Chemin, cofondateur de Legapass, prend la présidence de Nice Start(s) Up</title>
@@ -355,7 +355,7 @@
     <pubDate>Mon, 01 Jan 2024 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Le dirigeant de la start-up niçoise de l'héritage numérique prend la tête de l'association qui fédère l'écosystème des jeunes entreprises de la ville.</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/legapass-jean-charles-chemin-nice-starts-up.jpg" medium="image"/>
   </item>
   <item>
     <title>À Grasse, Robertet ouvre Villa Blu, un accélérateur de start-up consacré aux ingrédients naturels</title>
@@ -364,7 +364,7 @@
     <pubDate>Wed, 19 Apr 2023 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Le spécialiste grassois des matières premières naturelles installe son programme dans l'ancien siège de la maison Charabot. Cinq jeunes entreprises y…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/robertet-villa-blu-accelerateur-grasse.jpg" medium="image"/>
   </item>
   <item>
     <title>Grasse : l'application Perfumist ouvre son capital à ses utilisateurs</title>
@@ -373,7 +373,7 @@
     <pubDate>Mon, 05 Dec 2022 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>La start-up qui conseille les amateurs de parfum grâce à un algorithme lance une campagne de financement participatif sur Crowdcube, avec un objectif de…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/perfumist-crowdcube-application-parfum-grasse.jpg" medium="image"/>
   </item>
   <item>
     <title>Nice : NOLT, la marque de maillots recyclés, se lance dans le running</title>
@@ -382,7 +382,7 @@
     <pubDate>Wed, 14 Sep 2022 06:00:00 GMT</pubDate>
     <category>Sport</category>
     <description>Fondée en 2020 par Paul Guinard et Olivier Guigonis, la jeune marque niçoise d'équipements sportifs circulaires sort sa première collection pour les…</description>
-    <media:content url="https://echodesanges.fr/img/stock/sport-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/nolt-maillots-recycles-collection-running.jpg" medium="image"/>
   </item>
   <item>
     <title>Le groupe niçois Sclavo se lance dans la déconstruction des bateaux de plaisance à Fréjus</title>
@@ -391,7 +391,7 @@
     <pubDate>Thu, 12 May 2022 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Agréée par l'éco-organisme de la filière, l'entreprise familiale de gestion des déchets met en service au printemps une installation dédiée aux bateaux…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/sclavo-deconstruction-bateaux-frejus.jpg" medium="image"/>
   </item>
   <item>
     <title>Irrigation connectée : Telaqua lève 4 millions d'euros, avec CMA CGM à son capital</title>
@@ -400,7 +400,7 @@
     <pubDate>Wed, 11 May 2022 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>La start-up provençale, cofondée par Sébastien Demech, installe des capteurs sur les réseaux d'irrigation des agriculteurs pour économiser l'eau. Le tour…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-1.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/telaqua-leve-4-millions-irrigation-connectee.jpg" medium="image"/>
   </item>
   <item>
     <title>Smart &amp; Connective veut faire baisser la facture énergétique des bureaux grâce aux objets connectés</title>
@@ -409,7 +409,7 @@
     <pubDate>Sat, 01 Jan 2022 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Cofondée en 2021 à Valbonne par Ambre Saurat, la start-up pilote à distance l'éclairage, le chauffage et la climatisation des bâtiments tertiaires.</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-5.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/smart-connective-batiments-connectes-sophia.jpg" medium="image"/>
   </item>
   <item>
     <title>Ophélie Mandier prend la tête du groupe Pierman, spécialiste fréjusien des composites</title>
@@ -418,7 +418,7 @@
     <pubDate>Fri, 20 Aug 2021 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Elle succède à son père, Pierre Mandier, qui a bâti par acquisitions successives ce groupe industriel familial.</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-3.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/ophelie-mandier-groupe-pierman-frejus.jpg" medium="image"/>
   </item>
   <item>
     <title>Venue du musée Picasso, Camille Frasca prend la direction des musées de la Citadelle de Villefranche</title>
@@ -427,7 +427,7 @@
     <pubDate>Tue, 15 Jun 2021 06:00:00 GMT</pubDate>
     <category>Événementiel</category>
     <description>Sélectionnée sur projet par un jury, la conservatrice dirigera les musées Volti, Goetz-Boumeester et Roux, installés dans la forteresse du XVIe siècle…</description>
-    <media:content url="https://echodesanges.fr/img/stock/evenementiel-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/camille-frasca-musees-citadelle-villefranche.jpg" medium="image"/>
   </item>
   <item>
     <title>Marseille : Tchek lève 3 millions d'euros pour inspecter les véhicules par intelligence artificielle</title>
@@ -436,7 +436,7 @@
     <pubDate>Wed, 20 Jan 2021 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>La start-up cofondée par Anton Fert en 2016 boucle un tour de table mené par Demeter, avec Région Sud Investissement, pour s'attaquer à l'occasion, à la…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-5.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/tchek-leve-3-millions-inspection-vehicules.jpg" medium="image"/>
   </item>
   <item>
     <title>Trois anciens de SeaBubbles lancent NepTech pour concevoir des bateaux bas carbone</title>
@@ -445,7 +445,7 @@
     <pubDate>Wed, 01 Jan 2020 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Créée à Aix-en-Provence par Corentin Bigot, Tanguy Goetz et Clément Rousset, la start-up est lauréate du Réseau Entreprendre Provence.</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-pexels-drone.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/entreprises/neptech-bateaux-bas-carbone-aix.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
