@@ -41,14 +41,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://echodesanges.fr/a/2026-11-06-en-portrait-junior-william-joyant.html</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-06T12:00:00+01:00</news:publication_date>
-      <news:title>Junior William Joyant, the Nice entrepreneur mapping the Riviera's nightlife</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://echodesanges.fr/a/2026-11-06-grasse-nice-malaussene-terres-polluees-eaux-usees-et-dechets.html</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
@@ -65,14 +57,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://echodesanges.fr/a/2026-11-06-portrait-junior-william-joyant.html</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-06T12:00:00+01:00</news:publication_date>
-      <news:title>Junior William Joyant, l'entrepreneur niçois qui veut cartographier la fête</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://echodesanges.fr/a/2026-11-06-rallye-du-haut-pays-nicois-nissa-rugby-handball-un-week-end-.html</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
@@ -86,22 +70,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-06T12:10:00Z</news:publication_date>
       <news:title>Vie chère : après les 5 000 manifestants de jeudi, les syndicats appellent à un « acte IV » samedi à Nice</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/a/2026-11-05-en-oneera-cartographie-temps-reel.html</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-05T12:00:00+01:00</news:publication_date>
-      <news:title>Oneera, the Nice app that wants to stop festival-goers losing their friends</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/a/2026-11-05-oneera-cartographie-temps-reel.html</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-05T12:00:00+01:00</news:publication_date>
-      <news:title>Oneera, l'application niçoise qui veut en finir avec les amis perdus en festival</news:title>
     </news:news>
   </url>
 </urlset>
