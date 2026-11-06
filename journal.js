@@ -141,7 +141,10 @@
     return `<figure class="fig ${cls || ""}"><img src="${esc(img.src)}" alt="${esc(img.legende)}" loading="lazy" decoding="async">
       <figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${credit}</span></figcaption></figure>`;
   }
+  const EMBLEME = `<svg viewBox="0 0 48 40" aria-hidden="true"><path d="M4 30 C14 28 22 22 26 8" /><path d="M10 33 C21 31 30 24 34 10" /><path d="M17 36 C28 34 38 27 44 14" /></svg>`;
   const thumb = (img, cls) => (img ? `<div class="thumb ${cls || ""}"><img src="${esc(img.src)}" alt="${esc(img.legende)}" loading="lazy" decoding="async"></div>` : "");
+  // Dans les grilles, un article sans photo garde un emplacement de même format, pour que tout reste aligné.
+  const vignette = (a, cls) => thumb(imageFor(a), cls) || `<div class="thumb noimg ${cls || ""}" aria-hidden="true">${EMBLEME}</div>`;
 
   // ---------- Éléments fixes ----------
   function applyStatic() {
@@ -215,7 +218,7 @@
     const features = recents.filter((a) => !a.heure).slice(0, 1);
     const sideRevues = revues.filter((r) => r !== lead).slice(0, features.length ? 1 : 2);
     const blocks = revues.filter((r) => r !== lead && !sideRevues.includes(r));
-    const autres = redaction.slice(5);
+    const autres = redaction.slice(5, 5 + Math.floor(Math.max(0, redaction.length - 5) / 3) * 3);
 
     const leadAlso = lead.type === "article"
       ? redaction.slice(1, 5).map((a) => ({ titre: a.titre, source: a.rubrique || secName(a.section), href: artLink(a) }))
@@ -251,7 +254,7 @@
       </section>
       ${autres.length ? `<section class="block">
         <div class="block-head"><h2>${esc(T.local)}</h2><a class="more" href="#r/nice">${esc(T.more)}</a></div>
-        <div class="block-grid archives-grid">${autres.map((a) => `<div>${thumb(imageFor(a))}
+        <div class="block-grid archives-grid">${autres.map((a) => `<div>${vignette(a)}
           <span class="kicker">${esc(kicker(a))}</span>
           <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3><p>${esc(a.chapo)}</p></div>`).join("")}</div>
       </section>` : ""}
@@ -276,7 +279,7 @@
     }
     return `<section class="block archives-block">
       <div class="block-head"><h2><a href="#archives">${esc(T.fromArchives)}</a></h2><a class="more" href="#archives">${esc(T.allArchives)}</a></div>
-      <div class="block-grid archives-grid">${picks.map((a) => `<div>${thumb(imageFor(a))}
+      <div class="block-grid archives-grid">${picks.map((a) => `<div>${vignette(a)}
         <span class="kicker">${esc(a.rubrique && a.rubrique !== "Archives" ? a.rubrique : secName(a.section))} · ${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3><p>${esc(a.chapo)}</p></div>`).join("")}</div>
     </section>`;
@@ -342,12 +345,12 @@
     const [first, ...rest] = a.liens || [];
     if (!first) return "";
     const main = a.redige ? { titre: a.titre, resume: a.chapo, source: (a.sources || []).join(", ") } : first;
-    const side = rest.slice(0, 2);
+    const side = rest.slice(0, 4);
     return `<section class="block">
       <div class="block-head"><h2><a href="${secLink(a.section)}">${esc(secName(a.section))}</a></h2><a class="more" href="${secLink(a.section)}">${esc(T.more)}</a></div>
       <div class="block-grid">
-        <div class="main">${thumb(imageFor(a))}<h3><a href="${artLink(a, 0)}">${esc(main.titre)}</a></h3>${main.resume ? `<p>${esc(main.resume)}</p>` : ""}<span class="src">${esc(T.by)} ${esc(a.auteur)}${a.redige ? "" : ` · ${esc(T.source)} : ${esc(main.source)}`}</span></div>
-        ${side.map((l, i) => `<div class="side"><h3><a href="${artLink(a, i + 1)}">${esc(l.titre)}</a></h3><span class="src">${esc(l.source)}</span></div>`).join("")}
+        <div class="main">${vignette(a)}<h3><a href="${artLink(a, 0)}">${esc(main.titre)}</a></h3>${main.resume ? `<p>${esc(main.resume)}</p>` : ""}<span class="src">${esc(T.by)} ${esc(a.auteur)}${a.redige ? "" : ` · ${esc(T.source)} : ${esc(main.source)}`}</span></div>
+        ${side.length ? `<ul class="side-list">${side.map((l, i) => `<li><h3><a href="${artLink(a, i + 1)}">${esc(l.titre)}</a></h3>${l.resume ? `<p>${esc(l.resume.length > 160 ? l.resume.slice(0, 157).replace(/\s+\S*$/, "") + "…" : l.resume)}</p>` : ""}<span class="src">${esc(l.source)}</span></li>`).join("")}</ul>` : ""}
       </div>
     </section>`;
   }

@@ -80,6 +80,9 @@ const MEDIAS = { "lemonde.fr": "Le Monde", "francetvinfo.fr": "franceinfo", "fee
   "france3-regions.franceinfo.fr": "France 3 Côte d'Azur", "francebleu.fr": "ici Azur", "bfmtv.com": "BFM Nice Côte d'Azur",
   "monaco-tribune.com": "Monaco Tribune", "nice-premium.com": "Nice Premium" };
 
+// Contenus écartés : pronostics et paris sportifs, publicités déguisées.
+const HORS_SUJET = /\bpronostics?\b|paris sportifs?|\bbookmakers?\b|cotes? (?:du match|boostées?)|code promo|sportytrader/i;
+
 export function parseFeed(xml, feedUrl = "") {
   const host = (() => { try { return new URL(feedUrl).hostname.replace(/^www\./, ""); } catch { return ""; } })();
   const channel = clean(tag(xml.split(/<item|<entry/i)[0], "title"));
@@ -103,7 +106,7 @@ export function parseFeed(xml, feedUrl = "") {
     if (resume.length > 600) resume = resume.slice(0, 597).replace(/\s+\S*$/, "") + "…";
     const d = Date.parse(clean(tag(b, "pubDate") || tag(b, "published") || tag(b, "updated") || tag(b, "dc:date")));
     return { titre, source, url: link, resume, date: Number.isNaN(d) ? null : d };
-  }).filter((i) => i.titre && /^https?:\/\//.test(i.url));
+  }).filter((i) => i.titre && /^https?:\/\//.test(i.url) && !HORS_SUJET.test(`${i.titre} ${i.source}`));
 }
 
 export async function fetchFeed(url) {

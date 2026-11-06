@@ -276,3 +276,20 @@ main { min-height: 50vh; }
 .revue li::before { font-size: 1.2rem; }
 .drawer a { font-size: 1.05rem; }
 .search-bar button { font-size: 0.9rem; }
+
+/* ---------- Mise en page des blocs ---------- */
+.thumb.noimg { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2; background: linear-gradient(160deg, var(--night-2), var(--night)); }
+.thumb.noimg svg { width: 64px; height: 54px; fill: none; stroke: var(--azur); stroke-width: 3; stroke-linecap: round; opacity: 0.85; }
+.block-grid { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: start; }
+.side-list { list-style: none; margin: 0; padding: 0; }
+.side-list li { padding: 0 0 14px; margin-bottom: 14px; border-bottom: 1px solid var(--rule); }
+.side-list li:last-child { border-bottom: 0; margin-bottom: 0; }
+.side-list h3 { font-size: 1.12rem; margin: 0 0 4px; }
+.side-list p { font-size: 0.9rem; margin: 0 0 4px; }
+.block .main h3 { font-size: 1.6rem; margin-top: 4px; }
+.archives-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; }
+@media (max-width: 900px) {
+  .block-grid { grid-template-columns: 1fr; }
+  .side-list { border-top: 1px solid var(--rule); padding-top: 14px; }
+}
+@media (max-width: 900px) { .archives-grid { grid-template-columns: 1fr; } }
