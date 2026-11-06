@@ -209,7 +209,7 @@ main { min-height: 50vh; }
 .fig figcaption span:first-child:not(.credit) { color: var(--ink-2); }
 .fig .credit { text-transform: uppercase; letter-spacing: 0.03em; font-size: 0.72rem; }
 .fig .credit a:hover { text-decoration: underline; }
-.galerie { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 28px; }
+.galerie { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 28px; }
 .galerie .fig { margin: 0; }
 .galerie .fig img { aspect-ratio: 3 / 4; object-fit: cover; object-position: 50% 20%; }
 @media (max-width: 600px) { .galerie { grid-template-columns: 1fr 1fr; } }
