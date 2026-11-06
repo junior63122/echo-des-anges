@@ -22,6 +22,7 @@
       error: "Impossible de charger l'édition.",
       by: "Par",
       published: "Publié le",
+      publishedIn: "Publié en",
       review: "Revue de presse",
       sources: "Sources",
       source: "Source",
@@ -67,6 +68,7 @@
       error: "Could not load the edition.",
       by: "By",
       published: "Published on",
+      publishedIn: "Published in",
       review: "Press review",
       sources: "Sources",
       source: "Source",
@@ -133,7 +135,8 @@
     { re: /Oneera/, slug: "oneera", nom: "Oneera" },
     { re: /Teufy/, slug: "teufy", nom: "Teufy" },
   ];
-  const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : longDate(a.date));
+  const moisAnnee = (d) => new Date(d + "T12:00:00Z").toLocaleDateString(T.locale, { month: "long", year: "numeric", timeZone: "UTC" });
+  const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : a.precision === "mois" ? moisAnnee(a.date) : longDate(a.date));
   const kicker = (a) => (a.type === "article" && a.rubrique && a.rubrique !== secName(a.section) ? `${secName(a.section)} · ${a.rubrique}` : secName(a.section));
 
   // ---------- Photos ----------
@@ -372,7 +375,7 @@
   // ---------- Rubrique ----------
   function renderSection(key) {
     markNav(SLUG[key]);
-    const list = visibles().filter((a) => a.section === key);
+    const list = visibles().filter((a) => a.section === key).sort((x, y) => (y.heure || y.date).localeCompare(x.heure || x.date));
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(secName(key))}</h1></div>
       <div class="list">${list.length ? list.map((a) => `<article class="list-item">
         <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)} · ${esc(quand(a))}</span>
@@ -397,8 +400,8 @@
       <div class="crumbs">${a.type === "archive" ? `<a href="#archives">${esc(T.archives)}</a> · ` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? ` · ${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? ` · ${esc(a.rubrique)}` : ""}</div>
       <h1>${esc(a.titre)}</h1>
       <p class="chapo">${esc(a.chapo)}</p>
-      <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(T.published)} ${esc(quand(a))}`}</span>${sources}</div>
-      ${figure(imageFor(a), a.image ? "hero-portrait" : "hero")}
+      <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(a.precision === "mois" ? T.publishedIn : a.precision === "annee" ? "" : T.published)} ${esc(quand(a))}`}</span>${sources}</div>
+      ${figure(imageFor(a), a.image && !a.image.paysage ? "hero-portrait" : "hero")}
       ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("")}
       ${a.transparence ? `<p class="transparence">${esc(a.transparence)}</p>` : ""}
       ${(() => { const t = SUJETS.filter((x) => x.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)); return t.length && a.type !== "revue" ? `<p class="tags">${esc(T.topics)} : ${t.map((x) => `<a href="sujet/${x.slug}${lang === "en" ? "-en" : ""}.html">${esc(x.nom)}</a>`).join(" · ")}</p>` : ""; })()}

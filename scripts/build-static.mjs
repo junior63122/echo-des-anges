@@ -184,7 +184,7 @@ const decalage = (d) => {
 const iso = (a) => a.heure || (a.precision === "annee" ? a.date.slice(0, 4) : `${a.date}T08:00:00${decalage(a.date)}`);
 const isoComplet = (a) => (a.precision === "annee" ? `${a.date.slice(0, 4)}-01-01T08:00:00+01:00` : iso(a));
 const modifie = (a) => (a.redigeSur && a.redigeSur > isoComplet(a) ? a.redigeSur : isoComplet(a));
-const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : dateLong(a.date, langOf(a)));
+const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : a.precision === "mois" ? new Date(a.date + "T12:00:00Z").toLocaleDateString(langOf(a) === "en" ? "en-GB" : "fr-FR", { month: "long", year: "numeric", timeZone: "UTC" }) : dateLong(a.date, langOf(a)));
 const dateLong = (d, lang) => new Date(d + "T12:00:00Z").toLocaleDateString(lang === "en" ? "en-GB" : "fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const fichier = (id) => `${id.replace(/[^a-z0-9-]/gi, "-")}.html`;
 const url = (a) => `${SITE}/a/${fichier(a.id)}`;
@@ -337,8 +337,8 @@ function pageArticle(a) {
   const sujets = SUJETS.filter((s) => s.re.test(texte));
   const about = [...sujets.map((s) => ({ "@id": sujetId(s), "@type": s.entite["@type"], name: s.nom })), ...LIEUX.filter((s) => s.re.test(texte)).map((s) => s.item)];
   const T = lang === "en"
-    ? { by: "By", pub: "Published on", src: "Sources", photo: "Photo", topics: "Topics", also: "Read also", home: "Front page" }
-    : { by: "Par", pub: "Publié le", src: "Sources", photo: "Photo", topics: "Sujets", also: "À lire aussi", home: "À la une" };
+    ? { by: "By", pub: "Published on", pubIn: "Published in", src: "Sources", photo: "Photo", topics: "Topics", also: "Read also", home: "Front page" }
+    : { by: "Par", pub: "Publié le", pubIn: "Publié en", src: "Sources", photo: "Photo", topics: "Sujets", also: "À lire aussi", home: "À la une" };
   const ld = {
     "@context": "https://schema.org",
     "@type": a.type === "archive" ? "Article" : "NewsArticle",
@@ -371,7 +371,7 @@ function pageArticle(a) {
     { "@type": "ListItem", position: 3, name: a.titre, item: url(a) },
   ] };
   const rub = a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? ` · ${esc(a.rubrique)}` : "";
-  const fig = img ? `<figure class="fig ${a.image ? "hero-portrait" : "hero"}"><img src="${imgAbs}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
+  const fig = img ? `<figure class="fig ${a.image && !a.image.paysage ? "hero-portrait" : "hero"}"><img src="${imgAbs}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
   const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="${SITE}/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}"${dimAttr(g.src)} loading="lazy" decoding="async"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
   const sources = a.liens?.length ? `<section class="sources-list"><h2>${T.src}</h2><ul>${a.liens.map((l) => `<li><a href="${esc(l.url)}" rel="noopener nofollow" target="_blank">${esc(l.titre)}</a> <span>— ${esc(l.source)}</span></li>`).join("")}</ul></section>` : "";
   const tags = sujets.length ? `<p class="tags">${T.topics} : ${sujets.map((s) => `<a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a>`).join(" · ")}</p>` : "";
@@ -390,7 +390,7 @@ function pageArticle(a) {
   <nav class="crumbs" aria-label="${lang === "en" ? "Breadcrumb" : "Fil d'Ariane"}"><a href="${SITE}/">${T.home}</a> › <a href="${filUrl}">${esc(filNom)}</a>${rub}</nav>
   <h1>${esc(a.titre)}</h1>
   <p class="chapo">${esc(a.chapo)}</p>
-  <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? "" : T.pub + " "}<time datetime="${isoComplet(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}${twin ? `<a class="lang-switch" href="${url(twin)}" hreflang="${langOf(twin)}">${langOf(twin) === "en" ? "Read in English" : "Lire en français"}</a>` : ""}</div>
+  <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" || a.precision === "annee" ? "" : (a.precision === "mois" ? T.pubIn : T.pub) + " "}<time datetime="${isoComplet(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}${twin ? `<a class="lang-switch" href="${url(twin)}" hreflang="${langOf(twin)}">${langOf(twin) === "en" ? "Read in English" : "Lire en français"}</a>` : ""}</div>
   ${fig}
   ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
   ${galerie}
@@ -620,7 +620,7 @@ ${recents.map((a) => { const img = image(a); return `  <item>
 `);
 
 // llms.txt : résumé lisible par les IA (convention llmstxt.org)
-const ligne = (a) => `- [${a.titre}](${url(a)}) (${a.precision === "annee" ? a.date.slice(0, 4) : a.date}) : ${texteDe(a)}`;
+const ligne = (a) => `- [${a.titre}](${url(a)}) (${a.precision === "annee" ? a.date.slice(0, 4) : a.precision === "mois" ? a.date.slice(0, 7) : a.date}) : ${texteDe(a)}`;
 const fr = indexables.filter((a) => langOf(a) === "fr");
 const ficheTxt = (s) => {
   const F = s.fr;
