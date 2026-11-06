@@ -2,8 +2,6 @@
   const app = document.getElementById("app");
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  // Date de création du journal : sert au numéro d'édition affiché en haut de page.
-  const FONDATION = "2018-01-01";
   const TZ = "Europe/Paris";
   const ORDRE = ["Business", "Finance", "Événementiel", "Tech", "Monde", "Nice & Côte d'Azur", "Sport"];
   const SLUG = { Business: "economie", Finance: "finance", "Événementiel": "evenementiel", Tech: "tech", Monde: "international", "Nice & Côte d'Azur": "nice", Sport: "sport" };
@@ -32,8 +30,14 @@
       sectionsTitle: "Rubriques",
       about: "À propos",
       archives: "Archives",
-      archivesChapo: "Les grands événements de la Côte d'Azur depuis 2020, de Nice à Monaco, de Cannes à l'arrière-pays.",
+      archivesChapo: "Les grands événements de la Côte d'Azur et nos lectures de référence en intelligence artificielle, cybersécurité, entrepreneuriat, finance et événementiel, depuis 2018.",
       archivesFr: "",
+      allThemes: "Tout",
+      search: "Rechercher",
+      searchPlaceholder: "Rechercher un article, un sujet, une ville…",
+      searchTitle: "Recherche",
+      results: (n, q) => `${n} résultat${n > 1 ? "s" : ""} pour « ${q} »`,
+      noResult: "Aucun article ne correspond à votre recherche.",
       fromArchives: "Dans nos archives",
       local: "L'actualité de la Côte d'Azur",
       allArticles: "Tous les articles",
@@ -69,8 +73,14 @@
       sectionsTitle: "Sections",
       about: "About",
       archives: "Archives",
-      archivesChapo: "The Riviera's major events since 2020, from Nice to Monaco and from Cannes to the hinterland.",
+      archivesChapo: "The Riviera's major events and our key readings in AI, cybersecurity, entrepreneurship, finance and events, since 2018.",
       archivesFr: "Our archives are currently available in French only.",
+      allThemes: "All",
+      search: "Search",
+      searchPlaceholder: "Search for an article, a topic, a town…",
+      searchTitle: "Search",
+      results: (n, q) => `${n} result${n > 1 ? "s" : ""} for “${q}”`,
+      noResult: "No article matches your search.",
       fromArchives: "From our archives",
       local: "Riviera news",
       allArticles: "All articles",
@@ -109,6 +119,7 @@
   const hhmm = (iso) => new Date(iso).toLocaleTimeString(T.locale, { hour: "2-digit", minute: "2-digit", timeZone: TZ });
   const artLink = (a, i) => `#a/${encodeURIComponent(a.id)}${i != null ? "/" + i : ""}`;
   const secLink = (k) => `#r/${SLUG[k]}`;
+  const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : longDate(a.date));
   const kicker = (a) => (a.type === "article" && a.rubrique && a.rubrique !== secName(a.section) ? `${secName(a.section)} · ${a.rubrique}` : secName(a.section));
 
   // ---------- Photos ----------
@@ -136,12 +147,12 @@
   function applyStatic() {
     document.documentElement.lang = lang;
     document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = T[el.dataset.i18n]; });
+    const si = document.getElementById("search-input"); if (si) { si.placeholder = T.searchPlaceholder; si.setAttribute("aria-label", T.search); }
+    const sb = document.getElementById("search-btn"); if (sb) sb.setAttribute("aria-label", T.search);
     document.querySelectorAll(".langs button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
     const today = new Date().toLocaleDateString("en-CA", { timeZone: TZ });
     const d = longDate(today);
     document.getElementById("edition").textContent = d.charAt(0).toUpperCase() + d.slice(1);
-    const n = Math.floor((Date.parse(today) - Date.parse(FONDATION)) / 864e5) + 1;
-    document.getElementById("numero").textContent = `${T.numero} ${n}`;
     document.getElementById("year").textContent = today.slice(0, 4);
     const secLinks = ORDRE.map((k) => `<a href="${secLink(k)}" data-sec="${SLUG[k]}">${esc(secName(k))}</a>`).join("");
     const extra = `<a href="#archives" data-sec="archives">${esc(T.archives)}</a>`;
@@ -227,7 +238,7 @@
           <div class="lead-body">
             <div>
               <p class="chapo">${esc(!lead.redige && lead.liens && lead.liens[0].resume ? lead.liens[0].resume : lead.chapo)}</p>
-              <p class="byline">${esc(T.by)} ${esc(lead.auteur)} <span class="when">· ${esc(longDate(lead.date))}</span></p>
+              <p class="byline">${esc(T.by)} ${esc(lead.auteur)} <span class="when">· ${esc(quand(lead))}</span></p>
               ${imageFor(lead) ? `<a href="${leadHref}" tabindex="-1">${thumb(imageFor(lead), "lead-img")}</a>` : `<div class="wave" role="presentation"></div>`}
             </div>
             ${leadAlso.length ? `<ul class="also">${leadAlso.map((l) => `<li><a href="${l.href}">${esc(l.titre)}</a><span class="src">${esc(l.source)}</span></li>`).join("")}</ul>` : ""}
@@ -266,25 +277,55 @@
     return `<section class="block archives-block">
       <div class="block-head"><h2><a href="#archives">${esc(T.fromArchives)}</a></h2><a class="more" href="#archives">${esc(T.allArchives)}</a></div>
       <div class="block-grid archives-grid">${picks.map((a) => `<div>${thumb(imageFor(a))}
-        <span class="kicker">${esc(secName(a.section))} · ${esc(longDate(a.date))}</span>
+        <span class="kicker">${esc(a.rubrique && a.rubrique !== "Archives" ? a.rubrique : secName(a.section))} · ${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3><p>${esc(a.chapo)}</p></div>`).join("")}</div>
     </section>`;
   }
 
   // ---------- Archives ----------
-  function renderArchives() {
+  const theme = (a) => (a.rubrique && a.rubrique !== "Archives" ? a.rubrique : secName(a.section));
+  const slugify = (x) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  function renderArchives(filtre) {
     markNav("archives");
     const own = articles.filter((a) => a.type === "archive" && langOf(a) === lang);
-    const list = own.length ? own : articles.filter((a) => a.type === "archive");
+    const tout = own.length ? own : articles.filter((a) => a.type === "archive");
+    const themes = [...new Set(tout.map(theme))].sort((x, y) => x.localeCompare(y, "fr"));
+    const list = filtre ? tout.filter((a) => slugify(theme(a)) === filtre) : tout;
     const parAn = {};
     for (const a of list) (parAn[a.date.slice(0, 4)] ||= []).push(a);
     const annees = Object.keys(parAn).sort().reverse();
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.archives)}</h1><p class="rubrique-chapo">${esc(T.archivesChapo)}${!own.length && T.archivesFr ? " " + esc(T.archivesFr) : ""}</p></div>
-      <nav class="years">${annees.map((y) => `<a href="#archives/${y}">${y}</a>`).join("")}</nav>
+      <nav class="years themes"><a href="#archives"${filtre ? "" : ' aria-current="page"'}>${esc(T.allThemes)}</a>${themes.map((t) => `<a href="#archives/t/${slugify(t)}"${filtre === slugify(t) ? ' aria-current="page"' : ""}>${esc(t)}</a>`).join("")}</nav>
+      <nav class="years">${annees.map((y) => `<a href="#archives/${filtre ? `t/${filtre}/` : ""}${y}">${y}</a>`).join("")}</nav>
       <div class="list">${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>${parAn[y].map((a) => `<article class="list-item">
-        <span class="kicker">${esc(secName(a.section))} · ${esc(longDate(a.date))}</span>
+        <span class="kicker">${esc(theme(a))} · ${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p></article>`).join("")}`).join("") || `<p class="loading">${esc(T.empty)}</p>`}</div>`;
+  }
+
+  // ---------- Recherche ----------
+  const sansAccents = (x) => String(x || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  function renderSearch(q) {
+    markNav(null);
+    const termes = sansAccents(q).split(/\s+/).filter((t) => t.length > 1);
+    const base = articles.filter((a) => langOf(a) === lang || (a.type === "archive" && !articles.some((x) => x.type === "archive" && langOf(x) === lang)));
+    const res = !termes.length ? [] : base.map((a) => {
+      const ti = sansAccents(a.titre), ch = sansAccents(a.chapo), co = sansAccents((a.corps || []).join(" ") + " " + (a.liens || []).map((l) => l.titre).join(" ") + " " + (a.rubrique || ""));
+      let score = 0;
+      for (const t of termes) {
+        const p = (ti.includes(t) ? 5 : 0) + (ch.includes(t) ? 3 : 0) + (co.includes(t) ? 1 : 0);
+        if (!p) return null;
+        score += p;
+      }
+      return { a, score };
+    }).filter(Boolean).sort((x, y) => y.score - x.score || (y.a.date > x.a.date ? 1 : -1)).slice(0, 60);
+    const input = document.getElementById("search-input"); if (input && input.value !== q) input.value = q;
+    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(q ? T.results(res.length, q) : "")}</p></div>
+      <div class="list">${res.length ? res.map(({ a }) => `<article class="list-item">
+        <span class="kicker">${esc(a.type === "archive" ? theme(a) : kicker(a))} · ${esc(quand(a))}</span>
+        <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
+        <p>${esc(a.chapo)}</p></article>`).join("") : `<p class="loading">${esc(T.noResult)}</p>`}</div>`;
+    window.scrollTo(0, 0);
   }
 
   // ---------- Pages fixes ----------
@@ -317,7 +358,7 @@
     const list = visibles().filter((a) => a.section === key);
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(secName(key))}</h1></div>
       <div class="list">${list.length ? list.map((a) => `<article class="list-item">
-        <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)} · ${esc(longDate(a.date))}</span>
+        <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)} · ${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p>
         <p class="byline">${esc(T.by)} ${esc(a.auteur)}</p></article>`).join("") : `<p class="loading">${esc(T.empty)}</p>`}</div>`;
@@ -339,10 +380,10 @@
     const revue = a.type === "revue" && !a.redige;
     const sources = a.sources && a.sources.length ? `<span class="sources">${esc(T.sources)} : ${esc(a.sources.join(", "))}</span>` : "";
     app.innerHTML = `<article class="article">
-      <div class="crumbs">${a.type === "archive" ? `<a href="#archives">${esc(T.archives)}</a> · ` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? ` · ${esc(T.review)}` : a.type === "article" && a.rubrique ? ` · ${esc(a.rubrique)}` : ""}</div>
+      <div class="crumbs">${a.type === "archive" ? `<a href="#archives">${esc(T.archives)}</a> · ` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? ` · ${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? ` · ${esc(a.rubrique)}` : ""}</div>
       <h1>${esc(a.titre)}</h1>
       <p class="chapo">${esc(a.chapo)}</p>
-      <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(longDate(a.date)) : `${esc(T.published)} ${esc(longDate(a.date))}`}</span>${sources}</div>
+      <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(T.published)} ${esc(quand(a))}`}</span>${sources}</div>
       ${figure(imageFor(a), a.image ? "hero-portrait" : "hero")}
       ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("")}
       ${a.transparence ? `<p class="transparence">${esc(a.transparence)}</p>` : ""}
@@ -370,9 +411,10 @@
       if (a) { if (langOf(a) !== lang) setLang(langOf(a), false); return renderArticle(a, m[2] != null ? +m[2] : null); }
     }
     if ((m = h.match(/^r\/([a-z]+)$/)) && FROM_SLUG[m[1]]) return renderSection(FROM_SLUG[m[1]]);
-    if ((m = h.match(/^archives(?:\/(\d{4}))?$/))) {
-      renderArchives();
-      const y = m[1] && document.getElementById("y-" + m[1]);
+    if ((m = h.match(/^recherche\/(.*)$/))) return renderSearch(decodeURIComponent(m[1]));
+    if ((m = h.match(/^archives(?:\/t\/([a-z0-9-]+))?(?:\/(\d{4}))?$/))) {
+      renderArchives(m[1]);
+      const y = m[2] && document.getElementById("y-" + m[2]);
       return y ? y.scrollIntoView() : window.scrollTo(0, 0);
     }
     if ((m = h.match(/^p\/([a-z]+)$/))) return renderPage(m[1]);
@@ -400,6 +442,18 @@
       return;
     }
     setLang(target);
+  });
+
+  const searchForm = document.getElementById("search-form");
+  const searchInput = document.getElementById("search-input");
+  document.getElementById("search-btn").addEventListener("click", () => {
+    searchForm.hidden = !searchForm.hidden;
+    if (!searchForm.hidden) searchInput.focus();
+  });
+  searchForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const q = searchInput.value.trim();
+    if (q) location.hash = "recherche/" + encodeURIComponent(q);
   });
 
   const drawer = document.getElementById("drawer");
