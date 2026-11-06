@@ -2,7 +2,8 @@
   const app = document.getElementById("app");
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  const FONDATION = "2026-11-01";
+  // Date de création du journal : sert au numéro d'édition affiché en haut de page.
+  const FONDATION = "2018-01-01";
   const TZ = "Europe/Paris";
   const ORDRE = ["Business", "Finance", "Événementiel", "Tech", "Monde", "Nice & Côte d'Azur", "Sport"];
   const SLUG = { Business: "economie", Finance: "finance", "Événementiel": "evenementiel", Tech: "tech", Monde: "international", "Nice & Côte d'Azur": "nice", Sport: "sport" };
@@ -15,7 +16,7 @@
       home: "À la une",
       live: "En continu",
       now: "À l'instant",
-      founded: "Le quotidien de la Baie des Anges. Fondé à Nice en 2026.",
+      founded: "Le quotidien de la Baie des Anges. Fondé à Nice en 2018.",
       loading: "Chargement de l'édition…",
       empty: "Aucun article pour le moment.",
       error: "Impossible de charger l'édition.",
@@ -52,7 +53,7 @@
       home: "Front page",
       live: "Live",
       now: "Just in",
-      founded: "The daily of the Baie des Anges. Founded in Nice in 2026.",
+      founded: "The daily of the Baie des Anges. Founded in Nice in 2018.",
       loading: "Loading today's edition…",
       empty: "No articles yet.",
       error: "Could not load the edition.",
