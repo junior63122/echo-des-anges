@@ -30,3 +30,4 @@ User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://echodesanges.fr/sitemap.xml
+Sitemap: https://echodesanges.fr/news-sitemap.xml

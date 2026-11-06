@@ -88,7 +88,7 @@ export function parseFeed(xml, feedUrl = "") {
     let titre = clean(tag(b, "title"));
     let link = clean(tag(b, "link"));
     if (!link) { const m = b.match(/<link[^>]*href="([^"]+)"/i); link = m ? decode(m[1]) : ""; }
-    let source = clean(tag(b, "source")) || MEDIAS[host] || channel.replace(/\s*[:|–-].*$/, "") || host;
+    let source = clean(tag(b, "source")) || MEDIAS[host] || channel.replace(/\s+[:|–-]\s+.*$/, "") || host;
     // Google News : « Titre - Média »
     if (host === "news.google.com") {
       const src = clean(tag(b, "source"));
@@ -106,7 +106,7 @@ export function parseFeed(xml, feedUrl = "") {
   }).filter((i) => i.titre && /^https?:\/\//.test(i.url));
 }
 
-async function fetchFeed(url) {
+export async function fetchFeed(url) {
   const res = await fetch(url, {
     headers: { "User-Agent": "Mozilla/5.0 (compatible; EchoDesAnges/1.0; +https://echodesanges.fr/)" },
     signal: AbortSignal.timeout(20000),

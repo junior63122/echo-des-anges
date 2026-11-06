@@ -246,6 +246,21 @@ ${indexables.map((a) => `  <url><loc>${url(a)}</loc><lastmod>${(a.heure || a.dat
 </urlset>
 `);
 
+// Plan du site Google News : articles d'actualité des dernières 48 heures
+const news = indexables.filter((a) => a.type !== "archive" && Date.now() - Date.parse(iso(a)) < 48 * 3600e3);
+writeFileSync(join(J, "news-sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+${news.map((a) => `  <url>
+    <loc>${url(a)}</loc>
+    <news:news>
+      <news:publication><news:name>${xml(NOM)}</news:name><news:language>${langOf(a)}</news:language></news:publication>
+      <news:publication_date>${iso(a)}</news:publication_date>
+      <news:title>${xml(a.titre)}</news:title>
+    </news:news>
+  </url>`).join("\n")}
+</urlset>
+`);
+
 // Fil RSS (50 derniers articles en français)
 const recents = indexables.filter((a) => langOf(a) === "fr" && a.type !== "archive").sort((x, y) => iso(y).localeCompare(iso(x))).slice(0, 50);
 writeFileSync(join(J, "feed.xml"), `<?xml version="1.0" encoding="UTF-8"?>
@@ -329,6 +344,7 @@ User-agent: Google-Extended
 Allow: /
 
 Sitemap: ${SITE}/sitemap.xml
+Sitemap: ${SITE}/news-sitemap.xml
 `);
 }
 

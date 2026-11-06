@@ -13,9 +13,10 @@ en français et en anglais, mis à jour deux fois par jour par un workflow GitHu
 | Pages fixes (Notre histoire, Mentions légales) | `pages.js` |
 | Articles, revues de presse et archives | `articles.json` |
 | Photos (articles, banque libre de droits + crédits) | `img/` |
-| Pages indexables générées (référencement) | `a/`, `p/`, `sitemap.xml`, `feed.xml`, `llms.txt` |
+| Pages indexables générées (référencement) | `a/`, `p/`, `sitemap.xml`, `news-sitemap.xml`, `feed.xml`, `llms.txt`, `robots.txt` |
 | Collecte de l'actualité (flux RSS) | `scripts/generate-news.mjs` |
-| Rédaction des articles du jour (API Claude) | `scripts/write-articles.mjs` |
+| Articles du jour : choix des sujets parmi les dépêches et rédaction (API Claude) | `scripts/write-stories.mjs` |
+| Revues par rubrique rédigées (API Claude) | `scripts/write-articles.mjs` |
 | Rédaction des archives (API Claude + recherche web) | `scripts/write-archives.mjs` |
 | Photos libres (Wikimedia Commons) | `scripts/fetch-images.mjs` |
 | Référencement | `scripts/build-static.mjs` |
@@ -23,8 +24,10 @@ en français et en anglais, mis à jour deux fois par jour par un workflow GitHu
 
 ## Robots (onglet Actions)
 
-- **Journal - éditions** : deux fois par jour (et à la demande). Collecte l'actualité, rédige les articles si la
-  clé API est présente, met à jour les photos et le référencement, puis publie.
+- **Journal - éditions** : deux fois par jour (et à la demande). Collecte l'actualité dans les flux RSS des médias
+  (titres et résumés publiés pour être repris), choisit jusqu'à 6 sujets, rédige pour chacun un article original en
+  français et en anglais avec les sources citées (si la clé API est présente), met à jour les photos et le
+  référencement, puis publie. Le texte intégral des articles des autres médias n'est jamais récupéré.
 - **Journal - archives** : à la demande. Rédige des archives sur une période choisie (événements vérifiés par
   recherche web, sources citées, version anglaise).
 - **Journal - vérification des flux** : à la demande. Teste des flux RSS.
