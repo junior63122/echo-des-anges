@@ -1,33 +1,32 @@
 # Tous les robots, y compris les moteurs de recherche et les assistants IA, sont autorisés.
 User-agent: *
 Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
+Disallow: /scripts/
+Disallow: /node_modules/
 
 Sitemap: https://echodesanges.fr/sitemap.xml
 Sitemap: https://echodesanges.fr/news-sitemap.xml
+
+# Moteurs de recherche et assistants IA explicitement bienvenus
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Applebot
+User-agent: Qwantbot
+User-agent: YandexBot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: MistralAI-User
+Allow: /
+Disallow: /scripts/
+Disallow: /node_modules/

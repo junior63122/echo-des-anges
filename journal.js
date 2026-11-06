@@ -12,6 +12,8 @@
       locale: "fr-FR",
       menu: "Rubriques",
       home: "À la une",
+      homeH1: "L'Écho des Anges, actualité de Nice, Cannes, Monaco et de la Côte d'Azur",
+      topics: "Sujets",
       live: "En continu",
       now: "À l'instant",
       founded: "Le quotidien de la Baie des Anges. Fondé à Nice en 2018.",
@@ -55,6 +57,8 @@
       locale: "en-GB",
       menu: "Sections",
       home: "Front page",
+      homeH1: "L'Écho des Anges, news from Nice, Cannes, Monaco and the French Riviera",
+      topics: "Topics",
       live: "Live",
       now: "Just in",
       founded: "The daily of the Baie des Anges. Founded in Nice in 2018.",
@@ -117,8 +121,18 @@
 
   const longDate = (d) => new Date(d + "T12:00:00Z").toLocaleDateString(T.locale, { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
   const hhmm = (iso) => new Date(iso).toLocaleTimeString(T.locale, { hour: "2-digit", minute: "2-digit", timeZone: TZ });
-  const artLink = (a, i) => `#a/${encodeURIComponent(a.id)}${i != null ? "/" + i : ""}`;
-  const secLink = (k) => `#r/${SLUG[k]}`;
+  // Liens « réels » (pages statiques) que les moteurs peuvent suivre ; un clic reste géré dans l'application.
+  const staticUrl = (a) => `a/${a.id.replace(/[^a-z0-9-]/gi, "-")}.html`;
+  const indexable = (a) => a.type === "article" || a.type === "archive" || (a.type === "revue" && a.redige && !!(a.corps && a.corps.length));
+  const artLink = (a, i) => ((i == null || i === 0) && indexable(a) ? staticUrl(a) : `#a/${encodeURIComponent(a.id)}${i != null ? "/" + i : ""}`);
+  const secLink = (k) => `r/${SLUG[k]}${lang === "en" ? "-en" : ""}.html`;
+  const pageLink = (k) => `p/${k}${lang === "en" ? "-en" : ""}.html`;
+  // Sujets ayant leur propre page (personnes, entreprises)
+  const SUJETS = [
+    { re: /Junior William Joyant|Junior Joyant/, slug: "junior-william-joyant", nom: "Junior William Joyant" },
+    { re: /Oneera/, slug: "oneera", nom: "Oneera" },
+    { re: /Teufy/, slug: "teufy", nom: "Teufy" },
+  ];
   const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : longDate(a.date));
   const kicker = (a) => (a.type === "article" && a.rubrique && a.rubrique !== secName(a.section) ? `${secName(a.section)} · ${a.rubrique}` : secName(a.section));
 
@@ -160,8 +174,8 @@
     const secLinks = ORDRE.map((k) => `<a href="${secLink(k)}" data-sec="${SLUG[k]}">${esc(secName(k))}</a>`).join("");
     const extra = `<a href="#archives" data-sec="archives">${esc(T.archives)}</a>`;
     document.getElementById("sections").innerHTML = `<a class="home" href="#">${esc(T.home)}</a>${secLinks}${extra}`;
-    document.getElementById("drawer-nav").innerHTML = `<a href="#">${esc(T.home)}</a>${secLinks}${extra}<a href="#p/histoire">${esc(T.history)}</a><a href="#p/mentions">${esc(T.legal)}</a>`;
-    document.getElementById("about-links").innerHTML = `<li><a href="#p/histoire">${esc(T.history)}</a></li><li><a href="#archives">${esc(T.archives)}</a></li><li><a href="a/">${esc(T.allArticles)}</a></li><li><a href="#p/mentions">${esc(T.legal)}</a></li><li><a href="feed.xml">RSS</a></li>`;
+    document.getElementById("drawer-nav").innerHTML = `<a href="#">${esc(T.home)}</a>${secLinks}${extra}<a href="${pageLink("histoire")}">${esc(T.history)}</a><a href="${pageLink("mentions")}">${esc(T.legal)}</a>`;
+    document.getElementById("about-links").innerHTML = `<li><a href="${pageLink("histoire")}">${esc(T.history)}</a></li><li><a href="#archives">${esc(T.archives)}</a></li><li><a href="a/">${esc(T.allArticles)}</a></li><li><a href="${pageLink("mentions")}">${esc(T.legal)}</a></li><li><a href="feed.xml">RSS</a></li>`;
     document.getElementById("footer-sections").innerHTML = ORDRE.map((k) => `<li><a href="${secLink(k)}">${esc(secName(k))}</a></li>`).join("");
     document.getElementById("redaction").innerHTML = REDACTION.map(([nom, k]) => `<li><strong>${esc(nom)}</strong> · ${esc(secName(k))}</li>`).join("");
   }
@@ -232,7 +246,7 @@
         <p class="byline">${esc(T.by)} ${esc(a.auteur)}</p>
       </article>`;
 
-    app.innerHTML = `${renderLive()}
+    app.innerHTML = `<h1 class="sr-only">${esc(T.homeH1)}</h1>${renderLive()}
     <div class="home-page">
       <section class="top">
         <article class="lead">
@@ -374,9 +388,6 @@
     const d = document.querySelector('meta[name="description"]'); if (d) d.setAttribute("content", description);
     const c = document.querySelector('link[rel="canonical"]'); if (c) c.setAttribute("href", canonical);
   }
-  const staticUrl = (a) => `a/${a.id.replace(/[^a-z0-9-]/gi, "-")}.html`;
-  const indexable = (a) => a.type === "article" || a.type === "archive" || (a.type === "revue" && a.redige);
-
   function renderArticle(a, focus) {
     markNav(SLUG[a.section]);
     setMeta(`${a.titre} | L'Écho des Anges`, a.chapo, indexable(a) ? new URL(staticUrl(a), location.href.split("#")[0]).href : location.href.split("#")[0]);
@@ -390,6 +401,7 @@
       ${figure(imageFor(a), a.image ? "hero-portrait" : "hero")}
       ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("")}
       ${a.transparence ? `<p class="transparence">${esc(a.transparence)}</p>` : ""}
+      ${(() => { const t = SUJETS.filter((x) => x.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)); return t.length && a.type !== "revue" ? `<p class="tags">${esc(T.topics)} : ${t.map((x) => `<a href="sujet/${x.slug}${lang === "en" ? "-en" : ""}.html">${esc(x.nom)}</a>`).join(" · ")}</p>` : ""; })()}
       ${a.galerie && a.galerie.length ? `<div class="galerie">${a.galerie.map((g) => figure({ src: g.src, credit: `${T.photo} : ${g.credit}`, legende: (g.legende || {})[lang] || "" })).join("")}</div>` : ""}
       ${(a.redige || a.type !== "revue") && a.liens && a.liens.length ? `<section class="sources-list"><h2>${esc(T.sources)}</h2><ul>${a.liens.map((l, i) => `
         <li id="info-${i}"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.titre)}</a> <span>— ${esc(l.source)}</span></li>`).join("")}</ul></section>` : ""}
@@ -468,6 +480,18 @@
   });
 
   window.addEventListener("hashchange", route);
+  // Les liens vers les pages statiques (articles, rubriques, pages fixes) restent dans l'application au clic.
+  document.addEventListener("click", (e) => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const el = e.target.closest("a[href]"); if (!el || el.target) return;
+    const href = el.getAttribute("href"); let m, h = null;
+    if (/^a\/[^/]+\.html$/.test(href)) { const a = articles.find((x) => staticUrl(x) === href); if (a) h = `a/${encodeURIComponent(a.id)}`; }
+    else if ((m = href.match(/^r\/([a-z]+)(?:-en)?\.html$/)) && FROM_SLUG[m[1]]) h = `r/${m[1]}`;
+    else if ((m = href.match(/^p\/([a-z]+)(?:-en)?\.html$/))) h = `p/${m[1]}`;
+    if (h == null) return;
+    e.preventDefault();
+    if (location.hash === "#" + h) route(); else location.hash = h;
+  });
   const HOME_TITLE = document.title;
   const HOME_DESC = (document.querySelector('meta[name="description"]') || {}).content || "";
   applyStatic();
