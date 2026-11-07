@@ -12555,5 +12555,625 @@
       "Eventbrite"
     ],
     "numero": 170
+  },
+  {
+    "id": "2026-04-08-portrait-samantha-mane-groupe-mane",
+    "lang": "fr",
+    "date": "2026-04-08",
+    "precision": "mois",
+    "section": "Business",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Camille Rostand",
+    "slug": "portrait-samantha-mane-groupe-mane",
+    "titre": "Samantha Mane, l'héritière qui fait passer le groupe familial de Bar-sur-Loup au-dessus des 2 milliards",
+    "chapo": "Première femme à diriger Mane depuis sa fondation en 1871, elle signe sa première acquisition et un chiffre d'affaires record dès sa première année à la tête du numéro un économique des Alpes-Maritimes.",
+    "corps": [
+      "Au-dessus des gorges du Loup, le village du Bar-sur-Loup abrite l'une des plus grandes entreprises de la Côte d'Azur, sans que beaucoup d'Azuréens le sachent. Le groupe Mane, spécialiste des arômes et des parfums, a franchi pour la première fois la barre des 2 milliards d'euros de chiffre d'affaires : 2,012 milliards en 2025, en hausse de 6,5 % à taux de change et périmètre constants, selon Le Journal des Entreprises. À sa tête depuis un an, Samantha Mane.",
+      "Elle est la cinquième génération de la famille aux commandes, et la première femme. Sa nomination a été annoncée en février 2025 : elle succède à son père, Jean Mane, qui présidait le groupe depuis 1995. Le groupe reste familial et indépendant, un statut rare dans un secteur dominé par des géants cotés.",
+      "L'histoire commence en 1871. Victor Mane fonde l'entreprise pour extraire les matières aromatiques des fleurs et des plantes de Provence. Ses fils, Eugène et Gabriel, la développent à l'international. En 1959, Maurice Mane prend la suite et ouvre l'activité aux arômes destinés à l'industrie agroalimentaire, un virage qui fera la puissance du groupe.",
+      "Samantha Mane n'est pas arrivée au sommet par simple héritage. Entrée dans l'entreprise familiale au milieu des années 2000, elle prend en 2016 la direction de la zone Europe, Moyen-Orient et Afrique, premier marché du groupe. Selon Mane, les ventes de cette région ont plus que doublé sous sa direction entre 2016 et 2024. Elle a aussi piloté l'ouverture à Paris d'un site consacré à la parfumerie fine et la numérisation de l'entreprise.",
+      "Sa première année à la présidence a été marquée par une acquisition. En janvier, Mane a annoncé le rachat de ChemoSensoryx Biosciences, une biotech belge installée à Louvain-la-Neuve, spécialisée dans les récepteurs du goût et de l'odorat. Le montant n'a pas été communiqué. Selon le communiqué du groupe, l'opération « renforcera les capacités de Mane pour fournir une expertise mondiale et en constante évolution en solutions arômes et parfums ».",
+      "Le poids du groupe dépasse largement le pays grassois. Mane se présente comme le cinquième acteur mondial des arômes, des parfums et des ingrédients, avec 8 000 collaborateurs dans 40 pays. Le Journal des Entreprises le classe en tête des entreprises des Alpes-Maritimes.",
+      "Dans la profession, Samantha Mane est aussi vice-présidente de Prodarom, le syndicat national des fabricants de matières premières aromatiques. Une manière de défendre un savoir-faire né autour de Grasse, que le groupe exporte désormais sur tous les continents.",
+      "Le défi des prochaines années tient en une équation : grandir dans un marché qui se concentre, tout en préservant l'indépendance d'une maison familiale de plus de 150 ans. La nouvelle présidente a commencé par la recherche, en misant sur la science des récepteurs sensoriels."
+    ],
+    "sources": [
+      "Le Journal des Entreprises",
+      "Premium Beauty News",
+      "FashionNetwork",
+      "CosmeticsDesign Europe",
+      "Wikipedia"
+    ],
+    "liens": [
+      {
+        "titre": "Le groupe Mane dépasse les 2 milliards de chiffre d'affaires en 2025",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/le-groupe-mane-depasse-les-2-milliards-de-chiffre-daffaires-en-2025-2141080"
+      },
+      {
+        "titre": "Le groupe Mane signe l'acquisition de la biotech belge ChemoSensoryx Biosciences",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/le-groupe-mane-signe-lacquisition-de-la-biotech-belge-chemosensoryx-biosciences-2134495"
+      },
+      {
+        "titre": "Samantha Mane succède à son père à la tête du groupe",
+        "source": "Premium Beauty News",
+        "url": "https://www.premiumbeautynews.com/fr/samantha-mane-succede-a-son-pere-a,25307"
+      },
+      {
+        "titre": "Mane group names new CEO",
+        "source": "FashionNetwork",
+        "url": "https://us.fashionnetwork.com/news/Mane-group-names-new-ceo,1705453.html"
+      },
+      {
+        "titre": "Mane expands receptor-based research with ChemoSensoryx acquisition",
+        "source": "CosmeticsDesign Europe",
+        "url": "https://www.cosmeticsdesign-europe.com/Article/2026/01/14/mane-expands-receptor-based-research-with-chemosensoryx-acquisition"
+      },
+      {
+        "titre": "Classement exclusif : découvrez les 10 premières entreprises des Alpes-Maritimes",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/article/classement-exclusif-decouvrez-les-10-premieres-entreprises-des-alpes-maritimes-2122004"
+      },
+      {
+        "titre": "Mane SA",
+        "source": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mane_SA"
+      }
+    ],
+    "imageCommons": [
+      "Le Bar-sur-Loup",
+      "Le Bar-sur-Loup village",
+      "Gorges du Loup"
+    ]
+  },
+  {
+    "id": "2026-11-07-portrait-agnes-costa-fragonard-centenaire",
+    "lang": "fr",
+    "date": "2026-11-07",
+    "section": "Business",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Camille Rostand",
+    "slug": "portrait-agnes-costa-fragonard-centenaire",
+    "titre": "Agnès Costa, la sœur qui porte Fragonard jusqu'à son centenaire",
+    "chapo": "Avec Françoise et Anne, elle dirige la maison grassoise fondée par son arrière-grand-père en 1926. Le parfumeur fête ses cent ans avec une exposition à la Monnaie de Paris, qui ouvre le 13 novembre.",
+    "corps": [
+      "Dans quelques jours, les flacons de Grasse s'installent quai de Conti. Pour son centenaire, Fragonard investit la Monnaie de Paris avec une exposition qui mêle parfums, peintures et costumes, du 13 novembre au 10 janvier. Point d'orgue d'une année anniversaire que la maison grassoise a voulue à son image : familiale, culturelle et très provençale.",
+      "Derrière la marque, trois sœurs. Agnès, Françoise et Anne Costa dirigent ensemble la maison, comme l'a rappelé La Poste en février en consacrant un timbre au centenaire. Agnès et Françoise ont pris la suite de leur père, Jean-François Costa. Elles sont les arrière-petites-filles du fondateur.",
+      "Rien ne destinait pourtant Agnès Costa à la parfumerie. Elle a étudié le droit, la philosophie et l'anglais à Paris avant de rejoindre l'entreprise au début de la vingtaine. « Je n'ai jamais grandi en pensant reprendre un jour l'entreprise familiale », confiait-elle en 2021 à Monaco Tribune.",
+      "L'histoire commence en 1926. Eugène Fuchs rachète à Grasse une petite parfumerie installée dans une ancienne tannerie du XVIIIe siècle, et la baptise du nom du peintre grassois Jean-Honoré Fragonard. Quelques années plus tard, il transmet l'affaire à son fils Georges et à son gendre, François Costa. L'usine historique abrite toujours la maison.",
+      "La famille a fait de la culture un pilier de l'entreprise. En 1997, Hélène Costa, la mère des trois sœurs, fonde à Grasse le Musée provençal du costume et du bijou. Les sœurs ont poursuivi cette politique de collections, jusqu'à ouvrir à Arles un musée de la mode et du costume. En mars 2025, l'historien de l'art Philippe Costamagna a pris la direction des musées du parfumeur.",
+      "Le modèle repose sur un réseau intégré, de la fabrication à la vente. Fragonard compte trois usines, six musées et vingt-cinq boutiques, selon Centre Inffo. La maison continue d'ouvrir des adresses, comme à Nîmes en juin 2025. Elle ne publie pas de chiffre d'affaires consolidé ; ses sociétés grassoises affichent des comptes séparés.",
+      "L'année du centenaire a été rythmée par les hommages. Après le timbre de La Poste, le musée Jean-Honoré Fragonard de Grasse a accueilli de juin à octobre l'exposition « Fragonard, l'enfant chéri de Grasse », consacrée au peintre qui a donné son nom à la maison.",
+      "Cent ans après le rachat d'Eugène Fuchs, Fragonard est toujours entre les mains de la famille fondatrice. Une indépendance que les trois sœurs cultivent en misant sur ce qui ne se copie pas : un lieu, une histoire et un nom."
+    ],
+    "sources": [
+      "Sortir à Paris",
+      "Groupe La Poste",
+      "Monaco Tribune",
+      "The Art Newspaper France",
+      "Centre Inffo",
+      "Objectif Gard",
+      "Fragonard"
+    ],
+    "liens": [
+      {
+        "titre": "Fragonard marks its centennial with an exhibition at the Monnaie de Paris",
+        "source": "Sortir à Paris",
+        "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/exhibit-museum/articles/352390-fragonard-marks-its-centennial-with-an-exhibition-at-the-monnaie-de-paris-showcasing-perfumes-paintings-and-costumes"
+      },
+      {
+        "titre": "La Poste celebrates the centenary of Fragonard",
+        "source": "Groupe La Poste",
+        "url": "https://www.lapostegroupe.com/en/news/la-poste-celebrates-the-centenary-of-fragonard"
+      },
+      {
+        "titre": "Agnès Costa, the woman behind one of the oldest perfumeries in France",
+        "source": "Monaco Tribune",
+        "url": "https://www.monaco-tribune.com/en/2021/04/agnes-costa-the-woman-behind-one-of-the-oldest-perfumeries-in-france/"
+      },
+      {
+        "titre": "Philippe Costamagna prend la tête des musées du parfumeur Fragonard",
+        "source": "The Art Newspaper France",
+        "url": "https://artnewspaper.fr/2025/03/21/philippe-costamagna-prend-la-tete-des-musees-du-parfumeur-fragonard"
+      },
+      {
+        "titre": "Fragonard, comme un parfum d'innovation",
+        "source": "Centre Inffo",
+        "url": "https://www.centre-inffo.fr/site-centre-inffo/actualites-centre-inffo/le-quotidien-de-la-formation-actualite-formation-professionnelle-apprentissage/articles-2025/fragonard-comme-un-parfum-dinnovation"
+      },
+      {
+        "titre": "Nîmes : une boutique Fragonard ouvre ses portes en centre-ville",
+        "source": "Objectif Gard",
+        "url": "https://www.objectifgard.com/actualites/nimes-une-boutique-fragonnard-ouvre-ses-portes-en-centre-ville-148381.php"
+      },
+      {
+        "titre": "Une histoire de famille",
+        "source": "Fragonard",
+        "url": "https://usines-parfum.fragonard.com/en/about-us/a-family-story/"
+      }
+    ],
+    "imageCommons": [
+      "Fragonard Grasse",
+      "Parfumerie Fragonard Grasse",
+      "Grasse vieille ville"
+    ]
+  },
+  {
+    "id": "2026-04-01-portrait-mauro-colagreco-mirazur-20-ans",
+    "lang": "fr",
+    "date": "2026-04-01",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Lucas Giordano",
+    "slug": "portrait-mauro-colagreco-mirazur-20-ans",
+    "titre": "Mauro Colagreco, vingt ans de Mirazur : du chef de Menton au patron d'un groupe mondial",
+    "chapo": "Arrivé d'Argentine en 2001, il a ouvert sa table au-dessus de la Méditerranée en 2006. Le Mirazur fête ses 20 ans avec un menu conçu avec Ferran Adrià, et son chef dirige désormais plus de 25 restaurants dans le monde.",
+    "corps": [
+      "Une trentaine de petites assiettes pour raconter vingt ans de cuisine. À partir de ce mercredi et jusqu'au 17 mai, le Mirazur sert un menu rétrospectif conçu avec Ferran Adrià, le chef catalan d'elBulli, invité comme « curateur gastronomique ». Facturé environ 500 euros et précédé d'une exposition, il célèbre les 20 ans de la table de Menton, élue en 2019 meilleur restaurant du monde.",
+      "Mauro Colagreco est né en 1976 à La Plata, en Argentine, dans une famille d'origine italienne. Arrivé en France en 2001, il se forme au lycée hôtelier de La Rochelle, puis rejoint Bernard Loiseau, auprès duquel il travaille jusqu'à la mort du chef bourguignon, en 2003.",
+      "En 2006, il ouvre le Mirazur à Menton, à quelques mètres de la frontière italienne, au-dessus de la mer. Six mois plus tard, le Gault & Millau le désigne « révélation de l'année ». Les distinctions s'enchaînent : deux étoiles Michelin en 2012, une quatrième place au classement des World's 50 Best en 2017.",
+      "La consécration arrive le 25 juin 2019 à Singapour. Le Mirazur est élu meilleur restaurant du monde au palmarès des World's 50 Best Restaurants, une première pour une table française. « C'est un grand moment pour la gastronomie française », réagit alors le chef auprès d'Euronews.",
+      "Le cuisinier est devenu chef d'entreprise. La même année, il reprend une ancienne boulangerie de Menton, devenue Mitron Bakery, et ouvre en ville la pizzeria Pecora Negra, dont la sauce est préparée avec les tomates d'un jardin mentonnais. Les deux enseignes ont depuis essaimé, à Strasbourg, à Lyon et à Monaco.",
+      "Aujourd'hui, Mauro Colagreco supervise plus de 25 restaurants dans le monde, dont des tables à Londres, au Raffles London at The OWO, selon le site spécialisé The Staff Canteen. Son groupe ne publie ni chiffre d'affaires ni effectifs.",
+      "Son engagement dépasse l'assiette. Nommé en 2022 ambassadeur de bonne volonté de l'UNESCO pour la biodiversité, il défend une cuisine liée aux jardins et aux producteurs. Il présidera aussi le jury d'honneur de la Roux Scholarship 2026, l'un des concours de cuisine les plus prestigieux du Royaume-Uni.",
+      "Vingt ans après son ouverture, le Mirazur reste le cœur d'un ensemble qui a largement dépassé Menton. Mais c'est bien depuis la cité des citrons que le chef argentin continue de piloter ses projets."
+    ],
+    "sources": [
+      "Mirazur",
+      "The Upcoming",
+      "The World's 50 Best",
+      "Malay Mail (AFP)",
+      "Euronews",
+      "The Staff Canteen",
+      "Gambero Rosso"
+    ],
+    "liens": [
+      {
+        "titre": "20 ans du Mirazur avec Ferran Adrià",
+        "source": "Mirazur",
+        "url": "https://www.mirazur.fr/en/20-ans-mirazur-x-ferran-adria.html"
+      },
+      {
+        "titre": "Ferran Adrià to curate retrospective menu for Mirazur's 20th anniversary celebration",
+        "source": "The Upcoming",
+        "url": "https://www.theupcoming.co.uk/2025/12/17/ferran-adria-to-curate-retrospective-menu-for-mirazurs-20th-anniversary-celebration/"
+      },
+      {
+        "titre": "Best of the best: Mirazur's twentieth anniversary",
+        "source": "The World's 50 Best",
+        "url": "https://www.theworlds50best.com/stories/News/best-of-the-best-mirazur-twentieth-anniversary.html"
+      },
+      {
+        "titre": "France's Mirazur crowned world's best restaurant",
+        "source": "Malay Mail (AFP)",
+        "url": "https://www.malaymail.com/news/eat/drink/2019/06/26/frances-mirazur-crowned-worlds-best-restaurant-denmarks-noma-no.-2/1765558"
+      },
+      {
+        "titre": "It's a great moment for French gastronomy, world's best chef tells Euronews",
+        "source": "Euronews",
+        "url": "https://www.euronews.com/2019/06/28/it-s-a-great-moment-for-french-gastronomy-world-s-best-chef-tells-euronews"
+      },
+      {
+        "titre": "Mauro Colagreco to lead Roux Scholarship 2026",
+        "source": "The Staff Canteen",
+        "url": "https://www.thestaffcanteen.com/News/mauro-colagreco-to-lead-roux-scholarship-2026"
+      },
+      {
+        "titre": "Mauro Colagreco, pizzeria Pecora Negra a Menton",
+        "source": "Gambero Rosso",
+        "url": "https://www.gamberorosso.it/notizie/mauro-colagreco-pizzeria-pecora-negra-a-menton"
+      },
+      {
+        "titre": "Mauro Colagreco",
+        "source": "Mirazur",
+        "url": "https://www.mirazur.fr/mauro-colagreco.php?LNG=EN"
+      }
+    ],
+    "imageCommons": [
+      "Menton vieille ville",
+      "Menton port",
+      "Menton citrons"
+    ]
+  },
+  {
+    "id": "2026-06-02-portrait-gildo-pastor-venturi-space",
+    "lang": "fr",
+    "date": "2026-06-02",
+    "section": "Business",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Camille Rostand",
+    "slug": "portrait-gildo-pastor-venturi-space",
+    "titre": "Gildo Pastor, de la voiture électrique à la Lune : le patron de Venturi change d'échelle",
+    "chapo": "Au sommet Choose France, le propriétaire monégasque de Venturi a annoncé 250 millions d'euros d'investissement et près de 200 emplois à Toulouse pour sa branche spatiale. Vingt-cinq ans après avoir repris une marque en faillite.",
+    "corps": [
+      "Le décor était celui du château de Versailles, l'annonce celle d'un industriel. Au sommet Choose France, lundi, Gildo Pallanca Pastor a présenté un investissement de 250 millions d'euros dans un centre technologique de 16 000 m² à Toulouse, avec près de 200 emplois d'ici 2030, rapporte Le Journal des Entreprises. Le site doit porter les programmes lunaires de Venturi Space, dont le rover MONA LUNA, que l'Europe vise à envoyer sur la Lune en 2030.",
+      "Rien ne prédestinait la petite marque monégasque à l'espace. Homme d'affaires et promoteur immobilier à Monaco, Gildo Pastor rachète Venturi au début des années 2000, après la faillite du constructeur de voitures de sport. Il la réoriente entièrement vers les véhicules électriques, à une époque où le sujet intéresse peu les constructeurs.",
+      "Le pari passe d'abord par l'image. En 2002, Venturi présente la Fétish, une sportive électrique dessinée par Sacha Lakic, vendue en petite série à partir de 2004. Puis viennent les records : avec l'université d'État de l'Ohio, la Venturi Buckeye Bullet bat à plusieurs reprises le record de vitesse des véhicules électriques sur le lac salé de Bonneville. Le patron connaît lui-même la vitesse : en 1995, il avait établi un record sur glace au volant d'une Bugatti EB110.",
+      "En juin 2015, Venturi annonce l'arrêt de la production de voitures sous sa forme d'alors. L'entreprise se concentre sur la recherche et la compétition, avant un nouveau virage en 2020 : à l'initiative de son propriétaire, elle lance un programme de rover lunaire électrique, qui donnera naissance à Venturi Space.",
+      "Les étapes s'enchaînent depuis. En février 2025, l'astronaute Jean-François Clervoy devient ambassadeur de Venturi Space. En juin, la Cité de l'espace de Toulouse signe un partenariat avec la société, qui conçoit et fabrique dans la ville rose l'électronique embarquée du rover FLEX de son partenaire américain, Venturi Astrolab. Quelques jours plus tard, MONA LUNA est dévoilé au Salon du Bourget, présenté comme un rover entièrement européen.",
+      "Le groupe s'appuie aussi sur un partenaire de poids outre-Atlantique : la NASA a retenu le rover CLV-1, développé par Venturi Astrolab, pour transporter des astronautes sur la Lune à partir de 2028, selon Aeromorning.",
+      "Le patron monégasque ne s'enferme pas dans un seul métier. En mai 2025, il a annoncé avec le réalisateur Mathieu Kassovitz la création de Venturi Production, une société de cinéma. À Monaco, le prince Albert II a visité Venturi Space en novembre 2024, et quatre rovers ont été exposés à l'été 2025 dans la Collection de voitures du Prince.",
+      "Avec Toulouse, Venturi franchit un seuil. La PME née sur le Rocher devient un acteur industriel du spatial européen, sans avoir quitté Fontvieille, où le groupe garde son siège."
+    ],
+    "sources": [
+      "Le Journal des Entreprises",
+      "Aeromorning",
+      "Monaco Tribune",
+      "Monte-Carlo Société des Bains de Mer",
+      "Autoblog",
+      "Gildo Pastor",
+      "Wikipedia"
+    ],
+    "liens": [
+      {
+        "titre": "Venturi Space investit 250 millions d'euros dans son centre de technologies à Toulouse",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/article/venturi-space-investit-250-millions-deuros-dans-son-centre-de-technologies-toulouse-2143840"
+      },
+      {
+        "titre": "Venturi Space investit 250 M€ en France, 200 emplois d'ici 2030",
+        "source": "Aeromorning",
+        "url": "https://aeromorning.com/venturi-space-investit-250-me-en-france-200-emplois-dici-2030/"
+      },
+      {
+        "titre": "La Cité de l'espace de Toulouse signe un partenariat avec Venturi Space",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/la-cite-de-lespace-de-toulouse-signe-un-partenariat-avec-venturi-space-2121644"
+      },
+      {
+        "titre": "Découvrez les rovers spatiaux de demain à la Collection du Prince de Monaco",
+        "source": "Monaco Tribune",
+        "url": "https://www.monaco-tribune.com/2025/07/decouvrez-les-rovers-spatiaux-de-demain-a-la-collection-du-prince-de-monaco/"
+      },
+      {
+        "titre": "Rencontre avec Gildo Pallanca Pastor, Venturi",
+        "source": "Monte-Carlo Société des Bains de Mer",
+        "url": "https://www.montecarlosbm.com/fr/inspiration/rencontre-gildo-pallanca-pastor-venturi"
+      },
+      {
+        "titre": "Venturi pulls plug on car production, Voxan brand",
+        "source": "Autoblog",
+        "url": "https://www.autoblog.com/2015/06/27/venturi-pulls-plug-on-car-production-voxan-brand/"
+      },
+      {
+        "titre": "Biography",
+        "source": "Gildo Pastor",
+        "url": "https://www.gildo.com/en/biography/"
+      },
+      {
+        "titre": "Venturi (company)",
+        "source": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Venturi_(company)"
+      }
+    ],
+    "imageCommons": [
+      "Fontvieille Monaco",
+      "Monaco Fontvieille port",
+      "lunar rover"
+    ]
+  },
+  {
+    "id": "2026-06-16-portrait-riccardo-giraudi-beefbar",
+    "lang": "fr",
+    "date": "2026-06-16",
+    "precision": "mois",
+    "section": "Business",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Camille Rostand",
+    "slug": "portrait-riccardo-giraudi-beefbar",
+    "titre": "Riccardo Giraudi, l'homme qui a fait de Beefbar un empire mondial de la viande",
+    "chapo": "Né sur le Rocher en 2005, le concept de restaurant du patron du groupe Giraudi compte une quarantaine d'adresses dans le monde. Il s'installe cette saison au Majestic Barrière de Cannes.",
+    "corps": [
+      "La Croisette a désormais son Beefbar. L'enseigne de restaurants de viande haut de gamme a ouvert à l'hôtel Barrière Le Majestic, à Cannes, rapporte The Glass Magazine. Une adresse de plus pour un concept né il y a vingt ans à quelques kilomètres de là, à Monaco, dans la tête de Riccardo Giraudi.",
+      "L'histoire commence avec l'entreprise familiale. Le groupe Giraudi a été fondé en 1968 à Monaco par Erminio Giraudi, son père, pour importer et exporter de la viande haut de gamme. Riccardo Giraudi en est aujourd'hui le directeur général.",
+      "En 2005, il ouvre le premier Beefbar à Monaco, d'abord pour mettre en valeur les viandes que le groupe importe. Le restaurant devient un concept à part entière, que l'on décline de ville en ville. Selon Monaco Tribune, Beefbar comptait au printemps 2024 une quarantaine d'établissements dans le monde. Le site de la marque attribue à son fondateur plus de 30 concepts de restauration, de Monaco à l'Amérique, de l'Europe à l'Asie.",
+      "La viande reste le cœur du métier. En 2014, le groupe devient le premier importateur européen de bœuf de Kobe certifié, puis lance en 2016 des gammes premium de ce bœuf japonais. À Monaco, Riccardo Giraudi a aussi créé l'enseigne de burgers Grubers et le restaurant Song Qi.",
+      "La reconnaissance est venue de la profession. En juin 2025, Beefbar a été classé premier groupe mondial de restaurants de viande au palmarès des World's 101 Best Steak Restaurants, pour la troisième année consécutive. L'enseigne a fêté ses 20 ans en novembre 2025.",
+      "Le développement passe par des alliances. En 2023, le groupe Barrière a signé un partenariat avec Beefbar, qui a notamment ouvert à Saint-Barthélemy. L'arrivée au Majestic de Cannes prolonge cette collaboration avec le groupe hôtelier.",
+      "Tout ne réussit pas pour autant : le Petit Beefbar de l'avenue Franklin-D.-Roosevelt, à Paris, a fermé en novembre 2025, et celui de Chelsea, à Londres, au printemps 2026. Mais le groupe prépare déjà la suite outre-Manche, avec l'ouverture annoncée le 10 septembre d'un Beefbar baptisé Dear Jackie dans le quartier de Soho.",
+      "À la tête d'un groupe familial devenu un réseau international, Riccardo Giraudi incarne une réussite rare dans la restauration : un concept né dans une principauté de 2 km², exporté sur plusieurs continents."
+    ],
+    "sources": [
+      "The Glass Magazine",
+      "Monaco Tribune",
+      "Visit Monaco",
+      "Groupe Barrière",
+      "FoodNavigator",
+      "Lesrestos.com",
+      "FACT Magazine",
+      "Wikipedia"
+    ],
+    "liens": [
+      {
+        "titre": "Beefbar au Majestic Barrière de Cannes",
+        "source": "The Glass Magazine",
+        "url": "https://theglassmagazine.com/2026/06/16/"
+      },
+      {
+        "titre": "Beefbar sacré n°1 mondial pour la troisième année consécutive",
+        "source": "Monaco Tribune",
+        "url": "https://www.monaco-tribune.com/2025/06/beefbar-sacre-n1-mondial-pour-la-troisieme-annee-consecutive/"
+      },
+      {
+        "titre": "Le Beefbar : découvrez le luxe culinaire du steakhouse qui fait le tour du monde",
+        "source": "Monaco Tribune",
+        "url": "https://www.monaco-tribune.com/2024/04/le-beefbar-decouvrez-le-luxe-culinaire-du-steakhouse-qui-fait-le-tour-du-monde/"
+      },
+      {
+        "titre": "Beefbar celebrates its 20th anniversary",
+        "source": "Visit Monaco",
+        "url": "https://media-trade.visitmonaco.com/en/editorial-resources/press-releases/beefbar-celebrates-its-20th-anniversary"
+      },
+      {
+        "titre": "Partenariat Barrière et Beefbar",
+        "source": "Groupe Barrière",
+        "url": "https://www.groupebarriere.com/en/our-news/press-releases/barriere-partnership-beefbar"
+      },
+      {
+        "titre": "Giraudi launches premium Kobe beef lines",
+        "source": "FoodNavigator",
+        "url": "https://www.foodnavigator.com/Article/2016/10/24/Giraudi-launches-premium-Kobe-beef-lines/"
+      },
+      {
+        "titre": "Fermeture du Petit Beefbar à Paris",
+        "source": "Lesrestos.com",
+        "url": "https://www.lesrestos.com/decouvrir/info-du-jour/fermeture-du-petit-beefbar-a-paris"
+      },
+      {
+        "titre": "Beefbar arrives in Soho with steaks and street food at Dear Jackie",
+        "source": "FACT Magazine",
+        "url": "https://www.factmagazines.com/london/beefbar-arrives-in-soho-with-steaks-and-street-food-at-dear-jackie/"
+      },
+      {
+        "titre": "Riccardo Giraudi",
+        "source": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Riccardo_Giraudi"
+      }
+    ],
+    "imageCommons": [
+      "Hôtel Barrière Le Majestic Cannes",
+      "La Croisette Cannes",
+      "Monaco Monte-Carlo panorama"
+    ]
+  },
+  {
+    "id": "2026-06-13-portrait-marianne-estene-chauvin-belles-rives",
+    "lang": "fr",
+    "date": "2026-06-13",
+    "section": "Événementiel",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Léa Fontaine",
+    "slug": "portrait-marianne-estene-chauvin-belles-rives",
+    "titre": "Marianne Estène-Chauvin, la gardienne du Belles Rives qui fait vivre l'esprit de Fitzgerald à Juan-les-Pins",
+    "chapo": "Présidente du groupe Belles Rives, elle a repris en 2001 l'hôtel familial et créé en 2011 un prix littéraire. La 15e édition du Prix Fitzgerald vient de couronner Julian Barnes.",
+    "corps": [
+      "Vendredi soir, au bord de l'eau, le jury du Prix Fitzgerald a couronné l'écrivain britannique Julian Barnes pour son roman Départ(s), paru chez Stock en janvier, rapporte Le Journal des Palaces. Quinzième édition d'un prix né au Belles Rives, l'hôtel de Juan-les-Pins que dirige Marianne Estène-Chauvin.",
+      "L'hôtel appartient à la même famille depuis les années 1930, et l'histoire y est partout : c'est dans cette villa que l'écrivain américain Francis Scott Fitzgerald a séjourné, et le piano-bar de l'établissement porte son nom. Marianne Estène-Chauvin y est entrée pour seconder son oncle, avant d'en prendre la direction.",
+      "La reprise, en 2001, n'a rien d'une formalité. Selon le récit qu'elle en a fait au cabinet Grant Thornton, elle a dû convaincre des financiers pour reprendre l'établissement, puis a mené sa rénovation. Quelques années plus tard, elle fait entrer un second hôtel dans le giron familial, l'Hôtel Juana, à Juan-les-Pins.",
+      "Le groupe Belles Rives compte aujourd'hui deux hôtels cinq étoiles, trois restaurants dont un étoilé, deux bars, une plage privée et un club de sports nautiques, selon Le Journal des Palaces. Son restaurant gastronomique, La Passagère, a décroché une étoile au guide Michelin. Fidèle à la tradition des hôtels de bord de mer, le Belles Rives ouvre de mars au début de l'hiver, et sa plage d'avril à octobre.",
+      "C'est par la littérature que la présidente a choisi de faire rayonner la maison. En 2011, elle crée le Prix Fitzgerald, dont elle préside l'académie. Le prix a depuis distingué des auteurs comme des cinéastes : Quentin Tarantino en a été lauréat.",
+      "L'hôtel s'est aussi ouvert aux soirées caritatives et culturelles. Le Belles Rives organise le Bal des Rêves, dont la cinquième édition est annoncée pour le 12 septembre, et sa présidente a cofondé l'initiative artistique Greenlight.",
+      "Dans une hôtellerie de luxe de plus en plus dominée par les grands groupes, le Belles Rives reste une maison indépendante et familiale, où la quatrième génération est désormais associée à la gestion. Un modèle que Marianne Estène-Chauvin défend en misant sur ce que les chaînes ne peuvent pas acheter : une histoire."
+    ],
+    "sources": [
+      "Le Journal des Palaces",
+      "Tendance Hôtellerie",
+      "Grant Thornton",
+      "Livres Hebdo",
+      "Hotels Magazine"
+    ],
+    "liens": [
+      {
+        "titre": "Belles Rives : découvrez le lauréat du Prix Fitzgerald 2026",
+        "source": "Le Journal des Palaces",
+        "url": "https://journaldespalaces.com/communique-78596-belles-rives-decouvrez-le-laureat-du-prix-fitzgerald-2026.html"
+      },
+      {
+        "titre": "Portrait de Marianne Estène-Chauvin, présidente du groupe Belles Rives",
+        "source": "Tendance Hôtellerie",
+        "url": "https://www.tendancehotellerie.fr/portraits/1149-article/portrait-de-marianne-estene-chauvin-presidente-du-groupe-belles-rives-a-juan-les-pins-la-passagere-devenue-commandant-de-son-paquebot"
+      },
+      {
+        "titre": "Millésimées : Marianne Estène-Chauvin",
+        "source": "Grant Thornton",
+        "url": "https://www.grantthornton.fr/globalassets/1.-member-firms/france/images/insights/2023/2023-03-13_millesimees_marianne-estene-chauvin.pdf"
+      },
+      {
+        "titre": "Who's who : Marianne Estène-Chauvin, présidente du groupe Belles Rives",
+        "source": "Le Journal des Palaces",
+        "url": "https://www.journaldespalaces.com/pressrelease-20891-who-s-who-marianne-estene-chauvin-president-groupe-belles-rives-hotel-belles-rives-hotel-juana-.html"
+      },
+      {
+        "titre": "Belles Rives : le Bal des Rêves revient pour sa 5e édition",
+        "source": "Le Journal des Palaces",
+        "url": "https://journaldespalaces.com/communique-78950-france-belles-rives-le-bal-des-reves-revient-pour-sa-5e-edition-le-12-septembre-prochain.html"
+      },
+      {
+        "titre": "Lancement du Prix Fitzgerald",
+        "source": "Livres Hebdo",
+        "url": "https://www.livreshebdo.fr/article/lancement-du-prix-fitzgerald"
+      },
+      {
+        "titre": "Quentin Tarantino lauréat du Prix Fitzgerald",
+        "source": "Livres Hebdo",
+        "url": "https://www.livreshebdo.fr/article/quentin-tarantino-laureat-du-prix-fitzgerald"
+      },
+      {
+        "titre": "Belles Rives' literary legacy helps it write new history",
+        "source": "Hotels Magazine",
+        "url": "https://hotelsmag.com/news/belles-rives-literary-legacy-helps-it-write-new-history"
+      }
+    ],
+    "imageCommons": [
+      "Juan-les-Pins",
+      "Juan-les-Pins plage",
+      "Cap d'Antibes"
+    ]
+  },
+  {
+    "id": "2026-07-23-portrait-fredrik-brag-median-technologies",
+    "lang": "fr",
+    "date": "2026-07-23",
+    "precision": "mois",
+    "section": "Tech",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Nathan Belkacem",
+    "slug": "portrait-fredrik-brag-median-technologies",
+    "titre": "Fredrik Brag, le Suédois de Sophia Antipolis qui fait entrer l'IA dans le dépistage du cancer du poumon",
+    "chapo": "Fondateur de Median Technologies en 2002, il a obtenu cette année l'autorisation américaine puis européenne de son logiciel eyonis LCS. La société affiche un carnet de commandes record.",
+    "corps": [
+      "Vingt-quatre ans après avoir créé Median Technologies, Fredrik Brag voit l'aboutissement d'un long pari. Le logiciel eyonis LCS, qui aide les médecins à repérer et caractériser les nodules pulmonaires sur les scanners grâce à l'intelligence artificielle, a obtenu en février l'autorisation de la FDA américaine, puis en juillet le marquage CE européen. La société de Sophia Antipolis peut désormais le commercialiser des deux côtés de l'Atlantique.",
+      "Le fondateur résume l'étape dans le dernier communiqué du groupe : « Nous avons également franchi des étapes réglementaires majeures pour eyonis LCS, avec l'autorisation de la FDA aux États-Unis et le marquage CE en Europe » (traduit de l'anglais). Le jour de l'annonce américaine, le titre de la société cotée sur Euronext Growth s'est envolé en Bourse.",
+      "Fredrik Brag est suédois, diplômé de la Stockholm School of Economics en 1985. Avant Median, il a dirigé de 1997 à 2002 la société Health Center, Inc. En 2002, il fonde Median Technologies sur la technopole azuréenne. Il en a été président-directeur général jusqu'en avril 2019, avant de conserver la seule direction générale.",
+      "Le parcours n'a pas été simple. Interrogé en 2023 par la revue suédoise Pharma Industry, il racontait s'être tourné vers la Silicon Valley pour trouver des investisseurs, faute d'appuis suffisants en France.",
+      "L'entreprise vit d'abord d'un autre métier. Son activité dite iCRO consiste à analyser les images médicales des essais cliniques pour les laboratoires pharmaceutiques. Elle a généré l'intégralité des 23,5 millions d'euros de chiffre d'affaires de 2025, en hausse de 2,6 %. Fin juin 2026, son carnet de commandes atteignait le niveau record de 82,4 millions d'euros, en hausse de 15,6 % sur un an, avec une trésorerie de 60,8 millions d'euros.",
+      "Eyonis LCS doit ouvrir un second relais de croissance. Median a signé en décembre 2025 un premier accord de distribution avec un grand groupe de santé américain, et a nommé Oran Muduroglu à la présidence de sa filiale américaine. La priorité est désormais le lancement commercial aux États-Unis.",
+      "La société a aussi resserré ses coûts : son effectif est passé de 259 salariés fin 2023 à 227 fin 2024, et sa perte opérationnelle a reculé de 28 % en 2025, selon la presse spécialisée. Le Journal des Entreprises évoque aujourd'hui une entreprise d'environ 220 salariés.",
+      "Pour Sophia Antipolis, Median fait partie des sociétés de la technopole qui portent un logiciel d'intelligence artificielle médicale jusqu'à l'autorisation américaine. Pour son fondateur, c'est la fin d'une longue phase de développement et le début de la commercialisation."
+    ],
+    "sources": [
+      "Business Wire",
+      "Le Journal des Entreprises",
+      "Median Technologies",
+      "MarketScreener",
+      "Pharma Industry"
+    ],
+    "liens": [
+      {
+        "titre": "Median Technologies reports record iCRO backlog, accelerates commercial rollout of eyonis LCS",
+        "source": "Business Wire",
+        "url": "https://secure.businesswire.com/news/home/20260722597303/en/Median-Technologies-Reports-Record-iCRO-Backlog-Accelerates-Commercial-Rollout-of-eyonis-LCS-and-Development-of-New-Indications-Across-the-eyonis-Portfolio"
+      },
+      {
+        "titre": "Median Technologies affiche un carnet de commandes record",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/median-technologies-affiche-un-carnet-de-commandes-record-2147072"
+      },
+      {
+        "titre": "FDA clearance sets stage for U.S. commercialization of eyonis LCS",
+        "source": "Median Technologies",
+        "url": "https://mediantechnologies.com/investors/press-releases/fda-clearance-sets-stage-for-u-s-commercialization-of-eyonis-lcs-software-as-a-medical-device-for-lung-cancer-screening-oran-muduroglu-appointed-president-of-median-eyo"
+      },
+      {
+        "titre": "Median Technologies soars after receiving FDA 510(k) clearance",
+        "source": "MarketScreener",
+        "url": "https://www.marketscreener.com/news/median-technologies-soars-after-receiving-fda-510-k-clearance-ce7e5adedc80f527"
+      },
+      {
+        "titre": "Chiffre d'affaires 2025 de Median Technologies",
+        "source": "Business Wire",
+        "url": "https://businesswire.com/news/home/20260118381717/fr"
+      },
+      {
+        "titre": "Median Technologies reports full-year 2025 financial results",
+        "source": "Median Technologies",
+        "url": "https://mediantechnologies.com/investors/press-releases/median-technologies-reports-full-year-2025-financial-results-and-provides-key-q1-2026-business-highlights/"
+      },
+      {
+        "titre": "Entreprenören i fokus",
+        "source": "Pharma Industry",
+        "url": "https://www.pharma-industry.se/wp-content/uploads/2023/05/PI-nr-2-2023-entreprenoren-i-fokus.pdf"
+      },
+      {
+        "titre": "Fredrik Brag",
+        "source": "MarketScreener",
+        "url": "https://marketscreener.com/insider/FREDRIK-BRAG-A08CPS/"
+      }
+    ],
+    "imageCommons": [
+      "CT scanner hospital",
+      "Sophia Antipolis",
+      "computed tomography scanner"
+    ]
+  },
+  {
+    "id": "2026-04-16-portrait-justine-lipuma-mycophyto",
+    "lang": "fr",
+    "date": "2026-04-16",
+    "section": "Tech",
+    "rubrique": "Portrait",
+    "emoji": "",
+    "type": "article",
+    "auteur": "Nathan Belkacem",
+    "slug": "portrait-justine-lipuma-mycophyto",
+    "titre": "Justine Lipuma, la microbiologiste de Grasse qui veut remplacer les pesticides par des champignons",
+    "chapo": "Cofondatrice de Mycophyto en 2017, elle a bouclé en janvier une levée de 16 millions d'euros. Sa start-up ouvre une filiale au Maroc, première étape de son expansion internationale.",
+    "corps": [
+      "Sous nos pieds, des champignons microscopiques vivent en symbiose avec les racines des plantes et les aident à se nourrir. C'est sur cette alliance, la mycorhize, que Justine Lipuma a bâti Mycophyto. La start-up grassoise annonce l'ouverture d'une filiale au Maroc, rapporte Le Journal des Entreprises. Premier pas concret d'une expansion internationale qui vise aussi l'Espagne, la Côte d'Ivoire et le Benelux.",
+      "Ce développement a été rendu possible par une levée de fonds de série A de 16 millions d'euros, finalisée en janvier, la plus importante de l'histoire de l'entreprise. Le tour de table réunit Innovacom, BNP Paribas et le fonds DeepTech 2030 géré par Bpifrance, avec CDG Invest, Noshaq et les actionnaires historiques, dont Région Sud Investissement et le Crédit Agricole. Un actionnaire stratégique l'a rejoint ensuite, selon CFNews.",
+      "Docteure en microbiologie, Justine Lipuma a fondé Mycophyto en 2017 à Sophia Antipolis avec Christine Poncet, ingénieure agronome. La société est issue des laboratoires de l'INRAE et d'Université Côte d'Azur. Son principe : produire des solutions biologiques à base de champignons mycorhiziens pour renforcer les cultures et réduire le recours aux engrais et aux pesticides.",
+      "Les débuts sont ceux d'une jeune pousse de la recherche. Mycophyto remporte le concours d'innovation i-Lab, puis lève 1,4 million d'euros en 2019 pour proposer une alternative biologique aux pesticides. Une nouvelle levée d'un peu plus de 4 millions d'euros suit. En 2022, l'entreprise compte 19 salariés ; elle en réunit aujourd'hui une trentaine, à Grasse.",
+      "Le défi est industriel. Produire des champignons vivants en grande quantité ne s'improvise pas, et sa dirigeante annonçait déjà préparer « l'industrialisation de masse » de ses champignons mycorhiziens.",
+      "Justine Lipuma s'est aussi imposée dans l'écosystème régional. Elle est entrée dans la gouvernance de la French Tech Côte d'Azur, aux côtés d'autres dirigeantes de Sophia Antipolis. Fin octobre 2024, elle faisait partie de la délégation d'entrepreneurs qui accompagnait le président de la République lors de sa visite d'État au Maroc, pays où Mycophyto s'installe aujourd'hui.",
+      "L'agriculture cherche des solutions pour réduire les produits chimiques sans perdre en rendement. Mycophyto parie sur la biologie du sol, et sa présidente sur l'idée qu'une start-up née d'un laboratoire azuréen peut devenir un acteur international de l'agriculture."
+    ],
+    "sources": [
+      "Le Journal des Entreprises",
+      "FreshPlaza",
+      "CFNews",
+      "FrenchWeb"
+    ],
+    "liens": [
+      {
+        "titre": "La deeptech Mycophyto ouvre une filiale au Maroc",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/la-deeptech-mycophyto-ouvre-une-filiale-au-maroc-2141153"
+      },
+      {
+        "titre": "La deeptech Mycophyto finalise une levée de fonds de 16 millions d'euros",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/la-deeptech-mycophyto-finalise-une-levee-de-fonds-de-16-millions-deuros-2134295"
+      },
+      {
+        "titre": "Mycophyto closes €16 million financing round",
+        "source": "FreshPlaza",
+        "url": "https://www.freshplaza.com/north-america/article/9800940/mycophyto-closes-eur16-million-financing-round/"
+      },
+      {
+        "titre": "Un actionnaire stratégique germe chez Mycophyto",
+        "source": "CFNews",
+        "url": "https://cfnews.net/L-actualite/Capital-innovation/Operations/1er-tour/Un-actionnaire-strategique-germe-chez-Mycophyto-578172"
+      },
+      {
+        "titre": "Mycophyto : « Nous préparons l'industrialisation de masse de nos champignons mycorhiziens »",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/article/mycophyto-nous-preparons-lindustrialisation-de-masse-de-nos-champignons-mycorhiziens-2052293"
+      },
+      {
+        "titre": "Mycophyto et Justine Lipuma en voyage présidentiel au Maroc",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/mycophyto-et-justine-lipuma-en-voyage-presidentiel-au-maroc-2106282"
+      },
+      {
+        "titre": "La start-up Mycophyto lève 1,4 million d'euros pour proposer une alternative biologique aux pesticides",
+        "source": "FrenchWeb",
+        "url": "https://www.frenchweb.fr/la-startup-mycophyto-leve-14-million-deuros-pour-proposer-une-alternative-biologique-aux-pesticides/377096"
+      },
+      {
+        "titre": "Mycophyto lauréate du 21e concours d'innovation i-Lab",
+        "source": "Le Journal des Entreprises",
+        "url": "https://www.lejournaldesentreprises.com/breve/mycophyto-laureate-du-21e-concours-innovation-i-lab-271436"
+      }
+    ],
+    "imageCommons": [
+      "mycorrhiza",
+      "plant roots soil",
+      "Grasse panorama"
+    ]
   }
 ]

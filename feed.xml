@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Sat, 07 Nov 2026 11:20:35 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 11:24:58 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Agnès Costa, la sœur qui porte Fragonard jusqu'à son centenaire</title>
+    <link>https://echodesanges.fr/a/2026-11-07-portrait-agnes-costa-fragonard-centenaire.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-11-07-portrait-agnes-costa-fragonard-centenaire.html</guid>
+    <pubDate>Sat, 07 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Avec Françoise et Anne, elle dirige la maison grassoise fondée par son arrière-grand-père en 1926. Le parfumeur fête ses cent ans avec une exposition à…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-3.jpg" medium="image"/>
+  </item>
   <item>
     <title>Audit des finances de Nice : Éric Ciotti charge la gestion Estrosi, qui conteste les chiffres</title>
     <link>https://echodesanges.fr/a/2026-11-06-audit-des-finances-de-nice-eric-ciotti-charge-la-gestion-est.html</link>
@@ -158,6 +167,15 @@
     <media:content url="https://echodesanges.fr/img/entreprises/shadow-sante-leve-2-5-millions-hopitaux.jpg" medium="image"/>
   </item>
   <item>
+    <title>Fredrik Brag, le Suédois de Sophia Antipolis qui fait entrer l'IA dans le dépistage du cancer du poumon</title>
+    <link>https://echodesanges.fr/a/2026-07-23-portrait-fredrik-brag-median-technologies.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-07-23-portrait-fredrik-brag-median-technologies.html</guid>
+    <pubDate>Thu, 23 Jul 2026 06:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>Fondateur de Median Technologies en 2002, il a obtenu cette année l'autorisation américaine puis européenne de son logiciel eyonis LCS. La société…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-1.jpg" medium="image"/>
+  </item>
+  <item>
     <title>Réserver son transat en un clic : les Niçois de MySunbed lèvent 1,6 million d'euros et visent Paris</title>
     <link>https://echodesanges.fr/a/2026-06-23-mysunbed-transats-plages-paris.html</link>
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-06-23-mysunbed-transats-plages-paris.html</guid>
@@ -176,6 +194,24 @@
     <media:content url="https://echodesanges.fr/img/articles/jwj-climathon.jpg" medium="image"/>
   </item>
   <item>
+    <title>Riccardo Giraudi, l'homme qui a fait de Beefbar un empire mondial de la viande</title>
+    <link>https://echodesanges.fr/a/2026-06-16-portrait-riccardo-giraudi-beefbar.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-06-16-portrait-riccardo-giraudi-beefbar.html</guid>
+    <pubDate>Tue, 16 Jun 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Né sur le Rocher en 2005, le concept de restaurant du patron du groupe Giraudi compte une quarantaine d'adresses dans le monde. Il s'installe cette…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Marianne Estène-Chauvin, la gardienne du Belles Rives qui fait vivre l'esprit de Fitzgerald à Juan-les-Pins</title>
+    <link>https://echodesanges.fr/a/2026-06-13-portrait-marianne-estene-chauvin-belles-rives.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-06-13-portrait-marianne-estene-chauvin-belles-rives.html</guid>
+    <pubDate>Sat, 13 Jun 2026 06:00:00 GMT</pubDate>
+    <category>Événementiel</category>
+    <description>Présidente du groupe Belles Rives, elle a repris en 2001 l'hôtel familial et créé en 2011 un prix littéraire. La 15e édition du Prix Fitzgerald vient de…</description>
+    <media:content url="https://echodesanges.fr/img/stock/evenementiel-3.jpg" medium="image"/>
+  </item>
+  <item>
     <title>Pearcode lance son « Coffre-fort ADN » : des données numériques archivées dans des molécules</title>
     <link>https://echodesanges.fr/a/2026-06-05-pearcode-coffre-fort-adn-sophia-antipolis.html</link>
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-06-05-pearcode-coffre-fort-adn-sophia-antipolis.html</guid>
@@ -183,6 +219,15 @@
     <category>Tech</category>
     <description>Issue du CNRS et d'Université Côte d'Azur, la start-up de Sophia Antipolis dirigée par Melpomeni Dimopoulou commercialise sa première offre d'archivage…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/pearcode-coffre-fort-adn-sophia-antipolis.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Gildo Pastor, de la voiture électrique à la Lune : le patron de Venturi change d'échelle</title>
+    <link>https://echodesanges.fr/a/2026-06-02-portrait-gildo-pastor-venturi-space.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-06-02-portrait-gildo-pastor-venturi-space.html</guid>
+    <pubDate>Tue, 02 Jun 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Au sommet Choose France, le propriétaire monégasque de Venturi a annoncé 250 millions d'euros d'investissement et près de 200 emplois à Toulouse pour sa…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Travaux publics : chez Renaudi, la troisième génération prend place à Cagnes-sur-Mer</title>
@@ -219,6 +264,15 @@
     <media:content url="https://echodesanges.fr/img/entreprises/citycare-guillaume-fornas-pdg-defibrillateurs.jpg" medium="image"/>
   </item>
   <item>
+    <title>Justine Lipuma, la microbiologiste de Grasse qui veut remplacer les pesticides par des champignons</title>
+    <link>https://echodesanges.fr/a/2026-04-16-portrait-justine-lipuma-mycophyto.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-04-16-portrait-justine-lipuma-mycophyto.html</guid>
+    <pubDate>Thu, 16 Apr 2026 06:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>Cofondatrice de Mycophyto en 2017, elle a bouclé en janvier une levée de 16 millions d'euros. Sa start-up ouvre une filiale au Maroc, première étape de…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-4.jpg" medium="image"/>
+  </item>
+  <item>
     <title>Krokola, le chocolatier marseillais qui a ressuscité Merveilles du Monde, vise les 10 millions d'euros</title>
     <link>https://echodesanges.fr/a/2026-04-15-krokola-merveilles-du-monde-10-millions.html</link>
     <guid isPermaLink="true">https://echodesanges.fr/a/2026-04-15-krokola-merveilles-du-monde-10-millions.html</guid>
@@ -235,6 +289,24 @@
     <category>Nice &amp; Côte d'Azur</category>
     <description>L'agglomération Cannes Lérins expérimente le dispositif de la start-up de Sophia Antipolis cofondée par Charlotte et Samuel Dupont, qui prédit…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/bioceanor-bouee-connectee-baie-de-cannes.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Samantha Mane, l'héritière qui fait passer le groupe familial de Bar-sur-Loup au-dessus des 2 milliards</title>
+    <link>https://echodesanges.fr/a/2026-04-08-portrait-samantha-mane-groupe-mane.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-04-08-portrait-samantha-mane-groupe-mane.html</guid>
+    <pubDate>Wed, 08 Apr 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Première femme à diriger Mane depuis sa fondation en 1871, elle signe sa première acquisition et un chiffre d'affaires record dès sa première année à la…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Mauro Colagreco, vingt ans de Mirazur : du chef de Menton au patron d'un groupe mondial</title>
+    <link>https://echodesanges.fr/a/2026-04-01-portrait-mauro-colagreco-mirazur-20-ans.html</link>
+    <guid isPermaLink="true">https://echodesanges.fr/a/2026-04-01-portrait-mauro-colagreco-mirazur-20-ans.html</guid>
+    <pubDate>Wed, 01 Apr 2026 06:00:00 GMT</pubDate>
+    <category>Nice &amp; Côte d'Azur</category>
+    <description>Arrivé d'Argentine en 2001, il a ouvert sa table au-dessus de la Méditerranée en 2006. Le Mirazur fête ses 20 ans avec un menu conçu avec Ferran Adrià…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-1.jpg" medium="image"/>
   </item>
   <item>
     <title>Data centers sobres pour l'IA : le niçois Datagreen s'installe à Monaco avec Telis</title>
@@ -372,67 +444,6 @@
     <pubDate>Wed, 14 Sep 2022 06:00:00 GMT</pubDate>
     <category>Sport</category>
     <description>Fondée en 2020 par Paul Guinard et Olivier Guigonis, la jeune marque niçoise d'équipements sportifs circulaires sort sa première collection pour les…</description>
-  </item>
-  <item>
-    <title>Le groupe niçois Sclavo se lance dans la déconstruction des bateaux de plaisance à Fréjus</title>
-    <link>https://echodesanges.fr/a/2022-05-12-sclavo-deconstruction-bateaux-frejus.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2022-05-12-sclavo-deconstruction-bateaux-frejus.html</guid>
-    <pubDate>Thu, 12 May 2022 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Agréée par l'éco-organisme de la filière, l'entreprise familiale de gestion des déchets met en service au printemps une installation dédiée aux bateaux…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/sclavo-deconstruction-bateaux-frejus.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Irrigation connectée : Telaqua lève 4 millions d'euros, avec CMA CGM à son capital</title>
-    <link>https://echodesanges.fr/a/2022-05-11-telaqua-leve-4-millions-irrigation-connectee.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2022-05-11-telaqua-leve-4-millions-irrigation-connectee.html</guid>
-    <pubDate>Wed, 11 May 2022 06:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>La start-up provençale, cofondée par Sébastien Demech, installe des capteurs sur les réseaux d'irrigation des agriculteurs pour économiser l'eau. Le tour…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/telaqua-leve-4-millions-irrigation-connectee.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Smart &amp; Connective veut faire baisser la facture énergétique des bureaux grâce aux objets connectés</title>
-    <link>https://echodesanges.fr/a/2022-07-01-smart-connective-batiments-connectes-sophia.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2022-07-01-smart-connective-batiments-connectes-sophia.html</guid>
-    <pubDate>Sat, 01 Jan 2022 07:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Cofondée en 2021 à Valbonne par Ambre Saurat, la start-up pilote à distance l'éclairage, le chauffage et la climatisation des bâtiments tertiaires.</description>
-  </item>
-  <item>
-    <title>Ophélie Mandier prend la tête du groupe Pierman, spécialiste fréjusien des composites</title>
-    <link>https://echodesanges.fr/a/2021-08-20-ophelie-mandier-groupe-pierman-frejus.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2021-08-20-ophelie-mandier-groupe-pierman-frejus.html</guid>
-    <pubDate>Fri, 20 Aug 2021 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Elle succède à son père, Pierre Mandier, qui a bâti par acquisitions successives ce groupe industriel familial.</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/ophelie-mandier-groupe-pierman-frejus.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Venue du musée Picasso, Camille Frasca prend la direction des musées de la Citadelle de Villefranche</title>
-    <link>https://echodesanges.fr/a/2021-06-15-camille-frasca-musees-citadelle-villefranche.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2021-06-15-camille-frasca-musees-citadelle-villefranche.html</guid>
-    <pubDate>Tue, 15 Jun 2021 06:00:00 GMT</pubDate>
-    <category>Événementiel</category>
-    <description>Sélectionnée sur projet par un jury, la conservatrice dirigera les musées Volti, Goetz-Boumeester et Roux, installés dans la forteresse du XVIe siècle…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/camille-frasca-musees-citadelle-villefranche.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Marseille : Tchek lève 3 millions d'euros pour inspecter les véhicules par intelligence artificielle</title>
-    <link>https://echodesanges.fr/a/2021-01-20-tchek-leve-3-millions-inspection-vehicules.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2021-01-20-tchek-leve-3-millions-inspection-vehicules.html</guid>
-    <pubDate>Wed, 20 Jan 2021 07:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>La start-up cofondée par Anton Fert en 2016 boucle un tour de table mené par Demeter, avec Région Sud Investissement, pour s'attaquer à l'occasion, à la…</description>
-  </item>
-  <item>
-    <title>Trois anciens de SeaBubbles lancent NepTech pour concevoir des bateaux bas carbone</title>
-    <link>https://echodesanges.fr/a/2020-07-01-neptech-bateaux-bas-carbone-aix.html</link>
-    <guid isPermaLink="true">https://echodesanges.fr/a/2020-07-01-neptech-bateaux-bas-carbone-aix.html</guid>
-    <pubDate>Wed, 01 Jan 2020 07:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Créée à Aix-en-Provence par Corentin Bigot, Tanguy Goetz et Clément Rousset, la start-up est lauréate du Réseau Entreprendre Provence.</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/neptech-bateaux-bas-carbone-aix.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
