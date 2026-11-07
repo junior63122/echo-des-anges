@@ -12,7 +12,10 @@
       locale: "fr-FR",
       menu: "Rubriques",
       home: "À la une",
+      notFound: "Page introuvable",
       homeH1: "L'Écho des Anges, actualité de Nice, Cannes, Monaco et de la Côte d'Azur",
+      homeTitle: "L'Écho des Anges : l'actualité de Nice, Cannes, Monaco et de la Côte d'Azur",
+      homeDesc: "L'Écho des Anges, quotidien d'information de Nice depuis 2018 : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, tech, événementiel et sport.",
       topics: "Sujets",
       live: "En continu",
       now: "À l'instant",
@@ -58,7 +61,10 @@
       locale: "en-GB",
       menu: "Sections",
       home: "Front page",
+      notFound: "Page not found",
       homeH1: "L'Écho des Anges, news from Nice, Cannes, Monaco and the French Riviera",
+      homeTitle: "L'Écho des Anges: news from Nice, Cannes, Monaco and the French Riviera",
+      homeDesc: "L'Écho des Anges, the daily of the Baie des Anges: news from Nice, Cannes, Monaco and the French Riviera, business, tech, events and sport.",
       topics: "Topics",
       live: "Live",
       now: "Just in",
@@ -107,10 +113,10 @@
     ["Nathan Belkacem", "Tech"], ["Sofia Delmas", "Monde"], ["Lucas Giordano", "Nice & Côte d'Azur"], ["Inès Morel", "Sport"],
   ];
 
-  // Langue : ?lang=en, sinon choix mémorisé, sinon langue du navigateur.
-  let lang = new URLSearchParams(location.search).get("lang");
-  if (!I18N[lang]) { try { lang = localStorage.getItem("journal-lang"); } catch (e) { lang = null; } }
-  if (!I18N[lang]) lang = (navigator.language || "fr").toLowerCase().startsWith("fr") ? "fr" : "en";
+  // Langue : donnée par l'adresse (/en/… pour l'édition anglaise).
+  const langDe = (path) => (/^\/en(\/|$)/.test(path) ? "en" : "fr");
+  if (langDe(location.pathname) === "fr" && new URLSearchParams(location.search).get("lang") === "en") location.replace("/en/" + location.hash);
+  let lang = langDe(location.pathname);
   let T = I18N[lang];
 
   let articles = [];
@@ -123,12 +129,19 @@
 
   const longDate = (d) => new Date(d + "T12:00:00Z").toLocaleDateString(T.locale, { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
   const hhmm = (iso) => new Date(iso).toLocaleTimeString(T.locale, { hour: "2-digit", minute: "2-digit", timeZone: TZ });
-  // Liens « réels » (pages statiques) que les moteurs peuvent suivre ; un clic reste géré dans l'application.
-  const staticUrl = (a) => `a/${a.id.replace(/[^a-z0-9-]/gi, "-")}.html`;
-  const indexable = (a) => a.type === "article" || a.type === "archive" || (a.type === "revue" && a.redige && !!(a.corps && a.corps.length));
-  const artLink = (a, i) => ((i == null || i === 0) && indexable(a) ? staticUrl(a) : `#a/${encodeURIComponent(a.id)}${i != null ? "/" + i : ""}`);
-  const secLink = (k) => `r/${SLUG[k]}${lang === "en" ? "-en" : ""}.html`;
-  const pageLink = (k) => `p/${k}${lang === "en" ? "-en" : ""}.html`;
+  // Adresses lisibles, identiques à celles des pages publiées (champ « chemin » de chaque article).
+  const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
+  const PAGES_CHEMINS = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" } };
+  const STATIQUES = /^\/(en\/)?(sujet|topic)\/|^\/tous-les-articles\//;
+  const artLink = (a, i) => `${a.chemin}${i ? `#info-${i}` : ""}`;
+  const secPath = (k, l) => ((l || lang) === "en" ? `/en/${SLUG_EN[SLUG[k]]}/` : `/${SLUG[k]}/`);
+  const secLink = (k) => secPath(k);
+  const pageLink = (k) => PAGES_CHEMINS[k][lang];
+  const homeLink = (l) => ((l || lang) === "en" ? "/en/" : "/");
+  const archivesLink = (theme, l) => `${(l || lang) === "en" ? "/en/archives/" : "/archives/"}${theme ? `?theme=${theme}` : ""}`;
+  const searchLink = (q, l) => `${(l || lang) === "en" ? "/en/search/" : "/recherche/"}${q != null ? `?q=${encodeURIComponent(q)}` : ""}`;
+  const sujetLink = (slug, l) => `${(l || lang) === "en" ? "/en/topic" : "/sujet"}/${slug}/`;
+  const absSrc = (src) => (/^(https?:)?\//.test(src) ? src : "/" + src);
   // Sujets ayant leur propre page (personnes, entreprises)
   const SUJETS = [
     { re: /Junior William Joyant|Junior Joyant/, slug: "junior-william-joyant", nom: "Junior William Joyant" },
@@ -147,12 +160,12 @@
   const hash = (str) => { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
   function imageFor(a) {
     if (a.photo === false) return null; // sujets tragiques : pas de photo d'illustration
-    if (a.image) return { src: a.image.src, credit: `${T.photo} : ${a.image.credit}`, legende: (a.image.legende || {})[lang] || "" };
+    if (a.image) return { src: absSrc(a.image.src), credit: `${T.photo} : ${a.image.credit}`, legende: (a.image.legende || {})[lang] || "" };
     const pool = photos[a.section] || [];
     if (!pool.length) return null;
     const p = pool[hash(twinKey(a)) % pool.length];
     const origine = p.origine === "wikimedia" ? "Wikimedia Commons" : p.origine === "pexels" ? "Pexels" : p.origine;
-    return { src: `img/stock/${p.fichier}`, credit: `${T.photo} : ${p.auteur} / ${origine} (${p.licence})`, href: p.page, legende: "" };
+    return { src: `/img/stock/${p.fichier}`, credit: `${T.photo} : ${p.auteur} / ${origine} (${p.licence})`, href: p.page, legende: "" };
   }
   function figure(img, cls) {
     if (!img) return "";
@@ -177,10 +190,11 @@
     document.getElementById("edition").textContent = d.charAt(0).toUpperCase() + d.slice(1);
     document.getElementById("year").textContent = today.slice(0, 4);
     const secLinks = ORDRE.map((k) => `<a href="${secLink(k)}" data-sec="${SLUG[k]}">${esc(secName(k))}</a>`).join("");
-    const extra = `<a href="#archives" data-sec="archives">${esc(T.archives)}</a>`;
-    document.getElementById("sections").innerHTML = `<a class="home" href="#">${esc(T.home)}</a>${secLinks}${extra}`;
-    document.getElementById("drawer-nav").innerHTML = `<a href="#">${esc(T.home)}</a>${secLinks}${extra}<a href="${pageLink("histoire")}">${esc(T.history)}</a><a href="${pageLink("mentions")}">${esc(T.legal)}</a>`;
-    document.getElementById("about-links").innerHTML = `<li><a href="${pageLink("histoire")}">${esc(T.history)}</a></li><li><a href="#archives">${esc(T.archives)}</a></li><li><a href="a/">${esc(T.allArticles)}</a></li><li><a href="${pageLink("mentions")}">${esc(T.legal)}</a></li><li><a href="feed.xml">RSS</a></li>`;
+    const extra = `<a href="${archivesLink()}" data-sec="archives">${esc(T.archives)}</a>`;
+    document.getElementById("sections").innerHTML = `<a class="home" href="${homeLink()}">${esc(T.home)}</a>${secLinks}${extra}`;
+    const logo = document.querySelector(".logo"); if (logo) logo.setAttribute("href", homeLink());
+    document.getElementById("drawer-nav").innerHTML = `<a href="${homeLink()}">${esc(T.home)}</a>${secLinks}${extra}<a href="${pageLink("histoire")}">${esc(T.history)}</a><a href="${pageLink("mentions")}">${esc(T.legal)}</a>`;
+    document.getElementById("about-links").innerHTML = `<li><a href="${pageLink("histoire")}">${esc(T.history)}</a></li><li><a href="${archivesLink()}">${esc(T.archives)}</a></li><li><a href="/tous-les-articles/">${esc(T.allArticles)}</a></li><li><a href="${pageLink("mentions")}">${esc(T.legal)}</a></li><li><a href="/feed.xml">RSS</a></li>`;
     document.getElementById("footer-sections").innerHTML = ORDRE.map((k) => `<li><a href="${secLink(k)}">${esc(secName(k))}</a></li>`).join("");
     document.getElementById("redaction").innerHTML = REDACTION.map(([nom, k]) => `<li><strong>${esc(nom)}</strong>${SEP}${esc(secName(k))}</li>`).join("");
   }
@@ -223,7 +237,7 @@
 
   function renderHome() {
     markNav(null);
-    setMeta(HOME_TITLE, HOME_DESC, location.href.split("#")[0].split("?")[0]);
+    setMeta(T.homeTitle, T.homeDesc, location.origin + homeLink());
     const all = visibles();
     if (!all.length) { app.innerHTML = `<p class="loading">${esc(T.empty)}</p>`; return; }
     const bySec = latestBySection();
@@ -272,7 +286,7 @@
         </aside>
       </section>
       ${autres.length ? `<section class="block">
-        <div class="block-head"><h2>${esc(T.local)}</h2><a class="more" href="#r/nice">${esc(T.more)}</a></div>
+        <div class="block-head"><h2>${esc(T.local)}</h2><a class="more" href="${secLink("Nice & Côte d'Azur")}">${esc(T.more)}</a></div>
         <div class="block-grid archives-grid">${autres.map((a) => `<div>${vignette(a)}
           <span class="kicker">${kickerHtml(a)}</span>
           <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3><p>${esc(a.chapo)}</p></div>`).join("")}</div>
@@ -297,7 +311,7 @@
       if (!picks.includes(a)) picks.push(a);
     }
     return `<section class="block archives-block">
-      <div class="block-head"><h2><a href="#archives">${esc(T.fromArchives)}</a></h2><a class="more" href="#archives">${esc(T.allArchives)}</a></div>
+      <div class="block-head"><h2><a href="${archivesLink()}">${esc(T.fromArchives)}</a></h2><a class="more" href="${archivesLink()}">${esc(T.allArchives)}</a></div>
       <div class="block-grid archives-grid">${picks.map((a) => `<div>${vignette(a)}
         <span class="kicker">${esc(a.rubrique && a.rubrique !== "Archives" ? a.rubrique : secName(a.section))}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3><p>${esc(a.chapo)}</p></div>`).join("")}</div>
@@ -317,8 +331,8 @@
     for (const a of list) (parAn[a.date.slice(0, 4)] ||= []).push(a);
     const annees = Object.keys(parAn).sort().reverse();
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.archives)}</h1><p class="rubrique-chapo">${esc(T.archivesChapo)}${!own.length && T.archivesFr ? " " + esc(T.archivesFr) : ""}</p></div>
-      <nav class="years themes"><a href="#archives"${filtre ? "" : ' aria-current="page"'}>${esc(T.allThemes)}</a>${themes.map((t) => `<a href="#archives/t/${slugify(t)}"${filtre === slugify(t) ? ' aria-current="page"' : ""}>${esc(t)}</a>`).join("")}</nav>
-      <nav class="years">${annees.map((y) => `<a href="#archives/${filtre ? `t/${filtre}/` : ""}${y}">${y}</a>`).join("")}</nav>
+      <nav class="years themes"><a href="${archivesLink()}"${filtre ? "" : ' aria-current="page"'}>${esc(T.allThemes)}</a>${themes.map((t) => `<a href="${archivesLink(slugify(t))}"${filtre === slugify(t) ? ' aria-current="page"' : ""}>${esc(t)}</a>`).join("")}</nav>
+      <nav class="years">${annees.map((y) => `<a href="${archivesLink(filtre)}#y-${y}">${y}</a>`).join("")}</nav>
       <div class="list">${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>${parAn[y].map((a) => `<article class="list-item">
         <span class="kicker">${esc(theme(a))}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
@@ -377,6 +391,7 @@
   // ---------- Rubrique ----------
   function renderSection(key) {
     markNav(SLUG[key]);
+    document.title = `${secName(key)} | L'Écho des Anges`;
     const list = visibles().filter((a) => a.section === key).sort((x, y) => (y.heure || y.date).localeCompare(x.heure || x.date));
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(secName(key))}</h1></div>
       <div class="list">${list.length ? list.map((a) => `<article class="list-item">
@@ -395,19 +410,19 @@
   }
   function renderArticle(a, focus) {
     markNav(SLUG[a.section]);
-    setMeta(`${a.titre} | L'Écho des Anges`, a.chapo, indexable(a) ? new URL(staticUrl(a), location.href.split("#")[0]).href : location.href.split("#")[0]);
+    setMeta(`${a.titre} | L'Écho des Anges`, a.chapo, location.origin + a.chemin);
     const revue = a.type === "revue" && !a.redige;
     const sources = a.sources && a.sources.length ? `<span class="sources">${esc(T.sources)} : ${esc(a.sources.join(", "))}</span>` : "";
     app.innerHTML = `<article class="article">
-      <div class="crumbs">${a.type === "archive" ? `<a href="#archives">${esc(T.archives)}</a>${SEP}` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? `${SEP}${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? `${SEP}${esc(a.rubrique)}` : ""}</div>
+      <div class="crumbs">${a.type === "archive" ? `<a href="${archivesLink()}">${esc(T.archives)}</a>${SEP}` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? `${SEP}${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? `${SEP}${esc(a.rubrique)}` : ""}</div>
       <h1>${esc(a.titre)}</h1>
       <p class="chapo">${esc(a.chapo)}</p>
       <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(a.precision === "mois" ? T.publishedIn : a.precision === "annee" ? "" : T.published)} ${esc(quand(a))}`}</span>${sources}</div>
       ${figure(imageFor(a), a.image && !a.image.paysage ? "hero-portrait" : "hero")}
       ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("")}
       ${a.transparence ? `<p class="transparence">${esc(a.transparence)}</p>` : ""}
-      ${(() => { const t = SUJETS.filter((x) => x.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)); return t.length && a.type !== "revue" ? `<p class="tags">${esc(T.topics)} : ${t.map((x) => `<a href="sujet/${x.slug}${lang === "en" ? "-en" : ""}.html">${esc(x.nom)}</a>`).join(", ")}</p>` : ""; })()}
-      ${a.galerie && a.galerie.length ? `<div class="galerie">${a.galerie.map((g) => figure({ src: g.src, credit: `${T.photo} : ${g.credit}`, legende: (g.legende || {})[lang] || "" })).join("")}</div>` : ""}
+      ${(() => { const t = SUJETS.filter((x) => x.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)); return t.length && a.type !== "revue" ? `<p class="tags">${esc(T.topics)} : ${t.map((x) => `<a href="${sujetLink(x.slug)}">${esc(x.nom)}</a>`).join(", ")}</p>` : ""; })()}
+      ${a.galerie && a.galerie.length ? `<div class="galerie">${a.galerie.map((g) => figure({ src: absSrc(g.src), credit: `${T.photo} : ${g.credit}`, legende: (g.legende || {})[lang] || "" })).join("")}</div>` : ""}
       ${(a.redige || a.type !== "revue") && a.liens && a.liens.length ? `<section class="sources-list"><h2>${esc(T.sources)}</h2><ul>${a.liens.map((l, i) => `
         <li id="info-${i}"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.titre)}</a> <span>(${esc(l.source)})</span></li>`).join("")}</ul></section>` : ""}
       ${revue && a.liens && a.liens.length ? `<ol class="revue">${a.liens.map((l, i) => `
@@ -422,46 +437,77 @@
   }
 
   // ---------- Navigation ----------
+  // Anciennes adresses avec « # » (#a/…, #r/…, #archives, #p/…, #recherche/…) → nouvelles adresses.
+  function ancienneAdresse(h) {
+    let m;
+    if ((m = h.match(/^a\/([^/]+)(?:\/(\d+))?$/))) { const a = articles.find((x) => x.id === decodeURIComponent(m[1])); return a ? artLink(a, m[2] ? +m[2] : 0) : null; }
+    if ((m = h.match(/^r\/([a-z]+)$/)) && FROM_SLUG[m[1]]) return secPath(FROM_SLUG[m[1]]);
+    if ((m = h.match(/^recherche\/(.*)$/))) return searchLink(decodeURIComponent(m[1]));
+    if ((m = h.match(/^archives(?:\/t\/([a-z0-9-]+))?(?:\/(\d{4}))?$/))) return archivesLink(m[1]) + (m[2] ? `#y-${m[2]}` : "");
+    if ((m = h.match(/^p\/([a-z]+)$/)) && PAGES_CHEMINS[m[1]]) return PAGES_CHEMINS[m[1]][lang];
+    return null;
+  }
+  const ANCIEN = /^#(a|r|p|recherche|archives)(\/|$)/;
+  let premier = true;
   function route() {
     closeDrawer();
-    const h = location.hash.slice(1);
-    let m;
-    if ((m = h.match(/^a\/([^/]+)(?:\/(\d+))?$/))) {
-      const a = articles.find((x) => x.id === decodeURIComponent(m[1]));
-      if (a) { if (langOf(a) !== lang) setLang(langOf(a), false); return renderArticle(a, m[2] != null ? +m[2] : null); }
+    if (ANCIEN.test(location.hash)) history.replaceState(null, "", ancienneAdresse(location.hash.slice(1)) || location.pathname);
+    let path = decodeURIComponent(location.pathname);
+    if (!path.endsWith("/") && !/\.\w+$/.test(path)) path += "/";
+    if (langDe(path) !== lang) setLang(langDe(path), false);
+    const initial = premier; premier = false;
+    // Pages publiées uniquement en statique (fiches sujets, liste complète) : rechargement complet.
+    if (STATIQUES.test(path)) { if (!initial) location.reload(); return; }
+    const p = path.replace(/^\/en(?=\/)/, "");
+    const q = new URLSearchParams(location.search);
+    if (p === "/" || p === "/index.html/") return renderHome();
+    if (p === "/recherche/" || p === "/search/") return renderSearch(q.get("q") || "");
+    if (p === "/archives/") {
+      renderArchives(q.get("theme"));
+      const y = location.hash.match(/^#y-(\d{4})$/), el = y && document.getElementById("y-" + y[1]);
+      return el ? el.scrollIntoView() : window.scrollTo(0, 0);
     }
-    if ((m = h.match(/^r\/([a-z]+)$/)) && FROM_SLUG[m[1]]) return renderSection(FROM_SLUG[m[1]]);
-    if ((m = h.match(/^recherche\/(.*)$/))) return renderSearch(decodeURIComponent(m[1]));
-    if ((m = h.match(/^archives(?:\/t\/([a-z0-9-]+))?(?:\/(\d{4}))?$/))) {
-      renderArchives(m[1]);
-      const y = m[2] && document.getElementById("y-" + m[2]);
-      return y ? y.scrollIntoView() : window.scrollTo(0, 0);
-    }
-    if ((m = h.match(/^p\/([a-z]+)$/))) return renderPage(m[1]);
-    renderHome();
+    if (p === "/histoire/" || p === "/our-story/") return renderPage("histoire");
+    if (p === "/mentions-legales/" || p === "/legal-notice/") return renderPage("mentions");
+    const sec = ORDRE.find((k) => secPath(k) === path);
+    if (sec) return renderSection(sec);
+    const a = articles.find((x) => x.chemin === path);
+    if (a) { const f = location.hash.match(/^#info-(\d+)$/); return renderArticle(a, f ? +f[1] : null); }
+    if (initial && app.dataset.statique) return; // page introuvable servie telle quelle
+    markNav(null);
+    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.notFound)}</h1></div>`;
+  }
+  function navigate(url) {
+    history.pushState(null, "", url);
+    route();
+    if (!/#/.test(url)) window.scrollTo(0, 0);
   }
 
   function setLang(l, rerender = true) {
     lang = l; T = I18N[lang];
-    try { localStorage.setItem("journal-lang", lang); } catch (err) { /* navigation privée */ }
     applyStatic();
     if (rerender) route();
   }
 
-  // Changement de langue : on ouvre la traduction de l'article en cours s'il en a une.
+  // Changement de langue : on ouvre la traduction de la page en cours quand elle existe.
   document.querySelector(".langs").addEventListener("click", (e) => {
     const b = e.target.closest("button"); if (!b || b.dataset.lang === lang) return;
-    const m = location.hash.match(/^#a\/([^/]+)/);
-    const current = m && articles.find((x) => x.id === decodeURIComponent(m[1]));
-    const target = b.dataset.lang;
+    const cible = b.dataset.lang;
+    let path = location.pathname; if (!path.endsWith("/")) path += "/";
+    const p = path.replace(/^\/en(?=\/)/, "");
+    const current = articles.find((x) => x.chemin === path);
+    let dest = homeLink(cible), m;
     if (current) {
-      const twin = articles.find((x) => langOf(x) === target && twinKey(x) === twinKey(current))
-        || articles.find((x) => langOf(x) === target && x.type === current.type && x.section === current.section && x.date === current.date);
-      setLang(target, false);
-      location.hash = twin ? `a/${encodeURIComponent(twin.id)}` : "";
-      return;
-    }
-    setLang(target);
+      const twin = articles.find((x) => langOf(x) === cible && twinKey(x) === twinKey(current))
+        || articles.find((x) => langOf(x) === cible && x.type === current.type && x.section === current.section && x.date === current.date);
+      if (twin) dest = twin.chemin;
+    } else if (ORDRE.some((k) => secPath(k) === path)) dest = secPath(ORDRE.find((k) => secPath(k) === path), cible);
+    else if (p === "/archives/") dest = archivesLink(new URLSearchParams(location.search).get("theme"), cible);
+    else if (p === "/recherche/" || p === "/search/") dest = searchLink(new URLSearchParams(location.search).get("q") || "", cible);
+    else if (p === "/histoire/" || p === "/our-story/") dest = PAGES_CHEMINS.histoire[cible];
+    else if (p === "/mentions-legales/" || p === "/legal-notice/") dest = PAGES_CHEMINS.mentions[cible];
+    else if ((m = p.match(/^\/(sujet|topic)\/([a-z0-9-]+)\/$/))) dest = sujetLink(m[2], cible);
+    if (STATIQUES.test(dest)) location.href = dest; else navigate(dest);
   });
 
   const searchForm = document.getElementById("search-form");
@@ -473,7 +519,7 @@
   searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const q = searchInput.value.trim();
-    if (q) location.hash = "recherche/" + encodeURIComponent(q);
+    if (q) navigate(searchLink(q));
   });
 
   const drawer = document.getElementById("drawer");
@@ -484,26 +530,23 @@
     menuBtn.setAttribute("aria-expanded", String(!drawer.hidden));
   });
 
-  window.addEventListener("hashchange", route);
-  // Les liens vers les pages statiques (articles, rubriques, pages fixes) restent dans l'application au clic.
+  window.addEventListener("popstate", route);
+  window.addEventListener("hashchange", () => { if (ANCIEN.test(location.hash)) route(); });
+  // Les liens internes restent dans l'application (pas de rechargement), sauf fichiers et pages statiques.
   document.addEventListener("click", (e) => {
     if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-    const el = e.target.closest("a[href]"); if (!el || el.target) return;
-    const href = el.getAttribute("href"); let m, h = null;
-    if (/^a\/[^/]+\.html$/.test(href)) { const a = articles.find((x) => staticUrl(x) === href); if (a) h = `a/${encodeURIComponent(a.id)}`; }
-    else if ((m = href.match(/^r\/([a-z]+)(?:-en)?\.html$/)) && FROM_SLUG[m[1]]) h = `r/${m[1]}`;
-    else if ((m = href.match(/^p\/([a-z]+)(?:-en)?\.html$/))) h = `p/${m[1]}`;
-    if (h == null) return;
+    const el = e.target.closest("a[href]"); if (!el || el.target || el.hasAttribute("download")) return;
+    const u = new URL(el.getAttribute("href"), location.href);
+    if (u.origin !== location.origin || /\.\w+$/.test(u.pathname) || STATIQUES.test(u.pathname)) return;
+    if (u.pathname === location.pathname && u.search === location.search && u.hash && !ANCIEN.test(u.hash)) return; // ancre dans la page
     e.preventDefault();
-    if (location.hash === "#" + h) route(); else location.hash = h;
+    navigate(u.pathname + u.search + u.hash);
   });
-  const HOME_TITLE = document.title;
-  const HOME_DESC = (document.querySelector('meta[name="description"]') || {}).content || "";
   applyStatic();
   const v = "?v=" + Date.now();
   Promise.all([
-    fetch("articles.json" + v).then((r) => r.json()),
-    fetch("img/stock/credits.json" + v).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    fetch("/articles.json" + v).then((r) => r.json()),
+    fetch("/img/stock/credits.json" + v).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
   ])
     .then(([data, credits]) => { articles = data; photos = credits || {}; route(); })
     .catch(() => { app.innerHTML = `<p class="loading">${esc(T.error)}</p>`; });

@@ -14,11 +14,11 @@ const OUT = join(ROOT, "_site");
 
 // Liste blanche : tout le reste du dépôt reste privé.
 const FICHIERS = [
-  "index.html", "404.html", "CNAME", "journal.css", "journal.js", "pages.js", "articles.json",
+  "index.html", "CNAME", "journal.css", "journal.js", "pages.js", "articles.json",
   "favicon.svg", "favicon-32.png", "apple-touch-icon.png", "site.webmanifest",
   "robots.txt", "sitemap.xml", "news-sitemap.xml", "feed.xml", "llms.txt",
 ];
-const DOSSIERS = ["a", "p", "r", "sujet", "img"];
+const DOSSIERS = ["img"];
 const EXCLUS = [/(^|\/)exclues\.json$/];
 
 rmSync(OUT, { recursive: true, force: true });
@@ -26,6 +26,10 @@ mkdirSync(OUT, { recursive: true });
 for (const f of FICHIERS) if (existsSync(join(ROOT, f))) cpSync(join(ROOT, f), join(OUT, f));
 for (const d of DOSSIERS) if (existsSync(join(ROOT, d)))
   cpSync(join(ROOT, d), join(OUT, d), { recursive: true, filter: (src) => !EXCLUS.some((re) => re.test(src.slice(ROOT.length + 1))) });
+
+// Pages générées par build-static.mjs (articles, rubriques, sujets, redirections, 404).
+if (!existsSync(join(ROOT, "_genere"))) throw new Error("Lancer d'abord node scripts/build-static.mjs");
+cpSync(join(ROOT, "_genere"), OUT, { recursive: true });
 
 // Données publiées : uniquement les champs utiles à l'affichage.
 const INTERNES = ["imageCommons", "imageLegende", "slug", "redigeSur"];
