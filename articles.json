@@ -12627,7 +12627,17 @@
       "Le Bar-sur-Loup",
       "Le Bar-sur-Loup village",
       "Gorges du Loup"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-samantha-mane-groupe-mane.jpg",
+      "credit": "G CHP / Wikimedia Commons (CC BY-SA 2.5)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=48034042",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-08-en-portrait-samantha-mane-groupe-mane",
@@ -12700,7 +12710,17 @@
       "Le Bar-sur-Loup",
       "Le Bar-sur-Loup village",
       "Gorges du Loup"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-samantha-mane-groupe-mane.jpg",
+      "credit": "G CHP / Wikimedia Commons (CC BY-SA 2.5)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=48034042",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-07-portrait-agnes-costa-fragonard-centenaire",
@@ -12774,7 +12794,17 @@
       "Fragonard Grasse",
       "Parfumerie Fragonard Grasse",
       "Grasse vieille ville"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-agnes-costa-fragonard-centenaire.jpg",
+      "credit": "Markus Bernet / Wikimedia Commons (CC BY-SA 2.5)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=1814090",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-07-en-portrait-agnes-costa-fragonard-centenaire",
@@ -12848,7 +12878,17 @@
       "Fragonard Grasse",
       "Parfumerie Fragonard Grasse",
       "Grasse vieille ville"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-agnes-costa-fragonard-centenaire.jpg",
+      "credit": "Markus Bernet / Wikimedia Commons (CC BY-SA 2.5)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=1814090",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-01-portrait-mauro-colagreco-mirazur-20-ans",
@@ -12927,7 +12967,17 @@
       "Menton vieille ville",
       "Menton port",
       "Menton citrons"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-mauro-colagreco-mirazur-20-ans.jpg",
+      "credit": "Original uploader was Vinbaron at fr.wikipedia / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=4023782",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-01-en-portrait-mauro-colagreco-mirazur-20-ans",
@@ -13006,7 +13056,17 @@
       "Menton vieille ville",
       "Menton port",
       "Menton citrons"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-mauro-colagreco-mirazur-20-ans.jpg",
+      "credit": "Original uploader was Vinbaron at fr.wikipedia / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=4023782",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-02-portrait-gildo-pastor-venturi-space",
@@ -13085,7 +13145,17 @@
       "Fontvieille Monaco",
       "Monaco Fontvieille port",
       "lunar rover"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-gildo-pastor-venturi-space.jpg",
+      "credit": "M.Strīķis / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=53204292",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-02-en-portrait-gildo-pastor-venturi-space",
@@ -13164,7 +13234,17 @@
       "Fontvieille Monaco",
       "Monaco Fontvieille port",
       "lunar rover"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-gildo-pastor-venturi-space.jpg",
+      "credit": "M.Strīķis / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=53204292",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-16-portrait-riccardo-giraudi-beefbar",
@@ -13250,7 +13330,17 @@
       "Hôtel Barrière Le Majestic Cannes",
       "La Croisette Cannes",
       "Monaco Monte-Carlo panorama"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-riccardo-giraudi-beefbar.jpg",
+      "credit": "M.Strīķis / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=53122706",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-16-en-portrait-riccardo-giraudi-beefbar",
@@ -13336,7 +13426,17 @@
       "Hôtel Barrière Le Majestic Cannes",
       "La Croisette Cannes",
       "Monaco Monte-Carlo panorama"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-riccardo-giraudi-beefbar.jpg",
+      "credit": "M.Strīķis / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=53122706",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-13-portrait-marianne-estene-chauvin-belles-rives",
@@ -13412,7 +13512,17 @@
       "Juan-les-Pins",
       "Juan-les-Pins plage",
       "Cap d'Antibes"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-marianne-estene-chauvin-belles-rives.jpg",
+      "credit": "Trowden / Wikimedia Commons (CC0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=20586599",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-13-en-portrait-marianne-estene-chauvin-belles-rives",
@@ -13488,7 +13598,17 @@
       "Juan-les-Pins",
       "Juan-les-Pins plage",
       "Cap d'Antibes"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-marianne-estene-chauvin-belles-rives.jpg",
+      "credit": "Trowden / Wikimedia Commons (CC0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=20586599",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-07-23-portrait-fredrik-brag-median-technologies",
@@ -13566,7 +13686,17 @@
       "CT scanner hospital",
       "Sophia Antipolis",
       "computed tomography scanner"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-fredrik-brag-median-technologies.jpg",
+      "credit": "Derek Harper / Wikimedia Commons (CC BY-SA 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=132519818",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-07-23-en-portrait-fredrik-brag-median-technologies",
@@ -13644,7 +13774,17 @@
       "CT scanner hospital",
       "Sophia Antipolis",
       "computed tomography scanner"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-fredrik-brag-median-technologies.jpg",
+      "credit": "Derek Harper / Wikimedia Commons (CC BY-SA 2.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=132519818",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-16-portrait-justine-lipuma-mycophyto",
@@ -13719,7 +13859,17 @@
       "mycorrhiza",
       "plant roots soil",
       "Grasse panorama"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-justine-lipuma-mycophyto.jpg",
+      "credit": "Rajarshi Rit (https://orcid.org/0000-0003-3122-5926) / Wikimedia Commons (CC BY 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=106885692",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-04-16-en-portrait-justine-lipuma-mycophyto",
@@ -13794,6 +13944,16 @@
       "mycorrhiza",
       "plant roots soil",
       "Grasse panorama"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/portrait-justine-lipuma-mycophyto.jpg",
+      "credit": "Rajarshi Rit (https://orcid.org/0000-0003-3122-5926) / Wikimedia Commons (CC BY 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=106885692",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   }
 ]
