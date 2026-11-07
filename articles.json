@@ -3439,7 +3439,44 @@
         }
       }
     ],
-    "chemin": "/en/business/2026/09/23/portrait-junior-william-joyant/"
+    "chemin": "/en/business/2026/09/23/portrait-junior-william-joyant/",
+    "liens": [
+      {
+        "titre": "Oneera, the Nice app that wants to stop festival-goers losing their friends",
+        "source": "L’Écho des Anges",
+        "url": "https://echodesanges.fr/en/tech/2026/06/17/oneera-cartographie-temps-reel/"
+      },
+      {
+        "titre": "Junior William Joyant: biography, companies, net worth and news",
+        "source": "L’Écho des Anges",
+        "url": "https://echodesanges.fr/en/topic/junior-william-joyant/"
+      },
+      {
+        "titre": "Taxi Nice Riviera",
+        "source": "Côte d’Azur France",
+        "url": "https://cotedazurfrance.fr/offres/taxi-nice-riviera-nice-fr-3032908/"
+      },
+      {
+        "titre": "Riva Fever",
+        "source": "Office de tourisme de Saint-Tropez",
+        "url": "https://www.sainttropeztourisme.com/en/fiche/riva-fever-7257068"
+      },
+      {
+        "titre": "Trilateration, Fingerprinting, and Centroid: Taking Indoor Positioning with Bluetooth LE to the Wild",
+        "source": "Technische Universität Dresden",
+        "url": "https://fis.tu-dresden.de/portal/en/publications/trilateration-fingerprinting-and-centroid-taking-indoor-positioning-with-bluetooth-le-to-the-wild(3ec3129d-7353-49eb-b0e2-1d26884e1b54).html"
+      },
+      {
+        "titre": "Formula 1 Grand Prix de Monaco",
+        "source": "Automobile Club de Monaco",
+        "url": "https://acm.mc/en/epreuves/formula-1-grand-prix-de-monaco"
+      },
+      {
+        "titre": "Festival de Cannes",
+        "source": "Festival de Cannes",
+        "url": "https://www.festival-cannes.com/"
+      }
+    ]
   },
   {
     "id": "2026-09-23-portrait-junior-william-joyant",
@@ -3502,7 +3539,44 @@
         }
       }
     ],
-    "chemin": "/economie/2026/09/23/portrait-junior-william-joyant/"
+    "chemin": "/economie/2026/09/23/portrait-junior-william-joyant/",
+    "liens": [
+      {
+        "titre": "Oneera, l’application niçoise qui veut en finir avec les amis perdus en festival",
+        "source": "L’Écho des Anges",
+        "url": "https://echodesanges.fr/tech/2026/06/17/oneera-cartographie-temps-reel/"
+      },
+      {
+        "titre": "Junior William Joyant : biographie, entreprises, fortune et actualité",
+        "source": "L’Écho des Anges",
+        "url": "https://echodesanges.fr/sujet/junior-william-joyant/"
+      },
+      {
+        "titre": "Taxi Nice Riviera",
+        "source": "Côte d’Azur France",
+        "url": "https://cotedazurfrance.fr/offres/taxi-nice-riviera-nice-fr-3032908/"
+      },
+      {
+        "titre": "Riva Fever",
+        "source": "Office de tourisme de Saint-Tropez",
+        "url": "https://www.sainttropeztourisme.com/en/fiche/riva-fever-7257068"
+      },
+      {
+        "titre": "Trilateration, Fingerprinting, and Centroid: Taking Indoor Positioning with Bluetooth LE to the Wild",
+        "source": "Technische Universität Dresden",
+        "url": "https://fis.tu-dresden.de/portal/en/publications/trilateration-fingerprinting-and-centroid-taking-indoor-positioning-with-bluetooth-le-to-the-wild(3ec3129d-7353-49eb-b0e2-1d26884e1b54).html"
+      },
+      {
+        "titre": "Formula 1 Grand Prix de Monaco",
+        "source": "Automobile Club de Monaco",
+        "url": "https://acm.mc/en/epreuves/formula-1-grand-prix-de-monaco"
+      },
+      {
+        "titre": "Festival de Cannes",
+        "source": "Festival de Cannes",
+        "url": "https://www.festival-cannes.com/"
+      }
+    ]
   },
   {
     "id": "2026-09-01-en-la-meridionale-etienne-melliani-charles-henry-de-lignac",
