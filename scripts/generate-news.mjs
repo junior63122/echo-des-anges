@@ -4,12 +4,14 @@
 // de médias reconnus : titres, résumés et liens vers les sources (rien n'est inventé).
 // Usage : node scripts/generate-news.mjs [--date=YYYY-MM-DD] [--fixture=fichier.xml]
 
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DB = join(ROOT, "articles.json");
+const FIL = join(ROOT, "donnees", "fil.json"); // toutes les dépêches vues sur 10 jours, pour le dossier de la semaine
+const FIL_JOURS = 10;
 const MAX_ARTICLES = 500; // on garde l'historique raisonnable
 const PAR_ARTICLE = 5; // nombre d'infos par revue de presse
 
@@ -168,6 +170,8 @@ async function main() {
   // On évite de republier un lien déjà paru les jours précédents.
   const dejaVus = new Set(db.filter((a) => a.date !== date).flatMap((a) => (a.liens || []).map((l) => l.url)));
 
+  const fil = existsSync(FIL) ? JSON.parse(readFileSync(FIL, "utf8")) : [];
+  const filUrls = new Set(fil.map((x) => x.url));
   let ajoutes = 0;
   for (const lang of LANGS) for (const rub of RUBRIQUES) {
     const L = rub[lang];
@@ -180,6 +184,11 @@ async function main() {
       } catch (e) {
         console.warn(`  [${lang}] ${L.nom} ✗ ${url.slice(0, 70)} : ${e.message}`);
       }
+    }
+    for (const it of items) {
+      if (!it.url || filUrls.has(it.url) || HORS_SUJET.test(`${it.titre} ${it.resume || ""}`)) continue;
+      filUrls.add(it.url);
+      fil.push({ lang, section: rub.key, titre: it.titre, source: it.source, url: it.url, resume: (it.resume || "").slice(0, 600), date: it.date ? new Date(it.date).toISOString() : new Date().toISOString() });
     }
     const art = buildArticle(rub, items, date, dejaVus, lang);
     if (!art) { console.warn(`! [${lang}] ${L.nom} : aucune info récente, article ignoré`); continue; }
@@ -203,6 +212,9 @@ async function main() {
   let revues = 0;
   const garde = db.filter((x) => x.type !== "revue" || ++revues <= MAX_ARTICLES);
   writeFileSync(DB, JSON.stringify(garde, null, 2) + "\n");
+  const limite = Date.now() - FIL_JOURS * 864e5;
+  mkdirSync(dirname(FIL), { recursive: true });
+  writeFileSync(FIL, JSON.stringify(fil.filter((x) => Date.parse(x.date) >= limite).sort((a, b) => b.date.localeCompare(a.date)), null, 1) + "\n");
   console.log(`${ajoutes} nouvel(s) article(s) d'actu, ${garde.length} au total.`);
 }
 

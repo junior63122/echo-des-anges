@@ -672,6 +672,7 @@ User-agent: *
 Allow: /
 Disallow: /scripts/
 Disallow: /node_modules/
+Disallow: /donnees/
 
 Sitemap: ${SITE}/sitemap.xml
 Sitemap: ${SITE}/news-sitemap.xml
@@ -699,6 +700,7 @@ User-agent: MistralAI-User
 Allow: /
 Disallow: /scripts/
 Disallow: /node_modules/
+Disallow: /donnees/
 `);
 }
 

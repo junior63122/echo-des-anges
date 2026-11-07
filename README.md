@@ -51,3 +51,21 @@ Mettre à jour les adresses de `index.html`, puis lancer
 `SITE_URL=https://nouveau-domaine.fr node scripts/build-static.mjs`
 (et modifier la valeur par défaut de `SITE` dans ce script pour les prochaines éditions).
 Si le site est servi à la racine d'un domaine, le script génère aussi `robots.txt`.
+
+## Dossier de la semaine (gratuit, sans API)
+
+Le lundi, le mercredi et le vendredi, le workflow « Journal - dossier de la semaine » publie une
+revue de presse thématique (« La semaine de… »), en français et en anglais, sur la rubrique dont le
+dernier dossier est le plus ancien : Nice & Côte d'Azur, Économie, Finance, Événementiel, Tech,
+Sport, International. Chaque rubrique revient donc environ une fois toutes les deux semaines.
+
+- Aucune API payante ni intelligence artificielle : le script `scripts/dossier-semaine.mjs`
+  s'appuie sur les dépêches des 7 derniers jours collectées dans les flux RSS (`donnees/fil.json`,
+  alimenté par la collecte quotidienne).
+- Il regroupe les dépêches qui traitent du même sujet, classe les sujets (actualité locale,
+  nombre de médias, fraîcheur) et rédige l'article : titres et extraits cités entre guillemets et
+  attribués à leur média, liens vers les articles complets en fin de page.
+- L'article reçoit automatiquement sa page référencée (titre, description, données structurées,
+  sitemap, hreflang FR/EN).
+- Lancement manuel : onglet Actions → « Journal - dossier de la semaine » → Run workflow
+  (champ « Rubrique » facultatif).
