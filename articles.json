@@ -3442,16 +3442,6 @@
     "chemin": "/en/business/2026/09/23/portrait-junior-william-joyant/",
     "liens": [
       {
-        "titre": "Oneera, the Nice app that wants to stop festival-goers losing their friends",
-        "source": "L’Écho des Anges",
-        "url": "https://echodesanges.fr/en/tech/2026/06/17/oneera-cartographie-temps-reel/"
-      },
-      {
-        "titre": "Junior William Joyant: biography, companies, net worth and news",
-        "source": "L’Écho des Anges",
-        "url": "https://echodesanges.fr/en/topic/junior-william-joyant/"
-      },
-      {
         "titre": "Taxi Nice Riviera",
         "source": "Côte d’Azur France",
         "url": "https://cotedazurfrance.fr/offres/taxi-nice-riviera-nice-fr-3032908/"
@@ -3475,6 +3465,16 @@
         "titre": "Festival de Cannes",
         "source": "Festival de Cannes",
         "url": "https://www.festival-cannes.com/"
+      }
+    ],
+    "liensInternes": [
+      {
+        "titre": "Oneera, the Nice app that wants to stop festival-goers losing their friends",
+        "url": "https://echodesanges.fr/en/tech/2026/06/17/oneera-cartographie-temps-reel/"
+      },
+      {
+        "titre": "Junior William Joyant: biography, companies, net worth and news",
+        "url": "https://echodesanges.fr/en/topic/junior-william-joyant/"
       }
     ]
   },
@@ -3542,16 +3542,6 @@
     "chemin": "/economie/2026/09/23/portrait-junior-william-joyant/",
     "liens": [
       {
-        "titre": "Oneera, l’application niçoise qui veut en finir avec les amis perdus en festival",
-        "source": "L’Écho des Anges",
-        "url": "https://echodesanges.fr/tech/2026/06/17/oneera-cartographie-temps-reel/"
-      },
-      {
-        "titre": "Junior William Joyant : biographie, entreprises, fortune et actualité",
-        "source": "L’Écho des Anges",
-        "url": "https://echodesanges.fr/sujet/junior-william-joyant/"
-      },
-      {
         "titre": "Taxi Nice Riviera",
         "source": "Côte d’Azur France",
         "url": "https://cotedazurfrance.fr/offres/taxi-nice-riviera-nice-fr-3032908/"
@@ -3575,6 +3565,16 @@
         "titre": "Festival de Cannes",
         "source": "Festival de Cannes",
         "url": "https://www.festival-cannes.com/"
+      }
+    ],
+    "liensInternes": [
+      {
+        "titre": "Oneera, l’application niçoise qui veut en finir avec les amis perdus en festival",
+        "url": "https://echodesanges.fr/tech/2026/06/17/oneera-cartographie-temps-reel/"
+      },
+      {
+        "titre": "Junior William Joyant : biographie, entreprises, fortune et actualité",
+        "url": "https://echodesanges.fr/sujet/junior-william-joyant/"
       }
     ]
   },

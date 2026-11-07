@@ -409,7 +409,8 @@ function pageArticle(a) {
     datePublished: isoComplet(a),
     dateModified: modifie(a),
     articleSection: sec[lang],
-    mainEntityOfPage: { "@type": "WebPage", "@id": url(a) },
+    // Liens internes (liensInternes) : déclarés aux moteurs et aux IA uniquement, jamais affichés aux lecteurs.
+    mainEntityOfPage: { "@type": "WebPage", "@id": url(a), ...(a.liensInternes?.length ? { relatedLink: a.liensInternes.map((l) => l.url) } : {}) },
     url: url(a),
     image: img ? [{ "@type": "ImageObject", url: imgAbs, ...(dimensions(img.src) ? { width: dimensions(img.src).w, height: dimensions(img.src).h } : {}), ...(img.credit ? { creditText: img.credit } : {}) }] : [imgAbs],
     author: { "@type": "Organization", "@id": ORG_ID, name: NOM, url: `${SITE}/` },
