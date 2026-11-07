@@ -54,10 +54,10 @@ Si le site est servi à la racine d'un domaine, le script génère aussi `robots
 
 ## Dossier de la semaine (gratuit, sans API)
 
-Le lundi, le mercredi et le vendredi, le workflow « Journal - dossier de la semaine » publie une
+Chaque matin, le workflow « Journal - dossier de la semaine » publie une
 revue de presse thématique (« La semaine de… »), en français et en anglais, sur la rubrique dont le
 dernier dossier est le plus ancien : Nice & Côte d'Azur, Économie, Finance, Événementiel, Tech,
-Sport, International. Chaque rubrique revient donc environ une fois toutes les deux semaines.
+Sport, International. Chaque rubrique revient donc une fois par semaine (7 dossiers par semaine).
 
 - Aucune API payante ni intelligence artificielle : le script `scripts/dossier-semaine.mjs`
   s'appuie sur les dépêches des 7 derniers jours collectées dans les flux RSS (`donnees/fil.json`,
