@@ -417,7 +417,7 @@ function pageArticle(a) {
     isPartOf: { "@id": SITE_ID },
     isAccessibleForFree: true,
     wordCount: (a.corps || []).join(" ").split(/\s+/).filter(Boolean).length,
-    articleBody: (a.corps || []).join("\n\n"),
+    articleBody: (a.corps || []).map((p) => p.replace(/^## /, "")).join("\n\n"),
     ...(about.length ? { about } : {}),
     ...(sujets.length ? { mentions: sujets.map((s) => ({ "@id": sujetId(s) })) } : {}),
     ...(a.liens?.length ? { citation: a.liens.map((l) => ({ "@type": "CreativeWork", name: l.titre, url: l.url, publisher: { "@type": "Organization", name: l.source } })) } : {}),
@@ -452,7 +452,7 @@ function pageArticle(a) {
   <p class="chapo">${esc(a.chapo)}</p>
   <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" || a.precision === "annee" ? "" : (a.precision === "mois" ? T.pubIn : T.pub) + " "}<time datetime="${isoComplet(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}${twin ? `<a class="lang-switch" href="${url(twin)}" hreflang="${langOf(twin)}">${langOf(twin) === "en" ? "Read in English" : "Lire en français"}</a>` : ""}</div>
   ${fig}
-  ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
+  ${(a.corps || []).map((p) => (p.startsWith("## ") ? `<h2 class="intertitre">${esc(p.slice(3))}</h2>` : `<p class="body">${esc(p)}</p>`)).join("\n  ")}
   ${galerie}
   ${tags}
   ${sources}
