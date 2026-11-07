@@ -58,14 +58,14 @@ Articles :
 
 Start-up niçoise de cartographie en temps réel des lieux accueillant du public. Page dédiée : https://echodesanges.fr/sujet/oneera/ (English: https://echodesanges.fr/en/topic/oneera/)
 
-Oneera développe une cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public. Les visiteurs se repèrent et retrouvent leurs proches grâce à un QR code ; les organisateurs suivent la densité de la foule, reçoivent les signalements d'incidents et coordonnent leurs équipes depuis un tableau de bord.
+Oneera développe une cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public. Les visiteurs se repèrent et retrouvent leurs proches depuis leur téléphone ; les organisateurs suivent la densité de la foule, reçoivent les signalements d'incidents et coordonnent leurs équipes depuis un tableau de bord.
 
 Fondée à Nice en mai 2026 par Junior William Joyant, la société a mené ses premiers essais dans des clubs cannois et envisage d'ouvrir 20 à 30 % de son capital à des investisseurs.
 
 - Création : Mai 2026, à Nice
 - Fondateur : Junior William Joyant (70 % du capital)
 - Activité : Cartographie en temps réel, gestion de foule
-- Technologies : GPS en extérieur, balises Bluetooth en intérieur, QR code
+- Technologies : GPS en extérieur, balises Bluetooth en intérieur
 
 Articles :
 - [Junior William Joyant, l’entrepreneur niçois qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23)
