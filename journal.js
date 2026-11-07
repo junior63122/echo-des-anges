@@ -50,6 +50,7 @@
       allArchives: "Toutes les archives",
       history: "Notre histoire",
       legal: "Mentions légales",
+      contact: "Contact",
       sourcesNote: "Nos articles s'appuient sur les informations des médias cités en source, accessibles en fin d'article.",
       more: "Toute la rubrique",
       alsoTitle: "À lire aussi",
@@ -99,6 +100,7 @@
       allArchives: "All archives",
       history: "Our story",
       legal: "Legal notice",
+      contact: "Contact",
       sourcesNote: "Our articles draw on reporting by the outlets credited as sources, listed at the end of each article.",
       more: "Whole section",
       alsoTitle: "Also worth reading",
@@ -131,7 +133,7 @@
   const hhmm = (iso) => new Date(iso).toLocaleTimeString(T.locale, { hour: "2-digit", minute: "2-digit", timeZone: TZ });
   // Adresses lisibles, identiques à celles des pages publiées (champ « chemin » de chaque article).
   const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", culture: "culture", sorties: "going-out", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
-  const PAGES_CHEMINS = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" } };
+  const PAGES_CHEMINS = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" }, contact: { fr: "/contact/", en: "/en/contact/" } };
   const STATIQUES = /^\/(en\/)?(sujet|topic)\/|^\/tous-les-articles\//;
   const artLink = (a, i) => `${a.chemin}${i ? `#info-${i}` : ""}`;
   const secPath = (k, l) => ((l || lang) === "en" ? `/en/${SLUG_EN[SLUG[k]]}/` : `/${SLUG[k]}/`);
@@ -193,8 +195,8 @@
     const extra = `<a href="${archivesLink()}" data-sec="archives">${esc(T.archives)}</a>`;
     document.getElementById("sections").innerHTML = `<a class="home" href="${homeLink()}">${esc(T.home)}</a>${secLinks}${extra}`;
     const logo = document.querySelector(".logo"); if (logo) logo.setAttribute("href", homeLink());
-    document.getElementById("drawer-nav").innerHTML = `<a href="${homeLink()}">${esc(T.home)}</a>${secLinks}${extra}<a href="${pageLink("histoire")}">${esc(T.history)}</a><a href="${pageLink("mentions")}">${esc(T.legal)}</a>`;
-    document.getElementById("about-links").innerHTML = `<li><a href="${pageLink("histoire")}">${esc(T.history)}</a></li><li><a href="${archivesLink()}">${esc(T.archives)}</a></li><li><a href="/tous-les-articles/">${esc(T.allArticles)}</a></li><li><a href="${pageLink("mentions")}">${esc(T.legal)}</a></li><li><a href="/feed.xml">RSS</a></li>`;
+    document.getElementById("drawer-nav").innerHTML = `<a href="${homeLink()}">${esc(T.home)}</a>${secLinks}${extra}<a href="${pageLink("histoire")}">${esc(T.history)}</a><a href="${pageLink("contact")}">${esc(T.contact)}</a><a href="${pageLink("mentions")}">${esc(T.legal)}</a>`;
+    document.getElementById("about-links").innerHTML = `<li><a href="${pageLink("histoire")}">${esc(T.history)}</a></li><li><a href="${archivesLink()}">${esc(T.archives)}</a></li><li><a href="/tous-les-articles/">${esc(T.allArticles)}</a></li><li><a href="${pageLink("contact")}">${esc(T.contact)}</a></li><li><a href="${pageLink("mentions")}">${esc(T.legal)}</a></li><li><a href="/feed.xml">RSS</a></li>`;
     document.getElementById("footer-sections").innerHTML = ORDRE.map((k) => `<li><a href="${secLink(k)}">${esc(secName(k))}</a></li>`).join("");
     document.getElementById("redaction").innerHTML = REDACTION.map(([nom, k]) => `<li><strong>${esc(nom)}</strong>${SEP}${esc(secName(k))}</li>`).join("");
   }
@@ -449,8 +451,23 @@
   }
   const ANCIEN = /^#(a|r|p|recherche|archives)(\/|$)/;
   let premier = true;
+  // Mesure d'audience sans cookie (GoatCounter), une visite comptée par page affichée.
+  const STATS = ((window.JOURNAL_CONFIG || {}).statistiques || "").trim();
+  function compter() {
+    if (!STATS || !/^echodesanges\.fr$/.test(location.hostname)) return;
+    const envoyer = () => window.goatcounter && window.goatcounter.count && window.goatcounter.count({ path: location.pathname + location.search });
+    if (window.goatcounter && window.goatcounter.count) return envoyer();
+    if (document.getElementById("gc-script")) return;
+    const s = document.createElement("script");
+    s.id = "gc-script"; s.async = true; s.src = "https://gc.zgo.at/count.js";
+    s.dataset.goatcounter = `https://${STATS}.goatcounter.com/count`;
+    s.dataset.goatcounterSettings = '{"no_onload": true}';
+    s.onload = envoyer;
+    document.head.appendChild(s);
+  }
   function route() {
     closeDrawer();
+    compter();
     if (ANCIEN.test(location.hash)) history.replaceState(null, "", ancienneAdresse(location.hash.slice(1)) || location.pathname);
     let path = decodeURIComponent(location.pathname);
     if (!path.endsWith("/") && !/\.\w+$/.test(path)) path += "/";
@@ -469,6 +486,7 @@
     }
     if (p === "/histoire/" || p === "/our-story/") return renderPage("histoire");
     if (p === "/mentions-legales/" || p === "/legal-notice/") return renderPage("mentions");
+    if (p === "/contact/") return renderPage("contact");
     const sec = ORDRE.find((k) => secPath(k) === path);
     if (sec) return renderSection(sec);
     const a = articles.find((x) => x.chemin === path);
@@ -511,6 +529,7 @@
     else if (p === "/recherche/" || p === "/search/") dest = searchLink(new URLSearchParams(location.search).get("q") || "", cible);
     else if (p === "/histoire/" || p === "/our-story/") dest = PAGES_CHEMINS.histoire[cible];
     else if (p === "/mentions-legales/" || p === "/legal-notice/") dest = PAGES_CHEMINS.mentions[cible];
+    else if (p === "/contact/") dest = PAGES_CHEMINS.contact[cible];
     else if ((m = p.match(/^\/(sujet|topic)\/([a-z0-9-]+)\/$/))) dest = sujetLink(m[2], cible);
     if (STATIQUES.test(dest)) location.href = dest; else navigate(dest);
   });

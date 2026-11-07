@@ -227,7 +227,7 @@ const resume = (a) => couper(texteDe(a));
 const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", culture: "culture", sorties: "going-out", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
 const secChemin = (slug, lang) => (lang === "en" ? `/en/${SLUG_EN[slug] || slug}/` : `/${slug}/`);
 const secLien = (slug, lang) => `${SITE}${secChemin(slug, lang)}`;
-const CHEMINS_FIXES = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" } };
+const CHEMINS_FIXES = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" }, contact: { fr: "/contact/", en: "/en/contact/" } };
 const archivesChemin = (lang) => (lang === "en" ? "/en/archives/" : "/archives/");
 const rechercheChemin = (lang) => (lang === "en" ? "/en/search/" : "/recherche/");
 const accueilChemin = (lang) => (lang === "en" ? "/en/" : "/");
@@ -277,6 +277,7 @@ const credits = existsSync(join(J, "img/stock/credits.json")) ? JSON.parse(readF
 const bac = { window: {} };
 vm.runInNewContext(readFileSync(join(J, "pages.js"), "utf8"), bac);
 const PAGES = bac.window.JOURNAL_PAGES || {};
+const CONFIG = bac.window.JOURNAL_CONFIG || {};
 
 // Seuls les contenus rédigés sont indexés (les revues de presse brutes sont de simples listes de liens).
 const indexables = articles.filter((a) => a.type === "article" || a.type === "archive" || (a.type === "revue" && a.redige && a.corps?.length));
@@ -386,6 +387,7 @@ const editeur = {
   logo: { "@type": "ImageObject", url: `${SITE}/img/logo-512.png`, width: 512, height: 512 },
   foundingDate: "2018", foundingLocation: { "@type": "City", name: "Nice" },
   publishingPrinciples: `${SITE}/histoire/`,
+  ...(CONFIG.contact ? { contactPoint: { "@type": "ContactPoint", contactType: "newsroom", email: CONFIG.contact, url: `${SITE}/contact/`, availableLanguage: ["fr", "en"] } } : {}),
 };
 
 const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item"><span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)}<span class="sep" aria-hidden="true"></span><time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
@@ -562,7 +564,7 @@ function pageFixe(cle, lang) {
   const P = (PAGES[cle] || {})[lang];
   if (!P) return null;
   const C = CHEMINS_FIXES[cle] || { fr: `/${cle}/`, en: `/en/${cle}/` };
-  const ld = { "@context": "https://schema.org", "@type": cle === "histoire" ? "AboutPage" : "WebPage", "@id": `${SITE}${C[lang]}`, name: P.titre, url: `${SITE}${C[lang]}`, inLanguage: lang, isPartOf: { "@id": SITE_ID }, ...(cle === "histoire" ? { about: { "@id": ORG_ID } } : {}) };
+  const ld = { "@context": "https://schema.org", "@type": cle === "histoire" ? "AboutPage" : cle === "contact" ? "ContactPage" : "WebPage", "@id": `${SITE}${C[lang]}`, name: P.titre, url: `${SITE}${C[lang]}`, inLanguage: lang, isPartOf: { "@id": SITE_ID }, ...(cle === "histoire" ? { about: { "@id": ORG_ID } } : {}) };
   return tete({ lang, titre: `${P.titre} | ${NOM}`, description: couper(P.chapo), canonical: `${SITE}${C[lang]}`, alternates: [{ lang: "fr", href: `${SITE}${C.fr}` }, { lang: "en", href: `${SITE}${C.en}` }], jsonld: [ld] })
     + entete(lang) + `
 <main id="contenu"><article class="article page"><h1>${esc(P.titre)}</h1><p class="chapo">${esc(P.chapo)}</p><div class="page-body">${P.html}</div></article></main>
@@ -779,6 +781,7 @@ ${NOM} est un quotidien d'information en ligne fondé en 2018 et basé à Nice, 
 - Fil RSS : ${SITE}/feed.xml
 - Histoire du journal : ${SITE}/histoire/
 - Mentions légales : ${SITE}/mentions-legales/
+- Contact de la rédaction : ${SITE}/contact/
 
 ## Sujets suivis par la rédaction
 
