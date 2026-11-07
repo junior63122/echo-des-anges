@@ -11,6 +11,7 @@ window.JOURNAL_CONFIG = {
   tva: "",              // numéro de TVA intracommunautaire (si assujetti)
   directeur: "Jules Vernet",          // directeur de la publication
   contact: "jules.vernet@gmail.com",  // adresse de contact (droit de réponse, données personnelles)
+  statistiques: "echodesanges", // identifiant GoatCounter (mesure d'audience sans cookie) ; vide = désactivée
   hebergeur: "GitHub, Inc. (service GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis",
 };
 
@@ -94,8 +95,9 @@ Courriel : ${mail}${C.tva ? `<br>TVA intracommunautaire : ${C.tva}` : ""}</p>
 <p>L'Écho des Anges s'efforce de publier des informations exactes et à jour, mais ne peut garantir l'absence d'erreur. Les informations publiées ne constituent pas un conseil financier, juridique ou d'investissement. Le site contient des liens vers des sites tiers dont il ne contrôle pas le contenu.</p>
 
 <h2>Données personnelles et cookies</h2>
-<p>Le site ne propose ni compte, ni formulaire, ni publicité, et n'utilise aucun outil de mesure d'audience ni aucun cookie de suivi.</p>
+<p>Le site ne propose ni compte, ni formulaire, ni publicité, et ne dépose aucun cookie.</p>
 <ul>
+  <li><strong>Mesure d'audience.</strong> Le nombre de visites est mesuré avec GoatCounter, un outil sans cookie qui ne conserve pas l'adresse IP et ne produit que des statistiques globales et anonymes (pages vues, pays, type d'appareil, site de provenance). Aucune donnée n'est utilisée à des fins publicitaires ni croisée avec d'autres traitements (<a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">politique de confidentialité de GoatCounter</a>).</li>
   <li><strong>Préférence de langue.</strong> Le choix entre français et anglais est conservé dans le stockage local de votre navigateur (localStorage). Cette information reste sur votre appareil et n'est transmise à personne.</li>
   <li><strong>Hébergement.</strong> L'hébergeur enregistre des données techniques de connexion, dont l'adresse IP, pour assurer le fonctionnement et la sécurité du service.</li>
   <li><strong>Polices de caractères.</strong> Les polices sont chargées depuis Google Fonts ; votre navigateur transmet à ce titre votre adresse IP à Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">règles de confidentialité de Google</a>).</li>
@@ -135,8 +137,9 @@ Email: ${mail}${C.tva ? `<br>EU VAT number: ${C.tva}` : ""}</p>
 <p>L'Écho des Anges strives to publish accurate and up-to-date information but cannot guarantee it is error-free. Nothing published here constitutes financial, legal or investment advice. The site links to third-party websites whose content it does not control.</p>
 
 <h2>Personal data and cookies</h2>
-<p>The site has no accounts, forms or advertising, and uses no analytics or tracking cookies.</p>
+<p>The site has no accounts, forms or advertising, and sets no cookies.</p>
 <ul>
+  <li><strong>Audience measurement.</strong> Visits are counted with GoatCounter, a cookie-free tool that does not store IP addresses and only produces aggregate, anonymous statistics (page views, country, device type, referring site). No data is used for advertising or combined with other processing (<a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">GoatCounter privacy policy</a>).</li>
   <li><strong>Language preference.</strong> Your choice of French or English is stored in your browser's local storage. It stays on your device and is not sent to anyone.</li>
   <li><strong>Hosting.</strong> The host logs technical connection data, including IP addresses, to run and secure the service.</li>
   <li><strong>Fonts.</strong> Fonts are loaded from Google Fonts, so your browser sends your IP address to Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privacy policy</a>).</li>
@@ -146,6 +149,47 @@ Email: ${mail}${C.tva ? `<br>EU VAT number: ${C.tva}` : ""}</p>
 <h2>Governing law</h2>
 <p>This site and its legal notice are governed by French law.</p>`,
       },
-    }
+    },
+
+    contact: {
+      fr: {
+        titre: "Contact",
+        chapo: "Une information, une correction, un droit de réponse ? La rédaction de L'Écho des Anges vous lit.",
+        html: `
+<h2>Écrire à la rédaction</h2>
+<p>Courriel : ${mail}</p>
+<p>Précisez dans l'objet de votre message la nature de votre demande. La rédaction répond à chaque message, en général sous quarante-huit heures.</p>
+
+<h2>Pour quoi nous écrire</h2>
+<ul>
+  <li><strong>Une information.</strong> Un événement, une ouverture, une entreprise ou une personnalité de la Côte d'Azur qui mérite un article : envoyez-nous les faits, les dates et vos coordonnées. Les sources qui le souhaitent restent anonymes.</li>
+  <li><strong>Une correction.</strong> Signalez une erreur en indiquant l'article concerné. Toute erreur avérée est corrigée, et la correction est signalée.</li>
+  <li><strong>Un droit de réponse.</strong> Toute personne nommée ou désignée dans un article peut exercer son droit de réponse dans les trois mois suivant la publication (article 6, IV de la loi pour la confiance dans l'économie numérique).</li>
+  <li><strong>Presse, partenariats et événements.</strong> Invitations, communiqués et demandes de partenariat sont à adresser à la même adresse. Le journal ne publie pas de contenu sponsorisé présenté comme un article.</li>
+</ul>
+
+<h2>La rédaction</h2>
+<p>Directeur de la publication : ${v(C.directeur)}<br>Siège : ${v(C.siege)} (Alpes-Maritimes)</p>`,
+      },
+      en: {
+        titre: "Contact",
+        chapo: "A tip, a correction, a right of reply? The L'Écho des Anges newsroom wants to hear from you.",
+        html: `
+<h2>Write to the newsroom</h2>
+<p>Email: ${mail}</p>
+<p>Please state the purpose of your message in the subject line. The newsroom answers every message, usually within forty-eight hours.</p>
+
+<h2>What to write to us about</h2>
+<ul>
+  <li><strong>A story.</strong> An event, an opening, a company or a figure on the French Riviera that deserves an article: send us the facts, the dates and your contact details. Sources who wish to remain anonymous will be protected.</li>
+  <li><strong>A correction.</strong> Report an error and tell us which article it concerns. Any confirmed error is corrected, and the correction is noted.</li>
+  <li><strong>A right of reply.</strong> Anyone named or referred to in an article may exercise a right of reply within three months of publication (article 6, IV of the French law on confidence in the digital economy).</li>
+  <li><strong>Press, partnerships and events.</strong> Invitations, press releases and partnership requests can be sent to the same address. The paper does not publish sponsored content presented as articles.</li>
+</ul>
+
+<h2>The newsroom</h2>
+<p>Publication director: ${v(C.directeur)}<br>Head office: ${v(C.siege)} (Alpes-Maritimes, France)</p>`,
+      },
+    },
   };
 })();
