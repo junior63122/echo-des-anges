@@ -173,8 +173,9 @@ const LIEUX = [
   { re: /\bCannes\b/, item: { "@type": "City", name: "Cannes", sameAs: "https://fr.wikipedia.org/wiki/Cannes" } },
   { re: /\bMonaco\b/, item: { "@type": "Country", name: "Monaco", sameAs: "https://fr.wikipedia.org/wiki/Monaco" } },
 ];
-const sujetUrl = (s, lang) => `${SITE}/sujet/${s.slug}${lang === "en" ? "-en" : ""}.html`;
-const sujetId = (s) => `${SITE}/sujet/${s.slug}.html#${s.entite["@type"] === "Person" ? "person" : "org"}`;
+const sujetChemin = (s, lang) => `${lang === "en" ? "/en/topic" : "/sujet"}/${s.slug}/`;
+const sujetUrl = (s, lang) => `${SITE}${sujetChemin(s, lang)}`;
+const sujetId = (s) => `${SITE}/sujet/${s.slug}/#${s.entite["@type"] === "Person" ? "person" : "org"}`;
 
 // Anciennes adresses d'articles déplacés (changement de date) → nouvelle adresse.
 const REDIRECTIONS = {
@@ -202,14 +203,46 @@ const modifie = (a) => (a.redigeSur && a.redigeSur > isoComplet(a) ? a.redigeSur
 const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : a.precision === "mois" ? new Date(a.date + "T12:00:00Z").toLocaleDateString(langOf(a) === "en" ? "en-GB" : "fr-FR", { month: "long", year: "numeric", timeZone: "UTC" }) : dateLong(a.date, langOf(a)));
 const dateLong = (d, lang) => new Date(d + "T12:00:00Z").toLocaleDateString(lang === "en" ? "en-GB" : "fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const fichier = (id) => `${id.replace(/[^a-z0-9-]/gi, "-")}.html`;
-const url = (a) => `${SITE}/a/${fichier(a.id)}`;
+const url = (a) => `${SITE}${a.chemin}`;
 const texteDe = (a) => (a.chapo || (a.liens && a.liens[0] && a.liens[0].resume) || "").replace(/\s+/g, " ").trim();
 // Description de 155 caractères au plus, coupée à la fin d'un mot.
 const couper = (s, n = 155) => { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length <= n ? s : s.slice(0, n - 1).replace(/[\s,;:.–-]+\S*$/, "") + "…"; };
 const resume = (a) => couper(texteDe(a));
-const secLien = (slug, lang) => `${SITE}/r/${slug}${lang === "en" ? "-en" : ""}.html`;
+// Adresses lisibles : /economie/2026/09/23/portrait-.../ ; /en/business/... pour l'anglais.
+const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
+const secChemin = (slug, lang) => (lang === "en" ? `/en/${SLUG_EN[slug] || slug}/` : `/${slug}/`);
+const secLien = (slug, lang) => `${SITE}${secChemin(slug, lang)}`;
+const CHEMINS_FIXES = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" } };
+const archivesChemin = (lang) => (lang === "en" ? "/en/archives/" : "/archives/");
+const rechercheChemin = (lang) => (lang === "en" ? "/en/search/" : "/recherche/");
+const accueilChemin = (lang) => (lang === "en" ? "/en/" : "/");
+const TOUS = "/tous-les-articles/";
 
-const articles = JSON.parse(readFileSync(join(J, "articles.json"), "utf8"));
+const articlesBrut = readFileSync(join(J, "articles.json"), "utf8");
+const articles = JSON.parse(articlesBrut);
+// Chaque contenu reçoit son adresse définitive (« chemin »), partagée avec l'application (journal.js).
+{
+  const pris = new Set();
+  for (const a of articles) {
+    const en = (a.lang || "fr") === "en";
+    const [y, m, d] = a.date.split("-");
+    let chemin;
+    if (a.type === "archive") {
+      const slug = a.id.replace(/^archive-\d{4}-\d\d-\d\d-(en-)?/, "").replace(/^lecture-\d{4}-\d+-/, "");
+      chemin = `${en ? "/en" : ""}/archives/${y}/${slug}/`;
+    } else {
+      const sec = Object.keys(SECTIONS).includes(a.section) ? SECTIONS[a.section].slug : "actualite";
+      const slug = a.type === "revue" ? (en ? "press-review" : "revue-de-presse") : a.id.replace(/^\d{4}-\d\d-\d\d-(en-)?/, "");
+      chemin = `${secChemin(sec, en ? "en" : "fr")}${y}/${m}/${d}/${slug}/`;
+    }
+    let final = chemin, n = 2;
+    while (pris.has(final)) final = chemin.replace(/\/$/, `-${n++}/`);
+    pris.add(final);
+    a.chemin = final;
+  }
+  const nouveau = JSON.stringify(articles, null, 2) + "\n";
+  if (nouveau !== articlesBrut) writeFileSync(join(J, "articles.json"), nouveau);
+}
 const credits = existsSync(join(J, "img/stock/credits.json")) ? JSON.parse(readFileSync(join(J, "img/stock/credits.json"), "utf8")) : {};
 
 // Pages fixes : on exécute pages.js dans un bac à sable pour récupérer son contenu.
@@ -283,60 +316,47 @@ ${d ? `<meta property="og:image:width" content="${d.w}">\n<meta property="og:ima
 <meta name="twitter:image" content="${img}">
 ${extra}
 <meta name="theme-color" content="#0c1a2b">
-<link rel="icon" href="${SITE}/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="${SITE}/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="${SITE}/apple-touch-icon.png">
-<link rel="manifest" href="${SITE}/site.webmanifest">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${esc(NOM)}" href="${SITE}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,600;1,6..72,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${SITE}/journal.css">
+<link rel="stylesheet" href="/journal.css">
 ${jsonld.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n")}
 </head>
 <body>`;
 }
 
-function entete(lang, actif) {
-  const nav = Object.values(SECTIONS).map((s) => `<a href="${secLien(s.slug, lang)}"${actif === s.slug ? ' aria-current="page"' : ""}>${esc(s[lang])}</a>`).join("");
-  return `<a class="skip" href="#contenu">${lang === "en" ? "Skip to content" : "Aller au contenu"}</a>
-<header class="site-header">
-  <div class="header-top">
-    <div class="header-left"></div>
-    <a class="logo" href="${SITE}/${lang === "en" ? "?lang=en" : ""}" aria-label="${esc(NOM)}">
-      <svg class="emblem" viewBox="0 0 48 40" aria-hidden="true"><path d="M4 30 C14 28 22 22 26 8" /><path d="M10 33 C21 31 30 24 34 10" /><path d="M17 36 C28 34 38 27 44 14" /></svg>
-      <span class="logo-text">L'Écho <em>des</em> Anges</span>
-    </a>
-    <div class="header-right"></div>
-  </div>
-  <nav class="sections" aria-label="${lang === "en" ? "Sections" : "Rubriques"}"><a class="home" href="${SITE}/${lang === "en" ? "?lang=en" : ""}">${lang === "en" ? "Front page" : "À la une"}</a>${nav}<a href="${SITE}/a/">Archives</a></nav>
-</header>`;
+// En-tête et pied de page : ceux du site (index.html), pour que chaque page ait la même navigation.
+const entete = (lang, actif) => `<!--ENTETE:${lang}:${actif || ""}-->`;
+const pied = () => "";
+const CORPS = readFileSync(join(J, "index.html"), "utf8").match(/<body>([\s\S]*)<\/body>/)[1];
+function corpsSite(lang, actif, contenu) {
+  const en = lang === "en";
+  const nav = `<a class="home" href="${accueilChemin(lang)}"${actif === "accueil" ? ' aria-current="page"' : ""}>${en ? "Front page" : "À la une"}</a>`
+    + Object.values(SECTIONS).map((x) => `<a href="${secChemin(x.slug, lang)}" data-sec="${x.slug}"${actif === x.slug ? ' aria-current="page"' : ""}>${esc(x[lang])}</a>`).join("")
+    + `<a href="${archivesChemin(lang)}" data-sec="archives"${actif === "archives" ? ' aria-current="page"' : ""}>Archives</a>`;
+  const rubs = Object.values(SECTIONS).map((x) => `<li><a href="${secChemin(x.slug, lang)}">${esc(x[lang])}</a></li>`).join("");
+  return CORPS
+    .replace(/<a class="logo" href="[^"]*"/, `<a class="logo" href="${accueilChemin(lang)}"`)
+    .replace(/(<nav class="sections" id="sections"[^>]*>)<\/nav>/, `$1${nav}</nav>`)
+    .replace(/(<ul id="footer-sections" class="footer-list">)<\/ul>/, `$1${rubs}</ul>`)
+    .replace(/<main id="app">[\s\S]*?<\/main>/, () => `<main id="app" data-statique="1">${contenu}</main>`);
 }
-
-function pied(lang) {
-  const L = lang === "en"
-    ? { all: "All articles", story: "Our story", legal: "Legal notice", rss: "RSS feed", sec: "Sections", topics: "Topics", about: "About" }
-    : { all: "Tous les articles", story: "Notre histoire", legal: "Mentions légales", rss: "Fil RSS", sec: "Rubriques", topics: "Sujets", about: "Le journal" };
-  const sfx = lang === "en" ? "-en" : "";
-  return `<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand"><span class="logo-text">L'Écho <em>des</em> Anges</span><p>${lang === "en" ? "The daily of the Baie des Anges, since 2018." : "Le quotidien de la Baie des Anges, depuis 2018."}</p></div>
-    <div><h2>${L.sec}</h2><ul class="footer-list">${Object.values(SECTIONS).map((s) => `<li><a href="${secLien(s.slug, lang)}">${esc(s[lang])}</a></li>`).join("")}</ul></div>
-    <div><h2>${L.topics}</h2><ul class="footer-list">${SUJETS.map((s) => `<li><a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a></li>`).join("")}</ul></div>
-    <div><h2>${L.about}</h2><ul class="footer-list"><li><a href="${SITE}/a/">${L.all}</a></li><li><a href="${SITE}/p/histoire${sfx}.html">${L.story}</a></li><li><a href="${SITE}/p/mentions${sfx}.html">${L.legal}</a></li><li><a href="${SITE}/feed.xml">${L.rss}</a></li></ul></div>
-  </div>
-  <p class="copyright">© ${new Date().getFullYear()} ${esc(NOM)}, Nice</p>
-</footer>
-</body>
-</html>
-`;
+function assembler(html) {
+  const m = html.match(/^([\s\S]*?<body>)\s*<!--ENTETE:(\w+):([\w-]*)-->\s*<main id="contenu">([\s\S]*?)<\/main>/);
+  if (!m) throw new Error("Page mal formée");
+  return `${m[1]}\n${corpsSite(m[2], m[3], m[4])}\n</body>\n</html>\n`;
 }
 
 const editeur = {
   "@type": "NewsMediaOrganization", "@id": ORG_ID, name: NOM, url: `${SITE}/`,
   logo: { "@type": "ImageObject", url: `${SITE}/img/logo-512.png`, width: 512, height: 512 },
   foundingDate: "2018", foundingLocation: { "@type": "City", name: "Nice" },
-  publishingPrinciples: `${SITE}/p/histoire.html`,
+  publishingPrinciples: `${SITE}/histoire/`,
 };
 
 const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item"><span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)}<span class="sep" aria-hidden="true"></span><time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
@@ -379,7 +399,7 @@ function pageArticle(a) {
     ...(twin ? { workTranslation: { "@id": `${url(twin)}#article` } } : {}),
   };
   const filNom = a.type === "archive" ? "Archives" : sec[lang];
-  const filUrl = a.type === "archive" ? `${SITE}/a/` : secLien(sec.slug, lang);
+  const filUrl = a.type === "archive" ? `${SITE}${archivesChemin(lang)}` : secLien(sec.slug, lang);
   const fil = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: NOM, item: `${SITE}/` },
     { "@type": "ListItem", position: 2, name: filNom, item: filUrl },
@@ -439,8 +459,6 @@ function pageRubrique(cle, lang) {
 <div class="list">
 ${recents.length ? listeArticles(recents, lang) : ""}
 ${archives.length ? `<h2 class="year">${lang === "en" ? "From the archives" : "Dans nos archives"}</h2>\n${listeArticles(archives, lang)}` : ""}
-${!recents.length && !archives.length ? `<p><a href="${SITE}/#r/${s.slug}">${lang === "en" ? "Today's news in this section" : "L'actualité du jour dans cette rubrique"}</a></p>` : ""}
-<p><a href="${SITE}/${lang === "en" ? "?lang=en" : ""}#r/${s.slug}">${lang === "en" ? "Live updates in this section" : "Le fil d'actualité de la rubrique"}</a></p>
 </div>
 </main>
 ` + pied(lang);
@@ -452,7 +470,7 @@ function pageSujet(s, lang) {
   const liste = indexables.filter((a) => langOf(a) === lang && s.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)).sort(parDate);
   const imgSrc = s.image || null;
   const entite = {
-    ...s.entite, "@id": sujetId(s), url: `${SITE}/sujet/${s.slug}.html`,
+    ...s.entite, "@id": sujetId(s), url: `${SITE}/sujet/${s.slug}/`,
     description: F.role,
     ...(imgSrc ? { image: { "@type": "ImageObject", url: `${SITE}/${imgSrc}`, ...(dimensions(imgSrc) ? { width: dimensions(imgSrc).w, height: dimensions(imgSrc).h } : {}) } } : {}),
     subjectOf: liste.map((a) => ({ "@id": `${url(a)}#article` })),
@@ -473,7 +491,7 @@ function pageSujet(s, lang) {
   const autres = SUJETS.filter((x) => x !== s);
   return tete({ lang, titre: `${F.titre} | ${NOM}`, description: F.desc, canonical: canon, type: s.entite["@type"] === "Person" ? "profile" : "website", imageSrc: imgSrc, imageAlt: s.nom,
     alternates: [{ lang: "fr", href: sujetUrl(s, "fr") }, { lang: "en", href: sujetUrl(s, "en") }], jsonld: [page, fil, ...(faq ? [faq] : [])] })
-    + entete(lang) + `
+    + entete(lang, "sujet") + `
 <main id="contenu">
 <article class="article page sujet">
   <div class="crumbs">${L.topic}</div>
@@ -495,8 +513,8 @@ function pageIndex() {
   for (const a of indexables.filter((x) => langOf(x) === "fr")) (parAn[a.date.slice(0, 4)] ||= []).push(a);
   const annees = Object.keys(parAn).sort().reverse();
   const en = indexables.filter((x) => langOf(x) === "en").sort(parDate);
-  const ld = { "@context": "https://schema.org", "@type": "CollectionPage", "@id": `${SITE}/a/`, name: `Tous les articles de ${NOM}`, url: `${SITE}/a/`, inLanguage: "fr", isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID } };
-  return tete({ lang: "fr", titre: `Tous les articles et archives depuis 2018 | ${NOM}`, description: `Tous les articles et archives de ${NOM} depuis 2018 : Nice, Cannes, Monaco, la Côte d'Azur, l'économie, la tech et l'événementiel.`, canonical: `${SITE}/a/`, jsonld: [ld] })
+  const ld = { "@context": "https://schema.org", "@type": "CollectionPage", "@id": `${SITE}${TOUS}`, name: `Tous les articles de ${NOM}`, url: `${SITE}${TOUS}`, inLanguage: "fr", isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID } };
+  return tete({ lang: "fr", titre: `Tous les articles et archives depuis 2018 | ${NOM}`, description: `Tous les articles et archives de ${NOM} depuis 2018 : Nice, Cannes, Monaco, la Côte d'Azur, l'économie, la tech et l'événementiel.`, canonical: `${SITE}${TOUS}`, jsonld: [ld] })
     + entete("fr") + `
 <main id="contenu">
 <div class="rubrique-head"><h1>Tous les articles</h1><p class="rubrique-chapo">${indexables.length} articles publiés depuis 2018, du plus récent au plus ancien.</p></div>
@@ -513,43 +531,100 @@ ${listeArticles(en, "en")}
 function pageFixe(cle, lang) {
   const P = (PAGES[cle] || {})[lang];
   if (!P) return null;
-  const nom = `${cle}${lang === "en" ? "-en" : ""}.html`;
-  const ld = { "@context": "https://schema.org", "@type": cle === "histoire" ? "AboutPage" : "WebPage", "@id": `${SITE}/p/${nom}`, name: P.titre, url: `${SITE}/p/${nom}`, inLanguage: lang, isPartOf: { "@id": SITE_ID }, ...(cle === "histoire" ? { about: { "@id": ORG_ID } } : {}) };
-  return tete({ lang, titre: `${P.titre} | ${NOM}`, description: couper(P.chapo), canonical: `${SITE}/p/${nom}`, alternates: [{ lang: "fr", href: `${SITE}/p/${cle}.html` }, { lang: "en", href: `${SITE}/p/${cle}-en.html` }], jsonld: [ld] })
+  const C = CHEMINS_FIXES[cle] || { fr: `/${cle}/`, en: `/en/${cle}/` };
+  const ld = { "@context": "https://schema.org", "@type": cle === "histoire" ? "AboutPage" : "WebPage", "@id": `${SITE}${C[lang]}`, name: P.titre, url: `${SITE}${C[lang]}`, inLanguage: lang, isPartOf: { "@id": SITE_ID }, ...(cle === "histoire" ? { about: { "@id": ORG_ID } } : {}) };
+  return tete({ lang, titre: `${P.titre} | ${NOM}`, description: couper(P.chapo), canonical: `${SITE}${C[lang]}`, alternates: [{ lang: "fr", href: `${SITE}${C.fr}` }, { lang: "en", href: `${SITE}${C.en}` }], jsonld: [ld] })
     + entete(lang) + `
 <main id="contenu"><article class="article page"><h1>${esc(P.titre)}</h1><p class="chapo">${esc(P.chapo)}</p><div class="page-body">${P.html}</div></article></main>
 ` + pied(lang);
 }
 
+// Ancienne adresse → nouvelle adresse (redirection immédiate, reconnue par les moteurs).
 const pageRedirection = (cible) => `<!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><title>${esc(NOM)}</title>
-<link rel="canonical" href="${SITE}/a/${fichier(cible)}">
-<meta http-equiv="refresh" content="0; url=${SITE}/a/${fichier(cible)}">
-</head><body><p><a href="${SITE}/a/${fichier(cible)}">${esc(NOM)}</a></p></body></html>
+<link rel="canonical" href="${cible}">
+<meta http-equiv="refresh" content="0; url=${cible}">
+<script>location.replace(${JSON.stringify(cible)} + location.hash)</script>
+</head><body><p><a href="${cible}">${esc(NOM)}</a></p></body></html>
 `;
 
+// Archives, recherche, accueil anglais et page introuvable : coquilles du site avec un contenu statique.
+function pageArchives(lang) {
+  const en = lang === "en";
+  const liste = indexables.filter((a) => a.type === "archive" && langOf(a) === "fr").sort(parDate);
+  const parAn = {};
+  for (const a of liste) (parAn[a.date.slice(0, 4)] ||= []).push(a);
+  const annees = Object.keys(parAn).sort().reverse();
+  const canon = `${SITE}${archivesChemin(lang)}`;
+  return tete({ lang, titre: `${en ? "Archives since 2018" : "Archives depuis 2018"} | ${NOM}`, description: en ? "Archives of L'Écho des Anges since 2018: French Riviera history and reading notes on the economy, technology and events." : "Les archives de L'Écho des Anges depuis 2018 : l'histoire de la Côte d'Azur et nos notes de lecture sur l'économie, la tech et l'événementiel.", canonical: canon,
+    alternates: [{ lang: "fr", href: `${SITE}${archivesChemin("fr")}` }, { lang: "en", href: `${SITE}${archivesChemin("en")}` }], jsonld: [{ "@context": "https://schema.org", "@type": "CollectionPage", "@id": canon, url: canon, name: "Archives", inLanguage: lang, isPartOf: { "@id": SITE_ID } }] })
+    + entete(lang, "archives") + `
+<main id="contenu">
+<div class="rubrique-head"><h1>Archives</h1></div>
+<div class="list">
+${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>\n${listeArticles(parAn[y], "fr")}`).join("\n")}
+</div>
+</main>
+`;
+}
+function pageSimple(lang, titre, texte, chemin, robots) {
+  return tete({ lang, titre: `${titre} | ${NOM}`, description: texte, canonical: `${SITE}${chemin}`, robots })
+    + entete(lang) + `
+<main id="contenu"><div class="rubrique-head"><h1>${esc(titre)}</h1><p class="rubrique-chapo">${esc(texte)}</p></div></main>
+`;
+}
+function accueilAnglais() {
+  const en = indexables.filter((a) => langOf(a) === "en" && a.type !== "archive").sort(parDate).slice(0, 20);
+  return tete({ lang: "en", titre: `${NOM}: news from Nice, Cannes, Monaco and the French Riviera`, description: DESC_EN, canonical: `${SITE}/en/`,
+    alternates: [{ lang: "fr", href: `${SITE}/` }, { lang: "en", href: `${SITE}/en/` }],
+    jsonld: [{ "@context": "https://schema.org", "@type": "WebPage", "@id": `${SITE}/en/`, url: `${SITE}/en/`, name: NOM, inLanguage: "en", isPartOf: { "@id": SITE_ID }, about: { "@id": ORG_ID } }] })
+    + entete("en", "accueil") + `
+<main id="contenu"><div class="prerendu"><h1 class="sr-only">${esc(NOM)}, news from Nice, Cannes, Monaco and the French Riviera</h1><h2>Latest stories</h2>
+<ul>${en.map((a) => `<li><a href="${a.chemin}">${esc(a.titre)}</a></li>`).join("")}</ul></div></main>
+`;
+}
+
 // ---------- Écriture ----------
-rmSync(join(J, "a"), { recursive: true, force: true });
-rmSync(join(J, "r"), { recursive: true, force: true });
-rmSync(join(J, "sujet"), { recursive: true, force: true });
-for (const d of ["a", "p", "r", "sujet"]) mkdirSync(join(J, d), { recursive: true });
-for (const a of indexables) writeFileSync(join(J, "a", fichier(a.id)), pageArticle(a));
-for (const [ancien, cible] of Object.entries(REDIRECTIONS)) if (!indexables.some((a) => a.id === ancien) && indexables.some((a) => a.id === cible)) writeFileSync(join(J, "a", fichier(ancien)), pageRedirection(cible));
-writeFileSync(join(J, "a", "index.html"), pageIndex());
+// Les pages sont générées dans _genere/ (publié par le workflow « Site - publication »).
+const GEN = join(J, "_genere");
+rmSync(GEN, { recursive: true, force: true });
+for (const d of ["a", "r", "p", "sujet"]) rmSync(join(J, d), { recursive: true, force: true }); // anciennes adresses
+const ecrire = (chemin, html) => {
+  const f = chemin.endsWith("/") ? join(GEN, chemin, "index.html") : join(GEN, chemin);
+  mkdirSync(dirname(f), { recursive: true });
+  writeFileSync(f, html);
+};
+for (const a of indexables) ecrire(a.chemin, assembler(pageArticle(a)));
+// Redirections depuis les anciennes adresses (/a/…html, /r/…html, /p/…html, /sujet/…html)
+for (const a of articles) ecrire(`/a/${fichier(a.id)}`, pageRedirection(url(a)));
+for (const [ancien, cible] of Object.entries(REDIRECTIONS)) { const c = articles.find((a) => a.id === cible); if (c && !articles.some((a) => a.id === ancien)) ecrire(`/a/${fichier(ancien)}`, pageRedirection(url(c))); }
+ecrire("/a/index.html", pageRedirection(`${SITE}${TOUS}`));
+ecrire(TOUS, assembler(pageIndex()));
+for (const lang of ["fr", "en"]) ecrire(archivesChemin(lang), assembler(pageArchives(lang)));
+ecrire("/recherche/", assembler(pageSimple("fr", "Recherche", "Rechercher un article de L'Écho des Anges.", "/recherche/", "noindex, follow")));
+ecrire("/en/search/", assembler(pageSimple("en", "Search", "Search L'Écho des Anges.", "/en/search/", "noindex, follow")));
+ecrire("/en/", assembler(accueilAnglais()));
+ecrire("/404.html", assembler(pageSimple("fr", "Page introuvable", "L'article ou la page que vous cherchez n'existe pas, ou a changé d'adresse.", "/404.html", "noindex, follow")));
 const fixes = [];
 for (const cle of Object.keys(PAGES)) for (const lang of ["fr", "en"]) {
   const html = pageFixe(cle, lang);
-  if (html) { writeFileSync(join(J, "p", `${cle}${lang === "en" ? "-en" : ""}.html`), html); fixes.push({ loc: `${SITE}/p/${cle}${lang === "en" ? "-en" : ""}.html`, fr: `${SITE}/p/${cle}.html`, en: `${SITE}/p/${cle}-en.html` }); }
+  if (!html) continue;
+  const C = CHEMINS_FIXES[cle] || { fr: `/${cle}/`, en: `/en/${cle}/` };
+  ecrire(C[lang], assembler(html));
+  ecrire(`/p/${cle}${lang === "en" ? "-en" : ""}.html`, pageRedirection(`${SITE}${C[lang]}`));
+  fixes.push({ loc: `${SITE}${C[lang]}`, fr: `${SITE}${C.fr}`, en: `${SITE}${C.en}` });
 }
 const rubriques = [];
 for (const cle of Object.keys(SECTIONS)) for (const lang of ["fr", "en"]) {
   const s = SECTIONS[cle];
-  writeFileSync(join(J, "r", `${s.slug}${lang === "en" ? "-en" : ""}.html`), pageRubrique(cle, lang));
+  ecrire(secChemin(s.slug, lang), assembler(pageRubrique(cle, lang)));
+  ecrire(`/r/${s.slug}${lang === "en" ? "-en" : ""}.html`, pageRedirection(secLien(s.slug, lang)));
   rubriques.push({ loc: secLien(s.slug, lang), fr: secLien(s.slug, "fr"), en: secLien(s.slug, "en") });
 }
 const sujets = [];
 for (const s of SUJETS) for (const lang of ["fr", "en"]) {
-  writeFileSync(join(J, "sujet", `${s.slug}${lang === "en" ? "-en" : ""}.html`), pageSujet(s, lang));
+  ecrire(sujetChemin(s, lang), assembler(pageSujet(s, lang)));
+  ecrire(`/sujet/${s.slug}${lang === "en" ? "-en" : ""}.html`, pageRedirection(sujetUrl(s, lang)));
   sujets.push({ loc: sujetUrl(s, lang), fr: sujetUrl(s, "fr"), en: sujetUrl(s, "en"), image: s.image });
 }
 
@@ -565,13 +640,13 @@ if (indexHtml.includes(debut)) {
     <div class="prerendu">
       <h1 class="sr-only">L'Écho des Anges, actualité de Nice, Cannes, Monaco et de la Côte d'Azur</h1>
       <h2>À la une</h2>
-      <ul>${derniers.map((a) => `<li><a href="a/${fichier(a.id)}">${esc(a.titre)}</a></li>`).join("")}</ul>
+      <ul>${derniers.map((a) => `<li><a href="${a.chemin}">${esc(a.titre)}</a></li>`).join("")}</ul>
       <h2>Rubriques</h2>
-      <ul>${Object.values(SECTIONS).map((s) => `<li><a href="r/${s.slug}.html">${esc(s.fr)}</a></li>`).join("")}</ul>
+      <ul>${Object.values(SECTIONS).map((s) => `<li><a href="${secChemin(s.slug, "fr")}">${esc(s.fr)}</a></li>`).join("")}</ul>
       <h2>Sujets</h2>
-      <ul>${SUJETS.map((s) => `<li><a href="sujet/${s.slug}.html">${esc(s.nom)}</a></li>`).join("")}</ul>
+      <ul>${SUJETS.map((s) => `<li><a href="${sujetChemin(s, "fr")}">${esc(s.nom)}</a></li>`).join("")}</ul>
       <h2>Archives</h2>
-      <ul>${archives.map((a) => `<li><a href="a/${fichier(a.id)}">${esc(a.titre)}</a></li>`).join("")}<li><a href="a/">Tous les articles depuis 2018</a></li></ul>
+      <ul>${archives.map((a) => `<li><a href="${a.chemin}">${esc(a.titre)}</a></li>`).join("")}<li><a href="${TOUS}">Tous les articles depuis 2018</a></li></ul>
     </div>
     ${fin}`;
   writeFileSync(indexPath, indexHtml.replace(new RegExp(`${debut}[\\s\\S]*?${fin}`), bloc));
@@ -590,7 +665,9 @@ const lignesArticles = indexables.map((a) => {
 writeFileSync(join(J, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>${SITE}/</loc><lastmod>${maj}</lastmod></url>
-  <url><loc>${SITE}/a/</loc><lastmod>${maj}</lastmod></url>
+  <url><loc>${SITE}/en/</loc><lastmod>${maj}</lastmod><xhtml:link rel="alternate" hreflang="fr" href="${SITE}/"/><xhtml:link rel="alternate" hreflang="en" href="${SITE}/en/"/></url>
+  <url><loc>${SITE}${TOUS}</loc><lastmod>${maj}</lastmod></url>
+  <url><loc>${SITE}/archives/</loc><lastmod>${maj}</lastmod></url>
 ${rubriques.map((x) => `  <url><loc>${x.loc}</loc><lastmod>${maj}</lastmod>${altLinks(x)}</url>`).join("\n")}
 ${sujets.map((x) => `  <url><loc>${x.loc}</loc><lastmod>${maj}</lastmod>${altLinks(x)}${imgTag(x.image)}</url>`).join("\n")}
 ${fixes.map((x) => `  <url><loc>${x.loc}</loc>${altLinks(x)}</url>`).join("\n")}
@@ -661,12 +738,12 @@ const llms = `# ${NOM}
 ${NOM} est un quotidien d'information en ligne fondé en 2018 et basé à Nice, publié en français et en anglais. Chaque article cite ses sources en fin de texte. Toutes les pages listées ci-dessous sont des pages HTML statiques contenant le texte intégral.
 
 - Site : ${SITE}/
-- Tous les articles : ${SITE}/a/
+- Tous les articles : ${SITE}${TOUS}
 - Rubriques : ${Object.values(SECTIONS).map((s) => `[${s.fr}](${secLien(s.slug, "fr")})`).join(", ")}
 - Plan du site : ${SITE}/sitemap.xml
 - Fil RSS : ${SITE}/feed.xml
-- Histoire du journal : ${SITE}/p/histoire.html
-- Mentions légales : ${SITE}/p/mentions.html
+- Histoire du journal : ${SITE}/histoire/
+- Mentions légales : ${SITE}/mentions-legales/
 
 ## Sujets suivis par la rédaction
 

@@ -36,6 +36,7 @@ jobs:
       - name: Préparer le site (fichiers publics uniquement, JS et CSS compactés)
         run: |
           npm install --no-save --no-audit --no-fund esbuild@0.24.2
+          node scripts/build-static.mjs
           ESBUILD=node_modules/.bin/esbuild node scripts/preparer-site.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

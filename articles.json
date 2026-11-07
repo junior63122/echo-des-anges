@@ -52,7 +52,8 @@
       "franceinfo",
       "Le Monde",
       "BFM"
-    ]
+    ],
+    "chemin": "/economie/2026/11/07/revue-de-presse/"
   },
   {
     "id": "2026-11-07-actu-evenementiel",
@@ -84,7 +85,8 @@
     "auteur": "Léa Fontaine",
     "sources": [
       "Le Monde"
-    ]
+    ],
+    "chemin": "/evenementiel/2026/11/07/revue-de-presse/"
   },
   {
     "id": "2026-11-07-actu-finance",
@@ -141,7 +143,8 @@
       "Le Monde",
       "Investir Les Echos",
       "Le Revenu"
-    ]
+    ],
+    "chemin": "/finance/2026/11/07/revue-de-presse/"
   },
   {
     "id": "2026-11-07-actu-monde",
@@ -188,7 +191,8 @@
     "sources": [
       "franceinfo",
       "Le Monde"
-    ]
+    ],
+    "chemin": "/international/2026/11/07/revue-de-presse/"
   },
   {
     "id": "2026-11-07-actu-nice-cote-d-azur",
@@ -243,7 +247,8 @@
       "BFM Nice Côte d'Azur",
       "Nice-Matin",
       "France 3 Côte d'Azur"
-    ]
+    ],
+    "chemin": "/nice/2026/11/07/revue-de-presse/"
   },
   {
     "id": "2026-11-07-actu-sport",
@@ -298,7 +303,8 @@
       "franceinfo",
       "Le Monde",
       "Nice-Matin"
-    ]
+    ],
+    "chemin": "/sport/2026/11/07/revue-de-presse/"
   },
   {
     "id": "2026-11-07-actu-tech",
@@ -355,7 +361,8 @@
       "Le Progrès",
       "Le Monde",
       "Sud Ouest"
-    ]
+    ],
+    "chemin": "/tech/2026/11/07/revue-de-presse/"
   },
   {
     "id": "2026-11-07-en-actu-business",
@@ -395,7 +402,8 @@
     "sources": [
       "The Washington Post",
       "BBC News"
-    ]
+    ],
+    "chemin": "/en/business/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-evenementiel",
@@ -451,7 +459,8 @@
       "ad-hoc-news.de",
       "Report.az",
       "IOL"
-    ]
+    ],
+    "chemin": "/en/events/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-finance",
@@ -506,7 +515,8 @@
       "Yahoo Finance UK",
       "Yahoo Finance",
       "WSJ"
-    ]
+    ],
+    "chemin": "/en/finance/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-monde",
@@ -562,7 +572,8 @@
       "BBC News",
       "The Guardian",
       "Sky News"
-    ]
+    ],
+    "chemin": "/en/world/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-nice-cote-d-azur",
@@ -618,7 +629,8 @@
       "BBC",
       "Global South Opportunities",
       "HOLA"
-    ]
+    ],
+    "chemin": "/en/riviera/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-sport",
@@ -658,7 +670,8 @@
     "sources": [
       "BBC News",
       "www.nice-premium.com"
-    ]
+    ],
+    "chemin": "/en/sport/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-tech",
@@ -715,7 +728,8 @@
       "Benzinga",
       "TechCrunch",
       "Cybersecurity Dive"
-    ]
+    ],
+    "chemin": "/en/tech/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-portrait-agnes-costa-fragonard-centenaire",
@@ -794,7 +808,8 @@
         "fr": "L'usine historique Fragonard, à Grasse.",
         "en": "Fragonard's historic factory in Grasse."
       }
-    }
+    },
+    "chemin": "/en/business/2026/11/07/portrait-agnes-costa-fragonard-centenaire/"
   },
   {
     "id": "2026-11-07-portrait-agnes-costa-fragonard-centenaire",
@@ -873,7 +888,8 @@
         "fr": "L'usine historique Fragonard, à Grasse.",
         "en": "Fragonard's historic factory in Grasse."
       }
-    }
+    },
+    "chemin": "/economie/2026/11/07/portrait-agnes-costa-fragonard-centenaire/"
   },
   {
     "id": "2026-11-06-actu-business",
@@ -928,7 +944,8 @@
       "franceinfo",
       "Le Monde",
       "Les Echos"
-    ]
+    ],
+    "chemin": "/economie/2026/11/06/revue-de-presse/"
   },
   {
     "id": "2026-11-06-actu-evenementiel",
@@ -960,7 +977,8 @@
     "auteur": "Léa Fontaine",
     "sources": [
       "Le Monde"
-    ]
+    ],
+    "chemin": "/evenementiel/2026/11/06/revue-de-presse/"
   },
   {
     "id": "2026-11-06-actu-finance",
@@ -1015,7 +1033,8 @@
       "Investir Les Echos",
       "Le Monde",
       "Le Revenu"
-    ]
+    ],
+    "chemin": "/finance/2026/11/06/revue-de-presse/"
   },
   {
     "id": "2026-11-06-actu-monde",
@@ -1062,7 +1081,8 @@
     "sources": [
       "franceinfo",
       "Le Monde"
-    ]
+    ],
+    "chemin": "/international/2026/11/06/revue-de-presse/"
   },
   {
     "id": "2026-11-06-actu-nice-cote-d-azur",
@@ -1117,7 +1137,8 @@
       "Nice-Matin",
       "France 3 Côte d'Azur",
       "BFM Nice Côte d'Azur"
-    ]
+    ],
+    "chemin": "/nice/2026/11/06/revue-de-presse/"
   },
   {
     "id": "2026-11-06-actu-sport",
@@ -1172,7 +1193,8 @@
       "Nice-Matin",
       "franceinfo",
       "Le Monde"
-    ]
+    ],
+    "chemin": "/sport/2026/11/06/revue-de-presse/"
   },
   {
     "id": "2026-11-06-actu-tech",
@@ -1229,7 +1251,8 @@
       "Le Monde",
       "Le Télégramme",
       "L'Usine Digitale"
-    ]
+    ],
+    "chemin": "/tech/2026/11/06/revue-de-presse/"
   },
   {
     "id": "2026-11-06-en-actu-business",
@@ -1285,7 +1308,8 @@
       "Dallas News",
       "Darden Report",
       "Business Wire"
-    ]
+    ],
+    "chemin": "/en/business/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-en-actu-evenementiel",
@@ -1341,7 +1365,8 @@
       "IQ Magazine",
       "BBC News",
       "Shropshire Star"
-    ]
+    ],
+    "chemin": "/en/events/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-en-actu-finance",
@@ -1397,7 +1422,8 @@
       "Bloomberg.com",
       "The Telegraph",
       "Yahoo Finance UK"
-    ]
+    ],
+    "chemin": "/en/finance/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-en-actu-monde",
@@ -1453,7 +1479,8 @@
       "Reuters",
       "BBC News",
       "BBC"
-    ]
+    ],
+    "chemin": "/en/world/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-en-actu-nice-cote-d-azur",
@@ -1508,7 +1535,8 @@
       "Nice Premium",
       "Riviera Radio",
       "AS Monaco"
-    ]
+    ],
+    "chemin": "/en/riviera/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-en-actu-sport",
@@ -1564,7 +1592,8 @@
       "Transfermarkt",
       "Get French Football News",
       "Goal.com"
-    ]
+    ],
+    "chemin": "/en/sport/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-en-actu-tech",
@@ -1621,7 +1650,8 @@
       "CNET",
       "TechRound",
       "The Hacker News"
-    ]
+    ],
+    "chemin": "/en/tech/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-agression-a-l-ecole-clement-roassal-les-enseignants-en-greve",
@@ -1672,7 +1702,8 @@
       "ici Azur",
       "France 3 Côte d'Azur"
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/nice/2026/11/06/agression-a-l-ecole-clement-roassal-les-enseignants-en-greve/"
   },
   {
     "id": "2026-11-06-audit-des-finances-de-nice-eric-ciotti-charge-la-gestion-est",
@@ -1725,7 +1756,8 @@
       "ici Azur",
       "Nice-Matin",
       "BFM Nice Côte d'Azur"
-    ]
+    ],
+    "chemin": "/nice/2026/11/06/audit-des-finances-de-nice-eric-ciotti-charge-la-gestion-est/"
   },
   {
     "id": "2026-11-06-banque-alimentaire-la-grande-collecte-demarre-alors-que-les-",
@@ -1766,7 +1798,8 @@
       "Nice-Matin",
       "BFM Nice Côte d'Azur",
       "ici Azur"
-    ]
+    ],
+    "chemin": "/nice/2026/11/06/banque-alimentaire-la-grande-collecte-demarre-alors-que-les-/"
   },
   {
     "id": "2026-11-06-cannes-un-ouvrier-grievement-blesse-en-installant-les-illumi",
@@ -1802,7 +1835,8 @@
       "France 3 Côte d'Azur",
       "Nice-Matin"
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/nice/2026/11/06/cannes-un-ouvrier-grievement-blesse-en-installant-les-illumi/"
   },
   {
     "id": "2026-11-06-deja-30-centimetres-de-neige-a-isola-2000-a-un-mois-de-l-ouv",
@@ -1847,7 +1881,8 @@
     "sources": [
       "France 3 Côte d'Azur",
       "Nice-Matin"
-    ]
+    ],
+    "chemin": "/nice/2026/11/06/deja-30-centimetres-de-neige-a-isola-2000-a-un-mois-de-l-ouv/"
   },
   {
     "id": "2026-11-06-grasse-nice-malaussene-terres-polluees-eaux-usees-et-dechets",
@@ -1885,7 +1920,8 @@
     ],
     "sources": [
       "Nice-Matin"
-    ]
+    ],
+    "chemin": "/economie/2026/11/06/grasse-nice-malaussene-terres-polluees-eaux-usees-et-dechets/"
   },
   {
     "id": "2026-11-06-le-sociologue-jean-claude-passeron-enfant-d-ascros-et-coaute",
@@ -1913,7 +1949,8 @@
     ],
     "sources": [
       "Nice-Matin"
-    ]
+    ],
+    "chemin": "/nice/2026/11/06/le-sociologue-jean-claude-passeron-enfant-d-ascros-et-coaute/"
   },
   {
     "id": "2026-11-06-rallye-du-haut-pays-nicois-nissa-rugby-handball-un-week-end-",
@@ -1963,7 +2000,8 @@
     ],
     "sources": [
       "Nice-Matin"
-    ]
+    ],
+    "chemin": "/sport/2026/11/06/rallye-du-haut-pays-nicois-nissa-rugby-handball-un-week-end-/"
   },
   {
     "id": "2026-11-06-vie-chere-apres-les-5-000-manifestants-de-jeudi-les-syndicat",
@@ -2025,7 +2063,8 @@
       "BFM Nice Côte d'Azur",
       "Nice-Matin",
       "France 3 Côte d'Azur"
-    ]
+    ],
+    "chemin": "/nice/2026/11/06/vie-chere-apres-les-5-000-manifestants-de-jeudi-les-syndicat/"
   },
   {
     "id": "2026-11-05-actu-business",
@@ -2073,7 +2112,8 @@
     "auteur": "Camille Rostand",
     "sources": [
       "Le Monde"
-    ]
+    ],
+    "chemin": "/economie/2026/11/05/revue-de-presse/"
   },
   {
     "id": "2026-11-05-actu-evenementiel",
@@ -2124,7 +2164,8 @@
       "Sortir à Paris",
       "L'Indépendant",
       "L'Echo touristique"
-    ]
+    ],
+    "chemin": "/evenementiel/2026/11/05/revue-de-presse/"
   },
   {
     "id": "2026-11-05-actu-finance",
@@ -2172,7 +2213,8 @@
     "auteur": "Hugo Marchetti",
     "sources": [
       "Le Monde"
-    ]
+    ],
+    "chemin": "/finance/2026/11/05/revue-de-presse/"
   },
   {
     "id": "2026-11-05-actu-monde",
@@ -2220,7 +2262,8 @@
     "auteur": "Sofia Delmas",
     "sources": [
       "Le Monde"
-    ]
+    ],
+    "chemin": "/international/2026/11/05/revue-de-presse/"
   },
   {
     "id": "2026-11-05-actu-nice-cote-d-azur",
@@ -2270,7 +2313,8 @@
       "ici.fr",
       "BFM",
       "Nice-Matin"
-    ]
+    ],
+    "chemin": "/nice/2026/11/05/revue-de-presse/"
   },
   {
     "id": "2026-11-05-actu-sport",
@@ -2318,7 +2362,8 @@
     "auteur": "Inès Morel",
     "sources": [
       "Le Monde"
-    ]
+    ],
+    "chemin": "/sport/2026/11/05/revue-de-presse/"
   },
   {
     "id": "2026-11-05-actu-tech",
@@ -2366,7 +2411,8 @@
     "auteur": "Nathan Belkacem",
     "sources": [
       "Le Monde"
-    ]
+    ],
+    "chemin": "/tech/2026/11/05/revue-de-presse/"
   },
   {
     "id": "2026-11-05-en-actu-business",
@@ -2414,7 +2460,8 @@
     "auteur": "Camille Rostand",
     "sources": [
       "BBC News"
-    ]
+    ],
+    "chemin": "/en/business/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-evenementiel",
@@ -2466,7 +2513,8 @@
       "The Manila Times",
       "Arts Professional",
       "ARNnet"
-    ]
+    ],
+    "chemin": "/en/events/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-finance",
@@ -2517,7 +2565,8 @@
       "Euronext Markets: Real-time Stock Market Data | live",
       "Yahoo Finance",
       "Moomoo"
-    ]
+    ],
+    "chemin": "/en/finance/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-monde",
@@ -2565,7 +2614,8 @@
     "auteur": "Sofia Delmas",
     "sources": [
       "BBC News"
-    ]
+    ],
+    "chemin": "/en/world/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-nice-cote-d-azur",
@@ -2601,7 +2651,8 @@
     "auteur": "Lucas Giordano",
     "sources": [
       "Riviera Radio"
-    ]
+    ],
+    "chemin": "/en/riviera/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-sport",
@@ -2649,7 +2700,8 @@
     "auteur": "Inès Morel",
     "sources": [
       "BBC News"
-    ]
+    ],
+    "chemin": "/en/sport/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-tech",
@@ -2697,7 +2749,8 @@
     "auteur": "Nathan Belkacem",
     "sources": [
       "BBC News"
-    ]
+    ],
+    "chemin": "/en/tech/2026/11/05/press-review/"
   },
   {
     "id": "2026-10-30-en-palmares-choiseul-sud-2026-jeunes-leaders",
@@ -2755,7 +2808,8 @@
         "url": "https://univ-cotedazur.fr/maxime-menuet-1"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/business/2026/10/30/palmares-choiseul-sud-2026-jeunes-leaders/"
   },
   {
     "id": "2026-10-30-palmares-choiseul-sud-2026-jeunes-leaders",
@@ -2813,7 +2867,8 @@
         "url": "https://univ-cotedazur.fr/maxime-menuet-1"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/economie/2026/10/30/palmares-choiseul-sud-2026-jeunes-leaders/"
   },
   {
     "id": "2026-10-27-en-paprec-pizzorno-offre-publique",
@@ -2882,7 +2937,8 @@
         "fr": "La Pierre de la Fée, dolmen de Draguignan (Var), ville du siège de Pizzorno Environnement.",
         "en": "The Pierre de la Fée, a dolmen in Draguignan (Var), the town where Pizzorno Environnement has its headquarters."
       }
-    }
+    },
+    "chemin": "/en/finance/2026/10/27/paprec-pizzorno-offre-publique/"
   },
   {
     "id": "2026-10-27-paprec-pizzorno-offre-publique",
@@ -2951,7 +3007,8 @@
         "fr": "La Pierre de la Fée, dolmen de Draguignan (Var), ville du siège de Pizzorno Environnement.",
         "en": "The Pierre de la Fée, a dolmen in Draguignan (Var), the town where Pizzorno Environnement has its headquarters."
       }
-    }
+    },
+    "chemin": "/finance/2026/10/27/paprec-pizzorno-offre-publique/"
   },
   {
     "id": "2026-10-12-en-entent-pulse-50-chaleur-fatale-michelin",
@@ -3012,7 +3069,8 @@
         "url": "https://www.environnement-magazine.fr/energie/article/2021/10/01/136350/specialiste-valorisation-thermique-entent-leve-million-euros"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/tech/2026/10/12/entent-pulse-50-chaleur-fatale-michelin/"
   },
   {
     "id": "2026-10-12-entent-pulse-50-chaleur-fatale-michelin",
@@ -3073,7 +3131,8 @@
         "url": "https://www.environnement-magazine.fr/energie/article/2021/10/01/136350/specialiste-valorisation-thermique-entent-leve-million-euros"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/tech/2026/10/12/entent-pulse-50-chaleur-fatale-michelin/"
   },
   {
     "id": "2026-10-08-doors3-leve-1-million-9-capital",
@@ -3129,7 +3188,8 @@
         "fr": "Une avenue de Marseille. Photo d'illustration.",
         "en": "An avenue in Marseille. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2026/10/08/doors3-leve-1-million-9-capital/"
   },
   {
     "id": "2026-10-08-en-doors3-leve-1-million-9-capital",
@@ -3185,7 +3245,8 @@
         "fr": "Une avenue de Marseille. Photo d'illustration.",
         "en": "An avenue in Marseille. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2026/10/08/doors3-leve-1-million-9-capital/"
   },
   {
     "id": "2026-10-05-camille-andrieu-directrice-generale-cma-media",
@@ -3248,7 +3309,8 @@
         "fr": "Le quartier de la Joliette, à Marseille, où se trouve le siège de CMA CGM.",
         "en": "The Joliette district of Marseille, home to CMA CGM's headquarters."
       }
-    }
+    },
+    "chemin": "/economie/2026/10/05/camille-andrieu-directrice-generale-cma-media/"
   },
   {
     "id": "2026-10-05-en-camille-andrieu-directrice-generale-cma-media",
@@ -3311,7 +3373,8 @@
         "fr": "Le quartier de la Joliette, à Marseille, où se trouve le siège de CMA CGM.",
         "en": "The Joliette district of Marseille, home to CMA CGM's headquarters."
       }
-    }
+    },
+    "chemin": "/en/business/2026/10/05/camille-andrieu-directrice-generale-cma-media/"
   },
   {
     "id": "2026-09-23-en-portrait-junior-william-joyant",
@@ -3362,7 +3425,8 @@
           "en": "At a party on the Côte d'Azur."
         }
       }
-    ]
+    ],
+    "chemin": "/en/business/2026/09/23/portrait-junior-william-joyant/"
   },
   {
     "id": "2026-09-23-portrait-junior-william-joyant",
@@ -3413,7 +3477,8 @@
           "en": "At a party on the Côte d'Azur."
         }
       }
-    ]
+    ],
+    "chemin": "/economie/2026/09/23/portrait-junior-william-joyant/"
   },
   {
     "id": "2026-09-01-en-la-meridionale-etienne-melliani-charles-henry-de-lignac",
@@ -3462,7 +3527,8 @@
         "fr": "Un ferry dans le port de Marseille.",
         "en": "A ferry in the port of Marseille."
       }
-    }
+    },
+    "chemin": "/en/business/2026/09/01/la-meridionale-etienne-melliani-charles-henry-de-lignac/"
   },
   {
     "id": "2026-09-01-la-meridionale-etienne-melliani-charles-henry-de-lignac",
@@ -3511,7 +3577,8 @@
         "fr": "Un ferry dans le port de Marseille.",
         "en": "A ferry in the port of Marseille."
       }
-    }
+    },
+    "chemin": "/economie/2026/09/01/la-meridionale-etienne-melliani-charles-henry-de-lignac/"
   },
   {
     "id": "2026-08-25-en-shadow-sante-leve-2-5-millions-hopitaux",
@@ -3569,7 +3636,8 @@
         "fr": "Le couloir d'un hôpital. Photo d'illustration.",
         "en": "A hospital corridor. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2026/08/25/shadow-sante-leve-2-5-millions-hopitaux/"
   },
   {
     "id": "2026-08-25-shadow-sante-leve-2-5-millions-hopitaux",
@@ -3627,7 +3695,8 @@
         "fr": "Le couloir d'un hôpital. Photo d'illustration.",
         "en": "A hospital corridor. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2026/08/25/shadow-sante-leve-2-5-millions-hopitaux/"
   },
   {
     "id": "2026-07-23-en-portrait-fredrik-brag-median-technologies",
@@ -3710,7 +3779,8 @@
         "fr": "Un scanner mobile. Photo d'illustration.",
         "en": "A mobile CT scanner. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2026/07/23/portrait-fredrik-brag-median-technologies/"
   },
   {
     "id": "2026-07-23-portrait-fredrik-brag-median-technologies",
@@ -3793,7 +3863,8 @@
         "fr": "Un scanner mobile. Photo d'illustration.",
         "en": "A mobile CT scanner. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2026/07/23/portrait-fredrik-brag-median-technologies/"
   },
   {
     "id": "lecture-2026-046-ai-index-2026-les-performances-les-usages-et-les-investissem",
@@ -3822,7 +3893,8 @@
     "sources": [
       "Stanford HAI"
     ],
-    "numero": 46
+    "numero": 46,
+    "chemin": "/archives/2026/ai-index-2026-les-performances-les-usages-et-les-investissem/"
   },
   {
     "id": "lecture-2026-081-passerelles-citrix-netscaler-les-autorites-alertent-sur-une-",
@@ -3851,7 +3923,8 @@
     "sources": [
       "Google Cloud"
     ],
-    "numero": 81
+    "numero": 81,
+    "chemin": "/archives/2026/passerelles-citrix-netscaler-les-autorites-alertent-sur-une-/"
   },
   {
     "id": "lecture-2026-082-drupal-la-cisa-impose-aux-administrations-de-corriger-une-fa",
@@ -3880,7 +3953,8 @@
     "sources": [
       "BleepingComputer"
     ],
-    "numero": 82
+    "numero": 82,
+    "chemin": "/archives/2026/drupal-la-cisa-impose-aux-administrations-de-corriger-une-fa/"
   },
   {
     "id": "lecture-2026-083-shinyhunters-etend-ses-attaques-a-peoplesoft-selon-google",
@@ -3909,7 +3983,8 @@
     "sources": [
       "Reuters"
     ],
-    "numero": 83
+    "numero": 83,
+    "chemin": "/archives/2026/shinyhunters-etend-ses-attaques-a-peoplesoft-selon-google/"
   },
   {
     "id": "lecture-2026-084-une-faille-dell-a-corriger-en-trois-jours-dans-les-administr",
@@ -3938,7 +4013,8 @@
     "sources": [
       "BleepingComputer"
     ],
-    "numero": 84
+    "numero": 84,
+    "chemin": "/archives/2026/une-faille-dell-a-corriger-en-trois-jours-dans-les-administr/"
   },
   {
     "id": "lecture-2026-085-le-bulletin-d-actualite-du-cert-fr-numero-2026-act-027",
@@ -3967,7 +4043,8 @@
     "sources": [
       "CERT-FR"
     ],
-    "numero": 85
+    "numero": 85,
+    "chemin": "/archives/2026/le-bulletin-d-actualite-du-cert-fr-numero-2026-act-027/"
   },
   {
     "id": "lecture-2026-086-mandiant-l-ia-ouvre-de-nouvelles-surfaces-d-attaque",
@@ -3996,7 +4073,8 @@
     "sources": [
       "Google Cloud"
     ],
-    "numero": 86
+    "numero": 86,
+    "chemin": "/archives/2026/mandiant-l-ia-ouvre-de-nouvelles-surfaces-d-attaque/"
   },
   {
     "id": "lecture-2026-087-le-bulletin-d-actualite-du-cert-fr-numero-2026-act-023",
@@ -4025,7 +4103,8 @@
     "sources": [
       "CERT-FR"
     ],
-    "numero": 87
+    "numero": 87,
+    "chemin": "/archives/2026/le-bulletin-d-actualite-du-cert-fr-numero-2026-act-023/"
   },
   {
     "id": "lecture-2026-121-comment-une-start-up-peut-evaluer-son-adequation-produit-mar",
@@ -4054,7 +4133,8 @@
     "sources": [
       "J.P. Morgan"
     ],
-    "numero": 121
+    "numero": 121,
+    "chemin": "/archives/2026/comment-une-start-up-peut-evaluer-son-adequation-produit-mar/"
   },
   {
     "id": "lecture-2026-122-combien-un-fondateur-peut-il-raisonnablement-lever-lors-de-s",
@@ -4083,7 +4163,8 @@
     "sources": [
       "UC San Diego"
     ],
-    "numero": 122
+    "numero": 122,
+    "chemin": "/archives/2026/combien-un-fondateur-peut-il-raisonnablement-lever-lors-de-s/"
   },
   {
     "id": "lecture-2026-123-maven-100-000-dollars-de-revenus-recurrents-annuels-en-six-m",
@@ -4112,7 +4193,8 @@
     "sources": [
       "Startup Founder Stories"
     ],
-    "numero": 123
+    "numero": 123,
+    "chemin": "/archives/2026/maven-100-000-dollars-de-revenus-recurrents-annuels-en-six-m/"
   },
   {
     "id": "lecture-2026-124-le-capital-risque-francais-en-2025-selon-le-barometre-ey",
@@ -4141,7 +4223,8 @@
     "sources": [
       "EY"
     ],
-    "numero": 124
+    "numero": 124,
+    "chemin": "/archives/2026/le-capital-risque-francais-en-2025-selon-le-barometre-ey/"
   },
   {
     "id": "lecture-2026-125-les-attentes-et-difficultes-des-fondateurs-selon-le-rapport-",
@@ -4170,7 +4253,8 @@
     "sources": [
       "Slush"
     ],
-    "numero": 125
+    "numero": 125,
+    "chemin": "/archives/2026/les-attentes-et-difficultes-des-fondateurs-selon-le-rapport-/"
   },
   {
     "id": "lecture-2026-126-capital-risque-en-france-un-premier-semestre-2026-tres-conce",
@@ -4199,7 +4283,8 @@
     "sources": [
       "EY"
     ],
-    "numero": 126
+    "numero": 126,
+    "chemin": "/archives/2026/capital-risque-en-france-un-premier-semestre-2026-tres-conce/"
   },
   {
     "id": "lecture-2026-127-le-financement-participatif-en-capital-a-travers-860-levees",
@@ -4228,7 +4313,8 @@
     "sources": [
       "Private Equity Direct"
     ],
-    "numero": 127
+    "numero": 127,
+    "chemin": "/archives/2026/le-financement-participatif-en-capital-a-travers-860-levees/"
   },
   {
     "id": "lecture-2026-128-les-levees-de-fonds-au-troisieme-trimestre-2026-vues-par-see",
@@ -4257,7 +4343,8 @@
     "sources": [
       "Seedblink"
     ],
-    "numero": 128
+    "numero": 128,
+    "chemin": "/archives/2026/les-levees-de-fonds-au-troisieme-trimestre-2026-vues-par-see/"
   },
   {
     "id": "lecture-2026-166-ia-taux-obligataires-cyberattaques-les-nouveaux-risques-des-",
@@ -4286,7 +4373,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 166
+    "numero": 166,
+    "chemin": "/archives/2026/ia-taux-obligataires-cyberattaques-les-nouveaux-risques-des-/"
   },
   {
     "id": "lecture-2026-167-comment-les-banques-adaptent-leurs-prets-aux-tensions-commer",
@@ -4315,7 +4403,8 @@
     "sources": [
       "BCE"
     ],
-    "numero": 167
+    "numero": 167,
+    "chemin": "/archives/2026/comment-les-banques-adaptent-leurs-prets-aux-tensions-commer/"
   },
   {
     "id": "lecture-2026-168-l-amf-publie-sa-cartographie-2026-des-marches-et-des-risques",
@@ -4344,7 +4433,8 @@
     "sources": [
       "AMF"
     ],
-    "numero": 168
+    "numero": 168,
+    "chemin": "/archives/2026/l-amf-publie-sa-cartographie-2026-des-marches-et-des-risques/"
   },
   {
     "id": "lecture-2026-169-les-vulnerabilites-de-la-zone-euro-au-printemps-2026-selon-l",
@@ -4373,7 +4463,8 @@
     "sources": [
       "BCE"
     ],
-    "numero": 169
+    "numero": 169,
+    "chemin": "/archives/2026/les-vulnerabilites-de-la-zone-euro-au-printemps-2026-selon-l/"
   },
   {
     "id": "lecture-2026-207-les-previsions-de-2025-face-a-la-realite",
@@ -4402,7 +4493,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 207
+    "numero": 207,
+    "chemin": "/archives/2026/les-previsions-de-2025-face-a-la-realite/"
   },
   {
     "id": "lecture-2026-208-les-reunions-d-entreprise-en-2026-arbitrer-entre-couts-et-ob",
@@ -4431,7 +4523,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 208
+    "numero": 208,
+    "chemin": "/archives/2026/les-reunions-d-entreprise-en-2026-arbitrer-entre-couts-et-ob/"
   },
   {
     "id": "lecture-2026-209-skift-meetings-forum-2026-les-enseignements-des-coulisses",
@@ -4460,7 +4553,8 @@
     "sources": [
       "Skift"
     ],
-    "numero": 209
+    "numero": 209,
+    "chemin": "/archives/2026/skift-meetings-forum-2026-les-enseignements-des-coulisses/"
   },
   {
     "id": "lecture-2026-210-le-poids-economique-mondial-des-evenements-professionnels-me",
@@ -4489,7 +4583,8 @@
     "sources": [
       "Events Industry Council"
     ],
-    "numero": 210
+    "numero": 210,
+    "chemin": "/archives/2026/le-poids-economique-mondial-des-evenements-professionnels-me/"
   },
   {
     "id": "2026-06-23-en-mysunbed-transats-plages-paris",
@@ -4540,7 +4635,8 @@
         "fr": "Transats sur une plage. Photo d'illustration.",
         "en": "Sunloungers on a beach. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/riviera/2026/06/23/mysunbed-transats-plages-paris/"
   },
   {
     "id": "2026-06-23-mysunbed-transats-plages-paris",
@@ -4591,7 +4687,8 @@
         "fr": "Transats sur une plage. Photo d'illustration.",
         "en": "Sunloungers on a beach. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/nice/2026/06/23/mysunbed-transats-plages-paris/"
   },
   {
     "id": "2026-06-17-en-oneera-cartographie-temps-reel",
@@ -4620,7 +4717,8 @@
         "fr": "Junior William Joyant lors d'une prise de parole au Climathon.",
         "en": "Junior William Joyant speaking at a Climathon."
       }
-    }
+    },
+    "chemin": "/en/tech/2026/06/17/oneera-cartographie-temps-reel/"
   },
   {
     "id": "2026-06-17-oneera-cartographie-temps-reel",
@@ -4649,7 +4747,8 @@
         "fr": "Junior William Joyant lors d'une prise de parole au Climathon.",
         "en": "Junior William Joyant speaking at a Climathon."
       }
-    }
+    },
+    "chemin": "/tech/2026/06/17/oneera-cartographie-temps-reel/"
   },
   {
     "id": "2026-06-16-en-portrait-riccardo-giraudi-beefbar",
@@ -4740,7 +4839,8 @@
         "fr": "La plage de la Croisette, à Cannes.",
         "en": "The beach along the Croisette in Cannes."
       }
-    }
+    },
+    "chemin": "/en/business/2026/06/16/portrait-riccardo-giraudi-beefbar/"
   },
   {
     "id": "2026-06-16-portrait-riccardo-giraudi-beefbar",
@@ -4831,7 +4931,8 @@
         "fr": "La plage de la Croisette, à Cannes.",
         "en": "The beach along the Croisette in Cannes."
       }
-    }
+    },
+    "chemin": "/economie/2026/06/16/portrait-riccardo-giraudi-beefbar/"
   },
   {
     "id": "2026-06-13-en-portrait-marianne-estene-chauvin-belles-rives",
@@ -4903,7 +5004,8 @@
         "url": "https://hotelsmag.com/news/belles-rives-literary-legacy-helps-it-write-new-history"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/events/2026/06/13/portrait-marianne-estene-chauvin-belles-rives/"
   },
   {
     "id": "2026-06-13-portrait-marianne-estene-chauvin-belles-rives",
@@ -4975,7 +5077,8 @@
         "url": "https://hotelsmag.com/news/belles-rives-literary-legacy-helps-it-write-new-history"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/evenementiel/2026/06/13/portrait-marianne-estene-chauvin-belles-rives/"
   },
   {
     "id": "2026-06-05-en-pearcode-coffre-fort-adn-sophia-antipolis",
@@ -5039,7 +5142,8 @@
         "fr": "Plaque commémorant la découverte de la structure de l'ADN, à Cambridge (Royaume-Uni).",
         "en": "Plaque commemorating the discovery of the structure of DNA, in Cambridge (UK)."
       }
-    }
+    },
+    "chemin": "/en/tech/2026/06/05/pearcode-coffre-fort-adn-sophia-antipolis/"
   },
   {
     "id": "2026-06-05-pearcode-coffre-fort-adn-sophia-antipolis",
@@ -5103,7 +5207,8 @@
         "fr": "Plaque commémorant la découverte de la structure de l'ADN, à Cambridge (Royaume-Uni).",
         "en": "Plaque commemorating the discovery of the structure of DNA, in Cambridge (UK)."
       }
-    }
+    },
+    "chemin": "/tech/2026/06/05/pearcode-coffre-fort-adn-sophia-antipolis/"
   },
   {
     "id": "2026-06-02-en-portrait-gildo-pastor-venturi-space",
@@ -5187,7 +5292,8 @@
         "fr": "La Méditerranée vue de Monaco.",
         "en": "The Mediterranean seen from Monaco."
       }
-    }
+    },
+    "chemin": "/en/business/2026/06/02/portrait-gildo-pastor-venturi-space/"
   },
   {
     "id": "2026-06-02-portrait-gildo-pastor-venturi-space",
@@ -5271,7 +5377,8 @@
         "fr": "La Méditerranée vue de Monaco.",
         "en": "The Mediterranean seen from Monaco."
       }
-    }
+    },
+    "chemin": "/economie/2026/06/02/portrait-gildo-pastor-venturi-space/"
   },
   {
     "id": "2026-05-20-en-groupe-renaudi-anthony-renaudi-directeur-general",
@@ -5319,7 +5426,8 @@
         "url": "https://www.lejournaldesentreprises.com/breve/philippe-renaudi-reste-la-tete-de-lupe06-135872"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/riviera/2026/05/20/groupe-renaudi-anthony-renaudi-directeur-general/"
   },
   {
     "id": "2026-05-20-groupe-renaudi-anthony-renaudi-directeur-general",
@@ -5367,7 +5475,8 @@
         "url": "https://www.lejournaldesentreprises.com/breve/philippe-renaudi-reste-la-tete-de-lupe06-135872"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/nice/2026/05/20/groupe-renaudi-anthony-renaudi-directeur-general/"
   },
   {
     "id": "2026-05-12-en-pierre-ippolito-president-team-nice-cote-dazur",
@@ -5425,7 +5534,8 @@
         "url": "https://univ-cotedazur.fr/alumni/interview-dalumni-5-pierre-ippolito-dg-groupe-ippolito-president-upe06"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/riviera/2026/05/12/pierre-ippolito-president-team-nice-cote-dazur/"
   },
   {
     "id": "2026-05-12-pierre-ippolito-president-team-nice-cote-dazur",
@@ -5483,7 +5593,8 @@
         "url": "https://univ-cotedazur.fr/alumni/interview-dalumni-5-pierre-ippolito-dg-groupe-ippolito-president-upe06"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/nice/2026/05/12/pierre-ippolito-president-team-nice-cote-dazur/"
   },
   {
     "id": "2026-04-26-en-play-azur-festival-contrefacons-saisies",
@@ -5540,7 +5651,8 @@
         "fr": "Les allées d'un salon grand public. Photo d'illustration.",
         "en": "The aisles of a consumer fair. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/events/2026/04/26/play-azur-festival-contrefacons-saisies/"
   },
   {
     "id": "2026-04-26-play-azur-festival-contrefacons-saisies",
@@ -5597,7 +5709,8 @@
         "fr": "Les allées d'un salon grand public. Photo d'illustration.",
         "en": "The aisles of a consumer fair. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/evenementiel/2026/04/26/play-azur-festival-contrefacons-saisies/"
   },
   {
     "id": "2026-04-21-citycare-guillaume-fornas-pdg-defibrillateurs",
@@ -5647,7 +5760,8 @@
         "fr": "Un défibrillateur automatisé externe. Photo d'illustration.",
         "en": "An automated external defibrillator. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/economie/2026/04/21/citycare-guillaume-fornas-pdg-defibrillateurs/"
   },
   {
     "id": "2026-04-21-en-citycare-guillaume-fornas-pdg-defibrillateurs",
@@ -5697,7 +5811,8 @@
         "fr": "Un défibrillateur automatisé externe. Photo d'illustration.",
         "en": "An automated external defibrillator. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/business/2026/04/21/citycare-guillaume-fornas-pdg-defibrillateurs/"
   },
   {
     "id": "2026-04-16-en-portrait-justine-lipuma-mycophyto",
@@ -5777,7 +5892,8 @@
         "fr": "Des champignons mycorhiziens observés au microscope. Photo d'illustration.",
         "en": "Mycorrhizal fungi under the microscope. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2026/04/16/portrait-justine-lipuma-mycophyto/"
   },
   {
     "id": "2026-04-16-portrait-justine-lipuma-mycophyto",
@@ -5857,7 +5973,8 @@
         "fr": "Des champignons mycorhiziens observés au microscope. Photo d'illustration.",
         "en": "Mycorrhizal fungi under the microscope. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2026/04/16/portrait-justine-lipuma-mycophyto/"
   },
   {
     "id": "2026-04-15-en-krokola-merveilles-du-monde-10-millions",
@@ -5920,7 +6037,8 @@
         "fr": "Photo d'illustration.",
         "en": "Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/business/2026/04/15/krokola-merveilles-du-monde-10-millions/"
   },
   {
     "id": "2026-04-15-krokola-merveilles-du-monde-10-millions",
@@ -5983,7 +6101,8 @@
         "fr": "Photo d'illustration.",
         "en": "Illustrative photo."
       }
-    }
+    },
+    "chemin": "/economie/2026/04/15/krokola-merveilles-du-monde-10-millions/"
   },
   {
     "id": "2026-04-10-bioceanor-bouee-connectee-baie-de-cannes",
@@ -6041,7 +6160,8 @@
         "fr": "Le littoral azuréen vu du ciel.",
         "en": "The Riviera coastline from the air."
       }
-    }
+    },
+    "chemin": "/nice/2026/04/10/bioceanor-bouee-connectee-baie-de-cannes/"
   },
   {
     "id": "2026-04-10-en-bioceanor-bouee-connectee-baie-de-cannes",
@@ -6099,7 +6219,8 @@
         "fr": "Le littoral azuréen vu du ciel.",
         "en": "The Riviera coastline from the air."
       }
-    }
+    },
+    "chemin": "/en/riviera/2026/04/10/bioceanor-bouee-connectee-baie-de-cannes/"
   },
   {
     "id": "2026-04-08-en-portrait-samantha-mane-groupe-mane",
@@ -6177,7 +6298,8 @@
         "fr": "Le Bar-sur-Loup (Alpes-Maritimes).",
         "en": "Le Bar-sur-Loup (Alpes-Maritimes)."
       }
-    }
+    },
+    "chemin": "/en/business/2026/04/08/portrait-samantha-mane-groupe-mane/"
   },
   {
     "id": "2026-04-08-portrait-samantha-mane-groupe-mane",
@@ -6255,7 +6377,8 @@
         "fr": "Le Bar-sur-Loup (Alpes-Maritimes).",
         "en": "Le Bar-sur-Loup (Alpes-Maritimes)."
       }
-    }
+    },
+    "chemin": "/economie/2026/04/08/portrait-samantha-mane-groupe-mane/"
   },
   {
     "id": "2026-04-01-en-portrait-mauro-colagreco-mirazur-20-ans",
@@ -6339,7 +6462,8 @@
         "fr": "La vieille ville de Menton.",
         "en": "Menton's old town."
       }
-    }
+    },
+    "chemin": "/en/riviera/2026/04/01/portrait-mauro-colagreco-mirazur-20-ans/"
   },
   {
     "id": "2026-04-01-portrait-mauro-colagreco-mirazur-20-ans",
@@ -6423,7 +6547,8 @@
         "fr": "La vieille ville de Menton.",
         "en": "Menton's old town."
       }
-    }
+    },
+    "chemin": "/nice/2026/04/01/portrait-mauro-colagreco-mirazur-20-ans/"
   },
   {
     "id": "2026-03-18-datagreen-data-centers-monaco-telis",
@@ -6480,7 +6605,8 @@
         "fr": "Baies de serveurs dans un centre de données. Photo d'illustration.",
         "en": "Server racks in a data centre. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2026/03/18/datagreen-data-centers-monaco-telis/"
   },
   {
     "id": "2026-03-18-en-datagreen-data-centers-monaco-telis",
@@ -6537,7 +6663,8 @@
         "fr": "Baies de serveurs dans un centre de données. Photo d'illustration.",
         "en": "Server racks in a data centre. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2026/03/18/datagreen-data-centers-monaco-telis/"
   },
   {
     "id": "2026-01-20-en-go-capital-marseille-fonds-maritimes",
@@ -6586,7 +6713,8 @@
         "url": "https://www.gocapital.fr/en/equipe/9190/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/finance/2026/01/20/go-capital-marseille-fonds-maritimes/"
   },
   {
     "id": "2026-01-20-go-capital-marseille-fonds-maritimes",
@@ -6635,7 +6763,8 @@
         "url": "https://www.gocapital.fr/en/equipe/9190/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/finance/2026/01/20/go-capital-marseille-fonds-maritimes/"
   },
   {
     "id": "2025-09-22-en-heritage-victoire-huile-olive-sainte-victoire",
@@ -6697,7 +6826,8 @@
         "url": "https://lafrenchtech-aixmarseille.fr/la-french-tech-aix-marseille-renouvelle-son-conseil-dadministration-et-elit-sa-nouvelle-presidente/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/business/2025/09/22/heritage-victoire-huile-olive-sainte-victoire/"
   },
   {
     "id": "2025-09-22-heritage-victoire-huile-olive-sainte-victoire",
@@ -6759,7 +6889,8 @@
         "url": "https://lafrenchtech-aixmarseille.fr/la-french-tech-aix-marseille-renouvelle-son-conseil-dadministration-et-elit-sa-nouvelle-presidente/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/economie/2025/09/22/heritage-victoire-huile-olive-sainte-victoire/"
   },
   {
     "id": "2025-08-14-en-hugo-lucchino-villa-noailles-hyeres",
@@ -6810,7 +6941,8 @@
         "fr": "À l'intérieur de la Villa Noailles, à Hyères.",
         "en": "Inside Villa Noailles in Hyères."
       }
-    }
+    },
+    "chemin": "/en/events/2025/08/14/hugo-lucchino-villa-noailles-hyeres/"
   },
   {
     "id": "2025-08-14-hugo-lucchino-villa-noailles-hyeres",
@@ -6861,7 +6993,8 @@
         "fr": "À l'intérieur de la Villa Noailles, à Hyères.",
         "en": "Inside Villa Noailles in Hyères."
       }
-    }
+    },
+    "chemin": "/evenementiel/2025/08/14/hugo-lucchino-villa-noailles-hyeres/"
   },
   {
     "id": "2025-07-01-en-melting-pot-association-jeunes-citoyennete-marseille",
@@ -6913,7 +7046,8 @@
         "fr": "L'hôtel de ville de Marseille.",
         "en": "Marseille city hall."
       }
-    }
+    },
+    "chemin": "/en/riviera/2025/07/01/melting-pot-association-jeunes-citoyennete-marseille/"
   },
   {
     "id": "2025-07-01-en-vincent-lavallee-force-invest-martigues",
@@ -6975,7 +7109,8 @@
         "fr": "Le miroir aux oiseaux, à Martigues.",
         "en": "The Miroir aux Oiseaux, in Martigues."
       }
-    }
+    },
+    "chemin": "/en/business/2025/07/01/vincent-lavallee-force-invest-martigues/"
   },
   {
     "id": "2025-07-01-melting-pot-association-jeunes-citoyennete-marseille",
@@ -7027,7 +7162,8 @@
         "fr": "L'hôtel de ville de Marseille.",
         "en": "Marseille city hall."
       }
-    }
+    },
+    "chemin": "/nice/2025/07/01/melting-pot-association-jeunes-citoyennete-marseille/"
   },
   {
     "id": "2025-07-01-vincent-lavallee-force-invest-martigues",
@@ -7089,7 +7225,8 @@
         "fr": "Le miroir aux oiseaux, à Martigues.",
         "en": "The Miroir aux Oiseaux, in Martigues."
       }
-    }
+    },
+    "chemin": "/economie/2025/07/01/vincent-lavallee-force-invest-martigues/"
   },
   {
     "id": "lecture-2025-036-qwen3-alibaba-combine-reponse-rapide-et-raisonnement-approfo",
@@ -7118,7 +7255,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 36
+    "numero": 36,
+    "chemin": "/archives/2025/qwen3-alibaba-combine-reponse-rapide-et-raisonnement-approfo/"
   },
   {
     "id": "lecture-2025-037-gpt-oss-openai-publie-ses-premiers-modeles-a-poids-ouverts-d",
@@ -7147,7 +7285,8 @@
     "sources": [
       "OpenAI"
     ],
-    "numero": 37
+    "numero": 37,
+    "chemin": "/archives/2025/gpt-oss-openai-publie-ses-premiers-modeles-a-poids-ouverts-d/"
   },
   {
     "id": "lecture-2025-038-la-duree-des-taches-que-reussit-une-ia-double-a-intervalles-",
@@ -7176,7 +7315,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 38
+    "numero": 38,
+    "chemin": "/archives/2025/la-duree-des-taches-que-reussit-une-ia-double-a-intervalles-/"
   },
   {
     "id": "lecture-2025-039-swe-bench-pro-un-nouveau-test-de-programmation-passe-au-crib",
@@ -7205,7 +7345,8 @@
     "sources": [
       "Epoch AI"
     ],
-    "numero": 39
+    "numero": 39,
+    "chemin": "/archives/2025/swe-bench-pro-un-nouveau-test-de-programmation-passe-au-crib/"
   },
   {
     "id": "lecture-2025-040-flux-1-kontext-generer-et-retoucher-des-images-en-tenant-com",
@@ -7234,7 +7375,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 40
+    "numero": 40,
+    "chemin": "/archives/2025/flux-1-kontext-generer-et-retoucher-des-images-en-tenant-com/"
   },
   {
     "id": "lecture-2025-041-un-petit-reseau-qui-raisonne-en-se-repetant",
@@ -7263,7 +7405,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 41
+    "numero": 41,
+    "chemin": "/archives/2025/un-petit-reseau-qui-raisonne-en-se-repetant/"
   },
   {
     "id": "lecture-2025-042-ai-index-2025-l-etat-des-lieux-annuel-de-stanford",
@@ -7292,7 +7435,8 @@
     "sources": [
       "Stanford HAI"
     ],
-    "numero": 42
+    "numero": 42,
+    "chemin": "/archives/2025/ai-index-2025-l-etat-des-lieux-annuel-de-stanford/"
   },
   {
     "id": "lecture-2025-043-sora-2-openai-genere-l-image-et-le-son-dans-un-meme-systeme",
@@ -7321,7 +7465,8 @@
     "sources": [
       "OpenAI"
     ],
-    "numero": 43
+    "numero": 43,
+    "chemin": "/archives/2025/sora-2-openai-genere-l-image-et-le-son-dans-un-meme-systeme/"
   },
   {
     "id": "lecture-2025-044-anthropic-mesure-ce-que-les-professionnels-demandent-vraimen",
@@ -7350,7 +7495,8 @@
     "sources": [
       "Anthropic"
     ],
-    "numero": 44
+    "numero": 44,
+    "chemin": "/archives/2025/anthropic-mesure-ce-que-les-professionnels-demandent-vraimen/"
   },
   {
     "id": "lecture-2025-045-deepseek-r1-le-raisonnement-appris-par-renforcement",
@@ -7379,7 +7525,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 45
+    "numero": 45,
+    "chemin": "/archives/2025/deepseek-r1-le-raisonnement-appris-par-renforcement/"
   },
   {
     "id": "lecture-2025-074-la-panne-crowdstrike-a-aussi-perturbe-les-soins",
@@ -7408,7 +7555,8 @@
     "sources": [
       "PubMed Central"
     ],
-    "numero": 74
+    "numero": 74,
+    "chemin": "/archives/2025/la-panne-crowdstrike-a-aussi-perturbe-les-soins/"
   },
   {
     "id": "lecture-2025-075-industrie-les-tendances-des-cyberattaques-fin-2024-selon-kas",
@@ -7437,7 +7585,8 @@
     "sources": [
       "Kaspersky ICS CERT"
     ],
-    "numero": 75
+    "numero": 75,
+    "chemin": "/archives/2025/industrie-les-tendances-des-cyberattaques-fin-2024-selon-kas/"
   },
   {
     "id": "lecture-2025-076-paquets-npm-pieges-le-cert-fr-alerte-sur-une-attaque-par-la-",
@@ -7466,7 +7615,8 @@
     "sources": [
       "CERT-FR"
     ],
-    "numero": 76
+    "numero": 76,
+    "chemin": "/archives/2025/paquets-npm-pieges-le-cert-fr-alerte-sur-une-attaque-par-la-/"
   },
   {
     "id": "lecture-2025-077-scattered-spider-les-autorites-mettent-a-jour-leur-avis-sur-",
@@ -7495,7 +7645,8 @@
     "sources": [
       "CISA"
     ],
-    "numero": 77
+    "numero": 77,
+    "chemin": "/archives/2025/scattered-spider-les-autorites-mettent-a-jour-leur-avis-sur-/"
   },
   {
     "id": "lecture-2025-078-failles-sharepoint-un-plan-de-reprise-commun-pour-les-victim",
@@ -7524,7 +7675,8 @@
     "sources": [
       "ENISA"
     ],
-    "numero": 78
+    "numero": 78,
+    "chemin": "/archives/2025/failles-sharepoint-un-plan-de-reprise-commun-pour-les-victim/"
   },
   {
     "id": "lecture-2025-079-sharepoint-la-cisa-analyse-les-logiciels-malveillants-depose",
@@ -7553,7 +7705,8 @@
     "sources": [
       "CISA"
     ],
-    "numero": 79
+    "numero": 79,
+    "chemin": "/archives/2025/sharepoint-la-cisa-analyse-les-logiciels-malveillants-depose/"
   },
   {
     "id": "lecture-2025-080-sharepoint-les-traces-a-rechercher-apres-une-intrusion-selon",
@@ -7582,7 +7735,8 @@
     "sources": [
       "Centre canadien pour la cybersécurité"
     ],
-    "numero": 80
+    "numero": 80,
+    "chemin": "/archives/2025/sharepoint-les-traces-a-rechercher-apres-une-intrusion-selon/"
   },
   {
     "id": "lecture-2025-119-pourquoi-l-europe-peine-a-faire-grandir-ses-entreprises-inno",
@@ -7611,7 +7765,8 @@
     "sources": [
       "Parlement européen"
     ],
-    "numero": 119
+    "numero": 119,
+    "chemin": "/archives/2025/pourquoi-l-europe-peine-a-faire-grandir-ses-entreprises-inno/"
   },
   {
     "id": "lecture-2025-120-irlande-l-acces-au-financement-des-fondatrices-passe-au-crib",
@@ -7640,7 +7795,8 @@
     "sources": [
       "TechIreland"
     ],
-    "numero": 120
+    "numero": 120,
+    "chemin": "/archives/2025/irlande-l-acces-au-financement-des-fondatrices-passe-au-crib/"
   },
   {
     "id": "lecture-2025-163-le-fmi-annonce-une-nouvelle-ere-pour-l-economie-mondiale",
@@ -7669,7 +7825,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 163
+    "numero": 163,
+    "chemin": "/archives/2025/le-fmi-annonce-une-nouvelle-ere-pour-l-economie-mondiale/"
   },
   {
     "id": "lecture-2025-164-le-cers-surveille-les-intermediaires-financiers-non-bancaire",
@@ -7698,7 +7855,8 @@
     "sources": [
       "CERS"
     ],
-    "numero": 164
+    "numero": 164,
+    "chemin": "/archives/2025/le-cers-surveille-les-intermediaires-financiers-non-bancaire/"
   },
   {
     "id": "lecture-2025-165-droits-de-douane-et-flux-de-capitaux-le-defi-pour-les-banque",
@@ -7727,7 +7885,8 @@
     "sources": [
       "BRI"
     ],
-    "numero": 165
+    "numero": 165,
+    "chemin": "/archives/2025/droits-de-douane-et-flux-de-capitaux-le-defi-pour-les-banque/"
   },
   {
     "id": "lecture-2025-204-votre-evenement-est-il-vraiment-pret-a-affronter-une-crise",
@@ -7756,7 +7915,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 204
+    "numero": 204,
+    "chemin": "/archives/2025/votre-evenement-est-il-vraiment-pret-a-affronter-une-crise/"
   },
   {
     "id": "lecture-2025-205-l-heritage-des-jeux-de-paris-2024-selon-l-ocde",
@@ -7785,7 +7945,8 @@
     "sources": [
       "OCDE"
     ],
-    "numero": 205
+    "numero": 205,
+    "chemin": "/archives/2025/l-heritage-des-jeux-de-paris-2024-selon-l-ocde/"
   },
   {
     "id": "lecture-2025-206-a-quoi-ressemblera-la-salle-de-reunion-de-demain",
@@ -7814,7 +7975,8 @@
     "sources": [
       "Meeting Spotlight"
     ],
-    "numero": 206
+    "numero": 206,
+    "chemin": "/archives/2025/a-quoi-ressemblera-la-salle-de-reunion-de-demain/"
   },
   {
     "id": "archive-2025-06-09-nice-accueille-la-troisieme-conference-des-nations-unies-sur",
@@ -7833,7 +7995,8 @@
       "Pour la ville, l'événement est aussi une vitrine. Il mobilise hôtels, transports et sécurité, et s'accompagne d'un programme ouvert au public autour de la mer et de sa protection."
     ],
     "auteur": "Sofia Delmas",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2025/nice-accueille-la-troisieme-conference-des-nations-unies-sur/"
   },
   {
     "id": "archive-2025-05-25-lando-norris-remporte-un-grand-prix-de-monaco-a-deux-arrets-",
@@ -7852,7 +8015,8 @@
       "Charles Leclerc, vainqueur l'année précédente, est monté sur la deuxième marche du podium devant son public."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2025/lando-norris-remporte-un-grand-prix-de-monaco-a-deux-arrets-/"
   },
   {
     "id": "archive-2025-05-24-jafar-panahi-remporte-la-palme-d-or-avec-un-simple-accident",
@@ -7871,7 +8035,8 @@
       "Avec cette Palme, il rejoint le petit cercle des cinéastes récompensés par les trois plus grands festivals européens."
     ],
     "auteur": "Léa Fontaine",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2025/jafar-panahi-remporte-la-palme-d-or-avec-un-simple-accident/"
   },
   {
     "id": "2025-03-10-en-la-pousseraie-micropousses-levee-montauroux",
@@ -7927,7 +8092,8 @@
         "fr": "Des micropousses. Photo d'illustration.",
         "en": "Microgreens. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/riviera/2025/03/10/la-pousseraie-micropousses-levee-montauroux/"
   },
   {
     "id": "2025-03-10-la-pousseraie-micropousses-levee-montauroux",
@@ -7983,7 +8149,8 @@
         "fr": "Des micropousses. Photo d'illustration.",
         "en": "Microgreens. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/nice/2025/03/10/la-pousseraie-micropousses-levee-montauroux/"
   },
   {
     "id": "archive-2025-02-26-attentat-de-la-basilique-de-nice-perpetuite-incompressible-p",
@@ -8003,7 +8170,8 @@
     ],
     "auteur": "Lucas Giordano",
     "sources": [],
-    "photo": false
+    "photo": false,
+    "chemin": "/archives/2025/attentat-de-la-basilique-de-nice-perpetuite-incompressible-p/"
   },
   {
     "id": "2025-01-02-en-essilorluxottica-rachete-pulse-audition",
@@ -8066,7 +8234,8 @@
         "fr": "Photo d'illustration.",
         "en": "Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2025/01/02/essilorluxottica-rachete-pulse-audition/"
   },
   {
     "id": "2025-01-02-essilorluxottica-rachete-pulse-audition",
@@ -8129,7 +8298,8 @@
         "fr": "Photo d'illustration.",
         "en": "Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2025/01/02/essilorluxottica-rachete-pulse-audition/"
   },
   {
     "id": "2024-12-04-en-pess-energy-leve-2-2-millions-batteries-mobiles",
@@ -8170,7 +8340,8 @@
         "url": "https://madeinmarseille.net/actualite/marseille/151241-pess-energy-developpe-des-batteries-electriques-sur-roulettes-pour-decarboner-lindustrie/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/tech/2024/12/04/pess-energy-leve-2-2-millions-batteries-mobiles/"
   },
   {
     "id": "2024-12-04-pess-energy-leve-2-2-millions-batteries-mobiles",
@@ -8211,7 +8382,8 @@
         "url": "https://madeinmarseille.net/actualite/marseille/151241-pess-energy-developpe-des-batteries-electriques-sur-roulettes-pour-decarboner-lindustrie/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/tech/2024/12/04/pess-energy-leve-2-2-millions-batteries-mobiles/"
   },
   {
     "id": "2024-09-27-en-ephyra-station-hydrogene-anse-de-la-reserve",
@@ -8261,7 +8433,8 @@
         "url": "https://echosud.fr/le-port-de-lanse-de-la-reserve-pionnier-de-lecosysteme-bateau-et-station-davitaillement-en-hydrogene-dans-un-port-de-plaisance/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/tech/2024/09/27/ephyra-station-hydrogene-anse-de-la-reserve/"
   },
   {
     "id": "2024-09-27-ephyra-station-hydrogene-anse-de-la-reserve",
@@ -8311,7 +8484,8 @@
         "url": "https://echosud.fr/le-port-de-lanse-de-la-reserve-pionnier-de-lecosysteme-bateau-et-station-davitaillement-en-hydrogene-dans-un-port-de-plaisance/"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/tech/2024/09/27/ephyra-station-hydrogene-anse-de-la-reserve/"
   },
   {
     "id": "2024-07-01-en-somanity-exosquelettes-imprimes-3d",
@@ -8348,7 +8522,8 @@
         "url": "https://skema.edu/br/node/8890"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/tech/2024/07/01/somanity-exosquelettes-imprimes-3d/"
   },
   {
     "id": "2024-07-01-somanity-exosquelettes-imprimes-3d",
@@ -8385,7 +8560,8 @@
         "url": "https://skema.edu/br/node/8890"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/tech/2024/07/01/somanity-exosquelettes-imprimes-3d/"
   },
   {
     "id": "lecture-2024-030-sora-openai-presente-la-video-generee-comme-un-simulateur-du",
@@ -8414,7 +8590,8 @@
     "sources": [
       "OpenAI"
     ],
-    "numero": 30
+    "numero": 30,
+    "chemin": "/archives/2024/sora-openai-presente-la-video-generee-comme-un-simulateur-du/"
   },
   {
     "id": "lecture-2024-031-llama-3-meta-detaille-la-fabrication-de-sa-famille-de-modele",
@@ -8443,7 +8620,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 31
+    "numero": 31,
+    "chemin": "/archives/2024/llama-3-meta-detaille-la-fabrication-de-sa-famille-de-modele/"
   },
   {
     "id": "lecture-2024-032-deepseek-v3-un-modele-de-premier-plan-pour-un-cout-d-entrain",
@@ -8472,7 +8650,8 @@
     "sources": [
       "Université du Shandong"
     ],
-    "numero": 32
+    "numero": 32,
+    "chemin": "/archives/2024/deepseek-v3-un-modele-de-premier-plan-pour-un-cout-d-entrain/"
   },
   {
     "id": "lecture-2024-033-alphafold-3-etend-ses-predictions-aux-interactions-entre-mol",
@@ -8501,7 +8680,8 @@
     "sources": [
       "Nature"
     ],
-    "numero": 33
+    "numero": 33,
+    "chemin": "/archives/2024/alphafold-3-etend-ses-predictions-aux-interactions-entre-mol/"
   },
   {
     "id": "lecture-2024-034-swe-bench-les-modeles-de-langage-face-a-de-vrais-bugs-logici",
@@ -8530,7 +8710,8 @@
     "sources": [
       "ICLR"
     ],
-    "numero": 34
+    "numero": 34,
+    "chemin": "/archives/2024/swe-bench-les-modeles-de-langage-face-a-de-vrais-bugs-logici/"
   },
   {
     "id": "lecture-2024-035-sam-2-meta-etend-la-segmentation-aux-videos",
@@ -8559,7 +8740,8 @@
     "sources": [
       "Meta AI"
     ],
-    "numero": 35
+    "numero": 35,
+    "chemin": "/archives/2024/sam-2-meta-etend-la-segmentation-aux-videos/"
   },
   {
     "id": "lecture-2024-069-intrusion-chez-microsoft-un-rapport-federal-severe",
@@ -8588,7 +8770,8 @@
     "sources": [
       "CISA"
     ],
-    "numero": 69
+    "numero": 69,
+    "chemin": "/archives/2024/intrusion-chez-microsoft-un-rapport-federal-severe/"
   },
   {
     "id": "lecture-2024-070-porte-derobee-xz-l-attaque-evitee-de-justesse",
@@ -8617,7 +8800,8 @@
     "sources": [
       "Reuters"
     ],
-    "numero": 70
+    "numero": 70,
+    "chemin": "/archives/2024/porte-derobee-xz-l-attaque-evitee-de-justesse/"
   },
   {
     "id": "lecture-2024-071-panne-crowdstrike-comment-une-mise-a-jour-a-bloque-des-milli",
@@ -8646,7 +8830,8 @@
     "sources": [
       "Congressional Research Service"
     ],
-    "numero": 71
+    "numero": 71,
+    "chemin": "/archives/2024/panne-crowdstrike-comment-une-mise-a-jour-a-bloque-des-milli/"
   },
   {
     "id": "lecture-2024-072-la-panne-crowdstrike-un-test-de-resilience-pour-les-organisa",
@@ -8675,7 +8860,8 @@
     "sources": [
       "GAO"
     ],
-    "numero": 72
+    "numero": 72,
+    "chemin": "/archives/2024/la-panne-crowdstrike-un-test-de-resilience-pour-les-organisa/"
   },
   {
     "id": "lecture-2024-073-le-cert-eu-fait-le-point-sur-les-menaces-de-septembre-2024",
@@ -8704,7 +8890,8 @@
     "sources": [
       "CERT-EU"
     ],
-    "numero": 73
+    "numero": 73,
+    "chemin": "/archives/2024/le-cert-eu-fait-le-point-sur-les-menaces-de-septembre-2024/"
   },
   {
     "id": "lecture-2024-115-diriger-une-start-up-en-forte-croissance-les-lecons-de-mckin",
@@ -8733,7 +8920,8 @@
     "sources": [
       "McKinsey"
     ],
-    "numero": 115
+    "numero": 115,
+    "chemin": "/archives/2024/diriger-une-start-up-en-forte-croissance-les-lecons-de-mckin/"
   },
   {
     "id": "lecture-2024-116-les-niveaux-de-l-adequation-produit-marche",
@@ -8762,7 +8950,8 @@
     "sources": [
       "First Round Capital"
     ],
-    "numero": 116
+    "numero": 116,
+    "chemin": "/archives/2024/les-niveaux-de-l-adequation-produit-marche/"
   },
   {
     "id": "lecture-2024-117-les-signes-discrets-d-une-traction-naissante",
@@ -8791,7 +8980,8 @@
     "sources": [
       "First Round Review"
     ],
-    "numero": 117
+    "numero": 117,
+    "chemin": "/archives/2024/les-signes-discrets-d-une-traction-naissante/"
   },
   {
     "id": "lecture-2024-118-l-etat-du-marche-de-l-amorcage-en-2024",
@@ -8820,7 +9010,8 @@
     "sources": [
       "J.P. Morgan"
     ],
-    "numero": 118
+    "numero": 118,
+    "chemin": "/archives/2024/l-etat-du-marche-de-l-amorcage-en-2024/"
   },
   {
     "id": "lecture-2024-158-les-banques-americaines-un-an-apres-les-faillites-de-2023",
@@ -8849,7 +9040,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 158
+    "numero": 158,
+    "chemin": "/archives/2024/les-banques-americaines-un-an-apres-les-faillites-de-2023/"
   },
   {
     "id": "lecture-2024-159-les-paniques-bancaires-a-l-ere-du-numerique",
@@ -8878,7 +9070,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 159
+    "numero": 159,
+    "chemin": "/archives/2024/les-paniques-bancaires-a-l-ere-du-numerique/"
   },
   {
     "id": "lecture-2024-160-l-immobilier-commercial-americain-reste-un-risque-previent-l",
@@ -8907,7 +9100,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 160
+    "numero": 160,
+    "chemin": "/archives/2024/l-immobilier-commercial-americain-reste-un-risque-previent-l/"
   },
   {
     "id": "lecture-2024-161-le-credit-prive-un-marche-de-2-000-milliards-de-dollars-a-su",
@@ -8936,7 +9130,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 161
+    "numero": 161,
+    "chemin": "/archives/2024/le-credit-prive-un-marche-de-2-000-milliards-de-dollars-a-su/"
   },
   {
     "id": "lecture-2024-162-la-bce-cartographie-les-expositions-a-l-immobilier-commercia",
@@ -8965,7 +9160,8 @@
     "sources": [
       "BCE"
     ],
-    "numero": 162
+    "numero": 162,
+    "chemin": "/archives/2024/la-bce-cartographie-les-expositions-a-l-immobilier-commercia/"
   },
   {
     "id": "lecture-2024-200-festivals-l-inaccessibilite-reste-la-regle-selon-un-rapport-",
@@ -8994,7 +9190,8 @@
     "sources": [
       "Cineuropa"
     ],
-    "numero": 200
+    "numero": 200,
+    "chemin": "/archives/2024/festivals-l-inaccessibilite-reste-la-regle-selon-un-rapport-/"
   },
   {
     "id": "lecture-2024-201-comment-les-festivals-protegent-leur-personnel-et-leur-publi",
@@ -9023,7 +9220,8 @@
     "sources": [
       "British Safety Council"
     ],
-    "numero": 201
+    "numero": 201,
+    "chemin": "/archives/2024/comment-les-festivals-protegent-leur-personnel-et-leur-publi/"
   },
   {
     "id": "lecture-2024-202-paris-2024-veut-fixer-de-nouvelles-normes-de-durabilite-et-d",
@@ -9052,7 +9250,8 @@
     "sources": [
       "CIO"
     ],
-    "numero": 202
+    "numero": 202,
+    "chemin": "/archives/2024/paris-2024-veut-fixer-de-nouvelles-normes-de-durabilite-et-d/"
   },
   {
     "id": "lecture-2024-203-les-grandes-tendances-des-congres-et-reunions-pour-2025-selo",
@@ -9081,7 +9280,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 203
+    "numero": 203,
+    "chemin": "/archives/2024/les-grandes-tendances-des-congres-et-reunions-pour-2025-selo/"
   },
   {
     "id": "2024-06-15-en-legapass-jean-charles-chemin-nice-starts-up",
@@ -9126,7 +9326,8 @@
         "fr": "La baie des Anges, à Nice.",
         "en": "The Baie des Anges in Nice."
       }
-    }
+    },
+    "chemin": "/en/tech/2024/06/15/legapass-jean-charles-chemin-nice-starts-up/"
   },
   {
     "id": "2024-06-15-legapass-jean-charles-chemin-nice-starts-up",
@@ -9171,7 +9372,8 @@
         "fr": "La baie des Anges, à Nice.",
         "en": "The Baie des Anges in Nice."
       }
-    }
+    },
+    "chemin": "/tech/2024/06/15/legapass-jean-charles-chemin-nice-starts-up/"
   },
   {
     "id": "archive-2024-05-26-charles-leclerc-gagne-enfin-son-grand-prix-de-monaco",
@@ -9190,7 +9392,8 @@
       "Sur le podium et dans les rues de Monaco, l'émotion était palpable. Le pilote a dédié sa victoire à son père, disparu en 2017, qui rêvait de le voir gagner chez lui."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2024/charles-leclerc-gagne-enfin-son-grand-prix-de-monaco/"
   },
   {
     "id": "archive-2024-05-25-sean-baker-remporte-la-palme-d-or-avec-anora",
@@ -9209,7 +9412,8 @@
       "« Anora » poursuivra un parcours exceptionnel jusqu'aux Oscars, où il remportera notamment le prix du meilleur film."
     ],
     "auteur": "Léa Fontaine",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2024/sean-baker-remporte-la-palme-d-or-avec-anora/"
   },
   {
     "id": "archive-2024-05-19-l-ogc-nice-termine-cinquieme-de-ligue-1-et-retrouve-l-europe",
@@ -9228,7 +9432,8 @@
       "Dans la foulée, Francesco Farioli a quitté le club pour rejoindre l'Ajax Amsterdam. Nice a confié son banc à Franck Haise, ancien entraîneur du RC Lens."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2024/l-ogc-nice-termine-cinquieme-de-ligue-1-et-retrouve-l-europe/"
   },
   {
     "id": "2024-05-15-en-promega-la-farlede-radioprotection",
@@ -9280,7 +9485,8 @@
         "fr": "La Farlède (Var).",
         "en": "La Farlède (Var)."
       }
-    }
+    },
+    "chemin": "/en/business/2024/05/15/promega-la-farlede-radioprotection/"
   },
   {
     "id": "2024-05-15-promega-la-farlede-radioprotection",
@@ -9332,7 +9538,8 @@
         "fr": "La Farlède (Var).",
         "en": "La Farlède (Var)."
       }
-    }
+    },
+    "chemin": "/economie/2024/05/15/promega-la-farlede-radioprotection/"
   },
   {
     "id": "lecture-2023-022-whisper-une-transcription-robuste-grace-a-680-000-heures-d-a",
@@ -9361,7 +9568,8 @@
     "sources": [
       "ICML"
     ],
-    "numero": 22
+    "numero": 22,
+    "chemin": "/archives/2023/whisper-une-transcription-robuste-grace-a-680-000-heures-d-a/"
   },
   {
     "id": "lecture-2023-023-dpo-aligner-un-modele-sur-les-preferences-humaines-sans-appr",
@@ -9390,7 +9598,8 @@
     "sources": [
       "NeurIPS"
     ],
-    "numero": 23
+    "numero": 23,
+    "chemin": "/archives/2023/dpo-aligner-un-modele-sur-les-preferences-humaines-sans-appr/"
   },
   {
     "id": "lecture-2023-024-mistral-7b-la-start-up-francaise-frappe-fort-avec-un-modele-",
@@ -9419,7 +9628,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 24
+    "numero": 24,
+    "chemin": "/archives/2023/mistral-7b-la-start-up-francaise-frappe-fort-avec-un-modele-/"
   },
   {
     "id": "lecture-2023-025-gemini-google-presente-sa-famille-de-modeles-multimodaux",
@@ -9448,7 +9658,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 25
+    "numero": 25,
+    "chemin": "/archives/2023/gemini-google-presente-sa-famille-de-modeles-multimodaux/"
   },
   {
     "id": "lecture-2023-026-l-ia-generative-au-travail-une-etude-mesure-les-gains-de-pro",
@@ -9477,7 +9688,8 @@
     "sources": [
       "NBER"
     ],
-    "numero": 26
+    "numero": 26,
+    "chemin": "/archives/2023/l-ia-generative-au-travail-une-etude-mesure-les-gains-de-pro/"
   },
   {
     "id": "lecture-2023-027-gpt-4-un-rapport-technique-tres-discret-sur-la-recette",
@@ -9506,7 +9718,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 27
+    "numero": 27,
+    "chemin": "/archives/2023/gpt-4-un-rapport-technique-tres-discret-sur-la-recette/"
   },
   {
     "id": "lecture-2023-028-segment-anything-meta-veut-un-modele-qui-decoupe-n-importe-q",
@@ -9535,7 +9748,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 28
+    "numero": 28,
+    "chemin": "/archives/2023/segment-anything-meta-veut-un-modele-qui-decoupe-n-importe-q/"
   },
   {
     "id": "lecture-2023-029-llama-meta-mise-sur-des-modeles-plus-petits-mais-mieux-entra",
@@ -9564,7 +9778,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 29
+    "numero": 29,
+    "chemin": "/archives/2023/llama-meta-mise-sur-des-modeles-plus-petits-mais-mieux-entra/"
   },
   {
     "id": "lecture-2023-064-storm-0558-microsoft-explique-comment-une-cle-de-signature-a",
@@ -9593,7 +9808,8 @@
     "sources": [
       "Microsoft"
     ],
-    "numero": 64
+    "numero": 64,
+    "chemin": "/archives/2023/storm-0558-microsoft-explique-comment-une-cle-de-signature-a/"
   },
   {
     "id": "lecture-2023-065-les-techniques-de-storm-0558-pour-acceder-aux-messageries-da",
@@ -9622,7 +9838,8 @@
     "sources": [
       "Microsoft"
     ],
-    "numero": 65
+    "numero": 65,
+    "chemin": "/archives/2023/les-techniques-de-storm-0558-pour-acceder-aux-messageries-da/"
   },
   {
     "id": "lecture-2023-066-moveit-transfer-le-cert-eu-alerte-sur-une-faille-critique-ex",
@@ -9651,7 +9868,8 @@
     "sources": [
       "CERT-EU"
     ],
-    "numero": 66
+    "numero": 66,
+    "chemin": "/archives/2023/moveit-transfer-le-cert-eu-alerte-sur-une-faille-critique-ex/"
   },
   {
     "id": "lecture-2023-067-de-moveit-aux-casinos-de-las-vegas-les-lecons-des-rancongici",
@@ -9680,7 +9898,8 @@
     "sources": [
       "eSentire"
     ],
-    "numero": 67
+    "numero": 67,
+    "chemin": "/archives/2023/de-moveit-aux-casinos-de-las-vegas-les-lecons-des-rancongici/"
   },
   {
     "id": "lecture-2023-068-3cx-le-logiciel-de-telephonie-detourne-pour-diffuser-un-code",
@@ -9709,7 +9928,8 @@
     "sources": [
       "Kudelski Security"
     ],
-    "numero": 68
+    "numero": 68,
+    "chemin": "/archives/2023/3cx-le-logiciel-de-telephonie-detourne-pour-diffuser-un-code/"
   },
   {
     "id": "lecture-2023-107-workos-quand-une-mauvaise-idee-se-revele-la-bonne",
@@ -9738,7 +9958,8 @@
     "sources": [
       "First Round Review"
     ],
-    "numero": 107
+    "numero": 107,
+    "chemin": "/archives/2023/workos-quand-une-mauvaise-idee-se-revele-la-bonne/"
   },
   {
     "id": "lecture-2023-108-l-adequation-entre-le-fondateur-et-son-projet-selon-ngp-capi",
@@ -9767,7 +9988,8 @@
     "sources": [
       "NGP Capital"
     ],
-    "numero": 108
+    "numero": 108,
+    "chemin": "/archives/2023/l-adequation-entre-le-fondateur-et-son-projet-selon-ngp-capi/"
   },
   {
     "id": "lecture-2023-109-merge-les-fondateurs-en-premiere-ligne-des-ventes",
@@ -9796,7 +10018,8 @@
     "sources": [
       "First Round Review"
     ],
-    "numero": 109
+    "numero": 109,
+    "chemin": "/archives/2023/merge-les-fondateurs-en-premiere-ligne-des-ventes/"
   },
   {
     "id": "lecture-2023-110-lever-des-fonds-en-2022-les-temoignages-recueillis-par-outli",
@@ -9825,7 +10048,8 @@
     "sources": [
       "Outlier Ventures"
     ],
-    "numero": 110
+    "numero": 110,
+    "chemin": "/archives/2023/lever-des-fonds-en-2022-les-temoignages-recueillis-par-outli/"
   },
   {
     "id": "lecture-2023-111-capital-risque-le-bilan-de-l-annee-2022-par-cb-insights",
@@ -9854,7 +10078,8 @@
     "sources": [
       "CB Insights"
     ],
-    "numero": 111
+    "numero": 111,
+    "chemin": "/archives/2023/capital-risque-le-bilan-de-l-annee-2022-par-cb-insights/"
   },
   {
     "id": "lecture-2023-112-les-investisseurs-prospectent-moins-en-amorcage",
@@ -9883,7 +10108,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 112
+    "numero": 112,
+    "chemin": "/archives/2023/les-investisseurs-prospectent-moins-en-amorcage/"
   },
   {
     "id": "lecture-2023-113-seize-regles-pour-lever-des-fonds-dans-un-marche-difficile",
@@ -9912,7 +10138,8 @@
     "sources": [
       "Andreessen Horowitz"
     ],
-    "numero": 113
+    "numero": 113,
+    "chemin": "/archives/2023/seize-regles-pour-lever-des-fonds-dans-un-marche-difficile/"
   },
   {
     "id": "lecture-2023-114-recul-des-operations-de-capital-risque-en-debut-de-parcours-",
@@ -9941,7 +10168,8 @@
     "sources": [
       "Carta"
     ],
-    "numero": 114
+    "numero": 114,
+    "chemin": "/archives/2023/recul-des-operations-de-capital-risque-en-debut-de-parcours-/"
   },
   {
     "id": "lecture-2023-152-crise-des-gilts-comment-la-banque-d-angleterre-est-intervenu",
@@ -9970,7 +10198,8 @@
     "sources": [
       "Banque d'Angleterre"
     ],
-    "numero": 152
+    "numero": 152,
+    "chemin": "/archives/2023/crise-des-gilts-comment-la-banque-d-angleterre-est-intervenu/"
   },
   {
     "id": "lecture-2023-153-les-lecons-de-la-crise-des-fonds-ldi-britanniques-selon-le-f",
@@ -9999,7 +10228,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 153
+    "numero": 153,
+    "chemin": "/archives/2023/les-lecons-de-la-crise-des-fonds-ldi-britanniques-selon-le-f/"
   },
   {
     "id": "lecture-2023-154-la-crise-des-fonds-de-pension-britanniques-vue-de-chicago",
@@ -10028,7 +10258,8 @@
     "sources": [
       "Fed de Chicago"
     ],
-    "numero": 154
+    "numero": 154,
+    "chemin": "/archives/2023/la-crise-des-fonds-de-pension-britanniques-vue-de-chicago/"
   },
   {
     "id": "lecture-2023-155-faillites-bancaires-de-2023-les-premieres-lecons-pour-la-res",
@@ -10057,7 +10288,8 @@
     "sources": [
       "Conseil de stabilité financière"
     ],
-    "numero": 155
+    "numero": 155,
+    "chemin": "/archives/2023/faillites-bancaires-de-2023-les-premieres-lecons-pour-la-res/"
   },
   {
     "id": "lecture-2023-156-turbulences-bancaires-de-2023-les-lecons-du-comite-de-bale",
@@ -10086,7 +10318,8 @@
     "sources": [
       "BRI"
     ],
-    "numero": 156
+    "numero": 156,
+    "chemin": "/archives/2023/turbulences-bancaires-de-2023-les-lecons-du-comite-de-bale/"
   },
   {
     "id": "lecture-2023-157-silicon-valley-bank-la-reserve-federale-reconnait-ses-propre",
@@ -10115,7 +10348,8 @@
     "sources": [
       "Réserve fédérale"
     ],
-    "numero": 157
+    "numero": 157,
+    "chemin": "/archives/2023/silicon-valley-bank-la-reserve-federale-reconnait-ses-propre/"
   },
   {
     "id": "lecture-2023-194-la-securite-des-festivals-europeens-passee-au-crible-par-you",
@@ -10144,7 +10378,8 @@
     "sources": [
       "YOUROPE"
     ],
-    "numero": 194
+    "numero": 194,
+    "chemin": "/archives/2023/la-securite-des-festivals-europeens-passee-au-crible-par-you/"
   },
   {
     "id": "lecture-2023-195-spectacle-vivant-les-risques-de-2023-selon-allianz",
@@ -10173,7 +10408,8 @@
     "sources": [
       "Allianz Commercial"
     ],
-    "numero": 195
+    "numero": 195,
+    "chemin": "/archives/2023/spectacle-vivant-les-risques-de-2023-selon-allianz/"
   },
   {
     "id": "lecture-2023-196-securite-evenementielle-les-echanges-du-seminaire-yes-a-l-es",
@@ -10202,7 +10438,8 @@
     "sources": [
       "YOUROPE"
     ],
-    "numero": 196
+    "numero": 196,
+    "chemin": "/archives/2023/securite-evenementielle-les-echanges-du-seminaire-yes-a-l-es/"
   },
   {
     "id": "lecture-2023-197-le-rapport-europeen-des-festivals-2023-de-yourope",
@@ -10231,7 +10468,8 @@
     "sources": [
       "YOUROPE"
     ],
-    "numero": 197
+    "numero": 197,
+    "chemin": "/archives/2023/le-rapport-europeen-des-festivals-2023-de-yourope/"
   },
   {
     "id": "lecture-2023-198-l-evenementiel-adopte-l-intelligence-artificielle",
@@ -10260,7 +10498,8 @@
     "sources": [
       "Certain"
     ],
-    "numero": 198
+    "numero": 198,
+    "chemin": "/archives/2023/l-evenementiel-adopte-l-intelligence-artificielle/"
   },
   {
     "id": "lecture-2023-199-paris-2024-met-la-durabilite-dans-l-assiette",
@@ -10289,7 +10528,8 @@
     "sources": [
       "CIO"
     ],
-    "numero": 199
+    "numero": 199,
+    "chemin": "/archives/2023/paris-2024-met-la-durabilite-dans-l-assiette/"
   },
   {
     "id": "archive-2023-05-28-grand-prix-de-monaco-verstappen-resiste-a-la-pluie-ocon-sur-",
@@ -10308,7 +10548,8 @@
       "Avec cette victoire, Max Verstappen consolide son avance au championnat du monde, qu'il domine largement cette saison-là."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2023/grand-prix-de-monaco-verstappen-resiste-a-la-pluie-ocon-sur-/"
   },
   {
     "id": "archive-2023-05-27-anatomie-d-une-chute-justine-triet-decroche-la-palme-d-or",
@@ -10327,7 +10568,8 @@
       "Le film poursuivra une carrière internationale remarquée, jusqu'aux Oscars."
     ],
     "auteur": "Léa Fontaine",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2023/anatomie-d-une-chute-justine-triet-decroche-la-palme-d-or/"
   },
   {
     "id": "2023-04-19-en-robertet-villa-blu-accelerateur-grasse",
@@ -10374,7 +10616,8 @@
         "url": "https://www.sophianet.com/article/grasse-robertet-inaugure-villa-blu-accelerateur-startups"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/business/2023/04/19/robertet-villa-blu-accelerateur-grasse/"
   },
   {
     "id": "2023-04-19-robertet-villa-blu-accelerateur-grasse",
@@ -10421,7 +10664,8 @@
         "url": "https://www.sophianet.com/article/grasse-robertet-inaugure-villa-blu-accelerateur-startups"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/economie/2023/04/19/robertet-villa-blu-accelerateur-grasse/"
   },
   {
     "id": "2022-12-05-en-perfumist-crowdcube-application-parfum-grasse",
@@ -10483,7 +10727,8 @@
         "fr": "La vieille ville de Grasse.",
         "en": "The old town of Grasse."
       }
-    }
+    },
+    "chemin": "/en/tech/2022/12/05/perfumist-crowdcube-application-parfum-grasse/"
   },
   {
     "id": "2022-12-05-perfumist-crowdcube-application-parfum-grasse",
@@ -10545,7 +10790,8 @@
         "fr": "La vieille ville de Grasse.",
         "en": "The old town of Grasse."
       }
-    }
+    },
+    "chemin": "/tech/2022/12/05/perfumist-crowdcube-application-parfum-grasse/"
   },
   {
     "id": "2022-09-14-en-nolt-maillots-recycles-collection-running",
@@ -10587,7 +10833,8 @@
         "url": "https://www.linkedin.com/posts/paul-guinard-nolt_nolt-running-is-live-tellement-heureux-activity-6974969372419203072-q6dA"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/sport/2022/09/14/nolt-maillots-recycles-collection-running/"
   },
   {
     "id": "2022-09-14-nolt-maillots-recycles-collection-running",
@@ -10629,7 +10876,8 @@
         "url": "https://www.linkedin.com/posts/paul-guinard-nolt_nolt-running-is-live-tellement-heureux-activity-6974969372419203072-q6dA"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/sport/2022/09/14/nolt-maillots-recycles-collection-running/"
   },
   {
     "id": "archive-2022-07-05-christophe-galtier-quitte-l-ogc-nice-pour-le-paris-saint-ger",
@@ -10648,7 +10896,8 @@
       "Pour le PSG, l'arrivée de Galtier s'inscrit dans une volonté de remodeler l'encadrement sportif autour de son effectif de stars."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2022/christophe-galtier-quitte-l-ogc-nice-pour-le-paris-saint-ger/"
   },
   {
     "id": "2022-07-01-en-smart-connective-batiments-connectes-sophia",
@@ -10684,7 +10933,8 @@
         "url": "https://www.welcometothejungle.com/fr/companies/smart-connective"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/tech/2022/07/01/smart-connective-batiments-connectes-sophia/"
   },
   {
     "id": "2022-07-01-smart-connective-batiments-connectes-sophia",
@@ -10720,7 +10970,8 @@
         "url": "https://www.welcometothejungle.com/fr/companies/smart-connective"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/tech/2022/07/01/smart-connective-batiments-connectes-sophia/"
   },
   {
     "id": "lecture-2022-017-chinchilla-deepmind-montre-que-les-grands-modeles-manquaient",
@@ -10749,7 +11000,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 17
+    "numero": 17,
+    "chemin": "/archives/2022/chinchilla-deepmind-montre-que-les-grands-modeles-manquaient/"
   },
   {
     "id": "lecture-2022-018-la-diffusion-latente-moteur-de-stable-diffusion",
@@ -10778,7 +11030,8 @@
     "sources": [
       "Runway"
     ],
-    "numero": 18
+    "numero": 18,
+    "chemin": "/archives/2022/la-diffusion-latente-moteur-de-stable-diffusion/"
   },
   {
     "id": "lecture-2022-019-l-ia-constitutionnelle-d-anthropic-des-principes-ecrits-plut",
@@ -10807,7 +11060,8 @@
     "sources": [
       "Anthropic"
     ],
-    "numero": 19
+    "numero": 19,
+    "chemin": "/archives/2022/l-ia-constitutionnelle-d-anthropic-des-principes-ecrits-plut/"
   },
   {
     "id": "lecture-2022-020-la-chaine-de-pensee-demander-a-un-modele-de-raisonner-etape-",
@@ -10836,7 +11090,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 20
+    "numero": 20,
+    "chemin": "/archives/2022/la-chaine-de-pensee-demander-a-un-modele-de-raisonner-etape-/"
   },
   {
     "id": "lecture-2022-021-instructgpt-les-retours-humains-au-cur-de-l-entrainement",
@@ -10865,7 +11120,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 21
+    "numero": 21,
+    "chemin": "/archives/2022/instructgpt-les-retours-humains-au-cur-de-l-entrainement/"
   },
   {
     "id": "lecture-2022-057-capital-one-une-reconstitution-technique-de-la-violation",
@@ -10894,7 +11150,8 @@
     "sources": [
       "ACM"
     ],
-    "numero": 57
+    "numero": 57,
+    "chemin": "/archives/2022/capital-one-une-reconstitution-technique-de-la-violation/"
   },
   {
     "id": "lecture-2022-058-les-failles-les-plus-exploitees-de-2021-selon-les-agences-oc",
@@ -10923,7 +11180,8 @@
     "sources": [
       "CISA"
     ],
-    "numero": 58
+    "numero": 58,
+    "chemin": "/archives/2022/les-failles-les-plus-exploitees-de-2021-selon-les-agences-oc/"
   },
   {
     "id": "lecture-2022-059-log4shell-toujours-exploite-sur-des-serveurs-vmware-horizon",
@@ -10952,7 +11210,8 @@
     "sources": [
       "IISF"
     ],
-    "numero": 59
+    "numero": 59,
+    "chemin": "/archives/2022/log4shell-toujours-exploite-sur-des-serveurs-vmware-horizon/"
   },
   {
     "id": "lecture-2022-060-okta-repond-aux-revendications-du-groupe-lapsus",
@@ -10981,7 +11240,8 @@
     "sources": [
       "Okta"
     ],
-    "numero": 60
+    "numero": 60,
+    "chemin": "/archives/2022/okta-repond-aux-revendications-du-groupe-lapsus/"
   },
   {
     "id": "lecture-2022-061-lastpass-reconnait-le-vol-de-coffres-forts-de-mots-de-passe-",
@@ -11010,7 +11270,8 @@
     "sources": [
       "LastPass"
     ],
-    "numero": 61
+    "numero": 61,
+    "chemin": "/archives/2022/lastpass-reconnait-le-vol-de-coffres-forts-de-mots-de-passe-/"
   },
   {
     "id": "lecture-2022-062-uber-attribue-son-piratage-a-un-pirate-lie-a-lapsus",
@@ -11039,7 +11300,8 @@
     "sources": [
       "Euronews"
     ],
-    "numero": 62
+    "numero": 62,
+    "chemin": "/archives/2022/uber-attribue-son-piratage-a-un-pirate-lie-a-lapsus/"
   },
   {
     "id": "lecture-2022-063-ka-sat-viasat-detaille-la-cyberattaque-du-premier-jour-de-l-",
@@ -11068,7 +11330,8 @@
     "sources": [
       "Viasat"
     ],
-    "numero": 63
+    "numero": 63,
+    "chemin": "/archives/2022/ka-sat-viasat-detaille-la-cyberattaque-du-premier-jour-de-l-/"
   },
   {
     "id": "lecture-2022-101-ne-pas-sous-estimer-les-primo-fondateurs",
@@ -11097,7 +11360,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 101
+    "numero": 101,
+    "chemin": "/archives/2022/ne-pas-sous-estimer-les-primo-fondateurs/"
   },
   {
     "id": "lecture-2022-102-y-combinator-appelle-ses-fondateurs-a-se-preparer-au-pire",
@@ -11126,7 +11390,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 102
+    "numero": 102,
+    "chemin": "/archives/2022/y-combinator-appelle-ses-fondateurs-a-se-preparer-au-pire/"
   },
   {
     "id": "lecture-2022-103-les-investisseurs-reconnaissent-que-ce-n-est-plus-comme-d-ha",
@@ -11155,7 +11420,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 103
+    "numero": 103,
+    "chemin": "/archives/2022/les-investisseurs-reconnaissent-que-ce-n-est-plus-comme-d-ha/"
   },
   {
     "id": "lecture-2022-104-y-combinator-reduit-sa-promotion-de-40",
@@ -11184,7 +11450,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 104
+    "numero": 104,
+    "chemin": "/archives/2022/y-combinator-reduit-sa-promotion-de-40/"
   },
   {
     "id": "lecture-2022-105-y-combinator-dresse-le-bilan-de-son-annee-2022",
@@ -11213,7 +11480,8 @@
     "sources": [
       "Y Combinator"
     ],
-    "numero": 105
+    "numero": 105,
+    "chemin": "/archives/2022/y-combinator-dresse-le-bilan-de-son-annee-2022/"
   },
   {
     "id": "lecture-2022-106-piloter-sa-tresorerie-quand-les-marches-baissent",
@@ -11242,7 +11510,8 @@
     "sources": [
       "Andreessen Horowitz"
     ],
-    "numero": 106
+    "numero": 106,
+    "chemin": "/archives/2022/piloter-sa-tresorerie-quand-les-marches-baissent/"
   },
   {
     "id": "lecture-2022-147-l-affaire-gamestop-decortiquee-par-un-economiste",
@@ -11271,7 +11540,8 @@
     "sources": [
       "Journal of Applied Corporate Finance"
     ],
-    "numero": 147
+    "numero": 147,
+    "chemin": "/archives/2022/l-affaire-gamestop-decortiquee-par-un-economiste/"
   },
   {
     "id": "lecture-2022-148-crise-des-fonds-de-pension-britanniques-la-banque-d-angleter",
@@ -11300,7 +11570,8 @@
     "sources": [
       "Banque d'Angleterre"
     ],
-    "numero": 148
+    "numero": 148,
+    "chemin": "/archives/2022/crise-des-fonds-de-pension-britanniques-la-banque-d-angleter/"
   },
   {
     "id": "lecture-2022-149-fin-2022-les-marches-suspendus-aux-perspectives-d-inflation-",
@@ -11329,7 +11600,8 @@
     "sources": [
       "BRI"
     ],
-    "numero": 149
+    "numero": 149,
+    "chemin": "/archives/2022/fin-2022-les-marches-suspendus-aux-perspectives-d-inflation-/"
   },
   {
     "id": "lecture-2022-150-le-retour-de-l-inflation-au-cur-du-rapport-annuel-2022-de-la",
@@ -11358,7 +11630,8 @@
     "sources": [
       "BRI"
     ],
-    "numero": 150
+    "numero": 150,
+    "chemin": "/archives/2022/le-retour-de-l-inflation-au-cur-du-rapport-annuel-2022-de-la/"
   },
   {
     "id": "lecture-2022-151-la-bce-mesure-les-effets-du-resserrement-monetaire-sur-la-zo",
@@ -11387,7 +11660,8 @@
     "sources": [
       "BCE"
     ],
-    "numero": 151
+    "numero": 151,
+    "chemin": "/archives/2022/la-bce-mesure-les-effets-du-resserrement-monetaire-sur-la-zo/"
   },
   {
     "id": "lecture-2022-190-pcma-70-des-inscriptions-a-un-evenement-numerique-obtenues-e",
@@ -11416,7 +11690,8 @@
     "sources": [
       "Hum"
     ],
-    "numero": 190
+    "numero": 190,
+    "chemin": "/archives/2022/pcma-70-des-inscriptions-a-un-evenement-numerique-obtenues-e/"
   },
   {
     "id": "lecture-2022-191-repenser-l-accessibilite-des-evenements",
@@ -11445,7 +11720,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 191
+    "numero": 191,
+    "chemin": "/archives/2022/repenser-l-accessibilite-des-evenements/"
   },
   {
     "id": "lecture-2022-192-la-frequentation-des-evenements-en-presentiel-en-2022",
@@ -11474,7 +11750,8 @@
     "sources": [
       "PCMA"
     ],
-    "numero": 192
+    "numero": 192,
+    "chemin": "/archives/2022/la-frequentation-des-evenements-en-presentiel-en-2022/"
   },
   {
     "id": "lecture-2022-193-apprendre-sur-le-terrain-a-rendre-un-evenement-accessible",
@@ -11503,7 +11780,8 @@
     "sources": [
       "PCMA"
     ],
-    "numero": 193
+    "numero": 193,
+    "chemin": "/archives/2022/apprendre-sur-le-terrain-a-rendre-un-evenement-accessible/"
   },
   {
     "id": "archive-2022-05-29-sous-la-pluie-sergio-perez-remporte-le-grand-prix-de-monaco",
@@ -11522,7 +11800,8 @@
       "Le pilote Ferrari attend donc toujours de briller à domicile, où il n'a encore jamais franchi la ligne d'arrivée sur le podium."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2022/sous-la-pluie-sergio-perez-remporte-le-grand-prix-de-monaco/"
   },
   {
     "id": "archive-2022-05-28-ruben-ostlund-remporte-une-deuxieme-palme-d-or-avec-sans-fil",
@@ -11541,7 +11820,8 @@
       "Cette édition anniversaire a marqué le retour du Festival à son calendrier de mai et à une fréquentation comparable à celle d'avant la crise sanitaire."
     ],
     "auteur": "Léa Fontaine",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2022/ruben-ostlund-remporte-une-deuxieme-palme-d-or-avec-sans-fil/"
   },
   {
     "id": "2022-05-12-en-sclavo-deconstruction-bateaux-frejus",
@@ -11606,7 +11886,8 @@
         "fr": "Le port de Fréjus (Var).",
         "en": "The port of Fréjus (Var)."
       }
-    }
+    },
+    "chemin": "/en/business/2022/05/12/sclavo-deconstruction-bateaux-frejus/"
   },
   {
     "id": "2022-05-12-sclavo-deconstruction-bateaux-frejus",
@@ -11671,7 +11952,8 @@
         "fr": "Le port de Fréjus (Var).",
         "en": "The port of Fréjus (Var)."
       }
-    }
+    },
+    "chemin": "/economie/2022/05/12/sclavo-deconstruction-bateaux-frejus/"
   },
   {
     "id": "2022-05-11-en-telaqua-leve-4-millions-irrigation-connectee",
@@ -11733,7 +12015,8 @@
         "fr": "Une borne d'irrigation. Photo d'illustration.",
         "en": "An irrigation hydrant. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2022/05/11/telaqua-leve-4-millions-irrigation-connectee/"
   },
   {
     "id": "2022-05-11-telaqua-leve-4-millions-irrigation-connectee",
@@ -11795,7 +12078,8 @@
         "fr": "Une borne d'irrigation. Photo d'illustration.",
         "en": "An irrigation hydrant. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2022/05/11/telaqua-leve-4-millions-irrigation-connectee/"
   },
   {
     "id": "archive-2022-05-07-coupe-de-france-l-ogc-nice-battu-par-nantes-en-finale",
@@ -11814,7 +12098,8 @@
       "Le club, détenu par le groupe Ineos depuis 2019, doit désormais se concentrer sur la fin de saison en Ligue 1 et la course aux places européennes."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2022/coupe-de-france-l-ogc-nice-battu-par-nantes-en-finale/"
   },
   {
     "id": "2021-08-20-en-ophelie-mandier-groupe-pierman-frejus",
@@ -11860,7 +12145,8 @@
         "fr": "Le portail de la cathédrale Saint-Léonce, à Fréjus.",
         "en": "The portal of Saint-Léonce cathedral in Fréjus."
       }
-    }
+    },
+    "chemin": "/en/business/2021/08/20/ophelie-mandier-groupe-pierman-frejus/"
   },
   {
     "id": "2021-08-20-ophelie-mandier-groupe-pierman-frejus",
@@ -11906,7 +12192,8 @@
         "fr": "Le portail de la cathédrale Saint-Léonce, à Fréjus.",
         "en": "The portal of Saint-Léonce cathedral in Fréjus."
       }
-    }
+    },
+    "chemin": "/economie/2021/08/20/ophelie-mandier-groupe-pierman-frejus/"
   },
   {
     "id": "archive-2021-07-17-cannes-2021-la-palme-d-or-pour-titane-de-julia-ducournau",
@@ -11925,7 +12212,8 @@
       "Décalée de mai à juillet en raison de la situation sanitaire, cette 74e édition s'est tenue avec un protocole strict, mais a retrouvé ses stars, ses montées des marches et ses projections en salle."
     ],
     "auteur": "Léa Fontaine",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2021/cannes-2021-la-palme-d-or-pour-titane-de-julia-ducournau/"
   },
   {
     "id": "lecture-2021-012-alphafold-predit-la-structure-de-presque-toutes-les-proteine",
@@ -11954,7 +12242,8 @@
     "sources": [
       "Nature"
     ],
-    "numero": 12
+    "numero": 12,
+    "chemin": "/archives/2021/alphafold-predit-la-structure-de-presque-toutes-les-proteine/"
   },
   {
     "id": "lecture-2021-013-clip-apprendre-a-voir-en-lisant-les-legendes-du-web",
@@ -11983,7 +12272,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 13
+    "numero": 13,
+    "chemin": "/archives/2021/clip-apprendre-a-voir-en-lisant-les-legendes-du-web/"
   },
   {
     "id": "lecture-2021-014-dall-e-openai-genere-des-images-a-partir-d-une-phrase",
@@ -12012,7 +12302,8 @@
     "sources": [
       "OpenAI"
     ],
-    "numero": 14
+    "numero": 14,
+    "chemin": "/archives/2021/dall-e-openai-genere-des-images-a-partir-d-une-phrase/"
   },
   {
     "id": "lecture-2021-015-codex-mesurer-la-capacite-d-un-modele-a-ecrire-du-code",
@@ -12041,7 +12332,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 15
+    "numero": 15,
+    "chemin": "/archives/2021/codex-mesurer-la-capacite-d-un-modele-a-ecrire-du-code/"
   },
   {
     "id": "lecture-2021-016-lora-adapter-un-grand-modele-en-n-entrainant-qu-une-infime-p",
@@ -12070,7 +12362,8 @@
     "sources": [
       "ACM"
     ],
-    "numero": 16
+    "numero": 16,
+    "chemin": "/archives/2021/lora-adapter-un-grand-modele-en-n-entrainant-qu-une-infime-p/"
   },
   {
     "id": "lecture-2021-054-log4shell-comment-reperer-et-corriger-la-faille-log4j",
@@ -12099,7 +12392,8 @@
     "sources": [
       "CISA"
     ],
-    "numero": 54
+    "numero": 54,
+    "chemin": "/archives/2021/log4shell-comment-reperer-et-corriger-la-faille-log4j/"
   },
   {
     "id": "lecture-2021-055-kaseya-le-fbi-reagit-a-une-attaque-qui-a-touche-des-centaine",
@@ -12128,7 +12422,8 @@
     "sources": [
       "FBI"
     ],
-    "numero": 55
+    "numero": 55,
+    "chemin": "/archives/2021/kaseya-le-fbi-reagit-a-une-attaque-qui-a-touche-des-centaine/"
   },
   {
     "id": "lecture-2021-056-colonial-pipeline-le-fbi-attribue-l-attaque-au-groupe-darksi",
@@ -12157,7 +12452,8 @@
     "sources": [
       "FBI"
     ],
-    "numero": 56
+    "numero": 56,
+    "chemin": "/archives/2021/colonial-pipeline-le-fbi-attribue-l-attaque-au-groupe-darksi/"
   },
   {
     "id": "lecture-2021-096-l-adequation-produit-marche-une-quete-qui-change-avec-la-cro",
@@ -12186,7 +12482,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 96
+    "numero": 96,
+    "chemin": "/archives/2021/l-adequation-produit-marche-une-quete-qui-change-avec-la-cro/"
   },
   {
     "id": "lecture-2021-097-convaincre-les-premiers-clients-de-faire-confiance-a-une-sta",
@@ -12215,7 +12512,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 97
+    "numero": 97,
+    "chemin": "/archives/2021/convaincre-les-premiers-clients-de-faire-confiance-a-une-sta/"
   },
   {
     "id": "lecture-2021-098-tester-une-idee-de-start-up-a-moindre-cout",
@@ -12244,7 +12542,8 @@
     "sources": [
       "First Round Review"
     ],
-    "numero": 98
+    "numero": 98,
+    "chemin": "/archives/2021/tester-une-idee-de-start-up-a-moindre-cout/"
   },
   {
     "id": "lecture-2021-099-plus-de-250-rendez-vous-en-98-jours-pour-lever-des-fonds",
@@ -12273,7 +12572,8 @@
     "sources": [
       "Wasp"
     ],
-    "numero": 99
+    "numero": 99,
+    "chemin": "/archives/2021/plus-de-250-rendez-vous-en-98-jours-pour-lever-des-fonds/"
   },
   {
     "id": "lecture-2021-100-claap-raconte-sa-levee-d-amorcage-de-3-millions-de-dollars",
@@ -12302,7 +12602,8 @@
     "sources": [
       "Latka"
     ],
-    "numero": 100
+    "numero": 100,
+    "chemin": "/archives/2021/claap-raconte-sa-levee-d-amorcage-de-3-millions-de-dollars/"
   },
   {
     "id": "lecture-2021-140-taux-negatifs-le-fmi-fait-le-bilan",
@@ -12331,7 +12632,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 140
+    "numero": 140,
+    "chemin": "/archives/2021/taux-negatifs-le-fmi-fait-le-bilan/"
   },
   {
     "id": "lecture-2021-141-la-ruee-vers-les-liquidites-de-mars-2020-sur-les-marches-bri",
@@ -12360,7 +12662,8 @@
     "sources": [
       "Banque d'Angleterre"
     ],
-    "numero": 141
+    "numero": 141,
+    "chemin": "/archives/2021/la-ruee-vers-les-liquidites-de-mars-2020-sur-les-marches-bri/"
   },
   {
     "id": "lecture-2021-142-une-reprise-inegale-menace-la-stabilite-financiere-selon-le-",
@@ -12389,7 +12692,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 142
+    "numero": 142,
+    "chemin": "/archives/2021/une-reprise-inegale-menace-la-stabilite-financiere-selon-le-/"
   },
   {
     "id": "lecture-2021-143-bri-le-rapport-economique-annuel-2021-a-la-sortie-de-la-pand",
@@ -12418,7 +12722,8 @@
     "sources": [
       "BRI"
     ],
-    "numero": 143
+    "numero": 143,
+    "chemin": "/archives/2021/bri-le-rapport-economique-annuel-2021-a-la-sortie-de-la-pand/"
   },
   {
     "id": "lecture-2021-144-l-esma-voit-un-risque-de-corrections-sur-les-marches-europee",
@@ -12447,7 +12752,8 @@
     "sources": [
       "ESMA"
     ],
-    "numero": 144
+    "numero": 144,
+    "chemin": "/archives/2021/l-esma-voit-un-risque-de-corrections-sur-les-marches-europee/"
   },
   {
     "id": "lecture-2021-145-yolo-en-bourse-la-fed-de-chicago-s-interroge-sur-la-speculat",
@@ -12476,7 +12782,8 @@
     "sources": [
       "Fed de Chicago"
     ],
-    "numero": 145
+    "numero": 145,
+    "chemin": "/archives/2021/yolo-en-bourse-la-fed-de-chicago-s-interroge-sur-la-speculat/"
   },
   {
     "id": "lecture-2021-146-la-bce-passe-en-revue-les-vulnerabilites-de-la-zone-euro-au-",
@@ -12505,7 +12812,8 @@
     "sources": [
       "BCE"
     ],
-    "numero": 146
+    "numero": 146,
+    "chemin": "/archives/2021/la-bce-passe-en-revue-les-vulnerabilites-de-la-zone-euro-au-/"
   },
   {
     "id": "lecture-2021-181-drift-mise-sur-les-evenements-virtuels-selon-forrester",
@@ -12534,7 +12842,8 @@
     "sources": [
       "Forrester"
     ],
-    "numero": 181
+    "numero": 181,
+    "chemin": "/archives/2021/drift-mise-sur-les-evenements-virtuels-selon-forrester/"
   },
   {
     "id": "lecture-2021-182-evenements-numeriques-le-rapport-de-pcma",
@@ -12563,7 +12872,8 @@
     "sources": [
       "PCMA"
     ],
-    "numero": 182
+    "numero": 182,
+    "chemin": "/archives/2021/evenements-numeriques-le-rapport-de-pcma/"
   },
   {
     "id": "lecture-2021-183-marriott-montre-comment-organiser-des-reunions-hybrides-en-2",
@@ -12592,7 +12902,8 @@
     "sources": [
       "PCMA"
     ],
-    "numero": 183
+    "numero": 183,
+    "chemin": "/archives/2021/marriott-montre-comment-organiser-des-reunions-hybrides-en-2/"
   },
   {
     "id": "lecture-2021-184-les-coulisses-d-un-grand-evenement-hybride-international",
@@ -12621,7 +12932,8 @@
     "sources": [
       "Conference & Incentive Travel"
     ],
-    "numero": 184
+    "numero": 184,
+    "chemin": "/archives/2021/les-coulisses-d-un-grand-evenement-hybride-international/"
   },
   {
     "id": "lecture-2021-185-skift-global-forum-les-enseignements-d-un-evenement-hybride",
@@ -12650,7 +12962,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 185
+    "numero": 185,
+    "chemin": "/archives/2021/skift-global-forum-les-enseignements-d-un-evenement-hybride/"
   },
   {
     "id": "lecture-2021-186-floride-six-adaptations-testees-par-les-organisateurs-pendan",
@@ -12679,7 +12992,8 @@
     "sources": [
       "Meetings Today"
     ],
-    "numero": 186
+    "numero": 186,
+    "chemin": "/archives/2021/floride-six-adaptations-testees-par-les-organisateurs-pendan/"
   },
   {
     "id": "lecture-2021-187-les-conferences-virtuelles-et-hybrides-reduisent-fortement-l",
@@ -12708,7 +13022,8 @@
     "sources": [
       "Nature"
     ],
-    "numero": 187
+    "numero": 187,
+    "chemin": "/archives/2021/les-conferences-virtuelles-et-hybrides-reduisent-fortement-l/"
   },
   {
     "id": "lecture-2021-188-les-participants-a-distance-ne-doivent-pas-etre-oublies",
@@ -12737,7 +13052,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 188
+    "numero": 188,
+    "chemin": "/archives/2021/les-participants-a-distance-ne-doivent-pas-etre-oublies/"
   },
   {
     "id": "lecture-2021-189-europe-les-criteres-de-choix-des-lieux-d-evenements-evoluent",
@@ -12766,7 +13082,8 @@
     "sources": [
       "Cvent"
     ],
-    "numero": 189
+    "numero": 189,
+    "chemin": "/archives/2021/europe-les-criteres-de-choix-des-lieux-d-evenements-evoluent/"
   },
   {
     "id": "2021-06-15-camille-frasca-musees-citadelle-villefranche",
@@ -12818,7 +13135,8 @@
         "fr": "La citadelle de Villefranche-sur-Mer.",
         "en": "The citadel of Villefranche-sur-Mer."
       }
-    }
+    },
+    "chemin": "/evenementiel/2021/06/15/camille-frasca-musees-citadelle-villefranche/"
   },
   {
     "id": "2021-06-15-en-camille-frasca-musees-citadelle-villefranche",
@@ -12870,7 +13188,8 @@
         "fr": "La citadelle de Villefranche-sur-Mer.",
         "en": "The citadel of Villefranche-sur-Mer."
       }
-    }
+    },
+    "chemin": "/en/events/2021/06/15/camille-frasca-musees-citadelle-villefranche/"
   },
   {
     "id": "archive-2021-05-23-grand-prix-de-monaco-max-verstappen-s-impose-charles-leclerc",
@@ -12889,7 +13208,8 @@
       "Le public, revenu en tribunes en jauge réduite, a retrouvé l'ambiance du Grand Prix après deux ans d'attente."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2021/grand-prix-de-monaco-max-verstappen-s-impose-charles-leclerc/"
   },
   {
     "id": "archive-2021-02-22-covid-19-le-littoral-des-alpes-maritimes-confine-le-week-end",
@@ -12908,7 +13228,8 @@
       "Les autorités font aussi le pari d'une accélération de la vaccination dans le département, qui bénéficie de doses supplémentaires pour tenter d'endiguer la circulation du virus et de ses variants."
     ],
     "auteur": "Lucas Giordano",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2021/covid-19-le-littoral-des-alpes-maritimes-confine-le-week-end/"
   },
   {
     "id": "2021-01-20-en-tchek-leve-3-millions-inspection-vehicules",
@@ -12951,7 +13272,8 @@
         "url": "https://nordic9.com/news/tchek-raised-3-million-in-a-round-led-by-demeter-alongside-region-sud-investissement"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/en/tech/2021/01/20/tchek-leve-3-millions-inspection-vehicules/"
   },
   {
     "id": "2021-01-20-tchek-leve-3-millions-inspection-vehicules",
@@ -12994,7 +13316,8 @@
         "url": "https://nordic9.com/news/tchek-raised-3-million-in-a-round-led-by-demeter-alongside-region-sud-investissement"
       }
     ],
-    "photo": false
+    "photo": false,
+    "chemin": "/tech/2021/01/20/tchek-leve-3-millions-inspection-vehicules/"
   },
   {
     "id": "archive-2020-10-29-attentat-dans-la-basilique-notre-dame-de-nice-trois-morts",
@@ -13014,7 +13337,8 @@
     ],
     "auteur": "Lucas Giordano",
     "sources": [],
-    "photo": false
+    "photo": false,
+    "chemin": "/archives/2020/attentat-dans-la-basilique-notre-dame-de-nice-trois-morts/"
   },
   {
     "id": "archive-2020-10-02-tempete-alex-les-vallees-de-la-roya-de-la-vesubie-et-de-la-t",
@@ -13035,7 +13359,8 @@
     ],
     "auteur": "Lucas Giordano",
     "sources": [],
-    "photo": false
+    "photo": false,
+    "chemin": "/archives/2020/tempete-alex-les-vallees-de-la-roya-de-la-vesubie-et-de-la-t/"
   },
   {
     "id": "2020-07-01-en-neptech-bateaux-bas-carbone-aix",
@@ -13080,7 +13405,8 @@
         "fr": "Un bateau électrique exposé dans un salon nautique. Photo d'illustration.",
         "en": "An electric boat on display at a boat show. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/en/tech/2020/07/01/neptech-bateaux-bas-carbone-aix/"
   },
   {
     "id": "2020-07-01-neptech-bateaux-bas-carbone-aix",
@@ -13125,7 +13451,8 @@
         "fr": "Un bateau électrique exposé dans un salon nautique. Photo d'illustration.",
         "en": "An electric boat on display at a boat show. Illustrative photo."
       }
-    }
+    },
+    "chemin": "/tech/2020/07/01/neptech-bateaux-bas-carbone-aix/"
   },
   {
     "id": "lecture-2020-006-t5-toutes-les-taches-de-langage-ramenees-a-du-texte-vers-du-",
@@ -13154,7 +13481,8 @@
     "sources": [
       "JMLR"
     ],
-    "numero": 6
+    "numero": 6,
+    "chemin": "/archives/2020/t5-toutes-les-taches-de-langage-ramenees-a-du-texte-vers-du-/"
   },
   {
     "id": "lecture-2020-007-les-modeles-de-diffusion-ou-comment-creer-une-image-en-retir",
@@ -13183,7 +13511,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 7
+    "numero": 7,
+    "chemin": "/archives/2020/les-modeles-de-diffusion-ou-comment-creer-une-image-en-retir/"
   },
   {
     "id": "lecture-2020-008-les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele",
@@ -13212,7 +13541,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 8
+    "numero": 8,
+    "chemin": "/archives/2020/les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele/"
   },
   {
     "id": "lecture-2020-009-rag-quand-un-modele-de-langage-consulte-une-bibliotheque-ava",
@@ -13241,7 +13571,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 9
+    "numero": 9,
+    "chemin": "/archives/2020/rag-quand-un-modele-de-langage-consulte-une-bibliotheque-ava/"
   },
   {
     "id": "lecture-2020-010-gpt-3-l-apprentissage-a-partir-de-quelques-exemples",
@@ -13270,7 +13601,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 10
+    "numero": 10,
+    "chemin": "/archives/2020/gpt-3-l-apprentissage-a-partir-de-quelques-exemples/"
   },
   {
     "id": "lecture-2020-011-vision-transformer-une-image-decoupee-comme-une-phrase",
@@ -13299,7 +13631,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 11
+    "numero": 11,
+    "chemin": "/archives/2020/vision-transformer-une-image-decoupee-comme-une-phrase/"
   },
   {
     "id": "lecture-2020-052-garmin-paralyse-plusieurs-jours-par-un-rancongiciel",
@@ -13328,7 +13661,8 @@
     "sources": [
       "Garmin"
     ],
-    "numero": 52
+    "numero": 52,
+    "chemin": "/archives/2020/garmin-paralyse-plusieurs-jours-par-un-rancongiciel/"
   },
   {
     "id": "lecture-2020-053-solarwinds-une-mise-a-jour-piegee-infiltre-des-milliers-d-or",
@@ -13357,7 +13691,8 @@
     "sources": [
       "SolarWinds"
     ],
-    "numero": 53
+    "numero": 53,
+    "chemin": "/archives/2020/solarwinds-une-mise-a-jour-piegee-infiltre-des-milliers-d-or/"
   },
   {
     "id": "lecture-2020-091-de-l-adequation-produit-marche-a-la-levee-de-serie-a",
@@ -13386,7 +13721,8 @@
     "sources": [
       "Teleport"
     ],
-    "numero": 91
+    "numero": 91,
+    "chemin": "/archives/2020/de-l-adequation-produit-marche-a-la-levee-de-serie-a/"
   },
   {
     "id": "lecture-2020-092-la-grille-d-ann-miura-ko-pour-evaluer-une-idee-de-start-up",
@@ -13415,7 +13751,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 92
+    "numero": 92,
+    "chemin": "/archives/2020/la-grille-d-ann-miura-ko-pour-evaluer-une-idee-de-start-up/"
   },
   {
     "id": "lecture-2020-093-valider-une-entreprise-pas-seulement-un-prototype",
@@ -13444,7 +13781,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 93
+    "numero": 93,
+    "chemin": "/archives/2020/valider-une-entreprise-pas-seulement-un-prototype/"
   },
   {
     "id": "lecture-2020-094-quatre-cles-pour-demarrer-une-start-up",
@@ -13473,7 +13811,8 @@
     "sources": [
       "TechCrunch"
     ],
-    "numero": 94
+    "numero": 94,
+    "chemin": "/archives/2020/quatre-cles-pour-demarrer-une-start-up/"
   },
   {
     "id": "lecture-2020-095-ce-qui-fait-reussir-les-jeunes-start-up-selon-une-enquete-d-",
@@ -13502,7 +13841,8 @@
     "sources": [
       "SSRN"
     ],
-    "numero": 95
+    "numero": 95,
+    "chemin": "/archives/2020/ce-qui-fait-reussir-les-jeunes-start-up-selon-une-enquete-d-/"
   },
   {
     "id": "lecture-2020-134-le-marche-des-pensions-livrees-rouage-discret-mais-essentiel",
@@ -13531,7 +13871,8 @@
     "sources": [
       "Brookings"
     ],
-    "numero": 134
+    "numero": 134,
+    "chemin": "/archives/2020/le-marche-des-pensions-livrees-rouage-discret-mais-essentiel/"
   },
   {
     "id": "lecture-2020-135-septembre-2019-la-fed-reconstitue-les-tensions-du-marche-mon",
@@ -13560,7 +13901,8 @@
     "sources": [
       "Réserve fédérale"
     ],
-    "numero": 135
+    "numero": 135,
+    "chemin": "/archives/2020/septembre-2019-la-fed-reconstitue-les-tensions-du-marche-mon/"
   },
   {
     "id": "lecture-2020-136-le-fmi-alerte-sur-la-menace-que-la-crise-du-covid-19-fait-pe",
@@ -13589,7 +13931,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 136
+    "numero": 136,
+    "chemin": "/archives/2020/le-fmi-alerte-sur-la-menace-que-la-crise-du-covid-19-fait-pe/"
   },
   {
     "id": "lecture-2020-137-rapport-du-fmi-d-octobre-2020-une-passerelle-vers-la-reprise",
@@ -13618,7 +13961,8 @@
     "sources": [
       "FMI"
     ],
-    "numero": 137
+    "numero": 137,
+    "chemin": "/archives/2020/rapport-du-fmi-d-octobre-2020-une-passerelle-vers-la-reprise/"
   },
   {
     "id": "lecture-2020-138-covid-19-le-conseil-de-stabilite-financiere-coordonne-la-rep",
@@ -13647,7 +13991,8 @@
     "sources": [
       "Conseil de stabilité financière"
     ],
-    "numero": 138
+    "numero": 138,
+    "chemin": "/archives/2020/covid-19-le-conseil-de-stabilite-financiere-coordonne-la-rep/"
   },
   {
     "id": "lecture-2020-139-la-bce-explique-le-role-stabilisateur-de-son-programme-d-ach",
@@ -13676,7 +14021,8 @@
     "sources": [
       "BCE"
     ],
-    "numero": 139
+    "numero": 139,
+    "chemin": "/archives/2020/la-bce-explique-le-role-stabilisateur-de-son-programme-d-ach/"
   },
   {
     "id": "lecture-2020-176-preparer-le-retour-des-evenements-en-presentiel-pendant-la-c",
@@ -13705,7 +14051,8 @@
     "sources": [
       "Meeting Professionals International"
     ],
-    "numero": 176
+    "numero": 176,
+    "chemin": "/archives/2020/preparer-le-retour-des-evenements-en-presentiel-pendant-la-c/"
   },
   {
     "id": "lecture-2020-177-pourquoi-les-salons-professionnels-peinent-a-passer-au-virtu",
@@ -13734,7 +14081,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 177
+    "numero": 177,
+    "chemin": "/archives/2020/pourquoi-les-salons-professionnels-peinent-a-passer-au-virtu/"
   },
   {
     "id": "lecture-2020-178-les-evenements-virtuels-font-emerger-de-nouveaux-metiers",
@@ -13763,7 +14111,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 178
+    "numero": 178,
+    "chemin": "/archives/2020/les-evenements-virtuels-font-emerger-de-nouveaux-metiers/"
   },
   {
     "id": "lecture-2020-179-le-virtuel-un-electrochoc-pour-l-industrie-evenementielle",
@@ -13792,7 +14141,8 @@
     "sources": [
       "Skift Meetings"
     ],
-    "numero": 179
+    "numero": 179,
+    "chemin": "/archives/2020/le-virtuel-un-electrochoc-pour-l-industrie-evenementielle/"
   },
   {
     "id": "lecture-2020-180-passer-au-virtuel-repenser-toute-la-production-d-un-evenemen",
@@ -13821,7 +14171,8 @@
     "sources": [
       "Northstar Meetings Group"
     ],
-    "numero": 180
+    "numero": 180,
+    "chemin": "/archives/2020/passer-au-virtuel-repenser-toute-la-production-d-un-evenemen/"
   },
   {
     "id": "archive-2020-06-28-municipales-christian-estrosi-reelu-maire-de-nice",
@@ -13840,7 +14191,8 @@
       "Élu une première fois en 2008, Christian Estrosi entame ainsi un nouveau mandat à la tête de la ville et de la Métropole Nice Côte d'Azur, avec la relance économique et la gestion de l'après-crise comme premiers dossiers."
     ],
     "auteur": "Lucas Giordano",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2020/municipales-christian-estrosi-reelu-maire-de-nice/"
   },
   {
     "id": "archive-2020-06-03-sans-edition-physique-le-festival-de-cannes-devoile-sa-selec",
@@ -13859,7 +14211,8 @@
       "Le Festival donne rendez-vous en 2021, avec l'espoir de retrouver le tapis rouge, le public et les équipes de films du monde entier."
     ],
     "auteur": "Léa Fontaine",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2020/sans-edition-physique-le-festival-de-cannes-devoile-sa-selec/"
   },
   {
     "id": "archive-2020-03-19-le-grand-prix-de-monaco-annule-une-premiere-depuis-1954",
@@ -13878,7 +14231,8 @@
       "Pour l'économie de la Principauté, le coup est rude : le Grand Prix attire chaque année des dizaines de milliers de spectateurs, remplit les hôtels et les restaurants et fait vivre les loueurs de terrasses et de bateaux du port Hercule. L'Automobile Club a donné rendez-vous aux amateurs de sport automobile en 2021."
     ],
     "auteur": "Inès Morel",
-    "sources": []
+    "sources": [],
+    "chemin": "/archives/2020/le-grand-prix-de-monaco-annule-une-premiere-depuis-1954/"
   },
   {
     "id": "lecture-2019-001-bert-le-modele-de-google-qui-apprend-a-lire-dans-les-deux-se",
@@ -13907,7 +14261,8 @@
     "sources": [
       "ACL Anthology"
     ],
-    "numero": 1
+    "numero": 1,
+    "chemin": "/archives/2019/bert-le-modele-de-google-qui-apprend-a-lire-dans-les-deux-se/"
   },
   {
     "id": "lecture-2019-002-gpt-2-quand-un-modele-de-langage-apprend-plusieurs-taches-sa",
@@ -13936,7 +14291,8 @@
     "sources": [
       "OpenAI"
     ],
-    "numero": 2
+    "numero": 2,
+    "chemin": "/archives/2019/gpt-2-quand-un-modele-de-langage-apprend-plusieurs-taches-sa/"
   },
   {
     "id": "lecture-2019-003-efficientnet-des-reseaux-de-vision-plus-petits-et-plus-preci",
@@ -13965,7 +14321,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 3
+    "numero": 3,
+    "chemin": "/archives/2019/efficientnet-des-reseaux-de-vision-plus-petits-et-plus-preci/"
   },
   {
     "id": "lecture-2019-004-muzero-deepmind-apprend-a-gagner-sans-connaitre-les-regles-d",
@@ -13994,7 +14351,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 4
+    "numero": 4,
+    "chemin": "/archives/2019/muzero-deepmind-apprend-a-gagner-sans-connaitre-les-regles-d/"
   },
   {
     "id": "lecture-2019-005-megatron-lm-nvidia-repartit-l-entrainement-des-geants-du-lan",
@@ -14023,7 +14381,8 @@
     "sources": [
       "arXiv"
     ],
-    "numero": 5
+    "numero": 5,
+    "chemin": "/archives/2019/megatron-lm-nvidia-repartit-l-entrainement-des-geants-du-lan/"
   },
   {
     "id": "lecture-2019-048-capital-one-annonce-le-vol-de-donnees-de-plus-de-100-million",
@@ -14052,7 +14411,8 @@
     "sources": [
       "Capital One"
     ],
-    "numero": 48
+    "numero": 48,
+    "chemin": "/archives/2019/capital-one-annonce-le-vol-de-donnees-de-plus-de-100-million/"
   },
   {
     "id": "lecture-2019-049-capital-one-les-lecons-du-piratage-selon-brian-krebs",
@@ -14081,7 +14441,8 @@
     "sources": [
       "Krebs on Security"
     ],
-    "numero": 49
+    "numero": 49,
+    "chemin": "/archives/2019/capital-one-les-lecons-du-piratage-selon-brian-krebs/"
   },
   {
     "id": "lecture-2019-050-whatsapp-un-simple-appel-suffisait-a-installer-un-logiciel-e",
@@ -14110,7 +14471,8 @@
     "sources": [
       "Cyberveille santé"
     ],
-    "numero": 50
+    "numero": 50,
+    "chemin": "/archives/2019/whatsapp-un-simple-appel-suffisait-a-installer-un-logiciel-e/"
   },
   {
     "id": "lecture-2019-051-capital-one-les-controles-qui-auraient-pu-limiter-la-fuite",
@@ -14139,7 +14501,8 @@
     "sources": [
       "Security Magazine"
     ],
-    "numero": 51
+    "numero": 51,
+    "chemin": "/archives/2019/capital-one-les-controles-qui-auraient-pu-limiter-la-fuite/"
   },
   {
     "id": "lecture-2019-089-trouver-ses-premiers-utilisateurs-avant-de-chercher-son-marc",
@@ -14168,7 +14531,8 @@
     "sources": [
       "Andreessen Horowitz"
     ],
-    "numero": 89
+    "numero": 89,
+    "chemin": "/archives/2019/trouver-ses-premiers-utilisateurs-avant-de-chercher-son-marc/"
   },
   {
     "id": "lecture-2019-090-produit-ou-force-de-vente-que-faut-il-construire-en-premier",
@@ -14197,7 +14561,8 @@
     "sources": [
       "Andreessen Horowitz"
     ],
-    "numero": 90
+    "numero": 90,
+    "chemin": "/archives/2019/produit-ou-force-de-vente-que-faut-il-construire-en-premier/"
   },
   {
     "id": "lecture-2019-130-la-reserve-federale-surveille-la-fragilite-des-financements-",
@@ -14226,7 +14591,8 @@
     "sources": [
       "Réserve fédérale"
     ],
-    "numero": 130
+    "numero": 130,
+    "chemin": "/archives/2019/la-reserve-federale-surveille-la-fragilite-des-financements-/"
   },
   {
     "id": "lecture-2019-131-comment-la-reglementation-influe-sur-les-taux-d-interet-a-co",
@@ -14255,7 +14621,8 @@
     "sources": [
       "Banque d'Angleterre"
     ],
-    "numero": 131
+    "numero": 131,
+    "chemin": "/archives/2019/comment-la-reglementation-influe-sur-les-taux-d-interet-a-co/"
   },
   {
     "id": "lecture-2019-132-l-ocde-decrit-une-economie-mondiale-ralentie-juste-avant-la-",
@@ -14284,7 +14651,8 @@
     "sources": [
       "OCDE"
     ],
-    "numero": 132
+    "numero": 132,
+    "chemin": "/archives/2019/l-ocde-decrit-une-economie-mondiale-ralentie-juste-avant-la-/"
   },
   {
     "id": "lecture-2019-133-taux-negatifs-comment-reagissent-les-courbes-de-taux",
@@ -14313,7 +14681,8 @@
     "sources": [
       "Fed de San Francisco"
     ],
-    "numero": 133
+    "numero": 133,
+    "chemin": "/archives/2019/taux-negatifs-comment-reagissent-les-courbes-de-taux/"
   },
   {
     "id": "lecture-2019-171-skift-research-explore-l-avenir-durable-des-congres-et-reuni",
@@ -14342,7 +14711,8 @@
     "sources": [
       "Skift"
     ],
-    "numero": 171
+    "numero": 171,
+    "chemin": "/archives/2019/skift-research-explore-l-avenir-durable-des-congres-et-reuni/"
   },
   {
     "id": "lecture-2019-172-festivals-mal-organises-quand-le-public-est-mis-en-danger",
@@ -14371,7 +14741,8 @@
     "sources": [
       "Mixmag"
     ],
-    "numero": 172
+    "numero": 172,
+    "chemin": "/archives/2019/festivals-mal-organises-quand-le-public-est-mis-en-danger/"
   },
   {
     "id": "lecture-2019-173-fyre-festival-il-manquait-un-chef-de-programme-selon-atlassi",
@@ -14400,7 +14771,8 @@
     "sources": [
       "Atlassian"
     ],
-    "numero": 173
+    "numero": 173,
+    "chemin": "/archives/2019/fyre-festival-il-manquait-un-chef-de-programme-selon-atlassi/"
   },
   {
     "id": "lecture-2019-174-le-fyre-festival-une-lecon-pour-tous-les-organisateurs",
@@ -14429,7 +14801,8 @@
     "sources": [
       "City A.M."
     ],
-    "numero": 174
+    "numero": 174,
+    "chemin": "/archives/2019/le-fyre-festival-une-lecon-pour-tous-les-organisateurs/"
   },
   {
     "id": "lecture-2019-175-le-regard-d-un-enseignant-de-l-ucf-sur-le-fyre-festival",
@@ -14458,7 +14831,8 @@
     "sources": [
       "Université de Floride centrale"
     ],
-    "numero": 175
+    "numero": 175,
+    "chemin": "/archives/2019/le-regard-d-un-enseignant-de-l-ucf-sur-le-fyre-festival/"
   },
   {
     "id": "lecture-2018-047-superhuman-une-methode-pour-mesurer-l-adequation-entre-un-pr",
@@ -14487,7 +14861,8 @@
     "sources": [
       "Superhuman"
     ],
-    "numero": 47
+    "numero": 47,
+    "chemin": "/archives/2018/superhuman-une-methode-pour-mesurer-l-adequation-entre-un-pr/"
   },
   {
     "id": "lecture-2018-088-marriott-revele-une-fuite-massive-de-donnees-dans-la-base-de",
@@ -14516,7 +14891,8 @@
     "sources": [
       "Marriott"
     ],
-    "numero": 88
+    "numero": 88,
+    "chemin": "/archives/2018/marriott-revele-une-fuite-massive-de-donnees-dans-la-base-de/"
   },
   {
     "id": "lecture-2018-129-fin-2018-la-bri-constate-des-secousses-sur-le-chemin-de-la-n",
@@ -14545,7 +14921,8 @@
     "sources": [
       "BRI"
     ],
-    "numero": 129
+    "numero": 129,
+    "chemin": "/archives/2018/fin-2018-la-bri-constate-des-secousses-sur-le-chemin-de-la-n/"
   },
   {
     "id": "lecture-2018-170-les-tendances-de-l-evenementiel-attendues-pour-2019-selon-ev",
@@ -14574,6 +14951,7 @@
     "sources": [
       "Eventbrite"
     ],
-    "numero": 170
+    "numero": 170,
+    "chemin": "/archives/2018/les-tendances-de-l-evenementiel-attendues-pour-2019-selon-ev/"
   }
 ]
