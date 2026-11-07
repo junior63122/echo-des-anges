@@ -419,7 +419,7 @@
       <p class="chapo">${esc(a.chapo)}</p>
       <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(a.precision === "mois" ? T.publishedIn : a.precision === "annee" ? "" : T.published)} ${esc(quand(a))}`}</span>${sources}</div>
       ${figure(imageFor(a), a.image && !a.image.paysage ? "hero-portrait" : "hero")}
-      ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("")}
+      ${(a.corps || []).map((p) => (p.startsWith("## ") ? `<h2 class="intertitre">${esc(p.slice(3))}</h2>` : `<p class="body">${esc(p)}</p>`)).join("")}
       ${a.transparence ? `<p class="transparence">${esc(a.transparence)}</p>` : ""}
       ${(() => { const t = SUJETS.filter((x) => x.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)); return t.length && a.type !== "revue" ? `<p class="tags">${esc(T.topics)} : ${t.map((x) => `<a href="${sujetLink(x.slug)}">${esc(x.nom)}</a>`).join(", ")}</p>` : ""; })()}
       ${a.galerie && a.galerie.length ? `<div class="galerie">${a.galerie.map((g) => figure({ src: absSrc(g.src), credit: `${T.photo} : ${g.credit}`, legende: (g.legende || {})[lang] || "" })).join("")}</div>` : ""}
