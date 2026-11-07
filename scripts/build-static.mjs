@@ -138,9 +138,9 @@ const SUJETS = [
       titre: "Oneera : la start-up niçoise de cartographie en temps réel",
       h1: "Oneera", role: "Start-up niçoise de cartographie en temps réel des lieux accueillant du public",
       desc: "Oneera, start-up fondée à Nice en 2026 par Junior William Joyant : cartographie en temps réel des festivals et des clubs, fonctionnement, essais et articles.",
-      faits: [["Création", "Mai 2026, à Nice"], ["Fondateur", "Junior William Joyant (70 % du capital)"], ["Activité", "Cartographie en temps réel, gestion de foule"], ["Technologies", "GPS en extérieur, balises Bluetooth en intérieur, QR code"]],
+      faits: [["Création", "Mai 2026, à Nice"], ["Fondateur", "Junior William Joyant (70 % du capital)"], ["Activité", "Cartographie en temps réel, gestion de foule"], ["Technologies", "GPS en extérieur, balises Bluetooth en intérieur"]],
       bio: [
-        "Oneera développe une cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public. Les visiteurs se repèrent et retrouvent leurs proches grâce à un QR code ; les organisateurs suivent la densité de la foule, reçoivent les signalements d'incidents et coordonnent leurs équipes depuis un tableau de bord.",
+        "Oneera développe une cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public. Les visiteurs se repèrent et retrouvent leurs proches depuis leur téléphone ; les organisateurs suivent la densité de la foule, reçoivent les signalements d'incidents et coordonnent leurs équipes depuis un tableau de bord.",
         "Fondée à Nice en mai 2026 par Junior William Joyant, la société a mené ses premiers essais dans des clubs cannois et envisage d'ouvrir 20 à 30 % de son capital à des investisseurs.",
       ],
     },
@@ -148,9 +148,9 @@ const SUJETS = [
       titre: "Oneera: the Nice start-up mapping venues in real time",
       h1: "Oneera", role: "Nice start-up building real-time maps of venues open to the public",
       desc: "Oneera, a start-up founded in Nice in 2026 by Junior William Joyant: real-time maps of festivals and clubs, how it works, trials and articles.",
-      faits: [["Founded", "May 2026, in Nice"], ["Founder", "Junior William Joyant (70% of the capital)"], ["Business", "Real-time mapping, crowd management"], ["Technology", "Outdoor GPS, indoor Bluetooth beacons, QR codes"]],
+      faits: [["Founded", "May 2026, in Nice"], ["Founder", "Junior William Joyant (70% of the capital)"], ["Business", "Real-time mapping, crowd management"], ["Technology", "Outdoor GPS, indoor Bluetooth beacons"]],
       bio: [
-        "Oneera builds real-time maps of festivals, clubs and other venues open to the public. Visitors find their way and locate their friends with a QR code; organisers monitor crowd density, receive incident reports and coordinate their teams from a dashboard.",
+        "Oneera builds real-time maps of festivals, clubs and other venues open to the public. Visitors find their way and locate their friends from their phone; organisers monitor crowd density, receive incident reports and coordinate their teams from a dashboard.",
         "Founded in Nice in May 2026 by Junior William Joyant, the company ran its first trials in Cannes clubs and is considering opening 20 to 30% of its capital to investors.",
       ],
     },
