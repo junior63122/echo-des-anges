@@ -325,3 +325,10 @@ main { min-height: 50vh; }
 .search-404 input { flex: 1 1 200px; padding: 10px 12px; border: 1px solid var(--rule); font: inherit; }
 .search-404 button { padding: 10px 16px; background: var(--night); color: #fff; border: 0; font: inherit; font-weight: 600; cursor: pointer; }
 .fig img[width] { height: auto; }
+
+/* Séparateur visuel (filet vertical dessiné en CSS, aucun caractère dans le texte) */
+.sep { display: inline-block; width: 1px; height: 0.8em; background: currentColor; opacity: 0.35; margin: 0 0.6em; vertical-align: -0.08em; }
+.faq { margin-top: 30px; }
+.faq h2 { font-family: var(--serif-title); font-size: 1.35rem; margin: 0 0 6px; }
+.faq h3 { font-family: var(--serif-title); font-size: 1.1rem; margin: 16px 0 4px; }
+.faq p { margin: 0; font-family: var(--serif-body); line-height: 1.6; }

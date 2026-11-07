@@ -44,11 +44,11 @@
       fromArchives: "Dans nos archives",
       local: "L'actualité de la Côte d'Azur",
       allArticles: "Tous les articles",
-      allArchives: "Toutes les archives ›",
+      allArchives: "Toutes les archives",
       history: "Notre histoire",
       legal: "Mentions légales",
       sourcesNote: "Nos articles s'appuient sur les informations des médias cités en source, accessibles en fin d'article.",
-      more: "Toute la rubrique ›",
+      more: "Toute la rubrique",
       alsoTitle: "À lire aussi",
       portrait: "Portrait",
       photo: "Photo",
@@ -90,11 +90,11 @@
       fromArchives: "From our archives",
       local: "Riviera news",
       allArticles: "All articles",
-      allArchives: "All archives ›",
+      allArchives: "All archives",
       history: "Our story",
       legal: "Legal notice",
       sourcesNote: "Our articles draw on reporting by the outlets credited as sources, listed at the end of each article.",
-      more: "Whole section ›",
+      more: "Whole section",
       alsoTitle: "Also worth reading",
       portrait: "Profile",
       photo: "Photo",
@@ -137,7 +137,9 @@
   ];
   const moisAnnee = (d) => new Date(d + "T12:00:00Z").toLocaleDateString(T.locale, { month: "long", year: "numeric", timeZone: "UTC" });
   const quand = (a) => (a.precision === "annee" ? a.date.slice(0, 4) : a.precision === "mois" ? moisAnnee(a.date) : longDate(a.date));
-  const kicker = (a) => (a.type === "article" && a.rubrique && a.rubrique !== secName(a.section) ? `${secName(a.section)} · ${a.rubrique}` : secName(a.section));
+  const SEP = '<span class="sep" aria-hidden="true"></span>';
+  const kicker = (a) => (a.type === "article" && a.rubrique && a.rubrique !== secName(a.section) ? [secName(a.section), a.rubrique] : [secName(a.section)]);
+  const kickerHtml = (a) => kicker(a).map(esc).join(SEP);
 
   // ---------- Photos ----------
   // Photo propre à l'article, sinon une photo libre de droits de la rubrique
@@ -180,7 +182,7 @@
     document.getElementById("drawer-nav").innerHTML = `<a href="#">${esc(T.home)}</a>${secLinks}${extra}<a href="${pageLink("histoire")}">${esc(T.history)}</a><a href="${pageLink("mentions")}">${esc(T.legal)}</a>`;
     document.getElementById("about-links").innerHTML = `<li><a href="${pageLink("histoire")}">${esc(T.history)}</a></li><li><a href="#archives">${esc(T.archives)}</a></li><li><a href="a/">${esc(T.allArticles)}</a></li><li><a href="${pageLink("mentions")}">${esc(T.legal)}</a></li><li><a href="feed.xml">RSS</a></li>`;
     document.getElementById("footer-sections").innerHTML = ORDRE.map((k) => `<li><a href="${secLink(k)}">${esc(secName(k))}</a></li>`).join("");
-    document.getElementById("redaction").innerHTML = REDACTION.map(([nom, k]) => `<li><strong>${esc(nom)}</strong> · ${esc(secName(k))}</li>`).join("");
+    document.getElementById("redaction").innerHTML = REDACTION.map(([nom, k]) => `<li><strong>${esc(nom)}</strong>${SEP}${esc(secName(k))}</li>`).join("");
   }
 
   function markNav(slug) {
@@ -243,7 +245,7 @@
     const leadHref = lead.type === "article" ? artLink(lead) : artLink(lead, lead.liens ? 0 : null);
     const featureHtml = (a, badge) => `<article class="feature">
         ${a.type === "article" ? `<a href="${artLink(a)}" tabindex="-1">${thumb(imageFor(a), "portrait")}</a>` : ""}
-        <span>${badge ? `<span class="badge">${esc(badge)}</span>` : `<span class="kicker">${esc(kicker(a))}</span>`}</span>
+        <span>${badge ? `<span class="badge">${esc(badge)}</span>` : `<span class="kicker">${kickerHtml(a)}</span>`}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p>
         <p class="byline">${esc(T.by)} ${esc(a.auteur)}</p>
@@ -253,12 +255,12 @@
     <div class="home-page">
       <section class="top">
         <article class="lead">
-          <span class="kicker">${esc(kicker(lead))}</span>
+          <span class="kicker">${kickerHtml(lead)}</span>
           <h2><a href="${leadHref}">${esc(lead.titre)}</a></h2>
           <div class="lead-body">
             <div>
               <p class="chapo">${esc(!lead.redige && lead.liens && lead.liens[0].resume ? lead.liens[0].resume : lead.chapo)}</p>
-              <p class="byline">${esc(T.by)} ${esc(lead.auteur)} <span class="when">· ${esc(quand(lead))}</span></p>
+              <p class="byline">${esc(T.by)} ${esc(lead.auteur)} ${SEP}<span class="when">${esc(quand(lead))}</span></p>
               ${imageFor(lead) ? `<a href="${leadHref}" tabindex="-1">${thumb(imageFor(lead), "lead-img")}</a>` : `<div class="wave" role="presentation"></div>`}
             </div>
             ${leadAlso.length ? `<ul class="also">${leadAlso.map((l) => `<li><a href="${l.href}">${esc(l.titre)}</a><span class="src">${esc(l.source)}</span></li>`).join("")}</ul>` : ""}
@@ -272,7 +274,7 @@
       ${autres.length ? `<section class="block">
         <div class="block-head"><h2>${esc(T.local)}</h2><a class="more" href="#r/nice">${esc(T.more)}</a></div>
         <div class="block-grid archives-grid">${autres.map((a) => `<div>${vignette(a)}
-          <span class="kicker">${esc(kicker(a))}</span>
+          <span class="kicker">${kickerHtml(a)}</span>
           <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3><p>${esc(a.chapo)}</p></div>`).join("")}</div>
       </section>` : ""}
       ${blocks.map(renderBlock).join("")}
@@ -297,7 +299,7 @@
     return `<section class="block archives-block">
       <div class="block-head"><h2><a href="#archives">${esc(T.fromArchives)}</a></h2><a class="more" href="#archives">${esc(T.allArchives)}</a></div>
       <div class="block-grid archives-grid">${picks.map((a) => `<div>${vignette(a)}
-        <span class="kicker">${esc(a.rubrique && a.rubrique !== "Archives" ? a.rubrique : secName(a.section))} · ${esc(quand(a))}</span>
+        <span class="kicker">${esc(a.rubrique && a.rubrique !== "Archives" ? a.rubrique : secName(a.section))}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3><p>${esc(a.chapo)}</p></div>`).join("")}</div>
     </section>`;
   }
@@ -318,7 +320,7 @@
       <nav class="years themes"><a href="#archives"${filtre ? "" : ' aria-current="page"'}>${esc(T.allThemes)}</a>${themes.map((t) => `<a href="#archives/t/${slugify(t)}"${filtre === slugify(t) ? ' aria-current="page"' : ""}>${esc(t)}</a>`).join("")}</nav>
       <nav class="years">${annees.map((y) => `<a href="#archives/${filtre ? `t/${filtre}/` : ""}${y}">${y}</a>`).join("")}</nav>
       <div class="list">${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>${parAn[y].map((a) => `<article class="list-item">
-        <span class="kicker">${esc(theme(a))} · ${esc(quand(a))}</span>
+        <span class="kicker">${esc(theme(a))}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p></article>`).join("")}`).join("") || `<p class="loading">${esc(T.empty)}</p>`}</div>`;
   }
@@ -342,7 +344,7 @@
     const input = document.getElementById("search-input"); if (input && input.value !== q) input.value = q;
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(q ? T.results(res.length, q) : "")}</p></div>
       <div class="list">${res.length ? res.map(({ a }) => `<article class="list-item">
-        <span class="kicker">${esc(a.type === "archive" ? theme(a) : kicker(a))} · ${esc(quand(a))}</span>
+        <span class="kicker">${a.type === "archive" ? esc(theme(a)) : kickerHtml(a)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p></article>`).join("") : `<p class="loading">${esc(T.noResult)}</p>`}</div>`;
     window.scrollTo(0, 0);
@@ -366,7 +368,7 @@
     return `<section class="block">
       <div class="block-head"><h2><a href="${secLink(a.section)}">${esc(secName(a.section))}</a></h2><a class="more" href="${secLink(a.section)}">${esc(T.more)}</a></div>
       <div class="block-grid">
-        <div class="main">${vignette(a)}<h3><a href="${artLink(a, 0)}">${esc(main.titre)}</a></h3>${main.resume ? `<p>${esc(main.resume)}</p>` : ""}<span class="src">${esc(T.by)} ${esc(a.auteur)}${a.redige ? "" : ` · ${esc(T.source)} : ${esc(main.source)}`}</span></div>
+        <div class="main">${vignette(a)}<h3><a href="${artLink(a, 0)}">${esc(main.titre)}</a></h3>${main.resume ? `<p>${esc(main.resume)}</p>` : ""}<span class="src">${esc(T.by)} ${esc(a.auteur)}${a.redige ? "" : `${SEP}${esc(T.source)} : ${esc(main.source)}`}</span></div>
         ${side.length ? `<ul class="side-list">${side.map((l, i) => `<li><h3><a href="${artLink(a, i + 1)}">${esc(l.titre)}</a></h3>${l.resume ? `<p>${esc(l.resume.length > 160 ? l.resume.slice(0, 157).replace(/\s+\S*$/, "") + "…" : l.resume)}</p>` : ""}<span class="src">${esc(l.source)}</span></li>`).join("")}</ul>` : ""}
       </div>
     </section>`;
@@ -378,7 +380,7 @@
     const list = visibles().filter((a) => a.section === key).sort((x, y) => (y.heure || y.date).localeCompare(x.heure || x.date));
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(secName(key))}</h1></div>
       <div class="list">${list.length ? list.map((a) => `<article class="list-item">
-        <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)} · ${esc(quand(a))}</span>
+        <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p>
         <p class="byline">${esc(T.by)} ${esc(a.auteur)}</p></article>`).join("") : `<p class="loading">${esc(T.empty)}</p>`}</div>`;
@@ -397,22 +399,22 @@
     const revue = a.type === "revue" && !a.redige;
     const sources = a.sources && a.sources.length ? `<span class="sources">${esc(T.sources)} : ${esc(a.sources.join(", "))}</span>` : "";
     app.innerHTML = `<article class="article">
-      <div class="crumbs">${a.type === "archive" ? `<a href="#archives">${esc(T.archives)}</a> · ` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? ` · ${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? ` · ${esc(a.rubrique)}` : ""}</div>
+      <div class="crumbs">${a.type === "archive" ? `<a href="#archives">${esc(T.archives)}</a>${SEP}` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? `${SEP}${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? `${SEP}${esc(a.rubrique)}` : ""}</div>
       <h1>${esc(a.titre)}</h1>
       <p class="chapo">${esc(a.chapo)}</p>
       <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(a.precision === "mois" ? T.publishedIn : a.precision === "annee" ? "" : T.published)} ${esc(quand(a))}`}</span>${sources}</div>
       ${figure(imageFor(a), a.image && !a.image.paysage ? "hero-portrait" : "hero")}
       ${(a.corps || []).map((p) => `<p class="body">${esc(p)}</p>`).join("")}
       ${a.transparence ? `<p class="transparence">${esc(a.transparence)}</p>` : ""}
-      ${(() => { const t = SUJETS.filter((x) => x.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)); return t.length && a.type !== "revue" ? `<p class="tags">${esc(T.topics)} : ${t.map((x) => `<a href="sujet/${x.slug}${lang === "en" ? "-en" : ""}.html">${esc(x.nom)}</a>`).join(" · ")}</p>` : ""; })()}
+      ${(() => { const t = SUJETS.filter((x) => x.re.test(`${a.titre} ${a.chapo} ${(a.corps || []).join(" ")}`)); return t.length && a.type !== "revue" ? `<p class="tags">${esc(T.topics)} : ${t.map((x) => `<a href="sujet/${x.slug}${lang === "en" ? "-en" : ""}.html">${esc(x.nom)}</a>`).join(", ")}</p>` : ""; })()}
       ${a.galerie && a.galerie.length ? `<div class="galerie">${a.galerie.map((g) => figure({ src: g.src, credit: `${T.photo} : ${g.credit}`, legende: (g.legende || {})[lang] || "" })).join("")}</div>` : ""}
       ${(a.redige || a.type !== "revue") && a.liens && a.liens.length ? `<section class="sources-list"><h2>${esc(T.sources)}</h2><ul>${a.liens.map((l, i) => `
-        <li id="info-${i}"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.titre)}</a> <span>— ${esc(l.source)}</span></li>`).join("")}</ul></section>` : ""}
+        <li id="info-${i}"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.titre)}</a> <span>(${esc(l.source)})</span></li>`).join("")}</ul></section>` : ""}
       ${revue && a.liens && a.liens.length ? `<ol class="revue">${a.liens.map((l, i) => `
         <li id="info-${i}"><div>
           <h2>${esc(l.titre)}</h2>
           ${l.resume ? `<p>${esc(l.resume)}</p>` : ""}
-          <span class="src">${l.heure ? `<time datetime="${esc(l.heure)}">${esc(hhmm(l.heure))}</time>` : ""}${esc(T.source)} : ${esc(l.source)} — <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(T.read)} ↗</a></span>
+          <span class="src">${l.heure ? `<time datetime="${esc(l.heure)}">${esc(hhmm(l.heure))}</time>` : ""}${esc(T.source)} : ${esc(l.source)}. <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(T.read)}</a></span>
         </div></li>`).join("")}</ol>` : ""}
     </article>`;
     const target = focus != null && document.getElementById("info-" + focus);

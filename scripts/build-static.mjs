@@ -60,12 +60,13 @@ const SUJETS = [
       jobTitle: "Entrepreneur", homeLocation: { "@type": "City", name: "Nice", sameAs: "https://fr.wikipedia.org/wiki/Nice" },
       knowsAbout: ["Événementiel", "Cybersécurité", "Géolocalisation", "Applications mobiles", "Vie nocturne de la Côte d'Azur"],
       founder: [{ "@id": `${SITE}/sujet/oneera.html#org` }, { "@id": `${SITE}/sujet/teufy.html#org` }],
+      netWorth: { "@type": "MonetaryAmount", currency: "EUR", minValue: 2500000, maxValue: 4000000 },
     },
     fr: {
-      titre: "Junior William Joyant : biographie, entreprises et actualité",
+      titre: "Junior William Joyant : biographie, entreprises, fortune et actualité",
       h1: "Junior William Joyant",
       role: "Entrepreneur niçois, fondateur d'Oneera et de Teufy",
-      desc: "Junior William Joyant, entrepreneur niçois de 22 ans, fondateur d'Oneera et de Teufy : parcours, entreprises, formation et tous les articles de L'Écho des Anges.",
+      desc: "Junior William Joyant, entrepreneur niçois de 22 ans, fondateur d'Oneera et de Teufy : parcours, entreprises, fortune estimée entre 2,5 et 4 millions d'euros.",
       faits: [
         ["Âge", "22 ans"],
         ["Activité", "Entrepreneur dans la tech et l'événementiel"],
@@ -74,6 +75,13 @@ const SUJETS = [
         ["Patrimoine professionnel", "Participations valorisées entre 2,5 et 4 millions d'euros"],
         ["Basé à", "Nice (Alpes-Maritimes)"],
       ],
+      faq: [
+        ["Qui est Junior William Joyant ?", "Junior William Joyant est un entrepreneur niçois de 22 ans. Il a fondé Teufy, une application de sorties lancée en 2021, et Oneera, une société de cartographie en temps réel des lieux qui accueillent du public, créée en 2026."],
+        ["Quelle est la fortune estimée de Junior William Joyant ?", "Ses participations professionnelles sont valorisées entre 2,5 et 4 millions d'euros. Ce montant tient compte de la valorisation de ses sociétés et des offres de rachat reçues pour ses parts dans les agences dont il est actionnaire."],
+        ["Quelles entreprises a-t-il créées ?", "Il a lancé Teufy en 2021, dont il détient 80 %, puis créé Oneera en mai 2026, dont il détient 70 %. Il a aussi investi dans deux agences : l'une conçoit des applications et des logiciels, l'autre organise des événements privés depuis Monaco."],
+        ["Quelle est sa formation ?", "Il est titulaire d'un master en cybersécurité et prépare un master en événementiel."],
+        ["Où est-il basé ?", "Il vit et travaille à Nice, dans les Alpes-Maritimes, d'où il dirige ses sociétés."],
+      ],
       bio: [
         "Junior William Joyant est un entrepreneur niçois de 22 ans. Il a fondé Teufy, une application de sorties qui recense soirées, festivals et bons plans sur la Côte d'Azur, puis Oneera, une société spécialisée dans la cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public.",
         "Avant de créer ses sociétés, il est passé par Taxi Nice Riviera et par Riva Boat Services, à Saint-Tropez, puis a pris en charge les opérations VIP, les coulisses et l'accueil dans de grands établissements de la nuit cannoise.",
@@ -81,10 +89,10 @@ const SUJETS = [
       ],
     },
     en: {
-      titre: "Junior William Joyant: biography, companies and news",
+      titre: "Junior William Joyant: biography, companies, net worth and news",
       h1: "Junior William Joyant",
       role: "Nice-based entrepreneur, founder of Oneera and Teufy",
-      desc: "Junior William Joyant, 22-year-old entrepreneur from Nice, founder of Oneera and Teufy: background, companies, education and every L'Écho des Anges article about him.",
+      desc: "Junior William Joyant, 22-year-old Nice entrepreneur, founder of Oneera and Teufy: background, companies and net worth estimated at €2.5m to €4m.",
       faits: [
         ["Age", "22"],
         ["Occupation", "Entrepreneur in tech and events"],
@@ -92,6 +100,13 @@ const SUJETS = [
         ["Education", "Master's degree in cybersecurity; master's in event management under way"],
         ["Business holdings", "Stakes valued at €2.5m to €4m"],
         ["Based in", "Nice (Alpes-Maritimes)"],
+      ],
+      faq: [
+        ["Who is Junior William Joyant?", "Junior William Joyant is a 22-year-old entrepreneur from Nice. He founded Teufy, a going-out app launched in 2021, and Oneera, a company that builds real-time maps of venues open to the public, set up in 2026."],
+        ["What is Junior William Joyant's estimated net worth?", "His business holdings are valued at between €2.5 million and €4 million. The figure reflects the valuation of his companies and the buyout offers he has received for his stakes in the agencies he co-owns."],
+        ["Which companies has he founded?", "He launched Teufy in 2021, in which he holds 80%, then set up Oneera in May 2026, in which he holds 70%. He has also invested in two agencies: one builds apps and software, the other organises private events from Monaco."],
+        ["What is his educational background?", "He holds a master's degree in cybersecurity and is studying for a master's in event management."],
+        ["Where is he based?", "He lives and works in Nice, in the Alpes-Maritimes, where he runs his companies."],
       ],
       bio: [
         "Junior William Joyant is a 22-year-old entrepreneur from Nice. He founded Teufy, a going-out app listing parties, festivals and deals on the French Riviera, then Oneera, a company that builds real-time maps of festivals, clubs and other venues open to the public.",
@@ -310,7 +325,7 @@ function pied(lang) {
     <div><h2>${L.topics}</h2><ul class="footer-list">${SUJETS.map((s) => `<li><a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a></li>`).join("")}</ul></div>
     <div><h2>${L.about}</h2><ul class="footer-list"><li><a href="${SITE}/a/">${L.all}</a></li><li><a href="${SITE}/p/histoire${sfx}.html">${L.story}</a></li><li><a href="${SITE}/p/mentions${sfx}.html">${L.legal}</a></li><li><a href="${SITE}/feed.xml">${L.rss}</a></li></ul></div>
   </div>
-  <p class="copyright">© ${new Date().getFullYear()} ${esc(NOM)} · Nice</p>
+  <p class="copyright">© ${new Date().getFullYear()} ${esc(NOM)}, Nice</p>
 </footer>
 </body>
 </html>
@@ -324,7 +339,7 @@ const editeur = {
   publishingPrinciples: `${SITE}/p/histoire.html`,
 };
 
-const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item"><span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)} · <time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
+const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item"><span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)}<span class="sep" aria-hidden="true"></span><time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
 
 function pageArticle(a) {
   const lang = langOf(a);
@@ -370,11 +385,11 @@ function pageArticle(a) {
     { "@type": "ListItem", position: 2, name: filNom, item: filUrl },
     { "@type": "ListItem", position: 3, name: a.titre, item: url(a) },
   ] };
-  const rub = a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? ` · ${esc(a.rubrique)}` : "";
+  const rub = a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? `<span class="sep" aria-hidden="true"></span>${esc(a.rubrique)}` : "";
   const fig = img ? `<figure class="fig ${a.image && !a.image.paysage ? "hero-portrait" : "hero"}"><img src="${imgAbs}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
   const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="${SITE}/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}"${dimAttr(g.src)} loading="lazy" decoding="async"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
-  const sources = a.liens?.length ? `<section class="sources-list"><h2>${T.src}</h2><ul>${a.liens.map((l) => `<li><a href="${esc(l.url)}" rel="noopener nofollow" target="_blank">${esc(l.titre)}</a> <span>— ${esc(l.source)}</span></li>`).join("")}</ul></section>` : "";
-  const tags = sujets.length ? `<p class="tags">${T.topics} : ${sujets.map((s) => `<a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a>`).join(" · ")}</p>` : "";
+  const sources = a.liens?.length ? `<section class="sources-list"><h2>${T.src}</h2><ul>${a.liens.map((l) => `<li><a href="${esc(l.url)}" rel="noopener nofollow" target="_blank">${esc(l.titre)}</a> <span>(${esc(l.source)})</span></li>`).join("")}</ul></section>` : "";
+  const tags = sujets.length ? `<p class="tags">${T.topics} : ${sujets.map((s) => `<a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a>`).join(", ")}</p>` : "";
   // À lire aussi : d'abord les articles qui partagent un sujet, puis les plus récents de la rubrique.
   const memeLangue = indexables.filter((x) => x !== a && langOf(x) === lang && x !== twin);
   const proches = [...memeLangue.filter((x) => sujets.some((s) => s.re.test(`${x.titre} ${x.chapo}`))).sort(parDate),
@@ -387,7 +402,7 @@ function pageArticle(a) {
   }) + entete(lang, a.type === "archive" ? null : sec.slug) + `
 <main id="contenu">
 <article class="article">
-  <nav class="crumbs" aria-label="${lang === "en" ? "Breadcrumb" : "Fil d'Ariane"}"><a href="${SITE}/">${T.home}</a> › <a href="${filUrl}">${esc(filNom)}</a>${rub}</nav>
+  <nav class="crumbs" aria-label="${lang === "en" ? "Breadcrumb" : "Fil d'Ariane"}"><a href="${SITE}/">${T.home}</a><span class="sep" aria-hidden="true"></span><a href="${filUrl}">${esc(filNom)}</a>${rub}</nav>
   <h1>${esc(a.titre)}</h1>
   <p class="chapo">${esc(a.chapo)}</p>
   <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" || a.precision === "annee" ? "" : (a.precision === "mois" ? T.pubIn : T.pub) + " "}<time datetime="${isoComplet(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}${twin ? `<a class="lang-switch" href="${url(twin)}" hreflang="${langOf(twin)}">${langOf(twin) === "en" ? "Read in English" : "Lire en français"}</a>` : ""}</div>
@@ -425,7 +440,7 @@ function pageRubrique(cle, lang) {
 ${recents.length ? listeArticles(recents, lang) : ""}
 ${archives.length ? `<h2 class="year">${lang === "en" ? "From the archives" : "Dans nos archives"}</h2>\n${listeArticles(archives, lang)}` : ""}
 ${!recents.length && !archives.length ? `<p><a href="${SITE}/#r/${s.slug}">${lang === "en" ? "Today's news in this section" : "L'actualité du jour dans cette rubrique"}</a></p>` : ""}
-<p><a href="${SITE}/${lang === "en" ? "?lang=en" : ""}#r/${s.slug}">${lang === "en" ? "Live updates in this section →" : "Le fil d'actualité de la rubrique →"}</a></p>
+<p><a href="${SITE}/${lang === "en" ? "?lang=en" : ""}#r/${s.slug}">${lang === "en" ? "Live updates in this section" : "Le fil d'actualité de la rubrique"}</a></p>
 </div>
 </main>
 ` + pied(lang);
@@ -452,10 +467,12 @@ function pageSujet(s, lang) {
   };
   const fil = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: NOM, item: `${SITE}/` }, { "@type": "ListItem", position: 2, name: s.nom, item: canon }] };
-  const L = lang === "en" ? { key: "Key facts", arts: "Our articles", topic: "Topic", other: "Read also" } : { key: "Repères", arts: "Nos articles", topic: "Sujet", other: "À lire aussi" };
+  const L = lang === "en" ? { key: "Key facts", arts: "Our articles", topic: "Topic", other: "Read also", faq: "Frequently asked questions" } : { key: "Repères", arts: "Nos articles", topic: "Sujet", other: "À lire aussi", faq: "Questions fréquentes" };
+  const faq = F.faq ? { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${canon}#faq`, inLanguage: lang, about: { "@id": sujetId(s) },
+    mainEntity: F.faq.map(([q, r]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: r } })) } : null;
   const autres = SUJETS.filter((x) => x !== s);
   return tete({ lang, titre: `${F.titre} | ${NOM}`, description: F.desc, canonical: canon, type: s.entite["@type"] === "Person" ? "profile" : "website", imageSrc: imgSrc, imageAlt: s.nom,
-    alternates: [{ lang: "fr", href: sujetUrl(s, "fr") }, { lang: "en", href: sujetUrl(s, "en") }], jsonld: [page, fil] })
+    alternates: [{ lang: "fr", href: sujetUrl(s, "fr") }, { lang: "en", href: sujetUrl(s, "en") }], jsonld: [page, fil, ...(faq ? [faq] : [])] })
     + entete(lang) + `
 <main id="contenu">
 <article class="article page sujet">
@@ -465,6 +482,7 @@ function pageSujet(s, lang) {
   ${imgSrc ? `<figure class="fig hero-portrait"><img src="${SITE}/${imgSrc}" alt="${esc(s.nom)}"${dimAttr(imgSrc)} fetchpriority="high"></figure>` : ""}
   ${F.bio.map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
   <section class="faits"><h2>${L.key}</h2><dl>${F.faits.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></section>
+  ${F.faq ? `<section class="faq"><h2>${L.faq}</h2>${F.faq.map(([q, r]) => `<h3>${esc(q)}</h3><p>${esc(r)}</p>`).join("")}</section>` : ""}
   ${liste.length ? `<section class="related"><h2>${L.arts}</h2><ul>${liste.map((a) => `<li><a href="${url(a)}">${esc(a.titre)}</a> <span>${esc(quand(a))}</span></li>`).join("")}</ul></section>` : ""}
   <section class="related"><h2>${L.other}</h2><ul>${autres.map((x) => `<li><a href="${sujetUrl(x, lang)}">${esc(x.nom)}</a> <span>${esc(x[lang].role)}</span></li>`).join("")}</ul></section>
 </article>
@@ -477,13 +495,13 @@ function pageIndex() {
   for (const a of indexables.filter((x) => langOf(x) === "fr")) (parAn[a.date.slice(0, 4)] ||= []).push(a);
   const annees = Object.keys(parAn).sort().reverse();
   const en = indexables.filter((x) => langOf(x) === "en").sort(parDate);
-  const ld = { "@context": "https://schema.org", "@type": "CollectionPage", "@id": `${SITE}/a/`, name: `Tous les articles — ${NOM}`, url: `${SITE}/a/`, inLanguage: "fr", isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID } };
+  const ld = { "@context": "https://schema.org", "@type": "CollectionPage", "@id": `${SITE}/a/`, name: `Tous les articles de ${NOM}`, url: `${SITE}/a/`, inLanguage: "fr", isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID } };
   return tete({ lang: "fr", titre: `Tous les articles et archives depuis 2018 | ${NOM}`, description: `Tous les articles et archives de ${NOM} depuis 2018 : Nice, Cannes, Monaco, la Côte d'Azur, l'économie, la tech et l'événementiel.`, canonical: `${SITE}/a/`, jsonld: [ld] })
     + entete("fr") + `
 <main id="contenu">
 <div class="rubrique-head"><h1>Tous les articles</h1><p class="rubrique-chapo">${indexables.length} articles publiés depuis 2018, du plus récent au plus ancien.</p></div>
 <div class="list">
-<nav class="annees" aria-label="Années">${annees.map((y) => `<a href="#y-${y}">${y}</a>`).join(" · ")} · <a href="#english">English</a></nav>
+<nav class="annees" aria-label="Années">${annees.map((y) => `<a href="#y-${y}">${y}</a>`).join('<span class="sep" aria-hidden="true"></span>')}<span class="sep" aria-hidden="true"></span><a href="#english">English</a></nav>
 ${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>\n${listeArticles(parAn[y].sort(parDate), "fr")}`).join("\n")}
 <h2 class="year" id="english" lang="en">English edition</h2>
 ${listeArticles(en, "en")}
@@ -631,7 +649,7 @@ ${F.role}. Page dédiée : ${sujetUrl(s, "fr")} (English: ${sujetUrl(s, "en")})
 
 ${F.bio.join("\n\n")}
 
-${F.faits.map(([k, v]) => `- ${k} : ${v}`).join("\n")}
+${F.faits.map(([k, v]) => `- ${k} : ${v}`).join("\n")}${F.faq ? "\n\n" + F.faq.map(([q, r]) => `Q : ${q}\nR : ${r}`).join("\n\n") : ""}
 
 Articles :
 ${arts.map((a) => `- [${a.titre}](${url(a)}) (${a.date})`).join("\n")}`;
