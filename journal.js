@@ -461,7 +461,7 @@
     const p = path.replace(/^\/en(?=\/)/, "");
     const q = new URLSearchParams(location.search);
     if (p === "/" || p === "/index.html/") return renderHome();
-    if (p === "/recherche/" || p === "/search/") return renderSearch(q.get("q") || "");
+    if (p === "/recherche/" || p === "/search/") { renderSearch(q.get("q") || ""); return chargerComplet().then(() => { if (/\/(recherche|search)\/$/.test(location.pathname)) renderSearch(new URLSearchParams(location.search).get("q") || ""); }); }
     if (p === "/archives/") {
       renderArchives(q.get("theme"));
       const y = location.hash.match(/^#y-(\d{4})$/), el = y && document.getElementById("y-" + y[1]);
@@ -472,7 +472,12 @@
     const sec = ORDRE.find((k) => secPath(k) === path);
     if (sec) return renderSection(sec);
     const a = articles.find((x) => x.chemin === path);
-    if (a) { const f = location.hash.match(/^#info-(\d+)$/); return renderArticle(a, f ? +f[1] : null); }
+    if (a) {
+      const f = location.hash.match(/^#info-(\d+)$/);
+      // Le texte intégral n'est pas dans l'index léger : on le charge, la page statique reste affichée en attendant.
+      if (!a.corps && a.type !== "revue") return chargerComplet().then(() => { if (decodeURIComponent(location.pathname).replace(/\/?$/, "/") === path) renderArticle(a, f ? +f[1] : null); });
+      return renderArticle(a, f ? +f[1] : null);
+    }
     if (initial && app.dataset.statique) return; // page introuvable servie telle quelle
     markNav(null);
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.notFound)}</h1></div>`;
@@ -543,9 +548,19 @@
     navigate(u.pathname + u.search + u.hash);
   });
   applyStatic();
-  const v = "?v=" + Date.now();
+  // Données : un index léger (sans les textes) pour afficher vite, le texte intégral à la demande.
+  // La version change à chaque publication : le navigateur peut garder les fichiers en cache entre deux.
+  const VERSION = "__VERSION__";
+  const v = "?v=" + (VERSION.startsWith("__") ? Date.now() : VERSION);
+  let complet = null;
+  function chargerComplet() {
+    return complet || (complet = fetch("/articles.json" + v).then((r) => r.json()).then((data) => {
+      const parId = new Map(data.map((x) => [x.id, x]));
+      for (const a of articles) { const f = parId.get(a.id); if (f) { a.corps = f.corps; a.liens = f.liens; } }
+    }).catch(() => {}));
+  }
   Promise.all([
-    fetch("/articles.json" + v).then((r) => r.json()),
+    fetch("/articles-index.json" + v).then((r) => (r.ok ? r.json() : fetch("/articles.json" + v).then((x) => x.json()))),
     fetch("/img/stock/credits.json" + v).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
   ])
     .then(([data, credits]) => { articles = data; photos = credits || {}; route(); })

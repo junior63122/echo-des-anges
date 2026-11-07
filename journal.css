@@ -332,3 +332,10 @@ main { min-height: 50vh; }
 .faq h2 { font-family: var(--serif-title); font-size: 1.35rem; margin: 0 0 6px; }
 .faq h3 { font-family: var(--serif-title); font-size: 1.1rem; margin: 16px 0 4px; }
 .faq p { margin: 0; font-family: var(--serif-body); line-height: 1.6; }
+
+/* Fil « En continu » : titres limités à 3 lignes, bandeau compact */
+.live-item a { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 700px) {
+  .live-item { flex-basis: 250px; padding: 6px 14px 12px; }
+  .live-item a { font-size: 0.92rem; line-height: 1.3; }
+}

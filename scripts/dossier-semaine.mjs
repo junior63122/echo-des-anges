@@ -13,7 +13,7 @@
 // Rien n'est inventé : chaque phrase factuelle est une citation attribuée, avec le lien en fin d'article.
 //
 // Chaque exécution publie un dossier (FR et EN) sur la rubrique dont le dernier dossier est le
-// plus ancien. Le workflow « journal-dossier » le lance le lundi, le mercredi et le vendredi.
+// plus ancien. Le workflow « journal-dossier » le lance chaque matin (7 dossiers par semaine).
 // Usage : node scripts/dossier-semaine.mjs [--date=AAAA-MM-JJ] [--theme=Tech] [--force]
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";

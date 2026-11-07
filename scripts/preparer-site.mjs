@@ -8,6 +8,7 @@ import { cpSync, mkdirSync, rmSync, existsSync, readFileSync, writeFileSync } fr
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "_site");
@@ -36,6 +37,10 @@ const INTERNES = ["imageCommons", "imageLegende", "slug", "redigeSur"];
 const articles = JSON.parse(readFileSync(join(ROOT, "articles.json"), "utf8"))
   .map((a) => Object.fromEntries(Object.entries(a).filter(([k]) => !INTERNES.includes(k))));
 writeFileSync(join(OUT, "articles.json"), JSON.stringify(articles));
+// Index léger pour l'affichage immédiat : sans le texte intégral ni les sources des articles rédigés.
+const index = articles.map((a) => (a.type === "revue" ? a : Object.fromEntries(Object.entries(a).filter(([k]) => k !== "corps" && k !== "liens"))));
+writeFileSync(join(OUT, "articles-index.json"), JSON.stringify(index));
+const VERSION = createHash("sha1").update(JSON.stringify(articles)).digest("hex").slice(0, 10);
 
 // GitHub Pages ne doit pas réinterpréter le site.
 writeFileSync(join(OUT, ".nojekyll"), "");
@@ -48,5 +53,9 @@ try {
     execFileSync(esbuild, [join(ROOT, f), "--minify", "--legal-comments=none", "--charset=utf8", `--outfile=${join(OUT, f)}`, "--allow-overwrite", "--log-level=warning"], { stdio: "inherit" });
   }
   compacte = true;
+} catch { /* esbuild absent : fichiers copiés tels quels */ }
+try {
+  const js = join(OUT, "journal.js");
+  writeFileSync(js, readFileSync(js, "utf8").replace("__VERSION__", VERSION));
 } catch { /* esbuild absent : fichiers copiés tels quels */ }
 console.log(`Site prêt dans _site (${compacte ? "JS et CSS compactés" : "sans compactage"}).`);

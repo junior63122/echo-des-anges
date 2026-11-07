@@ -220,6 +220,19 @@ const TOUS = "/tous-les-articles/";
 
 const articlesBrut = readFileSync(join(J, "articles.json"), "utf8");
 const articles = JSON.parse(articlesBrut);
+// Typographie : apostrophes typographiques, espaces insécables à la française (avant « : ; ! ? » et dans les guillemets).
+const typo = (t, lang) => {
+  if (typeof t !== "string") return t;
+  t = t.replace(/(\p{L})'(?=\p{L})/gu, "$1’");
+  if (lang !== "en") t = t.replace(/ ([;!?])/g, "\u202F$1").replace(/ :/g, "\u00A0:").replace(/« /g, "«\u00A0").replace(/ »/g, "\u00A0»");
+  return t;
+};
+for (const a of articles) {
+  const l = a.lang || "fr";
+  a.titre = typo(a.titre, l); a.chapo = typo(a.chapo, l);
+  if (Array.isArray(a.corps)) a.corps = a.corps.map((p) => typo(p, l));
+  if (a.image && a.image.legende) for (const k of Object.keys(a.image.legende)) a.image.legende[k] = typo(a.image.legende[k], k);
+}
 // Chaque contenu reçoit son adresse définitive (« chemin »), partagée avec l'application (journal.js).
 {
   const pris = new Set();
@@ -289,6 +302,7 @@ function image(a) {
 function tete({ lang, titre, description, canonical, type = "website", imageSrc, imageAlt, alternates = [], jsonld = [], extra = "", robots }) {
   const src = imageSrc || "img/og-default.jpg";
   const img = `${SITE}/${src}`;
+  if (titre.length > 72) titre = titre.replace(/ \| L'Écho des Anges$/, "");
   const d = dimensions(src);
   const alt = alternates.length ? [...alternates, { lang: "x-default", href: (alternates.find((x) => x.lang === "fr") || alternates[0]).href }] : [];
   return `<!DOCTYPE html>
@@ -406,8 +420,8 @@ function pageArticle(a) {
     { "@type": "ListItem", position: 3, name: a.titre, item: url(a) },
   ] };
   const rub = a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? `<span class="sep" aria-hidden="true"></span>${esc(a.rubrique)}` : "";
-  const fig = img ? `<figure class="fig ${a.image && !a.image.paysage ? "hero-portrait" : "hero"}"><img src="${imgAbs}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
-  const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="${SITE}/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}"${dimAttr(g.src)} loading="lazy" decoding="async"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
+  const fig = img ? `<figure class="fig ${a.image && !a.image.paysage ? "hero-portrait" : "hero"}"><img src="/${img.src}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
+  const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}"${dimAttr(g.src)} loading="lazy" decoding="async"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
   const sources = a.liens?.length ? `<section class="sources-list"><h2>${T.src}</h2><ul>${a.liens.map((l) => `<li><a href="${esc(l.url)}" rel="noopener nofollow" target="_blank">${esc(l.titre)}</a> <span>(${esc(l.source)})</span></li>`).join("")}</ul></section>` : "";
   const tags = sujets.length ? `<p class="tags">${T.topics} : ${sujets.map((s) => `<a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a>`).join(", ")}</p>` : "";
   // À lire aussi : d'abord les articles qui partagent un sujet, puis les plus récents de la rubrique.
@@ -497,7 +511,7 @@ function pageSujet(s, lang) {
   <div class="crumbs">${L.topic}</div>
   <h1>${esc(F.h1)}</h1>
   <p class="chapo">${esc(F.role)}</p>
-  ${imgSrc ? `<figure class="fig hero-portrait"><img src="${SITE}/${imgSrc}" alt="${esc(s.nom)}"${dimAttr(imgSrc)} fetchpriority="high"></figure>` : ""}
+  ${imgSrc ? `<figure class="fig hero-portrait"><img src="/${imgSrc}" alt="${esc(s.nom)}"${dimAttr(imgSrc)} fetchpriority="high"></figure>` : ""}
   ${F.bio.map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
   <section class="faits"><h2>${L.key}</h2><dl>${F.faits.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></section>
   ${F.faq ? `<section class="faq"><h2>${L.faq}</h2>${F.faq.map(([q, r]) => `<h3>${esc(q)}</h3><p>${esc(r)}</p>`).join("")}</section>` : ""}
@@ -595,6 +609,11 @@ const ecrire = (chemin, html) => {
   writeFileSync(f, html);
 };
 for (const a of indexables) ecrire(a.chemin, assembler(pageArticle(a)));
+for (const a of articles.filter((x) => x.type === "revue" && !indexables.includes(x))) {
+  const L = langOf(a);
+  ecrire(a.chemin, assembler(tete({ lang: L, titre: `${a.titre} | ${NOM}`, description: resume(a), canonical: url(a), robots: "noindex, follow" })
+    + entete(L, (SECTIONS[a.section] || {}).slug) + `\n<main id="contenu"><article class="article"><h1>${esc(a.titre)}</h1><p class="chapo">${esc(a.chapo)}</p><ol class="revue">${(a.liens || []).map((l, i) => `<li id="info-${i}"><h2>${esc(l.titre)}</h2>${l.resume ? `<p>${esc(l.resume)}</p>` : ""}<p class="src">${esc(l.source)} : <a href="${esc(l.url)}" rel="noopener nofollow">${L === "en" ? "Read the article" : "Lire l’article"}</a></p></li>`).join("")}</ol></article></main>\n`));
+}
 // Redirections depuis les anciennes adresses (/a/…html, /r/…html, /p/…html, /sujet/…html)
 for (const a of articles) ecrire(`/a/${fichier(a.id)}`, pageRedirection(url(a)));
 for (const [ancien, cible] of Object.entries(REDIRECTIONS)) { const c = articles.find((a) => a.id === cible); if (c && !articles.some((a) => a.id === ancien)) ecrire(`/a/${fichier(ancien)}`, pageRedirection(url(c))); }

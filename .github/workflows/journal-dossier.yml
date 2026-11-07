@@ -1,10 +1,10 @@
 name: Journal - dossier de la semaine
 
 # Revue de presse thématique rédigée automatiquement (sans API ni IA), publiée
-# le lundi, le mercredi et le vendredi : une rubrique différente à chaque fois.
+# chaque jour : une rubrique différente à chaque fois, chacune revient une fois par semaine.
 on:
   schedule:
-    - cron: "41 5 * * 1,3,5" # vers 6h40/7h40, heure de Paris, après la collecte du matin
+    - cron: "41 5 * * *" # chaque jour vers 6h40/7h40 (heure de Paris), après la collecte du matin
   workflow_dispatch:
     inputs:
       theme:
