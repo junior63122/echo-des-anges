@@ -15016,23 +15016,9 @@
         "url": "https://cotedazurfrance.fr/offres/alex-katz-le-silence-de-la-peinture-nice-fr-6754249/"
       }
     ],
-    "imageCommons": [
-      "Promenade des Anglais runners",
-      "marathon runners",
-      "Nice Promenade des Anglais"
-    ],
     "chemin": "/sorties/2026/11/07/ce-week-end-marathon-nice-cannes-di-rosa-matisse/",
     "heure": "2026-11-07T14:00:00+01:00",
-    "image": {
-      "src": "img/entreprises/ce-week-end-marathon-nice-cannes-di-rosa-matisse.jpg",
-      "credit": "Señor Codo from Chicago / Wikimedia Commons (CC BY-SA 2.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=54656779",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-en-ce-week-end-marathon-nice-cannes-di-rosa-matisse",
@@ -15072,23 +15058,9 @@
         "url": "https://cotedazurfrance.fr/offres/alex-katz-le-silence-de-la-peinture-nice-fr-6754249/"
       }
     ],
-    "imageCommons": [
-      "Promenade des Anglais runners",
-      "marathon runners",
-      "Nice Promenade des Anglais"
-    ],
     "chemin": "/en/going-out/2026/11/07/ce-week-end-marathon-nice-cannes-di-rosa-matisse/",
     "heure": "2026-11-07T14:00:00+01:00",
-    "image": {
-      "src": "img/entreprises/ce-week-end-marathon-nice-cannes-di-rosa-matisse.jpg",
-      "credit": "Señor Codo from Chicago / Wikimedia Commons (CC BY-SA 2.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=54656779",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-fin-annee-culture-matisse-katz-brauner-belle-au-bois-dormant",
@@ -15143,11 +15115,6 @@
         "url": "https://www.explorenicecotedazur.com/culture/musee-dart-moderne-et-dart-contemporain-de-nice-mamac-ferme-jusquen-2028/"
       }
     ],
-    "imageCommons": [
-      "Musée Matisse Nice",
-      "Villa des Arènes Cimiez Nice",
-      "Opéra de Nice"
-    ],
     "chemin": "/culture/2026/11/07/fin-annee-culture-matisse-katz-brauner-belle-au-bois-dormant/",
     "heure": "2026-11-07T14:10:00+01:00",
     "image": {
@@ -15156,8 +15123,8 @@
       "page": "https://commons.wikimedia.org/w/index.php?curid=3650289",
       "paysage": true,
       "legende": {
-        "fr": "",
-        "en": ""
+        "fr": "Le musée Matisse, à Nice.",
+        "en": "The Musée Matisse in Nice."
       }
     }
   },
@@ -15214,11 +15181,6 @@
         "url": "https://www.explorenicecotedazur.com/culture/musee-dart-moderne-et-dart-contemporain-de-nice-mamac-ferme-jusquen-2028/"
       }
     ],
-    "imageCommons": [
-      "Musée Matisse Nice",
-      "Villa des Arènes Cimiez Nice",
-      "Opéra de Nice"
-    ],
     "chemin": "/en/culture/2026/11/07/fin-annee-culture-matisse-katz-brauner-belle-au-bois-dormant/",
     "heure": "2026-11-07T14:10:00+01:00",
     "image": {
@@ -15227,8 +15189,8 @@
       "page": "https://commons.wikimedia.org/w/index.php?curid=3650289",
       "paysage": true,
       "legende": {
-        "fr": "",
-        "en": ""
+        "fr": "Le musée Matisse, à Nice.",
+        "en": "The Musée Matisse in Nice."
       }
     }
   },
@@ -15296,23 +15258,9 @@
         "url": "https://www.frequence-sud.fr/art-107425-marche_de_noel-_antibes_antibes"
       }
     ],
-    "imageCommons": [
-      "Nice Christmas market",
-      "Christmas market France",
-      "Place Masséna Nice"
-    ],
     "chemin": "/sorties/2026/11/07/marches-de-noel-2026-nice-cannes-monaco-dates/",
     "heure": "2026-11-07T14:30:00+01:00",
-    "image": {
-      "src": "img/entreprises/marches-de-noel-2026-nice-cannes-monaco-dates.jpg",
-      "credit": "CER91 / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=12877149",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-en-marches-de-noel-2026-nice-cannes-monaco-dates",
@@ -15378,23 +15326,9 @@
         "url": "https://www.frequence-sud.fr/art-107425-marche_de_noel-_antibes_antibes"
       }
     ],
-    "imageCommons": [
-      "Nice Christmas market",
-      "Christmas market France",
-      "Place Masséna Nice"
-    ],
     "chemin": "/en/going-out/2026/11/07/marches-de-noel-2026-nice-cannes-monaco-dates/",
     "heure": "2026-11-07T14:30:00+01:00",
-    "image": {
-      "src": "img/entreprises/marches-de-noel-2026-nice-cannes-monaco-dates.jpg",
-      "credit": "CER91 / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=12877149",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-carnaval-de-nice-fete-du-citron-2027-dates",
@@ -15448,23 +15382,9 @@
         "url": "https://ulysse.com/news/fete-citron-menton-2026-programme-billets"
       }
     ],
-    "imageCommons": [
-      "Carnaval de Nice",
-      "Nice Carnival flower battle",
-      "Fête du Citron Menton"
-    ],
     "chemin": "/sorties/2026/11/07/carnaval-de-nice-fete-du-citron-2027-dates/",
     "heure": "2026-11-07T14:20:00+01:00",
-    "image": {
-      "src": "img/entreprises/carnaval-de-nice-fete-du-citron-2027-dates.jpg",
-      "credit": "Carnaval.com Studios from The Inner Mission San Francisco, Earth / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=151904507",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-en-carnaval-de-nice-fete-du-citron-2027-dates",
@@ -15518,23 +15438,9 @@
         "url": "https://ulysse.com/news/fete-citron-menton-2026-programme-billets"
       }
     ],
-    "imageCommons": [
-      "Carnaval de Nice",
-      "Nice Carnival flower battle",
-      "Fête du Citron Menton"
-    ],
     "chemin": "/en/going-out/2026/11/07/carnaval-de-nice-fete-du-citron-2027-dates/",
     "heure": "2026-11-07T14:20:00+01:00",
-    "image": {
-      "src": "img/entreprises/carnaval-de-nice-fete-du-citron-2027-dates.jpg",
-      "credit": "Carnaval.com Studios from The Inner Mission San Francisco, Earth / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=151904507",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-calendrier-hiver-2027-rallye-cirque-midem-mipim",
@@ -15593,11 +15499,6 @@
         "url": "https://www.screendaily.com/news/cannes-film-festival-confirms-2027-dates-for-80th-edition/5217448.article"
       }
     ],
-    "imageCommons": [
-      "Rallye Monte-Carlo",
-      "Monte Carlo Rally",
-      "Palais des Festivals Cannes"
-    ],
     "chemin": "/evenementiel/2026/11/07/calendrier-hiver-2027-rallye-cirque-midem-mipim/",
     "heure": "2026-11-07T13:50:00+01:00",
     "image": {
@@ -15606,8 +15507,8 @@
       "page": "https://commons.wikimedia.org/w/index.php?curid=10877107",
       "paysage": true,
       "legende": {
-        "fr": "",
-        "en": ""
+        "fr": "Une voiture de rallye. Photo d’illustration.",
+        "en": "A rally car. Illustrative photo."
       }
     }
   },
@@ -15668,11 +15569,6 @@
         "url": "https://www.screendaily.com/news/cannes-film-festival-confirms-2027-dates-for-80th-edition/5217448.article"
       }
     ],
-    "imageCommons": [
-      "Rallye Monte-Carlo",
-      "Monte Carlo Rally",
-      "Palais des Festivals Cannes"
-    ],
     "chemin": "/en/events/2026/11/07/calendrier-hiver-2027-rallye-cirque-midem-mipim/",
     "heure": "2026-11-07T13:50:00+01:00",
     "image": {
@@ -15681,8 +15577,8 @@
       "page": "https://commons.wikimedia.org/w/index.php?curid=10877107",
       "paysage": true,
       "legende": {
-        "fr": "",
-        "en": ""
+        "fr": "Une voiture de rallye. Photo d’illustration.",
+        "en": "A rally car. Illustrative photo."
       }
     }
   }
