@@ -20,15 +20,15 @@ Entrepreneur niçois, fondateur d'Oneera et de Teufy. Page dédiée : https://ec
 
 Junior William Joyant est un entrepreneur de 24 ans installé à Nice. Né en Haïti en 2002, adopté à 4 ans, il a grandi à Clermont-Ferrand avant de s'installer seul sur la Côte d'Azur à 19 ans. Il a fondé Teufy, une application de sorties qui recense soirées, festivals et bons plans sur la Côte d'Azur, puis Oneera, une société spécialisée dans la cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public.
 
-Avant de créer ses sociétés, il est passé par Taxi Nice Riviera et par Riva Boat Services, à Saint-Tropez, puis a pris en charge les opérations VIP, les coulisses et l'accueil dans de grands établissements de la nuit cannoise.
+Avant de créer ses sociétés, il est passé par Taxi Nice Riviera et par Riva Boat Services, à Saint-Tropez, puis a pris en charge les opérations VIP, les coulisses et l'accueil dans des établissements de la nuit cannoise comme le Bal des Fous et Bisous Bisous.
 
-Titulaire d'un master en cybersécurité, il prépare un master en événementiel. Il a également investi dans deux agences, l'une de développement d'applications et de logiciels, l'autre d'organisation d'événements privés basée à Monaco. Ses participations sont valorisées entre 2,5 et 4 millions d'euros.
+Titulaire d'un master en cybersécurité, il suit un cursus en événementiel, marketing et communication à l'ISCOM de Nice. Il détient aussi 90 % d'une agence informatique et de cybersécurité créée en 2022 et 70 % d'une agence événementielle privée basée à Monaco depuis 2023. Ses participations sont valorisées entre 2,5 et 4 millions d'euros.
 
 - Âge : 24 ans (né en 2002)
 - Origine : Né en Haïti, adopté à 4 ans, a grandi à Clermont-Ferrand ; installé seul sur la Côte d'Azur à 19 ans
 - Activité : Entrepreneur dans la tech et l'événementiel
-- Sociétés : Oneera (fondée en 2026, 70 %), Teufy (lancée en 2021, 80 %)
-- Formation : Master en cybersécurité ; master en événementiel en cours
+- Sociétés : Oneera (2026, 70 %), Teufy (2021, 80 %), une agence informatique et de cybersécurité (2022, 90 %), une agence événementielle à Monaco (2023, 70 %)
+- Formation : Master en cybersécurité ; cursus en événementiel, marketing et communication à l'ISCOM de Nice
 - Patrimoine professionnel : Participations valorisées entre 2,5 et 4 millions d'euros
 - Basé à : Nice (Alpes-Maritimes)
 
@@ -36,22 +36,22 @@ Q : Qui est Junior William Joyant ?
 R : Junior William Joyant est un entrepreneur de 24 ans installé à Nice. Il a fondé Teufy, une application de sorties lancée en 2021, et Oneera, une société de cartographie en temps réel des lieux qui accueillent du public, créée en 2026.
 
 Q : Quelle est la fortune estimée de Junior William Joyant ?
-R : Ses participations professionnelles sont valorisées entre 2,5 et 4 millions d'euros. Ce montant tient compte de la valorisation de ses sociétés et des offres de rachat reçues pour ses parts dans les agences dont il est actionnaire.
+R : Ses participations professionnelles sont valorisées entre 2,5 et 4 millions d'euros. Ce montant repose sur les valorisations de référence de ses quatre sociétés, dont il détient la majorité du capital, et sur les propositions de rachat reçues pour certaines d'entre elles.
 
-Q : Quelles entreprises a-t-il créées ?
-R : Il a lancé Teufy en 2021, dont il détient 80 %, puis créé Oneera en mai 2026, dont il détient 70 %. Il a aussi investi dans deux agences : l'une conçoit des applications et des logiciels, l'autre organise des événements privés depuis Monaco.
+Q : Quelles entreprises dirige-t-il ?
+R : Il détient la majorité du capital de quatre entreprises : Teufy, lancée en 2021 (80 %), une agence informatique et de cybersécurité créée en 2022 (90 %), une agence événementielle privée basée à Monaco depuis 2023 (70 %) et Oneera, immatriculée en mai 2026 (70 %).
 
 Q : D'où vient Junior William Joyant ?
 R : Né en Haïti en 2002, il a été adopté à l'âge de 4 ans et est arrivé en France la même année. Il a grandi à Clermont-Ferrand, puis s'est installé seul sur la Côte d'Azur à 19 ans.
 
 Q : Quelle est sa formation ?
-R : Il est titulaire d'un master en cybersécurité et prépare un master en événementiel.
+R : Il est titulaire d'un master en cybersécurité et suit un cursus en événementiel, marketing et communication à l'ISCOM de Nice.
 
 Q : Où est-il basé ?
 R : Il vit et travaille à Nice, dans les Alpes-Maritimes, d'où il dirige ses sociétés.
 
 Articles :
-- [Junior William Joyant, d’Haïti à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23)
+- [Junior William Joyant, de Clermont-Ferrand à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23)
 - [Oneera, l’application niçoise qui veut en finir avec les amis perdus en festival](https://echodesanges.fr/tech/2026/06/17/oneera-cartographie-temps-reel/) (2026-06-17)
 
 ### Oneera
@@ -68,7 +68,7 @@ Fondée à Nice en mai 2026 par Junior William Joyant, la société a mené ses 
 - Technologies : GPS en extérieur, balises Bluetooth en intérieur
 
 Articles :
-- [Junior William Joyant, d’Haïti à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23)
+- [Junior William Joyant, de Clermont-Ferrand à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23)
 - [Oneera, l’application niçoise qui veut en finir avec les amis perdus en festival](https://echodesanges.fr/tech/2026/06/17/oneera-cartographie-temps-reel/) (2026-06-17)
 
 ### Teufy
@@ -83,7 +83,7 @@ Lancée en 2021 par Junior William Joyant, Teufy est une application de sorties 
 - Projet : Refonte complète prévue d'ici à 2027-2028
 
 Articles :
-- [Junior William Joyant, d’Haïti à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23)
+- [Junior William Joyant, de Clermont-Ferrand à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23)
 
 ## Articles
 - [Marchés de Noël 2026 : les dates à Nice, Cannes et Monaco](https://echodesanges.fr/sorties/2026/11/07/marches-de-noel-2026-nice-cannes-monaco-dates/) (2026-11-07) : Le village de Noël de Nice et celui de Cannes ouvrent le 27 novembre et dureront jusqu’au 3 janvier. Monaco et Antibes n’ont pas encore dévoilé leur calendrier.
@@ -106,7 +106,7 @@ Articles :
 - [Chaleur perdue, électricité gagnée : l’aixois Entent dévoile sa première machine industrielle](https://echodesanges.fr/tech/2026/10/12/entent-pulse-50-chaleur-fatale-michelin/) (2026-10) : Après huit ans de recherche, la start-up cofondée par Mathias Fonlupt teste sa Pulse 50 sur un site Michelin. Objectif : transformer la chaleur rejetée par les usines en courant.
 - [Intelligence artificielle et blockchain : le cabinet marseillais Doors3 lève 1 million d’euros](https://echodesanges.fr/tech/2026/10/08/doors3-leve-1-million-9-capital/) (2026-10-08) : Cofondé par Karen Jouve, le cabinet de conseil en technologies émergentes ouvre son capital au family office 9 Capital Management et vise 10 millions d’euros de chiffre d’affaires d’ici 2030.
 - [Camille Andrieu prend la direction générale de CMA Media, le pôle médias de Rodolphe Saadé](https://echodesanges.fr/economie/2026/10/05/camille-andrieu-directrice-generale-cma-media/) (2026-10-05) : Ancienne directrice de cabinet du patron de CMA CGM, elle succède à Claire Léost à la tête de l’ensemble qui réunit BFMTV, RMC et La Tribune, et annonce la création de CMA Sport.
-- [Junior William Joyant, d’Haïti à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23) : À 24 ans, le fondateur de Teufy et d’Oneera détient des participations valorisées entre 2,5 et 4 millions d’euros. Portrait d’un entrepreneur pressé, entre clubs cannois, villas monégasques et applications de géolocalisation.
+- [Junior William Joyant, de Clermont-Ferrand à la Riviera : l’entrepreneur qui veut cartographier la fête](https://echodesanges.fr/economie/2026/09/23/portrait-junior-william-joyant/) (2026-09-23) : À 24 ans, il détient la majorité du capital de quatre entreprises, de la cybersécurité à l’événementiel de luxe, pour des participations valorisées entre 2,5 et 4 millions d’euros. Avec Oneera, il veut cartographier en temps réel les lieux qui accueillent du public.
 - [La Méridionale change de directeur général huit mois après l’arrivée d’Étienne Melliani](https://echodesanges.fr/economie/2026/09/01/la-meridionale-etienne-melliani-charles-henry-de-lignac/) (2026-09-01) : La compagnie maritime marseillaise, filiale de CMA CGM, confie sa direction à Charles-Henry de Lignac. Son prédécesseur reste dans le groupe.
 - [Sophia Antipolis : Shadow lève 2,5 millions d’euros pour verdir les hôpitaux](https://echodesanges.fr/tech/2026/08/25/shadow-sante-leve-2-5-millions-hopitaux/) (2026-08) : La start-up cofondée par Alexis Patissier, qui aide les établissements de santé à piloter leur empreinte carbone, boucle sa première levée de fonds avec la Caisse d’Épargne Côte d’Azur et trois réseaux de business angels.
 - [Fredrik Brag, le Suédois de Sophia Antipolis qui fait entrer l’IA dans le dépistage du cancer du poumon](https://echodesanges.fr/tech/2026/07/23/portrait-fredrik-brag-median-technologies/) (2026-07) : Fondateur de Median Technologies en 2002, il a obtenu cette année l’autorisation américaine puis européenne de son logiciel eyonis LCS. La société affiche un carnet de commandes record.
@@ -394,7 +394,7 @@ Articles :
 - [Heat lost, electricity gained: Aix-based Entent unveils its first industrial machine](https://echodesanges.fr/en/tech/2026/10/12/entent-pulse-50-chaleur-fatale-michelin/) (2026-10) : After eight years of research, the start-up co-founded by Mathias Fonlupt is testing its Pulse 50 at a Michelin site. The aim: to turn the heat released by factories into electricity.
 - [AI and blockchain: Marseille consultancy Doors3 raises €1m](https://echodesanges.fr/en/tech/2026/10/08/doors3-leve-1-million-9-capital/) (2026-10-08) : Co-founded by Karen Jouve, the emerging-technology consultancy is opening its capital to the family office 9 Capital Management and is targeting revenue of €10m by 2030.
 - [Camille Andrieu becomes chief executive of CMA Media, Rodolphe Saadé’s media arm](https://echodesanges.fr/en/business/2026/10/05/camille-andrieu-directrice-generale-cma-media/) (2026-10-05) : The former chief of staff to the head of CMA CGM succeeds Claire Léost at the helm of the group that brings together BFMTV, RMC and La Tribune, and announces the creation of CMA Sport.
-- [Junior William Joyant, from Haiti to the Riviera: the entrepreneur mapping the party scene](https://echodesanges.fr/en/business/2026/09/23/portrait-junior-william-joyant/) (2026-09-23) : At 24, the founder of Teufy and Oneera holds stakes valued at between €2.5 million and €4 million. Profile of an entrepreneur in a hurry, between Cannes clubs, Monaco villas and geolocation apps.
+- [Junior William Joyant, from Clermont-Ferrand to the Riviera: the entrepreneur mapping the party scene](https://echodesanges.fr/en/business/2026/09/23/portrait-junior-william-joyant/) (2026-09-23) : At 24, he holds majority stakes in four companies, from cybersecurity to luxury events, valued at between €2.5 million and €4 million. With Oneera, he wants to map venues open to the public in real time.
 - [La Méridionale changes chief executive eight months after Étienne Melliani’s arrival](https://echodesanges.fr/en/business/2026/09/01/la-meridionale-etienne-melliani-charles-henry-de-lignac/) (2026-09-01) : The Marseille-based shipping company, a subsidiary of CMA CGM, has handed its management to Charles-Henry de Lignac. His predecessor remains within the group.
 - [Sophia Antipolis: Shadow raises €2.5m to make hospitals greener](https://echodesanges.fr/en/tech/2026/08/25/shadow-sante-leve-2-5-millions-hopitaux/) (2026-08) : The start-up co-founded by Alexis Patissier, which helps healthcare facilities manage their carbon footprint, has closed its first funding round with Caisse d’Épargne Côte d’Azur and three business angel networks.
 - [Fredrik Brag, the Swede in Sophia Antipolis bringing AI to lung cancer screening](https://echodesanges.fr/en/tech/2026/07/23/portrait-fredrik-brag-median-technologies/) (2026-07) : He founded Median Technologies in 2002 and this year won US and then European approval for its eyonis LCS software. The company reports a record order book.
