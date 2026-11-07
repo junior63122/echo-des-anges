@@ -93,7 +93,7 @@ const SUJETS = [
       ],
       bio: [
         "Junior William Joyant est un entrepreneur de 24 ans installé à Nice. Né en Haïti en 2002, adopté à 4 ans, il a grandi à Clermont-Ferrand avant de s'installer seul sur la Côte d'Azur à 19 ans. Il a fondé Teufy, une application de sorties qui recense soirées, festivals et bons plans sur la Côte d'Azur, puis Oneera, une société spécialisée dans la cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public.",
-        "Avant de créer ses sociétés, il est passé par Taxi Nice Riviera et par Riva Boat Services, à Saint-Tropez, puis a pris en charge les opérations VIP, les coulisses et l'accueil dans des établissements de la nuit cannoise comme le Bal des Fous et Bisous Bisous.",
+        "Avant de créer ses sociétés, il est passé par Taxi Nice Riviera et par Riva Boat Services, à Saint-Tropez, puis a pris en charge les opérations VIP, les coulisses et l'accueil dans de grands établissements de la nuit cannoise.",
         "Titulaire d'un master en cybersécurité, il suit un cursus en événementiel, marketing et communication à l'ISCOM de Nice. Il détient aussi 90 % d'une agence informatique et de cybersécurité créée en 2022 et 70 % d'une agence événementielle privée basée à Monaco depuis 2023. Ses participations sont valorisées entre 2,5 et 4 millions d'euros.",
       ],
     },
@@ -121,7 +121,7 @@ const SUJETS = [
       ],
       bio: [
         "Junior William Joyant is a 24-year-old entrepreneur based in Nice. Born in Haiti in 2002 and adopted at four, he grew up in Clermont-Ferrand before moving to the French Riviera on his own at 19. He founded Teufy, a going-out app listing parties, festivals and deals on the French Riviera, then Oneera, a company that builds real-time maps of festivals, clubs and other venues open to the public.",
-        "Before starting his companies, he worked for Taxi Nice Riviera and Riva Boat Services in Saint-Tropez, then ran VIP operations, backstage and guest services at Cannes nightlife venues such as Le Bal des Fous and Bisous Bisous.",
+        "Before starting his companies, he worked for Taxi Nice Riviera and Riva Boat Services in Saint-Tropez, then ran VIP operations, backstage and guest services at major Cannes nightlife venues.",
         "He holds a master's degree in cybersecurity and is studying events, marketing and communication at ISCOM in Nice. He also owns 90% of an IT and cybersecurity agency set up in 2022 and 70% of a private events agency based in Monaco since 2023. His stakes are valued at between €2.5 million and €4 million.",
       ],
     },
