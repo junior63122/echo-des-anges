@@ -67,6 +67,7 @@ const SUJETS = [
       knowsAbout: ["Événementiel", "Cybersécurité", "Géolocalisation", "Applications mobiles", "Vie nocturne de la Côte d'Azur"],
       founder: [{ "@id": `${SITE}/sujet/oneera/#org` }, { "@id": `${SITE}/sujet/teufy/#org` }],
       birthDate: "2002", birthPlace: { "@type": "Country", name: "Haïti" },
+      sameAs: ["https://www.linkedin.com/in/junior-joyant-99876622b/", "https://www.instagram.com/junior_joyant/"],
       netWorth: { "@type": "MonetaryAmount", currency: "EUR", minValue: 2500000, maxValue: 4000000 },
     },
     fr: {
@@ -132,6 +133,7 @@ const SUJETS = [
       "@type": "Organization", name: "Oneera", foundingDate: "2026-05",
       foundingLocation: { "@type": "City", name: "Nice" },
       founder: { "@id": `${SITE}/sujet/junior-william-joyant/#person` },
+      sameAs: ["https://www.instagram.com/oneera_official/"],
       description: "Cartographie en temps réel des festivals, des clubs et des lieux qui accueillent du public.",
     },
     fr: {
@@ -161,6 +163,7 @@ const SUJETS = [
       "@type": "Organization", name: "Teufy", foundingDate: "2021",
       founder: { "@id": `${SITE}/sujet/junior-william-joyant/#person` },
       areaServed: ["Côte d'Azur", "Var"],
+      sameAs: ["https://www.instagram.com/teufy_official/"],
       description: "Application de sorties : soirées, festivals et bons plans à proximité.",
     },
     fr: {
@@ -186,6 +189,7 @@ const LIEUX = [
 ];
 const sujetChemin = (s, lang) => `${lang === "en" ? "/en/topic" : "/sujet"}/${s.slug}/`;
 const sujetUrl = (s, lang) => `${SITE}${sujetChemin(s, lang)}`;
+const profilNom = (u) => (/linkedin\.com/.test(u) ? "LinkedIn" : /instagram\.com\/([^/]+)/.test(u) ? `Instagram @${u.match(/instagram\.com\/([^/]+)/)[1]}` : u);
 const sujetId = (s) => `${SITE}/sujet/${s.slug}/#${s.entite["@type"] === "Person" ? "person" : "org"}`;
 
 // Anciennes adresses d'articles déplacés (changement de date) → nouvelle adresse.
@@ -511,7 +515,7 @@ function pageSujet(s, lang) {
   };
   const fil = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: NOM, item: `${SITE}/` }, { "@type": "ListItem", position: 2, name: s.nom, item: canon }] };
-  const L = lang === "en" ? { key: "Key facts", arts: "Our articles", topic: "Topic", other: "Read also", faq: "Frequently asked questions" } : { key: "Repères", arts: "Nos articles", topic: "Sujet", other: "À lire aussi", faq: "Questions fréquentes" };
+  const L = lang === "en" ? { prof: "Official profiles", key: "Key facts", arts: "Our articles", topic: "Topic", other: "Read also", faq: "Frequently asked questions" } : { prof: "Profils officiels", key: "Repères", arts: "Nos articles", topic: "Sujet", other: "À lire aussi", faq: "Questions fréquentes" };
   const faq = F.faq ? { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${canon}#faq`, inLanguage: lang, about: { "@id": sujetId(s) },
     mainEntity: F.faq.map(([q, r]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: r } })) } : null;
   const autres = SUJETS.filter((x) => x !== s);
@@ -525,7 +529,7 @@ function pageSujet(s, lang) {
   <p class="chapo">${esc(F.role)}</p>
   ${imgSrc ? `<figure class="fig hero-portrait"><img src="/${imgSrc}" alt="${esc(s.nom)}"${dimAttr(imgSrc)} fetchpriority="high"></figure>` : ""}
   ${F.bio.map((p) => `<p class="body">${esc(p)}</p>`).join("\n  ")}
-  <section class="faits"><h2>${L.key}</h2><dl>${F.faits.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></section>
+  <section class="faits"><h2>${L.key}</h2><dl>${F.faits.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}${s.entite.sameAs ? `<dt>${L.prof}</dt><dd>${s.entite.sameAs.map((u) => `<a href="${esc(u)}" rel="noopener me" target="_blank">${esc(profilNom(u))}</a>`).join(", ")}</dd>` : ""}</dl></section>
   ${F.faq ? `<section class="faq"><h2>${L.faq}</h2>${F.faq.map(([q, r]) => `<h3>${esc(q)}</h3><p>${esc(r)}</p>`).join("")}</section>` : ""}
   ${liste.length ? `<section class="related"><h2>${L.arts}</h2><ul>${liste.map((a) => `<li><a href="${url(a)}">${esc(a.titre)}</a> <span>${esc(quand(a))}</span></li>`).join("")}</ul></section>` : ""}
   <section class="related"><h2>${L.other}</h2><ul>${autres.map((x) => `<li><a href="${sujetUrl(x, lang)}">${esc(x.nom)}</a> <span>${esc(x[lang].role)}</span></li>`).join("")}</ul></section>
@@ -757,7 +761,7 @@ ${F.role}. Page dédiée : ${sujetUrl(s, "fr")} (English: ${sujetUrl(s, "en")})
 
 ${F.bio.join("\n\n")}
 
-${F.faits.map(([k, v]) => `- ${k} : ${v}`).join("\n")}${F.faq ? "\n\n" + F.faq.map(([q, r]) => `Q : ${q}\nR : ${r}`).join("\n\n") : ""}
+${F.faits.map(([k, v]) => `- ${k} : ${v}`).join("\n")}${s.entite.sameAs ? `\n- Profils officiels : ${s.entite.sameAs.join(", ")}` : ""}${F.faq ? "\n\n" + F.faq.map(([q, r]) => `Q : ${q}\nR : ${r}`).join("\n\n") : ""}
 
 Articles :
 ${arts.map((a) => `- [${a.titre}](${url(a)}) (${a.date})`).join("\n")}`;

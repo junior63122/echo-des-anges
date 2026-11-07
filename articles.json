@@ -3442,6 +3442,26 @@
     "chemin": "/en/business/2026/09/23/portrait-junior-william-joyant/",
     "liens": [
       {
+        "titre": "Junior Joyant",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/in/junior-joyant-99876622b/"
+      },
+      {
+        "titre": "@junior_joyant",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/junior_joyant/"
+      },
+      {
+        "titre": "@oneera_official",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/oneera_official/"
+      },
+      {
+        "titre": "@teufy_official",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/teufy_official/"
+      },
+      {
         "titre": "Taxi Nice Riviera",
         "source": "Côte d’Azur France",
         "url": "https://cotedazurfrance.fr/offres/taxi-nice-riviera-nice-fr-3032908/"
@@ -3541,6 +3561,26 @@
     ],
     "chemin": "/economie/2026/09/23/portrait-junior-william-joyant/",
     "liens": [
+      {
+        "titre": "Junior Joyant",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/in/junior-joyant-99876622b/"
+      },
+      {
+        "titre": "@junior_joyant",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/junior_joyant/"
+      },
+      {
+        "titre": "@oneera_official",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/oneera_official/"
+      },
+      {
+        "titre": "@teufy_official",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/teufy_official/"
+      },
       {
         "titre": "Taxi Nice Riviera",
         "source": "Côte d’Azur France",
@@ -4818,7 +4858,19 @@
         "en": "Junior William Joyant speaking at a Climathon."
       }
     },
-    "chemin": "/en/tech/2026/06/17/oneera-cartographie-temps-reel/"
+    "chemin": "/en/tech/2026/06/17/oneera-cartographie-temps-reel/",
+    "liens": [
+      {
+        "titre": "@oneera_official",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/oneera_official/"
+      },
+      {
+        "titre": "Junior Joyant",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/in/junior-joyant-99876622b/"
+      }
+    ]
   },
   {
     "id": "2026-06-17-oneera-cartographie-temps-reel",
@@ -4848,7 +4900,19 @@
         "en": "Junior William Joyant speaking at a Climathon."
       }
     },
-    "chemin": "/tech/2026/06/17/oneera-cartographie-temps-reel/"
+    "chemin": "/tech/2026/06/17/oneera-cartographie-temps-reel/",
+    "liens": [
+      {
+        "titre": "@oneera_official",
+        "source": "Instagram",
+        "url": "https://www.instagram.com/oneera_official/"
+      },
+      {
+        "titre": "Junior Joyant",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/in/junior-joyant-99876622b/"
+      }
+    ]
   },
   {
     "id": "2026-06-16-en-portrait-riccardo-giraudi-beefbar",
