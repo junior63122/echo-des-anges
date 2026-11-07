@@ -1,0 +1,45 @@
+name: Site - publication
+
+# Publie uniquement les fichiers du journal (liste blanche, voir scripts/preparer-site.mjs) :
+# scripts, documentation, données de travail et configuration restent dans le dépôt.
+# Prérequis (une fois) : Settings > Pages > Build and deployment > Source = « GitHub Actions ».
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ["Journal - éditions", "Journal - photos des articles", "Journal - dossier de la semaine", "Journal - archives"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Préparer le site (fichiers publics uniquement, JS et CSS compactés)
+        run: |
+          npm install --no-save --no-audit --no-fund esbuild@0.24.2
+          ESBUILD=node_modules/.bin/esbuild node scripts/preparer-site.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploiement
+        uses: actions/deploy-pages@v4
