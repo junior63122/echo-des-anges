@@ -3,6 +3,7 @@ User-agent: *
 Allow: /
 Disallow: /scripts/
 Disallow: /node_modules/
+Disallow: /donnees/
 
 Sitemap: https://echodesanges.fr/sitemap.xml
 Sitemap: https://echodesanges.fr/news-sitemap.xml
@@ -30,3 +31,4 @@ User-agent: MistralAI-User
 Allow: /
 Disallow: /scripts/
 Disallow: /node_modules/
+Disallow: /donnees/
