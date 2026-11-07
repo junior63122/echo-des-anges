@@ -13,7 +13,7 @@ const DB = join(ROOT, "articles.json");
 const RUBRIQUES = {
   Entreprises: "Companies", Portrait: "Profile", "Médias": "Media", "Marchés": "Markets", Culture: "Culture",
   "Start-up": "Start-ups", Industrie: "Industry", "Énergie": "Energy", "Économie": "Economy", Festivals: "Festivals",
-  Agritech: "Agritech", Environnement: "Environment", "Palmarès": "Rankings", "Capital-risque": "Venture capital", "Société": "Society",
+  Agritech: "Agritech", Environnement: "Environment", "Palmarès": "Rankings", "Capital-risque": "Venture capital", "Société": "Society", "Ce week-end": "This weekend", Expositions: "Exhibitions", "Noël": "Christmas", "Fêtes": "Festivals", Agenda: "What's on",
 };
 const articles = JSON.parse(readFileSync(DB, "utf8"));
 let ajout = 0, maj = 0;

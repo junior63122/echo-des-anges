@@ -25,6 +25,8 @@ const RECHERCHES = {
   Tech: ["data center servers", "computer programming code screen", "smartphone app hands"],
   Monde: ["United Nations General Assembly hall empty", "European Parliament Strasbourg hemicycle", "flags Palais des Nations Geneva", "world globe map"],
   "Nice & Côte d'Azur": ["Promenade des Anglais Nice", "Nice France panorama Baie des Anges", "Monaco harbour Port Hercule"],
+  Culture: ["museum gallery visitors", "opera house stage", "Musée Matisse Nice", "theatre auditorium"],
+  Sorties: ["Nice old town evening", "Christmas market France", "street festival France crowd", "Cours Saleya Nice market"],
   Sport: ["football match stadium crowd", "OGC Nice match Allianz Riviera", "tennis match court", "Tour de France peloton", "rugby union match"],
 };
 

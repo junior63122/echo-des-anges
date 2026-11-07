@@ -32,6 +32,10 @@ jobs:
           THEME: ${{ inputs.theme }}
         run: |
           if [ -n "$THEME" ]; then node scripts/dossier-semaine.mjs --theme="$THEME"; else node scripts/dossier-semaine.mjs; fi
+      - name: Agenda de la semaine (le lundi)
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          if [ "$(TZ=Europe/Paris date +%u)" = "1" ]; then node scripts/dossier-semaine.mjs --agenda; else echo "Pas lundi : pas d'agenda"; fi
       - name: Référencement (pages statiques, sitemap, RSS, llms.txt)
         run: node scripts/build-static.mjs
       - name: Publier

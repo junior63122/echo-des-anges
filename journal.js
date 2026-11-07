@@ -3,8 +3,8 @@
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   const TZ = "Europe/Paris";
-  const ORDRE = ["Business", "Finance", "Événementiel", "Tech", "Monde", "Nice & Côte d'Azur", "Sport"];
-  const SLUG = { Business: "economie", Finance: "finance", "Événementiel": "evenementiel", Tech: "tech", Monde: "international", "Nice & Côte d'Azur": "nice", Sport: "sport" };
+  const ORDRE = ["Business", "Finance", "Événementiel", "Culture", "Sorties", "Tech", "Monde", "Nice & Côte d'Azur", "Sport"];
+  const SLUG = { Business: "economie", Finance: "finance", "Événementiel": "evenementiel", Culture: "culture", Sorties: "sorties", Tech: "tech", Monde: "international", "Nice & Côte d'Azur": "nice", Sport: "sport" };
   const FROM_SLUG = Object.fromEntries(Object.entries(SLUG).map(([k, v]) => [v, k]));
 
   const I18N = {
@@ -55,7 +55,7 @@
       alsoTitle: "À lire aussi",
       portrait: "Portrait",
       photo: "Photo",
-      sections: { Business: "Économie", Finance: "Finance", "Événementiel": "Événementiel", Tech: "Tech", Monde: "International", "Nice & Côte d'Azur": "Nice & Côte d'Azur", Sport: "Sport" },
+      sections: { Business: "Économie", Finance: "Finance", "Événementiel": "Événementiel", Culture: "Culture", Sorties: "Sorties", Tech: "Tech", Monde: "International", "Nice & Côte d'Azur": "Nice & Côte d'Azur", Sport: "Sport" },
     },
     en: {
       locale: "en-GB",
@@ -104,12 +104,12 @@
       alsoTitle: "Also worth reading",
       portrait: "Profile",
       photo: "Photo",
-      sections: { Business: "Business", Finance: "Finance", "Événementiel": "Events", Tech: "Tech", Monde: "World", "Nice & Côte d'Azur": "Nice & the Riviera", Sport: "Sport" },
+      sections: { Business: "Business", Finance: "Finance", "Événementiel": "Events", Culture: "Culture", Sorties: "Going out", Tech: "Tech", Monde: "World", "Nice & Côte d'Azur": "Nice & the Riviera", Sport: "Sport" },
     },
   };
 
   const REDACTION = [
-    ["Camille Rostand", "Business"], ["Hugo Marchetti", "Finance"], ["Léa Fontaine", "Événementiel"],
+    ["Camille Rostand", "Business"], ["Hugo Marchetti", "Finance"], ["Léa Fontaine", "Événementiel"], ["Clara Venturini", "Culture"], ["Théo Marchal", "Sorties"],
     ["Nathan Belkacem", "Tech"], ["Sofia Delmas", "Monde"], ["Lucas Giordano", "Nice & Côte d'Azur"], ["Inès Morel", "Sport"],
   ];
 
@@ -130,7 +130,7 @@
   const longDate = (d) => new Date(d + "T12:00:00Z").toLocaleDateString(T.locale, { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
   const hhmm = (iso) => new Date(iso).toLocaleTimeString(T.locale, { hour: "2-digit", minute: "2-digit", timeZone: TZ });
   // Adresses lisibles, identiques à celles des pages publiées (champ « chemin » de chaque article).
-  const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
+  const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", culture: "culture", sorties: "going-out", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
   const PAGES_CHEMINS = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" } };
   const STATIQUES = /^\/(en\/)?(sujet|topic)\/|^\/tous-les-articles\//;
   const artLink = (a, i) => `${a.chemin}${i ? `#info-${i}` : ""}`;

@@ -88,4 +88,84 @@
       <news:title>Vie chère : après les 5 000 manifestants de jeudi, les syndicats appellent à un « acte IV » samedi à Nice</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://echodesanges.fr/sorties/2026/11/07/ce-week-end-marathon-nice-cannes-di-rosa-matisse/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:00:00+01:00</news:publication_date>
+      <news:title>Marathon Nice-Cannes, dernier jour pour Di Rosa, Matisse et Katz : que faire ce week-end</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/en/going-out/2026/11/07/ce-week-end-marathon-nice-cannes-di-rosa-matisse/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:00:00+01:00</news:publication_date>
+      <news:title>Nice-Cannes marathon, last day for Di Rosa, Matisse and Katz: what to do this weekend</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/culture/2026/11/07/fin-annee-culture-matisse-katz-brauner-belle-au-bois-dormant/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:10:00+01:00</news:publication_date>
+      <news:title>Matisse et Katz, Brauner, « La Belle au bois dormant » : les rendez-vous culturels de la fin d’année</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/en/culture/2026/11/07/fin-annee-culture-matisse-katz-brauner-belle-au-bois-dormant/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:10:00+01:00</news:publication_date>
+      <news:title>Matisse and Katz, Brauner, The Sleeping Beauty: the cultural highlights of the festive season</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/sorties/2026/11/07/marches-de-noel-2026-nice-cannes-monaco-dates/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:30:00+01:00</news:publication_date>
+      <news:title>Marchés de Noël 2026 : les dates à Nice, Cannes et Monaco</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/en/going-out/2026/11/07/marches-de-noel-2026-nice-cannes-monaco-dates/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:30:00+01:00</news:publication_date>
+      <news:title>Christmas markets 2026: the dates in Nice, Cannes and Monaco</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/sorties/2026/11/07/carnaval-de-nice-fete-du-citron-2027-dates/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:20:00+01:00</news:publication_date>
+      <news:title>Carnaval de Nice et Fête du Citron 2027 : les dates à noter dès maintenant</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/en/going-out/2026/11/07/carnaval-de-nice-fete-du-citron-2027-dates/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-07T14:20:00+01:00</news:publication_date>
+      <news:title>Nice Carnival and Menton Lemon Festival 2027: the dates to note now</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/evenementiel/2026/11/07/calendrier-hiver-2027-rallye-cirque-midem-mipim/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-07T13:50:00+01:00</news:publication_date>
+      <news:title>Rallye, cirque, Midem, Mipim : le calendrier de l’hiver 2027 sur la Côte d’Azur</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/en/events/2026/11/07/calendrier-hiver-2027-rallye-cirque-midem-mipim/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-07T13:50:00+01:00</news:publication_date>
+      <news:title>Rally, circus, Midem, Mipim: the French Riviera’s winter 2027 calendar</news:title>
+    </news:news>
+  </url>
 </urlset>

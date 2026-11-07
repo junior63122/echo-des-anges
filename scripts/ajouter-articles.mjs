@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DB = join(ROOT, "articles.json");
-const AUTEURS = { Business: "Camille Rostand", Finance: "Hugo Marchetti", "Événementiel": "Léa Fontaine", Tech: "Nathan Belkacem", Monde: "Sofia Delmas", "Nice & Côte d'Azur": "Lucas Giordano", Sport: "Inès Morel" };
+const AUTEURS = { Business: "Camille Rostand", Finance: "Hugo Marchetti", "Événementiel": "Léa Fontaine", Culture: "Clara Venturini", Sorties: "Théo Marchal", Tech: "Nathan Belkacem", Monde: "Sofia Delmas", "Nice & Côte d'Azur": "Lucas Giordano", Sport: "Inès Morel" };
 const articles = JSON.parse(readFileSync(DB, "utf8"));
 let ajout = 0, maj = 0;
 for (const f of process.argv.slice(2)) {
