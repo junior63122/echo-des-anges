@@ -36,6 +36,12 @@ const SECTIONS = {
   "Événementiel": { fr: "Événementiel", en: "Events", slug: "evenementiel",
     dfr: "Festivals, salons, soirées et grands rendez-vous de Nice, Cannes et Monaco : l'actualité de l'événementiel.",
     den: "Festivals, trade fairs, parties and major events in Nice, Cannes and Monaco." },
+  Culture: { fr: "Culture", en: "Culture", slug: "culture",
+    dfr: "Expositions, musées, théâtre, opéra, cinéma et musique : la vie culturelle de Nice, Cannes, Monaco et de la Côte d'Azur.",
+    den: "Exhibitions, museums, theatre, opera, film and music: cultural life in Nice, Cannes, Monaco and on the French Riviera." },
+  Sorties: { fr: "Sorties", en: "Going out", slug: "sorties",
+    dfr: "Que faire, où aller : sorties, spectacles, fêtes, marchés et bons plans, avec l'agenda de la semaine sur la Côte d'Azur.",
+    den: "Where to go and what to do: outings, shows, festivals and markets, with the weekly agenda for the French Riviera." },
   Tech: { fr: "Tech", en: "Tech", slug: "tech",
     dfr: "Intelligence artificielle, cybersécurité, applications et start-up : l'actualité technologique.",
     den: "Artificial intelligence, cybersecurity, apps and start-ups: technology news." },
@@ -214,7 +220,7 @@ const texteDe = (a) => (a.chapo || (a.liens && a.liens[0] && a.liens[0].resume) 
 const couper = (s, n = 155) => { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length <= n ? s : s.slice(0, n - 1).replace(/[\s,;:.–-]+\S*$/, "") + "…"; };
 const resume = (a) => couper(texteDe(a));
 // Adresses lisibles : /economie/2026/09/23/portrait-.../ ; /en/business/... pour l'anglais.
-const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
+const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", culture: "culture", sorties: "going-out", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
 const secChemin = (slug, lang) => (lang === "en" ? `/en/${SLUG_EN[slug] || slug}/` : `/${slug}/`);
 const secLien = (slug, lang) => `${SITE}${secChemin(slug, lang)}`;
 const CHEMINS_FIXES = { histoire: { fr: "/histoire/", en: "/en/our-story/" }, mentions: { fr: "/mentions-legales/", en: "/en/legal-notice/" } };

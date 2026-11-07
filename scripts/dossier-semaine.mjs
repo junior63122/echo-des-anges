@@ -33,6 +33,8 @@ const THEMES = {
   Business: { slug: "economie", fr: { nom: "Économie", de: "économique" }, en: { nom: "Business", de: "in business" } },
   Finance: { slug: "finance", fr: { nom: "Finance", de: "financière" }, en: { nom: "Finance", de: "in finance" } },
   "Événementiel": { slug: "evenementiel", fr: { nom: "Événementiel", de: "de l'événementiel" }, en: { nom: "Events", de: "in events" } },
+  Culture: { slug: "culture", fr: { nom: "Culture", de: "culturelle" }, en: { nom: "Culture", de: "in culture" } },
+  Sorties: { slug: "sorties", fr: { nom: "Sorties", de: "des sorties" }, en: { nom: "Going out", de: "in going out" } },
   Tech: { slug: "tech", fr: { nom: "Tech", de: "de la tech" }, en: { nom: "Tech", de: "in tech" } },
   Sport: { slug: "sport", fr: { nom: "Sport", de: "sportive" }, en: { nom: "Sport", de: "in sport" } },
   Monde: { slug: "international", fr: { nom: "International", de: "internationale" }, en: { nom: "World", de: "around the world" } },
@@ -178,9 +180,60 @@ function rediger(cle, groupes, lang) {
   };
 }
 
+// ---------- Agenda de la semaine (chaque lundi) ----------
+// Annonces d'événements à venir repérées dans les dépêches des 7 derniers jours (culture, sorties,
+// événementiel, sport, actualité locale) : mots qui annoncent une date future.
+const FUTUR = /\b(ce week-end|ce samedi|ce dimanche|samedi|dimanche|à partir d[eu]|jusqu'au|jusqu’au|du \d{1,2} au \d{1,2}|prochain|prochaine|programme|rendez-vous|ouvre ses portes|ouverture|inaugur|festival|concert|exposition|spectacle|marché de noël|this weekend|this week|from \d{1,2}|until|opens|upcoming|festival|concert|exhibition|show)\b/i;
+// Un vrai rendez-vous (spectacle, sortie, fête, compétition…), pas de politique ni de faits divers.
+const EVENEMENT = /\b(festival|concert|exposition|expo|spectacle|théâtre|opéra|ballet|cinéma|projection|salon|foire|marché|brocante|fête|carnaval|soirée|marathon|course|match|derby|tournoi|rallye|régate|visite|atelier|conférence|vernissage|show|exhibition|gig|race|fair|market|parade|screening|performance)\b/i;
+const HORS_AGENDA = /\b(élu|élue|maire|présidentielle|candidat|manifestation|grève|syndicat|RN|LFI|procès|assises|meurtre|viol|agression|accident|mort|décès|enquête|police|gendarmerie|election|strike|protest|trial|murder|killed|police)\b/i;
+function agenda(articles, fil, lang) {
+  const items = ["Sorties", "Culture", "Événementiel", "Nice & Côte d'Azur", "Sport"].flatMap((k) => collecter(articles, fil, k, lang).map((x) => ({ ...x, cle: k })))
+    .filter((x) => { const t = `${x.titre} ${x.resume || ""}`; return FUTUR.test(t) && EVENEMENT.test(t) && !HORS_AGENDA.test(t) && LOCAL.test(t); });
+  const groupes = sujets(items).slice(0, 8);
+  if (groupes.length < 3) return null;
+  const en = lang === "en";
+  const lundi = DATE;
+  const dimanche = new Date(Date.parse(DATE + "T12:00:00Z") + 6 * 864e5).toISOString().slice(0, 10);
+  const q = (t) => (en ? `“${t}”` : `« ${t} »`);
+  const medias = [...new Set(groupes.flatMap((g) => g.medias))];
+  const periode = en ? `${dateCourte(lundi, "en").split(" ")[0]} to ${dateCourte(dimanche, "en")}` : `du ${dateCourte(lundi, "fr").split(" ")[0]} au ${dateCourte(dimanche, "fr")}`;
+  const corps = [en
+    ? `What is coming up on the French Riviera this week? Our newsroom has gathered the announcements published over the past seven days by ${listeEt(medias.slice(0, 5), "en")}: shows, exhibitions, festivals and events, from Nice to Monaco.`
+    : `Que faire cette semaine sur la Côte d'Azur ? La rédaction a rassemblé les annonces publiées ces sept derniers jours par ${listeEt(medias.slice(0, 5), "fr")} : spectacles, expositions, fêtes et rendez-vous, de Nice à Monaco.`];
+  groupes.forEach((g) => {
+    const it = g.items[0];
+    const ex = extrait(it.resume, it.titre);
+    corps.push(`${q(it.titre)} (${it.source}).${ex ? ` ${ex}` : ""}`);
+  });
+  corps.push(en
+    ? "Dates and times can change: check with the organisers before you go. The full articles are available through the links at the end of the page."
+    : "Les dates et horaires peuvent évoluer : vérifiez auprès des organisateurs avant de vous déplacer. Les articles complets sont accessibles par les liens en fin de page.");
+  return {
+    id: `${DATE}${en ? "-en" : ""}-agenda-semaine`,
+    lang, date: DATE, section: "Sorties", rubrique: en ? "What's on" : "Agenda", emoji: "🗓️", type: "article", genre: "agenda",
+    auteur: "Théo Marchal",
+    titre: en ? `What's on this week on the French Riviera, ${periode}` : `L'agenda de la semaine sur la Côte d'Azur, ${periode}`,
+    chapo: en ? `${groupes.length} events and outings spotted in the news, from Nice to Monaco.` : `${groupes.length} rendez-vous et idées de sorties repérés dans l'actualité, de Nice à Monaco.`,
+    corps, sources: medias,
+    liens: groupes.flatMap((g) => g.items).slice(0, 20).map((x) => ({ titre: x.titre, source: x.source, url: x.url, resume: x.resume || "", heure: x.date })),
+    redige: true,
+  };
+}
+
 function main() {
   const articles = JSON.parse(readFileSync(DB, "utf8"));
   const fil = existsSync(FIL) ? JSON.parse(readFileSync(FIL, "utf8")) : [];
+  if (process.argv.includes("--agenda")) {
+    const nouveaux = ["fr", "en"].map((l) => agenda(articles, fil, l)).filter(Boolean);
+    for (const art of nouveaux) {
+      const i = articles.findIndex((a) => a.id === art.id);
+      if (i >= 0) articles[i] = art; else articles.unshift(art);
+      console.log(`+ [${art.lang}] ${art.titre}`);
+    }
+    if (nouveaux.length) writeFileSync(DB, JSON.stringify(articles, null, 2) + "\n"); else console.log("Agenda : pas assez d'annonces cette semaine.");
+    return;
+  }
   const dernier = (cle) => articles.filter((a) => a.genre === "hebdo" && a.section === cle && a.lang === "fr").map((a) => a.date).sort().pop() || "0000";
   // Rubrique choisie : celle dont le dernier dossier est le plus ancien (ou --theme).
   const ordre = arg("theme") ? [arg("theme")] : Object.keys(THEMES).sort((a, b) => dernier(a).localeCompare(dernier(b)) || Object.keys(THEMES).indexOf(a) - Object.keys(THEMES).indexOf(b));
