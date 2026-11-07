@@ -110,11 +110,11 @@ function sujets(items) {
 const TXT = {
   fr: {
     titres: [
-      (t, p) => `${t.nom} : ce qu'il faut retenir de la semaine (${p})`,
-      (t, p) => `La semaine ${t.de} en ${"sept"} sujets (${p})`,
-      (t, p) => `${t.nom} : les faits marquants de la semaine (${p})`,
+      (t, p) => `${t.nom} : ce qu'il faut retenir de la semaine ${p}`,
+      (t, p) => `La semaine ${t.de} en ${"sept"} sujets, ${p}`,
+      (t, p) => `${t.nom} : les faits marquants de la semaine ${p}`,
     ],
-    periode: (d1, d2) => `${d1} – ${d2}`,
+    periode: (d1, d2) => (d1.split(" ").pop() === d2.split(" ").pop() ? `du ${d1.split(" ")[0]} au ${d2}` : `du ${d1} au ${d2}`),
     chapo: (n, m, sujets) => `${n} informations publiées par ${m} médias en sept jours. Au programme : ${sujets}.`,
     intro: (t, d1, d2, medias) => `Du ${d1} au ${d2}, la rédaction a suivi l'actualité ${t.de} à travers les publications de ${medias}. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.`,
     connecteurs: ["À la une de la semaine,", "Autre sujet marquant,", "Dans un autre registre,", "Par ailleurs,", "Toujours cette semaine,", "À noter également,", "Enfin,"],
@@ -126,11 +126,11 @@ const TXT = {
   },
   en: {
     titres: [
-      (t, p) => `${t.nom}: what mattered this week (${p})`,
-      (t, p) => `The week ${t.de}: the key stories (${p})`,
-      (t, p) => `${t.nom}: the week's main stories (${p})`,
+      (t, p) => `${t.nom}: what mattered this week, ${p}`,
+      (t, p) => `The week ${t.de}: the key stories, ${p}`,
+      (t, p) => `${t.nom}: the week's main stories, ${p}`,
     ],
-    periode: (d1, d2) => `${d1} – ${d2}`,
+    periode: (d1, d2) => (d1.split(" ").pop() === d2.split(" ").pop() ? `${d1.split(" ")[0]} to ${d2}` : `${d1} to ${d2}`),
     chapo: (n, m, sujets) => `${n} stories from ${m} news outlets over seven days. In this round-up: ${sujets}.`,
     intro: (t, d1, d2, medias) => `From ${d1} to ${d2}, our newsroom followed the news ${t.de} through reporting by ${medias}. Here are the stories that marked the week.`,
     connecteurs: ["Leading the week,", "Another major story:", "Elsewhere,", "Meanwhile,", "Also this week,", "Worth noting,", "Finally,"],
@@ -195,7 +195,7 @@ function main() {
     for (const art of nouveaux) {
       const i = articles.findIndex((a) => a.id === art.id);
       if (i >= 0) articles[i] = art; else articles.unshift(art);
-      console.log(`+ [${art.lang}] ${art.titre} — ${art.corps.length - 2} sujets, ${art.sources.length} médias`);
+      console.log(`+ [${art.lang}] ${art.titre} (${art.corps.length - 2} sujets, ${art.sources.length} médias)`);
     }
     writeFileSync(DB, JSON.stringify(articles, null, 2) + "\n");
     return;
