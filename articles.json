@@ -1,5 +1,945 @@
 [
   {
+    "id": "2026-11-08-actu-business",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "Moins de touristes étrangers dans les commerces parisiens, autre conséquence des manifestations",
+    "chapo": "Entreprises, emploi, stratégie : l’essentiel de l’actualité économique. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Moins de touristes étrangers dans les commerces parisiens, autre conséquence des manifestations",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/08/moins-de-touristes-etrangers-dans-les-commerces-parisiens-autre-consequence-des-manifestations_6808417_3234.html",
+        "resume": "Les mobilisations sociales et les scènes de violences impactent les commerces parisiens. Dans le quartier touristique du Marais, les magasins se barricadent. Fini le lèche-vitrine pour les visiteurs internationaux.",
+        "heure": "2026-11-08T09:30:07.000Z"
+      },
+      {
+        "titre": "Augmentation du Smic : \"On est dans une situation extrêmement critique\", juge Bernard Cohen-Hadad",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/replay-magazine/franceinfo/l-invite-politique/le-7-40-franceinfo-du-dimanche-08-novembre-2026_8244871.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Bernard Cohen-Hadad, président du Cercle de réflexion Étienne Marcel, est l'invité politique de la matinale de franceinfo, dimanche 8 novembre. Il est revenu sur une éventuelle augmentation du Smic.",
+        "heure": "2026-11-08T08:53:25.000Z"
+      },
+      {
+        "titre": "En dessous de 1 700 euros net, toute revalorisation du Smic équivaudrait à \"des miettes accordées par des gens qui ont distribué des milliards aux plus riches\", déclare le député LFI Antoine Léaument",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/entreprises/en-dessous-de-1-700-euros-net-toute-revalorisation-du-smic-equivaudrait-a-des-miettes-accordees-par-des-gens-qui-ont-distribues-des-milliards-aux-plus-riches-declare-le-depute-lfi-antoine-leaument_8273108.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Le député La France insoumise de l'Essonne affirme que \"ce qui s'est passé dans les années précédentes avec Emmanuel Macron, c'est un appauvrissement généralisé de la population.\"",
+        "heure": "2026-11-08T08:49:59.000Z"
+      },
+      {
+        "titre": "François Villeroy de Galhau : « Laisser filer la dette, c’est faire des choix contre la jeunesse, des choix gérontocratiques »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/idees/article/2026/11/08/francois-villeroy-de-galhau-laisser-filer-la-dette-c-est-faire-des-choix-contre-la-jeunesse-des-choix-gerontocratiques_6808404_3232.html",
+        "resume": "Face à la crise financière et sociale, l’ancien gouverneur de la Banque de France, qui a quitté son poste en juin, plaide, dans un entretien au « Monde », pour un redressement fondé sur l’efficacité des dépenses publiques et sur trois grands projets concrets européens à l’horizon 2029 : IA, énergie et défense.",
+        "heure": "2026-11-08T05:30:11.000Z"
+      },
+      {
+        "titre": "« Il y a eu un retournement » : pourquoi la France est en panne d’investissements",
+        "source": "Ouest-France",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSFlIR1dHU25jZDVYU2dqVWVIRjItd2pFZ0NOSHlBRHczaXhhYWJyS3JfR0NGaEZqVkxkeGt2eVNkaGFqZ1FHdnBoQXU2d3hyU2Y1ak5idEtJUm44VWl3aDJDa0x0R0xUTkZVNncxSHI2UHVDSzRkcTRWZXZ2dzlPMHBXcnN1X25lV01GQVlrUEFjQ05CeVJka3EzanhETjVVRjJic245STg1eTVUWTlNT0t3WjlLS0hKc3EzNVRGRlFBa3gtVWRweGVoam1xU1hDeENaRW5nQ0xnZ3BIVTVHLUZnMk1vc1JabV82aEdTdGdmbUV0bmRacFBYdWJJR01PSWxHQy1R?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T06:00:33.000Z"
+      }
+    ],
+    "auteur": "Camille Rostand",
+    "sources": [
+      "Le Monde",
+      "franceinfo",
+      "Ouest-France"
+    ],
+    "chemin": "/economie/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-culture",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "\"On ne lâche pas facilement une carte comme ça\" : pourquoi Christophe Gleizes est-il toujours détenu en Algérie ?",
+    "chapo": "Expositions, musées, théâtre, cinéma et musique : la vie culturelle, de la Côte d’Azur au reste du monde. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "\"On ne lâche pas facilement une carte comme ça\" : pourquoi Christophe Gleizes est-il toujours détenu en Algérie ?",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/livres/emprisonnement-du-journaliste-christophe-gleizes-en-algerie/on-ne-lache-pas-facilement-une-carte-comme-ca-pourquoi-christophe-gleizes-est-il-toujours-detenu-en-algerie_8273285.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Comment expliquer que Christophe Gleizes, journaliste sportif français détenu depuis maintenant près de 500 jours en Algérie, n’ait toujours pas retrouvé la liberté ? Ses proches et confrères ne cessent de se mobiliser, et il a reçu le soutien de Zinédine Zidane. Pour comprendre le dossier, France Télévisions plonge au cœur des tensions entre la France et l’Algérie.",
+        "heure": "2026-11-08T11:21:15.000Z"
+      },
+      {
+        "titre": "\"L'Ame de la parfumerie française\" à Versailles : un riche voyage historique et sensoriel au cœur du savoir-faire et de l'élégance",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/arts-expos/l-ame-de-la-parfumerie-francaise-a-l-espace-richaud-un-riche-voyage-historique-et-sensoriel-au-c-ur-du-savoir-faire-et-de-l-elegance_8235463.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "De l'offrande antique au parfum contemporain, du rituel sacré au flacon d'exception, des cours royales aux maisons de couture, l'exposition retrace les étapes d'une histoire où se croisent pouvoir, art, innovation, industrie et savoir-faire.",
+        "heure": "2026-11-08T11:06:10.000Z"
+      },
+      {
+        "titre": "Roccassera Quartet en concert au Théâtre Francis Gag à Nice",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPN2R5b3FJTUVYemZuT19pdEd0UTBPZm9CNkhBY05CaUl6UThIV2hfUWRqWmJpRXRuUHhpV3o0VjJ5M25BN2tEZWlXU0RPdS1lOXJtcFZiRS1vLW9XM0w4UTZzZlYtU0YyWXlxMUFKaHJYMEZZS0trb3lqeU9saDZqVXNzQUR2VlM2V3FiMENET2lwX25tbEg3X3Z6Uk1odTZycjVNQw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T00:09:26.000Z"
+      },
+      {
+        "titre": "La Métropole Nice Côte d'Azur vote la gratuité des parkings souterrains métropolitains pour les professionnels de santé",
+        "source": "RCF",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2dMT3IyYVRYeGRra0xTQnVhNVkzTWJlWGZ1amRqN1IxanRlb0lPTVdhcVpKYTlOcl9Na0pNM0hKMXVoNnJCdnJnVXdfLXlsUllFUndNR3NzTHB0ODR6cF9tSGdzYUhVQzdYTVl3Zm5kN013bGRPVF8zMHVZR1Ntc2RUaTBad19aNTl2dU40ZG1MSml5a1Z5dkhhcjVULWFHd2RZdEtMNG5NeHAy?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T12:01:00.000Z"
+      },
+      {
+        "titre": "C’est pas classique fera voyager la musique dans 14 communes des Alpes-Maritimes en novembre",
+        "source": "Monaco Hebdo",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRzFrRXp2QkstV1NRUnBYbjQyVTJlMnd2bWNEdmVtejgxdV9EcXNWZW1pWE5RSGRpMnpnQzc1bUZUb2YteWdmMFJBQ2htQUV4UHRmcXV1dGZjOWJPQzlDWkE4QzhZQVBlM2tUd3RoTEZRSktKUkU1aExseVEtckQyLXBKaTEwQXRUUk81MFl5SjBqUUk4VTdrY1pnOUphcDhEWC1nZzJSTEU1U29VeXRWb3VGZU5HY2l2ZmJhQ1FTbzRlbm8?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T07:08:00.000Z"
+      }
+    ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "franceinfo",
+      "jds.fr",
+      "RCF",
+      "Monaco Hebdo"
+    ],
+    "chemin": "/culture/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-evenementiel",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Événementiel",
+    "rubrique": "Événementiel",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "Antonin Baudry, réalisateur : « Pour faire des films, j’ai sauté dans le vide »",
+    "chapo": "Salons, festivals, concerts, grands rendez-vous : l’actualité de l’événementiel. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Antonin Baudry, réalisateur : « Pour faire des films, j’ai sauté dans le vide »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/08/antonin-baudry-realisateur-pour-faire-des-films-j-ai-saute-dans-le-vide_6808395_3246.html",
+        "resume": "« Je ne serais pas arrivé là si… » Chaque semaine, « Le Monde » interroge une personnalité sur un moment décisif de son existence. Le réalisateur de « La Bataille de Gaulle » revient sur son choix d’abandonner sa carrière de diplomate.",
+        "heure": "2026-11-08T05:00:05.000Z"
+      },
+      {
+        "titre": "Lee Chang-dong, cinéaste sud-coréen : « Les gens vivent avec un sentiment de vide. C’est pour ça qu’il y a une colère qui s’exprime »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/07/lee-chang-dong-cineaste-sud-coreen-les-gens-vivent-avec-un-sentiment-de-vide-c-est-pour-ca-qu-il-y-a-une-colere-qui-s-exprime_6808264_3246.html",
+        "resume": "A l’occasion de l’arrivée sur Netflix de son nouveau film, « Possible Love », Lee Chang-dong revient sur les raisons qui l’ont amené à réaliser ce long-métrage, couronné du Grand Prix du jury à la 83ᵉ Mostra de Venise, en septembre.",
+        "heure": "2026-11-07T10:01:35.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "Le Monde"
+    ],
+    "chemin": "/evenementiel/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-finance",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "CAC 40: La Bourse de Paris se replie après la débâcle de la tech à Wall Street",
+    "chapo": "Bourse, marchés, taux, crypto et argent au quotidien : ce qui a bougé. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "CAC 40: La Bourse de Paris se replie après la débâcle de la tech à Wall Street",
+        "source": "ABC Bourse",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT09VbnZwVldzTXZHcUJHQlJWNG5YRVpxOTgzWnVmeW4tWUs3LTZaZFFwbmZYa1pvRjhZSS0zbjBna1NmUHFXY1R0QXFOV3pXYjlhMWRBbXVzUmpxaE9ERjhxRVRETDlfOWlJZGlCRWlEYV9nX2lNRUZlSGVWbW9sb3A2NzR0RXRLY0gyak1uVjJ0b3B5MmRCS0l3Y01yZExNbkU1eEhhc3lYdnpXYVNPMGU3QlIzUl9hWkE?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:21:56.000Z"
+      },
+      {
+        "titre": "Bourse en direct, Cours actions et dérivés",
+        "source": "Boursorama",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBHXzNQY1BSWHVKcnNBSEtMekZnSFZ0RjMtRWtfSGVsZFRxWEFqQTdfa2FVV25jLTVPTURLOWt5T3ZabkR6Y205VGxR?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:00:00.000Z"
+      },
+      {
+        "titre": "Cryptomonnaies : après le vol historique chez Binance, quel moyen pour conserver ses actifs en sécurité ?",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/06/cryptomonnaies-apres-le-vol-historique-chez-binance-quel-moyen-pour-conserver-ses-actifs-en-securite_6807720_1657007.html",
+        "resume": "Les détenteurs de bitcoins, ethereums et autres jetons numériques peuvent assurer la sécurité de leurs actifs par eux-mêmes, ou choisir de déléguer cette tâche à des intermédiaires. Non sans risque dans les deux cas.",
+        "heure": "2026-11-06T05:00:10.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "ABC Bourse",
+      "Boursorama",
+      "Le Monde"
+    ],
+    "chemin": "/finance/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-monde",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Monde",
+    "rubrique": "Monde",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Gaza : les images des pluies diluviennes qui inondent les camps de déplacés",
+    "chapo": "Le tour du monde de l’actualité en quelques titres. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Gaza : les images des pluies diluviennes qui inondent les camps de déplacés",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/videos/article/2026/11/08/gaza-les-images-des-pluies-diluviennes-qui-inondent-les-camps-de-deplaces_6808427_1669088.html",
+        "resume": "Des dizaines de milliers de déplacés de la bande de Gaza sont privés d’abri en raison des conséquences des fortes précipitations sur le territoire palestinien.",
+        "heure": "2026-11-08T11:41:12.000Z"
+      },
+      {
+        "titre": "La mission d'Israël en Iran n'est \"pas terminée\", prévient le ministre de la Défense",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/conflit-israel-iran/la-mission-d-israel-en-iran-n-est-pas-terminee-previent-le-ministre-de-la-defense_8273243.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Ces déclarations d'Israël Katz interviennent alors que le chef du bloc de l'opposition, Gadi Eisenkot, a été chargé de former un gouvernement, ce qui pourrait mettre fin à l'ère du Premier ministre sortant, Benyamin Nétanyahou.",
+        "heure": "2026-11-08T11:39:17.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : le pilonnage des infrastructures énergétiques ukrainiennes se poursuit ; suivez les dernières informations sur le conflit",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/08/en-direct-guerre-en-ukraine-le-pilonnage-des-infrastructures-energetiques-ukrainiennes-se-poursuit-suivez-les-dernieres-informations-sur-le-conflit_6803934_3210.html",
+        "resume": "Plus de 600 000 personnes sont privées d’électricité dans l’oblast de Dnipropetrovsk, à la suite d’une attaque russe dans la nuit. « Les hôpitaux et les infrastructures critiques fonctionnent désormais grâce à des générateurs », fait savoir l’administration militaire de ce territoire de l’est de l’Ukraine.",
+        "heure": "2026-11-08T11:26:12.000Z"
+      },
+      {
+        "titre": "K-pop, chansons d'amour et beatboxing : l'Eurovision lance sa première édition en Asie",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/musique/k-pop-chansons-d-amour-et-beatboxing-l-eurovision-lance-sa-premiere-edition-en-asie_8273135.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Du Laos à la Mongolie en passant par les Philippines, 11 pays s'affronteront à Bangkok lors du Concours Eurovision Asie de la chanson. Les finalistes ont été sélectionnés à l'issue de concours nationaux.",
+        "heure": "2026-11-08T10:52:04.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "Le Monde",
+      "franceinfo"
+    ],
+    "chemin": "/international/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-nice-cote-d-azur",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & Côte d'Azur",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Rencontres de l’avenir : Progrès technologiques ou nouvelles fractures dans la France de 2050 ?",
+    "chapo": "Ce qui se passe près de chez nous, de Nice à Monaco. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Rencontres de l'avenir : Progrès technologiques ou nouvelles fractures dans la France de 2050 ?",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/videos/video-rencontres-de-l-avenir-progres-technologiques-ou-nouvelles-fractures-dans-la-france-de-2050_VN-202611080226.html",
+        "resume": "",
+        "heure": "2026-11-08T11:49:58.000Z"
+      },
+      {
+        "titre": "Quel est le plus important entre la protection sociale ou l'efficacité de gestion publique ?",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/videos/video-quel-est-le-plus-important-entre-la-protection-sociale-ou-l-efficacite-de-gestion-publique_VN-202611080220.html",
+        "resume": "",
+        "heure": "2026-11-08T11:44:57.000Z"
+      },
+      {
+        "titre": "Près de Menton, cette princesse italienne a été réélue… sans passer par les urnes !",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/societe/insolite/pres-de-menton-cette-princesse-italienne-a-ete-reelue-sans-passer-par-les-urnes-10747075",
+        "resume": "Dans le village italien de Seborga, siège d’une principauté autoproclamée, des élections devaient se tenir le 22 novembre 2026 pour nommer le nouveau souverain. Mais faute d’autre candidat ayant répondu aux obligations, c’est la princesse en place – Nina Menegatto – qui rempilera pour sept ans ce merdi 10 novembre.",
+        "heure": "2026-11-08T11:33:05.000Z"
+      },
+      {
+        "titre": "Une bande-dessinée interroge : que serait devenue l’humanité si l’homme de Néandertal avait poursuivi son évolution ?",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/societe/histoire/une-bande-dessinee-interroge-que-serait-devenue-l-humanite-si-l-homme-de-neandertal-avait-poursuivi-son-evolution-10753298",
+        "resume": "Enquête « à l’os » et fascinante énigme relatée dans une bande-dessinée par le biais du travail de l’auteur-chercheur toulousain de référence Ludovic Slimak.",
+        "heure": "2026-11-08T11:17:11.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 : \"Je ne m'attendais pas à ce chrono\", Manon Gras surprise par sa victoire chez les femmes",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/marathon-nice-cannes-2026-je-ne-m-attendais-pas-a-ce-chrono-manon-gras-surprise-par-sa-victoire-chez-les-femmes-3446268.html",
+        "resume": "La Française a été la première femme à franchir la ligne d'arrivée de la course, ce dimanche 8 novembre. Un succès qui a étonné la jeune femme, peu habituée à cette distance.",
+        "heure": "2026-11-08T11:05:56.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "BFM Nice Côte d'Azur",
+      "Nice-Matin",
+      "France 3 Côte d'Azur"
+    ],
+    "chemin": "/nice/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-sorties",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Sorties",
+    "rubrique": "Sorties & loisirs",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Ce week-end à Cannes, 8 sorties à ne pas rater du 6 au 8 novembre : concert d’adieux, fête de la châtaigne à Antibes et croisière vers les îles de Lérins",
+    "chapo": "Que faire, où aller : sorties, spectacles, fêtes et bons plans sur la Côte d’Azur. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Ce week-end à Cannes, 8 sorties à ne pas rater du 6 au 8 novembre : concert d'adieux, fête de la châtaigne à Antibes et croisière vers les îles de Lérins",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEdxd3ExS3VuTEFpS0haQ3hUQXAzR24tb0pscm5jdHFnZUlYRkRvUTBBa00tWlp2a0pUTTZ4V296OXBWNVdXQmhHdTRtQkFzcV9meV9pbURyeE1wdWFRV25HQ191UmxhWDM4LUlhZXVMVFhna2tDM3JsTDdrUDQ0akx0MGV4RlN6VFZRd25lNzFYZjJoRm5MMEZxTnJ5ckZ5T0dqSDhNUExYaVpDTmNLdGxNTlM5RWEzYk55YWcyaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T03:22:36.000Z"
+      },
+      {
+        "titre": "Explorimages : trente ans d'aventures de Nice au pays grassois",
+        "source": "laclepublique.fr",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMlliVlRmU1FhcWZOdHZ6WFB4ZGlaZ282dDJ5WUI5cHZZQnpLblZXTHA5d3V5b0J4TnhEVTJWTEFQQUNOZldJNE83QV9UenNhY0doZFBxdE82Q0V3OGVKUktEb2tNeXMteHduTk1GRWx4Zzh1cnBWUk5HeHdGSmp2OVNFaDhPQ2pXZ21pWEUtX0I1Q3UtX3pIVw?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T18:52:33.000Z"
+      },
+      {
+        "titre": "Ce week-end dans les Alpes-Maritimes : marathon légendaire, concert d'adieux de Thiefaine et 7 autres idées sorties à ne pas manquer du 6 au 8 novembre 2026",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVDNZNlVnSGNWV0wwUEpEZmVzLTFQXzFXdERrX1ZFQlJTNjdxLW44b1hiQ1pOcGlDVWtqTkM3VGlNdTlfNEJ2NzBqVmczRXN2WW9PV3c4UzBOVFF1clphTDhoSUpCUXJsZHA0aUFCdV9mUTVMQUNwZW8zd21kS2FOMkswdlF0X2xoSUprYlFQN19VbExnQkJ5X2ZXb05TWjE4bWFZTHpONXZVdkhaSmFPN1BRQkFHRVpjZjZxXzFiSGM0Rk9iOGgydmEyNWFaNjhSbVBHd0lLYnk?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T10:02:27.000Z"
+      },
+      {
+        "titre": "Visite historique du pape Léon XIV à Monaco : comment s’y rendre ce samedi 28 mars ?",
+        "source": "https://horticulture-abadie-pyrenees.com/",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wVlI0RzN1c1ZpTk50OWdla0w4SF9USVZWVWJQUWRaUFVTLVV4ckJ1ZHM4SHdta183ci1BWng4RWM4ZFRINmdTSGVtZndGdl9QWDRiMG52ZVBZN3J4TUlIbnJCckZ1dmZVWmlsc09HM0Y?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T15:41:31.000Z"
+      },
+      {
+        "titre": "Marathon : circulation, stationnement, les perturbations prévues entre Nice et Cannes ce dimanche",
+        "source": "Radio VINCI Autoroutes",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONFFxWnhES1RfaXllNHlZN21mSkdwaUNZUTkyenRLWjhraFFUQVYxRmF2M2pEdVd5dUxTcTFxQVVEdS01VXB0WmZ6eEpMc19LSG5pTFdUR2w2bFhJYzZITzlwQzBHcDdFZHpmakhUd2dpOGpGNHBMcU9FVGFXZDZuc3JWXzVteF9JTUFfVlBZUFlYQlNweVF4b0prc05aV21NM0VLeDg3cjdlVF9qcVFEZmgyeVZKdXdLWDkyMzdRd1NyN1R1ZUV0VmM5TlhlVDlqUktHZGZIN1Z1QQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T11:30:00.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "jds.fr",
+      "laclepublique.fr",
+      "https://horticulture-abadie-pyrenees.com/",
+      "Radio VINCI Autoroutes"
+    ],
+    "chemin": "/sorties/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-sport",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Après le Stade toulousain à Rennes, le RC Vannes accueille l’UBB à Nantes, une stratégie d’exil populaire et fructueuse",
+    "chapo": "Résultats, transferts et grands moments du sport. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Après le Stade toulousain à Rennes, le RC Vannes accueille l’UBB à Nantes, une stratégie d’exil populaire et fructueuse",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/sport/article/2026/11/08/apres-le-stade-toulousain-a-rennes-le-rc-vannes-accueille-l-ubb-a-nantes-une-strategie-d-exil-populaire-et-fructueuse_6808419_3242.html",
+        "resume": "Pour la deuxième fois de la saison, le club breton de rugby délaisse son stade de la Rabine. Dimanche, il va disputer son match de championnat contre la formation girondine dans l’enceinte historique de l’équipe de football du FC Nantes.",
+        "heure": "2026-11-08T10:00:14.000Z"
+      },
+      {
+        "titre": "Tom Laperche remporte la Route du Rhum 2026 et s’offre un record",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/voile/route-du-rhum/tom-laperche-remporte-la-route-du-rhum-2026-et-s-offre-un-record_8273162.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Le skippeur de SVR-Lazartigue a rallié Pointe-à-Pitre, en Guadeloupe, dans la nuit du samedi 7 au dimanche 8 novembre, à 3h34 heure de Paris. Le navigateur de 29 ans bat d’environ 6 heures le précédent record de la course, qui appartenait à Charles Caudrelier et datait de 2022.",
+        "heure": "2026-11-08T09:23:08.000Z"
+      },
+      {
+        "titre": "L'exploit de descendre à ski 82 sommets à plus de 4 000 m",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/sports-extremes/l-exploit-de-descendre-a-ski-82-sommets-a-plus-de-4-000-m_8266217.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Au terme de 21 ans d'efforts, le guide de haute montagne Vivian Bruchez est devenu le premier à gravir puis descendre à ski la totalité des 82 sommets alpins culminant à plus de 4 000 mètres d'altitude. Sur des pentes vertigineuses parfois jamais skiées auparavant, l'alpiniste de 40 ans a achevé son aventure sur les Grandes Jorasses.",
+        "heure": "2026-11-08T09:00:02.000Z"
+      },
+      {
+        "titre": "Ligue 1 - Angers SCO - OGC Nice : les compos probables",
+        "source": "MadeInFoot",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3ZuNmxtblZkNTBXM0VqMFFTTmdfZUkxWWp6NVk0NVkzcjRxSFFIWl9jdE1SYWw5QmluT0Zfd0lYOGRwQ0VtSGlzelJUWEg0a0JqdXdsVVlnRTdQZnhFSlhzZjBfeV9DT2x5Ykt0RUk1R05oNUoteTVPWjd0QW5qYzBzNjNrWkI3WFB4U1hFMjVPZVVOLWd6ZTkyUGJOLXNmVXo2Y1dpXzlvOVVFeGc?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T07:45:00.000Z"
+      },
+      {
+        "titre": "Tout sur Angers - Nice (J10 - 2026/27)",
+        "source": "OGC Nice",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdXJmOHdfZlY4dklYMDdXeDc4M0hwWkRBMkI4QjVNTWJQVXlkWmppQVV0T2YyRU1SRnBNa2xSc1RFWW81WmhUUG5xRWtDQ3l6aDRycnVldVlmTm5faHlndFdONDd5N3NNbS1odnJKOUpFUERWMHNwMWZpbXpXRzdqWC0xVldDUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T07:41:15.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "Le Monde",
+      "franceinfo",
+      "MadeInFoot",
+      "OGC Nice"
+    ],
+    "chemin": "/sport/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-actu-tech",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "\"Le risque, c’était potentiellement l’incendie\": la rupture de la chaîne du froid et ses conséquences directes, parties émergées des cyberattaques contre les réfrigérateurs de supermarchés",
+    "chapo": "Intelligence artificielle, start-up, cybersécurité : les nouvelles du numérique. Le point du 8 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "\"Le risque, c'était potentiellement l'incendie\": la rupture de la chaîne du froid et ses conséquences directes, parties émergées des cyberattaques contre les réfrigérateurs de supermarchés",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPNzFIU2o0LVdwdk9wUWpIVWNNQS1BV29HczlLWlQ4RE9SbHBJQ0h1VWsxWnd3M3Z4bWcxQXI4MmY4Q0Fra2JlcmVsR3BQeTZjLXRBYkVLN1VLY3kzX2hDM1VMdHI3UDVWbWIxamNJY1FlNGZjN2VrTExqVnotdmxqNzREWTRJbWZoZWtIYTFrN1I4SmFmWmdMMW5PZkVjQkp2ampDUXhxMVQycFNpVmc3WEdRUHZhUHFidjdOcENJbTNxZnotRlNKdm4yd2s2TmpTZV81VVJXTTQ4OElmNlFQeng1dDV3dERNbFVmU0F1Mkp4bm5kRW9vYUpxdnZCZkM3WGJYYWE5SEZmQkNpRXRWNEpNTDRfNU5BLW55VjBjdlFkeTRsTUJuSXp2cVRDMTRaeDA5anhncVZjOF8xaUxRb1BnRVBIb2JzTXFzd1ZFb0ZqN3gtQ0hCTzRMN2RZa1FJUTJz?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T10:26:00.000Z"
+      },
+      {
+        "titre": "EmilyCC, la streameuse qui diffuse sa vie en direct sur Twitch depuis cinq ans",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/08/emilycc-la-streameuse-qui-diffuse-sa-vie-en-direct-sur-twitch-depuis-cinq-ans_6808401_4408996.html",
+        "resume": "L’Américaine de 29 ans partage son quotidien ordinaire sur la plateforme de diffusion de vidéos. Observée vingt-quatre heures sur vingt-quatre par des centaines de personnes, elle échange en permanence avec ses spectateurs, plus ou moins bienveillants.",
+        "heure": "2026-11-08T05:20:07.000Z"
+      },
+      {
+        "titre": "« J’ai un entretien ce vendredi ! C’est mon dernier espoir… » : quand la réalité de la crise envahit les réseaux sociaux",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/m-perso/article/2026/11/08/j-ai-un-entretien-ce-vendredi-c-est-mon-dernier-espoir-quand-la-realite-de-la-crise-envahit-les-reseaux-sociaux_6808389_4497916.html",
+        "resume": "Selon l’Insee, en France, le taux de chômage des moins de 25 ans a dépassé, au deuxième trimestre, les 21 %. Face à la difficulté à s’insérer dans le monde du travail, de nombreux jeunes « sous pression » trouvent, sur YouTube ou TikTok, des espaces pour s’épancher.",
+        "heure": "2026-11-08T04:00:31.000Z"
+      },
+      {
+        "titre": "Cybersécurité : comment les PME romandes font face aux attaques",
+        "source": "rts.ch",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSHdwMWluLUlRVmZwTE1UcHp2YS1WS0Vwek45WW9aNTdrTjEyZEVFTnpFYWZvSVlsRG81UHJUQWRMX19wRmQ4ZVpOcHJjWGRYRDZ6Uk5nd21mQ2JHMTdRTEtUWmUzODY1TDRNbFdzbUhiRFdjaVdVcm9qcnVfRVBEeVVUSnhqekpVa2dZaGltbFFSakI2d0JNS0t3NERpQ3lrenNsNnJoWW8yYVp3R1dHclJKRmp3TGNoTzgtRWNn?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T21:39:09.000Z"
+      },
+      {
+        "titre": "Le Puy-en-Velay : trois entrepreneurs accompagnés pendant 8 mois pour lancer leur start-up numérique",
+        "source": "L’Éveil de la Haute-Loire",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPd09PQm9GWWlFWDJTd2pKMDVCS1A0Nkp4d1pLS3JjZlRqZ2ZFYmhlV3dUU3dmR0pFbzkzanQyWFN1M2diWVhTakFOdHp4S0lienFHNW5VUmNQVjdiVFQ4akc5UG5HQlJSTUN4U3RCQXV1OUZVVWNlOFRfVU1lSWJFLU1FWl8wU1F1bEtRU2s1MXUzUGVzbEpoY0dEVFpPTWxaUzVPQjZqTWhWZUlKN29XUW0ySXhvTUlPYmpmQ2lDV3FhVWc2NWYzTkNZNFBoLWVsc0t5b0k3YnNLY056YzUzd2NsWWF6NUVQUzhlQnZMWQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T06:00:00.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "BFM",
+      "Le Monde",
+      "rts.ch",
+      "L’Éveil de la Haute-Loire"
+    ],
+    "chemin": "/tech/2026/11/08/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-08-en-actu-business",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+    "chapo": "Companies, jobs and strategy: the business news that matters. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+        "resume": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
+        "heure": "2026-11-08T11:25:32.000Z"
+      },
+      {
+        "titre": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
+        "resume": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
+        "heure": "2026-11-07T23:02:35.000Z"
+      },
+      {
+        "titre": "Democratic gains unlikely to slow economic “Texas Miracle”",
+        "source": "The Texas Tribune",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN0FFMFdYSGF2cDYzdk1ESm5HMHpSaWsxWi1VN2JUVkk3TUhSOUQ4Rnh5bHRHS21FeV9vOXR1QXVUSGJzUWdId3A3amoydlZJSkxNajhvMGlhQlUyc01yNzB5NVpWV3VZZW50Snh5SmV4d0FaT2VsY19FN3RZREtmeTJ0Qlg2ekpHZGpMTmU3Nldhdm01eWVvUUFNblc1bnM2czFWbzhn?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T11:00:00.000Z"
+      }
+    ],
+    "auteur": "Camille Rostand",
+    "sources": [
+      "BBC News",
+      "The Texas Tribune"
+    ],
+    "chemin": "/en/business/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-culture",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "What is wrong at the V&A?",
+    "chapo": "Exhibitions, museums, theatre, film and music: cultural life, from the Riviera to the world. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "What is wrong at the V&A?",
+        "source": "Country Life",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORk1JU0pIUTBwUkJwUTdXazNFWDRLT1pGa3hBZnNnUGNnVlNTTWlRQkRJaWlvLW00V3MtQTlMcE9sMmlMOUZBd3c3VWFkQVNLaEFpU3l0emRVY3VXd1F5Z1BKR1VFQmFLV2VfTFlNbUVGLW1QMjUxWWZNWkhscERFOEVSazh2ZjdOcnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T14:00:00.000Z"
+      },
+      {
+        "titre": "'Beauty and the Beast' singer Peabo Bryson dies at 75",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOGZiVUdrbzNVSXJaNXdDaHRLb1JfWGd5OGJsVVUwSGRWdzB0YW1FdXhvUFNMRE9JOHI1RnltY2R4VWMwZ2pDSjlGX1NLSm96SjBVRDIzNy1FeE5VeDlzbkp5ZGp2UGd2SHdjeUlKOXhWVWV1a194RHZkVEc2Q3plSnJxZGzSAYoBQVVfeXFMTnJfcVM5M29vQU84dnVtMVFIVDVTYmxJa1lMc3hsVlVKVGJPekM0N3Z1bTNnNEp6NHRjQmdaSlVfclFvTW45RmpBODhpR3RQYnF1YjYzYkZ6d0NnQ2lob294NlNVVnAyX3ZhNEUwbzAyNDhjbUxZZFFPX19ISUt2QUFqellnRlF6NVFn?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T05:15:01.000Z"
+      },
+      {
+        "titre": "Budapest exhibition explores Van Gogh and Gauguin's artistic excursion to Montpellier",
+        "source": "The Art Newspaper",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMV9uaHVuV0xkR3FGQlp4XzRubW5xNklJNXVSOWRRZ3YweGowLVliTFU0TUlIZGdIS0FwVnZKMXY0cnRSSGI5WWROOWZRSnh2UWhqQVY4c256VGpyWGhaYXZpWlkzcF9PY1Y2ZnRvSTF5YUtQbHFKUkczM3RjZXhuS0FDcGlHM1BPWHRpenF0ejhLVmhiWkFRd1hjVEZtUEJ6U1k3UFh1b3V0QXpKVDhIUFRjU3BVNHlLblVDRVVyLXZkeGlraUE?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T12:12:21.000Z"
+      },
+      {
+        "titre": "'Peggy Guggenheim in London: The Making of a Collector' at Royal Academy of Arts, London, United Kingdom on 21 Nov 2026–14 Mar 2027",
+        "source": "Ocula",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTZySGpRaWVWNmxpMUo0ZEVNQkdnZGk1OUFRR1RHaTlWdzI5Nm92VlJWVnlLUC1pTVp5STNYSEdmSGNQbk8wQk9fUlVLamtFVjBVaTQzVnVISG1lV21qamRVVHVCSkNOY3lxVWdqYjdtV1Z3MGRINEIzZi03OXVObjhCQkd3RWNTRHExMmlHa0RucUVaSDktM0JFQXp1S3hUaHUwQ0RQaEJRUnY2cnVMVm91UUlUZG45Z2c?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T10:49:56.000Z"
+      }
+    ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "Country Life",
+      "ABC News - Breaking News, Latest News and Videos",
+      "The Art Newspaper",
+      "Ocula"
+    ],
+    "chemin": "/en/culture/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-evenementiel",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Événementiel",
+    "rubrique": "Events",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "Monty Don bids 'final goodbye' to Gardeners' World after two decades",
+    "chapo": "Trade shows, festivals, concerts and big gatherings: the events industry today. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Monty Don bids 'final goodbye' to Gardeners' World after two decades",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c6wyrrwj9xlro?at_medium=RSS&at_campaign=rss",
+        "resume": "The head gardener on the long-running BBC TV series signed off from Longmeadow garden on Friday.",
+        "heure": "2026-11-07T10:44:38.000Z"
+      },
+      {
+        "titre": "That Luang Stupa hosts festival from 21 to 24 November",
+        "source": "ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQU80bGNwbDMzR2dGQklhV08wV0hyMVFCZnlPeWw0LWN3dC03SjR2SnFvLWhWV0g4WGMyVmwzeDk2d2ZEU00tbG5uTXVQR2V0bmhvSExEa3BUOWFidk1VZVZSUENuUjZiZXFEQWd0Q2ZsakcxU0Vwc2otM3EyTW14R0VQcjBkNFcwSWtsUEo0ZHczaVV1andTN3JfcWhFdkt4MnRJSHgxczJsamR1TXhZ?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T10:35:56.000Z"
+      },
+      {
+        "titre": "Gladiator II stuntman sues over injuries from on-set explosion",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ck9dzwd85235o?at_medium=RSS&at_campaign=rss",
+        "resume": "Edward Sarsfield says he suffered \"excruciating\" burns while filming a scene on a burning ship.",
+        "heure": "2026-11-07T01:38:49.000Z"
+      },
+      {
+        "titre": "Page 219 of Travel Industry Events News",
+        "source": "Breaking Travel News",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tN1JxTEZZOU9wM0ZOYkFjUkQwOWZxU3VLV2tRcnJqcTd3TE1DZ0hlQ3p3SWRydGZXYlNmV094TVFEZGlIV2xJWDM1RlNZV0tlSFNWNGVIeXRJaDU1Nm52c1N3ZlRBallLTnl0UHkwUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T11:39:56.000Z"
+      },
+      {
+        "titre": "Music Industry Events Calendar: Festivals, Awards & More",
+        "source": "Billboard",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTJBZDRxd19YSHplbTJIdmNMRHY1TW1RY3BmdHVzemNPb1lTWW12Z3dzd0xvelcwaXdpSTFZbjIyQXR4ZGZFMjZvWTVIYXJkaDZGTWpMZE1Ib3V1SUVqQ2dNWjBNaHAwbzYxZk1lZlhFRzZKSlhPanoxWmMzYWQ4YkF5dE0tOGpTc0ZTX2hRN0Z3UUx6?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:00:00.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "BBC News",
+      "ad-hoc-news.de",
+      "Breaking Travel News",
+      "Billboard"
+    ],
+    "chemin": "/en/events/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-finance",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "£250 a month could generate a £1,941 yearly passive income – and rocky markets can actually help!",
+    "chapo": "Stocks, markets, interest rates and crypto: what moved today. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "£250 a month could generate a £1,941 yearly passive income – and rocky markets can actually help!",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd3VEdmZob0dPcW1lU2pxWklwRVgtZGFDU0FLZ2t2Q3ExNUtqSmZ1SkVkZ1pLbzVwVGVqTGliN2lxSi1XS2dJOWdMMFZjOEkwd2ZRYmZoRXRmdmJnRmJ0a241RmpraTZ2U3Q4ZDNweXNubUVYaFd0YmhCd2hWbmljRQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T17:15:00.000Z"
+      },
+      {
+        "titre": "The Wild Week That Brought AI Investors to the Brink",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QTGx6VDBRaWVZRFRORlhLV21SUF9EaVVvMVAxa01QR0ZXTExIdi1GZ2dxWXhYVVpwUjBTbENjWkowLUpmbWsxZkhiSmhmLVhMc2dkMHhmWExBempSdmZVZWlmVDN0SzR3aE1PeDV0a2JubWJuOVRWTnhIWGVKQ28?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T23:29:00.000Z"
+      },
+      {
+        "titre": "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the Wisest Move You Can Make",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS09mUGRzT2FGdy1xdnpFMEREemFaNE5mZk9RRVZXQlZyVEQtYkJHN18wQUU3QkppYUp2cTBnYndyd3BFamxQQ3RERVU4cHdwQjlqX3l3R2R0SkwyT3A3QWhORld3c28zNXgtNWxVT1VhdENmWmwzLTMxdy1yTU9OS0E0eHVjNXpNdUJ6dkp5ZDloZThOM19sRU9tYWg0Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T15:50:00.000Z"
+      },
+      {
+        "titre": "Global markets tumble after US tech stock sell-off",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaTBVcl9vM2FHRTJrVkdBQ2dfVnRCek9FUVZfTlF0Sm0tQTRsMlpxTWduYmctcnZ5dFlsVUF3anhEME5wTlJYRV9UVzZ6bGQ3VHlQdWcwT1VybXhBNDJCam01SF9UOWV2a3NzVGdqQ3ozZnNKYlFqd0xvaE9lYVZ1eFpQNk8?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:00:57.000Z"
+      },
+      {
+        "titre": "Market Movers blog: US employment uptick puts further Fed rate hike on cards as markets recover slightly at open",
+        "source": "Investment Week",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:00:00.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Yahoo Finance UK",
+      "WSJ",
+      "Yahoo Finance",
+      "Investment Week"
+    ],
+    "chemin": "/en/finance/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-monde",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Monde",
+    "rubrique": "World",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Poland shooting: What we know about gun attack in Poland",
+    "chapo": "Around the world in a few headlines. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Poland shooting: What we know about gun attack in Poland",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VRlVVNGxZSF9nQXNSRXBVMWp1TFNPVndELWxRUE5pY25iTi01YUprSXc2Qy1ZbjV1elZmT0pyVVZGVjBWV1BBbk9ZY2ppdm1oSHdtNGJIZTJmM3c?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T11:22:17.000Z"
+      },
+      {
+        "titre": "Walsh-inspired Australia crush irate Samoa to reach World Cup final",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jWDhNejJiUjYxbXhCUDNNbFU4UnRraXp1Z2t3LUN1anc2XzFpNWZ4Y2F5bFlUUEtvV0VrYmJ3LXUzRFJEUjhUYlEtWWl2TGt1Vm5pdjVybTByTFAzLXJSYV9BcVQ1aGZ4RGM3c3RSanQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T11:11:55.000Z"
+      },
+      {
+        "titre": "US White House press secretary news, Will Dana White Take Trump's Job Offer? UFC Chief Keeps Reporters Guessing",
+        "source": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM0x5X3VvekRhaG1Mb0RESnFqU0xuQm9zbjItaE9zMXJzWjVkNmZPd1RfMV9QVDluQ2tCelI3bXdUZ0RmdkluU01ubUlKTWlXeExVWjRWQUNoYzNnajk2bV8tRkFfVmZnRDNSOWpJdUI3LUxQMzN2WkJBTjVsQzNRUHRwT2R6UEJSeGR5VWZPUGdxYnh3TU9iLTRSYlhuLWdGNzNzbDMwWWJLUEhUWDNHbTg0MUtLbjRjLWY1SnlzcW1pSG45Y0ZEb2JxV3BJUUY4QUZmeWxmdEpfNnVkUWFQdlB1cw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T09:17:54.000Z"
+      },
+      {
+        "titre": "The anti-Netanyahu: Can Gadi Eisenkot give the world a different Israel?",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTjRhaHdrWWFIaWFEMkNnUFoyZkRLNTRNSXZBNDlJT1E5d19TN2VnWHI5RVdkc05jUG8wbnNEbXViSC1TR2VyS0tGRlF2OEJnS0p1ajMtNEpuVXlic0Rqem4ybjV6dVJKc3E1a0ljRWdWUmxNMUVtWVZ3QjltZnIxTGs3S1ZEZDFqWFYwSVBkUUh4TExoS3M2N0F5Y0QzMTcwcERzT19oTmRxUHEwTDZabdIBtgFBVV95cUxNQlRPNWp2YzRJZ3JyYmFFVzVlSnEwSHBIY1NxaEtiOWJZTy1NMkFLREJGbTF5MWUtbUJhQXBOYXVPbnNJa0E4TndLTV9iMzlHdWxwTDVZXzdTTENjZ3hCOUhGWnd3WHJBN05GQVdrRWxMVGJ5SjFiYXZYcHdFUFdpWUhDbHJjMEhBZFZVUXVCR3FuS3JZeFdzSk1CZ3RQeWRqYnJ2VW9UdlpIZWNRT2M2eHpKVFNXUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T08:52:15.000Z"
+      },
+      {
+        "titre": "Trump’s shattered ‘mirror world’: American voters roundly reject president’s alternate reality",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdzUxQ09KZTdJUlBOOW9DR29EcDFMMzZpZThJckFMalgtbTJJWjlUNENmMUdPSzlzMDZjODllYmFTOG55QzhGdGE1WjhYcDFuWnpjbXhRRkgxZk0waVFpVVlvZDNWWTRRd0JRMTItVEEwSTNfcG1tZTdXYWxZNUs2UjMtMTJLc0MwQVdvdHNoMGhFN1NodmVIMFlVMGZNQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T07:02:00.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "BBC",
+      "NDTV",
+      "Al Jazeera",
+      "The Guardian"
+    ],
+    "chemin": "/en/world/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-nice-cote-d-azur",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & the Riviera",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Le Mans vs Monaco: French Ligue 1 stats & head-to-head",
+    "chapo": "What’s happening on the French Riviera, from Nice to Monaco. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Le Mans vs Monaco: French Ligue 1 stats & head-to-head",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXUGxwRGNZNVlscm5ERGhnS1NaT2tUMzZJeWhmMW83SjZpMUdYTEdmZ2ZFMTNXTmtDXzJFVG1aVGVxLXRxcDZXbm1DSW83Z0s0dzhqZWxvMmpHdDQyM0llN0VuUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T11:02:29.000Z"
+      },
+      {
+        "titre": "Monaco predicted XI v Le Mans: Folarin Balogun to drop to the bench?",
+        "source": "OneFootball",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUC1nWGpHWkFCem50LXRzSVFWalgwV2Frd0xfcWhqcjNFQ3FNUDRKUDBhMzAzaG94dE5Gd0RYVng4MzludTN1YUN3ZGN4U0xhcXRoc1NMTmVsZW5ETF9YWXpoM3VEeW9NaTRRUTNrb0ZVcHBBcG9NMmczMWgzblU5MzVYNzhkdGtZSnBPbmxadEZJYm40RHpmLWZmRFBQMUlmR0h6MUVMMUd4Qnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T09:30:25.000Z"
+      },
+      {
+        "titre": "Why Everton have new Folarin Balogun decision to make after Monaco transfer bombshell",
+        "source": "Goodison News",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcjFqYXFBeFFqLV9EQ2FmUHVObm9PWnpLTmtDTll3SHJxTkR3NnZ1eTk3WWFxbjJDNklWenVtYkV4S00yNzQyaGhPTm9haUdNeVRhcTNXZnNCck9kV0llYjF3OXlfNXpsSEo2c3djMFpfSS14RGNKRk5RS2pNLXFsbTJnZFBaV2hXME5jUGF0bldVMDNTdzhBVWVleDR0bXlfQjFObXZjOWwxbEtEaTVXdkpIbFBlcTUwc2NDcXU5VlZMdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T09:30:00.000Z"
+      },
+      {
+        "titre": "Two Americas Face to Face: Transgender Rights Restrictions and LGBTQ+ Breakthrough at the 2026 Midterms",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/two-americas-face-to-face-transgender-rights-restrictions-and-lgbtq-breakthrough-at-the-2026-midterms/",
+        "resume": "As the Trump administration imposes restrictions on transgender people, the 2026 midterms, the American midterm elections, are bringing an unprecedented number",
+        "heure": "2026-11-08T09:00:00.000Z"
+      },
+      {
+        "titre": "Sunday's Ligue 1 prediction, including Lyon vs. Brest, Rennes vs. Lille and Le Mans vs. Monaco",
+        "source": "Sports Mole",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYWNuVGkwLW9ISmlYZ2phaEVCRkttajhkRzBhdHJYZUR6U24yaHFHUzhrdi1IbUNkRVQ0c2xpZlQxOFFOaUJ1SDRFZHJLazc4YWdBNjNoeDhINkhHUWR2WE8yOWpwS3NTNlZrLXFGWW82QW9QWVdsNVQ1RTNZUDJsMmpVVDBXbWJhVmpLNWlTOXA3aUgyVUozT3F4czVIaFExTWpocjlLd3dWS29vdm9xTFZzQ1pHWG5jTDZFdTVtNVoybEJW?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T02:55:24.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "BBC",
+      "OneFootball",
+      "Goodison News",
+      "Nice Premium",
+      "Sports Mole"
+    ],
+    "chemin": "/en/riviera/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-sorties",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Sorties",
+    "rubrique": "Going out",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Lindsey Vonn Gets Candid About Being ‘Really Happy’ but Keeping Romance Private",
+    "chapo": "Where to go and what to do: outings, shows, festivals and tips on the French Riviera. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Lindsey Vonn Gets Candid About Being ‘Really Happy’ but Keeping Romance Private",
+        "source": "EntertainmentNow",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSVVXd2RJb2tPYm9CSXFqcVE2TVNTdVpFR1lBN3ZQSjlWNGNyNHQ4ZmxJOVdmTzZWNUhMVGZDME56R1FQal9CNTkzM3R0dTRWRFkyQWpIRmlFTzNtMUhiZmI0Z203T0p1d0libXNZV2tRNWpNdDlIazBHV2x5SkMtZ080amJzM1dUaERYdg?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T18:56:39.000Z"
+      },
+      {
+        "titre": "TV Monaco Celebrates Third Anniversary With New Shows, but Uncertainty Over Merger and €4 Million Budget Cut Remains",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOM3RBYXlWRUxMaUN6YTlYWVhoY1htYUluS0hyRm9zR0hhX1hPTkF6MWpyQmI4OVJTS1pic0dZT3JZMGhYdndkRzdWdXhac2h4emVzZ1lBNGtEVWFQMFZvcjdvT1hXYmNCU2thTHpQWUgybTdDZ0E2b3ZYX1lfWUgyc1Z6c3I1SHJUQUM1WGZuSElobGVJQ0FaOS04YVlRcWE2dDJ5WXhkOFRUNG9ZYTd0ZnZlb282Q2Vha0JPWlEyOS1NNGgwa0hSbzE3b3dzb0VtYTZTSmhzTDVsaDFQRmpGUWxxaHlJVHFpXzVabmVSUFdZd3BHRmc?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T18:14:39.000Z"
+      },
+      {
+        "titre": "The Festival de Cannes Supports the Launch of Premier Continent in Côte d’Ivoire",
+        "source": "Festival de Cannes",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZHVXZGduSlpQQWZSRmNUMnFTQVNCaTU3a1Z6M0N1SHdlOEJYQ1dXYmY0aFlzaUpLX09GQ2dEYTlPREVFN2FrLVRVZVdvYWVneHVHbnREcjhsZzRHMEo3cDFJT3VqZWx1OG5hV3ppWGZnNDgxcDkwdEhvUklEa1Q5M2diWHA3VndoeWdRRHZ1M0dCVFZJOVRySUNHSVpvSzlzeWw3VGxVc2NnbnByY1AxT19FLWYwUUN5SEh5R0REVlZORkoxREtmQW1mdE9MQy1ybVFV?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T10:10:58.000Z"
+      },
+      {
+        "titre": "Monaco: Poetry and Music Meet at the Théâtre des Variétés with “Quello che siamo – Parole / Note Live”",
+        "source": "Montecarlo Living",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQVZXdFlZREM4bUFsdlJ6YlF4bWgyenJ6NFJQeUxqVDZuUmR1cWhkdWluUG5FQVVPRWJJTEh6LWhxdEQ0blRKRVVGYXhaWk8wLU9Nd3AyNVUyNkdMc1FFUjdFQktMbTBQaG9mOFNyZ21ETkV2QkJMSFc4RTZoQk40NVMwNTJUWFBwNUplbjNXdlJmdk5fSzh6SEVVQkMzdWRIUXJlbTgzRU5UTklaWlVvclJyRUxlOVVscm5fWWxnY09QV2NNM2c?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T10:02:56.000Z"
+      },
+      {
+        "titre": "Cannes Lions to increase inclusion funding to €3 million, expand Festival access in 2027",
+        "source": "Social Samosa",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSkxRX0toSjVTMVZEbTVvQ2Q5REFKQ2s4VEpXMHhMSDNaTExvaXNDMUpNTXhoZWl1NUVXQlB1RkpMaE16bXdYUnRoLTE0YkR1ZExKa0haZ2k3cVIwUEdaejBfSDVSZXJ0OWJuam90WlhKUHNHelo3OTk1T1NhdnNRYk5RQ2tpbXMxY0NnSjRmVncyMlo4T2hoLU1nOWdLVkZmbG5DMzl4RnA0Z3FLZ2fSAa4BQVVfeXFMTUpMUV9LaEo1UzFWRG01b0NkOURBSkNrOFRKVzB4TEgzWkxMb2lzQzFKTU14aGVpdTVFV0JQdUZKTGhNem13WFJ0aC0xNGJEdWRMSmtIWmdpN3FSMFBHWnowX0g1UmVydDlibmpvdFpYSlBzR3paNzk5NU9TYXZzUWJOUUNraW1zMWNDZ0o0ZlZ3MjJaOE9oaC1NZzlnS1ZGZmxuQzM5eEZwNGdxS2dn?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T09:22:46.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "EntertainmentNow",
+      "Nice-Matin",
+      "Festival de Cannes",
+      "Montecarlo Living",
+      "Social Samosa"
+    ],
+    "chemin": "/en/going-out/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-sport",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Walsh-inspired Australia crush irate Samoa to reach World Cup final",
+    "chapo": "Results, transfers and the big moments in sport. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Walsh-inspired Australia crush irate Samoa to reach World Cup final",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqd0914z959do?at_medium=RSS&at_campaign=rss",
+        "resume": "Reece Walsh scores a hat-trick as Australia reach the Men's Rugby League World Cup final by overwhelming a Samoa side left fuming by a series of refereeing calls against them.",
+        "heure": "2026-11-08T11:45:42.000Z"
+      },
+      {
+        "titre": "Australia reach World Cup final after Fiji scare",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6vg02klk084o?at_medium=RSS&at_campaign=rss",
+        "resume": "Australia have reached their fifth successive Women's Rugby League World Cup final as they seek a fourth consecutive title - but they were made to work harder than anyone expected.",
+        "heure": "2026-11-08T11:43:29.000Z"
+      },
+      {
+        "titre": "OGC Nice predicted XI v Angers: Axel Witsel to drop to the bench?",
+        "source": "Get French Football News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOV9XNTRpdG1JRlBXUVFnem5Nc1ZUbk55c2hja2NqSThibWQzcjE5V1I5TDUtQ3dhR1I1aV9FVUxFaEctaDN3U0hFQjU2bDBSQVhXTkZtSE5WNUZwYkNkanFkdVNDaEcteExDSGNSMDFXeFB0MXdDdm9VSjhvX183WTFiSEp0V2l3OEVidnpHdXhUR1FDX0dmbThMWlBYY2VFUHhyaFNpYjZOU0k?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T08:38:37.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "BBC News",
+      "Get French Football News"
+    ],
+    "chemin": "/en/sport/2026/11/08/press-review/"
+  },
+  {
+    "id": "2026-11-08-en-actu-tech",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "How VCTs can help you invest in Britain’s tech start-ups",
+    "chapo": "Start-ups, cybersecurity and digital life: the latest from the tech world. Our round-up for 8 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "How VCTs can help you invest in Britain's tech start-ups",
+        "source": "MoneyWeek",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVHo2LVRZSVg1WGZ6aUVZT3M4ZVN0cjFXeWlxM3VBQmQ5WWgxVW9FZ1BxUkFpaXV5S2pxLVQ2ODRnSkE0MnRiZnBxWTA1NkhQNU9tX3FrcngteHBEUGY2LTJXVUpuc2wwcDZhQkpDWmlJdThJYkFwcXVZWE92aDlONWlPdGM3bGxybmtkR0M2VXpPSDJVYnV5ejdZaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T09:00:00.000Z"
+      },
+      {
+        "titre": "African Startup Conference, \"biggest tech event\" in Africa",
+        "source": "وكالة الأنباء الجزائرية",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYTlKQUhpSTNsSVQxSUl5cFI0NnVySG1YTEVraWRuNlMwWjl1WnhnSVQxdnIyc2R0czAyWHlZc2tvd2lvRnRJZzZ4N3I0Z3Vud1BZSm02LS1KODl2NVcwWlBHcndibGNPbkhWN0UtaWtjTzNMc2JpTmp2aGltSEtkcWRtRmI3ZHNkdlRXMzJZeEVMbE1qZEJCUEFJV3lmOHhmYWdlMHlSM0gzV3c1TlprUU9TQVlHZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T08:27:00.000Z"
+      },
+      {
+        "titre": "Pakistani AI startup RLabs wins Silicon Valley award: Who is NUST graduate Harris Ahmed?",
+        "source": "Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY182UXJSb1VzLUROVVhOQ25HOE0yNkE1M20xTk56NWZxenBkZURfZEtxUUpPeW9qZGsxblMyeXNvSzc1QjZHQmRHVnZyajVwYWRINEhXaEZuVFNaTjVDdjQ4VjdOS2dEcFNYcUhMQUNOMnBsQnZOM0VGN0R3RjQwcFFnV1hnakNLUHZMZ0FkOU1ZRmtfYUJLOUJsREVZN3B6emJ2NXBiaFI4b3gySlViYlM4TS1tMWV1Y1ZKdF9xLWVPSDBkclpMaXdwOFg5eWREMmcwWUxn?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T02:27:00.000Z"
+      },
+      {
+        "titre": "Can the Zelda remake capture the magic of the original?",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss",
+        "resume": "Nintendo has released its remake of what is considered one of the best games ever made - the BBC's Tom Gerken gives his verdict.",
+        "heure": "2026-11-08T00:37:45.000Z"
+      },
+      {
+        "titre": "Oxford website outages raises cybersecurity concerns",
+        "source": "The Oxford Student",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV2loeUJFMnU2RzJ3Nko4N0VmN1lGbnp1cVd2SlA5RFBYT2x1UkczZ3AtWEVwTWFZLU1KSGdmZXViVFNNZVBPSHI5N3UxMG5ubWY4b2RvUWx5eExnV3d0cGhUNGlYZVNNYk5EaDJWMndvQTg1OUFCUk1SU0luNzExRkZmQjhVaWJBdDhkbDY4Q1dIMVQ3TktYWmEwNDJyU3c?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T21:43:23.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "MoneyWeek",
+      "وكالة الأنباء الجزائرية",
+      "Gulf News",
+      "BBC News",
+      "The Oxford Student"
+    ],
+    "chemin": "/en/tech/2026/11/08/press-review/"
+  },
+  {
     "id": "2026-11-07-actu-business",
     "lang": "fr",
     "date": "2026-11-07",
