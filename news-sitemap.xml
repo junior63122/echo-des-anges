@@ -112,20 +112,4 @@
       <news:title>Agnès Costa, la sœur qui porte Fragonard jusqu’à son centenaire</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://echodesanges.fr/nice/2026/11/06/agression-a-l-ecole-clement-roassal-les-enseignants-en-greve/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-06T12:20:00Z</news:publication_date>
-      <news:title>Agression à l’école Clément-Roassal : les enseignants en grève, la mère d’élève en détention</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/nice/2026/11/06/audit-des-finances-de-nice-eric-ciotti-charge-la-gestion-est/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-06T12:30:00Z</news:publication_date>
-      <news:title>Audit des finances de Nice : Éric Ciotti charge la gestion Estrosi, qui conteste les chiffres</news:title>
-    </news:news>
-  </url>
 </urlset>
