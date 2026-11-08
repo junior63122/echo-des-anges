@@ -172,11 +172,17 @@
   function figure(img, cls) {
     if (!img) return "";
     const credit = img.href ? `<a href="${esc(img.href)}" target="_blank" rel="noopener">${esc(img.credit)}</a>` : esc(img.credit);
-    return `<figure class="fig ${cls || ""}"><img src="${esc(img.src)}" alt="${esc(img.legende)}" loading="lazy" decoding="async">
+    return `<figure class="fig ${cls || ""}"><img ${imgAttr(img.src)} alt="${esc(img.legende)}" loading="lazy" decoding="async">
       <figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${credit}</span></figcaption></figure>`;
   }
+  // Images WebP générées à la publication (valeur remplacée par preparer-site.mjs).
+  const WEBP = "__WEBP__" === true;
+  const imgAttr = (src, large = 760) => {
+    const m = WEBP && String(src).match(/^(\/img\/.+?)\.(jpe?g|png)$/i);
+    return m && !/(logo|icon|og-)/i.test(m[1]) ? `src="${esc(m[1])}.webp" srcset="${esc(m[1])}-800.webp 800w, ${esc(m[1])}.webp 1280w" sizes="(max-width: 760px) 100vw, ${large}px"` : `src="${esc(src)}"`;
+  };
   const EMBLEME = `<svg viewBox="0 0 48 40" aria-hidden="true"><path d="M4 30 C14 28 22 22 26 8" /><path d="M10 33 C21 31 30 24 34 10" /><path d="M17 36 C28 34 38 27 44 14" /></svg>`;
-  const thumb = (img, cls) => (img ? `<div class="thumb ${cls || ""}"><img src="${esc(img.src)}" alt="${esc(img.legende)}" loading="lazy" decoding="async"></div>` : "");
+  const thumb = (img, cls) => (img ? `<div class="thumb ${cls || ""}"><img ${imgAttr(img.src, /lead-img/.test(cls || "") ? 760 : 420)} alt="${esc(img.legende)}" ${/lead-img/.test(cls || "") ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></div>` : "");
   // Dans les grilles, un article sans photo garde un emplacement de même format, pour que tout reste aligné.
   const vignette = (a, cls) => thumb(imageFor(a), cls) || `<div class="thumb noimg ${cls || ""}" aria-hidden="true">${EMBLEME}</div>`;
 
@@ -260,7 +266,7 @@
       : (lead.liens || []).slice(1, 5).map((l, i) => ({ titre: l.titre, source: l.source, href: artLink(lead, i + 1) }));
     const leadHref = lead.type === "article" ? artLink(lead) : artLink(lead, lead.liens ? 0 : null);
     const featureHtml = (a, badge) => `<article class="feature">
-        ${a.type === "article" ? `<a href="${artLink(a)}" tabindex="-1">${thumb(imageFor(a), "portrait")}</a>` : ""}
+        ${a.type === "article" ? `<a href="${artLink(a)}" tabindex="-1" aria-hidden="true">${thumb(imageFor(a), "portrait")}</a>` : ""}
         <span>${badge ? `<span class="badge">${esc(badge)}</span>` : `<span class="kicker">${kickerHtml(a)}</span>`}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p>
@@ -277,7 +283,7 @@
             <div>
               <p class="chapo">${esc(!lead.redige && lead.liens && lead.liens[0].resume ? lead.liens[0].resume : lead.chapo)}</p>
               <p class="byline">${esc(T.by)} ${esc(lead.auteur)} ${SEP}<span class="when">${esc(quand(lead))}</span></p>
-              ${imageFor(lead) ? `<a href="${leadHref}" tabindex="-1">${thumb(imageFor(lead), "lead-img")}</a>` : `<div class="wave" role="presentation"></div>`}
+              ${imageFor(lead) ? `<a href="${leadHref}" tabindex="-1" aria-hidden="true">${thumb(imageFor(lead), "lead-img")}</a>` : `<div class="wave" role="presentation"></div>`}
             </div>
             ${leadAlso.length ? `<ul class="also">${leadAlso.map((l) => `<li><a href="${l.href}">${esc(l.titre)}</a><span class="src">${esc(l.source)}</span></li>`).join("")}</ul>` : ""}
           </div>
@@ -396,7 +402,7 @@
     document.title = `${secName(key)} | L'Écho des Anges`;
     const list = visibles().filter((a) => a.section === key).sort((x, y) => (y.heure || y.date).localeCompare(x.heure || x.date));
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(secName(key))}</h1></div>
-      <div class="list">${list.length ? list.map((a) => `<article class="list-item">
+      <div class="list"><h2 class="sr-only">${lang === "en" ? "Latest articles" : "Derniers articles"}</h2>${list.length ? list.map((a) => `<article class="list-item">
         <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p>
@@ -475,6 +481,14 @@
     const initial = premier; premier = false;
     // Pages publiées uniquement en statique (fiches sujets, liste complète) : rechargement complet.
     if (STATIQUES.test(path)) { if (!initial) location.reload(); return; }
+    // Page déjà rendue côté serveur : on la garde telle quelle (affichage immédiat, rien à télécharger).
+    if (initial && app.dataset.statique) {
+      const seg = path.replace(/^\/en(?=\/)/, "").split("/")[1] || "";
+      const fr = lang === "en" ? Object.keys(SLUG_EN).find((k) => SLUG_EN[k] === seg) : seg;
+      markNav(seg === "archives" ? "archives" : FROM_SLUG[fr] ? fr : null);
+      return;
+    }
+    if (!articles.length) { location.reload(); return; } // données pas encore chargées : chargement classique
     const p = path.replace(/^\/en(?=\/)/, "");
     const q = new URLSearchParams(location.search);
     if (p === "/" || p === "/index.html/") return renderHome();
@@ -493,7 +507,7 @@
     if (a) {
       const f = location.hash.match(/^#info-(\d+)$/);
       // Le texte intégral n'est pas dans l'index léger : on le charge, la page statique reste affichée en attendant.
-      if (!a.corps && a.type !== "revue") return chargerComplet().then(() => { if (decodeURIComponent(location.pathname).replace(/\/?$/, "/") === path) renderArticle(a, f ? +f[1] : null); });
+      if (!a.corps && (a.type !== "revue" || a.redige)) return chargerComplet().then(() => { if (decodeURIComponent(location.pathname).replace(/\/?$/, "/") === path) renderArticle(a, f ? +f[1] : null); });
       return renderArticle(a, f ? +f[1] : null);
     }
     if (initial && app.dataset.statique) return; // page introuvable servie telle quelle
@@ -501,6 +515,7 @@
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.notFound)}</h1></div>`;
   }
   function navigate(url) {
+    if (!articles.length) { location.href = url; return; }
     history.pushState(null, "", url);
     route();
     if (!/#/.test(url)) window.scrollTo(0, 0);
@@ -516,6 +531,8 @@
   document.querySelector(".langs").addEventListener("click", (e) => {
     const b = e.target.closest("button"); if (!b || b.dataset.lang === lang) return;
     const cible = b.dataset.lang;
+    const alt = document.querySelector(`link[rel="alternate"][hreflang="${cible}"]`);
+    if (!articles.length) { location.href = alt ? new URL(alt.href).pathname + location.search : homeLink(cible); return; }
     let path = location.pathname; if (!path.endsWith("/")) path += "/";
     const p = path.replace(/^\/en(?=\/)/, "");
     const current = articles.find((x) => x.chemin === path);
@@ -578,10 +595,16 @@
       for (const a of articles) { const f = parId.get(a.id); if (f) { a.corps = f.corps; a.liens = f.liens; } }
     }).catch(() => {}));
   }
-  Promise.all([
+  const chargerIndex = () => Promise.all([
     fetch("/articles-index.json" + v).then((r) => (r.ok ? r.json() : fetch("/articles.json" + v).then((x) => x.json()))),
     fetch("/img/stock/credits.json" + v).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
-  ])
-    .then(([data, credits]) => { articles = data; photos = credits || {}; route(); })
-    .catch(() => { app.innerHTML = `<p class="loading">${esc(T.error)}</p>`; });
+  ]).then(([data, credits]) => { articles = data; photos = credits || {}; });
+  if (app.dataset.statique) {
+    // Page statique : affichée tout de suite, l'index est chargé ensuite pour une navigation instantanée.
+    route();
+    const plusTard = window.requestIdleCallback || ((f) => setTimeout(f, 1500));
+    plusTard(() => chargerIndex().catch(() => {}), { timeout: 4000 });
+  } else {
+    chargerIndex().then(route).catch(() => { app.innerHTML = `<p class="loading">${esc(T.error)}</p>`; });
+  }
 })();
