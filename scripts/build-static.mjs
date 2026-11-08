@@ -489,6 +489,7 @@ function pageRubrique(cle, lang) {
 <main id="contenu">
 <div class="rubrique-head"><h1>${esc(s[lang])}</h1><p class="rubrique-chapo">${esc(desc)}</p></div>
 <div class="list">
+<h2 class="sr-only">${lang === "en" ? "Latest articles" : "Derniers articles"}</h2>
 ${recents.length ? listeArticles(recents, lang) : ""}
 ${archives.length ? `<h2 class="year">${lang === "en" ? "From the archives" : "Dans nos archives"}</h2>\n${listeArticles(archives, lang)}` : ""}
 </div>
