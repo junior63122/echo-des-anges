@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Sun, 08 Nov 2026 11:57:55 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 12:11:24 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Nice et la Côte d’Azur : les faits marquants de la semaine du 2 au 8 novembre</title>
+    <link>https://echodesanges.fr/nice/2026/11/08/hebdo-nice-cote-d-azur/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/nice/2026/11/08/hebdo-nice-cote-d-azur/</guid>
+    <pubDate>Sun, 08 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Nice &amp; Côte d'Azur</category>
+    <description>39 informations publiées par 12 médias en sept jours. Au programme : « Marathon Nice-Cannes 2026 : "Je ne m’attendais pas à ce chrono", Manon Gras…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-2.jpg" medium="image"/>
+  </item>
   <item>
     <title>Marchés de Noël 2026 : les dates à Nice, Cannes et Monaco</title>
     <link>https://echodesanges.fr/sorties/2026/11/07/marches-de-noel-2026-nice-cannes-monaco-dates/</link>
@@ -434,15 +443,6 @@
     <pubDate>Fri, 27 Sep 2024 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Installée au port de l’Anse de la Réserve, la station alimente des bateaux électriques à hydrogène. Le projet est porté par Chloé Zaied, également à la…</description>
-  </item>
-  <item>
-    <title>À La Farlède, Promega change de statut et de direction</title>
-    <link>https://echodesanges.fr/economie/2024/05/15/promega-la-farlede-radioprotection/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2024/05/15/promega-la-farlede-radioprotection/</guid>
-    <pubDate>Wed, 15 May 2024 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Le fabricant varois de vêtements de radioprotection devient une société par actions simplifiée. Tiffany Zizard est nommée directrice générale aux côtés…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/promega-la-farlede-radioprotection.jpg" medium="image"/>
   </item>
 </channel>
 </rss>

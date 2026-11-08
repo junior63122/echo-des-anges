@@ -1,5 +1,331 @@
 [
   {
+    "id": "2026-11-08-en-hebdo-nice-cote-d-azur",
+    "lang": "en",
+    "date": "2026-11-08",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "The week",
+    "emoji": "🌴",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Lucas Giordano",
+    "titre": "Nice and the French Riviera: the week’s main stories, 2 to 8 November",
+    "chapo": "15 stories from 9 news outlets over seven days. In this round-up: “Isola 2000 covered in snow, a look back in pictures at the season’s first snowfalls”, “Monaco predicted XI v Le Mans: Folarin Balogun to drop to the bench?” and “Sunday’s Ligue 1 prediction, including Lyon vs. Brest, Rennes vs. Lille and Le Mans vs. Monaco”.",
+    "corps": [
+      "From 2 November to 8 November, our newsroom followed the news in Nice and on the French Riviera through reporting by Nice Premium, Riviera Radio, OneFootball, Goodison News, Sports Mole and BBC and others. Here are the stories that marked the week.",
+      "Leading the week, “Isola 2000 covered in snow, a look back in pictures at the season’s first snowfalls”, Nice Premium reported on Friday. From the article: “The first snowfalls of the 2026-2027 season have covered the peaks of the Southern Alps” The story was also covered by Riviera Radio.",
+      "Another major story: “Monaco predicted XI v Le Mans: Folarin Balogun to drop to the bench?”, OneFootball reported on Sunday. The story was also covered by Goodison News.",
+      "Elsewhere, “Sunday’s Ligue 1 prediction, including Lyon vs. Brest, Rennes vs. Lille and Le Mans vs. Monaco”, Sports Mole reported on Sunday. The story was also covered by BBC.",
+      "Meanwhile, “This French Riviera Retreat Just Got a Serene Makeover. Here’s a Look Inside”, Robb Report reported on Saturday. The story was also covered by Financial Times.",
+      "Also this week, “Demonstration on Saturday, November 7 in Nice: between 2,300 and 5,000 people mobilized”, Nice Premium reported on Saturday. It added: “Social protest did not weaken in the streets of Nice this Saturday”",
+      "Worth noting, “Angers SCO”, Nice Premium reported on Saturday. In its words: “After their large victory against Rennes, OGC Nice travels to Angers this Sunday”",
+      "Finally, “How and Where to Watch Le Mans vs. AS Monaco LIVE on beIN SPORTS”, beIN SPORTS reported on Sunday.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "Nice Premium",
+      "Riviera Radio",
+      "OneFootball",
+      "Goodison News",
+      "Sports Mole",
+      "BBC",
+      "Robb Report",
+      "Financial Times",
+      "beIN SPORTS"
+    ],
+    "liens": [
+      {
+        "titre": "Isola 2000 covered in snow, a look back in pictures at the season’s first snowfalls",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/isola-2000-covered-in-snow-a-look-back-in-pictures-at-the-season-s-first-snowfalls/",
+        "resume": "The first snowfalls of the 2026-2027 season have covered the peaks of the Southern Alps",
+        "heure": "2026-11-06T10:28:54.000Z"
+      },
+      {
+        "titre": "Nearly 30 cm of snow falls at Isola 2000 as French Riviera ski resorts prepare to open",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc0l6Q3ZEYkRXaGFZcWFrUkZIcU5yV09LSVVseUh5Y0dZdkRXTzZUcm9aUXNTeUpmNmFxTU9VZm5kRTE4ODV5Mk5keHVGdzVvUEt2dGVMZklOTmtpZnFleDhQOE0xcGJjbkVHWWhKQzcydXFYR0dlbWtpNmdNV3RacHVxOVZfUkxDMjllLVJmQUZneVQzQU4zbXlTTkFiaDJLSlkwZzJ2a1E0VU1KOUJ2UU93RG4xZEQxeXFJQXhQOURweUphOEE?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T14:07:17.000Z"
+      },
+      {
+        "titre": "Monaco predicted XI v Le Mans: Folarin Balogun to drop to the bench?",
+        "source": "OneFootball",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUC1nWGpHWkFCem50LXRzSVFWalgwV2Frd0xfcWhqcjNFQ3FNUDRKUDBhMzAzaG94dE5Gd0RYVng4MzludTN1YUN3ZGN4U0xhcXRoc1NMTmVsZW5ETF9YWXpoM3VEeW9NaTRRUTNrb0ZVcHBBcG9NMmczMWgzblU5MzVYNzhkdGtZSnBPbmxadEZJYm40RHpmLWZmRFBQMUlmR0h6MUVMMUd4Qnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T09:30:25.000Z"
+      },
+      {
+        "titre": "Why Everton have new Folarin Balogun decision to make after Monaco transfer bombshell",
+        "source": "Goodison News",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcjFqYXFBeFFqLV9EQ2FmUHVObm9PWnpLTmtDTll3SHJxTkR3NnZ1eTk3WWFxbjJDNklWenVtYkV4S00yNzQyaGhPTm9haUdNeVRhcTNXZnNCck9kV0llYjF3OXlfNXpsSEo2c3djMFpfSS14RGNKRk5RS2pNLXFsbTJnZFBaV2hXME5jUGF0bldVMDNTdzhBVWVleDR0bXlfQjFObXZjOWwxbEtEaTVXdkpIbFBlcTUwc2NDcXU5VlZMdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T09:30:00.000Z"
+      },
+      {
+        "titre": "Sunday's Ligue 1 prediction, including Lyon vs. Brest, Rennes vs. Lille and Le Mans vs. Monaco",
+        "source": "Sports Mole",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYWNuVGkwLW9ISmlYZ2phaEVCRkttajhkRzBhdHJYZUR6U24yaHFHUzhrdi1IbUNkRVQ0c2xpZlQxOFFOaUJ1SDRFZHJLazc4YWdBNjNoeDhINkhHUWR2WE8yOWpwS3NTNlZrLXFGWW82QW9QWVdsNVQ1RTNZUDJsMmpVVDBXbWJhVmpLNWlTOXA3aUgyVUozT3F4czVIaFExTWpocjlLd3dWS29vdm9xTFZzQ1pHWG5jTDZFdTVtNVoybEJW?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T02:55:24.000Z"
+      },
+      {
+        "titre": "Le Mans vs Monaco: French Ligue 1 stats & head-to-head",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXUGxwRGNZNVlscm5ERGhnS1NaT2tUMzZJeWhmMW83SjZpMUdYTEdmZ2ZFMTNXTmtDXzJFVG1aVGVxLXRxcDZXbm1DSW83Z0s0dzhqZWxvMmpHdDQyM0llN0VuUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T03:16:21.000Z"
+      },
+      {
+        "titre": "Monaco vs Nordsjælland: UEFA Conference League stats & head-to-head",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CSnR0ZGQtdGh1SEY1SmxBU3dSZEF0OXAyR2NwZFNodE1JMFl0VTJfNXBYVEhFNXg1bk8yOWM4U21KeFJWOTJVd0FXR0N6WVFBQXlOd2NRUjc5LTBaVTNHdDFUMA?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T09:43:04.000Z"
+      },
+      {
+        "titre": "Monaco vs Nordsjælland: UEFA Conference League stats & head-to-head",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuamhYQVhRazllZTVsR1RvRGlMVWtQTkEtUldzSFgwbzFRQklya2hseVpZczhUbWhVOVNyYXJEZVplMllldGU1SGpUeUgxUGxHRDhDQVhKbDg4UjZZdkIwamJZQ3JkQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T08:00:00.000Z"
+      },
+      {
+        "titre": "This French Riviera Retreat Just Got a Serene Makeover. Here’s a Look Inside",
+        "source": "Robb Report",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQei1DS2twbjY1aTZBWk9aNkpjNnNEMy1HMWloOUQweWZ6NERnNXhzZW5FbWh3NlRZZ3hFUTh1T2Zsanltc3dBWkE4UER6c09pWXg3bUNjRzNsN1g3dU52SS1Na09aRjhkT2Q4ejE4WnRCSldEMl9HSHZlcXU4VlB5VTl3azRFZnlGSUJFTXIwQVg4QktfcGJ0Mg?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T22:00:36.000Z"
+      },
+      {
+        "titre": "To the French Riviera — with Monet and Matisse",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORXhzWkJwbmFzcG9fWE5PRS1lTEJ5WndkQ2VuYzk3V0xJQWNTZ001Ylk4MWJoaHA4THdPcHZPaVJvX0J6dUlTbzloUHJTdUVVcVo5dmtkN3ZUb3lyVFFCRGhFTFZXUW50ZWotZVF1R0V6X1BXUTlyejczU0Q4eno3S1lXa3g?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T05:01:12.000Z"
+      },
+      {
+        "titre": "Demonstration on Saturday, November 7 in Nice: between 2,300 and 5,000 people mobilized",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/demonstration-on-saturday-november-7-in-nice-between-2300-and-5000-people-mobilized/",
+        "resume": "Social protest did not weaken in the streets of Nice this Saturday",
+        "heure": "2026-11-07T17:57:55.000Z"
+      },
+      {
+        "titre": "Event: in Nice the route for this Saturday, November 7 will resume the one from last week",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/event-in-nice-the-route-for-this-saturday-november-7-will-resume-the-one-from-last-week/",
+        "resume": "Two days after the gathering that brought together several thousand people in the streets of Nice, the unions are calling for a new day of mobilization this Sat",
+        "heure": "2026-11-06T13:51:53.000Z"
+      },
+      {
+        "titre": "What to do in Nice on the weekend of November 6, 7 and 8, 2026?",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/what-to-do-in-nice-on-the-weekend-of-november-6-7-and-8-2026/",
+        "resume": "Don't know what to do on the weekend of November 6, 7 and 8? Whether you're a fan of cinema, music, theater or simply discoveries, the city of Nice offers you a",
+        "heure": "2026-11-06T09:51:18.000Z"
+      },
+      {
+        "titre": "Angers SCO",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/angers-sco-ogc-nice-eagles-in-full-confidence/",
+        "resume": "After their large victory against Rennes, OGC Nice travels to Angers this Sunday",
+        "heure": "2026-11-07T11:45:00.000Z"
+      },
+      {
+        "titre": "How and Where to Watch Le Mans vs. AS Monaco LIVE on beIN SPORTS",
+        "source": "beIN SPORTS",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNlI1VDFGbWwyR3RCZmt0OFoxYVR4QlljVDNkRnN5bUlJZHNOVnlXM1B6OGtRNzJuc3pXTVh4LU16dzQydmNOTjRXZmR0R2xNcFFNeWpSNDZHYlBhZkliM3hVWmNZVUp2bm43Z3dJbE9FeDJDVmFzMVJ1STlCNjVVQm1BMnZLV3RxMWczbXh6VkFxOFpBYVlZWG1HRXdweUdSNU9pQ0xONzAxbUNITlZrNEF1SFprSTBrV3I1MVFQamlnc3RGTENZdjVrNA?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T23:34:01.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/en/riviera/2026/11/08/hebdo-nice-cote-d-azur/"
+  },
+  {
+    "id": "2026-11-08-hebdo-nice-cote-d-azur",
+    "lang": "fr",
+    "date": "2026-11-08",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "La semaine",
+    "emoji": "🌴",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Lucas Giordano",
+    "titre": "Nice et la Côte d’Azur : les faits marquants de la semaine du 2 au 8 novembre",
+    "chapo": "39 informations publiées par 12 médias en sept jours. Au programme : « Marathon Nice-Cannes 2026 : \"Je ne m’attendais pas à ce chrono\", Manon Gras surprise par sa victoire chez les femmes », « « Acte IV » de la mobilisation contre la vie chère : 50 interpellations après la manifestation à Nice » et « Attaque dans une école maternelle à Nice : \"tout le monde est choqué\", après l’agression de deux enseignantes, une grève est organisée ».",
+    "corps": [
+      "Du 2 novembre au 8 novembre, la rédaction a suivi l’actualité de Nice et de la Côte d’Azur à travers les publications de France 3 Côte d’Azur, Nice-Matin, ici Azur, France 3 Régions, Europe Infos et u-Trail notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « Marathon Nice-Cannes 2026 : \"Je ne m’attendais pas à ce chrono\", Manon Gras surprise par sa victoire chez les femmes », titrait France 3 Côte d’Azur dimanche. Le média précise : « La Française a été la première femme à franchir la ligne d’arrivée de la course, ce dimanche 8 novembre. » Le sujet a également été traité par France 3 Régions, Nice-Matin, Europe Infos, u-Trail, Météocity, Actu.fr, RCF, ici Azur, ici.fr et BFM.",
+      "Autre sujet marquant, « « Acte IV » de la mobilisation contre la vie chère : 50 interpellations après la manifestation à Nice », titrait Nice-Matin samedi. On peut y lire : « La manifestation déclarée par les organisations syndicales ce samedi après-midi s’est déroulée dans un climat globalement calme, malgré des slogans et propos inacceptables à l’encontre des forces de police. » Le sujet a également été traité par ici Azur et France 3 Côte d’Azur.",
+      "Dans un autre registre, « Attaque dans une école maternelle à Nice : \"tout le monde est choqué\", après l’agression de deux enseignantes, une grève est organisée », titrait France 3 Côte d’Azur vendredi. Extrait : « Plusieurs jours après l’agression de la directrice et d’une enseignante de l’école maternelle Clément-Roassal à Nice, les personnels du groupe scolaire se mettent en grève ce vendredi 6 novembre 2026. » Le sujet a également été traité par ici Azur.",
+      "Par ailleurs, « Les Rencontres de l’Avenir : une crise sociale qui persiste en France », titrait BFM Nice Côte d’Azur samedi. Extrait : « Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. »",
+      "Toujours cette semaine, « Près de Menton, cette princesse italienne a été réélue… sans passer par les urnes ! », titrait Nice-Matin dimanche. Le média précise : « Dans le village italien de Seborga, siège d’une principauté autoproclamée, des élections devaient se tenir le 22 novembre 2026 pour nommer le nouveau souverain. »",
+      "À noter également, « Travaux, glissières de sécurité, rénovation de chaussées... Attention si vous circulez cette semaine dans le Var il y a des changements dès ce lundi soir », titrait Nice-Matin dimanche. Extrait : « De nombreux chantiers auront lieu à partir du lundi 9 novembre sur le réseau secondaire du Var. »",
+      "Enfin, « ENTRETIEN. \"Je ne prends pas à la légère l’idée d’un second tour entre M. Mélenchon et Mme Le Pen.\" Pour Bruno Retailleau, une primaire de la droite et du centre devient urgente », titrait France 3 Côte d’Azur samedi. Le média précise : « À l’occasion de sa venue à Saint-Raphaël (Var) pour les Rencontres de l’avenir, Bruno Retailleau nous a accordé un entretien, à découvrir dans Dimanche en Politique. »",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "France 3 Côte d'Azur",
+      "Nice-Matin",
+      "ici Azur",
+      "France 3 Régions",
+      "Europe Infos",
+      "u-Trail",
+      "Météocity",
+      "Actu.fr",
+      "RCF",
+      "ici.fr",
+      "BFM",
+      "BFM Nice Côte d'Azur"
+    ],
+    "liens": [
+      {
+        "titre": "Marathon Nice-Cannes 2026 : \"Je ne m'attendais pas à ce chrono\", Manon Gras surprise par sa victoire chez les femmes",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/marathon-nice-cannes-2026-je-ne-m-attendais-pas-a-ce-chrono-manon-gras-surprise-par-sa-victoire-chez-les-femmes-3446268.html",
+        "resume": "La Française a été la première femme à franchir la ligne d'arrivée de la course, ce dimanche 8 novembre. Un succès qui a étonné la jeune femme, peu habituée à cette distance.",
+        "heure": "2026-11-08T11:05:56.000Z"
+      },
+      {
+        "titre": "Classement Marathon Nice-Cannes 2026 : l'Éthiopien Lemi Gerema remporte la course haut la main, une Française s'impose chez les femmes",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/classement-marathon-nice-cannes-2026-l-ethiopien-lemi-geremala-remporte-la-course-haut-la-main-une-francaise-s-impose-chez-les-femmes-3446169.html",
+        "resume": "Le coureur éthiopien s'est imposé en 2h13'27, ce dimanche 8 novembre lors de la 18e édition du marathon Nice-Cannes. Il devance Abdisa Saketa. Le premier Français, Julien Gueydon, termine 3ᵉ, tandis que chez les femmes, la première coureuse à avoir atteint la Croisette est aussi une Française, Manon Gras.",
+        "heure": "2026-11-08T10:14:08.000Z"
+      },
+      {
+        "titre": "L’Éthiopien Lemi Gerema remporte le marathon des Alpes-Maritimes, le record de l’épreuve n’est pas tombé",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/course-pedestre/l-ethiopien-lemi-gerema-remporte-le-marathon-des-alpes-maritimes-le-record-de-l-epreuve-n-est-pas-tombe-10755410",
+        "resume": "Ce dimanche 8 novembre 2026, l’Éthiopien Lemi Gerema a remporté la 18e édition du marathon des Alpes-Maritimes en bouclant les 42km195 reliant Nice à Cannes en 2h13’27’’.",
+        "heure": "2026-11-08T09:35:54.000Z"
+      },
+      {
+        "titre": "Les Kenyans favoris, le retour des Éthiopiens... Qui sont les favoris de ce 18e marathon des Alpes-Maritimes ce dimanche 8 novembre ?",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/course-pedestre/les-kenyans-favoris-le-retour-des-ethiopiens-qui-sont-les-favoris-de-ce-18e-marathon-des-alpes-maritimes-ce-dimanche-8-novembre-10754752",
+        "resume": "Entre quête de performance, retour des Éthiopiens et parcours de résilience, cette 18ᵉ édition du marathon des Alpes-Maritimes s’annonce comme une nouvelle célébration du dépassement de soi. 25 000 coureurs s’apprêtent à longer le littoral azuréen….",
+        "heure": "2026-11-07T11:00:00.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 : Promenade des Anglais, Croisette, bord de mer… Ce qu'il faut savoir pour circuler",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/marathon-nice-cannes-2026-promenade-des-anglais-croisette-bord-de-mer-ce-qu-il-faut-savoir-pour-circuler-3445095.html",
+        "resume": "Le marathon des Alpes-Maritimes Nice-Cannes se déroule ce dimanche 8 novembre 2026. Plusieurs routes seront fermées à la circulation pour permettre le passage des coureurs dans le département. Voici les secteurs à éviter et les déviations prévues.",
+        "heure": "2026-11-06T16:51:54.000Z"
+      },
+      {
+        "titre": "Eric Ciotti dévoile un audit de la ville de Nice et de la métropole Nice côte d'azur",
+        "source": "ici Azur",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/eric-ciotti-devoile-un-audit-de-la-ville-de-nice-et-de-la-metropole-nice-cote-d-azur-5123800?at_medium=lien_RSS&at_locale=49",
+        "resume": "L'audit financier du début de mandat du maire de Nice Éric Ciotti a été dévoilé hier, les conclusions de ce dossier indiquent les efforts de gestion à appliquer d'ici à 2032 pour reconstituer l'épargne et stabiliser la dette.",
+        "heure": "2026-11-05T21:06:23.000Z"
+      },
+      {
+        "titre": "Grève du 5 novembre : 5.000 manifestants à Nice et 400 à Cannes, messages de colère dans un climat bon enfant",
+        "source": "ici Azur",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/greve-du-5-novembre-5000-manifestants-a-nice-et-400-a-cannes-6740708?at_medium=lien_RSS&at_locale=49",
+        "resume": "\"Augmentez les salaires !\" Des milliers de personnes ont manifesté dans les rues de Cannes et de Nice pour la hausse des salaires à l'appel de nombreux syndicats. Les lycéens et les étudiants se sont joints aux cortèges.",
+        "heure": "2026-11-05T12:14:09.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 en direct : sur quelle chaîne et à quelle heure voir la 18e édition de la course ?",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/marathon-nice-cannes-2026-en-direct-sur-quelle-chaine-et-a-quelle-heure-voir-la-18e-edition-de-la-course-3441738.html",
+        "resume": "Deuxième plus grand marathon de France en nombre de participants, le Marathon des Alpes-Maritimes Nice-Cannes réunit 25 000 coureurs. ICI Provence-Alpes-Côte d’Azur, diffuseur officiel, propose, ce dimanche 8 novembre, plus de trois heures de direct sur ses antennes télé et numériques.",
+        "heure": "2026-11-04T09:56:12.000Z"
+      },
+      {
+        "titre": "Classement Marathon Nice-Cannes 2026 : l'Éthiopien Lemi Gerema remporte la course haut la main, une Française s'impose chez les femmes",
+        "source": "France 3 Régions",
+        "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPUTd6MjMzVHpCNk9LZ216MVVMeHd4d0NxQWRJR1Bybm8yczM4dEFvb2tXeUFKV3E3VHpxSkxtMFBPVGw0QUJvV0hST2V4dnVJcnFhVi1wR000b0o1T2hLdTF6TWhwT1lCaU02VDhtV191SldjOF9uakxKZUtFTGhweFUtWGZEMnNXZ0NCUzRtUEtibUlJbWdJUVFlcFZ0SjFVQVc0eDJtNGh3d3hFSXVMYTU0QXA5RnFFaWJnS2FDbG91c2FlSm9MdHg0SFQ1VFJ3SmhnYzM0TjA4Y3FJR3VicjY3X2RwNDExM1h2V2gyQVUtVGlGQkRfbUgtUGZNM2w5VDREMDBCMDcxZEp3WkM0bTNlSnZDR1dzcHV2MzlzbDVmQmtDb2I5SXp3SXl6TkZudU5oNzZpZXV1NHhTcG15NVVxS1Myb2ItOXpvaGdIejE3dw?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T09:46:14.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 : un rendez-vous sportif majeur sur la Côte d’Azur",
+        "source": "Europe Infos",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTHEyY3B4YlhPUkJBYzd2OU9MVVh5a0R3cFA3ODNOb2dzUHFSVm51aG1QLVlRY1JxRk1QNGZXUUY4Q0htYk1qcGJZN0FTQ08zaU1JV0FwczBkMExWT0U4OVFtSUxTNGdqLWdaVE9LbEpvVGpyaHhHcDhPaDlOTUw3UDdXQS1YU1hhOUo5ODFUeXBsbTdJMVN1S3VtYm9DZ01oNXg4UG9rellESkdFczJpb200M2phMnZjTjdVUA?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T08:47:00.000Z"
+      },
+      {
+        "titre": "France TV avec France 3 diffuse le marathon Nice-Cannes 2026 en direct ce dimanche matin",
+        "source": "u-Trail",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObm82MDh5OTFQVlJzeGR1YUlKMVYtSzI3aDM5VExmN2d5WkF0UmVJTWNnSzE4dWM5b0VsU1hXanVYQ2tVZl8zczlNMnNFVjZZLXVuMUZ6YWhYWi1Za1VJa293QzdiU0JIcnM3NFBkcW5Eend1ekUzOTA1dnhTaUpXbi1RT1AwVXBmQWc2RGhrbHNjNzZsbGVIYl9Zb0Q4eVJ1YXhxZkdzSHdrWXVIUjB4S2FsRVc?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T07:42:27.000Z"
+      },
+      {
+        "titre": "Nice : prévisions météo du samedi 07 novembre 2026",
+        "source": "Météocity",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY01ZVE1Ca19LRUlsemhlZG1MSHVBVTVtTm1jSmhUeWFCbDhHVGhkUXVxaVBtTmNWYnVtdzR0VnFGWTJYWWk2V0dOQVlWa2RjMHJvZVE4NXo1MmRFTEdJZmV1emUxY1BpXzVmQXlGYjBHOU9KNHFxYXV4eDR6bk85VmMxSTNKZFgxRXZKSTl0ZDhNMmZNUmlzZDR1LXhVRXBB?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T07:05:43.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes : perturbations, rues fermées, bus déviés, ce qu'il faut savoir sur la circulation",
+        "source": "Actu.fr",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNakFjb2Q5c2VCeTVnRnFzMXA3MEV5blVFMTdQRUZqNUlwZG9VdXdrdWNqZ1BSQmpMeU8zSnBBRXZfeXR0ekdNNFZpTENPa05QeklJMHVpSWMxVkRyR2NSVnVBX2VndDJlMzdUMGpHN1h2VWtyQ0JQY2ZIc2pncDM2ZzBIaDRhXzU5aGFRcDVFaXhsbXMzeGNRSl9uZFY3NGxGaXFSaURzSXJIQVNfcXpKRTZsUjZVd21LX2ZnZ01PLW82aGVsZFZZTHRmenlUdVpGUGtOUk1tTk5xMXJ3YmpDSmdQWUxEWmVHcXlOUmhrNkh0UVJBVlhxR2JR?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T06:04:02.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 en direct : sur quelle chaîne et à quelle heure voir la 18e édition de la course ?",
+        "source": "France 3 Régions",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOdlFBeG40ZzRpTUU4TVJZaXpVbHdsNlZZMnN4Y29KbEZhTW42NjlzcXFBUC1yNEFlTmU2MXV4X0t3TDdTQzh5X0lGU2RkVFpWWUxxeFJaWGNUdDBwa3phd3pEZy0xMWZQaVd2aUlLb19pdTNnUl9QMVBhYkRHUm5iS0lwakR5aGl1WFdkZkZvR3gyZUhGc0JJSUJsb0Y4bVZFZ080RWtucUZJcmxJTGR4N2hyUjFBTzBQWXBxTW42OWluN0ZSSnZwdnZqWTJZdWN1RXRBSWJfbHNXQTI2clRTcTNYMUNQVGlndThIM2Z2NE9KWnBnblRvcGFRNWNFSlZNN204YWljeHc0TjZ3dTZMZ0RhZDF2WWZ0UmFsbERKYTJaR181?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T05:05:02.000Z"
+      },
+      {
+        "titre": "Fiscalité stable, investissements pour la reconstruction des vallées et des routes : la Métropole Nice Côte d’Azur présente ses orientations budgétaires pour 2027",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPNVpNWFlqajlLR2haWHZad1U2TGtMTXVBclRMUFNiZ3BNSC01bDlmSnNsb1JSeDcxMDI3RkJHamppVHNTclVhMExoZG5hVFVBMnpsSmF3UVp4emp6Q1JWWmtRbl95MGRmQ3l5VDYzUGN4YWMzVzBvQlkzWFY3dWtpZ1A4WkhlNmRNdDdYNzhlMndNcU90VXpCN3J3V2toTUlQbmpkWjZyWTZUYkZUWXVSX3R1dnZXLUw1NUJxTjV0LXdPTVZYMFBoNGxaTVRDVERUTC03aTFZSEdnc2ZuaWhrR19OQmstS3ZXTTFQckpTYlZLNllwR3JHbjMtNm5PdndWUzlOWDFfb0RwdFV2cWt5STRoS1Y0cGJvLU9ucUhkeXNrbzJvUTFya280WUhRRzVueVBDaU5Zdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T19:15:06.000Z"
+      },
+      {
+        "titre": "EN DIRECT - Suivez le Conseil Métropolitain Nice Côte d'Azur du 6 novembre 2026",
+        "source": "RCF",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMGJiQmNJcjh3bzNybW5IaThXd3F5cEY5MndoX05MVVdFblpEWUJNSHF1Q1ktTmJJdW9idFNTWVpmS1VobHozV09xNnBRaTM1QWF1eEJiQVJpd1pCSWlqeUpsbmIxOFBCMFJXSDZvWXIxM3d4N3dYekcyODdJWFNzdmI4b2x5U0RGellrWlV2OFNkSG1yREtCRUpEQUVaRDJVdnVXZERnU2xRNjRiSzNYM3hoSGk?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T15:20:36.000Z"
+      },
+      {
+        "titre": "La Métropole Nice Côte d'Azur vote la gratuité des parkings souterrains métropolitains pour les professionnels de santé",
+        "source": "RCF",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2dMT3IyYVRYeGRra0xTQnVhNVkzTWJlWGZ1amRqN1IxanRlb0lPTVdhcVpKYTlOcl9Na0pNM0hKMXVoNnJCdnJnVXdfLXlsUllFUndNR3NzTHB0ODR6cF9tSGdzYUhVQzdYTVl3Zm5kN013bGRPVF8zMHVZR1Ntc2RUaTBad19aNTl2dU40ZG1MSml5a1Z5dkhhcjVULWFHd2RZdEtMNG5NeHAy?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T12:01:00.000Z"
+      },
+      {
+        "titre": "Eric Ciotti dévoile un audit de la ville de Nice et de la métropole Nice côte d'azur",
+        "source": "ici.fr",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQR2JpYlpRZ0Jqa3lHTEQ1dTNVRjRhdTdwd3R3OE5oMU9EU3QtMVlleHF0eVhySmRnSlhiaTR3dmFoaTFLdnVfMXY0bE5LT0RnNC1QbnJVek14cVlvQkQzZjZJcng1TnlnUTJERTVVVlp2NmVWOURvczc4ZVd0a2gzaTJFSnA1cktkR0hjLWlTQ3NoeW1Db2I5SWc5UDF1WlctREhxWmticGE3SkRYU0Q3NklnTE13bGQtRzYwR2F6ZEd0MjNiM0FlLVhRUVhENG1YM19qMjFzYVd3QUZyVWswamJsT19fQ0hocnVwNkV1Q1c3VTRS?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T21:06:23.000Z"
+      },
+      {
+        "titre": "INFO BFM NICE CÔTE D'AZUR. Enseignante et directrice agressées à Nice: un appel à la grève lancé pour l'école Clément-Roassal",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMTFNTm9YZzhzN2tuZC1VRUZvSWRiNk9KM3djU3VKd2FFc0NkeGI5cmxUeTJlUW5NOUhIN1pSMHdNcHk0bTNCclhld3BPNUE5OHlKSXQyZ0RMSnhNSjBIcEZDQTJQMm9IWnF1YW1PQTBZSEVMMFRMcUVpTWhvMFR4TWhIRzlVamZCY1JEU21qZ2FmenVQS0wyVnJnZ1dpT3NTWTZnS2Qwa0E5eEkwY0hiSUZuY1FOa2hEQjF0ckxiVlEwZk90UGpzQ0J3ZEdhT29FeEl4TVk1X3UxU2p1MlRPSDdGckl0M3BvWGktbmZiNEkxU0VxaWtjUDJXUUxXLW9RWjlKdHM5WlE0dw?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T16:02:33.000Z"
+      },
+      {
+        "titre": "Alerte météo : la vigilance jaune reconduite jusqu’à ce vendredi dans les Alpes-Maritimes",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSEloRVdfcjdNaDN4dGxGZHBMM3RSckN5LXA5TlZOekYyNlNKNnNOTnJ4RC1mQUVoV1hKZVpOUkZKVVJhZTRwaC15c0JuQXFXSUkzQkV2cTVNUW9xbXBmVWNPZVZFZDlOTDl4RUtGSkdRVVg2eFNlZS1Keld0RUxQN0sxcUgxY3BvcURDaGNZbS04YktJS0Mza0Jwa1lmbnlPdTRWRG5Cc2h1UDczQmlWajMyRkpzaVRxb2NZWXJJZDRLWGxjYThR?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T08:00:00Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/nice/2026/11/08/hebdo-nice-cote-d-azur/"
+  },
+  {
     "id": "2026-11-08-actu-business",
     "lang": "fr",
     "date": "2026-11-08",

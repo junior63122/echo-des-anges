@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/riviera/2026/11/08/hebdo-nice-cote-d-azur/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08T08:00:00+01:00</news:publication_date>
+      <news:title>Nice and the French Riviera: the week’s main stories, 2 to 8 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/nice/2026/11/08/hebdo-nice-cote-d-azur/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-08T08:00:00+01:00</news:publication_date>
+      <news:title>Nice et la Côte d’Azur : les faits marquants de la semaine du 2 au 8 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/evenementiel/2026/11/07/calendrier-hiver-2027-rallye-cirque-midem-mipim/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
@@ -110,22 +126,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-06T12:30:00Z</news:publication_date>
       <news:title>Audit des finances de Nice : Éric Ciotti charge la gestion Estrosi, qui conteste les chiffres</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/nice/2026/11/06/deja-30-centimetres-de-neige-a-isola-2000-a-un-mois-de-l-ouv/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-06T12:00:00Z</news:publication_date>
-      <news:title>Déjà 30 centimètres de neige à Isola 2000, à un mois de l’ouverture</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/nice/2026/11/06/vie-chere-apres-les-5-000-manifestants-de-jeudi-les-syndicat/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-06T12:10:00Z</news:publication_date>
-      <news:title>Vie chère : après les 5 000 manifestants de jeudi, les syndicats appellent à un « acte IV » samedi à Nice</news:title>
     </news:news>
   </url>
 </urlset>
