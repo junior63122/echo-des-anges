@@ -44,23 +44,43 @@ async function openverse(q) {
 const convient = (x, exact) => x.mime === "image/jpeg" && x.thumb && x.w >= (exact ? 800 : 1200) && (exact || x.w > x.h * 1.15)
   && LICENCES_OK.test(x.licence) && !/trademark|personality/i.test(x.restrictions) && x.auteur;
 
+// Pertinence : le titre de la photo doit contenir au moins un mot significatif de la recherche
+// (évite les résultats sans rapport, comme une rose pour un tournoi de tennis).
+const VIDES = new Set(["night", "view", "photo", "image", "the", "and", "les", "des", "une", "dans", "with", "from", "pour", "france", "french", "riviera", "cote", "azur", "city", "ville", "centre", "center", "old", "new", "vue"]);
+const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ");
+const pertinent = (titre, q) => {
+  const t = ` ${norm(titre)} `;
+  const mots = norm(q).split(" ").filter((m) => m.length >= 4 && !VIDES.has(m));
+  return !mots.length || mots.some((m) => t.includes(` ${m}`) || t.includes(m));
+};
+
 async function main() {
   mkdirSync(DIR, { recursive: true });
   const exclues = existsSync(join(DIR, "exclues.json")) ? JSON.parse(readFileSync(join(DIR, "exclues.json"), "utf8")) : [];
   const articles = JSON.parse(readFileSync(DB, "utf8"));
   const prises = new Set(articles.map((a) => a.image?.page).filter(Boolean));
   let n = 0;
+  // Nouveaux articles sans recherche de photo : requêtes tirées du titre (noms propres, lieux), du plus précis au plus général.
+  const LIEUX = ["Sophia Antipolis", "Saint-Tropez", "Saint-Laurent-du-Var", "Villefranche-sur-Mer", "Cagnes-sur-Mer", "Juan-les-Pins", "Monte-Carlo", "Antibes", "Cannes", "Nice", "Monaco", "Menton", "Grasse", "Fréjus", "Toulon", "Marseille", "Mougins", "Vence", "Hyères", "Isola 2000"];
+  const autoRequetes = (a) => {
+    const t = `${a.titre} ${a.chapo || ""}`;
+    const propres = [...a.titre.matchAll(/(?:^|[\s«(])(\p{Lu}[\p{L}'’-]+(?:\s+(?:de|des|du|la|le|d’|d')?\s*\p{Lu}[\p{L}'’-]+){1,3})/gu)].map((m) => m[1].trim());
+    const lieux = LIEUX.filter((l) => t.includes(l));
+    const q = [...propres.map((p) => (lieux[0] && !p.includes(lieux[0]) ? `${p} ${lieux[0]}` : p)), ...propres, ...lieux.map((l) => `${l} ${a.section === "Sport" ? "stade" : a.section === "Culture" ? "musée" : "vue"}`), ...lieux];
+    return [...new Set(q)].filter((x) => x.length > 3).slice(0, 5);
+  };
   for (const a of articles) {
+    if (!a.image && !a.imageCommons && a.lang !== "en" && a.photo !== false && a.type !== "revue") { const q = autoRequetes(a); if (q.length) a.imageCommons = q; }
     if (a.image || !a.imageCommons || a.lang === "en") continue;
     const demandes = [].concat(a.imageCommons);
     let choix = null;
     for (const q of demandes) {
       try {
         const res = q.startsWith("File:") ? await api({ titles: q }) : await api({ generator: "search", gsrnamespace: "6", gsrsearch: `${q} filetype:bitmap`, gsrlimit: "20" });
-        choix = res.find((x) => convient(x, q.startsWith("File:")) && !exclues.includes(x.page) && !prises.has(x.page));
+        choix = res.find((x) => convient(x, q.startsWith("File:")) && (q.startsWith("File:") || pertinent(x.titre, q)) && !exclues.includes(x.page) && !prises.has(x.page));
       } catch (e) { console.warn(`  ${a.id} ✗ Commons « ${q} » : ${e.message}`); }
       if (!choix && !q.startsWith("File:")) {
-        try { choix = (await openverse(q)).find((x) => !exclues.includes(x.page) && !prises.has(x.page)); }
+        try { choix = (await openverse(q)).find((x) => pertinent(x.titre, q) && !exclues.includes(x.page) && !prises.has(x.page)); }
         catch (e) { console.warn(`  ${a.id} ✗ Openverse « ${q} » : ${e.message}`); }
       }
       if (choix) break;
