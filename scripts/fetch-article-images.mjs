@@ -51,7 +51,9 @@ const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-
 const pertinent = (titre, q) => {
   const t = ` ${norm(titre)} `;
   const mots = norm(q).split(" ").filter((m) => m.length >= 4 && !VIDES.has(m));
-  return !mots.length || mots.some((m) => t.includes(` ${m}`) || t.includes(m));
+  // Plusieurs mots significatifs : il en faut au moins deux dans le titre de la photo (un seul mot commun donne trop de hors-sujet).
+  const trouves = mots.filter((m) => t.includes(` ${m}`)).length;
+  return !mots.length || trouves >= Math.min(2, mots.length);
 };
 
 async function main() {
