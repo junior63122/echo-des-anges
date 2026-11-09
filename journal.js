@@ -162,17 +162,17 @@
   const hash = (str) => { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
   function imageFor(a) {
     if (a.photo === false) return null; // sujets tragiques : pas de photo d'illustration
-    if (a.image) return { src: absSrc(a.image.src), credit: `${T.photo} : ${a.image.credit}`, legende: (a.image.legende || {})[lang] || "" };
+    if (a.image) return { src: absSrc(a.image.src), credit: `${T.photo} : ${a.image.credit}`, legende: (a.image.legende || {})[lang] || "", alt: (a.image.legende || {})[lang] || a.titre };
     const pool = photos[a.section] || [];
     if (!pool.length) return null;
     const p = pool[hash(twinKey(a)) % pool.length];
     const origine = p.origine === "wikimedia" ? "Wikimedia Commons" : p.origine === "pexels" ? "Pexels" : p.origine;
-    return { src: `/img/stock/${p.fichier}`, credit: `${T.photo} : ${p.auteur} / ${origine} (${p.licence})`, href: p.page, legende: "" };
+    return { src: `/img/stock/${p.fichier}`, credit: `${T.photo} : ${p.auteur} / ${origine} (${p.licence})`, href: p.page, legende: "", alt: a.titre };
   }
   function figure(img, cls) {
     if (!img) return "";
     const credit = img.href ? `<a href="${esc(img.href)}" target="_blank" rel="noopener">${esc(img.credit)}</a>` : esc(img.credit);
-    return `<figure class="fig ${cls || ""}"><img ${imgAttr(img.src)} alt="${esc(img.legende)}" loading="lazy" decoding="async">
+    return `<figure class="fig ${cls || ""}"><img ${imgAttr(img.src)} alt="${esc(img.alt || img.legende)}" loading="lazy" decoding="async">
       <figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${credit}</span></figcaption></figure>`;
   }
   // Images WebP générées à la publication (valeur remplacée par preparer-site.mjs).
@@ -182,7 +182,7 @@
     return m && !/(logo|icon|og-)/i.test(m[1]) ? `src="${esc(m[1])}.webp" srcset="${esc(m[1])}-800.webp 800w, ${esc(m[1])}.webp 1280w" sizes="(max-width: 760px) 100vw, ${large}px"` : `src="${esc(src)}"`;
   };
   const EMBLEME = `<svg viewBox="0 0 48 40" aria-hidden="true"><path d="M4 30 C14 28 22 22 26 8" /><path d="M10 33 C21 31 30 24 34 10" /><path d="M17 36 C28 34 38 27 44 14" /></svg>`;
-  const thumb = (img, cls) => (img ? `<div class="thumb ${cls || ""}"><img ${imgAttr(img.src, /lead-img/.test(cls || "") ? 760 : 420)} alt="${esc(img.legende)}" ${/lead-img/.test(cls || "") ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></div>` : "");
+  const thumb = (img, cls) => (img ? `<div class="thumb ${cls || ""}"><img ${imgAttr(img.src, /lead-img/.test(cls || "") ? 760 : 420)} alt="${esc(img.alt || img.legende)}" ${/lead-img/.test(cls || "") ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></div>` : "");
   // Dans les grilles, un article sans photo garde un emplacement de même format, pour que tout reste aligné.
   const vignette = (a, cls) => thumb(imageFor(a), cls) || `<div class="thumb noimg ${cls || ""}" aria-hidden="true">${EMBLEME}</div>`;
 
@@ -410,7 +410,7 @@
     document.title = `${secName(key)} | L'Écho des Anges`;
     const list = visibles().filter((a) => a.section === key).sort((x, y) => (y.heure || y.date).localeCompare(x.heure || x.date));
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(secName(key))}</h1></div>
-      <div class="list"><h2 class="sr-only">${lang === "en" ? "Latest articles" : "Derniers articles"}</h2>${list.length ? list.map((a) => { const im = imageFor(a); return `<article class="list-item${im ? " avec-photo" : ""}">${im ? `<a class="li-img" href="${artLink(a)}" tabindex="-1" aria-hidden="true"><img ${imgAttr(im.src, 240)} alt="" loading="lazy" decoding="async"></a>` : ""}
+      <div class="list"><h2 class="sr-only">${lang === "en" ? "Latest articles" : "Derniers articles"}</h2>${list.length ? list.map((a) => { const im = imageFor(a); return `<article class="list-item${im ? " avec-photo" : ""}">${im ? `<a class="li-img" href="${artLink(a)}" tabindex="-1" aria-hidden="true"><img ${imgAttr(im.src, 240)} alt="${esc(im.alt || im.legende)}" loading="lazy" decoding="async"></a>` : ""}
         <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p>

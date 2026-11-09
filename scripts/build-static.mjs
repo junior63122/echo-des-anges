@@ -307,12 +307,22 @@ const dimAttr = (src) => { const d = dimensions(src); return d ? ` width="${d.w}
 
 function image(a) {
   if (a.photo === false) return null;
-  if (a.image) return { src: a.image.src, credit: a.image.credit, legende: (a.image.legende || {})[langOf(a)] || "" };
+  if (a.image) return { src: a.image.src, credit: a.image.credit, page: a.image.page, legende: (a.image.legende || {})[langOf(a)] || "" };
   const pool = credits[a.section] || [];
   if (!pool.length) return null;
   const p = pool[hash(twinKey(a)) % pool.length];
   const org = p.origine === "wikimedia" ? "Wikimedia Commons" : p.origine === "pexels" ? "Pexels" : p.origine;
-  return { src: `img/stock/${p.fichier}`, credit: `${p.auteur} / ${org} (${p.licence})`, legende: "" };
+  return { src: `img/stock/${p.fichier}`, credit: `${p.auteur} / ${org} (${p.licence})`, page: p.page, legende: "" };
+}
+// Adresse de la licence d'une photo (données structurées : badge « licence » de Google Images).
+function licenceUrl(credit) {
+  const m = String(credit || "").match(/\((CC0|Domaine public|Public domain|PD[^)]*|CC[ -]BY(?:-SA)?[ -][\d.]+)\)\s*$/i);
+  if (!m) return null;
+  const l = m[1].toUpperCase();
+  if (l.startsWith("CC0")) return "https://creativecommons.org/publicdomain/zero/1.0/";
+  if (/^(DOMAINE|PUBLIC|PD)/.test(l)) return "https://creativecommons.org/publicdomain/mark/1.0/";
+  const [, sa, v] = l.match(/BY(-SA)?[ -]([\d.]+)/) || [];
+  return v ? `https://creativecommons.org/licenses/by${sa ? "-sa" : ""}/${v}/` : null;
 }
 
 function tete({ lang, titre, description, canonical, type = "website", imageSrc, imageAlt, alternates = [], jsonld = [], extra = "", robots }) {
@@ -390,7 +400,7 @@ const editeur = {
   ...(CONFIG.contact ? { contactPoint: { "@type": "ContactPoint", contactType: "newsroom", email: CONFIG.contact, url: `${SITE}/contact/`, availableLanguage: ["fr", "en"] } } : {}),
 };
 
-const vignetteListe = (a) => { const i = image(a); return i ? `<a class="li-img" href="${url(a)}" tabindex="-1" aria-hidden="true"><img src="/${i.src}" alt="" loading="lazy" decoding="async"${dimAttr(i.src)}></a>` : ""; };
+const vignetteListe = (a) => { const i = image(a); return i ? `<a class="li-img" href="${url(a)}" tabindex="-1" aria-hidden="true"><img src="/${i.src}" alt="${esc(i.legende || a.titre)}" loading="lazy" decoding="async"${dimAttr(i.src)}></a>` : ""; };
 const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item${image(a) ? " avec-photo" : ""}">${vignetteListe(a)}<span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)}<span class="sep" aria-hidden="true"></span><time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
 
 const ICONES = {x:"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z",fb:"M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.971H15.83c-1.491 0-1.956.93-1.956 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z",li:"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z",wa:"M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z",mail:"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.3V17h16V7.3l-8 5.2z",lien:"M10.6 13.4a1 1 0 0 0 1.4 0l4.6-4.6a3 3 0 0 0-4.2-4.2l-1.6 1.6 1.4 1.4 1.6-1.6a1 1 0 0 1 1.4 1.4l-4.6 4.6a1 1 0 0 0 0 1.4zm2.8-2.8a1 1 0 0 0-1.4 0l-4.6 4.6a3 3 0 0 0 4.2 4.2l1.6-1.6-1.4-1.4-1.6 1.6a1 1 0 0 1-1.4-1.4l4.6-4.6a1 1 0 0 0 0-1.4z"};
@@ -445,7 +455,7 @@ function pageArticle(a) {
     // Liens internes (liensInternes) : déclarés aux moteurs et aux IA uniquement, jamais affichés aux lecteurs.
     mainEntityOfPage: { "@type": "WebPage", "@id": url(a), ...(a.liensInternes?.length ? { relatedLink: a.liensInternes.map((l) => l.url) } : {}) },
     url: url(a),
-    image: img ? [{ "@type": "ImageObject", url: imgAbs, ...(dimensions(img.src) ? { width: dimensions(img.src).w, height: dimensions(img.src).h } : {}), ...(img.credit ? { creditText: img.credit } : {}) }] : [imgAbs],
+    image: img ? [{ "@type": "ImageObject", url: imgAbs, contentUrl: imgAbs, caption: img.legende || a.titre, ...(dimensions(img.src) ? { width: dimensions(img.src).w, height: dimensions(img.src).h } : {}), ...(img.credit ? { creditText: img.credit, copyrightNotice: img.credit } : {}), ...(licenceUrl(img.credit) ? { license: licenceUrl(img.credit) } : {}), ...(img.page && /^https?:/.test(img.page) ? { acquireLicensePage: img.page } : {}) }] : [imgAbs],
     author: { "@type": "Organization", "@id": ORG_ID, name: NOM, url: `${SITE}/` },
     publisher: { "@id": ORG_ID },
     isPartOf: { "@id": SITE_ID },
