@@ -385,3 +385,11 @@ main { min-height: 50vh; }
 .li-img img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 2px; transition: opacity .15s; }
 .li-img:hover img { opacity: .88; }
 @media (max-width: 600px) { .list-item.avec-photo { grid-template-columns: minmax(0, 1fr) 104px; column-gap: 14px; } }
+
+/* Page de recherche : champ et suggestions. */
+.recherche-page { max-width: 900px; margin: 18px auto 6px; padding: 0 16px; display: flex; gap: 8px; }
+.recherche-page input { flex: 1; min-width: 0; font: inherit; font-family: var(--sans); font-size: 1.05rem; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--ink); }
+.recherche-page button { font-family: var(--sans); font-weight: 600; padding: 0 18px; border: 0; border-radius: 4px; background: var(--night); color: #fff; cursor: pointer; }
+.suggestions { max-width: 900px; margin: 10px auto 30px; padding: 0 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+.suggestions a { font-family: var(--sans); font-size: .9rem; padding: 6px 12px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-2); text-decoration: none; }
+.suggestions a:hover { border-color: var(--lien); color: var(--lien); }
