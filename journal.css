@@ -438,11 +438,7 @@ main { min-height: 50vh; }
   @keyframes deroule { from { opacity: 0; transform: translateY(-8px); } }
   /* Apparition des contenus au défilement (sans script, navigateurs compatibles). */
   @supports (animation-timeline: view()) {
-    /* Petits groupes seulement : sur les longues listes, l'effet coûterait du temps de calcul au défilement. */
-    .block-grid > div, .related li, .galerie .fig {
-      animation: apparition linear both; animation-timeline: view(); animation-range: entry 0% entry 40%;
-    }
-    @keyframes apparition { from { transform: translateY(16px); } } /* mouvement seul : le texte reste toujours pleinement lisible */
+    /* Pas d'apparition au défilement : un élément qui se déplace pendant le clic peut faire perdre ce clic. */
     /* Barre de progression de lecture sous l'en-tête des articles. */
     .article-layout { view-timeline: --lecture block; }
     .article-layout::before {

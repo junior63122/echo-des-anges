@@ -178,6 +178,21 @@ const TAILLES = [[320, 568], [360, 740], [390, 844], [844, 390], [768, 1024], [1
     }
     await ctx.close();
   }
+  // 8. Clics sur un appareil lent, juste après l'arrivée sur l'accueil (non-régression : un élément animé
+  //    qui bouge entre l'appui et le relâchement faisait perdre le clic).
+  {
+    const ctx = await br.newContext({ viewport: { width: 1440, height: 900 } }); const p = await ctx.newPage();
+    const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 6 });
+    await p.goto(B + "/", { waitUntil: "load" });
+    const liens = (await p.$$eval("main a[href]", (x) => x.map((a) => a.getAttribute("href")).filter((h) => /^\/[a-z-]+\/\d{4}\//.test(h)))).slice(0, 10);
+    for (const h of liens) {
+      await p.goto(B + "/economie/"); await p.goto(B + "/"); await p.waitForTimeout(400);
+      const el = await p.$(`main a[href="${h}"]`); if (!el) continue;
+      await el.click({ force: true });
+      await p.waitForURL((u) => u.pathname === h, { timeout: 8000 }).catch(() => note(`clic lent : ${h} ne s'ouvre pas`));
+    }
+    await ctx.close();
+  }
   await br.close();
   console.log(`\n${pb.length} problème(s)`);
 })();
