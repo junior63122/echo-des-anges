@@ -255,14 +255,14 @@
     const recents = all.filter((a) => a.type === "article" && (Date.parse(today) - Date.parse(a.date)) / 864e5 <= 3);
     const redaction = recents.filter((a) => a.heure).sort((x, y) => y.heure.localeCompare(x.heure));
     const leadRevue = revues.slice().sort((x, y) => ((y.liens[0] && y.liens[0].heure) || "").localeCompare((x.liens[0] && x.liens[0].heure) || ""))[0] || all[0];
-    const lead = redaction[0] || leadRevue;
+    const lead = redaction.find((a) => imageFor(a)) || redaction[0] || leadRevue;
     const features = recents.filter((a) => !a.heure).slice(0, 1);
     const sideRevues = revues.filter((r) => r !== lead).slice(0, features.length ? 1 : 2);
     const blocks = revues.filter((r) => r !== lead && !sideRevues.includes(r));
     const autres = redaction.slice(5, 5 + Math.floor(Math.max(0, redaction.length - 5) / 3) * 3);
 
     const leadAlso = lead.type === "article"
-      ? redaction.slice(1, 5).map((a) => ({ titre: a.titre, source: a.rubrique || secName(a.section), href: artLink(a) }))
+      ? redaction.filter((a) => a !== lead).slice(0, 4).map((a) => ({ titre: a.titre, source: a.rubrique || secName(a.section), href: artLink(a) }))
       : (lead.liens || []).slice(1, 5).map((l, i) => ({ titre: l.titre, source: l.source, href: artLink(lead, i + 1) }));
     const leadHref = lead.type === "article" ? artLink(lead) : artLink(lead, lead.liens ? 0 : null);
     const featureHtml = (a, badge) => `<article class="feature">
@@ -407,12 +407,37 @@
     document.title = `${secName(key)} | L'Écho des Anges`;
     const list = visibles().filter((a) => a.section === key).sort((x, y) => (y.heure || y.date).localeCompare(x.heure || x.date));
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(secName(key))}</h1></div>
-      <div class="list"><h2 class="sr-only">${lang === "en" ? "Latest articles" : "Derniers articles"}</h2>${list.length ? list.map((a) => `<article class="list-item">
+      <div class="list"><h2 class="sr-only">${lang === "en" ? "Latest articles" : "Derniers articles"}</h2>${list.length ? list.map((a) => { const im = imageFor(a); return `<article class="list-item${im ? " avec-photo" : ""}">${im ? `<a class="li-img" href="${artLink(a)}" tabindex="-1" aria-hidden="true"><img ${imgAttr(im.src, 240)} alt="" loading="lazy" decoding="async"></a>` : ""}
         <span class="kicker">${esc(a.type === "revue" ? (a.redige ? secName(a.section) : T.review) : a.rubrique)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p>
-        <p class="byline">${esc(T.by)} ${esc(a.auteur)}</p></article>`).join("") : `<p class="loading">${esc(T.empty)}</p>`}</div>`;
+        <p class="byline">${esc(T.by)} ${esc(a.auteur)}</p></article>`; }).join("") : `<p class="loading">${esc(T.empty)}</p>`}</div>`;
     window.scrollTo(0, 0);
+  }
+
+  const ICONES = {x:"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z",fb:"M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.971H15.83c-1.491 0-1.956.93-1.956 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z",li:"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z",wa:"M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z",mail:"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.3V17h16V7.3l-8 5.2z",lien:"M10.6 13.4a1 1 0 0 0 1.4 0l4.6-4.6a3 3 0 0 0-4.2-4.2l-1.6 1.6 1.4 1.4 1.6-1.6a1 1 0 0 1 1.4 1.4l-4.6 4.6a1 1 0 0 0 0 1.4zm2.8-2.8a1 1 0 0 0-1.4 0l-4.6 4.6a3 3 0 0 0 4.2 4.2l1.6-1.6-1.4-1.4-1.6 1.6a1 1 0 0 1-1.4-1.4l4.6-4.6a1 1 0 0 0 0-1.4z"};
+  const svgIcone = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ICONES[k]}"/></svg>`;
+  // Barre de partage (liens simples, aucun script tiers) et temps de lecture.
+  const barrePartage = (adresse, titre, mots, en) => {
+    const u = encodeURIComponent(adresse), t = encodeURIComponent(titre);
+    const min = Math.max(1, Math.round(mots / 230));
+    const L = en ? { lire: `${min} min read`, sur: "Share on", mail: "Share by email", copier: "Copy link" } : { lire: `Lecture : ${min} min`, sur: "Partager sur", mail: "Partager par courriel", copier: "Copier le lien" };
+    return `<div class="partage"><span class="lecture">${L.lire}</span>`
+      + `<a href="https://twitter.com/intent/tweet?url=${u}&amp;text=${t}" target="_blank" rel="noopener" aria-label="${L.sur} X">${svgIcone("x")}</a>`
+      + `<a href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener" aria-label="${L.sur} Facebook">${svgIcone("fb")}</a>`
+      + `<a href="https://www.linkedin.com/sharing/share-offsite/?url=${u}" target="_blank" rel="noopener" aria-label="${L.sur} LinkedIn">${svgIcone("li")}</a>`
+      + `<a href="https://wa.me/?text=${t}%20${u}" target="_blank" rel="noopener" aria-label="${L.sur} WhatsApp">${svgIcone("wa")}</a>`
+      + `<a href="mailto:?subject=${t}&amp;body=${u}" aria-label="${L.mail}">${svgIcone("mail")}</a>`
+      + `<button type="button" class="copier" data-lien="${adresse}" aria-label="${L.copier}">${svgIcone("lien")}</button></div>`;
+  };
+  // Colonne de droite des articles (grand écran).
+  function rail(a) {
+    const L = lang === "en" ? { last: "Latest news", sec: "In this section" } : { last: "Dernières actualités", sec: "Dans la rubrique" };
+    const memes = visibles().filter((x) => x !== a && x.type === "article").sort((x, y) => (y.heure || y.date).localeCompare(x.heure || x.date));
+    const derniers = memes.slice(0, 6);
+    const rub = memes.filter((x) => x.section === a.section && !derniers.includes(x)).slice(0, 5);
+    const liste = (l) => `<ol>${l.map((x) => `<li><a href="${artLink(x)}">${esc(x.titre)}</a><time>${esc(quand(x))}</time></li>`).join("")}</ol>`;
+    return `<aside class="rail" aria-label="${L.last}"><div class="rail-inner"><h2>${L.last}</h2>${liste(derniers)}${rub.length ? `<h2>${L.sec}</h2>${liste(rub)}` : ""}</div></aside>`;
   }
 
   // ---------- Article ----------
@@ -426,11 +451,12 @@
     setMeta(`${a.titre} | L'Écho des Anges`, a.chapo, location.origin + a.chemin);
     const revue = a.type === "revue" && !a.redige;
     const sources = a.sources && a.sources.length ? `<span class="sources">${esc(T.sources)} : ${esc(a.sources.join(", "))}</span>` : "";
-    app.innerHTML = `<article class="article">
+    app.innerHTML = `<div class="article-layout"><article class="article">
       <div class="crumbs">${a.type === "archive" ? `<a href="${archivesLink()}">${esc(T.archives)}</a>${SEP}` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? `${SEP}${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? `${SEP}${esc(a.rubrique)}` : ""}</div>
       <h1>${esc(a.titre)}</h1>
       <p class="chapo">${esc(a.chapo)}</p>
       <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(a.precision === "mois" ? T.publishedIn : a.precision === "annee" ? "" : T.published)} ${esc(quand(a))}`}</span>${sources}</div>
+      ${revue ? "" : barrePartage(location.origin + a.chemin, a.titre, (a.corps || []).join(" ").split(/\s+/).length, lang === "en")}
       ${figure(imageFor(a), a.image && !a.image.paysage ? "hero-portrait" : "hero")}
       ${(a.corps || []).map((p) => (p.startsWith("## ") ? `<h2 class="intertitre">${esc(p.slice(3))}</h2>` : `<p class="body">${esc(p)}</p>`)).join("")}
       ${a.transparence ? `<p class="transparence">${esc(a.transparence)}</p>` : ""}
@@ -444,7 +470,7 @@
           ${l.resume ? `<p>${esc(l.resume)}</p>` : ""}
           <span class="src">${l.heure ? `<time datetime="${esc(l.heure)}">${esc(hhmm(l.heure))}</time>` : ""}${esc(T.source)} : ${esc(l.source)}. <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(T.read)}</a></span>
         </div></li>`).join("")}</ol>` : ""}
-    </article>`;
+    </article>${revue ? "" : rail(a)}</div>`;
     const target = focus != null && document.getElementById("info-" + focus);
     if (target && focus > 0) target.scrollIntoView(); else window.scrollTo(0, 0);
   }
@@ -577,6 +603,17 @@
   });
 
   window.addEventListener("popstate", route);
+  // Bouton « copier le lien » de la barre de partage.
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest(".copier"); if (!b) return;
+    const ok = () => { b.classList.add("copie"); setTimeout(() => b.classList.remove("copie"), 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(b.dataset.lien).then(ok, () => {}); else ok();
+  });
+  // En-tête : seule la barre des rubriques reste visible quand on fait défiler la page.
+  const entete = document.querySelector(".site-header"), barre = document.getElementById("sections");
+  const caler = () => { if (entete && barre) entete.style.top = `${barre.offsetHeight - entete.offsetHeight}px`; };
+  window.addEventListener("resize", caler); window.addEventListener("load", caler); setTimeout(caler, 0);
+  document.getElementById("search-btn").addEventListener("click", () => setTimeout(caler, 0));
   window.addEventListener("hashchange", () => { if (ANCIEN.test(location.hash)) route(); });
   // Les liens internes restent dans l'application (pas de rechargement), sauf fichiers et pages statiques.
   document.addEventListener("click", (e) => {
