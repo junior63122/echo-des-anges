@@ -5,7 +5,7 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Mon, 09 Nov 2026 15:09:37 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 15:12:49 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
@@ -51,6 +51,7 @@
     <pubDate>Sat, 07 Nov 2026 13:30:00 GMT</pubDate>
     <category>Sorties</category>
     <description>Le village de Noël de Nice et celui de Cannes ouvrent le 27 novembre et dureront jusqu’au 3 janvier. Monaco et Antibes n’ont pas encore dévoilé leur…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Carnaval de Nice et Fête du Citron 2027 : les dates à noter dès maintenant</title>
@@ -59,6 +60,7 @@
     <pubDate>Sat, 07 Nov 2026 13:20:00 GMT</pubDate>
     <category>Sorties</category>
     <description>« Vive l’Amour » sera le thème du Carnaval de Nice, du 9 au 28 février. À Menton, la 93e Fête du Citron se tiendra du 13 au 28 février.</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Matisse et Katz, Brauner, « La Belle au bois dormant » : les rendez-vous culturels de la fin d’année</title>
@@ -76,6 +78,7 @@
     <pubDate>Sat, 07 Nov 2026 13:00:00 GMT</pubDate>
     <category>Sorties</category>
     <description>La Promenade des Anglais et la Croisette accueillent le marathon des Alpes-Maritimes dimanche, La Malmaison referme son exposition estivale et le musée…</description>
+    <media:content url="https://echodesanges.fr/img/stock/sorties-azur-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Rallye, cirque, Midem, Mipim : le calendrier de l’hiver 2027 sur la Côte d’Azur</title>
@@ -111,6 +114,7 @@
     <pubDate>Fri, 06 Nov 2026 12:20:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>Quatre jours après l’agression de la directrice et d’une enseignante de l’école maternelle niçoise, le personnel du groupe scolaire a cessé le travail…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-2.jpg" medium="image"/>
   </item>
   <item>
     <title>Vie chère : après les 5 000 manifestants de jeudi, les syndicats appellent à un « acte IV » samedi à Nice</title>
@@ -146,6 +150,7 @@
     <pubDate>Fri, 06 Nov 2026 11:40:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>L’homme, âgé d’une trentaine d’années, a chuté d’une nacelle à une dizaine de mètres de hauteur jeudi soir. Il a été transporté dans un état grave à…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Rallye du Haut Pays Niçois, Nissa Rugby, handball : un week-end chargé pour le sport azuréen</title>
@@ -181,6 +186,7 @@
     <pubDate>Fri, 30 Oct 2026 07:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>La 7e édition du classement de l’Institut Choiseul distingue des dirigeants de moins de 40 ans de la région Sud. Start-up, entreprises familiales…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-2.jpg" medium="image"/>
   </item>
   <item>
     <title>Pizzorno Environnement : la note d’information de Paprec publiée, l’offre sur le groupe varois peut s’ouvrir</title>
@@ -207,6 +213,7 @@
     <pubDate>Mon, 12 Oct 2026 06:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>Après huit ans de recherche, la start-up cofondée par Mathias Fonlupt teste sa Pulse 50 sur un site Michelin. Objectif : transformer la chaleur rejetée…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Intelligence artificielle et blockchain : le cabinet marseillais Doors3 lève 1 million d’euros</title>
@@ -305,6 +312,7 @@
     <pubDate>Sat, 13 Jun 2026 06:00:00 GMT</pubDate>
     <category>Événementiel</category>
     <description>Présidente du groupe Belles Rives, elle a repris en 2001 l’hôtel familial et créé en 2011 un prix littéraire. La 15e édition du Prix Fitzgerald vient de…</description>
+    <media:content url="https://echodesanges.fr/img/stock/evenementiel-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Jean Lemaire, l’entrepreneur de Sophia Antipolis qui veut électrifier les flottes de camions</title>
@@ -367,6 +375,7 @@
     <pubDate>Wed, 20 May 2026 06:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>Anthony Renaudi devient directeur général de la holding du groupe familial fondé en 1964, aux côtés de son père Philippe, figure du patronat azuréen.</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Pierre Ippolito prend la présidence de Team Nice Côte d’Azur</title>
@@ -375,6 +384,7 @@
     <pubDate>Tue, 12 May 2026 06:00:00 GMT</pubDate>
     <category>Nice &amp; Côte d'Azur</category>
     <description>Déjà président de la CCI Nice Côte d’Azur, le dirigeant du groupe familial Ippolito, ETI de plus de 1 200 salariés, prend la tête de l’agence…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-2.jpg" medium="image"/>
   </item>
   <item>
     <title>Play Azur Festival : près de 1 600 contrefaçons saisies par la douane au Palais des Expositions de Nice</title>
