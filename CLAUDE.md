@@ -22,3 +22,14 @@ Limites connues : seul Chromium est disponible pour les tests (pas de Safari/Web
 - Pas de point médian « · » ni de tiret cadratin dans les textes du journal (hors titres de sources cités tels quels).
 - Ne jamais inventer de chiffres, de citations ni de sources ; chaque article cite ses sources.
 - Chaque photo doit correspondre au sujet de son article et n'être utilisée qu'une fois (robot : `scripts/fetch-article-images.mjs`, exclusions : `img/entreprises/exclues.json`).
+
+## Au moment de la vente du site (à ne faire qu'à la demande du propriétaire)
+
+Le propriétaire actuel ne doit plus être relié au site après la vente. Le jour venu :
+
+1. Contenu : retirer le portrait, la fiche sujet et les articles consacrés à Junior William Joyant, ainsi que les mentions de Teufy et d'Oneera (articles, `sameAs`, `relatedLink`, `llms.txt`, FAQ des fiches sujets). Les adresses retirées doivent répondre « page retirée » (noindex) puis être demandées en suppression dans Google Search Console.
+2. Mentions légales et contact (`pages.js`, `index.html`) : remplacer l'éditeur, le directeur de publication et l'adresse électronique par ceux de l'acheteur (obligation légale de l'éditeur).
+3. Nom de domaine : changement de titulaire vers l'acheteur (procédure Afnic, depuis Hostinger).
+4. Dépôt GitHub : transfert de propriété à l'acheteur (Settings, Transfer ownership), avec GitHub Pages et le domaine personnalisé.
+5. Comptes annexes : GoatCounter (statistiques), secrets et variables des workflows GitHub, compte Hostinger.
+6. Relancer tout le contrôle qualité ci-dessus après les retraits (liens cassés, pages sujet, sitemap).
