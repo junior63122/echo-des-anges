@@ -1,5 +1,463 @@
 [
   {
+    "id": "2026-11-09-agenda-semaine",
+    "lang": "fr",
+    "date": "2026-11-09",
+    "section": "Sorties",
+    "rubrique": "Agenda",
+    "emoji": "🗓️",
+    "type": "article",
+    "genre": "agenda",
+    "auteur": "Théo Marchal",
+    "titre": "L’agenda de la semaine sur la Côte d’Azur, du 9 au 15 novembre",
+    "chapo": "7 rendez-vous et idées de sorties repérés dans l’actualité, de Nice à Monaco.",
+    "corps": [
+      "Que faire cette semaine sur la Côte d’Azur ? La rédaction a rassemblé les annonces publiées ces sept derniers jours par BFM Nice Côte d’Azur, France 3 Côte d’Azur, Nice-Matin, Europe Infos et u-Trail : spectacles, expositions, fêtes et rendez-vous, de Nice à Monaco.",
+      "« Marathon Nice-Cannes : une 18e édition record avec 25 000 coureurs » (BFM Nice Côte d’Azur). Le marathon des Alpes-Maritimes Nice-Cannes faisait son retour ce dimanche pour sa 18e édition.",
+      "« Le journal de 8h du lundi 9 novembre 2026 » (BFM Nice Côte d’Azur). Bonjour La Côte d’Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise.",
+      "« « Un capitaine, un homme droit, un élu de terrain » : en hommage à cet ancien adjoint, une salle de la mairie porte son nom dans cette commune du Var » (Nice-Matin). La salle d’exposition du rez-de-chaussée de la mairie de Garéoult portera désormais le nom de celui qui fut plusieurs années élu de la commune et engagé dans le tissu associatif local.",
+      "« Lando Norris (McLaren) remporte avec brio le Grand Prix du Brésil, Charles Leclerc (Ferrari) hors du top 5 » (Nice-Matin). Comme souvent, le circuit d’Interlagos a accouché d’une course mouvementée, ce dimanche à Sao Paulo.",
+      "« Abline à côté de son sujet, Coulibaly et Detourbet remuants... Les notes des Monégasques après le nul au Mans (1-1) » (Nice-Matin). Rayonnant et facile en défense centrale, après avoir soufflé jeudi en coupe d’Europe, le Sénégalais a impressionné.",
+      "« \"L’objectif est de faire avancer la recherche\" : une jeune Lyonnaise va courir un marathon pour rendre hommage à son amie décédée d’une tumeur au cerveau » (France 3 Côte d’Azur). Elise Martin sera alignée ce dimanche 8 novembre au départ du marathon des Alpes-Maritimes, aux côtés des proches d’Alexia, son amie emportée par une tumeur au cerveau en juin dernier.",
+      "« Festival OVNi : l’art vidéo devient une biennale sur la Côte d’Azur » (Presse Agence).",
+      "Les dates et horaires peuvent évoluer : vérifiez auprès des organisateurs avant de vous déplacer. Les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "BFM Nice Côte d'Azur",
+      "France 3 Côte d'Azur",
+      "Nice-Matin",
+      "Europe Infos",
+      "u-Trail",
+      "Radio VINCI Autoroutes",
+      "jds.fr",
+      "Presse Agence"
+    ],
+    "liens": [
+      {
+        "titre": "Marathon Nice-Cannes : une 18e édition record avec 25 000 coureurs",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-marathon-nice-cannes-une-18e-edition-record-avec-25-000-coureurs_VN-202611090172.html",
+        "resume": "25 000 coureurs au départ. Le marathon des Alpes-Maritimes Nice-Cannes faisait son retour ce dimanche pour sa 18e édition.",
+        "heure": "2026-11-09T06:22:40.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 : \"Je ne m'attendais pas à ce chrono\", Manon Gras surprise par sa victoire chez les femmes",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/marathon-nice-cannes-2026-je-ne-m-attendais-pas-a-ce-chrono-manon-gras-surprise-par-sa-victoire-chez-les-femmes-3446268.html",
+        "resume": "La Française a été la première femme à franchir la ligne d'arrivée de la course, ce dimanche 8 novembre. Un succès qui a étonné la jeune femme, peu habituée à cette distance.",
+        "heure": "2026-11-08T11:05:56.000Z"
+      },
+      {
+        "titre": "Classement Marathon Nice-Cannes 2026 : l'Éthiopien Lemi Gerema remporte la course haut la main, une Française s'impose chez les femmes",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/classement-marathon-nice-cannes-2026-l-ethiopien-lemi-geremala-remporte-la-course-haut-la-main-une-francaise-s-impose-chez-les-femmes-3446169.html",
+        "resume": "Le coureur éthiopien s'est imposé en 2h13'27, ce dimanche 8 novembre lors de la 18e édition du marathon Nice-Cannes. Il devance Abdisa Saketa. Le premier Français, Julien Gueydon, termine 3ᵉ, tandis que chez les femmes, la première coureuse à avoir atteint la Croisette est aussi une Française, Manon Gras.",
+        "heure": "2026-11-08T10:14:08.000Z"
+      },
+      {
+        "titre": "L’Éthiopien Lemi Gerema remporte le marathon des Alpes-Maritimes, le record de l’épreuve n’est pas tombé",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/course-pedestre/l-ethiopien-lemi-gerema-remporte-le-marathon-des-alpes-maritimes-le-record-de-l-epreuve-n-est-pas-tombe-10755410",
+        "resume": "Ce dimanche 8 novembre 2026, l’Éthiopien Lemi Gerema a remporté la 18e édition du marathon des Alpes-Maritimes en bouclant les 42km195 reliant Nice à Cannes en 2h13’27’’.",
+        "heure": "2026-11-08T09:35:54.000Z"
+      },
+      {
+        "titre": "Les Kenyans favoris, le retour des Éthiopiens... Qui sont les favoris de ce 18e marathon des Alpes-Maritimes ce dimanche 8 novembre ?",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/course-pedestre/les-kenyans-favoris-le-retour-des-ethiopiens-qui-sont-les-favoris-de-ce-18e-marathon-des-alpes-maritimes-ce-dimanche-8-novembre-10754752",
+        "resume": "Entre quête de performance, retour des Éthiopiens et parcours de résilience, cette 18ᵉ édition du marathon des Alpes-Maritimes s’annonce comme une nouvelle célébration du dépassement de soi. 25 000 coureurs s’apprêtent à longer le littoral azuréen….",
+        "heure": "2026-11-07T11:00:00.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 : Promenade des Anglais, Croisette, bord de mer… Ce qu'il faut savoir pour circuler",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/marathon-nice-cannes-2026-promenade-des-anglais-croisette-bord-de-mer-ce-qu-il-faut-savoir-pour-circuler-3445095.html",
+        "resume": "Le marathon des Alpes-Maritimes Nice-Cannes se déroule ce dimanche 8 novembre 2026. Plusieurs routes seront fermées à la circulation pour permettre le passage des coureurs dans le département. Voici les secteurs à éviter et les déviations prévues.",
+        "heure": "2026-11-06T16:51:54.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 : un rendez-vous sportif majeur sur la Côte d’Azur",
+        "source": "Europe Infos",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTHEyY3B4YlhPUkJBYzd2OU9MVVh5a0R3cFA3ODNOb2dzUHFSVm51aG1QLVlRY1JxRk1QNGZXUUY4Q0htYk1qcGJZN0FTQ08zaU1JV0FwczBkMExWT0U4OVFtSUxTNGdqLWdaVE9LbEpvVGpyaHhHcDhPaDlOTUw3UDdXQS1YU1hhOUo5ODFUeXBsbTdJMVN1S3VtYm9DZ01oNXg4UG9rellESkdFczJpb200M2phMnZjTjdVUA?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T08:47:00.000Z"
+      },
+      {
+        "titre": "France TV avec France 3 diffuse le marathon Nice-Cannes 2026 en direct ce dimanche matin",
+        "source": "u-Trail",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObm82MDh5OTFQVlJzeGR1YUlKMVYtSzI3aDM5VExmN2d5WkF0UmVJTWNnSzE4dWM5b0VsU1hXanVYQ2tVZl8zczlNMnNFVjZZLXVuMUZ6YWhYWi1Za1VJa293QzdiU0JIcnM3NFBkcW5Eend1ekUzOTA1dnhTaUpXbi1RT1AwVXBmQWc2RGhrbHNjNzZsbGVIYl9Zb0Q4eVJ1YXhxZkdzSHdrWXVIUjB4S2FsRVc?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T07:42:27.000Z"
+      },
+      {
+        "titre": "Marathon : circulation, stationnement, les perturbations prévues entre Nice et Cannes ce dimanche",
+        "source": "Radio VINCI Autoroutes",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONFFxWnhES1RfaXllNHlZN21mSkdwaUNZUTkyenRLWjhraFFUQVYxRmF2M2pEdVd5dUxTcTFxQVVEdS01VXB0WmZ6eEpMc19LSG5pTFdUR2w2bFhJYzZITzlwQzBHcDdFZHpmakhUd2dpOGpGNHBMcU9FVGFXZDZuc3JWXzVteF9JTUFfVlBZUFlYQlNweVF4b0prc05aV21NM0VLeDg3cjdlVF9qcVFEZmgyeVZKdXdLWDkyMzdRd1NyN1R1ZUV0VmM5TlhlVDlqUktHZGZIN1Z1QQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T11:30:00.000Z"
+      },
+      {
+        "titre": "Le 18e Marathon Nice-Cannes a lieu ce week-end: entre déviations et routes coupées, voici tout ce qu’il faut savoir pour ne pas se retrouver bloqués",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQQ0dRSzF4clQ4WTNOUVBTdnF3UU1UOXp6ZGFLTUg0WEw1dmhURmZtMjRUQ25HNEpCLVp6bEhqNUtnTVN4ek5kaXdudW9MLTBzcnFieU1mTTJ3UGdjUTVuaHBPalNoYm9uQll1QklLSVJmcTYwdFZOTFlEcWVXZ3FCd293bUVUQTZDMnlRc0wtSlFCYVNOaTdiTlJRQldFSzRsTGZWV1FhQzNXTGFEVFkxNWtfME5SMFczRGhiMm9FZmtVTTNXSnpMWGFWRDlqZllCdWlkUkhBa0twTnN2Z3UxbUFoVU1QdG1hWk1YNl9Ga3ZmSndiLTFTRTR2Q0piVGFxVERhYVlja0w0TlhTdGEzZTRCeWhvZ2NIWjNYV2Nn?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T11:15:01.000Z"
+      },
+      {
+        "titre": "Le journal de 8h du lundi 9 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-le-journal-de-8h-du-lundi-9-novembre-2026_VN-202611090262.html",
+        "resume": "Bonjour La Côte d'Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise. Au sommaire : La vaccination contre la grippe en baisse. Auron se prépare avant le début de la saison. Ligue 1, victoire du GYM, match nul pour l'ASM.",
+        "heure": "2026-11-09T07:21:03.000Z"
+      },
+      {
+        "titre": "Marathon Nice-Cannes 2026 en direct : sur quelle chaîne et à quelle heure voir la 18e édition de la course ?",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/marathon-nice-cannes-2026-en-direct-sur-quelle-chaine-et-a-quelle-heure-voir-la-18e-edition-de-la-course-3441738.html",
+        "resume": "Deuxième plus grand marathon de France en nombre de participants, le Marathon des Alpes-Maritimes Nice-Cannes réunit 25 000 coureurs. ICI Provence-Alpes-Côte d’Azur, diffuseur officiel, propose, ce dimanche 8 novembre, plus de trois heures de direct sur ses antennes télé et numériques.",
+        "heure": "2026-11-04T09:56:12.000Z"
+      },
+      {
+        "titre": "Ce week-end dans les Alpes-Maritimes : marathon légendaire, concert d'adieux de Thiefaine et 7 autres idées sorties à ne pas manquer du 6 au 8 novembre 2026",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVDNZNlVnSGNWV0wwUEpEZmVzLTFQXzFXdERrX1ZFQlJTNjdxLW44b1hiQ1pOcGlDVWtqTkM3VGlNdTlfNEJ2NzBqVmczRXN2WW9PV3c4UzBOVFF1clphTDhoSUpCUXJsZHA0aUFCdV9mUTVMQUNwZW8zd21kS2FOMkswdlF0X2xoSUprYlFQN19VbExnQkJ5X2ZXb05TWjE4bWFZTHpONXZVdkhaSmFPN1BRQkFHRVpjZjZxXzFiSGM0Rk9iOGgydmEyNWFaNjhSbVBHd0lLYnk?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T10:02:27.000Z"
+      },
+      {
+        "titre": "Humour à La Trinité, salon gourmand à Cagnes, châtaignes à Isola et théâtre à Carros : notre sélection sorties pour ce week-end des 6, 7 et 8 novembre dans les Alpes-Maritimes",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOV2ZmWDZQR3lLekRwWTBJUmROSS1IRzlLZFBmSmo0X2cwQzdDZkVVYXRZcDVLbEZLVzhSenVuLTJ6ZHJvTnJpN0VRSW9DNEstMVFVRXA4eG5VRkFBTUhuRXpMWW9vSnl5ZlJKcXlNMTBJOHVWYjFkakFvVG80cmNfbC1KTGZGWEpUUDBtVWhjV0E5Q1ZuMkFpck45aXYzb3h2cHdxSm1ZNGpHRld3QTNSSEhOV0ktOHB6SXJfQk9RYUlJV0RGb2hXUktCNE4teDZ1bGM3dE1TUURCOVhfbzhpRnlYMEFnZmFEU3ZEeG5EclViWGNWRmtkQ09EZlJOelF5SXZuRWdUaEgweGZPbmdTbkFmaGlYdmRTZWFyVm43QklwZFJlSTdqZ2RRR0F4LTRWbnNhekVzaHI?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:30:00.000Z"
+      },
+      {
+        "titre": "Ce week-end à Cannes, 8 sorties à ne pas rater du 6 au 8 novembre : concert d'adieux, fête de la châtaigne à Antibes et croisière vers les îles de Lérins",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEdxd3ExS3VuTEFpS0haQ3hUQXAzR24tb0pscm5jdHFnZUlYRkRvUTBBa00tWlp2a0pUTTZ4V296OXBWNVdXQmhHdTRtQkFzcV9meV9pbURyeE1wdWFRV25HQ191UmxhWDM4LUlhZXVMVFhna2tDM3JsTDdrUDQ0akx0MGV4RlN6VFZRd25lNzFYZjJoRm5MMEZxTnJ5ckZ5T0dqSDhNUExYaVpDTmNLdGxNTlM5RWEzYk55YWcyaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T05:00:27.000Z"
+      },
+      {
+        "titre": "« Un capitaine, un homme droit, un élu de terrain » : en hommage à cet ancien adjoint, une salle de la mairie porte son nom dans cette commune du Var",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/societe/vie-locale/un-capitaine-un-homme-droit-un-elu-de-terrain-en-hommage-a-cet-ancien-adjoint-une-salle-de-la-mairie-porte-son-nom-dans-cette-commune-du-var-10756135",
+        "resume": "La salle d’exposition du rez-de-chaussée de la mairie de Garéoult portera désormais le nom de celui qui fut plusieurs années élu de la commune et engagé dans le tissu associatif local.",
+        "heure": "2026-11-09T13:00:03.000Z"
+      },
+      {
+        "titre": "Lando Norris (McLaren) remporte avec brio le Grand Prix du Brésil, Charles Leclerc (Ferrari) hors du top 5",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/f1/lando-norris-mclaren-remporte-avec-brio-le-grand-prix-du-bresil-charles-leclerc-ferrari-hors-du-top-5-10756365",
+        "resume": "Comme souvent, le circuit d’Interlagos a accouché d’une course mouvementée, ce dimanche à Sao Paulo. Parti de la pole position, le champion du monde 2025 est parvenu à éviter les embûches. Pénalisé de 10 places sur la grille, le pilote monégasque de la Scuderia Ferrari doit se contenter des quatre points de la 7e place.",
+        "heure": "2026-11-08T19:37:31.000Z"
+      },
+      {
+        "titre": "Abline à côté de son sujet, Coulibaly et Detourbet remuants... Les notes des Monégasques après le nul au Mans (1-1)",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/football/abline-a-cote-de-son-sujet-coulibaly-et-detourbet-remuants-les-notes-des-monegasques-apres-le-nul-au-mans-1-1-10756398",
+        "resume": "Rayonnant et facile en défense centrale, après avoir soufflé jeudi en coupe d’Europe, le Sénégalais a impressionné. Mais il s’est fait prendre par la vivacité de Colas sur le but du Mans en fin de match (1-1). Et l’AS Monaco a concédé un cinquième match d’affilée sans victoire en L1, ce dimanche.",
+        "heure": "2026-11-08T19:24:13.000Z"
+      },
+      {
+        "titre": "\"L'objectif est de faire avancer la recherche\" : une jeune Lyonnaise va courir un marathon pour rendre hommage à son amie décédée d'une tumeur au cerveau",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/l-objectif-est-de-faire-avancer-la-recherche-une-jeune-lyonnaise-va-courir-un-marathon-pour-rendre-hommage-a-son-amie-decedee-d-une-tumeur-au-cerveau-3445245.html",
+        "resume": "Elise Martin sera alignée ce dimanche 8 novembre au départ du marathon des Alpes-Maritimes, aux côtés des proches d'Alexia, son amie emportée par une tumeur au cerveau en juin dernier.",
+        "heure": "2026-11-07T16:02:09.000Z"
+      },
+      {
+        "titre": "Festival OVNi : l'art vidéo devient une biennale sur la Côte d'Azur",
+        "source": "Presse Agence",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY1J3X0JFb2xmejR4czQxa0FNM1ZLUHc0N1lxb2YzUDAwTzFKUlBka08xa2lNeFVpNlZrM0MyWkNkX2FQUzA5TDhfS1BHN0dQOWJTNGtWM3BnNXhPd1pyWGVOS1JCeFBYRGJ1aVctcmM2alB5cWlCZ3BtSXZRZURhNk95eWNyRV9sNXJJX3ZnbzhJaGpra2NKWEtydzBiNmxCUms4?oc=5",
+        "resume": "",
+        "heure": "2026-11-08T00:00:00.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/sorties/2026/11/09/agenda-semaine/"
+  },
+  {
+    "id": "2026-11-09-en-hebdo-economie",
+    "lang": "en",
+    "date": "2026-11-09",
+    "section": "Business",
+    "rubrique": "The week",
+    "emoji": "💼",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Camille Rostand",
+    "titre": "The week in business: the key stories, 3 to 9 November",
+    "chapo": "10 stories from 6 news outlets over seven days. In this round-up: “AI stocks climb after trillions wiped from market values”, “What we know so far about Jensen Huang’s affair with suspected Chinese spy” and “Government’s EV targets expected to be reduced this week”.",
+    "corps": [
+      "From 3 November to 9 November, our newsroom followed the news in business through reporting by BBC News, BBC, Chronicle Live, The Washington Post, Fox Business and Dallas News. Here are the stories that marked the week.",
+      "Leading the week, “AI stocks climb after trillions wiped from market values”, BBC News reported on Friday. It added: “Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.” The story was also covered by BBC.",
+      "Another major story: “What we know so far about Jensen Huang’s affair with suspected Chinese spy”, BBC News reported on Monday. From the article: “The billionaire tech executive finds himself mired in a personal and national security scandal.”",
+      "Elsewhere, “Government’s EV targets expected to be reduced this week”, BBC News reported on Monday. It added: “New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.”",
+      "Meanwhile, “North East mayor leads efforts to find Northern 500 companies to boost economy”, Chronicle Live reported on Saturday.",
+      "Also this week, “Why investors are dumping AI company stocks after Democrats’ election sweep”, The Washington Post reported on Saturday.",
+      "Worth noting, “Companies urged to adapt as restaurant franchisee files for bankruptcy: 'Businesses want to make excuses'”, Fox Business reported on Friday.",
+      "Finally, “Texas businesses watch and wait after Democratic wave”, Dallas News reported on Friday.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "BBC News",
+      "BBC",
+      "Chronicle Live",
+      "The Washington Post",
+      "Fox Business",
+      "Dallas News"
+    ],
+    "liens": [
+      {
+        "titre": "AI stocks climb after trillions wiped from market values",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+        "resume": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+        "heure": "2026-11-06T21:06:25.000Z"
+      },
+      {
+        "titre": "AI stocks climb after trillions wiped from market values",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jeVQteWVQUFcyaF9zVVVpUjBLRnhBRmFQNVVQM29sQXNaRGI4Ty1IcFBhbVZVa0p4aHJZX3lVWmVaRXdzUm1GajF3bVRaal9qbldGSzZMcFVIM2xUSnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T15:04:46.000Z"
+      },
+      {
+        "titre": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+        "resume": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+        "heure": "2026-11-09T13:10:32.000Z"
+      },
+      {
+        "titre": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+        "resume": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
+        "heure": "2026-11-09T08:10:25.000Z"
+      },
+      {
+        "titre": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+        "resume": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
+        "heure": "2026-11-09T07:10:11.000Z"
+      },
+      {
+        "titre": "Government's EV targets expected to be reduced this week",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
+        "resume": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
+        "heure": "2026-11-09T12:06:22.000Z"
+      },
+      {
+        "titre": "North East mayor leads efforts to find Northern 500 companies to boost economy",
+        "source": "Chronicle Live",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbE55T1MyQVFfd1JxOGRSUC1VTTR5U1JOcTFHN2ZfOE44ZUhQUUxaUjdYajl4MDVUNDc5TmV4OEx6QmdoR3JNUzhBcy1PSTM2U3FPakxnVS05czVvNHdUOVlQTWJsMDZhc25BQ2xJWmE0cGhNRS1Tb0hiSVgxMlFxeldmdlAzZENENmV1ZjVFN25Ncmc2SUk00gGcAUFVX3lxTFBkRThWYU95TkR1TWlQaExRQTZpV0ctQVpWVVJ3TVh5NVVmM25teXFNc0hqOHZGUThmVTRCNDdaM080THgtazlEZmpHcHZ5RFpFVHcxUnlSRFB2YUM4bFJicXJfeFFQWGJfUnYyNEh0ZzdPYU8tay1SV1k2aV83MW9GYmRaSmw4MnVzNW44ZDJGVFdQcU8tTlVFeWJ0Tg?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T11:15:00.000Z"
+      },
+      {
+        "titre": "Why investors are dumping AI company stocks after Democrats’ election sweep",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeHBQalQ0UlBpeEtqdmZBTlJpQTJtaVNlV1B4Zm45UnV3Q0R4VWl6MXF6U1RfZDRUSXBLQU5YWWFma0xxMnJ5OXpiRVliTFlELVoxZEZiWGFmbm8xNlJvTkJBdlZCTlY0RzlOTVNZNFp2UU1qTnFsalotZmZPcE5YbVktcm9URUNUN0dSN2draU5EYU81ekl1ZTZCOGZoZFRmVDI0NDlON2k1ZEREMEdyaWJsaHZyLTU5QWhNNnJ6bWE5U3BU?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T07:02:04.000Z"
+      },
+      {
+        "titre": "Companies urged to adapt as restaurant franchisee files for bankruptcy: 'Businesses want to make excuses'",
+        "source": "Fox Business",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNejZLZjRWU0NxWnVxNUJDS0hRRl9kakVsQUlYazNaelNRZlNWMzNhTHIxcU12a2VjMWtDTXFuNjVETUtXS1lJNUp1LTZkUXdVR1FzNnZYVmw0WDNlajlpaVhDd0ZRbnUxbkpnUWxlU0xjMGNYUFNmdFNYZ2RQazhMUUZxekxpM1VINjgzYmJnOVoxM2ZqdkY3OHF0Y0MyQzVRelRaTklvMWJsLTV4NkxMb0lzbEwwOTB3QzA3R2ZaN1FhRmvSAcgBQVVfeXFMTmFZbUlubVRSNXk4SVoxWGM4QnZVbm5LbGhvNHBXMThNRkxwVlQyTWRIczh5NTZWX3dUa2t3QUlndnFKLXkzQ0N0TWYyYW5zQnhMT0wxNDRHdlhIVGVvR3I2NmNxQ1RKal9yaDVxN0I1dGVXUF9YMzFDSFdPWGhiakJrU19HdjFWR0xHUnNZb2dVTnJkVWc4SmctQXdWczQ3Q05CYXpvc0dFTHBFcDFCMHlsVzV1NFBiTFpzYTloM25JNlZ4RFFuVVU?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T22:58:00.000Z"
+      },
+      {
+        "titre": "Texas businesses watch and wait after Democratic wave",
+        "source": "Dallas News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWjk1alBINWwxNU1QWUZyaGZnTDJfX1AxSzBYVWlPMDBzeXBXYmpBeEVxT0MzcHFERFVyMHFWTlJES2hGaDBCSWNCaXV3VFFVeml4UEF3SXJ4MFU5ZXlPd2dHcVVITG1DbDJEV3QxTFhsTzRkMG93Tk9WZ0llSFJGNXpEY3JRLXI2cDlkdFVfNDRTX0U3S1hnaERZSDE2RVE2NUlZQ3NORzFfMTE5?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T12:05:24.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/en/business/2026/11/09/hebdo-economie/"
+  },
+  {
+    "id": "2026-11-09-hebdo-economie",
+    "lang": "fr",
+    "date": "2026-11-09",
+    "section": "Business",
+    "rubrique": "La semaine",
+    "emoji": "💼",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Camille Rostand",
+    "titre": "La semaine économique en 7 sujets, du 3 au 9 novembre",
+    "chapo": "20 informations publiées par 4 médias en sept jours. Au programme : « Le gouvernement annonce une augmentation du smic de 1,6% dès le 1er décembre, pour le porter à 1 502 euros », « Les prix de l’électricité pour les particuliers « seront stables jusqu’au 1ᵉʳ février au moins », selon le PDG d’EDF » et « A bord du « TGV nouvelle génération », entre Paris et Marseille : un train repensé de A à Z, à la capacité accrue et moins gourmand en énergie ».",
+    "corps": [
+      "Du 3 novembre au 9 novembre, la rédaction a suivi l’actualité économique à travers les publications de franceinfo, Le Monde, Les Echos et BFM. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « Le gouvernement annonce une augmentation du smic de 1,6% dès le 1er décembre, pour le porter à 1 502 euros », titrait franceinfo lundi. Le média précise : « Le salaire minimum va augmenter de près de 24 euros par mois, a déclaré lundi le ministre du Travail, Jean-Pierre Farandou, à l’issue d’une conférence sociale avec les syndicats et le patronat. » Le sujet a également été traité par Le Monde et Les Echos.",
+      "Autre sujet marquant, « Les prix de l’électricité pour les particuliers « seront stables jusqu’au 1ᵉʳ février au moins », selon le PDG d’EDF », titrait Le Monde samedi. Le média précise : « Le 7 octobre, le premier ministre, Sébastien Lecornu, avait déclaré que le prix de l’électricité ne « devait pas augmenter cet hiver ». » Le sujet a également été traité par franceinfo.",
+      "Dans un autre registre, « A bord du « TGV nouvelle génération », entre Paris et Marseille : un train repensé de A à Z, à la capacité accrue et moins gourmand en énergie », titrait Le Monde vendredi. Le média précise : « Livré par Alstom à la SNCF avec plus de deux ans de retard, il a effectué son voyage inaugural vendredi. »",
+      "Par ailleurs, « Surfréquentation à Chamonix : vers l’instauration de quotas touristiques, une première dans les Alpes », titrait Le Monde vendredi. Le média précise : « L’accès au lac Blanc et aux lacs des Chéserys, offrant une vue imprenable sur le massif du Mont-Blanc, devrait être soumis à une réservation obligatoire, avec des jauges de 600 à 1 000 personnes, à partir de l’été 2027, sur le modèle en place dans les… »",
+      "Toujours cette semaine, « Voitures électriques : les tarifs des assurances ont bondi de 45 % en deux ans », titrait franceinfo lundi. On peut y lire : « Les voitures électriques coûtent désormais plus cher à assurer que les modèles essence ou diesel. »",
+      "À noter également, « Une intersyndicale de la fonction publique appelle à la grève le 17 novembre », titrait franceinfo lundi. On peut y lire : « La deuxième force syndicale dans la fonction publique, Force ouvrière, ainsi que la troisième, la CFDT, ne figurent pas, pour l’heure, parmi les organisations signataires de cet appel. »",
+      "Enfin, « Rencontres de l’Avenir : \"donner du temps\" aux entreprises pour relancer l’économie française », titrait BFM samedi.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "franceinfo",
+      "Le Monde",
+      "Les Echos",
+      "BFM"
+    ],
+    "liens": [
+      {
+        "titre": "Le gouvernement annonce une augmentation du smic de 1,6% dès le 1er décembre, pour le porter à 1 502 euros",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/la-deuxieme-hausse-la-plus-importante-en-20-ans-le-gouvernement-annonce-une-augmentation-du-smic-de-1-6-des-le-1er-decembre_8274524.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Le salaire minimum va augmenter de près de 24 euros par mois, a déclaré lundi le ministre du Travail, Jean-Pierre Farandou, à l'issue d'une conférence sociale avec les syndicats et le patronat.",
+        "heure": "2026-11-09T13:26:37.000Z"
+      },
+      {
+        "titre": "SMIC : une hausse à 1 502 euros net dès le 1er décembre, les syndicats réclament davantage",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/pouvoir-achat/smic-une-hausse-a-1-502-euros-net-des-le-1er-decembre-les-syndicats-reclament-davantage_8274533.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Le SMIC va être revalorisé à 1 502 euros net par mois dès le 1er décembre 2026. Une hausse anticipée de 75 euros sur l'année, qui ne satisfait pas les syndicats, lesquels réclament un coup de pouce plus important. Employeurs et salariés s'interrogent également sur les conséquences de cette augmentation.",
+        "heure": "2026-11-09T12:34:27.000Z"
+      },
+      {
+        "titre": "EN DIRECT, conférence sociale : le gouvernement annonce une hausse du smic de 1,6 % à partir du 1ᵉʳ décembre ; la CGT dénonce « des miettes » et appelle à une nouvelle journée de grève, le 17 novembre",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/live/2026/11/09/en-direct-conference-sociale-jean-pierre-farandou-annonce-une-hausse-du-smic-de-1-6-au-1er-decembre_6808627_823448.html",
+        "resume": "Alors que Sébastien Lecornu a défendu « la deuxième hausse la plus importante en vingt ans » du smic, la CGT a jugé la proposition insuffisante, tout comme la CFDT. Quant à l’absence de mesures pour les fonctionnaires, le premier ministre a renvoyé à la session de négociation de l’après-midi.",
+        "heure": "2026-11-09T11:38:48.000Z"
+      },
+      {
+        "titre": "Conférence sociale : Sébastien Lecornu tiraillé entre hausse des salaires et préservation de l’emploi",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/09/conference-sociale-sebastien-lecornu-tiraille-entre-hausse-des-salaires-et-preservation-de-l-emploi_6808625_823448.html",
+        "resume": "Le premier ministre, qui devait recevoir les principales organisations d’employeurs et de salariés du secteur privé, lundi 9 novembre, va tenter de dénouer un dialogue social miné par la crise.",
+        "heure": "2026-11-09T08:02:26.000Z"
+      },
+      {
+        "titre": "Conférence sociale : pourquoi les entreprises françaises auront du mal à augmenter les salaires sans croissance",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/09/sans-croissance-les-entreprises-francaises-peineront-a-augmenter-les-salaires-auxquels-elles-consacrent-deja-une-large-part-de-leur-richesse_6808603_3234.html",
+        "resume": "La rémunération du travail sera au cœur des discussions de la conférence sociale qui s’ouvre lundi 9 novembre à Matignon. Pour les entreprises fragilisées par les difficultés économiques, une hausse des salaires risque de se traduire par une baisse des marges, déjà faibles.",
+        "heure": "2026-11-09T04:45:08.000Z"
+      },
+      {
+        "titre": "Conférence sociale du 9 novembre : des annonces décisives à la clé ?",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/pouvoir-achat/conference-sociale-du-9-novembre-des-annonces-decisives-a-la-cle_8273687.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Le Premier ministre recevra lundi 9 novembre les partenaires sociaux pour une conférence sociale à Matignon. La question du pouvoir d’achat, et notamment du SMIC et des salaires, sera au cœur des discussions.",
+        "heure": "2026-11-08T19:18:22.000Z"
+      },
+      {
+        "titre": "Possible augmentation du SMIC lors de la conférence sociale : \"22 euros, c'est 73 centimes par jour\", rappelle Rokhaya Diallo, la directrice de publication de Politis",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/replay-magazine/franceinfo/avant-le-20h/possible-augmentation-du-smic-lors-de-la-conference-sociale-22-euros-c-est-73-centimes-par-jour-rappelle-rokhaya-diallo-la-directrice-de-publication-de-politis_8273666.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Les invités du \"Duel\" du dimanche 8 novembre, Rokhaya Diallo, directrice de publication de Politis et éditorialiste au Guardian, et Charles Sapin, directeur adjoint de la rédaction de \"Valeurs Actuelles\", confrontent leurs points de vue sur des thèmes d'actualité. Selon le second, augmenter le SMIC de 100 euros serait \"une catastrophe économique\". Rokhaya Diallo, elle, prédit des effets \"sur la consommation et possiblement sur la productivité\".",
+        "heure": "2026-11-08T19:03:46.000Z"
+      },
+      {
+        "titre": "\"Conférence sociale\" du 9 novembre : quelles sont les mesures souhaitées par les Français pour le pouvoir d'achat ?",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/pouvoir-achat/conference-sociale-du-9-novembre-quelles-sont-les-mesures-souhaitees-par-les-francais-pour-le-pouvoir-d-achat_8273360.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Sébastien Lecornu recevra à Matignon les organisations syndicales et le patronat lundi 9 novembre pour une \"conférence sociale\". Le premier ministre s'est engagé à apporter des réponses aux questions de pouvoir d’achat et de salaires. Quelles seraient les mesures les plus urgentes ? France Télévisions a posé la question aux Français.",
+        "heure": "2026-11-08T14:11:46.000Z"
+      },
+      {
+        "titre": "En dessous de 1 700 euros net, toute revalorisation du Smic équivaudrait à \"des miettes accordées par des gens qui ont distribué des milliards aux plus riches\", déclare le député LFI Antoine Léaument",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/entreprises/en-dessous-de-1-700-euros-net-toute-revalorisation-du-smic-equivaudrait-a-des-miettes-accordees-par-des-gens-qui-ont-distribues-des-milliards-aux-plus-riches-declare-le-depute-lfi-antoine-leaument_8273108.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Le député La France insoumise de l'Essonne affirme que \"ce qui s'est passé dans les années précédentes avec Emmanuel Macron, c'est un appauvrissement généralisé de la population.\"",
+        "heure": "2026-11-08T08:49:59.000Z"
+      },
+      {
+        "titre": "DIRECT. Mobilisation du 7 novembre : suivez avec nous cette nouvelle journée de manifestations",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-7-novembre-suivez-avec-nous-cette-nouvelle-journee-de-manifestations_8272010.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "De nouvelles manifestations sont prévues samedi sous haute sécurité, deux jours après une mobilisation nationale de grande ampleur à l'appel des syndicats.",
+        "heure": "2026-11-07T11:21:05.000Z"
+      },
+      {
+        "titre": "Pourquoi personne ne semble satisfait de l’augmentation du SMIC ? Comprendre en trois minutes",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/comprendre-en-3-minutes/video/2026/11/07/pourquoi-personne-ne-semble-satisfait-de-l-augmentation-du-smic-comprendre-en-trois-minutes_6808237_6176282.html",
+        "resume": "Depuis 2017, le salaire minimum a augmenté de plus de 28 % en France. Mais cette hausse, qui correspond aux 14 revalorisations automatiques du SMIC, a en réalité suivi l’inflation sans véritable gain de pouvoir d’achat pour les salariés concernés.",
+        "heure": "2026-11-07T05:00:17.000Z"
+      },
+      {
+        "titre": "EN DIRECT, grève du 5 novembre : entre 575 000 et 1,6 million de manifestants en France jeudi, une « conférence sociale » avec les syndicats et le patronat prévue à Matignon lundi",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/live/2026/11/05/en-direct-greve-du-5-novembre-pres-de-600-000-manifestants-en-france-ce-jeudi-selon-une-estimation-provisoire-du-ministere-de-l-interieur_6806775_823448.html",
+        "resume": "La CGT estime que les mobilisations ont réuni près de 1,6 million de personnes, dont 350 000 à Paris. De son côté, le ministère de l’intérieur a évalué à 575 000 le nombre de manifestants en France, dont 65 000 dans la capitale.",
+        "heure": "2026-11-05T08:00:00Z"
+      },
+      {
+        "titre": "SMIC : le projet de décret du gouvernement pour forcer les entreprises à négocier sur les salaires",
+        "source": "Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbVZHU25MQlZEQkx3TTVUdnJfY0d3eGhSRkg3US15MlRxM1VBc0FUUUZacWtncnM4OUFjaXItcDNjODhRVHRUd0RxOUZSWjhXaDhxNS0yVjFSelk0SUo2UUhxSVQxaURvNWUyN0JWb1M2MU1WWW1YQURrRGs2NUpNbW9ueTVjX2JBTjNsTXBvUFQ5YXNRbm1MUFk0ZENhLUM5eE91QTlyanR1Tk8tM2J1SnlKTWJpUmQ1THVPbkxBbmNKbFNBYnVKam1TdjJLYW9TVXZhaks1SkNsWU96ekhJeHQzOVJXZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T12:46:32.000Z"
+      },
+      {
+        "titre": "Les prix de l’électricité pour les particuliers « seront stables jusqu’au 1ᵉʳ février au moins », selon le PDG d’EDF",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/07/les-prix-de-l-electricite-pour-les-particuliers-seront-stables-jusqu-au-1-fevrier-au-moins-selon-le-pdg-d-edf_6808283_3234.html",
+        "resume": "Le 7 octobre, le premier ministre, Sébastien Lecornu, avait déclaré que le prix de l’électricité ne « devait pas augmenter cet hiver ».",
+        "heure": "2026-11-07T14:13:19.000Z"
+      },
+      {
+        "titre": "Les prix de l'électricité \"sont et seront stables pour la quasi-totalité de nos offres jusqu'au 1er février au moins\", promet le PDG d'EDF",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/environnement/energie/les-prix-de-l-electricite-sont-et-seront-stables-pour-la-quasi-totalite-de-nos-offres-jusqu-au-1er-fevrier-au-moins-promet-le-pdg-d-edf_8272361.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Bernard Fontana affirme que cette stabilité des prix pourrait même se poursuivre \"jusqu'à la fin de l'hiver\", mais qu'en février la \"clause de revoyure sur le tarif réglementé\" oblige à revoir les tarifs.",
+        "heure": "2026-11-07T13:22:30.000Z"
+      },
+      {
+        "titre": "A bord du « TGV nouvelle génération », entre Paris et Marseille : un train repensé de A à Z, à la capacité accrue et moins gourmand en énergie",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/06/a-bord-du-tgv-nouvelle-generation-entre-paris-et-marseille-un-train-repense-de-a-a-z-a-la-capacite-accrue-et-moins-gourmand-en-energie_6807856_3234.html",
+        "resume": "Livré par Alstom à la SNCF avec plus de deux ans de retard, il a effectué son voyage inaugural vendredi. Il remplacera progressivement les plus vieilles unités de la flotte.",
+        "heure": "2026-11-06T19:23:08.000Z"
+      },
+      {
+        "titre": "Surfréquentation à Chamonix : vers l’instauration de quotas touristiques, une première dans les Alpes",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/planete/article/2026/11/06/surfrequentation-a-chamonix-vers-l-instauration-de-quotas-touristiques-une-premiere-dans-les-alpes_6807854_3244.html",
+        "resume": "L’accès au lac Blanc et aux lacs des Chéserys, offrant une vue imprenable sur le massif du Mont-Blanc, devrait être soumis à une réservation obligatoire, avec des jauges de 600 à 1 000 personnes, à partir de l’été 2027, sur le modèle en place dans les calanques de Marseille.",
+        "heure": "2026-11-06T18:30:06.000Z"
+      },
+      {
+        "titre": "Voitures électriques : les tarifs des assurances ont bondi de 45 % en deux ans",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/automobile/voitures-electriques-les-tarifs-des-assurances-ont-bondi-de-45-en-deux-ans_8274569.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "Les voitures électriques coûtent désormais plus cher à assurer que les modèles essence ou diesel. En moyenne, il faut débourser 818 euros par an pour une assurance, contre 753 euros pour une voiture essence. En deux ans, les tarifs ont bondi de 45 %. Des automobilistes témoignent et des professionnels expliquent comment réduire la facture.",
+        "heure": "2026-11-09T13:13:02.000Z"
+      },
+      {
+        "titre": "Une intersyndicale de la fonction publique appelle à la grève le 17 novembre",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/greve/une-intersyndicale-de-la-fonction-publique-appelle-a-la-greve-le-17-novembre_8274494.html#xtor=RSS-3-%5Bgeneral%5D",
+        "resume": "La deuxième force syndicale dans la fonction publique, Force ouvrière, ainsi que la troisième, la CFDT, ne figurent pas, pour l'heure, parmi les organisations signataires de cet appel.",
+        "heure": "2026-11-09T13:05:10.000Z"
+      },
+      {
+        "titre": "Rencontres de l’Avenir : \"donner du temps\" aux entreprises pour relancer l’économie française",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTk9Xd0VyMU5GdG96OGRZWlVCWGZUZmNwR1JqSHBaeVJUc0JpcEVrMUdaalk1eng2cHZjRWV1azFHNS1ZSmxOdnRDa3Z5S2pmQ2d5OHVPYmVYX2dyWUhma0dUNjJUMTJMTmFmeVkzYndYdWhwSzJFMU50WWxIX3F4LVBwVFBadV9mVFc1VTlRTTdFUW1TWDBCbUNJR1p2c3RUbEUwbXV1NEFRcENPdXZMMm5Fbl9lejZHMFpWRlJnSVZsNThsVmxIY29iUVRrc0FpSUljbTlRZHFjRDcycGJiSUxpR3VkeUczUGNUZFBR?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T10:48:48.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/economie/2026/11/09/hebdo-economie/"
+  },
+  {
     "id": "2026-11-09-actu-business",
     "lang": "fr",
     "date": "2026-11-09",
