@@ -5,9 +5,27 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Mon, 09 Nov 2026 14:22:05 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 14:22:51 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>L’agenda de la semaine sur la Côte d’Azur, du 9 au 15 novembre</title>
+    <link>https://echodesanges.fr/sorties/2026/11/09/agenda-semaine/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/sorties/2026/11/09/agenda-semaine/</guid>
+    <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Sorties</category>
+    <description>7 rendez-vous et idées de sorties repérés dans l’actualité, de Nice à Monaco.</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-5.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>La semaine économique en 7 sujets, du 3 au 9 novembre</title>
+    <link>https://echodesanges.fr/economie/2026/11/09/hebdo-economie/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/11/09/hebdo-economie/</guid>
+    <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>20 informations publiées par 4 médias en sept jours. Au programme : « Le gouvernement annonce une augmentation du smic de 1,6% dès le 1er décembre, pour…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-5.jpg" medium="image"/>
+  </item>
   <item>
     <title>Discothèques : sur la Côte d’Azur, les fermetures administratives rythment la nuit depuis 2019</title>
     <link>https://echodesanges.fr/sorties/2026/11/09/cote-d-azur-fermetures-discotheques-bilan-2026/</link>
@@ -429,24 +447,6 @@
     <category>Nice &amp; Côte d'Azur</category>
     <description>Arrivé d’Argentine en 2001, il a ouvert sa table au-dessus de la Méditerranée en 2006. Le Mirazur fête ses 20 ans avec un menu conçu avec Ferran Adrià…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/portrait-mauro-colagreco-mirazur-20-ans.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Data centers sobres pour l’IA : le niçois Datagreen s’installe à Monaco avec Telis</title>
-    <link>https://echodesanges.fr/tech/2026/03/18/datagreen-data-centers-monaco-telis/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/03/18/datagreen-data-centers-monaco-telis/</guid>
-    <pubDate>Wed, 18 Mar 2026 07:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Distinguée au CES de Las Vegas, la start-up fondée en 2024 déploie ses premiers centres de données en Principauté et prépare une première levée de fonds…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/datagreen-data-centers-monaco-telis.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Jessica Sbaraglia, la Suissesse qui a fait pousser des potagers sur les toits de Monaco</title>
-    <link>https://echodesanges.fr/economie/2026/03/16/jessica-sbaraglia-terrae-maraichere-monaco-portrait/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/03/16/jessica-sbaraglia-terrae-maraichere-monaco-portrait/</guid>
-    <pubDate>Mon, 16 Mar 2026 07:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Fondatrice de Terre de Monaco, devenue Terrae, elle cultive depuis 2016 des légumes dans la Principauté. Monaco Telecom vient de renouveler pour la…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-azur-2.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
