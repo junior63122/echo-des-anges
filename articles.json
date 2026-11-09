@@ -551,17 +551,7 @@
       "Euro banknotes",
       "Hôtel de Matignon",
       "Paris office workers"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-business.jpg",
-      "credit": "Арман Акопян / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Logo_smic_aerospace.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-09-actu-culture",
@@ -600,17 +590,7 @@
       "France Culture Maison de la Radio",
       "Radio microphone studio",
       "Bibliothèque philosophie livres"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-culture.jpg",
-      "credit": "Benoît Prieur / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Maison_de_la_culture_arm%C3%A9nienne_de_Villeurbanne_en_mai_2020.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-09-actu-evenementiel",
@@ -649,17 +629,7 @@
       "Human remains museum restitution",
       "Muséum national d'histoire naturelle Paris",
       "Assemblée nationale Palais Bourbon"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-evenementiel.jpg",
-      "credit": "Vassil / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_Quai_Branly_Coupe-noix_d%27arec_Inde_04032012_4.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-09-actu-finance",
@@ -898,17 +868,7 @@
       "Judo Paris 2024 Olympics",
       "Palais de l'Élysée",
       "Judo tatami"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-sport.jpg",
-      "credit": "Nicolas Richoffer / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Teddy_Riner_2010.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-09-actu-tech",
@@ -947,17 +907,7 @@
       "Assemblée nationale hémicycle",
       "Cybersecurity padlock",
       "ANSSI Paris"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-tech.jpg",
-      "credit": "Sunala / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_Nationale_-_H%C3%A9micycle.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-09-en-actu-business",
@@ -990,17 +940,7 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/business/2026/11/09/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-business.jpg",
-      "credit": "Арман Акопян / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Logo_smic_aerospace.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2026/11/09/press-review/"
   },
   {
     "id": "2026-11-09-en-actu-evenementiel",
@@ -1033,17 +973,7 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/events/2026/11/09/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-evenementiel.jpg",
-      "credit": "Vassil / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_Quai_Branly_Coupe-noix_d%27arec_Inde_04032012_4.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/events/2026/11/09/press-review/"
   },
   {
     "id": "2026-11-09-en-actu-monde",
@@ -1162,17 +1092,7 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/sport/2026/11/09/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-sport.jpg",
-      "credit": "Nicolas Richoffer / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Teddy_Riner_2010.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/sport/2026/11/09/press-review/"
   },
   {
     "id": "2026-11-09-en-actu-tech",
@@ -1198,17 +1118,7 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/tech/2026/11/09/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-09-actu-tech.jpg",
-      "credit": "Sunala / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_Nationale_-_H%C3%A9micycle.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/tech/2026/11/09/press-review/"
   },
   {
     "id": "2026-11-09-cote-d-azur-fermetures-discotheques-bilan-2026",
@@ -1262,17 +1172,7 @@
       "You Club Juan-les-Pins",
       "Juan-les-Pins night",
       "Nightclub dance floor lights"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-09-cote-d-azur-fermetures-discotheques-bilan-2026.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Nice_(i._e._Cannes),_janvier_1921,_Miss_Brown_(jouant_au_tennis_en_double_mixte_au_tournoi_du_Cannes-Club)_-_btv1b53053547g.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-09-en-cote-d-azur-fermetures-discotheques-bilan-2026",
@@ -1320,17 +1220,7 @@
         "url": "https://maire-info.com/2-000-discotheques-sur-4-000-ont-ferme-en-trente-ans-article2-17316"
       }
     ],
-    "chemin": "/en/going-out/2026/11/09/cote-d-azur-fermetures-discotheques-bilan-2026/",
-    "image": {
-      "src": "img/entreprises/2026-11-09-cote-d-azur-fermetures-discotheques-bilan-2026.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Nice_(i._e._Cannes),_janvier_1921,_Miss_Brown_(jouant_au_tennis_en_double_mixte_au_tournoi_du_Cannes-Club)_-_btv1b53053547g.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/going-out/2026/11/09/cote-d-azur-fermetures-discotheques-bilan-2026/"
   },
   {
     "id": "2026-11-08-actu-business",
@@ -1465,17 +1355,7 @@
       "César ceremony Olympia Paris",
       "Cinéma salle de projection",
       "Film clapperboard"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-culture.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Cin%C3%A9ma_Omnia_Path%C3%A9_(boulevard_Montmartre,_la_salle_de_projection)_-_btv1b6928028z.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-08-actu-evenementiel",
@@ -1514,17 +1394,7 @@
       "Anime Expo",
       "Japan Expo Paris",
       "Manga anime convention cosplay"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-evenementiel.jpg",
-      "credit": "Abzeronow / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Lauren_Moore_and_Curt_Richy_of_Crunchyroll_at_Anime_Boston_2023.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-08-actu-finance",
@@ -1628,17 +1498,7 @@
       "Cable laying ship",
       "Undersea cable landing station",
       "Baltic Sea"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-monde.jpg",
-      "credit": "Harry Robert Kempe (section author) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:EB1911_Telegraph_-_submarine_cable_-_tank_and_paying-out_apparatus.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-08-actu-nice-cote-d-azur",
@@ -1700,17 +1560,7 @@
       "Stade Raymond Kopa Angers",
       "Allianz Riviera Nice",
       "OGC Nice"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-nice-cote-d-azur.jpg",
-      "credit": "M. Mouchoir / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Stade_Jean_Bouin_Angers_2.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-08-actu-sorties",
@@ -2047,17 +1897,7 @@
       "Ocula",
       "Montecarlo Living"
     ],
-    "chemin": "/en/culture/2026/11/08/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-culture.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Cin%C3%A9ma_Omnia_Path%C3%A9_(boulevard_Montmartre,_la_salle_de_projection)_-_btv1b6928028z.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/culture/2026/11/08/press-review/"
   },
   {
     "id": "2026-11-08-en-actu-evenementiel",
@@ -2106,17 +1946,7 @@
       "Breaking Travel News",
       "IOL"
     ],
-    "chemin": "/en/events/2026/11/08/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-evenementiel.jpg",
-      "credit": "Abzeronow / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Lauren_Moore_and_Curt_Richy_of_Crunchyroll_at_Anime_Boston_2023.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/events/2026/11/08/press-review/"
   },
   {
     "id": "2026-11-08-en-actu-finance",
@@ -2240,17 +2070,7 @@
       "The Guardian",
       "Sky News"
     ],
-    "chemin": "/en/world/2026/11/08/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-monde.jpg",
-      "credit": "Harry Robert Kempe (section author) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:EB1911_Telegraph_-_submarine_cable_-_tank_and_paying-out_apparatus.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/world/2026/11/08/press-review/"
   },
   {
     "id": "2026-11-08-en-actu-nice-cote-d-azur",
@@ -2308,17 +2128,7 @@
       "MARCA",
       "Nice Premium"
     ],
-    "chemin": "/en/riviera/2026/11/08/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-08-actu-nice-cote-d-azur.jpg",
-      "credit": "M. Mouchoir / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Stade_Jean_Bouin_Angers_2.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/riviera/2026/11/08/press-review/"
   },
   {
     "id": "2026-11-08-en-actu-sorties",
@@ -2935,17 +2745,7 @@
       "Solar farm France",
       "Copper cables",
       "Solar panels field"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-07-actu-business.jpg",
-      "credit": "Joseolgon / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Photovoltaic_power_station_in_Vila_Nova_de_Famalic%C3%A3o_(1).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-07-actu-culture",
@@ -3202,17 +3002,7 @@
       "Turkey plastic waste",
       "Istanbul waste",
       "Garbage dump flooded"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-07-actu-monde.jpg",
-      "credit": "Becky Matsubara from El Sobrante, California / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Wild_Turkey_Chick_(18422270352).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-07-actu-nice-cote-d-azur",
@@ -3559,17 +3349,7 @@
       "Fox Business",
       "BBC News"
     ],
-    "chemin": "/en/business/2026/11/07/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-07-actu-business.jpg",
-      "credit": "Joseolgon / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Photovoltaic_power_station_in_Vila_Nova_de_Famalic%C3%A3o_(1).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-culture",
@@ -3811,17 +3591,7 @@
       "The Guardian",
       "Sky News"
     ],
-    "chemin": "/en/world/2026/11/07/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-07-actu-monde.jpg",
-      "credit": "Becky Matsubara from El Sobrante, California / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Wild_Turkey_Chick_(18422270352).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/world/2026/11/07/press-review/"
   },
   {
     "id": "2026-11-07-en-actu-nice-cote-d-azur",
@@ -4263,17 +4033,7 @@
       "La Malmaison Cannes",
       "Marathon Nice-Cannes Croisette",
       "Cannes Croisette"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-07-ce-week-end-marathon-nice-cannes-di-rosa-matisse.jpg",
-      "credit": "Tubantia / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Matisse_Nice.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-07-en-calendrier-hiver-2027-rallye-cirque-midem-mipim",
@@ -4451,17 +4211,7 @@
     ],
     "chemin": "/en/going-out/2026/11/07/ce-week-end-marathon-nice-cannes-di-rosa-matisse/",
     "heure": "2026-11-07T14:00:00+01:00",
-    "photo": false,
-    "image": {
-      "src": "img/entreprises/2026-11-07-ce-week-end-marathon-nice-cannes-di-rosa-matisse.jpg",
-      "credit": "Tubantia / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Matisse_Nice.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-en-fin-annee-culture-matisse-katz-brauner-belle-au-bois-dormant",
@@ -4595,17 +4345,7 @@
     ],
     "chemin": "/en/going-out/2026/11/07/marches-de-noel-2026-nice-cannes-monaco-dates/",
     "heure": "2026-11-07T14:30:00+01:00",
-    "photo": false,
-    "image": {
-      "src": "img/entreprises/2026-11-07-marches-de-noel-2026-nice-cannes-monaco-dates.jpg",
-      "credit": "Mtaylor848 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Christmas_lights_on_Market_Place,_Pontefract_(28th_November_2022).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "photo": false
   },
   {
     "id": "2026-11-07-en-portrait-agnes-costa-fragonard-centenaire",
@@ -4825,17 +4565,7 @@
       "Marché de Noël Cannes",
       "Marché de Noël Monaco port Hercule",
       "Christmas market lights"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-07-marches-de-noel-2026-nice-cannes-monaco-dates.jpg",
-      "credit": "Mtaylor848 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Christmas_lights_on_Market_Place,_Pontefract_(28th_November_2022).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-07-portrait-agnes-costa-fragonard-centenaire",
@@ -5381,17 +5111,7 @@
       "Hexagone Balard",
       "Military cyber defense",
       "Cyber defence France"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-06-actu-tech.jpg",
-      "credit": "Guilhem Vellut from Paris, France / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Hexagone_Balard_@_Ballon_de_Paris_@_Parc_Andr%C3%A9_Citro%C3%ABn_@_Paris_(28745446201).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-06-en-actu-business",
@@ -5850,17 +5570,7 @@
       "TechRound",
       "The Hacker News"
     ],
-    "chemin": "/en/tech/2026/11/06/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-06-actu-tech.jpg",
-      "credit": "Guilhem Vellut from Paris, France / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Hexagone_Balard_@_Ballon_de_Paris_@_Parc_Andr%C3%A9_Citro%C3%ABn_@_Paris_(28745446201).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/tech/2026/11/06/press-review/"
   },
   {
     "id": "2026-11-06-agression-a-l-ecole-clement-roassal-les-enseignants-en-greve",
@@ -6214,17 +5924,7 @@
       "Pont de la Var Nice Saint-Isidore",
       "Wastewater treatment plant",
       "Construction site excavator"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-06-grasse-nice-malaussene-terres-polluees-eaux-usees-et-dechets.jpg",
-      "credit": "Professorcornbread / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Newtown_Creek_Wastewater_Treatment_Plant_-_Looking_Up.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-06-le-sociologue-jean-claude-passeron-enfant-d-ascros-et-coaute",
@@ -6538,17 +6238,7 @@
       "Christmas tree lights",
       "Marché de Noël Strasbourg",
       "Christmas event stage"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-evenementiel.jpg",
-      "credit": "LoMit / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_Poland_2.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-05-actu-finance",
@@ -6603,17 +6293,7 @@
       "Gas stove burner",
       "Energy bills",
       "Power lines winter"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-finance.jpg",
-      "credit": "Lisafern / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Gas_stove_burner_flame.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-05-actu-monde",
@@ -6668,17 +6348,7 @@
       "Gavin Newsom",
       "California State Capitol Sacramento",
       "Death row prison cell"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-monde.jpg",
-      "credit": "Frank Schulenburg / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:San_Quentin_State_Prison.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-05-actu-nice-cote-d-azur",
@@ -6800,17 +6470,7 @@
       "LOSC Lille stadium",
       "Football referee",
       "Ligue de football professionnel Paris"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-sport.jpg",
-      "credit": "Pierre André Leclercq / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Villeneuve_d%27Ascq_Construction_du_Grand_Stade_Lille_M%C3%A9tropole_08-04-2012.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-05-actu-tech",
@@ -6865,17 +6525,7 @@
       "YouTube creator",
       "Video camera filming",
       "Content creator studio"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-tech.jpg",
-      "credit": "Lionel Allorge / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Batterie_de_Bois_d%27Arcy_-_Centre_national_de_la_cin%C3%A9matographie_2012_01.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-11-05-en-actu-business",
@@ -6987,17 +6637,7 @@
       "Arts Professional",
       "ARNnet"
     ],
-    "chemin": "/en/events/2026/11/05/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-evenementiel.jpg",
-      "credit": "LoMit / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_Poland_2.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/events/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-finance",
@@ -7049,17 +6689,7 @@
       "Yahoo Finance",
       "Moomoo"
     ],
-    "chemin": "/en/finance/2026/11/05/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-finance.jpg",
-      "credit": "Lisafern / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Gas_stove_burner_flame.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/finance/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-monde",
@@ -7108,17 +6738,7 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/world/2026/11/05/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-monde.jpg",
-      "credit": "Frank Schulenburg / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:San_Quentin_State_Prison.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/world/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-nice-cote-d-azur",
@@ -7214,17 +6834,7 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/sport/2026/11/05/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-sport.jpg",
-      "credit": "Pierre André Leclercq / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Villeneuve_d%27Ascq_Construction_du_Grand_Stade_Lille_M%C3%A9tropole_08-04-2012.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/sport/2026/11/05/press-review/"
   },
   {
     "id": "2026-11-05-en-actu-tech",
@@ -7273,17 +6883,7 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/tech/2026/11/05/press-review/",
-    "image": {
-      "src": "img/entreprises/2026-11-05-actu-tech.jpg",
-      "credit": "Lionel Allorge / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Batterie_de_Bois_d%27Arcy_-_Centre_national_de_la_cin%C3%A9matographie_2012_01.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/tech/2026/11/05/press-review/"
   },
   {
     "id": "2026-10-30-en-palmares-choiseul-sud-2026-jeunes-leaders",
@@ -9463,17 +9063,7 @@
         "url": "https://lebonbon.fr/nice/news/2000-drones-nice-hommage-victimes-14-juillet/"
       }
     ],
-    "chemin": "/en/archives/2026/nice-14-juillet-2026-dix-ans-attentat-drones-86-faisceaux/",
-    "image": {
-      "src": "img/entreprises/archive-2026-07-14-nice-14-juillet-2026-dix-ans-attentat-drones-86-faisceaux.jpg",
-      "credit": "Pangalau / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Brunei_Fireworks_%26_Drone_Light_Show_2024_18.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2026/nice-14-juillet-2026-dix-ans-attentat-drones-86-faisceaux/"
   },
   {
     "id": "archive-2026-07-14-nice-14-juillet-2026-dix-ans-attentat-drones-86-faisceaux",
@@ -9522,17 +9112,7 @@
       "Baie des Anges night",
       "Promenade des Anglais night",
       "Light beams night sky"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2026-07-14-nice-14-juillet-2026-dix-ans-attentat-drones-86-faisceaux.jpg",
-      "credit": "Pangalau / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Brunei_Fireworks_%26_Drone_Light_Show_2024_18.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2026-07-12-cannes-bal-des-fous-2026-pin-up-playboy-ouverture",
@@ -9954,17 +9534,7 @@
       "Artificial intelligence security",
       "Google Cloud data center",
       "AI chip processor"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2026-086-mandiant-l-ia-ouvre-de-nouvelles-surfaces-d-attaque.jpg",
-      "credit": "OSCE Parliamentary Assembly from Copenhagen, Denmark / Wikimedia Commons (CC BY-SA 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Session_I_of_2nd_Lisbon_Conference_of_the_OSCE_PA_on_%22Security_in_the_Age_of_Artificial_Intelligence%22_,_Lisbon,_20_May_2024_(53733687618).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2026-087-le-bulletin-d-actualite-du-cert-fr-numero-2026-act-023",
@@ -10000,17 +9570,7 @@
       "Vulnerability scan report",
       "Computer network cables",
       "Cyber threat map"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2026-087-le-bulletin-d-actualite-du-cert-fr-numero-2026-act-023.jpg",
-      "credit": "Phiarc / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Cat_7_Network_Cable_Markings.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2026-121-comment-une-start-up-peut-evaluer-son-adequation-produit-mar",
@@ -10092,17 +9652,7 @@
       "Venture capital Sand Hill Road",
       "Startup pitch",
       "Euro banknotes stack"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2026-122-combien-un-fondateur-peut-il-raisonnablement-lever-lors-de-s.jpg",
-      "credit": "Intel Free Press / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Bar_at_Buck%27s,_Hangout_of_Silicon_Valley_Venture_Capital_Dealmakers.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2026-123-maven-100-000-dollars-de-revenus-recurrents-annuels-en-six-m",
@@ -10138,17 +9688,7 @@
       "E-learning laptop",
       "Webinar online class",
       "Silicon Valley San Francisco"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2026-123-maven-100-000-dollars-de-revenus-recurrents-annuels-en-six-m.jpg",
-      "credit": "Willow Brugh / Wikimedia Commons (CC BY-SA 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Moocs_and_the_science_of_learning_(14551102562).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2026-124-le-capital-risque-francais-en-2025-selon-le-barometre-ey",
@@ -10598,17 +10138,7 @@
       "Trade show convention hall",
       "Business event trends",
       "Event planner stage setup"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2026-207-les-previsions-de-2025-face-a-la-realite.jpg",
-      "credit": "Press Information Department / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Meeting_Md_Mujibul_Haque_and_Guy_Ryder_at_Bangabandhu_International_Conference_Center,_Dhaka,_2016-12-10.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2026-208-les-reunions-d-entreprise-en-2026-arbitrer-entre-couts-et-ob",
@@ -10736,17 +10266,7 @@
       "Palais des congrès",
       "Trade fair Frankfurt Messe",
       "World map business events"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2026-210-le-poids-economique-mondial-des-evenements-professionnels-me.jpg",
-      "credit": "USDAgov / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Mushroom_Council_board_and_industry_members_gathered_at_the_USDA_Headquarters_in_Washington_D_C_to_recognize_National_Mushroom_Month,_which_has_just_officially_moved_to_June,_June_2,_2026_(55309075127).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2026-06-23-en-mysunbed-transats-plages-paris",
@@ -11394,17 +10914,7 @@
         "url": "https://www.actu-environnement.com/depeches/transport-lourd-valorem-paragon-n-1135.html"
       }
     ],
-    "chemin": "/en/business/2026/06/11/sophia-antipolis-paragon-mobility-valorem-recharge-camions/",
-    "image": {
-      "src": "img/entreprises/2026-06-11-sophia-antipolis-paragon-mobility-valorem-recharge-camions.jpg",
-      "credit": "Sylvain Machefert / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A8gles_-_barri%C3%A8re_de_B%C3%A8gles_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2026/06/11/sophia-antipolis-paragon-mobility-valorem-recharge-camions/"
   },
   {
     "id": "2026-06-11-jean-lemaire-paragon-mobility-portrait-recharge-electrique",
@@ -11527,17 +11037,7 @@
       "Electric vehicle charging station",
       "Wind farm solar France",
       "Electric truck"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-06-11-sophia-antipolis-paragon-mobility-valorem-recharge-camions.jpg",
-      "credit": "Sylvain Machefert / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A8gles_-_barri%C3%A8re_de_B%C3%A8gles_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2026-06-07-en-grand-prix-monaco-2026-antonelli-gagne-course-chaotique",
@@ -13073,17 +12573,7 @@
         "url": "https://podcast.ausha.co/le-morning-radio-monaco/adieu-le-theatre-de-verdure-bonjour-le-109-decouvrez-la-nouvelle-formule-du-riviera-electro-festival"
       }
     ],
-    "chemin": "/en/archives/2026/le-109-nice-riviera-electro-festival-ref-2026/",
-    "image": {
-      "src": "img/entreprises/archive-2026-05-08-le-109-nice-riviera-electro-festival-ref-2026.jpg",
-      "credit": "Aude Lazaro / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Inscription_d%C3%A9truite_qui_comm%C3%A9morait_la_construction_de_la_route_royale_de_Nice_%C3%A0_Turin_(XVIIe_si%C3%A8cle).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2026/le-109-nice-riviera-electro-festival-ref-2026/"
   },
   {
     "id": "archive-2026-05-08-le-109-nice-riviera-electro-festival-ref-2026",
@@ -13132,17 +12622,7 @@
       "Route de Turin Nice",
       "Riviera Electro Festival",
       "Techno festival stage"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2026-05-08-le-109-nice-riviera-electro-festival-ref-2026.jpg",
-      "credit": "Aude Lazaro / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Inscription_d%C3%A9truite_qui_comm%C3%A9morait_la_construction_de_la_route_royale_de_Nice_%C3%A0_Turin_(XVIIe_si%C3%A8cle).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2026-05-03-en-paolo-rotelli-quitte-san-donato-rap-mc-pao-tractopelle-musik",
@@ -13510,17 +12990,7 @@
         "url": "https://events.marine.copernicus.eu/unoc-2025/speaker/da9164bf-a83c-f011-a5f1-6045bda07d25/samuel-dupont"
       }
     ],
-    "chemin": "/en/business/2026/04/23/samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture/",
-    "image": {
-      "src": "img/entreprises/2026-04-23-samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture.jpg",
-      "credit": "TrimmerinWiki / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Oatley,_NSW_-_Derelict_tar_vat_(front)_at_former_oyster_farming_site_at_head_of_Jewfish_Bay_(April_2019).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2026/04/23/samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture/"
   },
   {
     "id": "2026-04-23-samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture",
@@ -13579,17 +13049,7 @@
       "Ifremer",
       "Baie de Cannes",
       "Oceanographic buoy"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-04-23-samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture.jpg",
-      "credit": "TrimmerinWiki / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Oatley,_NSW_-_Derelict_tar_vat_(front)_at_former_oyster_farming_site_at_head_of_Jewfish_Bay_(April_2019).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2026-04-22-en-saint-tropez-byblos-rouvre-caves-du-roy-saison-2026",
@@ -17065,17 +16525,7 @@
       "Cannes fireworks bay",
       "Marilyn Monroe",
       "Cannes Croisette night"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2025-12-31-cannes-nouvel-an-feu-artifice-marilyn-monroe-baie.jpg",
-      "credit": "Tony Hisgett from Birmingham, UK / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Marilyn_Monroe_(15386582090).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2025-12-31-en-cannes-nouvel-an-feu-artifice-marilyn-monroe-baie",
@@ -17117,17 +16567,7 @@
         "url": "https://www.nice-premium.com/?p=329322"
       }
     ],
-    "chemin": "/en/archives/2025/cannes-nouvel-an-feu-artifice-marilyn-monroe-baie/",
-    "image": {
-      "src": "img/entreprises/archive-2025-12-31-cannes-nouvel-an-feu-artifice-marilyn-monroe-baie.jpg",
-      "credit": "Tony Hisgett from Birmingham, UK / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Marilyn_Monroe_(15386582090).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2025/cannes-nouvel-an-feu-artifice-marilyn-monroe-baie/"
   },
   {
     "id": "archive-2025-11-26-alcool-france-ventes-2024-ofdt-baisse-vin",
@@ -17733,17 +17173,7 @@
         "url": "https://presseagence.fr/toulon-les-talents-2025-des-trophees-tpm/"
       }
     ],
-    "chemin": "/en/business/2025/10/08/toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee/",
-    "image": {
-      "src": "img/entreprises/2025-10-08-toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee.jpg",
-      "credit": "Joseph Vernet / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Toulon-vernet.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2025/10/08/toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee/"
   },
   {
     "id": "2025-10-08-toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee",
@@ -17790,17 +17220,7 @@
       "Toulon Provence Méditerranée",
       "Six-Fours-les-Plages port",
       "plasma reactor laboratory"
-    ],
-    "image": {
-      "src": "img/entreprises/2025-10-08-toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee.jpg",
-      "credit": "Joseph Vernet / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Toulon-vernet.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2025-09-22-en-heritage-victoire-huile-olive-sainte-victoire",
@@ -18063,17 +17483,7 @@
         "url": "https://www.lejournaldesentreprises.com/breve/levee-de-fonds-damorcage-pour-roca-therapeutics-2045990"
       }
     ],
-    "chemin": "/en/business/2025/08/26/roca-therapeutics-medicament-orphelin-maculopathie-radique/",
-    "image": {
-      "src": "img/entreprises/2025-08-26-roca-therapeutics-medicament-orphelin-maculopathie-radique.jpg",
-      "credit": "Lauritz Kolderup Rosenvinge (1858–1939) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Acrochaetium_macula_as_Chantransia_macula_in_Rosenvinge_1909.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2025/08/26/roca-therapeutics-medicament-orphelin-maculopathie-radique/"
   },
   {
     "id": "2025-08-26-maeva-dufies-roca-therapeutics-portrait-chercheuse-nice",
@@ -18197,17 +17607,7 @@
       "macula retina",
       "Agence européenne des médicaments Amsterdam",
       "ophthalmology eye examination"
-    ],
-    "image": {
-      "src": "img/entreprises/2025-08-26-roca-therapeutics-medicament-orphelin-maculopathie-radique.jpg",
-      "credit": "Lauritz Kolderup Rosenvinge (1858–1939) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Acrochaetium_macula_as_Chantransia_macula_in_Rosenvinge_1909.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2025-08-25-cannes-festival-pyrotechnique-2025-ikebun-japon-vestale",
@@ -18571,17 +17971,7 @@
         "url": "https://www.franceinfo.fr/alpes-maritimes/alpes-maritimes-le-barman-et-le-gerant-d-une-discotheque-a-juan-les-pins-mis-en-examen-apres-qu-une-jeune-femme-a-ete-grievement-brulee-par-un-shooter-flambe_7423003.html"
       }
     ],
-    "chemin": "/en/archives/2025/juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe/",
-    "image": {
-      "src": "img/entreprises/archive-2025-08-07-juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe.jpg",
-      "credit": "Attribué à Nègre, Charles (Grasse, 09–05–1820 - Grasse, 16–01–1880), photograveu / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Le_Palais_de_Justice._Paris_Mus%C3%A9es_20231014162241.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2025/juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe/"
   },
   {
     "id": "archive-2025-08-07-juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe",
@@ -18624,17 +18014,7 @@
       "Palais de justice Grasse",
       "Juan-les-Pins boulevard Guillaume Apollinaire",
       "Justice scales statue"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2025-08-07-juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe.jpg",
-      "credit": "Attribué à Nègre, Charles (Grasse, 09–05–1820 - Grasse, 16–01–1880), photograveu / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Le_Palais_de_Justice._Paris_Mus%C3%A9es_20231014162241.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2025-07-30-en-juan-les-pins-discotheque-you-fermee-six-mois-jeune-femme-br",
@@ -19108,17 +18488,7 @@
       "aortic valve",
       "TAVI procedure fluoroscopy",
       "cardiology hospital catheterization lab"
-    ],
-    "image": {
-      "src": "img/entreprises/2025-07-14-caranx-medical-nice-feu-vert-fda-tavipilot-soft.jpg",
-      "credit": "Solomon203 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:ROC-MOHW_Food_and_Drug_Administration_20160723.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2025-07-14-en-caranx-medical-nice-feu-vert-fda-tavipilot-soft",
@@ -19167,17 +18537,7 @@
         "url": "https://www.lejournaldesentreprises.com/article/les-robots-autonomes-de-caranx-medical-suppleeront-bientot-les-chirurgiens-2092864"
       }
     ],
-    "chemin": "/en/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/",
-    "image": {
-      "src": "img/entreprises/2025-07-14-caranx-medical-nice-feu-vert-fda-tavipilot-soft.jpg",
-      "credit": "Solomon203 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:ROC-MOHW_Food_and_Drug_Administration_20160723.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/"
   },
   {
     "id": "archive-2025-07-14-en-neuf-ans-apres-attentat-nice-hommage-colere-victimes",
@@ -19950,17 +19310,7 @@
       "Freiburg im Breisgau",
       "image editing software",
       "AI generated image"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2025-040-flux-1-kontext-generer-et-retoucher-des-images-en-tenant-com.jpg",
-      "credit": "Dietmar Rabich / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Sch%C3%B6nwald_im_Schwarzwald,_Escheckstra%C3%9Fe_--_2025_--_0150.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2025-041-un-petit-reseau-qui-raisonne-en-se-repetant",
@@ -20180,17 +19530,7 @@
       "Hangzhou",
       "reinforcement learning diagram",
       "GPU cluster"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2025-045-deepseek-r1-le-raisonnement-appris-par-renforcement.jpg",
-      "credit": "メイド理世 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Hangzhou,_27_June_2024.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2025-074-la-panne-crowdstrike-a-aussi-perturbe-les-soins",
@@ -20778,17 +20118,7 @@
       "emergency exit sign",
       "event security barrier",
       "convention center empty hall"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2025-204-votre-evenement-est-il-vraiment-pret-a-affronter-une-crise.jpg",
-      "credit": "Debra Sweet / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Close_Guantanamo_%2B_Fire_John_Yoo-_Protest_at_Boalt_Hall.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2025-205-l-heritage-des-jeux-de-paris-2024-selon-l-ocde",
@@ -21445,17 +20775,7 @@
         "url": "https://www.monaco-tribune.com/2020/11/monaco-micro-etat-a-lagriculture-urbaine-florissante/"
       }
     ],
-    "chemin": "/en/business/2025/04/16/monaco-terrae-potagers-ecoles-fondation-prince-albert/",
-    "image": {
-      "src": "img/entreprises/2025-04-16-monaco-terrae-potagers-ecoles-fondation-prince-albert.jpg",
-      "credit": "IAEA Imagebank / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9reng%C3%A8re_Prince_(08011234)_(51560791876).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2025/04/16/monaco-terrae-potagers-ecoles-fondation-prince-albert/"
   },
   {
     "id": "2025-04-16-monaco-terrae-potagers-ecoles-fondation-prince-albert",
@@ -21509,17 +20829,7 @@
       "school vegetable garden children",
       "potager scolaire",
       "Monaco Port Hercule"
-    ],
-    "image": {
-      "src": "img/entreprises/2025-04-16-monaco-terrae-potagers-ecoles-fondation-prince-albert.jpg",
-      "credit": "IAEA Imagebank / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9reng%C3%A8re_Prince_(08011234)_(51560791876).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2025-04-11-en-odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc",
@@ -21571,17 +20881,7 @@
         "url": "https://openagenda.com/french-tech-ticket-season-2/events/masterclass-presentation-of-the-paris-business-environment-paris-co-le-cargo?lang=fr"
       }
     ],
-    "chemin": "/en/business/2025/04/11/odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc/",
-    "image": {
-      "src": "img/entreprises/2025-04-11-odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc.jpg",
-      "credit": "Sharon Hahn Darlin / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Casablanca,_Morocco_November_2023_-_Breakfast.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2025/04/11/odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc/"
   },
   {
     "id": "2025-04-11-odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc",
@@ -21639,17 +20939,7 @@
       "Casablanca Morocco",
       "Rabat Morocco Hassan Tower",
       "Cannes Palais des Festivals"
-    ],
-    "image": {
-      "src": "img/entreprises/2025-04-11-odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc.jpg",
-      "credit": "Sharon Hahn Darlin / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Casablanca,_Morocco_November_2023_-_Breakfast.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2025-04-08-en-monaco-application-taxi-monaco-skyline-monaco-boost",
@@ -22274,17 +21564,7 @@
       "construction site gate access",
       "padlock electronic key",
       "Bpifrance"
-    ],
-    "image": {
-      "src": "img/entreprises/2025-02-27-akidaia-controle-acces-hors-ligne-leve-1-3-million.jpg",
-      "credit": "Yesarotim / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:HK_Sai_Ying_Pun_%E6%A2%85%E8%8A%B3%E8%A1%97_Mui_Fong_Street_MTR_construction_site_Bachy_Soletanche_Maeda_%E9%A6%99%E6%B8%AF%E5%AF%B6%E5%98%89_Dragages_Hongkong_BSG_Bouygues.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2025-02-27-en-akidaia-controle-acces-hors-ligne-leve-1-3-million",
@@ -22333,17 +21613,7 @@
         "url": "https://madeinmarseille.net/economie-marseille/151287-akidaia-securise-les-sites-des-professionnels-sans-aucune-connexion-internet/"
       }
     ],
-    "chemin": "/en/business/2025/02/27/akidaia-controle-acces-hors-ligne-leve-1-3-million/",
-    "image": {
-      "src": "img/entreprises/2025-02-27-akidaia-controle-acces-hors-ligne-leve-1-3-million.jpg",
-      "credit": "Yesarotim / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:HK_Sai_Ying_Pun_%E6%A2%85%E8%8A%B3%E8%A1%97_Mui_Fong_Street_MTR_construction_site_Bachy_Soletanche_Maeda_%E9%A6%99%E6%B8%AF%E5%AF%B6%E5%98%89_Dragages_Hongkong_BSG_Bouygues.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2025/02/27/akidaia-controle-acces-hors-ligne-leve-1-3-million/"
   },
   {
     "id": "archive-2025-02-26-attentat-de-la-basilique-de-nice-perpetuite-incompressible-p",
@@ -22879,17 +22149,7 @@
         "url": "https://nicepresse.com/a-nice-ce-bar-pmu-a-fait-le-choix-du-100-sans-alcool-on-attire-du-sans-abri-au-banquier/"
       }
     ],
-    "chemin": "/en/archives/2025/nice-pmu-pegase-sans-alcool-rue-de-france/",
-    "image": {
-      "src": "img/entreprises/archive-2025-02-04-nice-pmu-pegase-sans-alcool-rue-de-france.jpg",
-      "credit": "Jesmar / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Tramway_Nice_T2_travaux_IMG_20140625_170314.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2025/nice-pmu-pegase-sans-alcool-rue-de-france/"
   },
   {
     "id": "archive-2025-02-04-nice-pmu-pegase-sans-alcool-rue-de-france",
@@ -22931,17 +22191,7 @@
       "café terrasse Nice",
       "PMU bar",
       "Nice Promenade des Anglais"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2025-02-04-nice-pmu-pegase-sans-alcool-rue-de-france.jpg",
-      "credit": "Jesmar / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Tramway_Nice_T2_travaux_IMG_20140625_170314.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2025-01-26-en-rallye-monte-carlo-2025-ogier-dixieme-victoire-record",
@@ -25261,17 +24511,7 @@
       }
     ],
     "photo": false,
-    "chemin": "/en/tech/2024/07/01/somanity-exosquelettes-imprimes-3d/",
-    "image": {
-      "src": "img/entreprises/2024-07-01-somanity-exosquelettes-imprimes-3d.jpg",
-      "credit": "JackMonik / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Exoskeleton_Anacridium.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/tech/2024/07/01/somanity-exosquelettes-imprimes-3d/"
   },
   {
     "id": "2024-07-01-somanity-exosquelettes-imprimes-3d",
@@ -25314,17 +24554,7 @@
       "3D printing",
       "3D printer prosthesis",
       "SKEMA Business School Sophia Antipolis"
-    ],
-    "image": {
-      "src": "img/entreprises/2024-07-01-somanity-exosquelettes-imprimes-3d.jpg",
-      "credit": "JackMonik / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Exoskeleton_Anacridium.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2024-030-sora-openai-presente-la-video-generee-comme-un-simulateur-du",
@@ -25360,17 +24590,7 @@
       "video generation neural network",
       "world simulation physics",
       "film camera lens"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2024-030-sora-openai-presente-la-video-generee-comme-un-simulateur-du.jpg",
-      "credit": "Arkytech / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Sora-1604.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2024-031-llama-3-meta-detaille-la-fabrication-de-sa-famille-de-modele",
@@ -25912,17 +25132,7 @@
       "pyramid levels diagram",
       "First Round Capital",
       "startup product launch"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2024-116-les-niveaux-de-l-adequation-produit-marche.jpg",
-      "credit": "David / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:2024_Eastern_Conference_first_round_game_3.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2024-117-les-signes-discrets-d-une-traction-naissante",
@@ -26004,17 +25214,7 @@
       "JPMorgan Chase headquarters New York",
       "Seed funding startup",
       "Wall Street New York"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2024-118-l-etat-du-marche-de-l-amorcage-en-2024.jpg",
-      "credit": "WhisperToMe / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Tower_0.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2024-158-les-banques-americaines-un-an-apres-les-faillites-de-2023",
@@ -26188,17 +25388,7 @@
       "loan contract signing",
       "Canary Wharf London",
       "Investment fund Wall Street"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2024-161-le-credit-prive-un-marche-de-2-000-milliards-de-dollars-a-su.jpg",
-      "credit": "U.S. Department of the Treasury / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Secretary_Geithner_marks_extension_of_the_U.S.-Israel_Loan_Guarantee_Program_(8122046389).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2024-162-la-bce-cartographie-les-expositions-a-l-immobilier-commercia",
@@ -26326,17 +25516,7 @@
       "Music festival crowd barrier",
       "Festival steward safety",
       "Open air festival crowd"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2024-201-comment-les-festivals-protegent-leur-personnel-et-leur-publi.jpg",
-      "credit": "U.S. Air Force photo by Senior Airman Meghan Hutton / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:20th_SFS_Airmen_provide_security_for_the_F-16_Viper_Demonstration_Team_at_the_Festival_Aereo_Chiclayo_2024_(8528535).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2024-202-paris-2024-veut-fixer-de-nouvelles-normes-de-durabilite-et-d",
@@ -26372,17 +25552,7 @@
       "Paris 2024 Olympic Games sustainability",
       "Olympic rings Paris Eiffel Tower",
       "Stade de France Paris"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2024-202-paris-2024-veut-fixer-de-nouvelles-normes-de-durabilite-et-d.jpg",
-      "credit": "Nicolas Kovarik / European Union, 2024 / EC - Audiovisual Service / Wikimedia Commons (CC BY 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:G%C3%A9rald_Darmanin_%26_Margaritis_Schinas_-_2024.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2024-203-les-grandes-tendances-des-congres-et-reunions-pour-2025-selo",
@@ -29129,17 +28299,7 @@
       "Human feedback preference ranking",
       "Language model alignment",
       "Stanford University Hoover Tower"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2023-023-dpo-aligner-un-modele-sur-les-preferences-humaines-sans-appr.jpg",
-      "credit": "kevineriley / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:ModelH_Business_Model_Canvas_for_Healthcare.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2023-024-mistral-7b-la-start-up-francaise-frappe-fort-avec-un-modele-",
@@ -29267,17 +28427,7 @@
       "Customer service headset",
       "Office workers computers",
       "Productivity chart graph"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2023-026-l-ia-generative-au-travail-une-etude-mesure-les-gains-de-pro.jpg",
-      "credit": "Seattle Municipal Archives / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Seattle_City_Light_worker_with_office_machine,_1954.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2023-027-gpt-4-un-rapport-technique-tres-discret-sur-la-recette",
@@ -29313,17 +28463,7 @@
       "GPT language model",
       "ChatGPT interface",
       "Data center servers"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2023-027-gpt-4-un-rapport-technique-tres-discret-sur-la-recette.jpg",
-      "credit": "Roland Halbe/ESO / Wikimedia Commons (CC BY 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:ESO_Headquarters_(rh2253-0027-cc).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2023-028-segment-anything-meta-veut-un-modele-qui-decoupe-n-importe-q",
@@ -29359,17 +28499,7 @@
       "Semantic segmentation example",
       "Computer vision object detection",
       "Meta Platforms Menlo Park"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2023-028-segment-anything-meta-veut-un-modele-qui-decoupe-n-importe-q.jpg",
-      "credit": "Pi.1415926535 / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Facebook_campus_in_Menlo_Park,_September_2019.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2023-029-llama-meta-mise-sur-des-modeles-plus-petits-mais-mieux-entra",
@@ -29718,17 +28848,7 @@
       "Founder pitch startup",
       "Silicon Valley Sand Hill Road",
       "Startup team office"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2023-108-l-adequation-entre-le-fondateur-et-son-projet-selon-ngp-capi.jpg",
-      "credit": "Richter Frank-Jurgen / Wikimedia Commons (CC BY-SA 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Ilya_Ponomarev,_Chairman,_Innovation_%26_Venture_Capital_Subcommittee_of_the_State_Duma,_Russia_(8662005243).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2023-109-merge-les-fondateurs-en-premiere-ligne-des-ventes",
@@ -29930,17 +29050,7 @@
       "Startup pitch",
       "Investor presentation",
       "Business meeting"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2023-113-seize-regles-pour-lever-des-fonds-dans-un-marche-difficile.jpg",
-      "credit": "AN kabushiki / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Nick_Barua_at_Rwanda_Startup_Company_Pitch_Event_in_KOBE.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2023-114-recul-des-operations-de-capital-risque-en-debut-de-parcours-",
@@ -30528,17 +29638,7 @@
       "Olympic village food",
       "Sustainable food vegetables market",
       "Paris Olympic Games Eiffel Tower rings"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2023-199-paris-2024-met-la-durabilite-dans-l-assiette.jpg",
-      "credit": "USDAgov / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Fruits_and_Vegetables_(20160916-AMS-LSC-2929).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2023-05-28-en-grand-prix-de-monaco-verstappen-resiste-a-la-pluie-ocon-sur-",
@@ -30720,17 +29820,7 @@
       }
     ],
     "photo": false,
-    "chemin": "/en/business/2023/04/19/robertet-villa-blu-accelerateur-grasse/",
-    "image": {
-      "src": "img/entreprises/2023-04-19-robertet-villa-blu-accelerateur-grasse.jpg",
-      "credit": "Real politik / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Armes_Florimond_Robertet_et_Michelle_Gaillard.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/business/2023/04/19/robertet-villa-blu-accelerateur-grasse/"
   },
   {
     "id": "2023-04-19-robertet-villa-blu-accelerateur-grasse",
@@ -30783,17 +29873,7 @@
       "Grasse parfumerie",
       "Grasse perfume",
       "Grasse"
-    ],
-    "image": {
-      "src": "img/entreprises/2023-04-19-robertet-villa-blu-accelerateur-grasse.jpg",
-      "credit": "Real politik / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Armes_Florimond_Robertet_et_Michelle_Gaillard.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2023-04-16-en-monte-carlo-masters-2023-rublev-bat-rune-premier-masters",
@@ -31350,17 +30430,7 @@
         "url": "https://www.macommune.info/eric-ciotti-devient-le-nouveau-president-des-republicains"
       }
     ],
-    "chemin": "/en/archives/2022/eric-ciotti-elu-president-des-republicains/",
-    "image": {
-      "src": "img/entreprises/archive-2022-12-11-eric-ciotti-elu-president-des-republicains.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Bordeaux,_le_congr%C3%A8s_radical,_le_service_t%C3%A9l%C3%A9graphique_-_btv1b53169346x.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2022/eric-ciotti-elu-president-des-republicains/"
   },
   {
     "id": "archive-2022-12-11-eric-ciotti-elu-president-des-republicains",
@@ -31403,17 +30473,7 @@
       "Siège Les Républicains Paris",
       "Hôtel de ville Nice",
       "Nice Promenade des Anglais"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2022-12-11-eric-ciotti-elu-president-des-republicains.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Bordeaux,_le_congr%C3%A8s_radical,_le_service_t%C3%A9l%C3%A9graphique_-_btv1b53169346x.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "2022-12-05-en-perfumist-crowdcube-application-parfum-grasse",
@@ -31917,17 +30977,7 @@
         "url": "https://www.monaco-tribune.com/2022/04/alerte-secheresse-dans-une-centaine-de-communes-des-alpes-maritimes/"
       }
     ],
-    "chemin": "/en/archives/2022/secheresse-2022-alpes-maritimes-arrete-crise-dix-bassins/",
-    "image": {
-      "src": "img/entreprises/archive-2022-08-17-secheresse-2022-alpes-maritimes-arrete-crise-dix-bassins.jpg",
-      "credit": "IssamBarhoumi / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Drought_in_River_Eddarb_1.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2022/secheresse-2022-alpes-maritimes-arrete-crise-dix-bassins/"
   },
   {
     "id": "archive-2022-08-17-secheresse-2022-alpes-maritimes-arrete-crise-dix-bassins",
@@ -31975,17 +31025,7 @@
       "Drought dry river bed",
       "Var river Nice",
       "Estéron river Alpes-Maritimes"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2022-08-17-secheresse-2022-alpes-maritimes-arrete-crise-dix-bassins.jpg",
-      "credit": "IssamBarhoumi / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Drought_in_River_Eddarb_1.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2022-08-07-en-plages-electroniques-cannes-2022-retour-54000-festivaliers",
@@ -32811,17 +31851,7 @@
       "AI assistant chatbot",
       "Constitution document parchment",
       "San Francisco skyline"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-019-l-ia-constitutionnelle-d-anthropic-des-principes-ecrits-plut.jpg",
-      "credit": "Department for Science, Innovation and Technology / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54099081629).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-020-la-chaine-de-pensee-demander-a-un-modele-de-raisonner-etape-",
@@ -32995,17 +32025,7 @@
       "Computer security",
       "Data center servers",
       "Server room"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-058-les-failles-les-plus-exploitees-de-2021-selon-les-agences-oc.jpg",
-      "credit": "belgium24.eu / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:EU2024BE_240118_Brussels_Cybersecurity_Summit_Square_JNZT_0007.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-059-log4shell-toujours-exploite-sur-des-serveurs-vmware-horizon",
@@ -33087,17 +32107,7 @@
       "Lapsus$ hacker group",
       "Identity management login",
       "Cybersecurity password login screen"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-060-okta-repond-aux-revendications-du-groupe-lapsus.jpg",
-      "credit": "Cacadududu78 / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Lapsus_du_bois.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-061-lastpass-reconnait-le-vol-de-coffres-forts-de-mots-de-passe-",
@@ -33133,17 +32143,7 @@
       "Password manager vault",
       "Encrypted password vault",
       "Padlock cybersecurity"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-061-lastpass-reconnait-le-vol-de-coffres-forts-de-mots-de-passe-.jpg",
-      "credit": "Amir Pashaei / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Vault_of_the_Jameh_Mosque_of_Isfahan.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-062-uber-attribue-son-piratage-a-un-pirate-lie-a-lapsus",
@@ -33363,17 +32363,7 @@
       "Stock market downturn",
       "Wall Street New York",
       "Market crash graph"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-103-les-investisseurs-reconnaissent-que-ce-n-est-plus-comme-d-ha.jpg",
-      "credit": "Rajexpress1 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Latest_Business_Hindi_News_%E2%80%93_Economy,_Market_%26_Finance_Updates.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-104-y-combinator-reduit-sa-promotion-de-40",
@@ -33409,17 +32399,7 @@
       "Y Combinator logo",
       "Startup accelerator Silicon Valley",
       "Mountain View California"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-104-y-combinator-reduit-sa-promotion-de-40.jpg",
-      "credit": "GualdimG / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Mountain_View,_California_April_2025_04.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-105-y-combinator-dresse-le-bilan-de-son-annee-2022",
@@ -33455,17 +32435,7 @@
       "Startup accelerator demo",
       "Silicon Valley startups",
       "San Francisco Bay Area skyline"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-105-y-combinator-dresse-le-bilan-de-son-annee-2022.jpg",
-      "credit": "Jesse Dawson / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:H%C3%A9ctor_Osuna_Jaime_Talkomi_Silicon_Valley_Startup.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-106-piloter-sa-tresorerie-quand-les-marches-baissent",
@@ -33501,17 +32471,7 @@
       "Stock market",
       "Calculator finance",
       "Accounting ledger"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-106-piloter-sa-tresorerie-quand-les-marches-baissent.jpg",
-      "credit": "Ank Kumar / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar,_Infosys)_04.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-147-l-affaire-gamestop-decortiquee-par-un-economiste",
@@ -33869,17 +32829,7 @@
       "Convention exhibition hall crowd",
       "Trade show visitors",
       "Convention center Las Vegas"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-192-la-frequentation-des-evenements-en-presentiel-en-2022.jpg",
-      "credit": "Jeromi Mikhael / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Attendees_of_the_International_Conference_on_Humanitarian_Islam_2024_06.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2022-193-apprendre-sur-le-terrain-a-rendre-un-evenement-accessible",
@@ -33915,17 +32865,7 @@
       "Wheelchair ramp",
       "Accessible conference",
       "Wheelchair user"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2022-193-apprendre-sur-le-terrain-a-rendre-un-evenement-accessible.jpg",
-      "credit": "W.carter / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:North_Harbor_Lysekil_pier_5_with_wheelchair_accessibility_sign.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2022-06-19-en-legislatives-2022-alpes-maritimes-ciotti-tivoli-pradal",
@@ -33969,17 +32909,7 @@
         "url": "https://datan.fr/deputes/alpes-maritimes-06/depute_alexandra-martinalpesmaritimes/legislature-16"
       }
     ],
-    "chemin": "/en/archives/2022/legislatives-2022-alpes-maritimes-ciotti-tivoli-pradal/",
-    "image": {
-      "src": "img/entreprises/archive-2022-06-19-legislatives-2022-alpes-maritimes-ciotti-tivoli-pradal.jpg",
-      "credit": "James Gillray / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:L-Assemblee-Nationale-Gillray.jpeg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2022/legislatives-2022-alpes-maritimes-ciotti-tivoli-pradal/"
   },
   {
     "id": "archive-2022-06-19-legislatives-2022-alpes-maritimes-ciotti-tivoli-pradal",
@@ -34028,17 +32958,7 @@
       "Hôtel de ville de Cannes",
       "Nice Hôtel de ville",
       "Cannes Croisette Palais des Festivals"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2022-06-19-legislatives-2022-alpes-maritimes-ciotti-tivoli-pradal.jpg",
-      "credit": "James Gillray / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:L-Assemblee-Nationale-Gillray.jpeg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2022-05-29-en-sous-la-pluie-sergio-perez-remporte-le-grand-prix-de-monaco",
@@ -35439,17 +34359,7 @@
       "Text-to-image model",
       "Generative artificial intelligence art",
       "Computer graphics rendering"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2021-014-dall-e-openai-genere-des-images-a-partir-d-une-phrase.jpg",
-      "credit": "Matti Blume / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3,_EMS_2024,_Essen_(P1032260).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2021-015-codex-mesurer-la-capacite-d-un-modele-a-ecrire-du-code",
@@ -35531,17 +34441,7 @@
       "Large language model diagram",
       "Neural network parameters",
       "GPU graphics card"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2021-016-lora-adapter-un-grand-modele-en-n-entrainant-qu-une-infime-p.jpg",
-      "credit": "NASA/LRC / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:NASA_515_Cutaway_Model_of_B-737.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2021-054-log4shell-comment-reperer-et-corriger-la-faille-log4j",
@@ -35752,17 +34652,7 @@
       "Business meeting handshake",
       "Sales meeting",
       "Startup office open space"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2021-097-convaincre-les-premiers-clients-de-faire-confiance-a-une-sta.jpg",
-      "credit": "EU2017EE Estonian Presidency / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Informal_meeting_of_environment_ministers._Handshake_Siim_Kiisler_and_Archie_Young_(35104353913).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2021-098-tester-une-idee-de-start-up-a-moindre-cout",
@@ -35844,17 +34734,7 @@
       "Venture capital meeting",
       "Pitch presentation conference",
       "Investor meeting"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2021-099-plus-de-250-rendez-vous-en-98-jours-pour-lever-des-fonds.jpg",
-      "credit": "Mark Neyman / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Reuven_Rivlin,_met_with_the_directors_of_the_largest_venture_capital_funds_in_Israel_(3640).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2021-100-claap-raconte-sa-levee-d-amorcage-de-3-millions-de-dollars",
@@ -36120,17 +35000,7 @@
       "European Securities and Markets Authority",
       "Paris La Défense",
       "Stock market screen"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2021-144-l-esma-voit-un-risque-de-corrections-sur-les-marches-europee.jpg",
-      "credit": "Dimitri Destugues / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Panorama_La_D%C3%A9fense.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2021-145-yolo-en-bourse-la-fed-de-chicago-s-interroge-sur-la-speculat",
@@ -36304,17 +35174,7 @@
       "Digital event production",
       "Conference livestream camera",
       "Convention center Europe"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2021-182-evenements-numeriques-le-rapport-de-pcma.jpg",
-      "credit": "Tohaomg / Wikimedia Commons (CC0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Livestream_workstation_at_the_Ukrainian_WikiConference_2024_in_Kyiv.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2021-183-marriott-montre-comment-organiser-des-reunions-hybrides-en-2",
@@ -36396,17 +35256,7 @@
       "Conference stage LED screen",
       "International conference hall",
       "Live streaming event production"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2021-184-les-coulisses-d-un-grand-evenement-hybride-international.jpg",
-      "credit": "Columbia GSAPP / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Stage-_Architecture_and_Representation-_the_Arab_City.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2021-185-skift-global-forum-les-enseignements-d-un-evenement-hybride",
@@ -37130,17 +35980,7 @@
       }
     ],
     "photo": false,
-    "chemin": "/en/tech/2021/01/20/tchek-leve-3-millions-inspection-vehicules/",
-    "image": {
-      "src": "img/entreprises/2021-01-20-tchek-leve-3-millions-inspection-vehicules.jpg",
-      "credit": "ArmouredCyborg / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:OHE_Inspection_Car_at_Simbhooli_railway_station.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/tech/2021/01/20/tchek-leve-3-millions-inspection-vehicules/"
   },
   {
     "id": "2021-01-20-tchek-leve-3-millions-inspection-vehicules",
@@ -37189,17 +36029,7 @@
       "Used car inspection",
       "Vieux-Port Marseille",
       "Euroméditerranée Marseille"
-    ],
-    "image": {
-      "src": "img/entreprises/2021-01-20-tchek-leve-3-millions-inspection-vehicules.jpg",
-      "credit": "ArmouredCyborg / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:OHE_Inspection_Car_at_Simbhooli_railway_station.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2020-12-04-en-menton-fete-du-citron-2021-annulee-covid",
@@ -37939,17 +36769,7 @@
       "OpenAI headquarters San Francisco",
       "Language model neural network",
       "Server rack datacenter"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2020-010-gpt-3-l-apprentissage-a-partir-de-quelques-exemples.jpg",
-      "credit": "Ansgar Koreng / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Treptowers,_Alt-Treptow,_Berlin,_1705252213,_ako.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2020-011-vision-transformer-une-image-decoupee-comme-une-phrase",
@@ -38077,17 +36897,7 @@
       "SolarWinds Orion",
       "Supply chain attack",
       "Cyber espionage"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2020-053-solarwinds-une-mise-a-jour-piegee-infiltre-des-milliers-d-or.jpg",
-      "credit": "NASA Kennedy Space Center / NASA/Glenn Benson / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Orion_return_to_Fast_Cell_(KSC-20250321-PH-GEB01_0003).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2020-091-de-l-adequation-produit-marche-a-la-levee-de-serie-a",
@@ -38353,17 +37163,7 @@
       "Brookings Institution building",
       "Wall Street New York",
       "Treasury securities"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2020-134-le-marche-des-pensions-livrees-rouage-discret-mais-essentiel.jpg",
-      "credit": "Kenneth C. Zirkel / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Humanities_Building,_Stony_Brook_University.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2020-135-septembre-2019-la-fed-reconstitue-les-tensions-du-marche-mon",
@@ -38491,17 +37291,7 @@
       "IMF building Washington",
       "Bridge economy recovery",
       "Washington D.C. skyline"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2020-137-rapport-du-fmi-d-octobre-2020-une-passerelle-vers-la-reprise.jpg",
-      "credit": "Pjn1990 / Wikimedia Commons (CC BY 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:George_Washington_University_Law_School_Buildings.JPG",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2020-138-covid-19-le-conseil-de-stabilite-financiere-coordonne-la-rep",
@@ -38537,17 +37327,7 @@
       "Centralbahnplatz Basel",
       "G20 summit",
       "Basel Switzerland"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2020-138-covid-19-le-conseil-de-stabilite-financiere-coordonne-la-rep.jpg",
-      "credit": "Falk2 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:S02_675_Centralbahnplatz,_Stra%C3%9Fenbahnweichenstra%C3%9Fe.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2020-139-la-bce-explique-le-role-stabilisateur-de-son-programme-d-ach",
@@ -38629,17 +37409,7 @@
       "Conference social distancing",
       "Trade show hall",
       "Face masks event Covid-19"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2020-176-preparer-le-retour-des-evenements-en-presentiel-pendant-la-c.jpg",
-      "credit": "Bijay Chaurasia / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Meeting_point_of_Sunkoshi_and_Tama_Koshi_River_from_Beni_Ghat-IMG0620-Pano.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2020-177-pourquoi-les-salons-professionnels-peinent-a-passer-au-virtu",
@@ -38721,17 +37491,7 @@
       "Live streaming studio",
       "Video production control room",
       "Webcast technician"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2020-178-les-evenements-virtuels-font-emerger-de-nouveaux-metiers.jpg",
-      "credit": "kitmasterbloke / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Mystery_live_at_Epic_Studios,_Norwich,_UK,_17th_October_2019_-_48949271602.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2020-179-le-virtuel-un-electrochoc-pour-l-industrie-evenementielle",
@@ -39594,17 +38354,7 @@
         "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/responsables-boites-nuit-colere-apres-fermetures-administratives-prefecture-1611425.html"
       }
     ],
-    "chemin": "/en/archives/2019/nice-high-club-deuxieme-fermeture-administrative-2019/",
-    "image": {
-      "src": "img/entreprises/archive-2019-09-19-nice-high-club-deuxieme-fermeture-administrative-2019.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:12-2-26,_%C3%A0_Neuilly-sur-Seine,_side-cars_Ren%C3%A9_Gillet_du_Moto_club_de_Nice_-_btv1b53158194p.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2019/nice-high-club-deuxieme-fermeture-administrative-2019/"
   },
   {
     "id": "archive-2019-09-19-nice-high-club-deuxieme-fermeture-administrative-2019",
@@ -39648,17 +38398,7 @@
       "Promenade des Anglais Nice",
       "Nightclub Nice",
       "Nice night"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2019-09-19-nice-high-club-deuxieme-fermeture-administrative-2019.jpg",
-      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:12-2-26,_%C3%A0_Neuilly-sur-Seine,_side-cars_Ren%C3%A9_Gillet_du_Moto_club_de_Nice_-_btv1b53158194p.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2019-08-28-cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg",
@@ -39701,17 +38441,7 @@
       "Cannes fireworks bay",
       "Baie de Cannes feu d'artifice",
       "Croisette Cannes night"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2019-08-28-cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg.jpg",
-      "credit": "Teasdale, Sara, 1884-1933 / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Postcards_signed_Sara,_Cannes,_to_(Ernst_Filsinger),_October_9,_1924_-_DPLA_-_27de99c61906750301cfc5cef77d54db_(page_11).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2019-08-28-en-cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg",
@@ -39749,17 +38479,7 @@
         "url": "https://fr.wikipedia.org/wiki/Festival_d'art_pyrotechnique_de_Cannes"
       }
     ],
-    "chemin": "/en/archives/2019/cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg/",
-    "image": {
-      "src": "img/entreprises/archive-2019-08-28-cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg.jpg",
-      "credit": "Teasdale, Sara, 1884-1933 / Wikimedia Commons (Public domain)",
-      "page": "https://commons.wikimedia.org/wiki/File:Postcards_signed_Sara,_Cannes,_to_(Ernst_Filsinger),_October_9,_1924_-_DPLA_-_27de99c61906750301cfc5cef77d54db_(page_11).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2019/cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg/"
   },
   {
     "id": "archive-2019-08-26-en-ogc-nice-rachat-ineos-jim-ratcliffe-officialise",
@@ -40543,17 +39263,7 @@
       "Transformer neural network",
       "Google headquarters Mountain View",
       "Natural language processing text"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2019-001-bert-le-modele-de-google-qui-apprend-a-lire-dans-les-deux-se.jpg",
-      "credit": "FR / Wikimedia Commons (CC BY-SA 3.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Arr%C3%AAt_Paul_Bert_(Meudon).jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2019-002-gpt-2-quand-un-modele-de-langage-apprend-plusieurs-taches-sa",
@@ -40947,17 +39657,7 @@
       "Startup first users",
       "User testing",
       "Startup office"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2019-089-trouver-ses-premiers-utilisateurs-avant-de-chercher-son-marc.jpg",
-      "credit": "WP.Raj Sharma / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:IndiaFirst_Tech_Startup_Awards_2022.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2019-090-produit-ou-force-de-vente-que-faut-il-construire-en-premier",
@@ -40993,17 +39693,7 @@
       "Sales team office",
       "Podcast recording microphone",
       "Sand Hill Road Menlo Park"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2019-090-produit-ou-force-de-vente-que-faut-il-construire-en-premier.jpg",
-      "credit": "Vice-Presidência da República (VPR) / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:2024-07-21_Reuni%C3%A3o_de_Geraldo_Alckmin_com_Ben_Horowitz_22.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2019-130-la-reserve-federale-surveille-la-fragilite-des-financements-",
@@ -41223,17 +39913,7 @@
       "Recycling event",
       "Green meeting conference",
       "Congress center sustainability"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2019-171-skift-research-explore-l-avenir-durable-des-congres-et-reuni.jpg",
-      "credit": "CalebTokula6 / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Pictures_from_the_physical_event_of_Wiki_For_Sustainable_Future_2026_in_Igala_Wikimedia_community_04.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2019-172-festivals-mal-organises-quand-le-public-est-mis-en-danger",
@@ -41407,17 +40087,7 @@
       "UCF Orlando campus",
       "Orlando Florida",
       "Festival crowd"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2019-175-le-regard-d-un-enseignant-de-l-ucf-sur-le-fyre-festival.jpg",
-      "credit": "Tol / Wikimedia Commons (CC BY 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Pro-Palestine_protesters_at_the_University_of_Central_Florida,_2024-05-07,_image_08.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2019-05-26-en-grand-prix-monaco-2019-hamilton-gagne-hommage-lauda",
@@ -42402,17 +41072,7 @@
         "url": "https://www.seeantibes.com/news/2018-jazz-a-juan-lineup-revealed-juan-les-pins-715805"
       }
     ],
-    "chemin": "/en/archives/2018/jazz-a-juan-2018-lenny-kravitz-ouvre-58e-edition/",
-    "image": {
-      "src": "img/entreprises/archive-2018-07-12-jazz-a-juan-2018-lenny-kravitz-ouvre-58e-edition.jpg",
-      "credit": "Gediminas Paulauskas / Wikimedia Commons (CC BY-SA 2.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=63991756",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2018/jazz-a-juan-2018-lenny-kravitz-ouvre-58e-edition/"
   },
   {
     "id": "archive-2018-07-12-jazz-a-juan-2018-lenny-kravitz-ouvre-58e-edition",
@@ -42460,17 +41120,7 @@
       "Pinède Gould Jazz à Juan",
       "Jazz festival stage",
       "Juan-les-Pins Boulevard Baudoin"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2018-07-12-jazz-a-juan-2018-lenny-kravitz-ouvre-58e-edition.jpg",
-      "credit": "Gediminas Paulauskas / Wikimedia Commons (CC BY-SA 2.0)",
-      "page": "https://commons.wikimedia.org/w/index.php?curid=63991756",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2018-047-superhuman-une-methode-pour-mesurer-l-adequation-entre-un-pr",
@@ -42589,17 +41239,7 @@
       "BIS Basel Centralbahnplatz",
       "Stock market correction 2018",
       "Basel skyline"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2018-129-fin-2018-la-bri-constate-des-secousses-sur-le-chemin-de-la-n.jpg",
-      "credit": "Johann Jaritz / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Eberndorf_Stiftsgeb%C3%A4ude_N-Trakt_1._Stock_Arkadengang_28082018_4335.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "lecture-2018-170-les-tendances-de-l-evenementiel-attendues-pour-2019-selon-ev",
@@ -42635,17 +41275,7 @@
       "Event trends",
       "Conference networking",
       "Festival crowd tickets"
-    ],
-    "image": {
-      "src": "img/entreprises/lecture-2018-170-les-tendances-de-l-evenementiel-attendues-pour-2019-selon-ev.jpg",
-      "credit": "Tony Tseng / Wikimedia Commons (CC BY 2.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Trend_Micro_stage_event,_Taipei_IT_Month_20141205.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2018-06-21-en-fete-de-la-musique-2018-nice-france-2-place-massena",
@@ -42687,17 +41317,7 @@
         "url": "https://www.chartsinfrance.net/actualite/news-106968.html"
       }
     ],
-    "chemin": "/en/archives/2018/fete-de-la-musique-2018-nice-france-2-place-massena/",
-    "image": {
-      "src": "img/entreprises/archive-2018-06-21-fete-de-la-musique-2018-nice-france-2-place-massena.jpg",
-      "credit": "Txllxt TxllxT / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Nice_-_Place_Mass%C3%A9na_-_View_NNW_I.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    "chemin": "/en/archives/2018/fete-de-la-musique-2018-nice-france-2-place-massena/"
   },
   {
     "id": "archive-2018-06-21-fete-de-la-musique-2018-nice-france-2-place-massena",
@@ -42745,17 +41365,7 @@
       "Place Masséna Nice",
       "Fontaine du Soleil Nice",
       "Concert crowd"
-    ],
-    "image": {
-      "src": "img/entreprises/archive-2018-06-21-fete-de-la-musique-2018-nice-france-2-place-massena.jpg",
-      "credit": "Txllxt TxllxT / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Nice_-_Place_Mass%C3%A9na_-_View_NNW_I.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    }
+    ]
   },
   {
     "id": "archive-2018-05-27-en-grand-prix-monaco-2018-ricciardo-gagne-malgre-panne",
