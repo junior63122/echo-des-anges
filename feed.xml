@@ -5,7 +5,7 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Mon, 09 Nov 2026 10:10:51 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 10:56:52 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
@@ -227,6 +227,15 @@
     <media:content url="https://echodesanges.fr/img/entreprises/shadow-sante-leve-2-5-millions-hopitaux.jpg" medium="image"/>
   </item>
   <item>
+    <title>Depuis le port Gallice d’Antibes, Flyde lance la livraison par drone des bateaux au mouillage</title>
+    <link>https://echodesanges.fr/tech/2026/08/01/antibes-flyde-livraison-par-drone-yachts-port-gallice/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/08/01/antibes-flyde-livraison-par-drone-yachts-port-gallice/</guid>
+    <pubDate>Sat, 01 Aug 2026 06:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>La start-up azuréenne fondée en 2022 par Pierre Deyris ouvre sa première base commerciale à Antibes. Son drone Beluga dépose jusqu’à 8 kg de marchandises…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-3.jpg" medium="image"/>
+  </item>
+  <item>
     <title>Fredrik Brag, le Suédois de Sophia Antipolis qui fait entrer l’IA dans le dépistage du cancer du poumon</title>
     <link>https://echodesanges.fr/tech/2026/07/23/portrait-fredrik-brag-median-technologies/</link>
     <guid isPermaLink="true">https://echodesanges.fr/tech/2026/07/23/portrait-fredrik-brag-median-technologies/</guid>
@@ -377,12 +386,39 @@
     <media:content url="https://echodesanges.fr/img/entreprises/datagreen-data-centers-monaco-telis.jpg" medium="image"/>
   </item>
   <item>
+    <title>Graphène et micro-organismes marins : Sea Further, première start-up de MonacoTech retenue par Horizon Europe</title>
+    <link>https://echodesanges.fr/tech/2026/03/05/monacotech-sea-further-horizon-europe-graphene-marin/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/03/05/monacotech-sea-further-horizon-europe-graphene-marin/</guid>
+    <pubDate>Thu, 05 Mar 2026 07:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>La jeune société fondée par Valentino Iakimov décroche un financement européen pour industrialiser un carbone bio-optimisé destiné aux piles à hydrogène…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-5.jpg" medium="image"/>
+  </item>
+  <item>
     <title>Économie bleue : depuis Marseille, Go Capital multiplie les investissements dans les start-up maritimes</title>
     <link>https://echodesanges.fr/finance/2026/01/20/go-capital-marseille-fonds-maritimes/</link>
     <guid isPermaLink="true">https://echodesanges.fr/finance/2026/01/20/go-capital-marseille-fonds-maritimes/</guid>
     <pubDate>Tue, 20 Jan 2026 07:00:00 GMT</pubDate>
     <category>Finance</category>
     <description>La société de gestion rennaise, passée sous le contrôle de Magellim, accompagne Opsealog avec le fonds Sud Mer Invest. Son bureau marseillais, où officie…</description>
+  </item>
+  <item>
+    <title>Taylls, le réseau social audio né à Monaco, réunit ses premiers créateurs à La Môme Monte-Carlo</title>
+    <link>https://echodesanges.fr/tech/2025/11/14/monaco-taylls-reseau-social-audio-luna-moulinas/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/tech/2025/11/14/monaco-taylls-reseau-social-audio-luna-moulinas/</guid>
+    <pubDate>Fri, 14 Nov 2025 07:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>Trois semaines après son lancement officiel, l’application imaginée par Luna Moulinas, 25 ans, organise ce vendredi soir ses premiers « Taylls Awards »…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-1.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Trophées TPM 2025 : Prodea Depolluting, qui détruit les polluants par plasma froid, sacrée start-up de l’année</title>
+    <link>https://echodesanges.fr/economie/2025/10/08/toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2025/10/08/toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee/</guid>
+    <pubDate>Wed, 08 Oct 2025 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>La jeune entreprise de Six-Fours-les-Plages, créée fin 2020 par Béatrice Drazenovic, remporte le prix de la start-up de l’année décerné par la métropole…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Au pied de la Sainte-Victoire, Julie Davico-Pahin fait renaître des oliviers millénaires</title>
@@ -402,48 +438,13 @@
     <media:content url="https://echodesanges.fr/img/entreprises/hugo-lucchino-villa-noailles-hyeres.jpg" medium="image"/>
   </item>
   <item>
-    <title>La Pousseraie, la ferme niçoise de micropousses, lève 1 million d’euros pour changer d’échelle</title>
-    <link>https://echodesanges.fr/nice/2025/03/10/la-pousseraie-micropousses-levee-montauroux/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/nice/2025/03/10/la-pousseraie-micropousses-levee-montauroux/</guid>
-    <pubDate>Mon, 10 Mar 2025 07:00:00 GMT</pubDate>
-    <category>Nice &amp; Côte d'Azur</category>
-    <description>Installée au rez-de-chaussée d’un immeuble de Saint-Roch, la start-up cofondée par Blanche Duncombe fournit les restaurants de la Côte d’Azur. Elle…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/la-pousseraie-micropousses-levee-montauroux.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>EssilorLuxottica rachète Pulse Audition, la start-up azuréenne des lunettes qui filtrent le bruit</title>
-    <link>https://echodesanges.fr/tech/2025/01/02/essilorluxottica-rachete-pulse-audition/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2025/01/02/essilorluxottica-rachete-pulse-audition/</guid>
-    <pubDate>Thu, 02 Jan 2025 07:00:00 GMT</pubDate>
+    <title>Valves cardiaques : le niçois Caranx Medical obtient le feu vert de la FDA pour son logiciel d’IA</title>
+    <link>https://echodesanges.fr/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/</guid>
+    <pubDate>Mon, 14 Jul 2025 06:00:00 GMT</pubDate>
     <category>Tech</category>
-    <description>Le géant de l’optique acquiert la jeune entreprise cofondée par Manuel Pariente, qui utilise l’intelligence artificielle pour faire ressortir la voix…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/essilorluxottica-rachete-pulse-audition.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>À Marseille, l’association Melting Pot initie les jeunes à la vie démocratique</title>
-    <link>https://echodesanges.fr/nice/2025/07/01/melting-pot-association-jeunes-citoyennete-marseille/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/nice/2025/07/01/melting-pot-association-jeunes-citoyennete-marseille/</guid>
-    <pubDate>Wed, 01 Jan 2025 07:00:00 GMT</pubDate>
-    <category>Nice &amp; Côte d'Azur</category>
-    <description>Fondée en 2022 par Alexandre Pastor, l’association multiplie les ateliers dans les écoles et les centres sociaux pour lutter contre l’abstention des plus…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/melting-pot-association-jeunes-citoyennete-marseille.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Vincent Lavallée, de la restauration à l’hôtellerie : le parcours discret d’un investisseur martégal</title>
-    <link>https://echodesanges.fr/economie/2025/07/01/vincent-lavallee-force-invest-martigues/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2025/07/01/vincent-lavallee-force-invest-martigues/</guid>
-    <pubDate>Wed, 01 Jan 2025 07:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Depuis Martigues, sa holding Force Invest pilote un restaurant de la place de la Joliette et un hôtel de Miramas. Il figure au palmarès des « 100 leaders…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/vincent-lavallee-force-invest-martigues.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Batteries sur roulettes : PESS Energy lève 2,2 millions d’euros pour remplacer les groupes électrogènes</title>
-    <link>https://echodesanges.fr/tech/2024/12/04/pess-energy-leve-2-2-millions-batteries-mobiles/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2024/12/04/pess-energy-leve-2-2-millions-batteries-mobiles/</guid>
-    <pubDate>Wed, 04 Dec 2024 07:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>La start-up marseillaise fondée par Rémi Pillot conçoit des batteries électriques mobiles pour l’industrie et l’événementiel. Le Crédit Agricole Alpes…</description>
+    <description>La medtech niçoise annonce l’autorisation de mise sur le marché américain de TAVIPILOT Soft, un logiciel d’intelligence artificielle qui guide en temps…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-2.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
