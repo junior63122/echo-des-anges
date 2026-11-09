@@ -11,6 +11,7 @@
     fr: {
       locale: "fr-FR",
       menu: "Rubriques",
+      skip: "Aller au contenu",
       home: "À la une",
       notFound: "Page introuvable",
       homeH1: "L'Écho des Anges, actualité de Nice, Cannes, Monaco et de la Côte d'Azur",
@@ -22,7 +23,8 @@
       founded: "Le quotidien de la Baie des Anges. Fondé à Nice en 2018.",
       loading: "Chargement de l'édition…",
       empty: "Aucun article pour le moment.",
-      error: "Impossible de charger l'édition.",
+      error: "Impossible de charger l'édition. Vérifiez votre connexion puis réessayez.",
+      retry: "Réessayer",
       by: "Par",
       published: "Publié le",
       publishedIn: "Publié en",
@@ -61,6 +63,7 @@
     en: {
       locale: "en-GB",
       menu: "Sections",
+      skip: "Skip to content",
       home: "Front page",
       notFound: "Page not found",
       homeH1: "L'Écho des Anges, news from Nice, Cannes, Monaco and the French Riviera",
@@ -72,7 +75,8 @@
       founded: "The daily of the Baie des Anges. Founded in Nice in 2018.",
       loading: "Loading today's edition…",
       empty: "No articles yet.",
-      error: "Could not load the edition.",
+      error: "Could not load the edition. Check your connection and try again.",
+      retry: "Try again",
       by: "By",
       published: "Published on",
       publishedIn: "Published in",
@@ -288,10 +292,10 @@
             ${leadAlso.length ? `<ul class="also">${leadAlso.map((l) => `<li><a href="${l.href}">${esc(l.titre)}</a><span class="src">${esc(l.source)}</span></li>`).join("")}</ul>` : ""}
           </div>
         </article>
-        <aside>
+        <div class="lead-side">
           ${features.map((a, i) => featureHtml(a, a.rubrique || T.portrait)).join("")}
           ${sideRevues.map((a) => featureHtml(a, null)).join("")}
-        </aside>
+        </div>
       </section>
       ${autres.length ? `<section class="block">
         <div class="block-head"><h2>${esc(T.local)}</h2><a class="more" href="${secLink("Nice & Côte d'Azur")}">${esc(T.more)}</a></div>
@@ -373,7 +377,7 @@
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(q ? T.results(res.length, q) : "")}</p></div>
       <form class="recherche-page" role="search"><input type="search" name="q" value="${esc(q)}" placeholder="${esc(T.searchPlaceholder)}" aria-label="${esc(T.search)}"><button type="submit">${esc(T.search)}</button></form>
       ${q ? "" : `<p class="suggestions">${suggestions.map((s) => `<a href="${searchLink(s)}">${esc(s)}</a>`).join("")}</p>`}
-      <div class="list">${!q ? "" : res.length ? res.map(({ a }) => `<article class="list-item">
+      <div class="list">${q && res.length ? `<h2 class="sr-only">${esc(lang === "en" ? "Results" : "Résultats")}</h2>` : ""}${!q ? "" : res.length ? res.map(({ a }) => `<article class="list-item">
         <span class="kicker">${a.type === "archive" ? esc(theme(a)) : kickerHtml(a)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p></article>`).join("") : `<p class="loading">${esc(T.noResult)}</p>`}</div>`;
@@ -676,6 +680,6 @@
     const apresChargement = () => (window.requestIdleCallback || ((f) => setTimeout(f, 300)))(rafraichir, { timeout: 2500 });
     if (document.readyState === "complete") apresChargement(); else window.addEventListener("load", apresChargement, { once: true });
   } else {
-    chargerIndex().then(route).catch(() => { app.innerHTML = `<p class="loading">${esc(T.error)}</p>`; });
+    chargerIndex().then(route).catch(() => { app.innerHTML = `<div class="erreur-chargement" role="alert"><p>${esc(T.error)}</p><button type="button" id="reessayer">${esc(T.retry)}</button></div>`; document.getElementById("reessayer").addEventListener("click", () => location.reload()); });
   }
 })();
