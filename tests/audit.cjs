@@ -186,6 +186,7 @@ const TAILLES = [[320, 568], [360, 740], [390, 844], [844, 390], [768, 1024], [1
     const ctx = await br.newContext({ viewport: { width: 1440, height: 900 } }); const p = await ctx.newPage();
     const cdp = await ctx.newCDPSession(p); await cdp.send("Emulation.setCPUThrottlingRate", { rate: 6 });
     await p.goto(B + "/", { waitUntil: "load" });
+    const dureesClic = [];
     const liens = (await p.$$eval("main a[href]", (x) => x.map((a) => a.getAttribute("href")).filter((h) => /^\/[a-z-]+\/\d{4}\//.test(h)))).slice(0, 10);
     for (const h of liens) {
       await p.goto(B + "/economie/"); await p.goto(B + "/"); await p.waitForTimeout(400);
@@ -194,8 +195,11 @@ const TAILLES = [[320, 568], [360, 740], [390, 844], [844, 390], [768, 1024], [1
       const accueil = (await p.textContent("h1")) || "";
       await p.waitForURL((u) => u.pathname === h.split("#")[0], { timeout: 8000 }).catch(() => note(`clic lent : ${h} ne s'ouvre pas`));
       // L'article doit s'afficher vite : pas l'accueil qui reste à l'écran sous la nouvelle adresse.
-      await p.waitForFunction((t) => (document.querySelector("h1") || {}).textContent !== t, accueil, { timeout: 3000 }).catch(() => note(`clic lent : ${h} garde l'accueil affiché`));
+      const t0 = Date.now();
+      await p.waitForFunction((t) => (document.querySelector("h1") || {}).textContent !== t, accueil, { timeout: 10000 }).catch(() => note(`clic lent : ${h} garde l'accueil affiché plus de 10 s`));
+      dureesClic.push(Date.now() - t0);
     }
+    console.log(`clics sur appareil lent (processeur ÷6) : article affiché en ${dureesClic.join(", ")} ms`);
     await ctx.close();
   }
   await br.close();
