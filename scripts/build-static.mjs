@@ -390,7 +390,34 @@ const editeur = {
   ...(CONFIG.contact ? { contactPoint: { "@type": "ContactPoint", contactType: "newsroom", email: CONFIG.contact, url: `${SITE}/contact/`, availableLanguage: ["fr", "en"] } } : {}),
 };
 
-const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item"><span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)}<span class="sep" aria-hidden="true"></span><time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
+const vignetteListe = (a) => { const i = image(a); return i ? `<a class="li-img" href="${url(a)}" tabindex="-1" aria-hidden="true"><img src="/${i.src}" alt="" loading="lazy" decoding="async"${dimAttr(i.src)}></a>` : ""; };
+const listeArticles = (liste, lang) => liste.map((a) => `<article class="list-item${image(a) ? " avec-photo" : ""}">${vignetteListe(a)}<span class="kicker">${esc((SECTIONS[a.section] || {})[lang] || a.section)}<span class="sep" aria-hidden="true"></span><time datetime="${iso(a)}">${esc(quand(a))}</time></span><h3><a href="${url(a)}">${esc(a.titre)}</a></h3><p>${esc(resume(a))}</p></article>`).join("\n");
+
+const ICONES = {x:"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z",fb:"M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.971H15.83c-1.491 0-1.956.93-1.956 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z",li:"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z",wa:"M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z",mail:"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.3V17h16V7.3l-8 5.2z",lien:"M10.6 13.4a1 1 0 0 0 1.4 0l4.6-4.6a3 3 0 0 0-4.2-4.2l-1.6 1.6 1.4 1.4 1.6-1.6a1 1 0 0 1 1.4 1.4l-4.6 4.6a1 1 0 0 0 0 1.4zm2.8-2.8a1 1 0 0 0-1.4 0l-4.6 4.6a3 3 0 0 0 4.2 4.2l1.6-1.6-1.4-1.4-1.6 1.6a1 1 0 0 1-1.4-1.4l4.6-4.6a1 1 0 0 0 0-1.4z"};
+const svgIcone = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ICONES[k]}"/></svg>`;
+// Barre de partage (liens simples, aucun script tiers) et temps de lecture.
+const barrePartage = (adresse, titre, mots, en) => {
+  const u = encodeURIComponent(adresse), t = encodeURIComponent(titre);
+  const min = Math.max(1, Math.round(mots / 230));
+  const L = en ? { lire: `${min} min read`, sur: "Share on", mail: "Share by email", copier: "Copy link" } : { lire: `Lecture : ${min} min`, sur: "Partager sur", mail: "Partager par courriel", copier: "Copier le lien" };
+  return `<div class="partage"><span class="lecture">${L.lire}</span>`
+    + `<a href="https://twitter.com/intent/tweet?url=${u}&amp;text=${t}" target="_blank" rel="noopener" aria-label="${L.sur} X">${svgIcone("x")}</a>`
+    + `<a href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener" aria-label="${L.sur} Facebook">${svgIcone("fb")}</a>`
+    + `<a href="https://www.linkedin.com/sharing/share-offsite/?url=${u}" target="_blank" rel="noopener" aria-label="${L.sur} LinkedIn">${svgIcone("li")}</a>`
+    + `<a href="https://wa.me/?text=${t}%20${u}" target="_blank" rel="noopener" aria-label="${L.sur} WhatsApp">${svgIcone("wa")}</a>`
+    + `<a href="mailto:?subject=${t}&amp;body=${u}" aria-label="${L.mail}">${svgIcone("mail")}</a>`
+    + `<button type="button" class="copier" data-lien="${adresse}" aria-label="${L.copier}">${svgIcone("lien")}</button></div>`;
+};
+
+// Colonne de droite des articles (grand écran) : dernières actualités et articles de la même rubrique.
+function rail(a, lang) {
+  const T = lang === "en" ? { last: "Latest news", sec: "In this section" } : { last: "Dernières actualités", sec: "Dans la rubrique" };
+  const memes = indexables.filter((x) => x !== a && langOf(x) === lang && x.type === "article").sort(parDate);
+  const derniers = memes.slice(0, 6);
+  const rubrique = memes.filter((x) => x.section === a.section && !derniers.includes(x)).slice(0, 5);
+  const liste = (l) => `<ol>${l.map((x) => `<li><a href="${x.chemin}">${esc(x.titre)}</a><time datetime="${iso(x)}">${esc(quand(x))}</time></li>`).join("")}</ol>`;
+  return `<aside class="rail" aria-label="${T.last}"><div class="rail-inner"><h2>${T.last}</h2>${liste(derniers)}${rubrique.length ? `<h2>${T.sec}</h2>${liste(rubrique)}` : ""}</div></aside>`;
+}
 
 function pageArticle(a) {
   const lang = langOf(a);
@@ -453,11 +480,13 @@ function pageArticle(a) {
     extra: `<meta property="article:published_time" content="${isoComplet(a)}">\n<meta property="article:modified_time" content="${modifie(a)}">\n<meta property="article:section" content="${esc(sec[lang])}">\n${sujets.map((s) => `<meta property="article:tag" content="${esc(s.nom)}">`).join("\n")}`,
   }) + entete(lang, a.type === "archive" ? null : sec.slug) + `
 <main id="contenu">
+<div class="article-layout">
 <article class="article">
   <nav class="crumbs" aria-label="${lang === "en" ? "Breadcrumb" : "Fil d'Ariane"}"><a href="${SITE}/">${T.home}</a><span class="sep" aria-hidden="true"></span><a href="${filUrl}">${esc(filNom)}</a>${rub}</nav>
   <h1>${esc(a.titre)}</h1>
   <p class="chapo">${esc(a.chapo)}</p>
   <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" || a.precision === "annee" ? "" : (a.precision === "mois" ? T.pubIn : T.pub) + " "}<time datetime="${isoComplet(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}${twin ? `<a class="lang-switch" href="${url(twin)}" hreflang="${langOf(twin)}">${langOf(twin) === "en" ? "Read in English" : "Lire en français"}</a>` : ""}</div>
+  ${barrePartage(url(a), a.titre, (a.corps || []).join(" ").split(/\s+/).length, lang === "en")}
   ${fig}
   ${(a.corps || []).map((p) => (p.startsWith("## ") ? `<h2 class="intertitre">${esc(p.slice(3))}</h2>` : `<p class="body">${esc(p)}</p>`)).join("\n  ")}
   ${galerie}
@@ -465,6 +494,8 @@ function pageArticle(a) {
   ${sources}
   ${lireAussi}
 </article>
+${rail(a, lang)}
+</div>
 </main>
 ` + pied(lang);
 }
