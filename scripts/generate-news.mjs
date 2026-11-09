@@ -82,7 +82,8 @@ function decode(s) {
     .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&([a-z]+);/gi, (m, n) => ENT[n.toLowerCase()] ?? m);
 }
-const clean = (s) => decode(decode(s || "")).replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+// Titres des flux : balises, syntaxe wiki ou Markdown (« ![[EN-DIRECT-]] »), emojis et pictogrammes retirés.
+const clean = (s) => decode(decode(s || "")).replace(/<[^>]*>/g, " ").replace(/!?\[\[[^\]]*\]\]/g, " ").replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, " ").replace(/\s+/g, " ").trim();
 function tag(xml, name) {
   const m = xml.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, "i"));
   return m ? m[1] : "";

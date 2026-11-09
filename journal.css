@@ -393,3 +393,66 @@ main { min-height: 50vh; }
 .suggestions { max-width: 900px; margin: 10px auto 30px; padding: 0 16px; display: flex; flex-wrap: wrap; gap: 8px; }
 .suggestions a { font-family: var(--sans); font-size: .9rem; padding: 6px 12px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-2); text-decoration: none; }
 .suggestions a:hover { border-color: var(--lien); color: var(--lien); }
+
+/* ---------- Cibles tactiles (WCAG 2.2 : 24 px minimum, 40 px visés) ---------- */
+.menu-btn, .search-btn { min-height: 40px; min-width: 34px; justify-content: center; }
+.langs button { min-width: 26px; min-height: 40px; }
+.logo { padding: 4px 0; }
+.crumbs a, .block-head a.more { display: inline-block; padding-top: 4px; padding-bottom: 4px; }
+.years a { padding-top: 6px; padding-bottom: 6px; }
+.lang-switch { display: inline-block; padding: 4px 0; }
+.annees a { display: inline-block; padding: 3px 2px; }
+@media (max-width: 400px) {
+  .header-top { gap: 6px; padding-left: 12px; padding-right: 12px; }
+  .logo-text { font-size: 1.45rem; }
+  .langs { gap: 1px; }
+}
+.erreur-chargement { max-width: 640px; margin: 48px auto; padding: 0 16px; text-align: center; font-family: var(--sans); }
+.erreur-chargement button { margin-top: 12px; font: 600 1rem var(--sans); padding: 10px 20px; border: 0; border-radius: 2px; background: var(--azur); color: #fff; cursor: pointer; }
+/* Barre des rubriques défilante sur mobile : un fondu à droite indique qu'il y a d'autres rubriques. */
+@media (max-width: 900px) {
+  .sections { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); padding-right: 40px; }
+}
+
+/* ---------- Mouvement (désactivé si l'utilisateur préfère réduire les animations) ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  /* Transitions entre les pages (navigateurs compatibles) : fondu court, l'en-tête reste en place. */
+  @view-transition { navigation: auto; }
+  .site-header { view-transition-name: entete; }
+  ::view-transition-old(root) { animation: 160ms ease-out both fondu-sortie; }
+  ::view-transition-new(root) { animation: 220ms ease-out both fondu-entree; }
+  @keyframes fondu-sortie { to { opacity: 0; } }
+  @keyframes fondu-entree { from { opacity: 0; transform: translateY(6px); } }
+  /* Photos : léger zoom au survol des titres et vignettes. */
+  .thumb img, .li-img img { transition: transform .6s cubic-bezier(.2,.7,.2,1), opacity .3s; }
+  @media (hover: hover) {
+    .thumb:hover img, a:hover > .thumb img, .feature:hover .thumb img, .block-grid > div:hover .thumb img, .li-img:hover img { transform: scale(1.035); }
+  }
+  /* Liens et boutons : soulignement et pression animés. */
+  .sections a { transition: border-color .2s, color .2s; }
+  .menu-btn, .search-btn, .langs button, .partage a, .partage button, .search-bar button, .recherche-page button, .years a, .suggestions a { transition: transform .12s, color .2s, border-color .2s, background-color .2s; }
+  .menu-btn:active, .search-btn:active, .langs button:active, .partage a:active, .partage button:active, .search-bar button:active, .recherche-page button:active { transform: scale(.94); }
+  /* Menu et recherche : ouverture glissée. */
+  .drawer:not([hidden]) { animation: deroule .22s cubic-bezier(.2,.7,.2,1); }
+  .search-bar:not([hidden]) { animation: deroule .18s ease-out; }
+  @keyframes deroule { from { opacity: 0; transform: translateY(-8px); } }
+  /* Apparition des contenus au défilement (sans script, navigateurs compatibles). */
+  @supports (animation-timeline: view()) {
+    /* Pas d'apparition au défilement : un élément qui se déplace pendant le clic peut faire perdre ce clic. */
+    /* Barre de progression de lecture sous l'en-tête des articles. */
+    .article-layout { view-timeline: --lecture block; }
+    .article-layout::before {
+      content: ""; position: fixed; left: 0; top: 0; z-index: 60; height: 3px; width: 100%; background: var(--azur);
+      transform-origin: 0 50%; transform: scaleX(0); animation: progression linear both; animation-timeline: --lecture; animation-range: contain 0% contain 100%;
+    }
+    @keyframes progression { to { transform: scaleX(1); } }
+  }
+}
+/* Tablette : les sujets secondaires de la une côte à côte plutôt qu'empilés en pleine largeur. */
+@media (min-width: 601px) and (max-width: 900px) {
+  .lead-side { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+  .lead-side .feature + .feature { border-top: 0; padding-top: 0; margin-top: 0; }
+}
+/* Recherche : la page garde sa hauteur pendant l'arrivée des résultats (pas de saut du pied de page). */
+main:has(> .recherche-page) { min-height: 100vh; }
+.resultats-compte { font-family: var(--sans); font-weight: 600; color: var(--muted); margin: 14px 0 0; }

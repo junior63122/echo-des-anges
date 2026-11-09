@@ -11,6 +11,7 @@
     fr: {
       locale: "fr-FR",
       menu: "Rubriques",
+      skip: "Aller au contenu",
       home: "À la une",
       notFound: "Page introuvable",
       homeH1: "L'Écho des Anges, actualité de Nice, Cannes, Monaco et de la Côte d'Azur",
@@ -22,7 +23,8 @@
       founded: "Le quotidien de la Baie des Anges. Fondé à Nice en 2018.",
       loading: "Chargement de l'édition…",
       empty: "Aucun article pour le moment.",
-      error: "Impossible de charger l'édition.",
+      error: "Impossible de charger l'édition. Vérifiez votre connexion puis réessayez.",
+      retry: "Réessayer",
       by: "Par",
       published: "Publié le",
       publishedIn: "Publié en",
@@ -42,6 +44,7 @@
       search: "Rechercher",
       searchPlaceholder: "Rechercher un article, un sujet, une ville…",
       searchTitle: "Recherche",
+      searchIntro: "Rechercher un article de L'Écho des Anges : actualités, archives depuis 2018, portraits et entreprises.",
       results: (n, q) => `${n} résultat${n > 1 ? "s" : ""} pour « ${q} »`,
       noResult: "Aucun article ne correspond à votre recherche.",
       fromArchives: "Dans nos archives",
@@ -61,6 +64,7 @@
     en: {
       locale: "en-GB",
       menu: "Sections",
+      skip: "Skip to content",
       home: "Front page",
       notFound: "Page not found",
       homeH1: "L'Écho des Anges, news from Nice, Cannes, Monaco and the French Riviera",
@@ -72,7 +76,8 @@
       founded: "The daily of the Baie des Anges. Founded in Nice in 2018.",
       loading: "Loading today's edition…",
       empty: "No articles yet.",
-      error: "Could not load the edition.",
+      error: "Could not load the edition. Check your connection and try again.",
+      retry: "Try again",
       by: "By",
       published: "Published on",
       publishedIn: "Published in",
@@ -92,6 +97,7 @@
       search: "Search",
       searchPlaceholder: "Search for an article, a topic, a town…",
       searchTitle: "Search",
+      searchIntro: "Search L'Écho des Anges: news, archives since 2018, profiles and companies.",
       results: (n, q) => `${n} result${n > 1 ? "s" : ""} for “${q}”`,
       noResult: "No article matches your search.",
       fromArchives: "From our archives",
@@ -288,10 +294,10 @@
             ${leadAlso.length ? `<ul class="also">${leadAlso.map((l) => `<li><a href="${l.href}">${esc(l.titre)}</a><span class="src">${esc(l.source)}</span></li>`).join("")}</ul>` : ""}
           </div>
         </article>
-        <aside>
+        <div class="lead-side">
           ${features.map((a, i) => featureHtml(a, a.rubrique || T.portrait)).join("")}
           ${sideRevues.map((a) => featureHtml(a, null)).join("")}
-        </aside>
+        </div>
       </section>
       ${autres.length ? `<section class="block">
         <div class="block-head"><h2>${esc(T.local)}</h2><a class="more" href="${secLink("Nice & Côte d'Azur")}">${esc(T.more)}</a></div>
@@ -370,10 +376,10 @@
     }).filter(Boolean).sort((x, y) => y.score - x.score || (y.a.date > x.a.date ? 1 : -1)).slice(0, 60);
     const input = document.getElementById("search-input"); if (input && input.value !== q) input.value = q;
     const suggestions = lang === "en" ? ["Cannes Film Festival", "Monaco Grand Prix", "Carnaval de Nice", "start-up", "Lisnard"] : ["Festival de Cannes", "Grand Prix de Monaco", "Carnaval de Nice", "start-up", "Lisnard"];
-    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(q ? T.results(res.length, q) : "")}</p></div>
+    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(T.searchIntro)}</p></div>
       <form class="recherche-page" role="search"><input type="search" name="q" value="${esc(q)}" placeholder="${esc(T.searchPlaceholder)}" aria-label="${esc(T.search)}"><button type="submit">${esc(T.search)}</button></form>
-      ${q ? "" : `<p class="suggestions">${suggestions.map((s) => `<a href="${searchLink(s)}">${esc(s)}</a>`).join("")}</p>`}
-      <div class="list">${!q ? "" : res.length ? res.map(({ a }) => `<article class="list-item">
+      ${q ? `<p class="resultats-compte" role="status">${esc(T.results(res.length, q))}</p>` : `<p class="suggestions">${suggestions.map((s) => `<a href="${searchLink(s)}">${esc(s)}</a>`).join("")}</p>`}
+      <div class="list">${q && res.length ? `<h2 class="sr-only">${esc(lang === "en" ? "Results" : "Résultats")}</h2>` : ""}${!q ? "" : res.length ? res.map(({ a }) => `<article class="list-item">
         <span class="kicker">${a.type === "archive" ? esc(theme(a)) : kickerHtml(a)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p></article>`).join("") : `<p class="loading">${esc(T.noResult)}</p>`}</div>`;
@@ -552,6 +558,11 @@
   }
   function navigate(url) {
     if (!articles.length) { location.href = url; return; }
+    // Article dont le texte intégral n'est pas encore chargé : sa page statique (quelques Ko, complète)
+    // s'affiche bien plus vite que le téléchargement de tout le journal (articles.json).
+    const cible = decodeURIComponent(new URL(url, location.href).pathname).replace(/\/?$/, "/");
+    const art = !completCharge && articles.find((x) => x.chemin === cible);
+    if (art && !art.corps && (art.type !== "revue" || art.redige)) { location.href = url; return; }
     history.pushState(null, "", url);
     route();
     if (!/#/.test(url)) window.scrollTo(0, 0);
@@ -647,9 +658,10 @@
   // La version change à chaque publication : le navigateur peut garder les fichiers en cache entre deux.
   const VERSION = "__VERSION__";
   const v = "?v=" + (VERSION.startsWith("__") ? Date.now() : VERSION);
-  let complet = null;
+  let complet = null, completCharge = false;
   function chargerComplet() {
     return complet || (complet = fetch("/articles.json" + v).then((r) => r.json()).then((data) => {
+      completCharge = true;
       const parId = new Map(data.map((x) => [x.id, x]));
       for (const a of articles) { const f = parId.get(a.id); if (f) { a.corps = f.corps; a.liens = f.liens; } }
     }).catch(() => {}));
@@ -676,6 +688,6 @@
     const apresChargement = () => (window.requestIdleCallback || ((f) => setTimeout(f, 300)))(rafraichir, { timeout: 2500 });
     if (document.readyState === "complete") apresChargement(); else window.addEventListener("load", apresChargement, { once: true });
   } else {
-    chargerIndex().then(route).catch(() => { app.innerHTML = `<p class="loading">${esc(T.error)}</p>`; });
+    chargerIndex().then(route).catch(() => { app.innerHTML = `<div class="erreur-chargement" role="alert"><p>${esc(T.error)}</p><button type="button" id="reessayer">${esc(T.retry)}</button></div>`; document.getElementById("reessayer").addEventListener("click", () => location.reload()); });
   }
 })();

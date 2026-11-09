@@ -222,7 +222,10 @@ const url = (a) => `${SITE}${a.chemin}`;
 const texteDe = (a) => (a.chapo || (a.liens && a.liens[0] && a.liens[0].resume) || "").replace(/\s+/g, " ").trim();
 // Description de 155 caractères au plus, coupée à la fin d'un mot.
 const couper = (s, n = 155) => { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length <= n ? s : s.slice(0, n - 1).replace(/[\s,;:.–-]+\S*$/, "") + "…"; };
-const resume = (a) => couper(texteDe(a));
+// Description : complétée quand elle est trop courte pour un extrait de recherche utile (revues de quelques mots).
+const resume = (a) => { const t = couper(texteDe(a)); if (t.length >= 70) return t; const titres = (a.liens || []).slice(0, 2).map((l) => l.titre).join(" ; "); return couper(`${t} ${titres}`.trim()); };
+// Titre de page : le nom du journal est ajouté seulement s'il reste de la place (environ 70 signes affichés par Google).
+const titrePage = (t) => (`${t} | ${NOM}`.length <= 70 ? `${t} | ${NOM}` : t);
 // Adresses lisibles : /economie/2026/09/23/portrait-.../ ; /en/business/... pour l'anglais.
 const SLUG_EN = { economie: "business", finance: "finance", evenementiel: "events", culture: "culture", sorties: "going-out", tech: "tech", international: "world", nice: "riviera", sport: "sport" };
 const secChemin = (slug, lang) => (lang === "en" ? `/en/${SLUG_EN[slug] || slug}/` : `/${slug}/`);
@@ -382,9 +385,10 @@ function corpsSite(lang, actif, contenu) {
   const rubs = Object.values(SECTIONS).map((x) => `<li><a href="${secChemin(x.slug, lang)}">${esc(x[lang])}</a></li>`).join("");
   return CORPS
     .replace(/<a class="logo" href="[^"]*"/, `<a class="logo" href="${accueilChemin(lang)}"`)
+    .replace('data-i18n="skip">Aller au contenu', `data-i18n="skip">${lang === "en" ? "Skip to content" : "Aller au contenu"}`)
     .replace(/(<nav class="sections" id="sections"[^>]*>)<\/nav>/, `$1${nav}</nav>`)
     .replace(/(<ul id="footer-sections" class="footer-list">)<\/ul>/, `$1${rubs}</ul>`)
-    .replace(/<main id="app">[\s\S]*?<\/main>/, () => `<main id="app" data-statique="1">${contenu}</main>`);
+    .replace(/<main id="app"[^>]*>[\s\S]*?<\/main>/, () => `<main id="app" tabindex="-1" data-statique="1">${contenu}</main>`);
 }
 function assembler(html) {
   const m = html.match(/^([\s\S]*?<body>)\s*<!--ENTETE:(\w+):([\w-]*)-->\s*<main id="contenu">([\s\S]*?)<\/main>/);
@@ -486,7 +490,7 @@ function pageArticle(a) {
   const aussi = [...new Set(proches)].slice(0, 4);
   const lireAussi = aussi.length ? `<section class="related"><h2>${T.also}</h2><ul>${aussi.map((x) => `<li><a href="${url(x)}">${esc(x.titre)}</a> <span>${esc(quand(x))}</span></li>`).join("")}</ul></section>` : "";
   return tete({
-    lang, titre: `${a.titre} | ${NOM}`, description: resume(a), canonical: url(a), type: "article", imageSrc: img && img.src, imageAlt: img ? img.legende || a.titre : null, alternates, jsonld: [ld, fil],
+    lang, titre: titrePage(a.titre), description: resume(a), canonical: url(a), type: "article", imageSrc: img && img.src, imageAlt: img ? img.legende || a.titre : null, alternates, jsonld: [ld, fil],
     extra: `<meta property="article:published_time" content="${isoComplet(a)}">\n<meta property="article:modified_time" content="${modifie(a)}">\n<meta property="article:section" content="${esc(sec[lang])}">\n${sujets.map((s) => `<meta property="article:tag" content="${esc(s.nom)}">`).join("\n")}`,
   }) + entete(lang, a.type === "archive" ? null : sec.slug) + `
 <main id="contenu">
@@ -563,7 +567,7 @@ function pageSujet(s, lang) {
   const faq = F.faq ? { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${canon}#faq`, inLanguage: lang, about: { "@id": sujetId(s) },
     mainEntity: F.faq.map(([q, r]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: r } })) } : null;
   const autres = SUJETS.filter((x) => x !== s);
-  return tete({ lang, titre: `${F.titre} | ${NOM}`, description: F.desc, canonical: canon, type: s.entite["@type"] === "Person" ? "profile" : "website", imageSrc: imgSrc, imageAlt: s.nom,
+  return tete({ lang, titre: titrePage(F.titre), description: F.desc, canonical: canon, type: s.entite["@type"] === "Person" ? "profile" : "website", imageSrc: imgSrc, imageAlt: s.nom,
     alternates: [{ lang: "fr", href: sujetUrl(s, "fr") }, { lang: "en", href: sujetUrl(s, "en") }], jsonld: [page, fil, ...(faq ? [faq] : [])] })
     + entete(lang, "sujet") + `
 <main id="contenu">
@@ -607,7 +611,7 @@ function pageFixe(cle, lang) {
   if (!P) return null;
   const C = CHEMINS_FIXES[cle] || { fr: `/${cle}/`, en: `/en/${cle}/` };
   const ld = { "@context": "https://schema.org", "@type": cle === "histoire" ? "AboutPage" : cle === "contact" ? "ContactPage" : "WebPage", "@id": `${SITE}${C[lang]}`, name: P.titre, url: `${SITE}${C[lang]}`, inLanguage: lang, isPartOf: { "@id": SITE_ID }, ...(cle === "histoire" ? { about: { "@id": ORG_ID } } : {}) };
-  return tete({ lang, titre: `${P.titre} | ${NOM}`, description: couper(P.chapo), canonical: `${SITE}${C[lang]}`, alternates: [{ lang: "fr", href: `${SITE}${C.fr}` }, { lang: "en", href: `${SITE}${C.en}` }], jsonld: [ld] })
+  return tete({ lang, titre: titrePage(cle === "contact" ? (lang === "en" ? "Contact the newsroom" : "Contacter la rédaction") : P.titre), description: couper(P.chapo), canonical: `${SITE}${C[lang]}`, alternates: [{ lang: "fr", href: `${SITE}${C.fr}` }, { lang: "en", href: `${SITE}${C.en}` }], jsonld: [ld] })
     + entete(lang) + `
 <main id="contenu"><article class="article page"><h1>${esc(P.titre)}</h1><p class="chapo">${esc(P.chapo)}</p><div class="page-body">${P.html}</div></article></main>
 ` + pied(lang);
@@ -673,7 +677,7 @@ const ecrire = (chemin, html) => {
 for (const a of indexables) ecrire(a.chemin, assembler(pageArticle(a)));
 for (const a of articles.filter((x) => x.type === "revue" && !indexables.includes(x))) {
   const L = langOf(a);
-  ecrire(a.chemin, assembler(tete({ lang: L, titre: `${a.titre} | ${NOM}`, description: resume(a), canonical: url(a), robots: "noindex, follow" })
+  ecrire(a.chemin, assembler(tete({ lang: L, titre: titrePage(a.titre), description: resume(a), canonical: url(a), robots: "noindex, follow" })
     + entete(L, (SECTIONS[a.section] || {}).slug) + `\n<main id="contenu"><article class="article"><h1>${esc(a.titre)}</h1><p class="chapo">${esc(a.chapo)}</p><ol class="revue">${(a.liens || []).map((l, i) => `<li id="info-${i}"><h2>${esc(l.titre)}</h2>${l.resume ? `<p>${esc(l.resume)}</p>` : ""}<p class="src">${esc(l.source)} : <a href="${esc(l.url)}" rel="noopener nofollow">${L === "en" ? "Read the article" : "Lire l’article"}</a></p></li>`).join("")}</ol></article></main>\n`));
 }
 // Redirections depuis les anciennes adresses (/a/…html, /r/…html, /p/…html, /sujet/…html)

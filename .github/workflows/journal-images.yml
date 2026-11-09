@@ -33,14 +33,25 @@ jobs:
           [ -z "$nouvelles" ] && exit 0
           command -v mogrify >/dev/null || (sudo apt-get update -q && sudo apt-get install -y -q imagemagick)
           for f in $nouvelles; do mogrify -resize '1280x>' -strip -quality 82 -interlace Plane "$f"; done
-      - name: Référencement
-        run: node scripts/build-static.mjs
       - name: Publier
+        # Le journal a pu changer pendant la passe : on repart de la dernière version et on y reporte
+        # les photos trouvées (pas de fusion git, donc pas de conflit). Jusqu'à 5 essais.
         run: |
           git config user.name "journal-bot"
           git config user.email "journal-bot@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet && echo "Rien de nouveau" && exit 0
-          git commit -m "Journal : photos des articles"
-          git pull --rebase
-          git push
+          T="$RUNNER_TEMP/photos"; mkdir -p "$T/img"
+          cp articles.json "$T/articles.json"
+          cp img/entreprises/*.jpg "$T/img/" 2>/dev/null || true
+          for essai in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            git clean -qfd img/entreprises
+            node scripts/fusion-photos.mjs "$T/articles.json" "$T/img"
+            node scripts/build-static.mjs
+            git add -A
+            git diff --cached --quiet && echo "Rien de nouveau" && exit 0
+            git commit -qm "Journal : photos des articles"
+            git push && exit 0
+            sleep $((essai * 10))
+          done
+          exit 1

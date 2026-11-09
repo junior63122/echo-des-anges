@@ -43,6 +43,19 @@ const index = articles.map((a) => Object.fromEntries(Object.entries(a).filter(([
 writeFileSync(join(OUT, "articles-index.json"), JSON.stringify(index));
 const VERSION = createHash("sha1").update(JSON.stringify(articles)).digest("hex").slice(0, 10);
 
+// Politique de sécurité du contenu (GitHub Pages ne permet pas d'en-têtes HTTP) : balise meta sur chaque page
+// sans script en ligne. Les pages de redirection (script en ligne) gardent leur redirection immédiate sans politique.
+const CSP = "default-src 'self'; script-src 'self' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://*.goatcounter.com; connect-src 'self' https://*.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests";
+{
+  const { readdirSync, statSync } = await import("node:fs");
+  const parcourir = (d) => { for (const f of readdirSync(d)) { const p = join(d, f); if (statSync(p).isDirectory()) parcourir(p); else if (f.endsWith(".html")) {
+    const t = readFileSync(p, "utf8");
+    if (/<script>/.test(t) || t.includes("Content-Security-Policy")) continue;
+    writeFileSync(p, t.replace(/<meta charset="utf-8">/i, (m) => `${m}\n  <meta http-equiv="Content-Security-Policy" content="${CSP}">\n  <meta name="referrer" content="strict-origin-when-cross-origin">`));
+  } } };
+  parcourir(OUT);
+}
+
 // GitHub Pages ne doit pas réinterpréter le site.
 writeFileSync(join(OUT, ".nojekyll"), "");
 
@@ -110,7 +123,9 @@ try {
     for (let i = 0; i < 100 && !app.querySelector("section, article, .lead"); i++) await new Promise((r) => setTimeout(r, 50));
     if (!app.querySelector("section, article, .lead")) throw new Error("accueil vide");
     // Marqué « pré-construit » : le navigateur l'affiche tel quel et le rafraîchit une fois la page chargée.
-    let rendu = dom.serialize().replace('<main id="app"', '<main id="app" data-prerendu="1"');
+    // Le rendu se fait sur une adresse locale : les liens absolus qu'il a écrits (canonical…) reprennent l'adresse du site.
+    let rendu = dom.serialize().replace('<main id="app"', '<main id="app" data-prerendu="1"').replaceAll("http://localhost/", "https://echodesanges.fr/");
+    if (/localhost/.test(rendu)) throw new Error("adresse locale restée dans l'accueil pré-construit");
     const hero = rendu.match(/<img src="(\/img\/[^"]+\.webp)" srcset="([^"]+)" sizes="([^"]+)"[^>]*fetchpriority="high"/);
     if (hero) rendu = rendu.replace("</head>", `<link rel="preload" as="image" href="${hero[1]}" imagesrcset="${hero[2]}" imagesizes="${hero[3]}" fetchpriority="high">\n</head>`);
     writeFileSync(fichier, rendu);
