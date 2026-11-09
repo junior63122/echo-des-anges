@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Mon, 09 Nov 2026 09:10:34 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 10:09:50 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Discothèques : sur la Côte d’Azur, les fermetures administratives rythment la nuit depuis 2019</title>
+    <link>https://echodesanges.fr/sorties/2026/11/09/cote-d-azur-fermetures-discotheques-bilan-2026/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/sorties/2026/11/09/cote-d-azur-fermetures-discotheques-bilan-2026/</guid>
+    <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Sorties</category>
+    <description>Du High Club de Nice au You de Juan-les-Pins, plusieurs établissements de nuit azuréens ont été fermés par l’État ces dernières années. Depuis l’incendie…</description>
+    <media:content url="https://echodesanges.fr/img/stock/sorties-4.jpg" medium="image"/>
+  </item>
   <item>
     <title>Nice et la Côte d’Azur : les faits marquants de la semaine du 2 au 8 novembre</title>
     <link>https://echodesanges.fr/nice/2026/11/08/hebdo-nice-cote-d-azur/</link>
@@ -435,14 +444,6 @@
     <pubDate>Wed, 04 Dec 2024 07:00:00 GMT</pubDate>
     <category>Tech</category>
     <description>La start-up marseillaise fondée par Rémi Pillot conçoit des batteries électriques mobiles pour l’industrie et l’événementiel. Le Crédit Agricole Alpes…</description>
-  </item>
-  <item>
-    <title>À Marseille, Ephyra inaugure une station hydrogène pour les bateaux de plaisance</title>
-    <link>https://echodesanges.fr/tech/2024/09/27/ephyra-station-hydrogene-anse-de-la-reserve/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2024/09/27/ephyra-station-hydrogene-anse-de-la-reserve/</guid>
-    <pubDate>Fri, 27 Sep 2024 06:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Installée au port de l’Anse de la Réserve, la station alimente des bateaux électriques à hydrogène. Le projet est porté par Chloé Zaied, également à la…</description>
   </item>
 </channel>
 </rss>
