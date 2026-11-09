@@ -607,9 +607,9 @@ function pageFixe(cle, lang) {
 const pageRedirection = (cible) => `<!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><title>${esc(NOM)}</title>
 <link rel="canonical" href="${cible}">
-<meta http-equiv="refresh" content="0; url=${cible}">
-<script>location.replace(${JSON.stringify(cible)} + location.hash)</script>
-</head><body><p><a href="${cible}">${esc(NOM)}</a></p></body></html>
+<meta http-equiv="refresh" content="0; url=${cible.replace(SITE, "")}">
+<script>location.replace(${JSON.stringify(cible.replace(SITE, ""))} + location.hash)</script>
+</head><body><p><a href="${cible.replace(SITE, "")}">${esc(NOM)}</a></p></body></html>
 `;
 
 // Archives, recherche, accueil anglais et page introuvable : coquilles du site avec un contenu statique.
@@ -672,8 +672,16 @@ for (const [ancien, cible] of Object.entries(REDIRECTIONS)) { const c = articles
 ecrire("/a/index.html", pageRedirection(`${SITE}${TOUS}`));
 ecrire(TOUS, assembler(pageIndex()));
 for (const lang of ["fr", "en"]) ecrire(archivesChemin(lang), assembler(pageArchives(lang)));
-ecrire("/recherche/", assembler(pageSimple("fr", "Recherche", "Rechercher un article de L'Écho des Anges.", "/recherche/", "noindex, follow")));
-ecrire("/en/search/", assembler(pageSimple("en", "Search", "Search L'Écho des Anges.", "/en/search/", "noindex, follow")));
+// Formulaire de recherche présent dès le chargement (fonctionne aussi sans JavaScript).
+const formRecherche = (lang) => {
+  const en = lang === "en";
+  const sugg = en ? ["Cannes Film Festival", "Monaco Grand Prix", "Carnaval de Nice", "start-up", "Lisnard"] : ["Festival de Cannes", "Grand Prix de Monaco", "Carnaval de Nice", "start-up", "Lisnard"];
+  const action = en ? "/en/search/" : "/recherche/";
+  return `<form class="recherche-page" role="search" action="${action}" method="get"><input type="search" name="q" placeholder="${en ? "Search for an article, a topic, a town…" : "Rechercher un article, un sujet, une ville…"}" aria-label="${en ? "Search" : "Rechercher"}"><button type="submit">${en ? "Search" : "Rechercher"}</button></form>
+<p class="suggestions">${sugg.map((s) => `<a href="${action}?q=${encodeURIComponent(s)}">${esc(s)}</a>`).join("")}</p>`;
+};
+ecrire("/recherche/", assembler(pageSimple("fr", "Recherche", "Rechercher un article de L'Écho des Anges : actualités, archives depuis 2018, portraits et entreprises.", "/recherche/", "noindex, follow").replace("</div></main>", `</div>${formRecherche("fr")}</main>`)));
+ecrire("/en/search/", assembler(pageSimple("en", "Search", "Search L'Écho des Anges: news, archives since 2018, profiles and companies.", "/en/search/", "noindex, follow").replace("</div></main>", `</div>${formRecherche("en")}</main>`)));
 ecrire("/en/", assembler(accueilAnglais()));
 ecrire("/404.html", assembler(pageSimple("fr", "Page introuvable", "L'article ou la page que vous cherchez n'existe pas, ou a changé d'adresse.", "/404.html", "noindex, follow")));
 const fixes = [];

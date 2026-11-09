@@ -343,7 +343,7 @@
     const parAn = {};
     for (const a of list) (parAn[a.date.slice(0, 4)] ||= []).push(a);
     const annees = Object.keys(parAn).sort().reverse();
-    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.archives)}</h1><p class="rubrique-chapo">${esc(T.archivesChapo)}${!own.length && T.archivesFr ? " " + esc(T.archivesFr) : ""}</p></div>
+    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.archives)}</h1><p class="rubrique-chapo">${esc(T.archivesChapo)}${lang === "en" && !articles.some((x) => x.type === "archive" && langOf(x) === "en") && T.archivesFr ? " " + esc(T.archivesFr) : ""}</p></div>
       <nav class="years themes"><a href="${archivesLink()}"${filtre ? "" : ' aria-current="page"'}>${esc(T.allThemes)}</a>${themes.map((t) => `<a href="${archivesLink(slugify(t))}"${filtre === slugify(t) ? ' aria-current="page"' : ""}>${esc(t)}</a>`).join("")}</nav>
       <nav class="years">${annees.map((y) => `<a href="${archivesLink(filtre)}#y-${y}">${y}</a>`).join("")}</nav>
       <div class="list">${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>${parAn[y].map((a) => `<article class="list-item">
@@ -369,8 +369,11 @@
       return { a, score };
     }).filter(Boolean).sort((x, y) => y.score - x.score || (y.a.date > x.a.date ? 1 : -1)).slice(0, 60);
     const input = document.getElementById("search-input"); if (input && input.value !== q) input.value = q;
+    const suggestions = lang === "en" ? ["Cannes Film Festival", "Monaco Grand Prix", "Carnaval de Nice", "start-up", "Lisnard"] : ["Festival de Cannes", "Grand Prix de Monaco", "Carnaval de Nice", "start-up", "Lisnard"];
     app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(q ? T.results(res.length, q) : "")}</p></div>
-      <div class="list">${res.length ? res.map(({ a }) => `<article class="list-item">
+      <form class="recherche-page" role="search"><input type="search" name="q" value="${esc(q)}" placeholder="${esc(T.searchPlaceholder)}" aria-label="${esc(T.search)}"><button type="submit">${esc(T.search)}</button></form>
+      ${q ? "" : `<p class="suggestions">${suggestions.map((s) => `<a href="${searchLink(s)}">${esc(s)}</a>`).join("")}</p>`}
+      <div class="list">${!q ? "" : res.length ? res.map(({ a }) => `<article class="list-item">
         <span class="kicker">${a.type === "archive" ? esc(theme(a)) : kickerHtml(a)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>
         <p>${esc(a.chapo)}</p></article>`).join("") : `<p class="loading">${esc(T.noResult)}</p>`}</div>`;
@@ -486,6 +489,8 @@
     if ((m = h.match(/^p\/([a-z]+)$/)) && PAGES_CHEMINS[m[1]]) return PAGES_CHEMINS[m[1]][lang];
     return null;
   }
+  // La page de recherche dépend de la requête : elle est toujours construite avec les données.
+  const RECHERCHE = /^\/(en\/)?(recherche|search)\//;
   const ANCIEN = /^#(a|r|p|recherche|archives)(\/|$)/;
   let premier = true;
   // Mesure d'audience sans cookie (GoatCounter), une visite comptée par page affichée.
@@ -513,7 +518,7 @@
     // Pages publiées uniquement en statique (fiches sujets, liste complète) : rechargement complet.
     if (STATIQUES.test(path)) { if (!initial) location.reload(); return; }
     // Page déjà rendue côté serveur : on la garde telle quelle (affichage immédiat, rien à télécharger).
-    if (initial && app.dataset.statique) {
+    if (initial && app.dataset.statique && !RECHERCHE.test(path)) {
       const seg = path.replace(/^\/en(?=\/)/, "").split("/")[1] || "";
       const fr = lang === "en" ? Object.keys(SLUG_EN).find((k) => SLUG_EN[k] === seg) : seg;
       markNav(seg === "archives" ? "archives" : FROM_SLUG[fr] ? fr : null);
@@ -588,6 +593,12 @@
     searchForm.hidden = !searchForm.hidden;
     if (!searchForm.hidden) searchInput.focus();
   });
+  // Formulaire de la page de recherche elle-même.
+  document.addEventListener("submit", (e) => {
+    const f = e.target.closest(".recherche-page"); if (!f) return;
+    e.preventDefault();
+    const q = f.q.value.trim(); if (q) navigate(searchLink(q));
+  });
   searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const q = searchInput.value.trim();
@@ -603,6 +614,12 @@
   });
 
   window.addEventListener("popstate", route);
+  // Échap ferme le menu et la recherche.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (!drawer.hidden) { closeDrawer(); menuBtn.focus(); }
+    const f = document.getElementById("search-form"); if (f && !f.hidden) { f.hidden = true; document.getElementById("search-btn").focus(); }
+  });
   // Bouton « copier le lien » de la barre de partage.
   document.addEventListener("click", (e) => {
     const b = e.target.closest(".copier"); if (!b) return;
@@ -641,11 +658,23 @@
     fetch("/articles-index.json" + v).then((r) => (r.ok ? r.json() : fetch("/articles.json" + v).then((x) => x.json()))),
     fetch("/img/stock/credits.json" + v).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
   ]).then(([data, credits]) => { articles = data; photos = credits || {}; });
-  if (app.dataset.statique) {
+  if (app.dataset.statique && !RECHERCHE.test(location.pathname)) {
     // Page statique : affichée tout de suite, l'index est chargé ensuite pour une navigation instantanée.
     route();
     const plusTard = window.requestIdleCallback || ((f) => setTimeout(f, 1500));
     plusTard(() => chargerIndex().catch(() => {}), { timeout: 4000 });
+  } else if (app.dataset.prerendu) {
+    // Accueil pré-construit : affiché tel quel ; seul le fil « En continu » est rafraîchi une fois la page chargée.
+    markNav(null);
+    const rafraichir = () => chargerIndex().then(() => {
+      premier = false;
+      const ancien = document.querySelector(".live");
+      if (!ancien) return;
+      const t = document.createElement("div"); t.innerHTML = renderLive();
+      if (t.firstElementChild) ancien.replaceWith(t.firstElementChild);
+    }).catch(() => {});
+    const apresChargement = () => (window.requestIdleCallback || ((f) => setTimeout(f, 300)))(rafraichir, { timeout: 2500 });
+    if (document.readyState === "complete") apresChargement(); else window.addEventListener("load", apresChargement, { once: true });
   } else {
     chargerIndex().then(route).catch(() => { app.innerHTML = `<p class="loading">${esc(T.error)}</p>`; });
   }

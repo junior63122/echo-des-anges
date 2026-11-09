@@ -42,11 +42,6 @@ writeFileSync(join(OUT, "articles.json"), JSON.stringify(articles));
 const index = articles.map((a) => Object.fromEntries(Object.entries(a).filter(([k]) => k !== "corps" && (a.type === "revue" || k !== "liens") && k !== "numero")));
 writeFileSync(join(OUT, "articles-index.json"), JSON.stringify(index));
 const VERSION = createHash("sha1").update(JSON.stringify(articles)).digest("hex").slice(0, 10);
-// Accueil : l'index des articles est demandé dès la lecture de la page, en parallèle du script.
-{
-  const p = join(OUT, "index.html");
-  writeFileSync(p, readFileSync(p, "utf8").replace('<link rel="stylesheet" href="/journal.css">', `<link rel="preload" href="/articles-index.json?v=${VERSION}" as="fetch" crossorigin>\n  <link rel="stylesheet" href="/journal.css">`));
-}
 
 // GitHub Pages ne doit pas réinterpréter le site.
 writeFileSync(join(OUT, ".nojekyll"), "");
@@ -83,7 +78,10 @@ try {
   html(OUT);
   for (const p of pages) {
     const t = readFileSync(p, "utf8");
-    const n = t.replace(/<img src="(\/img\/[^"]+?)\.(jpe?g|png)"/gi, (m, b, ext) => (/(logo|icon|og-)/i.test(b) ? m : `<img src="${b}.webp" srcset="${b}-800.webp 800w, ${b}.webp 1280w" sizes="(max-width: 760px) 100vw, 760px"`));
+    let n = t.replace(/<img src="(\/img\/[^"]+?)\.(jpe?g|png)"/gi, (m, b, ext) => (/(logo|icon|og-)/i.test(b) ? m : `<img src="${b}.webp" srcset="${b}-800.webp 800w, ${b}.webp 1280w" sizes="(max-width: 760px) 100vw, 760px"`));
+    // Photo principale (prioritaire) : téléchargement demandé dès l'en-tête de la page.
+    const hero = n.match(/<img src="(\/img\/[^"]+\.webp)" srcset="([^"]+)" sizes="([^"]+)"[^>]*fetchpriority="high"/);
+    if (hero && !n.includes('rel="preload" as="image"')) n = n.replace("</head>", `<link rel="preload" as="image" href="${hero[1]}" imagesrcset="${hero[2]}" imagesizes="${hero[3]}" fetchpriority="high">\n</head>`);
     if (n !== t) writeFileSync(p, n);
   }
   webp = true;
@@ -111,7 +109,11 @@ try {
     const app = w.document.getElementById("app");
     for (let i = 0; i < 100 && !app.querySelector("section, article, .lead"); i++) await new Promise((r) => setTimeout(r, 50));
     if (!app.querySelector("section, article, .lead")) throw new Error("accueil vide");
-    writeFileSync(fichier, dom.serialize());
+    // Marqué « pré-construit » : le navigateur l'affiche tel quel et le rafraîchit une fois la page chargée.
+    let rendu = dom.serialize().replace('<main id="app"', '<main id="app" data-prerendu="1"');
+    const hero = rendu.match(/<img src="(\/img\/[^"]+\.webp)" srcset="([^"]+)" sizes="([^"]+)"[^>]*fetchpriority="high"/);
+    if (hero) rendu = rendu.replace("</head>", `<link rel="preload" as="image" href="${hero[1]}" imagesrcset="${hero[2]}" imagesizes="${hero[3]}" fetchpriority="high">\n</head>`);
+    writeFileSync(fichier, rendu);
     w.close();
   }
   preconstruit = true;
