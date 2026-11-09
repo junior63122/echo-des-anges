@@ -5,7 +5,7 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Mon, 09 Nov 2026 10:57:43 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 12:51:13 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
@@ -174,6 +174,15 @@
     <media:content url="https://echodesanges.fr/img/entreprises/paprec-pizzorno-offre-publique.jpg" medium="image"/>
   </item>
   <item>
+    <title>Pierre Deyris, l’entrepreneur de Roquebrune-Cap-Martin qui veut livrer les yachts par la voie des airs</title>
+    <link>https://echodesanges.fr/economie/2026/10/23/pierre-deyris-flyde-livraison-drone-yachts-porto-vecchio/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/10/23/pierre-deyris-flyde-livraison-drone-yachts-porto-vecchio/</guid>
+    <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Fondateur de Flyde en 2022, il a ouvert cet été à Antibes la première base de livraison en mer par drone. Ce vendredi, il fait la démonstration de son…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-3.jpg" medium="image"/>
+  </item>
+  <item>
     <title>Chaleur perdue, électricité gagnée : l’aixois Entent dévoile sa première machine industrielle</title>
     <link>https://echodesanges.fr/tech/2026/10/12/entent-pulse-50-chaleur-fatale-michelin/</link>
     <guid isPermaLink="true">https://echodesanges.fr/tech/2026/10/12/entent-pulse-50-chaleur-fatale-michelin/</guid>
@@ -280,6 +289,24 @@
     <description>Présidente du groupe Belles Rives, elle a repris en 2001 l’hôtel familial et créé en 2011 un prix littéraire. La 15e édition du Prix Fitzgerald vient de…</description>
   </item>
   <item>
+    <title>Jean Lemaire, l’entrepreneur de Sophia Antipolis qui veut électrifier les flottes de camions</title>
+    <link>https://echodesanges.fr/economie/2026/06/11/jean-lemaire-paragon-mobility-portrait-recharge-electrique/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/06/11/jean-lemaire-paragon-mobility-portrait-recharge-electrique/</guid>
+    <pubDate>Thu, 11 Jun 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Fondateur de Paragon Mobility, il défend une recharge électrique modulaire, livrée en conteneurs. Son entreprise vient de s’allier au girondin Valorem…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Recharge des camions électriques : le sophipolitain Paragon Mobility s’allie au girondin Valorem</title>
+    <link>https://echodesanges.fr/economie/2026/06/11/sophia-antipolis-paragon-mobility-valorem-recharge-camions/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/06/11/sophia-antipolis-paragon-mobility-valorem-recharge-camions/</guid>
+    <pubDate>Thu, 11 Jun 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Le spécialiste des bornes de recharge modulaires de Sophia Antipolis signe un premier accord avec l’opérateur d’énergie verte de Bègles pour accélérer…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-3.jpg" medium="image"/>
+  </item>
+  <item>
     <title>Pearcode lance son « Coffre-fort ADN » : des données numériques archivées dans des molécules</title>
     <link>https://echodesanges.fr/tech/2026/06/05/pearcode-coffre-fort-adn-sophia-antipolis/</link>
     <guid isPermaLink="true">https://echodesanges.fr/tech/2026/06/05/pearcode-coffre-fort-adn-sophia-antipolis/</guid>
@@ -296,6 +323,24 @@
     <category>Économie</category>
     <description>Au sommet Choose France, le propriétaire monégasque de Venturi a annoncé 250 millions d’euros d’investissement et près de 200 emplois à Toulouse pour sa…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/portrait-gildo-pastor-venturi-space.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Mikaël Cohen, le neurologue niçois qui veut faire passer l’examen neurologique sur tablette</title>
+    <link>https://echodesanges.fr/tech/2026/05/29/mikael-cohen-neurologue-nice-neuraccure-portrait/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/05/29/mikael-cohen-neurologue-nice-neuraccure-portrait/</guid>
+    <pubDate>Fri, 29 May 2026 06:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>Spécialiste de la sclérose en plaques au CHU de Nice, il a cofondé Neuraccure, start-up incubée à MonacoTech. Son application d’analyse des mouvements…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-2.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Frédéric Mittaine, l’ingénieur des données sismiques qui veut cartographier les fonds marins avec Cosma</title>
+    <link>https://echodesanges.fr/economie/2026/05/21/frederic-mittaine-cosma-drones-sous-marins-portrait/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/05/21/frederic-mittaine-cosma-drones-sous-marins-portrait/</guid>
+    <pubDate>Thu, 21 May 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Fondateur et président de la deeptech niçoise Cosma, il défend ce jeudi à Paris sa candidature aux Grands Prix de l’Académie des technologies. Son…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
   </item>
   <item>
     <title>Travaux publics : chez Renaudi, la troisième génération prend place à Cagnes-sur-Mer</title>
@@ -321,6 +366,15 @@
     <category>Événementiel</category>
     <description>Figurines, peluches, affiches : les douaniers ont contrôlé les stands de la 9e édition du salon de la pop culture. Son fondateur, Bastien Vergoni…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/play-azur-festival-contrefacons-saisies.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Samuel Dupont, le biologiste des huîtres qui a fait de la qualité de l’eau une affaire de prévisions</title>
+    <link>https://echodesanges.fr/economie/2026/04/23/samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/04/23/samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture/</guid>
+    <pubDate>Thu, 23 Apr 2026 06:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>Ancien chercheur postdoctoral à l’Ifremer, le cofondateur de Bioceanor dirige depuis 2018 la start-up de Sophia Antipolis. Sa bouée connectée est mise à…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Défibrillateurs connectés : Guillaume Fornas succède à son père à la tête de Citycare</title>
@@ -386,65 +440,13 @@
     <media:content url="https://echodesanges.fr/img/entreprises/datagreen-data-centers-monaco-telis.jpg" medium="image"/>
   </item>
   <item>
-    <title>Graphène et micro-organismes marins : Sea Further, première start-up de MonacoTech retenue par Horizon Europe</title>
-    <link>https://echodesanges.fr/tech/2026/03/05/monacotech-sea-further-horizon-europe-graphene-marin/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/03/05/monacotech-sea-further-horizon-europe-graphene-marin/</guid>
-    <pubDate>Thu, 05 Mar 2026 07:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>La jeune société fondée par Valentino Iakimov décroche un financement européen pour industrialiser un carbone bio-optimisé destiné aux piles à hydrogène…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-5.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Économie bleue : depuis Marseille, Go Capital multiplie les investissements dans les start-up maritimes</title>
-    <link>https://echodesanges.fr/finance/2026/01/20/go-capital-marseille-fonds-maritimes/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/finance/2026/01/20/go-capital-marseille-fonds-maritimes/</guid>
-    <pubDate>Tue, 20 Jan 2026 07:00:00 GMT</pubDate>
-    <category>Finance</category>
-    <description>La société de gestion rennaise, passée sous le contrôle de Magellim, accompagne Opsealog avec le fonds Sud Mer Invest. Son bureau marseillais, où officie…</description>
-  </item>
-  <item>
-    <title>Taylls, le réseau social audio né à Monaco, réunit ses premiers créateurs à La Môme Monte-Carlo</title>
-    <link>https://echodesanges.fr/tech/2025/11/14/monaco-taylls-reseau-social-audio-luna-moulinas/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2025/11/14/monaco-taylls-reseau-social-audio-luna-moulinas/</guid>
-    <pubDate>Fri, 14 Nov 2025 07:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Trois semaines après son lancement officiel, l’application imaginée par Luna Moulinas, 25 ans, organise ce vendredi soir ses premiers « Taylls Awards »…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-1.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Trophées TPM 2025 : Prodea Depolluting, qui détruit les polluants par plasma froid, sacrée start-up de l’année</title>
-    <link>https://echodesanges.fr/economie/2025/10/08/toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2025/10/08/toulon-trophees-tpm-prodea-depolluting-start-up-de-l-annee/</guid>
-    <pubDate>Wed, 08 Oct 2025 06:00:00 GMT</pubDate>
+    <title>Jessica Sbaraglia, la Suissesse qui a fait pousser des potagers sur les toits de Monaco</title>
+    <link>https://echodesanges.fr/economie/2026/03/16/jessica-sbaraglia-terrae-maraichere-monaco-portrait/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/03/16/jessica-sbaraglia-terrae-maraichere-monaco-portrait/</guid>
+    <pubDate>Mon, 16 Mar 2026 07:00:00 GMT</pubDate>
     <category>Économie</category>
-    <description>La jeune entreprise de Six-Fours-les-Plages, créée fin 2020 par Béatrice Drazenovic, remporte le prix de la start-up de l’année décerné par la métropole…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Au pied de la Sainte-Victoire, Julie Davico-Pahin fait renaître des oliviers millénaires</title>
-    <link>https://echodesanges.fr/economie/2025/09/22/heritage-victoire-huile-olive-sainte-victoire/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2025/09/22/heritage-victoire-huile-olive-sainte-victoire/</guid>
-    <pubDate>Mon, 22 Sep 2025 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Après avoir cofondé Ombrea, revendue à TotalEnergies, l’entrepreneuse aixoise transforme avec son père le terrain familial de Saint-Antonin-sur-Bayon en…</description>
-  </item>
-  <item>
-    <title>Hugo Lucchino prend la direction de la Villa Noailles et confirme le Festival de Hyères</title>
-    <link>https://echodesanges.fr/evenementiel/2025/08/14/hugo-lucchino-villa-noailles-hyeres/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/evenementiel/2025/08/14/hugo-lucchino-villa-noailles-hyeres/</guid>
-    <pubDate>Thu, 14 Aug 2025 06:00:00 GMT</pubDate>
-    <category>Événementiel</category>
-    <description>Désigné à l’unanimité par un jury, il succède à Jean-Pierre Blanc avec la mission de relancer une institution fragilisée.</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/hugo-lucchino-villa-noailles-hyeres.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Valves cardiaques : le niçois Caranx Medical obtient le feu vert de la FDA pour son logiciel d’IA</title>
-    <link>https://echodesanges.fr/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/</guid>
-    <pubDate>Mon, 14 Jul 2025 06:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>La medtech niçoise annonce l’autorisation de mise sur le marché américain de TAVIPILOT Soft, un logiciel d’intelligence artificielle qui guide en temps…</description>
-    <media:content url="https://echodesanges.fr/img/stock/tech-2.jpg" medium="image"/>
+    <description>Fondatrice de Terre de Monaco, devenue Terrae, elle cultive depuis 2016 des légumes dans la Principauté. Monaco Telecom vient de renouveler pour la…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
