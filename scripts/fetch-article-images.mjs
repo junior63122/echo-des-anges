@@ -18,7 +18,7 @@ const stripHtml = (s) => String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g
 
 async function api(params) {
   const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({ format: "json", prop: "imageinfo", iiprop: "url|size|mime|extmetadata", iiurlwidth: "1280", ...params });
-  const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20000) });
+  const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(12000) });
   const txt = await res.text();
   if (!res.ok || !txt.trim().startsWith("{")) throw new Error(`HTTP ${res.status} ${res.headers.get("content-type")} : ${txt.replace(/\s+/g, " ").slice(0, 200)}`);
   const pages = Object.values(JSON.parse(txt).query?.pages || {});
@@ -31,7 +31,7 @@ async function api(params) {
 // Repli : Openverse (catalogue de photos sous licence Creative Commons, dont Wikimedia et Flickr).
 async function openverse(q) {
   const url = "https://api.openverse.org/v1/images/?" + new URLSearchParams({ q, license: "cc0,pdm,by,by-sa", aspect_ratio: "wide", size: "large", page_size: "20", mature: "false" });
-  const res = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" }, signal: AbortSignal.timeout(20000) });
+  const res = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" }, signal: AbortSignal.timeout(12000) });
   const txt = await res.text();
   if (!res.ok || !txt.trim().startsWith("{")) throw new Error(`Openverse HTTP ${res.status} : ${txt.replace(/\s+/g, " ").slice(0, 200)}`);
   return (JSON.parse(txt).results || []).filter((x) => x.url && /\.jpe?g($|\?)/i.test(x.url) && (x.width || 0) >= 1200 && (x.width || 0) <= 3200 && x.creator).map((x) => ({
@@ -69,9 +69,15 @@ async function main() {
     const q = [...propres.map((p) => (lieux[0] && !p.includes(lieux[0]) ? `${p} ${lieux[0]}` : p)), ...propres, ...lieux.map((l) => `${l} ${a.section === "Sport" ? "stade" : a.section === "Culture" ? "musée" : "vue"}`), ...lieux];
     return [...new Set(q)].filter((x) => x.length > 3).slice(0, 5);
   };
+  // Budget de temps par passe : le travail est enregistré au fur et à mesure, la passe suivante reprend la suite.
+  const DEBUT = Date.now(), BUDGET = (+process.env.PHOTOS_MINUTES || 40) * 60e3;
+  const enregistrer = () => writeFileSync(DB, JSON.stringify(articles, null, 2) + "\n");
   for (const a of articles) {
+    if (Date.now() - DEBUT > BUDGET) { console.log("Budget de temps atteint : la suite à la prochaine passe."); break; }
     if (!a.image && !a.imageCommons && a.lang !== "en" && a.photo !== false && a.type !== "revue") { const q = autoRequetes(a); if (q.length) a.imageCommons = q; }
     if (a.image || !a.imageCommons || a.lang === "en") continue;
+    // Recherche déjà tentée sans succès avec les mêmes requêtes : on ne la refait pas à chaque passe.
+    if (a.imageEchec && a.imageEchec === JSON.stringify(a.imageCommons)) continue;
     const demandes = [].concat(a.imageCommons);
     let choix = null;
     for (const q of demandes) {
@@ -85,8 +91,8 @@ async function main() {
       }
       if (choix) break;
     }
-    if (!choix) { console.warn(`- ${a.id} : aucune photo libre trouvée`); continue; }
-    const r = await fetch(choix.thumb, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(30000) });
+    if (!choix) { console.warn(`- ${a.id} : aucune photo libre trouvée`); a.imageEchec = JSON.stringify(a.imageCommons); continue; }
+    const r = await fetch(choix.thumb, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20000) });
     if (!r.ok) { console.warn(`  ${a.id} ✗ téléchargement HTTP ${r.status}`); continue; }
     const fichier = `img/entreprises/${a.id.replace(/^\d{4}-\d\d-\d\d-/, "").slice(0, 60)}.jpg`;
     writeFileSync(join(ROOT, fichier), Buffer.from(await r.arrayBuffer()));
@@ -94,10 +100,12 @@ async function main() {
     // La traduction anglaise partage la même photo.
     for (const x of articles) if (x === a || (x.lang === "en" && x.id.replace(/^((?:archive-)?\d{4}-\d\d-\d\d)-en-/, "$1-") === a.id)) x.image = image;
     prises.add(choix.page);
+    delete a.imageEchec;
     n++;
     console.log(`+ ${a.id} ← ${choix.titre} (${choix.licence}, ${choix.auteur})`);
+    if (n % 10 === 0) enregistrer();
   }
-  writeFileSync(DB, JSON.stringify(articles, null, 2) + "\n");
+  enregistrer();
   console.log(`${n} photo(s) ajoutée(s).`);
 }
 main();

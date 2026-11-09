@@ -33,7 +33,7 @@ if (!existsSync(join(ROOT, "_genere"))) throw new Error("Lancer d'abord node scr
 cpSync(join(ROOT, "_genere"), OUT, { recursive: true });
 
 // Données publiées : uniquement les champs utiles à l'affichage.
-const INTERNES = ["imageCommons", "imageLegende", "slug", "redigeSur"];
+const INTERNES = ["imageCommons", "imageLegende", "imageEchec", "slug", "redigeSur"];
 const articles = JSON.parse(readFileSync(join(ROOT, "articles.json"), "utf8"))
   .map((a) => Object.fromEntries(Object.entries(a).filter(([k]) => !INTERNES.includes(k))));
 writeFileSync(join(OUT, "articles.json"), JSON.stringify(articles));
