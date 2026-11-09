@@ -17,7 +17,7 @@ const LICENCES_OK = /^(cc0|public domain|pd|cc by(-sa)? \d|cc-by(-sa)?-\d)/i;
 const stripHtml = (s) => String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
 async function api(params) {
-  const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({ format: "json", prop: "imageinfo", iiprop: "url|size|mime|extmetadata", iiurlwidth: "1280", ...params });
+  const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({ action: "query", format: "json", prop: "imageinfo", iiprop: "url|size|mime|extmetadata", iiurlwidth: "1280", ...params });
   const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(12000) });
   const txt = await res.text();
   if (!res.ok || !txt.trim().startsWith("{")) throw new Error(`HTTP ${res.status} ${res.headers.get("content-type")} : ${txt.replace(/\s+/g, " ").slice(0, 200)}`);
