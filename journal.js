@@ -44,6 +44,7 @@
       search: "Rechercher",
       searchPlaceholder: "Rechercher un article, un sujet, une ville…",
       searchTitle: "Recherche",
+      searchIntro: "Rechercher un article de L'Écho des Anges : actualités, archives depuis 2018, portraits et entreprises.",
       results: (n, q) => `${n} résultat${n > 1 ? "s" : ""} pour « ${q} »`,
       noResult: "Aucun article ne correspond à votre recherche.",
       fromArchives: "Dans nos archives",
@@ -96,6 +97,7 @@
       search: "Search",
       searchPlaceholder: "Search for an article, a topic, a town…",
       searchTitle: "Search",
+      searchIntro: "Search L'Écho des Anges: news, archives since 2018, profiles and companies.",
       results: (n, q) => `${n} result${n > 1 ? "s" : ""} for “${q}”`,
       noResult: "No article matches your search.",
       fromArchives: "From our archives",
@@ -374,9 +376,9 @@
     }).filter(Boolean).sort((x, y) => y.score - x.score || (y.a.date > x.a.date ? 1 : -1)).slice(0, 60);
     const input = document.getElementById("search-input"); if (input && input.value !== q) input.value = q;
     const suggestions = lang === "en" ? ["Cannes Film Festival", "Monaco Grand Prix", "Carnaval de Nice", "start-up", "Lisnard"] : ["Festival de Cannes", "Grand Prix de Monaco", "Carnaval de Nice", "start-up", "Lisnard"];
-    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(q ? T.results(res.length, q) : "")}</p></div>
+    app.innerHTML = `<div class="rubrique-head"><h1>${esc(T.searchTitle)}</h1><p class="rubrique-chapo">${esc(T.searchIntro)}</p></div>
       <form class="recherche-page" role="search"><input type="search" name="q" value="${esc(q)}" placeholder="${esc(T.searchPlaceholder)}" aria-label="${esc(T.search)}"><button type="submit">${esc(T.search)}</button></form>
-      ${q ? "" : `<p class="suggestions">${suggestions.map((s) => `<a href="${searchLink(s)}">${esc(s)}</a>`).join("")}</p>`}
+      ${q ? `<p class="resultats-compte" role="status">${esc(T.results(res.length, q))}</p>` : `<p class="suggestions">${suggestions.map((s) => `<a href="${searchLink(s)}">${esc(s)}</a>`).join("")}</p>`}
       <div class="list">${q && res.length ? `<h2 class="sr-only">${esc(lang === "en" ? "Results" : "Résultats")}</h2>` : ""}${!q ? "" : res.length ? res.map(({ a }) => `<article class="list-item">
         <span class="kicker">${a.type === "archive" ? esc(theme(a)) : kickerHtml(a)}${SEP}${esc(quand(a))}</span>
         <h3><a href="${artLink(a)}">${esc(a.titre)}</a></h3>

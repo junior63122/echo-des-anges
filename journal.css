@@ -453,3 +453,6 @@ main { min-height: 50vh; }
   .lead-side { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
   .lead-side .feature + .feature { border-top: 0; padding-top: 0; margin-top: 0; }
 }
+/* Recherche : la page garde sa hauteur pendant l'arrivée des résultats (pas de saut du pied de page). */
+main:has(> .recherche-page) { min-height: 100vh; }
+.resultats-compte { font-family: var(--sans); font-weight: 600; color: var(--muted); margin: 14px 0 0; }

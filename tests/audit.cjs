@@ -171,7 +171,9 @@ const TAILLES = [[320, 568], [360, 740], [390, 844], [844, 390], [768, 1024], [1
   // 7. Stabilité visuelle (CLS) et plus grand affichage (LCP) en mobile.
   {
     const ctx = await br.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true }); const p = await ctx.newPage();
-    for (const u of PAGES.slice(0, 16)) {
+    // Processeur ralenti (téléphone modeste) : les décalages tardifs apparaissent comme chez un vrai lecteur.
+    const cdpCls = await ctx.newCDPSession(p); await cdpCls.send("Emulation.setCPUThrottlingRate", { rate: 4 });
+    for (const u of PAGES) {
       await p.goto(B + u, { waitUntil: "load" });
       const cls = await p.evaluate(() => new Promise((res) => { let c = 0; new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) c += e.value; }).observe({ type: "layout-shift", buffered: true }); setTimeout(() => res(c), 1500); }));
       if (cls > 0.02) note(`CLS ${u} : ${cls.toFixed(3)}`);
