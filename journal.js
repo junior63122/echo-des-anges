@@ -304,10 +304,16 @@
     </div>`;
   }
 
+  // Archives dans la langue du lecteur : la traduction quand elle existe, sinon l'original français.
+  function archivesLangue() {
+    const fr = articles.filter((a) => a.type === "archive" && langOf(a) === "fr");
+    if (lang === "fr") return fr;
+    const en = new Map(articles.filter((a) => a.type === "archive" && langOf(a) === "en").map((a) => [twinKey(a), a]));
+    return fr.map((a) => en.get(twinKey(a)) || a);
+  }
   // Trois archives tirées au sort chaque jour (les mêmes pour tous les lecteurs).
   function archivesPool() {
-    const own = articles.filter((a) => a.type === "archive" && langOf(a) === lang);
-    return own.length ? own : articles.filter((a) => a.type === "archive");
+    return archivesLangue();
   }
   function renderArchivesBlock() {
     const pool = archivesPool();
@@ -331,8 +337,7 @@
   const slugify = (x) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   function renderArchives(filtre) {
     markNav("archives");
-    const own = articles.filter((a) => a.type === "archive" && langOf(a) === lang);
-    const tout = own.length ? own : articles.filter((a) => a.type === "archive");
+    const tout = archivesLangue();
     const themes = [...new Set(tout.map(theme))].sort((x, y) => x.localeCompare(y, "fr"));
     const list = filtre ? tout.filter((a) => slugify(theme(a)) === filtre) : tout;
     const parAn = {};

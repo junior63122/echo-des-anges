@@ -584,7 +584,9 @@ const pageRedirection = (cible) => `<!DOCTYPE html>
 // Archives, recherche, accueil anglais et page introuvable : coquilles du site avec un contenu statique.
 function pageArchives(lang) {
   const en = lang === "en";
-  const liste = indexables.filter((a) => a.type === "archive" && langOf(a) === "fr").sort(parDate);
+  // En anglais : la version anglaise de chaque archive quand elle existe, sinon l'original français.
+  const traductions = new Map(indexables.filter((a) => a.type === "archive" && langOf(a) === "en").map((a) => [twinKey(a), a]));
+  const liste = indexables.filter((a) => a.type === "archive" && langOf(a) === "fr").map((a) => (en && traductions.get(twinKey(a))) || a).sort(parDate);
   const parAn = {};
   for (const a of liste) (parAn[a.date.slice(0, 4)] ||= []).push(a);
   const annees = Object.keys(parAn).sort().reverse();
@@ -595,7 +597,7 @@ function pageArchives(lang) {
 <main id="contenu">
 <div class="rubrique-head"><h1>Archives</h1></div>
 <div class="list">
-${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>\n${listeArticles(parAn[y], "fr")}`).join("\n")}
+${annees.map((y) => `<h2 class="year" id="y-${y}">${y}</h2>\n${listeArticles(parAn[y], lang)}`).join("\n")}
 </div>
 </main>
 `;

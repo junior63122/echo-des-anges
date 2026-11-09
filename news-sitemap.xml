@@ -81,14 +81,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://echodesanges.fr/en/business/2026/11/07/portrait-agnes-costa-fragonard-centenaire/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-07T08:00:00+01:00</news:publication_date>
-      <news:title>Agnès Costa, the sister carrying Fragonard to its centenary</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://echodesanges.fr/culture/2026/11/07/fin-annee-culture-matisse-katz-brauner-belle-au-bois-dormant/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
@@ -102,14 +94,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-07T14:30:00+01:00</news:publication_date>
       <news:title>Marchés de Noël 2026 : les dates à Nice, Cannes et Monaco</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/economie/2026/11/07/portrait-agnes-costa-fragonard-centenaire/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-07T08:00:00+01:00</news:publication_date>
-      <news:title>Agnès Costa, la sœur qui porte Fragonard jusqu’à son centenaire</news:title>
     </news:news>
   </url>
 </urlset>
