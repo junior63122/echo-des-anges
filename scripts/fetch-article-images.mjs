@@ -94,7 +94,7 @@ async function main() {
     if (!choix) { console.warn(`- ${a.id} : aucune photo libre trouvée`); a.imageEchec = JSON.stringify(a.imageCommons); continue; }
     const r = await fetch(choix.thumb, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20000) });
     if (!r.ok) { console.warn(`  ${a.id} ✗ téléchargement HTTP ${r.status}`); continue; }
-    const fichier = `img/entreprises/${a.id.replace(/^\d{4}-\d\d-\d\d-/, "").slice(0, 60)}.jpg`;
+    const fichier = `img/entreprises/${a.id.slice(0, 80)}.jpg`; // identifiant complet, date comprise : aucun fichier partagé
     writeFileSync(join(ROOT, fichier), Buffer.from(await r.arrayBuffer()));
     const image = { src: fichier, credit: `${choix.auteur} / ${choix.source || "Wikimedia Commons"} (${choix.licence})`, page: choix.page, paysage: choix.w > choix.h, legende: a.imageLegende || { fr: "", en: "" } };
     // La traduction anglaise partage la même photo.
