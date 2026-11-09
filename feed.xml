@@ -5,7 +5,7 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Mon, 09 Nov 2026 14:21:10 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 14:22:51 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
@@ -15,7 +15,7 @@
     <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
     <category>Sorties</category>
     <description>7 rendez-vous et idées de sorties repérés dans l’actualité, de Nice à Monaco.</description>
-    <media:content url="https://echodesanges.fr/img/stock/sorties-3.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-5.jpg" medium="image"/>
   </item>
   <item>
     <title>La semaine économique en 7 sujets, du 3 au 9 novembre</title>
@@ -24,7 +24,7 @@
     <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>20 informations publiées par 4 médias en sept jours. Au programme : « Le gouvernement annonce une augmentation du smic de 1,6% dès le 1er décembre, pour…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-5.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-5.jpg" medium="image"/>
   </item>
   <item>
     <title>Discothèques : sur la Côte d’Azur, les fermetures administratives rythment la nuit depuis 2019</title>
@@ -33,7 +33,7 @@
     <pubDate>Mon, 09 Nov 2026 07:00:00 GMT</pubDate>
     <category>Sorties</category>
     <description>Du High Club de Nice au You de Juan-les-Pins, plusieurs établissements de nuit azuréens ont été fermés par l’État ces dernières années. Depuis l’incendie…</description>
-    <media:content url="https://echodesanges.fr/img/stock/sorties-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/sorties-azur-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Nice et la Côte d’Azur : les faits marquants de la semaine du 2 au 8 novembre</title>
@@ -154,7 +154,7 @@
     <pubDate>Fri, 06 Nov 2026 11:30:00 GMT</pubDate>
     <category>Sport</category>
     <description>Le rallye de Contes fête sa 50e édition, les rugbymen niçois se déplacent à Narbonne et les handballeuses jouent un derby décisif à Toulon. L’OGC Nice…</description>
-    <media:content url="https://echodesanges.fr/img/stock/sport-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/sport-azur-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Le sociologue Jean-Claude Passeron, enfant d’Ascros et coauteur des « Héritiers », est mort à 96 ans</title>
@@ -172,7 +172,7 @@
     <pubDate>Fri, 06 Nov 2026 11:10:00 GMT</pubDate>
     <category>Économie</category>
     <description>Deux projets urbains de Grasse voient leur facture grimper, Nice prépare l’arrivée des eaux usées de la rive droite du Var et un projet de traitement des…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-1.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-1.jpg" medium="image"/>
   </item>
   <item>
     <title>Palmarès Choiseul Sud 2026 : les Alpes-Maritimes placent 38 jeunes dirigeants parmi les 100 « leaders de demain »</title>
@@ -198,7 +198,7 @@
     <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Fondateur de Flyde en 2022, il a ouvert cet été à Antibes la première base de livraison en mer par drone. Ce vendredi, il fait la démonstration de son…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-3.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Chaleur perdue, électricité gagnée : l’aixois Entent dévoile sa première machine industrielle</title>
@@ -313,7 +313,7 @@
     <pubDate>Thu, 11 Jun 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Fondateur de Paragon Mobility, il défend une recharge électrique modulaire, livrée en conteneurs. Son entreprise vient de s’allier au girondin Valorem…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Recharge des camions électriques : le sophipolitain Paragon Mobility s’allie au girondin Valorem</title>
@@ -322,7 +322,7 @@
     <pubDate>Thu, 11 Jun 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Le spécialiste des bornes de recharge modulaires de Sophia Antipolis signe un premier accord avec l’opérateur d’énergie verte de Bègles pour accélérer…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-3.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-3.jpg" medium="image"/>
   </item>
   <item>
     <title>Pearcode lance son « Coffre-fort ADN » : des données numériques archivées dans des molécules</title>
@@ -358,7 +358,7 @@
     <pubDate>Thu, 21 May 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Fondateur et président de la deeptech niçoise Cosma, il défend ce jeudi à Paris sa candidature aux Grands Prix de l’Académie des technologies. Son…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-2.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-2.jpg" medium="image"/>
   </item>
   <item>
     <title>Travaux publics : chez Renaudi, la troisième génération prend place à Cagnes-sur-Mer</title>
@@ -392,7 +392,7 @@
     <pubDate>Thu, 23 Apr 2026 06:00:00 GMT</pubDate>
     <category>Économie</category>
     <description>Ancien chercheur postdoctoral à l’Ifremer, le cofondateur de Bioceanor dirige depuis 2018 la start-up de Sophia Antipolis. Sa bouée connectée est mise à…</description>
-    <media:content url="https://echodesanges.fr/img/stock/business-4.jpg" medium="image"/>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-4.jpg" medium="image"/>
   </item>
   <item>
     <title>Défibrillateurs connectés : Guillaume Fornas succède à son père à la tête de Citycare</title>
