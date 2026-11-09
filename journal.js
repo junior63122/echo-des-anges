@@ -556,6 +556,11 @@
   }
   function navigate(url) {
     if (!articles.length) { location.href = url; return; }
+    // Article dont le texte intégral n'est pas encore chargé : sa page statique (quelques Ko, complète)
+    // s'affiche bien plus vite que le téléchargement de tout le journal (articles.json).
+    const cible = decodeURIComponent(new URL(url, location.href).pathname).replace(/\/?$/, "/");
+    const art = !completCharge && articles.find((x) => x.chemin === cible);
+    if (art && !art.corps && (art.type !== "revue" || art.redige)) { location.href = url; return; }
     history.pushState(null, "", url);
     route();
     if (!/#/.test(url)) window.scrollTo(0, 0);
@@ -651,9 +656,10 @@
   // La version change à chaque publication : le navigateur peut garder les fichiers en cache entre deux.
   const VERSION = "__VERSION__";
   const v = "?v=" + (VERSION.startsWith("__") ? Date.now() : VERSION);
-  let complet = null;
+  let complet = null, completCharge = false;
   function chargerComplet() {
     return complet || (complet = fetch("/articles.json" + v).then((r) => r.json()).then((data) => {
+      completCharge = true;
       const parId = new Map(data.map((x) => [x.id, x]));
       for (const a of articles) { const f = parId.get(a.id); if (f) { a.corps = f.corps; a.liens = f.liens; } }
     }).catch(() => {}));

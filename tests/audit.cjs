@@ -189,7 +189,10 @@ const TAILLES = [[320, 568], [360, 740], [390, 844], [844, 390], [768, 1024], [1
       await p.goto(B + "/economie/"); await p.goto(B + "/"); await p.waitForTimeout(400);
       const el = await p.$(`main a[href="${h}"]`); if (!el) continue;
       await el.click({ force: true });
-      await p.waitForURL((u) => u.pathname === h, { timeout: 8000 }).catch(() => note(`clic lent : ${h} ne s'ouvre pas`));
+      const accueil = (await p.textContent("h1")) || "";
+      await p.waitForURL((u) => u.pathname === h.split("#")[0], { timeout: 8000 }).catch(() => note(`clic lent : ${h} ne s'ouvre pas`));
+      // L'article doit s'afficher vite : pas l'accueil qui reste à l'écran sous la nouvelle adresse.
+      await p.waitForFunction((t) => (document.querySelector("h1") || {}).textContent !== t, accueil, { timeout: 3000 }).catch(() => note(`clic lent : ${h} garde l'accueil affiché`));
     }
     await ctx.close();
   }
