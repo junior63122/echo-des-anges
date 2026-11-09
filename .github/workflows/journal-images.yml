@@ -2,6 +2,9 @@ name: Journal - photos des articles
 
 on:
   workflow_dispatch:
+  # Une passe par heure : chaque passe travaille 40 minutes au plus et la suivante reprend la suite.
+  schedule:
+    - cron: "17 * * * *"
   push:
     branches: [main]
     paths: [articles.json, scripts/fetch-article-images.mjs]
@@ -16,6 +19,7 @@ concurrency:
 jobs:
   photos:
     runs-on: ubuntu-latest
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
