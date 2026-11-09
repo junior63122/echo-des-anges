@@ -72,7 +72,7 @@ async function main() {
     writeFileSync(join(ROOT, fichier), Buffer.from(await r.arrayBuffer()));
     const image = { src: fichier, credit: `${choix.auteur} / ${choix.source || "Wikimedia Commons"} (${choix.licence})`, page: choix.page, paysage: choix.w > choix.h, legende: a.imageLegende || { fr: "", en: "" } };
     // La traduction anglaise partage la même photo.
-    for (const x of articles) if (x === a || (x.lang === "en" && x.id.replace(/^(\d{4}-\d\d-\d\d)-en-/, "$1-") === a.id)) x.image = image;
+    for (const x of articles) if (x === a || (x.lang === "en" && x.id.replace(/^((?:archive-)?\d{4}-\d\d-\d\d)-en-/, "$1-") === a.id)) x.image = image;
     prises.add(choix.page);
     n++;
     console.log(`+ ${a.id} ← ${choix.titre} (${choix.licence}, ${choix.auteur})`);
