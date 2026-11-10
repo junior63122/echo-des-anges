@@ -59,6 +59,7 @@
       alsoTitle: "À lire aussi",
       portrait: "Portrait",
       photo: "Photo",
+      illustration: "Illustration",
       sections: { Business: "Économie", Finance: "Finance", "Événementiel": "Événementiel", Culture: "Culture", Sorties: "Sorties", Tech: "Tech", Monde: "International", "Nice & Côte d'Azur": "Nice & Côte d'Azur", Sport: "Sport" },
     },
     en: {
@@ -112,6 +113,7 @@
       alsoTitle: "Also worth reading",
       portrait: "Profile",
       photo: "Photo",
+      illustration: "Illustration",
       sections: { Business: "Business", Finance: "Finance", "Événementiel": "Events", Culture: "Culture", Sorties: "Going out", Tech: "Tech", Monde: "World", "Nice & Côte d'Azur": "Nice & the Riviera", Sport: "Sport" },
     },
   };
@@ -168,7 +170,7 @@
   const hash = (str) => { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
   function imageFor(a) {
     if (a.photo === false) return null; // sujets tragiques : pas de photo d'illustration
-    if (a.image) return { src: absSrc(a.image.src), credit: `${T.photo} : ${a.image.credit}`, legende: (a.image.legende || {})[lang] || "", alt: (a.image.legende || {})[lang] || a.titre };
+    if (a.image) return { src: absSrc(a.image.src), credit: `${a.image.couverture ? T.illustration : T.photo} : ${a.image.credit}`, legende: (a.image.legende || {})[lang] || "", alt: (a.image.legende || {})[lang] || a.titre };
     const pool = photos[a.section] || [];
     if (!pool.length) return null;
     const p = pool[hash(twinKey(a)) % pool.length];

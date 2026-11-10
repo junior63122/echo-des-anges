@@ -1459,7 +1459,17 @@
     "imageCommons": [
       "Dali Benssalah"
     ],
-    "imageEchec": "[\"Dali Benssalah\"]"
+    "imageEchec": "[\"Dali Benssalah\"]",
+    "image": {
+      "src": "img/couvertures/2026-11-08-actu-culture.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-08-actu-evenementiel",
@@ -2030,7 +2040,17 @@
       "Ocula",
       "Montecarlo Living"
     ],
-    "chemin": "/en/culture/2026/11/08/press-review/"
+    "chemin": "/en/culture/2026/11/08/press-review/",
+    "image": {
+      "src": "img/couvertures/2026-11-08-en-actu-culture.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-08-en-actu-evenementiel",
@@ -4234,7 +4254,17 @@
       "Marathon des Alpes-Maritimes",
       "Nice Cannes marathon runners"
     ],
-    "imageEchec": "[\"Marathon Nice Cannes\",\"Marathon des Alpes-Maritimes\",\"Nice Cannes marathon runners\"]"
+    "imageEchec": "[\"Marathon Nice Cannes\",\"Marathon des Alpes-Maritimes\",\"Nice Cannes marathon runners\"]",
+    "image": {
+      "src": "img/couvertures/2026-11-07-ce-week-end-marathon-nice-cannes-di-rosa-matisse.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-07-en-calendrier-hiver-2027-rallye-cirque-midem-mipim",
@@ -6164,7 +6194,17 @@
       "Malaussène village",
       "Station épuration Nice"
     ],
-    "imageEchec": "[\"Station d'épuration Haliotis Nice\",\"Malaussène village\",\"Station épuration Nice\"]"
+    "imageEchec": "[\"Station d'épuration Haliotis Nice\",\"Malaussène village\",\"Station épuration Nice\"]",
+    "image": {
+      "src": "img/couvertures/2026-11-06-grasse-nice-malaussene-terres-polluees-eaux-usees-et-dechets.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-06-le-sociologue-jean-claude-passeron-enfant-d-ascros-et-coaute",
@@ -6478,7 +6518,17 @@
       "Stage lighting truss",
       "Event stage production"
     ],
-    "imageEchec": "[\"Concert stage lighting rig\",\"Stage lighting truss\",\"Event stage production\"]"
+    "imageEchec": "[\"Concert stage lighting rig\",\"Stage lighting truss\",\"Event stage production\"]",
+    "image": {
+      "src": "img/couvertures/2026-11-05-actu-evenementiel.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-05-actu-finance",
@@ -6915,7 +6965,17 @@
       "Arts Professional",
       "ARNnet"
     ],
-    "chemin": "/en/events/2026/11/05/press-review/"
+    "chemin": "/en/events/2026/11/05/press-review/",
+    "image": {
+      "src": "img/couvertures/2026-11-05-en-actu-evenementiel.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-05-en-actu-finance",
@@ -10053,7 +10113,17 @@
       "Startup office laptops",
       "Developers coding laptops"
     ],
-    "imageEchec": "[\"Software developers office laptops\",\"Startup office laptops\",\"Developers coding laptops\"]"
+    "imageEchec": "[\"Software developers office laptops\",\"Startup office laptops\",\"Developers coding laptops\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2026-123-maven-100-000-dollars-de-revenus-recurrents-annuels-en-six-m.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2026-124-le-capital-risque-francais-en-2025-selon-le-barometre-ey",
@@ -12976,7 +13046,17 @@
         "url": "https://podcast.ausha.co/le-morning-radio-monaco/adieu-le-theatre-de-verdure-bonjour-le-109-decouvrez-la-nouvelle-formule-du-riviera-electro-festival"
       }
     ],
-    "chemin": "/en/archives/2026/le-109-nice-riviera-electro-festival-ref-2026/"
+    "chemin": "/en/archives/2026/le-109-nice-riviera-electro-festival-ref-2026/",
+    "image": {
+      "src": "img/couvertures/archive-2026-05-08-en-le-109-nice-riviera-electro-festival-ref-2026.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2026-05-08-le-109-nice-riviera-electro-festival-ref-2026",
@@ -13025,7 +13105,17 @@
       "Abattoirs Nice 109",
       "Anciens abattoirs Nice"
     ],
-    "imageEchec": "[\"Le 109 Nice\",\"Abattoirs Nice 109\",\"Anciens abattoirs Nice\"]"
+    "imageEchec": "[\"Le 109 Nice\",\"Abattoirs Nice 109\",\"Anciens abattoirs Nice\"]",
+    "image": {
+      "src": "img/couvertures/archive-2026-05-08-le-109-nice-riviera-electro-festival-ref-2026.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2026-05-03-en-paolo-rotelli-quitte-san-donato-rap-mc-pao-tractopelle-musik",
@@ -16948,7 +17038,17 @@
       "Fireworks Cannes bay",
       "Cannes fireworks Croisette"
     ],
-    "imageEchec": "[\"Feu d'artifice Cannes\",\"Fireworks Cannes bay\",\"Cannes fireworks Croisette\"]"
+    "imageEchec": "[\"Feu d'artifice Cannes\",\"Fireworks Cannes bay\",\"Cannes fireworks Croisette\"]",
+    "image": {
+      "src": "img/couvertures/archive-2025-12-31-cannes-nouvel-an-feu-artifice-marilyn-monroe-baie.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2025-12-31-en-cannes-nouvel-an-feu-artifice-marilyn-monroe-baie",
@@ -18969,7 +19069,17 @@
       "Transcatheter aortic valve implantation",
       "Aortic valve replacement"
     ],
-    "imageEchec": "[\"Transcatheter aortic valve\",\"Transcatheter aortic valve implantation\",\"Aortic valve replacement\"]"
+    "imageEchec": "[\"Transcatheter aortic valve\",\"Transcatheter aortic valve implantation\",\"Aortic valve replacement\"]",
+    "image": {
+      "src": "img/couvertures/2025-07-14-caranx-medical-nice-feu-vert-fda-tavipilot-soft.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-07-14-en-caranx-medical-nice-feu-vert-fda-tavipilot-soft",
@@ -19018,7 +19128,17 @@
         "url": "https://www.lejournaldesentreprises.com/article/les-robots-autonomes-de-caranx-medical-suppleeront-bientot-les-chirurgiens-2092864"
       }
     ],
-    "chemin": "/en/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/"
+    "chemin": "/en/tech/2025/07/14/caranx-medical-nice-feu-vert-fda-tavipilot-soft/",
+    "image": {
+      "src": "img/couvertures/2025-07-14-en-caranx-medical-nice-feu-vert-fda-tavipilot-soft.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2025-07-14-en-neuf-ans-apres-attentat-nice-hommage-colere-victimes",
@@ -19791,7 +19911,17 @@
       "Graphic designer tablet",
       "Photo retouching software"
     ],
-    "imageEchec": "[\"Digital painting tablet stylus\",\"Graphic designer tablet\",\"Photo retouching software\"]"
+    "imageEchec": "[\"Digital painting tablet stylus\",\"Graphic designer tablet\",\"Photo retouching software\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2025-040-flux-1-kontext-generer-et-retoucher-des-images-en-tenant-com.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2025-041-un-petit-reseau-qui-raisonne-en-se-repetant",
@@ -20011,7 +20141,17 @@
       "DeepSeek chatbot",
       "DeepSeek Hangzhou"
     ],
-    "imageEchec": "[\"DeepSeek\",\"DeepSeek chatbot\",\"DeepSeek Hangzhou\"]"
+    "imageEchec": "[\"DeepSeek\",\"DeepSeek chatbot\",\"DeepSeek Hangzhou\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2025-045-deepseek-r1-le-raisonnement-appris-par-renforcement.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2025-074-la-panne-crowdstrike-a-aussi-perturbe-les-soins",
@@ -20599,7 +20739,17 @@
       "Crowd safety barrier festival",
       "Emergency exit concert"
     ],
-    "imageEchec": "[\"Event security stewards\",\"Crowd safety barrier festival\",\"Emergency exit concert\"]"
+    "imageEchec": "[\"Event security stewards\",\"Crowd safety barrier festival\",\"Emergency exit concert\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2025-204-votre-evenement-est-il-vraiment-pret-a-affronter-une-crise.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2025-205-l-heritage-des-jeux-de-paris-2024-selon-l-ocde",
@@ -25112,7 +25262,17 @@
       "3D printed exoskeleton",
       "Exoskeleton rehabilitation"
     ],
-    "imageEchec": "[\"Hand exoskeleton\",\"3D printed exoskeleton\",\"Exoskeleton rehabilitation\"]"
+    "imageEchec": "[\"Hand exoskeleton\",\"3D printed exoskeleton\",\"Exoskeleton rehabilitation\"]",
+    "image": {
+      "src": "img/couvertures/2024-07-01-somanity-exosquelettes-imprimes-3d.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2024-030-sora-openai-presente-la-video-generee-comme-un-simulateur-du",
@@ -25148,7 +25308,17 @@
       "OpenAI headquarters",
       "OpenAI office San Francisco"
     ],
-    "imageEchec": "[\"OpenAI Sora\",\"OpenAI headquarters\",\"OpenAI office San Francisco\"]"
+    "imageEchec": "[\"OpenAI Sora\",\"OpenAI headquarters\",\"OpenAI office San Francisco\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2024-030-sora-openai-presente-la-video-generee-comme-un-simulateur-du.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2024-031-llama-3-meta-detaille-la-fabrication-de-sa-famille-de-modele",
@@ -25781,7 +25951,17 @@
       "Demo Day startup",
       "Startup accelerator"
     ],
-    "imageEchec": "[\"Startup accelerator demo day\",\"Demo Day startup\",\"Startup accelerator\"]"
+    "imageEchec": "[\"Startup accelerator demo day\",\"Demo Day startup\",\"Startup accelerator\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2024-118-l-etat-du-marche-de-l-amorcage-en-2024.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2024-158-les-banques-americaines-un-an-apres-les-faillites-de-2023",
@@ -28894,7 +29074,17 @@
       "Large language model diagram",
       "Transformer neural network diagram"
     ],
-    "imageEchec": "[\"Reinforcement learning human feedback\",\"Large language model diagram\",\"Transformer neural network diagram\"]"
+    "imageEchec": "[\"Reinforcement learning human feedback\",\"Large language model diagram\",\"Transformer neural network diagram\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2023-023-dpo-aligner-un-modele-sur-les-preferences-humaines-sans-appr.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2023-024-mistral-7b-la-start-up-francaise-frappe-fort-avec-un-modele-",
@@ -29112,7 +29302,17 @@
       "Image segmentation mask",
       "Semantic segmentation example"
     ],
-    "imageEchec": "[\"Segment Anything\",\"Image segmentation mask\",\"Semantic segmentation example\"]"
+    "imageEchec": "[\"Segment Anything\",\"Image segmentation mask\",\"Semantic segmentation example\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2023-028-segment-anything-meta-veut-un-modele-qui-decoupe-n-importe-q.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2023-029-llama-meta-mise-sur-des-modeles-plus-petits-mais-mieux-entra",
@@ -29515,7 +29715,17 @@
       "Business presentation meeting",
       "Salesperson customer"
     ],
-    "imageEchec": "[\"Sales presentation\",\"Business presentation meeting\",\"Salesperson customer\"]"
+    "imageEchec": "[\"Sales presentation\",\"Business presentation meeting\",\"Salesperson customer\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2023-109-merge-les-fondateurs-en-premiere-ligne-des-ventes.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2023-110-lever-des-fonds-en-2022-les-temoignages-recueillis-par-outli",
@@ -30531,7 +30741,17 @@
       "Champ de jasmin Grasse",
       "Jasmine harvest Grasse"
     ],
-    "imageEchec": "[\"Robertet Grasse\",\"Champ de jasmin Grasse\",\"Jasmine harvest Grasse\"]"
+    "imageEchec": "[\"Robertet Grasse\",\"Champ de jasmin Grasse\",\"Jasmine harvest Grasse\"]",
+    "image": {
+      "src": "img/couvertures/2023-04-19-robertet-villa-blu-accelerateur-grasse.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2023-04-16-en-monte-carlo-masters-2023-rublev-bat-rune-premier-masters",
@@ -31702,7 +31922,17 @@
       "Fleuve Var sécheresse",
       "Lac de Saint-Cassien sécheresse"
     ],
-    "imageEchec": "[\"Var river drought\",\"Fleuve Var sécheresse\",\"Lac de Saint-Cassien sécheresse\"]"
+    "imageEchec": "[\"Var river drought\",\"Fleuve Var sécheresse\",\"Lac de Saint-Cassien sécheresse\"]",
+    "image": {
+      "src": "img/couvertures/archive-2022-08-17-secheresse-2022-alpes-maritimes-arrete-crise-dix-bassins.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2022-08-07-en-plages-electroniques-cannes-2022-retour-54000-festivaliers",
@@ -33123,7 +33353,17 @@
       "Y Combinator Demo Day",
       "Y Combinator Mountain View"
     ],
-    "imageEchec": "[\"Y Combinator\",\"Y Combinator Demo Day\",\"Y Combinator Mountain View\"]"
+    "imageEchec": "[\"Y Combinator\",\"Y Combinator Demo Day\",\"Y Combinator Mountain View\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2022-104-y-combinator-reduit-sa-promotion-de-40.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2022-105-y-combinator-dresse-le-bilan-de-son-annee-2022",
@@ -36011,7 +36251,17 @@
       "Webcast studio",
       "Virtual event studio"
     ],
-    "imageEchec": "[\"Livestream studio\",\"Webcast studio\",\"Virtual event studio\"]"
+    "imageEchec": "[\"Livestream studio\",\"Webcast studio\",\"Virtual event studio\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2021-182-evenements-numeriques-le-rapport-de-pcma.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2021-183-marriott-montre-comment-organiser-des-reunions-hybrides-en-2",
@@ -37774,7 +38024,17 @@
       "SolarWinds Austin",
       "SolarWinds office"
     ],
-    "imageEchec": "[\"SolarWinds\",\"SolarWinds Austin\",\"SolarWinds office\"]"
+    "imageEchec": "[\"SolarWinds\",\"SolarWinds Austin\",\"SolarWinds office\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2020-053-solarwinds-une-mise-a-jour-piegee-infiltre-des-milliers-d-or.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2020-091-de-l-adequation-produit-marche-a-la-levee-de-serie-a",
@@ -39384,7 +39644,17 @@
       "Fireworks Cannes",
       "Cannes fireworks"
     ],
-    "imageEchec": "[\"Feu d artifice Cannes\",\"Fireworks Cannes\",\"Cannes fireworks\"]"
+    "imageEchec": "[\"Feu d artifice Cannes\",\"Fireworks Cannes\",\"Cannes fireworks\"]",
+    "image": {
+      "src": "img/couvertures/archive-2019-08-28-cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2019-08-28-en-cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg",
@@ -42174,7 +42444,17 @@
       "Gmail inbox",
       "Email client"
     ],
-    "imageEchec": "[\"Email inbox screen\",\"Gmail inbox\",\"Email client\"]"
+    "imageEchec": "[\"Email inbox screen\",\"Gmail inbox\",\"Email client\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2018-047-superhuman-une-methode-pour-mesurer-l-adequation-entre-un-pr.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2018-088-marriott-revele-une-fuite-massive-de-donnees-dans-la-base-de",
@@ -42302,7 +42582,17 @@
       "Festival entrance tickets",
       "Event ticket scanning"
     ],
-    "imageEchec": "[\"Eventbrite\",\"Festival entrance tickets\",\"Event ticket scanning\"]"
+    "imageEchec": "[\"Eventbrite\",\"Festival entrance tickets\",\"Event ticket scanning\"]",
+    "image": {
+      "src": "img/couvertures/lecture-2018-170-les-tendances-de-l-evenementiel-attendues-pour-2019-selon-ev.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2018-06-21-en-fete-de-la-musique-2018-nice-france-2-place-massena",
