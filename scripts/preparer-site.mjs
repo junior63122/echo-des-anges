@@ -45,7 +45,7 @@ const VERSION = createHash("sha1").update(JSON.stringify(articles)).digest("hex"
 
 // Politique de sécurité du contenu (GitHub Pages ne permet pas d'en-têtes HTTP) : balise meta sur chaque page
 // sans script en ligne. Les pages de redirection (script en ligne) gardent leur redirection immédiate sans politique.
-const CSP = "default-src 'self'; script-src 'self' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://*.goatcounter.com; connect-src 'self' https://*.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests";
+const CSP = "default-src 'self'; script-src 'self' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://*.goatcounter.com; connect-src 'self' https://*.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'";
 {
   const { readdirSync, statSync } = await import("node:fs");
   const parcourir = (d) => { for (const f of readdirSync(d)) { const p = join(d, f); if (statSync(p).isDirectory()) parcourir(p); else if (f.endsWith(".html")) {
