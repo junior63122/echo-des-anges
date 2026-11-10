@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Tue, 10 Nov 2026 13:30:38 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 13:46:19 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>La semaine financière en 7 sujets, du 4 au 10 novembre</title>
+    <link>https://echodesanges.fr/finance/2026/11/10/hebdo-finance/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/finance/2026/11/10/hebdo-finance/</guid>
+    <pubDate>Tue, 10 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Finance</category>
+    <description>9 informations publiées par 7 médias en sept jours. Au programme : « En Inde, l’opérateur télécom Jio Platforms est devenu le nouveau joyau boursier de…</description>
+    <media:content url="https://echodesanges.fr/img/stock/nice-cote-d-azur-1.jpg" medium="image"/>
+  </item>
   <item>
     <title>L’agenda de la semaine sur la Côte d’Azur, du 9 au 15 novembre</title>
     <link>https://echodesanges.fr/sorties/2026/11/09/agenda-semaine/</link>
@@ -448,15 +457,6 @@
     <category>Économie</category>
     <description>Première femme à diriger Mane depuis sa fondation en 1871, elle signe sa première acquisition et un chiffre d’affaires record dès sa première année à la…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/portrait-samantha-mane-groupe-mane.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Mauro Colagreco, vingt ans de Mirazur : du chef de Menton au patron d’un groupe mondial</title>
-    <link>https://echodesanges.fr/nice/2026/04/01/portrait-mauro-colagreco-mirazur-20-ans/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/nice/2026/04/01/portrait-mauro-colagreco-mirazur-20-ans/</guid>
-    <pubDate>Wed, 01 Apr 2026 06:00:00 GMT</pubDate>
-    <category>Nice &amp; Côte d'Azur</category>
-    <description>Arrivé d’Argentine en 2001, il a ouvert sa table au-dessus de la Méditerranée en 2006. Le Mirazur fête ses 20 ans avec un menu conçu avec Ferran Adrià…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/portrait-mauro-colagreco-mirazur-20-ans.jpg" medium="image"/>
   </item>
 </channel>
 </rss>

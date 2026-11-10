@@ -1,5 +1,285 @@
 [
   {
+    "id": "2026-11-10-en-hebdo-finance",
+    "lang": "en",
+    "date": "2026-11-10",
+    "section": "Finance",
+    "rubrique": "The week",
+    "emoji": "📈",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Hugo Marchetti",
+    "titre": "The week in finance: the key stories, 4 to 10 November",
+    "chapo": "29 stories from 10 news outlets over seven days. In this round-up: “Stock market today: Dow, S&P 500, Nasdaq trade mixed ahead of key inflation data”, “Bitcoin slides toward $74K as Fed’s Waller backs a December rate hike” and “Bitcoin Price Trades Near $79,600 as Oil Rebounds and Bank of England Hikes Rates”.",
+    "corps": [
+      "From 4 November to 10 November, our newsroom followed the news in finance through reporting by Yahoo Finance, Yahoo Finance UK, Moomoo, TradingView, Bitbo and 深潮TechFlow and others. Here are the stories that marked the week.",
+      "Leading the week, “Stock market today: Dow, S&P 500, Nasdaq trade mixed ahead of key inflation data”, Yahoo Finance reported on Tuesday. The story was also covered by Yahoo Finance UK and Moomoo.",
+      "Another major story: “Bitcoin slides toward $74K as Fed’s Waller backs a December rate hike”, TradingView reported on Tuesday. The story was also covered by Bitbo and 深潮TechFlow.",
+      "Elsewhere, “Bitcoin Price Trades Near $79,600 as Oil Rebounds and Bank of England Hikes Rates”, Bitcoin Magazine reported on Thursday. The story was also covered by Yahoo Finance UK and The Defiant.",
+      "Meanwhile, “If the stock market crashes this winter, history says buying this FTSE 100 share could be a smart move”, Yahoo Finance UK reported on Monday. The story was also covered by Yahoo Finance.",
+      "Also this week, “Mysterious trader buys millions ahead of Nov. 10 inflation report”, TheStreet reported on Tuesday.",
+      "Worth noting, “Investors pile into defensive stocks amid fears AI bull market may be over”, Financial Times reported on Tuesday.",
+      "Finally, “Tech leads stock rally as traders track Wall St rebound”, Yahoo Finance reported on Tuesday.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "Yahoo Finance",
+      "Yahoo Finance UK",
+      "Moomoo",
+      "TradingView",
+      "Bitbo",
+      "深潮TechFlow",
+      "Bitcoin Magazine",
+      "The Defiant",
+      "TheStreet",
+      "Financial Times"
+    ],
+    "liens": [
+      {
+        "titre": "Stock market today: Dow, S&P 500, Nasdaq trade mixed ahead of key inflation data",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQREVVTENmTlJlY1Bnc0hHM044UjZReF9oT2s4c1lpSnVGdEtmYmN1eGZqRE5RSWszazktSkR0NmhpNW5hd2MzR1ZiSzNmdTU4UGI4aEFuMHpqSHZ3TVZnbjJRSlhBYWxsRk5sNERlSVhGM01RVlNfMW9hVkkwa3BsOHBJeGdxVWU4cmVxZDFrLTZnbW42NzFZOXBKOFhxTjNRYUFTUXVDS2ZLaUhZSElyT1VSOUFURGV0YWRwZ2ZqZy1feUdEdXdLaA?oc=5",
+        "resume": "",
+        "heure": "2026-11-10T12:40:45.000Z"
+      },
+      {
+        "titre": "Stock market today: Nasdaq surges despite Nvidia stock slide, Dow and S&P 500 rally as AI tech trade rises",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdG53R1lmOWxNelNURjQwQjh1a25leVVnRjdkU2lrX2VDemx5VDlJdk56Y24zeXE3dzVOdGtETjlEblo1UGNxdkRXQkR6UXZrT3VVU0pNamhlM0RpMldLdXhxSEdEUnF1WXo0MVZLLW4zb28wclBSdE5ZWmJ6aWVnelpVWUxjcTZLZ1pKNGhpNUVCREExWnJJV3JDMzVFQUF0V0hud2ZYSUJnTVVRV0diNFdpanlSZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-09T21:06:48.000Z"
+      },
+      {
+        "titre": "Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObzVpWHZSeklab0tOemZ1NkZRQTExZXNOV3RwMjJheU9TX01aQmo1allWU2tOeERXX0J1enpoaVpnYWw2MUZSZTdsdTJuejMwNVkwT3JvRkhLV19MaHA0dUtqcEFQLWJsd3QzRU9aQnpLSENZT3ZmXzctU2dlREh5aGxGVm0wbjg2R2Z6WEU4Qk1IMGpJdXhnQUl6ZXpadHBJQ3pZV2VhOHN4N1BkUExxTkJadVNvVlNnQWt5OUVn?oc=5",
+        "resume": "",
+        "heure": "2026-11-09T15:22:08.000Z"
+      },
+      {
+        "titre": "2 FTSE growth shares to consider buying after the Nasdaq stock market correction",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS1p4cXJRV04zQktWdWpTdFRqUzlOSXUtT1FkUklLVk90WU5ZSWFNMHYyVkZ0Nmp5T19EelJaVzg0dF8tbjVRRnJxMjdsTDJuNDREdzBjZnYtRW41R3RhTjcwem0xWXFNdWRGYS1xV2lMaTlDQWNOZHdjdjFHRlIyamtGTGk?oc=5",
+        "resume": "",
+        "heure": "2026-11-09T09:01:27.000Z"
+      },
+      {
+        "titre": "The Stock Market Is Doing Something for Only the 5th Time in 30 Years, and History Is Crystal Clear on What Comes Next for Stocks",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZmlpWkZDNmNVZG5yOXlTdjB0NzRaZmZpdUs0WHhmTHhVSGtTNHRkTWJCLU5Ma1BQM2NzNTZGbU1NajlrMmFoOGpVbXVwNHhfTEk5eDd6QTk5THJUVTZzQ3BIY0VOWmkweGVidXJCZVE1ZzdET19tYm5xMncwTXdpSHctU2tNS2FiTmJRaDZsT3JhTFRETzdsaUlWeUZLT0U?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T14:26:01.000Z"
+      },
+      {
+        "titre": "Tech stocks are now cheaper than the S&P 500 for the first time since 2017 — here's what history says comes next: Chart of the Day",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPczdPRWtCNVAwN1padVZqajBqZFozRzF6THp5cGNBUmhlLUNNWkYzTHdpSGlnZlh0OUdKeFduUDNFSzJVT3ZZalZmU1ppZmlGV3p5UmlyVnVfUW5kaS1BbGxNMDlqNGlNbnA0UVF4YVhQcGlZY2ptcGd4Y3E0LTBkcUlLWGlxU0hlNDNtRU52RzhXVVNFb0FuTG9QY3hDYmhJOHZ0SS10a3lvY09VQXh3dGxTeFMtcFpBSklaMlNPVDB3RkxNVW9fS2NyNHlyQV9DSlhWMVlLN3BPXzBXYU12d296YWpQSGZjcVpHMTc1WFA1QnR3ck5kMHM2UGlhTG9NYkpXMmRWd28wbjM0eDNvUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T13:01:31.000Z"
+      },
+      {
+        "titre": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczRsWEFTT09RbmU4ZGVBX1lFYlBqdTdJREZ3OGFvaHJuSkMzYk4yWE1wQmx4SnhoV2lTMnB6TW52ZmR6ZHVlN0x6UjQwWUNicHYwN1ZhX3U0Qll1S0dJanBCdG9QNGVDOVd5VkR3RmcxRVZBdHB0ZVFZRzdkdkZTWVg2SFZ0QTNjUm1GUGlJcGhkbnlqbG11TTU3RFhKTXl3dnc1ZXlZT2txYUlsa3ZKdVA4TkE5OHJ4VkZCaGhqVnRuUThUaHZSTQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T21:04:29.000Z"
+      },
+      {
+        "titre": "Be ready for a stock market crash",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fbXVYOXdQM01GUkx1eFhYR1p0dXhIS3ZwUW03TVV2emdaaVZFS2dLMi1rMFFBMy1sRWhQaExIZU5nWnk4bWpubi1yV3FnV09IdVhJcUVkWC1fR3JCLXRFUkVaRTYwQ3BNZmUxRzA1OFNna3drTDhWZ1Vhd0JBZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T13:21:00.000Z"
+      },
+      {
+        "titre": "The VIX volatility index just spiked 70%. Here's what history suggests comes next",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQk9sdTFtR1poMDJELXc3ZTNRS3czSHZ4NUNweVdYY1BHUWRweHFSbWQ0dEpNdE5fdXNTM2hqalRfOHRuczVyXzlrTjNWQWhOYXJnVkFfZ0R3eTd1V0oxMVNwT1kySkZweTJHRGkwQnN1cDJTUkdpbWZ4QXB4NG5RT1VDNmFYWXV4TDhQSUVkTlJXSkZSeVVkTXFtTDNPbS1DUVVpUnNwMDM2Nk5ueW1GbVRmeWRvMlRUTXpPRDJMSmhLbEU2TFpWdzk0bnFLMTRW?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T12:53:33.000Z"
+      },
+      {
+        "titre": "AI firms hit in worst stock market crash for 18 months",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ISG16RlA1OWNYUUVUdHJoaVMtUXBnbFJmRnNCNzk3am1WOS0wZGRoNGZacmpKckg1UUhYYlFTeHkzTjljbnl3bVJDY2JyX0ZzSWJpX0FDU0VXUkNoZ1JCc2dTQ3NtOV9NVk56eVBLbkJJc1g0cUpmYUpBWXc5UQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:28:51.000Z"
+      },
+      {
+        "titre": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZTZIZ0tKbklnYWJvNVFoSXUtcEFER2lUNXBpaUpWeW0zMVgxakZfODVnb0NwdG0tUDFVcGFoakZPbWhNRUlBcHFSM2dlN2RmQ256c19feE1PNjFNclZwQl9aSXFSRi10eGNoc1JjQUxpRGhEa05JT0dJdzBXLXI1LXNoa3pQZEJ4ZjAyNjBLSkF3VGhMckwzVFl4SnJLSlBtTEJXLUc4S2x4NFk3S1lsUGxDc3BKZ3dkeEZ5TmRNbVptdjFxOGFXMUFsQy1UR2l1UklaMUd3?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T00:47:13.000Z"
+      },
+      {
+        "titre": "SanDisk stock plunges 20% as AI selloff deepens despite strong earnings",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRFlRSERrVVMxMDdidzVSSXN4czdBSVMzVHJTQUh4aVdnTXg0aGIwaFNhdEJPdnRXck5QeTNjeV9pTnZ6b183eGxETVFFT3RaLWdxSVdodU1ReUh6dGpVX2xIWE1NNTU4dG91NzNyUFBqLTZNVE43dENMS1hjZjVWRDk4X0tlRkp4UDlhNXIwSWxWMXBtSk9v?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T08:00:00Z"
+      },
+      {
+        "titre": "Market Selloff Hits Financial Stocks. Why Banks, Brokerages Are Caught in the Crossfire. -- Barrons.com",
+        "source": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON1Zjd25sQ1hTVjZmMDU2WDJsUEdzRzdIY2k2dVd5TXE0SUNQNi1EWDIzeTdiUHlMaFZ5RWRHaGEzaHFmUlJDU1ZkMmlLV0V2U2E2ZUJTTW45ejl5aFU2RHdSbGpkNmR1SENob2U4NW9JU2FYU2cwRjlITjBLbGlPXzdqOXlTcGZ1RXVNY0V3ejctSzFCcEhvLTY3ZTNYSXNkd3NxdHhaeWlQQmNXV1hCTjFR?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T08:00:00Z"
+      },
+      {
+        "titre": "Bitcoin slides toward $74K as Fed's Waller backs a December rate hike",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeFFQR0cxMGJHTHRjVE9vQUcxcGxDdDkwT0RlSEpkTXdiM0NQT25hUVBWZ01SaW43Z2FIMVU0OGJ1YjRteDdhNmVkVTlRZzU0UVlTai1HX2NTQWV6Yzkxc0E1dDdEZWZ1d1hVbGN5ZXpBOS1KOTZFNzZMYWc1TEhQY20xNVJoMlAxVENFZ3R0aENUNWd4aDMwbXRNandUVVhRRjc1QWZ4bWlGU0h3NHBMam8zbERfbEJ1WFR5WjR6TmdUU2pITEZ4M0w3UjNmdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-10T10:22:21.000Z"
+      },
+      {
+        "titre": "Bitcoin Stuck Below $75K as Fed's Waller Floats 50bp Rate Hike",
+        "source": "Bitbo",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96bHZKNlo5MzJENUhUeFQxWlQwUkt1ZjZUVG45UHA0V09OSlNVai1KeENaZHpBOFJXbzlCNzZjTVJiR1RjU1AybFc0VFlKeXR5aHMzdXNUdWNkcVotWUwzVWdB?oc=5",
+        "resume": "",
+        "heure": "2026-11-10T10:15:00.000Z"
+      },
+      {
+        "titre": "Bitget UEX Daily | Bitcoin breaks below $77,000; Nasdaq plunges 5.52%; Non-farm payrolls test rate expectations",
+        "source": "深潮TechFlow",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQ0NYVTBIU204TmYwNUJfT3ZsZ1lra3VaZ084SFdpOWRfZmpjT2hLOXkxWk1GWVZjMFo0MEdTZ2FjS0NuMzVBRmRJVW9DSkhkMTlFV1YtMFI2ZjlQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T08:00:00.000Z"
+      },
+      {
+        "titre": "Bitcoin Price Trades Near $79,600 as Oil Rebounds and Bank of England Hikes Rates",
+        "source": "Bitcoin Magazine",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LeXd0QXFZZDQ5T1pRbGpQS1IwbFlSckd0cEE0YlhIemRFTGxYN2ozRTI1a3dpVnBUbURDTWphNWFEN1luV25iQnpFUWZ4ak9FYzVaMTVZWGRSTG45Rmd1WnVJNmJFRV9HV3Q1Sk5La09mSXFKQk1HaWxDdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T13:47:53.000Z"
+      },
+      {
+        "titre": "Bank of England expected to hike interest rates for first time in three years",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNjRkekJVV09mMTJXbjRLdzJsUEpzNWU3RXFuMm9WdjRsUXZnRl93UEJvWTVTZVl1NWc4YjVlV1Y0V0VUd1lxZzB5YnN3ZWJUR1FwWmJfaHpDR1ItdVhtSlliaWtQOXlkenoxVFN2elRocFRiZnV0QjltckpaVi1zalIydWl5Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-05T08:13:17.000Z"
+      },
+      {
+        "titre": "Bank of England set to hike interest rates to 4% to tackle rising inflation",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcFFYLTRsUDZLVTh3a3MtN01rX2FHczJUQWFpT05OUVE2Vy1TY05ka2ZyRTRYZDBwbjJUNzNTd0UtekdtS2hEdmlmM1dVdmNiYWRDZnlCcWtycTd2cHJJZS1VSUZtN3ZNUVRMMngzZnNid3JvMWVsd2tFVlRxY05mVnAyRTBxZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-04T15:44:03.000Z"
+      },
+      {
+        "titre": "How Fed Interest Rates Affect Crypto",
+        "source": "The Defiant",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmSHBwREJLSWV2X0x1SF9KMmN6WW1laUhpQXF0WjdjdTY0S25NUmRNWkdsODl0bzdDdkFWRVMxSHdRYnhnY0tWakZfazUtQ0owTmp4Z2VhZ2JUSGhyMGFaOUE4b2ZBVVpWcTRNZXFZVl9sczZxM1kxa1hXaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-04T08:00:00.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/en/finance/2026/11/10/hebdo-finance/"
+  },
+  {
+    "id": "2026-11-10-hebdo-finance",
+    "lang": "fr",
+    "date": "2026-11-10",
+    "section": "Finance",
+    "rubrique": "La semaine",
+    "emoji": "📈",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Hugo Marchetti",
+    "titre": "La semaine financière en 7 sujets, du 4 au 10 novembre",
+    "chapo": "9 informations publiées par 7 médias en sept jours. Au programme : « En Inde, l’opérateur télécom Jio Platforms est devenu le nouveau joyau boursier de l’empire Ambani », « Assurance-vie : la remontée des taux obligataires relance le pari des fonds datés » et « Crédit agricole ambitionne de créer le troisième groupe bancaire d’Italie ».",
+    "corps": [
+      "Du 4 novembre au 10 novembre, la rédaction a suivi l’actualité financière à travers les publications de Le Monde, Boursorama, BFM Bourse, Le Revenu, ABC Bourse et Yahoo Finance France notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « En Inde, l’opérateur télécom Jio Platforms est devenu le nouveau joyau boursier de l’empire Ambani », titrait Le Monde mardi. Extrait : « L’entrée en Bourse du géant des télécommunications consolide le conglomérat Reliance, propriété de l’homme le plus riche d’Asie, Mukesh Ambani. »",
+      "Autre sujet marquant, « Assurance-vie : la remontée des taux obligataires relance le pari des fonds datés », titrait Le Monde mardi. Extrait : « Activé en 2023 sous l’effet de la première flambée des taux obligataires, le soufflet de la vente des fonds datés, un temps retombé, trouve un regain de popularité très net. »",
+      "Dans un autre registre, « Crédit agricole ambitionne de créer le troisième groupe bancaire d’Italie », titrait Le Monde lundi. Extrait : « La banque française propose de fusionner sa filiale transalpine avec la banque BPM. »",
+      "Par ailleurs, « Bourse en direct, Cours actions et dérivés », titrait Boursorama samedi. Le sujet a également été traité par BFM Bourse.",
+      "Toujours cette semaine, « CAC40 : Paris recule après le décrochage de Wall Street », titrait Le Revenu vendredi. Le sujet a également été traité par ABC Bourse.",
+      "À noter également, « CAC 40 : la Bourse bondit, «la détente spectaculaire des prix du pétrole réduit les craintes sur l’inflation» », titrait Yahoo Finance France mardi.",
+      "Enfin, « Le Cac 40 en nouvelle hausse et au-dessus des 8.300 points avant son rendez-vous avec l’inflation américaine », titrait Investir Les Echos mardi.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "Le Monde",
+      "Boursorama",
+      "BFM Bourse",
+      "Le Revenu",
+      "ABC Bourse",
+      "Yahoo Finance France",
+      "Investir Les Echos"
+    ],
+    "liens": [
+      {
+        "titre": "En Inde, l’opérateur télécom Jio Platforms est devenu le nouveau joyau boursier de l’empire Ambani",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/10/en-inde-l-operateur-telecom-jio-platforms-est-devenu-le-nouveau-joyau-boursier-de-l-empire-ambani_6808820_3234.html",
+        "resume": "L’entrée en Bourse du géant des télécommunications consolide le conglomérat Reliance, propriété de l’homme le plus riche d’Asie, Mukesh Ambani. Une étape stratégique pour le groupe, qui ambitionne d’investir dans l’IA et l’Internet par satellite.",
+        "heure": "2026-11-10T10:45:05.000Z"
+      },
+      {
+        "titre": "Assurance-vie : la remontée des taux obligataires relance le pari des fonds datés",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/10/assurance-vie-la-remontee-des-taux-obligataires-relance-le-pari-des-fonds-dates_6808783_1657007.html",
+        "resume": "Activé en 2023 sous l’effet de la première flambée des taux obligataires, le soufflet de la vente des fonds datés, un temps retombé, trouve un regain de popularité très net. Mais la promesse de performance ne doit pas faire oublier le risque de perte en capital.",
+        "heure": "2026-11-10T05:00:10.000Z"
+      },
+      {
+        "titre": "Crédit agricole ambitionne de créer le troisième groupe bancaire d’Italie",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/09/credit-agricole-ambitionne-de-creer-le-troisieme-groupe-bancaire-d-italie_6808659_3234.html",
+        "resume": "La banque française propose de fusionner sa filiale transalpine avec la banque BPM. Un mariage 100 % italien visant à rassurer le gouvernement Meloni.",
+        "heure": "2026-11-09T14:30:01.000Z"
+      },
+      {
+        "titre": "Bourse en direct, Cours actions et dérivés",
+        "source": "Boursorama",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBHXzNQY1BSWHVKcnNBSEtMekZnSFZ0RjMtRWtfSGVsZFRxWEFqQTdfa2FVV25jLTVPTURLOWt5T3ZabkR6Y205VGxR?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T10:38:53.000Z"
+      },
+      {
+        "titre": "Bourse : Conseils boursiers, Analyse technique, Cours de bourse et CAC 40 en direct",
+        "source": "BFM Bourse",
+        "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9aTnc0Rjh1VDBYdE4taXhhQnBSV3BBZzd2UlhaMEVUWmJtQnBHYWlUMmpxWVB1Vm9YaWVxTnc3Qkg?oc=5",
+        "resume": "",
+        "heure": "2026-11-07T09:59:08.000Z"
+      },
+      {
+        "titre": "CAC40 : Paris recule après le décrochage de Wall Street",
+        "source": "Le Revenu",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeHdOYTQ0d0dGMmwwSFJBTU0wcktubGpnLWRNZkdLa3RuYkhtUDU4RmlUendyX28ySEpESmVPQnBVTjdzYldPQTFoSkd0a2QyMko2SlZmZXdTeDdJMElvNUZoY2xiMjg4d0dIa2h1azQ5aFhILUJxYUIxSERKZUZ6akRseFBZOW5SNzVORkxGZjZMQzVoVUpJalNHQkpyOGIzREVLOHJScDZ4dw?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T09:44:00.000Z"
+      },
+      {
+        "titre": "CAC 40: La Bourse de Paris se replie après la débâcle de la tech à Wall Street",
+        "source": "ABC Bourse",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT09VbnZwVldzTXZHcUJHQlJWNG5YRVpxOTgzWnVmeW4tWUs3LTZaZFFwbmZYa1pvRjhZSS0zbjBna1NmUHFXY1R0QXFOV3pXYjlhMWRBbXVzUmpxaE9ERjhxRVRETDlfOWlJZGlCRWlEYV9nX2lNRUZlSGVWbW9sb3A2NzR0RXRLY0gyak1uVjJ0b3B5MmRCS0l3Y01yZExNbkU1eEhhc3lYdnpXYVNPMGU3QlIzUl9hWkE?oc=5",
+        "resume": "",
+        "heure": "2026-11-06T08:21:56.000Z"
+      },
+      {
+        "titre": "CAC 40 : la Bourse bondit, «la détente spectaculaire des prix du pétrole réduit les craintes sur l’inflation»",
+        "source": "Yahoo Finance France",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVBGWlBxdk91MDNJZmNIa09LY1czZmJacU1zczliS1VfMlZRcGpJNGUzdUgzYWlyOXpTaGE0RGMyNFcxcWMyY1FEZjM2M2huamZIU1JmcUFYZTJEQzBpaVpScjRwTDRFS0NxSEpBM2RFZ19hUVNnaUFjY19ZU0tJWUZQRlhhT2FFcTVUa24wRFotdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-10T09:04:35.000Z"
+      },
+      {
+        "titre": "Le Cac 40 en nouvelle hausse et au-dessus des 8.300 points avant son rendez-vous avec l'inflation américaine",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPMGF3NXV4UkVnRE9XaGVMWkZtSU5wNW5TZXNWZk9CSWRSVVpRenkwaUFTa0dRaEliak9yWm1mMWxUMEVZdDNnWkpSeDZsYUlLNnBJLW9nNDlKZGVIMTNtelQxclFfTmh1QVZWNjRjRnZWdzFLTmdUX2VieGFOcWg3bjI5dXlpS0pma0hEb3dUb0FGMVhfc0pPYjZVSzA2NHdYTGx2a1d3Tnc0SHVvWEZ2dWpfNDd0YVoxZDA5Nkp6TE5xMnRJWnE4MGxBbHZUbjJ4TTJxLXJaX0FGdFNwZ3ItYlNhQ0szaTJVRlEybHhDT2s4NnhiZGxJSWZQNm94QXpNV3pVRmJpSGM?oc=5",
+        "resume": "",
+        "heure": "2026-11-10T08:12:48.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/finance/2026/11/10/hebdo-finance/"
+  },
+  {
     "id": "2026-11-10-actu-business",
     "lang": "fr",
     "date": "2026-11-10",
