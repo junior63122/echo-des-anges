@@ -517,7 +517,7 @@
   }
   function route() {
     closeDrawer();
-    compter();
+    setTimeout(compter, 0); // après l'affichage : le titre envoyé est celui de la nouvelle page
     if (ANCIEN.test(location.hash)) history.replaceState(null, "", ancienneAdresse(location.hash.slice(1)) || location.pathname);
     let path = decodeURIComponent(location.pathname);
     if (!path.endsWith("/") && !/\.\w+$/.test(path)) path += "/";

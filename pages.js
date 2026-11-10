@@ -11,7 +11,7 @@ window.JOURNAL_CONFIG = {
   tva: "",              // numéro de TVA intracommunautaire (si assujetti)
   directeur: "Jules Vernet",          // directeur de la publication
   contact: "jules.vernet@gmail.com",  // adresse de contact (droit de réponse, données personnelles)
-  statistiques: "echodesanges", // identifiant GoatCounter (mesure d'audience sans cookie) ; vide = désactivée
+  statistiques: "", // identifiant GoatCounter (mesure d'audience sans cookie), par ex. "echodesanges" une fois le compte créé sur goatcounter.com ; vide = désactivée
   hebergeur: "GitHub, Inc. (service GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis",
 };
 
@@ -97,7 +97,7 @@ Courriel : ${mail}${C.tva ? `<br>TVA intracommunautaire : ${C.tva}` : ""}</p>
 <h2>Données personnelles et cookies</h2>
 <p>Le site ne propose ni compte, ni formulaire, ni publicité, et ne dépose aucun cookie.</p>
 <ul>
-  <li><strong>Mesure d'audience.</strong> Le nombre de visites est mesuré avec GoatCounter, un outil sans cookie qui ne conserve pas l'adresse IP et ne produit que des statistiques globales et anonymes (pages vues, pays, type d'appareil, site de provenance). Aucune donnée n'est utilisée à des fins publicitaires ni croisée avec d'autres traitements (<a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">politique de confidentialité de GoatCounter</a>).</li>
+  ${C.statistiques ? `<li><strong>Mesure d'audience.</strong> Le nombre de visites est mesuré avec GoatCounter, un outil sans cookie qui ne conserve pas l'adresse IP et ne produit que des statistiques globales et anonymes (pages vues, pays, type d'appareil, site de provenance). Aucune donnée n'est utilisée à des fins publicitaires ni croisée avec d'autres traitements (<a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">politique de confidentialité de GoatCounter</a>).</li>` : ""}
   <li><strong>Préférence de langue.</strong> Le choix entre français et anglais est conservé dans le stockage local de votre navigateur (localStorage). Cette information reste sur votre appareil et n'est transmise à personne.</li>
   <li><strong>Hébergement.</strong> L'hébergeur enregistre des données techniques de connexion, dont l'adresse IP, pour assurer le fonctionnement et la sécurité du service.</li>
   <li><strong>Polices de caractères.</strong> Les polices sont chargées depuis Google Fonts ; votre navigateur transmet à ce titre votre adresse IP à Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">règles de confidentialité de Google</a>).</li>
@@ -139,7 +139,7 @@ Email: ${mail}${C.tva ? `<br>EU VAT number: ${C.tva}` : ""}</p>
 <h2>Personal data and cookies</h2>
 <p>The site has no accounts, forms or advertising, and sets no cookies.</p>
 <ul>
-  <li><strong>Audience measurement.</strong> Visits are counted with GoatCounter, a cookie-free tool that does not store IP addresses and only produces aggregate, anonymous statistics (page views, country, device type, referring site). No data is used for advertising or combined with other processing (<a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">GoatCounter privacy policy</a>).</li>
+  ${C.statistiques ? `<li><strong>Audience measurement.</strong> Visits are counted with GoatCounter, a cookie-free tool that does not store IP addresses and only produces aggregate, anonymous statistics (page views, country, device type, referring site). No data is used for advertising or combined with other processing (<a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">GoatCounter privacy policy</a>).</li>` : ""}
   <li><strong>Language preference.</strong> Your choice of French or English is stored in your browser's local storage. It stays on your device and is not sent to anyone.</li>
   <li><strong>Hosting.</strong> The host logs technical connection data, including IP addresses, to run and secure the service.</li>
   <li><strong>Fonts.</strong> Fonts are loaded from Google Fonts, so your browser sends your IP address to Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privacy policy</a>).</li>
