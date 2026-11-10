@@ -310,7 +310,7 @@ const dimAttr = (src) => { const d = dimensions(src); return d ? ` width="${d.w}
 
 function image(a) {
   if (a.photo === false) return null;
-  if (a.image) return { src: a.image.src, credit: a.image.credit, page: a.image.page, legende: (a.image.legende || {})[langOf(a)] || "" };
+  if (a.image) return { src: a.image.src, credit: a.image.credit, couverture: !!a.image.couverture, page: a.image.page, legende: (a.image.legende || {})[langOf(a)] || "" };
   const pool = credits[a.section] || [];
   if (!pool.length) return null;
   const p = pool[hash(twinKey(a)) % pool.length];
@@ -479,7 +479,7 @@ function pageArticle(a) {
     { "@type": "ListItem", position: 3, name: a.titre, item: url(a) },
   ] };
   const rub = a.rubrique && a.rubrique !== "Archives" && a.rubrique !== sec[lang] && a.type !== "revue" ? `<span class="sep" aria-hidden="true"></span>${esc(a.rubrique)}` : "";
-  const fig = img ? `<figure class="fig ${a.image && !a.image.paysage ? "hero-portrait" : "hero"}"><img src="/${img.src}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
+  const fig = img ? `<figure class="fig ${a.image && !a.image.paysage ? "hero-portrait" : "hero"}"><img src="/${img.src}" alt="${esc(img.legende || a.titre)}"${dimAttr(img.src)} fetchpriority="high"><figcaption>${img.legende ? `<span>${esc(img.legende)}</span> ` : ""}<span class="credit">${img.couverture ? "Illustration" : T.photo} : ${esc(img.credit)}</span></figcaption></figure>` : "";
   const galerie = a.galerie?.length ? `<div class="galerie">${a.galerie.map((g) => `<figure class="fig"><img src="/${esc(g.src)}" alt="${esc((g.legende || {})[lang] || a.titre)}"${dimAttr(g.src)} loading="lazy" decoding="async"><figcaption><span>${esc((g.legende || {})[lang] || "")}</span> <span class="credit">${T.photo} : ${esc(g.credit)}</span></figcaption></figure>`).join("")}</div>` : "";
   const sources = a.liens?.length ? `<section class="sources-list"><h2>${T.src}</h2><ul>${a.liens.map((l) => `<li><a href="${esc(l.url)}" rel="noopener nofollow" target="_blank">${esc(l.titre)}</a> <span>(${esc(l.source)})</span></li>`).join("")}</ul></section>` : "";
   const tags = sujets.length ? `<p class="tags">${T.topics} : ${sujets.map((s) => `<a href="${sujetUrl(s, lang)}">${esc(s.nom)}</a>`).join(", ")}</p>` : "";
