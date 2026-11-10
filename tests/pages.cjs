@@ -1,4 +1,5 @@
-const {chromium}=require("playwright");const fs=require("fs"),path=require("path");const B=process.argv[2],R=process.argv[3];
+// Navigateur choisi par NAVIGATEUR (chromium par défaut, firefox, webkit = moteur de Safari).
+const chromium=require("playwright")[process.env.NAVIGATEUR||"chromium"];const fs=require("fs"),path=require("path");const B=process.argv[2],R=process.argv[3];
 const pages=[];(function w(d){for(const f of fs.readdirSync(d)){const p=path.join(d,f);if(fs.statSync(p).isDirectory())w(p);else if(f==="index.html")pages.push("/"+path.relative(R,d).split(path.sep).join("/")+(d===R?"":"/"))}})(R);
 (async()=>{const br=await chromium.launch();const ctx=await br.newContext({viewport:process.env.LARGE?{width:1440,height:900}:{width:390,height:844}});
 await ctx.route(/fonts\.(googleapis|gstatic)/,r=>r.abort());

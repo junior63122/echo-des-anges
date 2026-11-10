@@ -1,5 +1,6 @@
 // Scénarios d'utilisation et tentatives de faire planter le site. Usage : node test-scenarios.js http://localhost:8765
-const {chromium}=require("playwright");const B=process.argv[2];const pb=[];const ok=(c,m)=>{if(!c)pb.push(m)};
+// Navigateur choisi par NAVIGATEUR (chromium par défaut, firefox, webkit = moteur de Safari).
+const chromium=require("playwright")[process.env.NAVIGATEUR||"chromium"];const B=process.argv[2];const pb=[];const ok=(c,m)=>{if(!c)pb.push(m)};
 const A=require(require("path").join(__dirname, "..", "_site", "articles.json"));
 (async()=>{const br=await chromium.launch();
 for(const [nom,vp] of [["ordinateur",{width:1440,height:900}],["mobile",{width:390,height:844}]]){
@@ -54,9 +55,9 @@ for(const [nom,vp] of [["ordinateur",{width:1440,height:900}],["mobile",{width:3
   ok(await p.evaluate(()=>document.documentElement.lang)==="en",`${nom}: langue de la page pas « en » après bascule depuis ${u}`);
   await p.click(".langs button[data-lang='fr']");await p.waitForTimeout(900);const re=new URL(p.url()).pathname;ok(!re.startsWith("/en/"),`${nom}: EN→FR depuis ${ap} reste en anglais (${re})`)}}
  // 6. Bouton « copier le lien » et liens de partage
- const art=A.find(a=>a.type==="article"&&a.lang!=="en"&&a.corps);await ctx.grantPermissions(["clipboard-read","clipboard-write"],{origin:B});
+ const art=A.find(a=>a.type==="article"&&a.lang!=="en"&&a.corps);await ctx.grantPermissions(["clipboard-read","clipboard-write"],{origin:B}).catch(()=>{});
  await p.goto(B+art.chemin);await p.waitForTimeout(600);const cp=await p.$(".copier");ok(!!cp,`${nom}: pas de bouton copier sur un article`);
- if(cp){await cp.click();await p.waitForTimeout(300);const clip=await p.evaluate(()=>navigator.clipboard.readText().catch(()=>""));ok(clip.endsWith(art.chemin),`${nom}: le lien copié est « ${clip} »`);
+ if(cp){await cp.click();await p.waitForTimeout(300);if((process.env.NAVIGATEUR||"chromium")==="chromium"){const clip=await p.evaluate(()=>navigator.clipboard.readText().catch(()=>""));ok(clip.endsWith(art.chemin),`${nom}: le lien copié est « ${clip} »`)}else{/* Firefox et WebKit : le presse-papiers n'est pas lisible par le test, on vérifie la confirmation affichée */ok(await p.evaluate(()=>!!document.querySelector(".copier.copie")),`${nom}: pas de confirmation après « copier le lien »`)}
   const parts=await p.$$eval(".partage a",x=>x.map(a=>a.href));ok(parts.length===5&&parts.every(h=>h.includes(encodeURIComponent("/"+art.chemin.split("/")[1]))||h.startsWith("mailto:")),`${nom}: liens de partage incorrects`)}
  // 7. Navigation SPA puis rechargement, avant/arrière en rafale
  await p.goto(B+"/");await p.waitForTimeout(700);for(const h of ["/sport/","/culture/","/archives/","/tech/"]){await p.click(`#sections a[href="${h}"]`,{force:true});await p.waitForTimeout(250)}

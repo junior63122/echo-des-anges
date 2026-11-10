@@ -637,7 +637,13 @@
   document.addEventListener("click", (e) => {
     const b = e.target.closest(".copier"); if (!b) return;
     const ok = () => { b.classList.add("copie"); setTimeout(() => b.classList.remove("copie"), 1600); };
-    if (navigator.clipboard) navigator.clipboard.writeText(b.dataset.lien).then(ok, () => {}); else ok();
+    // Copie de secours quand le presse-papiers moderne est refusé (navigateur, permissions, page non sécurisée).
+    const secours = () => {
+      const t = document.createElement("textarea"); t.value = b.dataset.lien; t.setAttribute("readonly", ""); t.style.cssText = "position:fixed;opacity:0;top:0;left:0";
+      document.body.appendChild(t); t.select(); let r = false; try { r = document.execCommand("copy"); } catch { r = false; } t.remove();
+      if (r) ok(); else window.prompt(lang === "en" ? "Copy this link:" : "Copiez ce lien :", b.dataset.lien);
+    };
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(b.dataset.lien).then(ok, secours); else secours();
   });
   // En-tête : seule la barre des rubriques reste visible quand on fait défiler la page.
   const entete = document.querySelector(".site-header"), barre = document.getElementById("sections");
