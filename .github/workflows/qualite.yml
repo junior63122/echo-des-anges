@@ -43,7 +43,8 @@ jobs:
 
   # Mêmes parcours dans Firefox et WebKit (le moteur de Safari) : scénarios et toutes les pages en mobile.
   navigateurs:
-    runs-on: ubuntu-latest
+    # Ubuntu 24.04 : version pour laquelle Playwright 1.49 fournit les dépendances de WebKit et Firefox.
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     strategy:
       fail-fast: false
