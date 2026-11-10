@@ -9,22 +9,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://echodesanges.fr/en/business/2026/11/09/hebdo-economie/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-09T08:00:00+01:00</news:publication_date>
-      <news:title>The week in business: the key stories, 3 to 9 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/economie/2026/11/09/hebdo-economie/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-09T08:00:00+01:00</news:publication_date>
-      <news:title>La semaine économique en 7 sujets, du 3 au 9 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://echodesanges.fr/sorties/2026/11/09/cote-d-azur-fermetures-discotheques-bilan-2026/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
@@ -38,6 +22,22 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-09T08:00:00+01:00</news:publication_date>
       <news:title>Nightclubs: on the Côte d’Azur, administrative closures have shaped the night since 2019</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/en/business/2026/11/09/hebdo-economie/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-09T08:00:00+01:00</news:publication_date>
+      <news:title>The week in business: the key stories, 3 to 9 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/economie/2026/11/09/hebdo-economie/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-09T08:00:00+01:00</news:publication_date>
+      <news:title>La semaine économique en 7 sujets, du 3 au 9 novembre</news:title>
     </news:news>
   </url>
 </urlset>
