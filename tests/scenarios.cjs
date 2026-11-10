@@ -6,6 +6,7 @@ const A=require(require("path").join(__dirname, "..", "_site", "articles.json"))
 for(const [nom,vp] of [["ordinateur",{width:1440,height:900}],["mobile",{width:390,height:844}]]){
  const ctx=await br.newContext({viewport:vp,hasTouch:nom==="mobile"});const p=await ctx.newPage();const errs=[];
  // Clic qui ne bloque pas toute la suite : un clic impossible devient un problème signalé, avec l'état de l'élément.
+ const remplir=async(sel,v)=>{try{await p.fill(sel,v,{timeout:8000})}catch(e){pb.push(`${nom}: saisie impossible dans ${sel} sur ${p.url()} : ${e.message.split("\n")[0].slice(0,80)}`)}};
  const clic=async(sel,o={})=>{try{await p.click(sel,{timeout:8000,...o})}catch(e){const el=await p.$(sel);pb.push(`${nom}: clic impossible sur ${sel} (${el?((await el.isVisible())?"visible":"présent mais invisible"):"absent"}) sur ${p.url()} : ${e.message.split("\n")[0].slice(0,90)}`)}};
  p.on("pageerror",e=>errs.push(p.url()+" "+e.message));p.on("console",m=>{if(m.type()==="error"&&!/fonts\.g|ERR_|net::/.test(m.text())){if(!/status of 404/.test(m.text()))errs.push(p.url()+" console "+m.text())}});
  p.on("dialog",d=>{pb.push(nom+": une boîte de dialogue s'est ouverte ("+d.message()+")");d.dismiss()});
@@ -30,6 +31,10 @@ for(const [nom,vp] of [["ordinateur",{width:1440,height:900}],["mobile",{width:3
   await p.goBack();await p.waitForTimeout(400);ok(new URL(p.url()).pathname==="/",`${nom}: retour arrière depuis ${h} ne revient pas à l'accueil`)}
  // 3. Menu « Rubriques » : ouvrir, fermer, naviguer
  await p.goto(B+"/economie/");await p.waitForTimeout(700);
+ // Diagnostic : élément réellement sous le bouton du menu, transition de page en cours, script chargé.
+ {const d=await p.evaluate(()=>{const b=document.getElementById("menu-btn").getBoundingClientRect();const el=document.elementFromPoint(b.x+b.width/2,b.y+b.height/2);let vt=false;try{vt=document.documentElement.matches(":active-view-transition")}catch{}return{sous:el?el.tagName+"#"+el.id+"."+el.className:"rien",vt,lien:!!document.querySelector("#drawer-nav a")}});
+  if(!/menu-btn/.test(d.sous)&&!/^(svg|path|span)/i.test(d.sous))pb.push(`${nom}: le bouton Menu est recouvert par ${d.sous} (transition active : ${d.vt})`);
+  if(!d.lien)pb.push(`${nom}: le menu n'a pas été rempli par le script (transition active : ${d.vt})`)}
  await clic("#menu-btn");await p.waitForTimeout(200);ok(await p.isVisible("#drawer"),`${nom}: le menu ne s'ouvre pas`);
  ok(await p.getAttribute("#menu-btn","aria-expanded")==="true",`${nom}: aria-expanded faux menu ouvert`);
  await clic("#menu-btn");await p.waitForTimeout(200);ok(!(await p.isVisible("#drawer")),`${nom}: le menu ne se ferme pas`);
@@ -39,14 +44,14 @@ for(const [nom,vp] of [["ordinateur",{width:1440,height:900}],["mobile",{width:3
  // 4. Recherche : cas normaux et pièges
  const qs=["Nice","Lisnard","festival de cannes","zzzzqqq","é","  ","<img src=x onerror=alert(1)>","\"><script>alert(1)</script>","%","a".repeat(500),"NICE","Côte d'Azur"];
  for(const q of qs){await p.goto(B+"/");await p.waitForTimeout(400);await clic("#search-btn");await p.waitForTimeout(150);
-  ok(await p.isVisible("#search-input"),`${nom}: champ de recherche invisible`);await p.fill("#search-input",q);await p.press("#search-input","Enter");await p.waitForTimeout(500);
+  ok(await p.isVisible("#search-input"),`${nom}: champ de recherche invisible`);await remplir("#search-input",q);await p.press("#search-input","Enter");await p.waitForTimeout(500);
   const t=await p.evaluate(()=>document.querySelector("main").innerText);ok(!/undefined|NaN|\[object/.test(t),`${nom}: recherche « ${q.slice(0,20)} » affiche undefined/NaN`);
   if(q==="Nice")ok((await p.$$(".list-item")).length>5,`${nom}: « Nice » trouve trop peu de résultats`)}
  await p.goto(B+"/recherche/?q=Lisnard");await p.waitForTimeout(1200);ok((await p.$$(".list-item")).length>0,`${nom}: /recherche/?q=Lisnard en accès direct sans résultat`);
  const r1=await p.$(".list-item h3 a");if(r1){const h=await r1.getAttribute("href");await r1.click();await p.waitForTimeout(600);ok(new URL(p.url()).pathname===h.split("#")[0],`${nom}: clic sur un résultat de recherche ne s'ouvre pas`)}
  // 4b. Page de recherche vide : champ, suggestions, Échap sur la recherche de l'en-tête
  for(const u of ["/recherche/","/en/search/"]){await p.goto(B+u);await p.waitForTimeout(1200);ok(await p.isVisible(".recherche-page input"),`${nom}: pas de champ sur ${u}`);
-  await p.fill(".recherche-page input","Monaco");await p.press(".recherche-page input","Enter");await p.waitForTimeout(600);ok((await p.$$(".list-item")).length>0&&/q=Monaco/.test(p.url()),`${nom}: recherche depuis ${u} sans résultat`);
+  await remplir(".recherche-page input","Monaco");await p.press(".recherche-page input","Enter");await p.waitForTimeout(600);ok((await p.$$(".list-item")).length>0&&/q=Monaco/.test(p.url()),`${nom}: recherche depuis ${u} sans résultat`);
   await p.goto(B+u);await p.waitForTimeout(1000);const sg=await p.$(".suggestions a");ok(!!sg,`${nom}: pas de suggestions sur ${u}`);if(sg){await sg.click();await p.waitForTimeout(600);ok((await p.$$(".list-item")).length>0,`${nom}: suggestion sans résultat sur ${u}`)}}
  await p.goto(B+"/");await p.waitForTimeout(500);await clic("#search-btn");await p.keyboard.press("Escape");await p.waitForTimeout(200);ok(!(await p.isVisible("#search-input")),`${nom}: Échap ne ferme pas la recherche`);
  // 5. Changement de langue sur chaque type de page
