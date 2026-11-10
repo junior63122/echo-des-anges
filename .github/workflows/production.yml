@@ -24,9 +24,8 @@ jobs:
     env:
       SITE: https://echodesanges.fr
     steps:
+      # Version publiée (main) ; un lancement manuel peut viser une autre branche pour tester ses scripts.
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 20
