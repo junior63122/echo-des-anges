@@ -44,3 +44,7 @@ jobs:
           path: _site
       - id: deploiement
         uses: actions/deploy-pages@v4
+        with:
+          # Le site pèse près de 300 Mo (photos et versions WebP) : la copie par GitHub Pages
+          # dépassait le délai par défaut de 10 minutes et la publication était annulée.
+          timeout: 1800000
