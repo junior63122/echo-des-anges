@@ -637,7 +637,13 @@
   document.addEventListener("click", (e) => {
     const b = e.target.closest(".copier"); if (!b) return;
     const ok = () => { b.classList.add("copie"); setTimeout(() => b.classList.remove("copie"), 1600); };
-    if (navigator.clipboard) navigator.clipboard.writeText(b.dataset.lien).then(ok, () => {}); else ok();
+    // Copie de secours quand le presse-papiers moderne est refusé (navigateur, permissions, page non sécurisée).
+    const secours = () => {
+      const t = document.createElement("textarea"); t.value = b.dataset.lien; t.setAttribute("readonly", ""); t.style.cssText = "position:fixed;opacity:0;top:0;left:0";
+      document.body.appendChild(t); t.select(); let r = false; try { r = document.execCommand("copy"); } catch { r = false; } t.remove();
+      if (r) ok(); else window.prompt(lang === "en" ? "Copy this link:" : "Copiez ce lien :", b.dataset.lien);
+    };
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(b.dataset.lien).then(ok, secours); else secours();
   });
   // En-tête : seule la barre des rubriques reste visible quand on fait défiler la page.
   const entete = document.querySelector(".site-header"), barre = document.getElementById("sections");
@@ -685,7 +691,19 @@
       const ancien = document.querySelector(".live");
       if (!ancien) return;
       const t = document.createElement("div"); t.innerHTML = renderLive();
-      if (t.firstElementChild) ancien.replaceWith(t.firstElementChild);
+      // Remplacé seulement si le fil a changé : un lien qui disparaît sous le doigt ferait perdre le clic.
+      const neuf = t.firstElementChild;
+      if (!neuf) return;
+      const liens = (el) => [...el.querySelectorAll(".live-item a")].map((x) => x.getAttribute("href") + "|" + x.textContent).join("\n");
+      if (liens(neuf) !== liens(ancien)) { ancien.replaceWith(neuf); return; }
+      // Mêmes articles : seules l'heure (fuseau du lecteur) et la mention « Maintenant » sont mises à jour.
+      const anciens = ancien.querySelectorAll(".live-item"), nouveaux = neuf.querySelectorAll(".live-item");
+      anciens.forEach((it, k) => {
+        const n = nouveaux[k]; if (!n) return;
+        it.querySelector("time").replaceWith(n.querySelector("time"));
+        const tag = it.querySelector(".tag"), tagN = n.querySelector(".tag");
+        if (tag && !tagN) tag.remove(); else if (!tag && tagN) it.querySelector("a").before(tagN);
+      });
     }).catch(() => {});
     const apresChargement = () => (window.requestIdleCallback || ((f) => setTimeout(f, 300)))(rafraichir, { timeout: 2500 });
     if (document.readyState === "complete") apresChargement(); else window.addEventListener("load", apresChargement, { once: true });
