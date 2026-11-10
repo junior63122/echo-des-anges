@@ -2907,7 +2907,17 @@
       "Solar farm France",
       "Parc solaire France",
       "Copper cable theft"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/2026-11-07-actu-business.jpg",
+      "credit": "Joseph French / Wikimedia Commons (CC BY-SA 2.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Railway_line_west_of_Court_Colman_Solar_Farm_-_geograph.org.uk_-_8409992.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-07-actu-culture",
@@ -3520,7 +3530,17 @@
       "Fox Business",
       "BBC News"
     ],
-    "chemin": "/en/business/2026/11/07/press-review/"
+    "chemin": "/en/business/2026/11/07/press-review/",
+    "image": {
+      "src": "img/entreprises/2026-11-07-actu-business.jpg",
+      "credit": "Joseph French / Wikimedia Commons (CC BY-SA 2.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Railway_line_west_of_Court_Colman_Solar_Farm_-_geograph.org.uk_-_8409992.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-07-en-actu-culture",
@@ -6773,7 +6793,17 @@
       "Centre national du cinéma",
       "CNC cinéma Paris",
       "YouTuber filming camera"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/2026-11-05-actu-tech.jpg",
+      "credit": "Lionel Allorge / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Batterie_de_Bois_d%27Arcy_-_Centre_national_de_la_cin%C3%A9matographie_2012_02.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-11-05-en-actu-business",
@@ -7161,7 +7191,17 @@
     "sources": [
       "BBC News"
     ],
-    "chemin": "/en/tech/2026/11/05/press-review/"
+    "chemin": "/en/tech/2026/11/05/press-review/",
+    "image": {
+      "src": "img/entreprises/2026-11-05-actu-tech.jpg",
+      "credit": "Lionel Allorge / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Batterie_de_Bois_d%27Arcy_-_Centre_national_de_la_cin%C3%A9matographie_2012_02.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-10-30-en-palmares-choiseul-sud-2026-jeunes-leaders",
@@ -9876,7 +9916,17 @@
       "ANSSI Paris",
       "Agence nationale de la sécurité des systèmes",
       "Server room data center"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2026-087-le-bulletin-d-actualite-du-cert-fr-numero-2026-act-023.jpg",
+      "credit": "Lapalmauz / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2026-121-comment-une-start-up-peut-evaluer-son-adequation-produit-mar",
@@ -10589,7 +10639,17 @@
       "Trade fair exhibition hall",
       "Exhibition hall trade show",
       "Convention center exhibition"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2026-210-le-poids-economique-mondial-des-evenements-professionnels-me.jpg",
+      "credit": "Uri Tours / Wikimedia Commons (CC BY-SA 2.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:10th_Pyongyang_Autumn_International_Trade_Fair_(15171012817).jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2026-06-23-en-mysunbed-transats-plages-paris",
@@ -18373,7 +18433,17 @@
         "url": "https://www.franceinfo.fr/alpes-maritimes/alpes-maritimes-le-barman-et-le-gerant-d-une-discotheque-a-juan-les-pins-mis-en-examen-apres-qu-une-jeune-femme-a-ete-grievement-brulee-par-un-shooter-flambe_7423003.html"
       }
     ],
-    "chemin": "/en/archives/2025/juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe/"
+    "chemin": "/en/archives/2025/juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe/",
+    "image": {
+      "src": "img/entreprises/archive-2025-08-07-juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe.jpg",
+      "credit": "Frantogian / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:M%C3%A9lissa_Nkonda_-_Juan-les-Pins.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2025-08-07-juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe",
@@ -18415,7 +18485,17 @@
       "Juan-les-Pins nuit",
       "Juan-les-Pins boulevard Baudoin",
       "Juan-les-Pins night"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/archive-2025-08-07-juan-les-pins-you-barman-gerant-mis-en-examen-shooter-flambe.jpg",
+      "credit": "Frantogian / Wikimedia Commons (CC BY-SA 3.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:M%C3%A9lissa_Nkonda_-_Juan-les-Pins.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2025-07-30-en-juan-les-pins-discotheque-you-fermee-six-mois-jeune-femme-br",
@@ -21302,7 +21382,17 @@
         "url": "https://openagenda.com/french-tech-ticket-season-2/events/masterclass-presentation-of-the-paris-business-environment-paris-co-le-cargo?lang=fr"
       }
     ],
-    "chemin": "/en/business/2025/04/11/odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc/"
+    "chemin": "/en/business/2025/04/11/odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc/",
+    "image": {
+      "src": "img/entreprises/2025-04-11-odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc.jpg",
+      "credit": "Sharon Hahn Darlin / Wikimedia Commons (CC BY 2.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Casablanca,_Morocco_at_night,_November_2023_-_Tramway.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-04-11-odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc",
@@ -21359,7 +21449,17 @@
       "Casablanca Morocco",
       "Smart speaker voice assistant",
       "Voice assistant speaker"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/2025-04-11-odin-demassieux-toumai-ia-vocale-dialectes-cannes-maroc.jpg",
+      "credit": "Sharon Hahn Darlin / Wikimedia Commons (CC BY 2.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Casablanca,_Morocco_at_night,_November_2023_-_Tramway.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-04-08-en-monaco-application-taxi-monaco-skyline-monaco-boost",
@@ -21983,7 +22083,17 @@
       "Access control card reader",
       "RFID access control",
       "Electronic door lock"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/2025-02-27-akidaia-controle-acces-hors-ligne-leve-1-3-million.jpg",
+      "credit": "Syced / Wikimedia Commons (CC0)",
+      "page": "https://commons.wikimedia.org/wiki/File:LaCuCa_card_reader_-_payment_terminal_at_supermarket_register.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "2025-02-27-en-akidaia-controle-acces-hors-ligne-leve-1-3-million",
@@ -22032,7 +22142,17 @@
         "url": "https://madeinmarseille.net/economie-marseille/151287-akidaia-securise-les-sites-des-professionnels-sans-aucune-connexion-internet/"
       }
     ],
-    "chemin": "/en/business/2025/02/27/akidaia-controle-acces-hors-ligne-leve-1-3-million/"
+    "chemin": "/en/business/2025/02/27/akidaia-controle-acces-hors-ligne-leve-1-3-million/",
+    "image": {
+      "src": "img/entreprises/2025-02-27-akidaia-controle-acces-hors-ligne-leve-1-3-million.jpg",
+      "credit": "Syced / Wikimedia Commons (CC0)",
+      "page": "https://commons.wikimedia.org/wiki/File:LaCuCa_card_reader_-_payment_terminal_at_supermarket_register.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2025-02-26-attentat-de-la-basilique-de-nice-perpetuite-incompressible-p",
@@ -25660,7 +25780,8 @@
       "Startup accelerator demo day",
       "Demo Day startup",
       "Startup accelerator"
-    ]
+    ],
+    "imageEchec": "[\"Startup accelerator demo day\",\"Demo Day startup\",\"Startup accelerator\"]"
   },
   {
     "id": "lecture-2024-158-les-banques-americaines-un-an-apres-les-faillites-de-2023",
@@ -25833,7 +25954,17 @@
       "Blackstone headquarters",
       "345 Park Avenue",
       "Apollo Global Management"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2024-161-le-credit-prive-un-marche-de-2-000-milliards-de-dollars-a-su.jpg",
+      "credit": "Indiana Landmarks / Wikimedia Commons (CC BY 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:James_C._Lee_House,_345_North_Park_Avenue,_1983_(Indianapolis,_Ind.)_-_DPLA_-_ac67af6f2e364c77923c77bbfc7b5e2b.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2024-162-la-bce-cartographie-les-expositions-a-l-immobilier-commercia",
@@ -25960,7 +26091,17 @@
       "Festival security staff",
       "Festival crowd barrier",
       "Concert crowd security"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2024-201-comment-les-festivals-protegent-leur-personnel-et-leur-publi.jpg",
+      "credit": "Partridge, Rondal, 1917- / Wikimedia Commons (Public domain)",
+      "page": "https://commons.wikimedia.org/wiki/File:Oakland,_California._Hot_Jazz_Recreation._A_crowd_of_young_people_at_the_concert_of_the_Benny_Goodman_Band_which_took..._-_NARA_-_532264_(cropped).jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2024-202-paris-2024-veut-fixer-de-nouvelles-normes-de-durabilite-et-d",
@@ -28925,7 +29066,17 @@
       "ChatGPT",
       "OpenAI logo",
       "Sam Altman"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2023-027-gpt-4-un-rapport-technique-tres-discret-sur-la-recette.jpg",
+      "credit": "OIDCI / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=183586736",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2023-028-segment-anything-meta-veut-un-modele-qui-decoupe-n-importe-q",
@@ -29363,7 +29514,8 @@
       "Sales presentation",
       "Business presentation meeting",
       "Salesperson customer"
-    ]
+    ],
+    "imageEchec": "[\"Sales presentation\",\"Business presentation meeting\",\"Salesperson customer\"]"
   },
   {
     "id": "lecture-2023-110-lever-des-fonds-en-2022-les-temoignages-recueillis-par-outli",
@@ -35307,7 +35459,17 @@
       "Sales meeting customer",
       "Business meeting customer",
       "Client meeting office"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2021-097-convaincre-les-premiers-clients-de-faire-confiance-a-une-sta.jpg",
+      "credit": "Department of the Interior. National Business Center. Administrative Operations  / Wikimedia Commons (Public domain)",
+      "page": "https://commons.wikimedia.org/wiki/File:Assignment-_48-DPA-N_NBC_10-27-05_cust)_National_Business_Center_customer_service_meeting,_(led_by_Center_Director_Douglas_Bourgeois)_(48-DPA-N_NBC_10-27-05_cust_DOI_2671.JPG_-_DPLA_-_e74d292d8985cbf7d649e2107c820c32.JPG",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2021-098-tester-une-idee-de-start-up-a-moindre-cout",
@@ -39116,7 +39278,17 @@
         "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/responsables-boites-nuit-colere-apres-fermetures-administratives-prefecture-1611425.html"
       }
     ],
-    "chemin": "/en/archives/2019/nice-high-club-deuxieme-fermeture-administrative-2019/"
+    "chemin": "/en/archives/2019/nice-high-club-deuxieme-fermeture-administrative-2019/",
+    "image": {
+      "src": "img/entreprises/archive-2019-09-19-nice-high-club-deuxieme-fermeture-administrative-2019.jpg",
+      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
+      "page": "https://commons.wikimedia.org/wiki/File:12-2-26,_%C3%A0_Neuilly-sur-Seine,_side-car_Ren%C3%A9_Gillet_du_Moto_club_de_Nice_-_btv1b53158178n.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2019-09-19-nice-high-club-deuxieme-fermeture-administrative-2019",
@@ -39159,7 +39331,17 @@
       "High Club Nice",
       "Promenade des Anglais nuit",
       "Promenade des Anglais night"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/archive-2019-09-19-nice-high-club-deuxieme-fermeture-administrative-2019.jpg",
+      "credit": "Agence Rol. Agence photographique (commanditaire) / Wikimedia Commons (Public domain)",
+      "page": "https://commons.wikimedia.org/wiki/File:12-2-26,_%C3%A0_Neuilly-sur-Seine,_side-car_Ren%C3%A9_Gillet_du_Moto_club_de_Nice_-_btv1b53158178n.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2019-08-28-cannes-festival-pyrotechnique-2019-autriche-jost-vestale-arg",
@@ -40481,7 +40663,17 @@
       "Software engineers office",
       "Sales team office phones",
       "Engineering team office"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2019-090-produit-ou-force-de-vente-que-faut-il-construire-en-premier.jpg",
+      "credit": "Solomon203 / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:TPE-PWD-PSLO_Horticultural_Engineering_Team_20160528.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2019-130-la-reserve-federale-surveille-la-fragilite-des-financements-",
@@ -40700,7 +40892,17 @@
       "Sustainable conference center",
       "Green building convention center",
       "Conference center solar"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/lecture-2019-171-skift-research-explore-l-avenir-durable-des-congres-et-reuni.jpg",
+      "credit": "Press Information Department / Wikimedia Commons (Public domain)",
+      "page": "https://commons.wikimedia.org/wiki/File:Tarique_Rahman_delivering_keynote_address_at_national_conference_on_Sustainable_Development_Goals_framework_at_Bangladesh-China_Friendship_Conference_Center_in_Dhaka,_2026-08-10.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2019-172-festivals-mal-organises-quand-le-public-est-mis-en-danger",
