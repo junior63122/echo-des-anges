@@ -8,7 +8,7 @@ for(const [nom,vp] of [["ordinateur",{width:1440,height:900}],["mobile",{width:3
  // Clic qui ne bloque pas toute la suite : un clic impossible devient un problème signalé, avec l'état de l'élément.
  const remplir=async(sel,v)=>{try{await p.fill(sel,v,{timeout:8000})}catch(e){pb.push(`${nom}: saisie impossible dans ${sel} sur ${p.url()} : ${e.message.split("\n")[0].slice(0,80)}`)}};
  const clic=async(sel,o={})=>{try{await p.click(sel,{timeout:8000,...o})}catch(e){const el=await p.$(sel);pb.push(`${nom}: clic impossible sur ${sel} (${el?((await el.isVisible())?"visible":"présent mais invisible"):"absent"}) sur ${p.url()} : ${e.message.split("\n")[0].slice(0,90)}`)}};
- p.on("pageerror",e=>errs.push(p.url()+" "+e.message));p.on("console",m=>{if(m.type()==="error"&&!/fonts\.g|ERR_|net::/.test(m.text())){if(!/status of 404/.test(m.text()))errs.push(p.url()+" console "+m.text())}});
+ p.on("pageerror",e=>errs.push(p.url()+" "+e.message));p.on("response",r=>{if(r.status()>=400&&!/fonts\.g/.test(r.url())&&!/inexistant|n-existe-pas|xyz|piege|%3C|<|\.\.|page-qui/i.test(r.url())&&r.request().resourceType()!=="document")errs.push(p.url()+" ressource "+r.status()+" "+r.url().slice(0,120))});p.on("console",m=>{if(m.type()==="error"&&!/fonts\.g|ERR_|net::/.test(m.text())){if(!/status of 404/.test(m.text()))errs.push(p.url()+" console "+m.text())}});
  p.on("dialog",d=>{pb.push(nom+": une boîte de dialogue s'est ouverte ("+d.message()+")");d.dismiss()});
  const h1=()=>p.evaluate(()=>(document.querySelector("h1")||{}).textContent||"");
  const ovf=async(t)=>ok(!(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)),`${nom}: débordement horizontal sur ${t}`);
