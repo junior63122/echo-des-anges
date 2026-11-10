@@ -691,7 +691,19 @@
       const ancien = document.querySelector(".live");
       if (!ancien) return;
       const t = document.createElement("div"); t.innerHTML = renderLive();
-      if (t.firstElementChild) ancien.replaceWith(t.firstElementChild);
+      // Remplacé seulement si le fil a changé : un lien qui disparaît sous le doigt ferait perdre le clic.
+      const neuf = t.firstElementChild;
+      if (!neuf) return;
+      const liens = (el) => [...el.querySelectorAll(".live-item a")].map((x) => x.getAttribute("href") + "|" + x.textContent).join("\n");
+      if (liens(neuf) !== liens(ancien)) { ancien.replaceWith(neuf); return; }
+      // Mêmes articles : seules l'heure (fuseau du lecteur) et la mention « Maintenant » sont mises à jour.
+      const anciens = ancien.querySelectorAll(".live-item"), nouveaux = neuf.querySelectorAll(".live-item");
+      anciens.forEach((it, k) => {
+        const n = nouveaux[k]; if (!n) return;
+        it.querySelector("time").replaceWith(n.querySelector("time"));
+        const tag = it.querySelector(".tag"), tagN = n.querySelector(".tag");
+        if (tag && !tagN) tag.remove(); else if (!tag && tagN) it.querySelector("a").before(tagN);
+      });
     }).catch(() => {});
     const apresChargement = () => (window.requestIdleCallback || ((f) => setTimeout(f, 300)))(rafraichir, { timeout: 2500 });
     if (document.readyState === "complete") apresChargement(); else window.addEventListener("load", apresChargement, { once: true });
