@@ -456,3 +456,12 @@ main { min-height: 50vh; }
 /* Recherche : la page garde sa hauteur pendant l'arrivée des résultats (pas de saut du pied de page). */
 main:has(> .recherche-page) { min-height: 100vh; }
 .resultats-compte { font-family: var(--sans); font-weight: 600; color: var(--muted); margin: 14px 0 0; }
+/* En-tête mobile robuste quelle que soit la police affichée (police de secours plus large avant le
+   chargement des polices du site, notamment sous Firefox) : la colonne du logo peut rétrécir, le logo
+   suit la largeur de l'écran, et les boutons de droite ne sortent jamais de l'écran. */
+@media (max-width: 600px) {
+  .header-top { grid-template-columns: auto minmax(0, 1fr) auto; }
+  .logo { min-width: 0; max-width: 100%; overflow: hidden; }
+  .logo-text { font-size: clamp(1.05rem, 5.3vw, 1.6rem); }
+  .header-right { display: flex; align-items: center; }
+}
