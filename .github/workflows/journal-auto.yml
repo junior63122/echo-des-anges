@@ -2,8 +2,8 @@ name: Journal - éditions
 
 on:
   schedule:
-    - cron: "17 5 * * *"  # vers 6h/7h (heure de Paris) : édition du matin
-    - cron: "17 16 * * *" # vers 17h/18h : mise à jour de l'actu
+    # Une veille par semaine : le lundi vers 6h/7h (heure de Paris), collecte des flux et rédaction des articles.
+    - cron: "17 5 * * 1"
   workflow_dispatch:
 
 permissions:
