@@ -13,7 +13,7 @@ Cycle : analyser, corriger, retester, noter, recommencer. Ne jamais déclarer un
    - `node tests/audit.cjs http://localhost:8765` : 9 tailles d'écran (320 px à 2560 px, portrait et paysage), cibles tactiles WCAG 2.2, axe (WCAG 2.2 AA) clair et sombre, clavier et lien d'évitement, réseau lent, coupé, erreur 500 et JSON invalide, mouvement réduit, XSS, stabilité visuelle (CLS) ;
    - `node tests/pages.cjs http://localhost:8765 _site` puis `LARGE=1 …` : toutes les pages ouvertes en mobile et en ordinateur (erreurs JS, débordement, image cassée, titre).
 4. Lighthouse en mobile et ordinateur sur l'accueil, une rubrique, un article, les archives, une fiche sujet, l'anglais.
-5. Le workflow `.github/workflows/qualite.yml` rejoue les suites 1 à 3 sur chaque pull request.
+5. Ces tests se lancent ici, sur la machine de travail, jamais sur GitHub Actions (`qualite.yml` n'est lancé qu'à la demande explicite du propriétaire).
 
 Limites connues : seul Chromium est disponible pour les tests (pas de Safari/WebKit ni Firefox réels) ; le site n'a pas de vidéo ni de formulaire d'envoi (contact par adresse électronique, recherche locale).
 
@@ -27,4 +27,5 @@ Limites connues : seul Chromium est disponible pour les tests (pas de Safari/Web
 
 - Uniquement des outils gratuits : aucune rédaction par une IA payante (aucune clé `ANTHROPIC_API_KEY` dans les workflows), aucun service payant.
 - Rythme : deux éditions par jour et un dossier par jour (outils gratuits).
-- Minutes GitHub Actions : elles sont partagées avec les autres projets du compte et vont en priorité à Teufy. Le journal doit en consommer le moins possible : le dossier, l'actualité et les photos dans une seule exécution le matin, une courte le soir, le site republié seulement s'il a changé, rattrapage photo le lundi, contrôle du site en ligne le 1er du mois, Firefox et WebKit seulement à la demande.
+- Minutes GitHub Actions (solde payé par le propriétaire) : réservées aux robots automatiques du journal (éditions, dossier, photos, publication du site). Le développement n'en consomme aucune : pas de tests sur les pull requests, pas de publication à la fusion (les changements partent avec l'édition suivante), aucun lancement manuel d'un workflow par Claude sans demande explicite.
+- Le journal doit consommer le moins possible : le dossier, l'actualité et les photos dans une seule exécution le matin, une courte le soir, le site republié seulement s'il a changé, rattrapage photo le lundi ; contrôle du site en ligne et tests Firefox/WebKit seulement à la demande.
