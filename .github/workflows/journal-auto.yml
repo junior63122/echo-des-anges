@@ -2,8 +2,10 @@ name: Journal - éditions
 
 on:
   schedule:
-    # Une veille par semaine : le lundi vers 6h/7h (heure de Paris), collecte des flux et rédaction des articles.
+    # Une veille par semaine : le lundi vers 6h/7h (heure de Paris), collecte des flux et revues de presse.
     - cron: "17 5 * * 1"
+# Uniquement des outils gratuits : flux RSS des médias et photos libres de droits.
+# Aucune rédaction par une IA payante (pas de clé ANTHROPIC_API_KEY).
   workflow_dispatch:
 
 permissions:
@@ -27,21 +29,6 @@ jobs:
         run: node scripts/fetch-images.mjs
       - name: Actualité (Business, Finance, Événementiel, Tech, Monde, Nice, Sport)
         run: node scripts/generate-news.mjs
-      - name: Rédaction des articles du jour (sujets choisis parmi les dépêches)
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/write-stories.mjs --nombre=10
-      - name: Billet d'humeur satirique de la semaine
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/write-billet.mjs
-      - name: Rédaction des revues par rubrique
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/write-articles.mjs
       - name: Référencement (pages statiques, sitemap, RSS, llms.txt)
         if: always()
         run: node scripts/build-static.mjs

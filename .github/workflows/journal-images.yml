@@ -2,9 +2,10 @@ name: Journal - photos des articles
 
 on:
   workflow_dispatch:
-  # Une passe par heure : chaque passe travaille 40 minutes au plus et la suivante reprend la suite.
+  # Une passe par semaine, le lundi après la veille (et à chaque modification des articles) :
+  # les minutes gratuites de GitHub Actions ne sont pas consommées inutilement.
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 9 * * 1"
   push:
     branches: [main]
     paths: [articles.json, scripts/fetch-article-images.mjs]

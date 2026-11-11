@@ -465,5 +465,3 @@ main:has(> .recherche-page) { min-height: 100vh; }
   .logo-text { font-size: clamp(1.05rem, 5.3vw, 1.6rem); }
   .header-right { display: flex; align-items: center; }
 }
-/* Billet satirique : avertissement visible en tête d'article. */
-.avertissement-satire { font-family: var(--sans); font-size: .92rem; line-height: 1.45; margin: 0 0 14px; padding: 10px 14px; border-left: 4px solid var(--azur); background: var(--paper-2); color: var(--ink, inherit); }

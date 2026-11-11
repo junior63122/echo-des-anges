@@ -101,13 +101,13 @@ async function main() {
   const dejaUtilisees = new Set(db.filter((a) => a.type === "article").flatMap((a) => (a.liens || []).map((l) => l.url)));
   const recentsTitres = db.filter((a) => a.type === "article" && a.heure && Date.now() - Date.parse(a.heure) < 3 * 864e5).map((a) => a.titre);
 
-  // 1. Dépêches de la semaine (veille hebdomadaire ; JOURNAL_HEURES pour changer), avec résumé, non encore utilisées.
+  // 1. Dépêches des dernières 36 heures, avec résumé, non encore utilisées.
   const depeches = [];
   const flux = process.env.JOURNAL_FLUX ? process.env.JOURNAL_FLUX.split(/\s+/).filter(Boolean) : FLUX;
   for (const url of flux) {
     try {
       const items = await fetchFeed(url);
-      depeches.push(...items.filter((i) => i.resume && i.resume.length > 60 && (!i.date || Date.now() - i.date < (+process.env.JOURNAL_HEURES || 168) * 3600e3) && !dejaUtilisees.has(i.url)).slice(0, 25));
+      depeches.push(...items.filter((i) => i.resume && i.resume.length > 60 && (!i.date || Date.now() - i.date < 36 * 3600e3) && !dejaUtilisees.has(i.url)).slice(0, 25));
     } catch (e) { console.warn(`  ✗ ${url} : ${e.message}`); }
   }
   const vus = new Set();

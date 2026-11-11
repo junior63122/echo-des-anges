@@ -448,7 +448,7 @@ function pageArticle(a) {
     : { by: "Par", pub: "Publié le", pubIn: "Publié en", src: "Sources", photo: "Photo", topics: "Sujets", also: "À lire aussi", home: "À la une" };
   const ld = {
     "@context": "https://schema.org",
-    "@type": a.satire ? "SatiricalArticle" : a.type === "archive" ? "Article" : "NewsArticle",
+    "@type": a.type === "archive" ? "Article" : "NewsArticle",
     "@id": `${url(a)}#article`,
     headline: a.titre.length > 110 ? couper(a.titre, 110) : a.titre,
     description: resume(a),
@@ -497,7 +497,6 @@ function pageArticle(a) {
 <div class="article-layout">
 <article class="article">
   <nav class="crumbs" aria-label="${lang === "en" ? "Breadcrumb" : "Fil d'Ariane"}"><a href="${SITE}/">${T.home}</a><span class="sep" aria-hidden="true"></span><a href="${filUrl}">${esc(filNom)}</a>${rub}</nav>
-  ${a.satire ? `<p class="avertissement-satire" role="note">${lang === "en" ? "Satirical column: the exaggerations are deliberate and this is not a news report. The facts it refers to are taken from the sources listed at the end." : "Billet satirique : les exagérations sont volontaires, ce texte n'est pas une information. Les faits évoqués viennent des sources citées en fin d'article."}</p>` : ""}
   <h1>${esc(a.titre)}</h1>
   <p class="chapo">${esc(a.chapo)}</p>
   <div class="meta-line"><strong>${T.by} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" || a.precision === "annee" ? "" : (a.precision === "mois" ? T.pubIn : T.pub) + " "}<time datetime="${isoComplet(a)}">${esc(quand(a))}</time></span>${a.sources?.length ? `<span class="sources">${T.src} : ${esc(a.sources.join(", "))}</span>` : ""}${twin ? `<a class="lang-switch" href="${url(twin)}" hreflang="${langOf(twin)}">${langOf(twin) === "en" ? "Read in English" : "Lire en français"}</a>` : ""}</div>
@@ -770,7 +769,7 @@ ${lignesArticles.join("\n")}
 `);
 
 // Plan du site Google News : articles d'actualité des dernières 48 heures
-const news = indexables.filter((a) => a.type !== "archive" && !a.satire && Date.now() - Date.parse(iso(a)) < 48 * 3600e3);
+const news = indexables.filter((a) => a.type !== "archive" && Date.now() - Date.parse(iso(a)) < 48 * 3600e3);
 writeFileSync(join(J, "news-sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 ${news.map((a) => `  <url>

@@ -22,3 +22,8 @@ Limites connues : seul Chromium est disponible pour les tests (pas de Safari/Web
 - Pas de point médian « · » ni de tiret cadratin dans les textes du journal (hors titres de sources cités tels quels).
 - Ne jamais inventer de chiffres, de citations ni de sources ; chaque article cite ses sources.
 - Chaque photo doit correspondre au sujet de son article et n'être utilisée qu'une fois (robot : `scripts/fetch-article-images.mjs`, exclusions : `img/entreprises/exclues.json`).
+
+## Coûts
+
+- Uniquement des outils gratuits : aucune rédaction par une IA payante (aucune clé `ANTHROPIC_API_KEY` dans les workflows), aucun service payant.
+- Minutes GitHub Actions économisées : robots une fois par semaine (le lundi), contrôle qualité seulement sur les pull requests.
