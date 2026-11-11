@@ -2,10 +2,10 @@ name: Journal - éditions
 
 on:
   schedule:
-    # Une veille par semaine : le lundi vers 6h/7h (heure de Paris), collecte des flux et revues de presse.
-    - cron: "17 5 * * 1"
-# Uniquement des outils gratuits : flux RSS des médias et photos libres de droits.
-# Aucune rédaction par une IA payante (pas de clé ANTHROPIC_API_KEY).
+    # Comme avant : deux éditions par jour, uniquement avec des outils gratuits
+    # (flux RSS des médias, photos libres de droits ; aucune IA payante).
+    - cron: "17 5 * * *"  # vers 6h/7h (heure de Paris) : édition du matin
+    - cron: "17 16 * * *" # vers 17h/18h : mise à jour de l'actu
   workflow_dispatch:
 
 permissions:

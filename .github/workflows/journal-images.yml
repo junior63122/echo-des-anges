@@ -2,8 +2,11 @@ name: Journal - photos des articles
 
 on:
   workflow_dispatch:
-  # Une passe par semaine, le lundi après la veille (et à chaque modification des articles) :
-  # les minutes gratuites de GitHub Actions ne sont pas consommées inutilement.
+  # Une passe courte après chaque édition et chaque dossier (les publications des robots ne
+  # déclenchent pas « push »), plus une passe de rattrapage le lundi.
+  workflow_run:
+    workflows: ["Journal - éditions", "Journal - dossier de la semaine"]
+    types: [completed]
   schedule:
     - cron: "17 9 * * 1"
   push:
@@ -27,6 +30,9 @@ jobs:
         with:
           node-version: 20
       - name: Photos libres de droits pour les articles (Wikimedia Commons)
+        # Passe courte (10 min) : elle suit chaque édition, les minutes gratuites de GitHub suffisent.
+        env:
+          PHOTOS_MINUTES: "10"
         run: node scripts/fetch-article-images.mjs
       - name: Couvertures graphiques pour les articles sans photo juste
         run: |
