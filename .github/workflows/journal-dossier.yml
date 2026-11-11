@@ -1,10 +1,10 @@
 name: Journal - dossier de la semaine
 
-# Revue de presse thématique rédigée automatiquement (sans API ni IA), publiée une fois
-# par semaine : le lundi, après la veille hebdomadaire, un dossier pour chaque rubrique.
+# Revue de presse thématique rédigée automatiquement (sans API ni IA, donc gratuite), publiée
+# chaque jour : une rubrique différente à chaque fois, chacune revient une fois par semaine.
 on:
   schedule:
-    - cron: "41 6 * * 1" # le lundi vers 7h40/8h40 (heure de Paris), après la veille du matin
+    - cron: "41 5 * * *" # chaque jour vers 6h40/7h40 (heure de Paris), après la collecte du matin
   workflow_dispatch:
     inputs:
       theme:
@@ -31,14 +31,11 @@ jobs:
         env:
           THEME: ${{ inputs.theme }}
         run: |
-          if [ -n "$THEME" ]; then node scripts/dossier-semaine.mjs --theme="$THEME"; exit 0; fi
-          # Toutes les rubriques le même jour (une seule veille par semaine).
-          for t in "Nice & Côte d'Azur" Business Finance "Événementiel" Culture Sorties Tech Sport Monde; do
-            node scripts/dossier-semaine.mjs --theme="$t" || echo "Rubrique $t : pas de dossier cette semaine"
-          done
-      - name: Agenda de la semaine
+          if [ -n "$THEME" ]; then node scripts/dossier-semaine.mjs --theme="$THEME"; else node scripts/dossier-semaine.mjs; fi
+      - name: Agenda de la semaine (le lundi)
         if: ${{ github.event_name == 'schedule' }}
-        run: node scripts/dossier-semaine.mjs --agenda
+        run: |
+          if [ "$(TZ=Europe/Paris date +%u)" = "1" ]; then node scripts/dossier-semaine.mjs --agenda; else echo "Pas lundi : pas d'agenda"; fi
       - name: Référencement (pages statiques, sitemap, RSS, llms.txt)
         run: node scripts/build-static.mjs
       - name: Publier

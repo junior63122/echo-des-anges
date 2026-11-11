@@ -1,11 +1,9 @@
 name: Site - contrôle de la version en ligne
 
-# Après chaque publication (et chaque lundi), le site réellement en ligne sur echodesanges.fr est testé :
+# Chaque lundi (et à la demande), le site réellement en ligne sur echodesanges.fr est testé :
 # HTTPS et redirection, en-têtes, puis parcours d'utilisation et ouverture de toutes les pages.
+# Pas après chaque publication : avec deux éditions par jour, cela dépasserait les minutes gratuites.
 on:
-  workflow_run:
-    workflows: ["Site - publication"]
-    types: [completed]
   schedule:
     - cron: "41 8 * * 1" # le lundi, après la veille et les dossiers de la semaine
   workflow_dispatch:

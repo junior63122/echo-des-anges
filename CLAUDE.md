@@ -26,4 +26,4 @@ Limites connues : seul Chromium est disponible pour les tests (pas de Safari/Web
 ## Coûts
 
 - Uniquement des outils gratuits : aucune rédaction par une IA payante (aucune clé `ANTHROPIC_API_KEY` dans les workflows), aucun service payant.
-- Minutes GitHub Actions économisées : robots une fois par semaine (le lundi), contrôle qualité seulement sur les pull requests.
+- Rythme : deux éditions par jour et un dossier par jour (outils gratuits). Minutes GitHub Actions gratuites (2 000 par mois) : passe photo de 10 minutes, contrôle du site en ligne le lundi, contrôle qualité seulement sur les pull requests.
