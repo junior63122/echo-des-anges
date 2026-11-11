@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Wed, 11 Nov 2026 12:44:59 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 12:57:05 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Événementiel : les faits marquants de la semaine du 5 au 11 novembre</title>
+    <link>https://echodesanges.fr/evenementiel/2026/11/11/hebdo-evenementiel/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/evenementiel/2026/11/11/hebdo-evenementiel/</guid>
+    <pubDate>Wed, 11 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Événementiel</category>
+    <description>9 informations publiées par 4 médias en sept jours. Au programme : « Les films à l’affiche : « Everytime », « Izolyatsia », « 15/18 », « Scrooge », « Il…</description>
+    <media:content url="https://echodesanges.fr/img/stock/evenementiel-azur-2.jpg" medium="image"/>
+  </item>
   <item>
     <title>La semaine financière en 7 sujets, du 4 au 10 novembre</title>
     <link>https://echodesanges.fr/finance/2026/11/10/hebdo-finance/</link>
@@ -448,15 +457,6 @@
     <category>Nice &amp; Côte d'Azur</category>
     <description>L’agglomération Cannes Lérins expérimente le dispositif de la start-up de Sophia Antipolis cofondée par Charlotte et Samuel Dupont, qui prédit…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/bioceanor-bouee-connectee-baie-de-cannes.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Samantha Mane, l’héritière qui fait passer le groupe familial de Bar-sur-Loup au-dessus des 2 milliards</title>
-    <link>https://echodesanges.fr/economie/2026/04/08/portrait-samantha-mane-groupe-mane/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/04/08/portrait-samantha-mane-groupe-mane/</guid>
-    <pubDate>Wed, 08 Apr 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Première femme à diriger Mane depuis sa fondation en 1871, elle signe sa première acquisition et un chiffre d’affaires record dès sa première année à la…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/portrait-samantha-mane-groupe-mane.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
