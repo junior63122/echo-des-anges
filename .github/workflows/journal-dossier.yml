@@ -1,10 +1,9 @@
 name: Journal - dossier de la semaine
 
-# Revue de presse thématique rédigée automatiquement (sans API ni IA, donc gratuite), publiée
-# chaque jour : une rubrique différente à chaque fois, chacune revient une fois par semaine.
+# Revue de presse thématique rédigée automatiquement (sans API ni IA, donc gratuite).
+# Le dossier quotidien est fait par l'édition du matin (« Journal - éditions ») pour économiser des
+# minutes ; ce workflow sert au lancement manuel, par exemple pour une rubrique précise.
 on:
-  schedule:
-    - cron: "41 5 * * *" # chaque jour vers 6h40/7h40 (heure de Paris), après la collecte du matin
   workflow_dispatch:
     inputs:
       theme:
@@ -22,6 +21,8 @@ concurrency:
 jobs:
   dossier:
     runs-on: ubuntu-latest
+    outputs:
+      publie: ${{ steps.publier.outputs.publie }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -32,13 +33,10 @@ jobs:
           THEME: ${{ inputs.theme }}
         run: |
           if [ -n "$THEME" ]; then node scripts/dossier-semaine.mjs --theme="$THEME"; else node scripts/dossier-semaine.mjs; fi
-      - name: Agenda de la semaine (le lundi)
-        if: ${{ github.event_name == 'schedule' }}
-        run: |
-          if [ "$(TZ=Europe/Paris date +%u)" = "1" ]; then node scripts/dossier-semaine.mjs --agenda; else echo "Pas lundi : pas d'agenda"; fi
       - name: Référencement (pages statiques, sitemap, RSS, llms.txt)
         run: node scripts/build-static.mjs
       - name: Publier
+        id: publier
         run: |
           git config user.name "journal-bot"
           git config user.email "journal-bot@users.noreply.github.com"
@@ -47,3 +45,13 @@ jobs:
           git commit -m "Journal : dossier de la semaine du $(date -u +%F)"
           git pull --rebase
           git push
+          echo "publie=oui" >> "$GITHUB_OUTPUT"
+
+  site:
+    needs: dossier
+    if: ${{ needs.dossier.outputs.publie == 'oui' }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-site.yml

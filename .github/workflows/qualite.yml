@@ -42,7 +42,10 @@ jobs:
           LARGE=1 node tests/pages.cjs http://localhost:8765 _site | tee pages-ordi.txt && grep -q "^0 problème" pages-ordi.txt
 
   # Mêmes parcours dans Firefox et WebKit (le moteur de Safari) : scénarios et toutes les pages en mobile.
+  # Seulement à la demande (onglet Actions, « Run workflow ») : sur chaque pull request, cela
+  # triplerait les minutes consommées.
   navigateurs:
+    if: ${{ github.event_name == 'workflow_dispatch' }}
     # Ubuntu 24.04 : version pour laquelle Playwright 1.49 fournit les dépendances de WebKit et Firefox.
     runs-on: ubuntu-24.04
     timeout-minutes: 60

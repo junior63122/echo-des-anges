@@ -1,10 +1,12 @@
 name: Journal - éditions
 
+# Deux éditions par jour, uniquement avec des outils gratuits (flux RSS des médias, photos libres
+# de droits ; aucune IA payante). Économe en minutes GitHub Actions (partagées avec les autres
+# projets du compte) : le matin, le dossier du jour, l'actualité et les photos sont faits dans une
+# seule exécution, et le site n'est republié qu'une fois, seulement s'il a changé.
 on:
   schedule:
-    # Comme avant : deux éditions par jour, uniquement avec des outils gratuits
-    # (flux RSS des médias, photos libres de droits ; aucune IA payante).
-    - cron: "17 5 * * *"  # vers 6h/7h (heure de Paris) : édition du matin
+    - cron: "17 5 * * *"  # vers 6h/7h (heure de Paris) : dossier du jour et édition du matin
     - cron: "17 16 * * *" # vers 17h/18h : mise à jour de l'actu
   workflow_dispatch:
 
@@ -18,26 +20,56 @@ concurrency:
 jobs:
   generer:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      publie: ${{ steps.publier.outputs.publie }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-      - run: npm ci --no-audit --no-fund
       - name: Photos libres de droits (Wikimedia Commons)
         run: node scripts/fetch-images.mjs
       - name: Actualité (Business, Finance, Événementiel, Tech, Monde, Nice, Sport)
         run: node scripts/generate-news.mjs
+      - name: Dossier du jour (le matin) et agenda de la semaine (le lundi)
+        if: ${{ github.event.schedule == '17 5 * * *' }}
+        run: |
+          node scripts/dossier-semaine.mjs
+          if [ "$(TZ=Europe/Paris date +%u)" = "1" ]; then node scripts/dossier-semaine.mjs --agenda; fi
+      - name: Photos des nouveaux articles (passe courte)
+        env:
+          PHOTOS_MINUTES: ${{ github.event.schedule == '17 5 * * *' && '6' || '3' }}
+        run: node scripts/fetch-article-images.mjs
+      - name: Couvertures graphiques pour les articles sans photo juste
+        run: |
+          npm install --no-save --no-audit --no-fund sharp@0.33.5
+          node scripts/couvertures.mjs
+      - name: Redimensionner les nouvelles photos (1280 px)
+        run: |
+          nouvelles=$(git ls-files --others --exclude-standard img/entreprises | grep -i '\.jpe\?g$' || true)
+          [ -z "$nouvelles" ] && exit 0
+          command -v mogrify >/dev/null || (sudo apt-get update -q && sudo apt-get install -y -q imagemagick)
+          for f in $nouvelles; do mogrify -resize '1280x>' -strip -quality 82 -interlace Plane "$f"; done
       - name: Référencement (pages statiques, sitemap, RSS, llms.txt)
-        if: always()
         run: node scripts/build-static.mjs
       - name: Publier
+        id: publier
         run: |
           git config user.name "journal-bot"
           git config user.email "journal-bot@users.noreply.github.com"
           git add -A
           git diff --cached --quiet && echo "Rien de nouveau" && exit 0
-          git commit -m "Journal : édition du $(date -u +%F)"
+          git commit -qm "Journal : édition du $(date -u +%F)"
           git pull --rebase
           git push
+          echo "publie=oui" >> "$GITHUB_OUTPUT"
+
+  site:
+    needs: generer
+    if: ${{ needs.generer.outputs.publie == 'oui' }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-site.yml
