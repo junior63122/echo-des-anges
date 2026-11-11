@@ -2,16 +2,10 @@ name: Journal - photos des articles
 
 on:
   workflow_dispatch:
-  # Une passe courte après chaque édition et chaque dossier (les publications des robots ne
-  # déclenchent pas « push »), plus une passe de rattrapage le lundi.
-  workflow_run:
-    workflows: ["Journal - éditions", "Journal - dossier de la semaine"]
-    types: [completed]
+  # Les éditions cherchent déjà les photos de leurs articles (passe courte) : ici, seulement une
+  # passe de rattrapage le lundi, pour les articles restés sans photo.
   schedule:
     - cron: "17 9 * * 1"
-  push:
-    branches: [main]
-    paths: [articles.json, scripts/fetch-article-images.mjs]
 
 permissions:
   contents: write
@@ -23,14 +17,16 @@ concurrency:
 jobs:
   photos:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 30
+    outputs:
+      publie: ${{ steps.publier.outputs.publie }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Photos libres de droits pour les articles (Wikimedia Commons)
-        # Passe courte (10 min) : elle suit chaque édition, les minutes gratuites de GitHub suffisent.
+        # Passe de 10 minutes, une fois par semaine.
         env:
           PHOTOS_MINUTES: "10"
         run: node scripts/fetch-article-images.mjs
@@ -45,6 +41,7 @@ jobs:
           command -v mogrify >/dev/null || (sudo apt-get update -q && sudo apt-get install -y -q imagemagick)
           for f in $nouvelles; do mogrify -resize '1280x>' -strip -quality 82 -interlace Plane "$f"; done
       - name: Publier
+        id: publier
         # Le journal a pu changer pendant la passe : on repart de la dernière version et on y reporte
         # les photos trouvées (pas de fusion git, donc pas de conflit). Jusqu'à 5 essais.
         run: |
@@ -64,7 +61,16 @@ jobs:
             git add -A
             git diff --cached --quiet && echo "Rien de nouveau" && exit 0
             git commit -qm "Journal : photos des articles"
-            git push && exit 0
+            git push && echo "publie=oui" >> "$GITHUB_OUTPUT" && exit 0
             sleep $((essai * 10))
           done
           exit 1
+
+  site:
+    needs: photos
+    if: ${{ needs.photos.outputs.publie == 'oui' }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-site.yml

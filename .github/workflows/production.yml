@@ -1,11 +1,11 @@
 name: Site - contrôle de la version en ligne
 
-# Chaque lundi (et à la demande), le site réellement en ligne sur echodesanges.fr est testé :
+# Le 1er de chaque mois (et à la demande), le site réellement en ligne sur echodesanges.fr est testé :
 # HTTPS et redirection, en-têtes, puis parcours d'utilisation et ouverture de toutes les pages.
-# Pas après chaque publication : avec deux éditions par jour, cela dépasserait les minutes gratuites.
+# Une fois par mois seulement : les minutes GitHub Actions du compte vont en priorité aux autres projets.
 on:
   schedule:
-    - cron: "41 8 * * 1" # le lundi, après la veille et les dossiers de la semaine
+    - cron: "41 8 1 * *" # le 1er du mois, vers 9h40/10h40 (heure de Paris)
   workflow_dispatch:
 
 permissions:

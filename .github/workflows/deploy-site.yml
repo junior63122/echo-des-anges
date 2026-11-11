@@ -6,9 +6,9 @@ name: Site - publication
 on:
   push:
     branches: [main]
-  workflow_run:
-    workflows: ["Journal - éditions", "Journal - photos des articles", "Journal - dossier de la semaine", "Journal - archives"]
-    types: [completed]
+  # Les robots du journal appellent cette publication eux-mêmes, et seulement quand ils ont
+  # réellement publié quelque chose (économie de minutes GitHub Actions).
+  workflow_call:
   workflow_dispatch:
 
 permissions:

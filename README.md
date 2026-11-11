@@ -54,7 +54,7 @@ Si le site est servi à la racine d'un domaine, le script génère aussi `robots
 
 ## Dossier de la semaine (gratuit, sans API)
 
-Chaque matin, le workflow « Journal - dossier de la semaine » publie une
+Chaque matin, l'édition du matin (« Journal - éditions ») publie une
 revue de presse thématique (« La semaine de… »), en français et en anglais, sur la rubrique dont le
 dernier dossier est le plus ancien : Nice & Côte d'Azur, Économie, Finance, Événementiel, Tech,
 Sport, International. Chaque rubrique revient donc une fois par semaine (7 dossiers par semaine).
