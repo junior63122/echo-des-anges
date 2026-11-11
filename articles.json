@@ -39255,7 +39255,17 @@
       "Stable Diffusion",
       "Image noise grain",
       "Neural network image generation"
-    ]
+    ],
+    "image": {
+      "src": "img/couvertures/lecture-2020-007-les-modeles-de-diffusion-ou-comment-creer-une-image-en-retir.jpg",
+      "credit": "L'Écho des Anges",
+      "couverture": true,
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "lecture-2020-008-les-lois-d-echelle-qui-ont-guide-la-course-aux-grands-modele",
@@ -44131,7 +44141,17 @@
         "url": "https://www.chartsinfrance.net/actualite/news-106968.html"
       }
     ],
-    "chemin": "/en/archives/2018/fete-de-la-musique-2018-nice-france-2-place-massena/"
+    "chemin": "/en/archives/2018/fete-de-la-musique-2018-nice-france-2-place-massena/",
+    "image": {
+      "src": "img/entreprises/archive-2018-06-21-fete-de-la-musique-2018-nice-france-2-place-massena.jpg",
+      "credit": "Mastrocom / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Plaze_massena_nice.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2018-06-21-fete-de-la-musique-2018-nice-france-2-place-massena",
@@ -44179,7 +44199,17 @@
       "Place Masséna Nice",
       "Fontaine du Soleil Nice",
       "Concert crowd"
-    ]
+    ],
+    "image": {
+      "src": "img/entreprises/archive-2018-06-21-fete-de-la-musique-2018-nice-france-2-place-massena.jpg",
+      "credit": "Mastrocom / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Plaze_massena_nice.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    }
   },
   {
     "id": "archive-2018-05-27-en-grand-prix-monaco-2018-ricciardo-gagne-malgre-panne",
