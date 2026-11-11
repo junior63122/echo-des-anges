@@ -3,9 +3,9 @@ name: Site - contrôle qualité
 # Avant toute fusion : le site est construit comme en production puis testé dans un vrai navigateur.
 # Liens (toutes les pages), 840 pages ouvertes, scénarios d'utilisation, audit (9 tailles d'écran,
 # accessibilité axe WCAG 2.2, clavier, réseau coupé ou lent, erreurs serveur, XSS, stabilité visuelle).
+# Seulement à la demande : les minutes GitHub Actions servent aux robots du journal. Pendant le
+# développement, ces tests sont lancés sur la machine de travail (voir CLAUDE.md).
 on:
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -42,10 +42,7 @@ jobs:
           LARGE=1 node tests/pages.cjs http://localhost:8765 _site | tee pages-ordi.txt && grep -q "^0 problème" pages-ordi.txt
 
   # Mêmes parcours dans Firefox et WebKit (le moteur de Safari) : scénarios et toutes les pages en mobile.
-  # Seulement à la demande (onglet Actions, « Run workflow ») : sur chaque pull request, cela
-  # triplerait les minutes consommées.
   navigateurs:
-    if: ${{ github.event_name == 'workflow_dispatch' }}
     # Ubuntu 24.04 : version pour laquelle Playwright 1.49 fournit les dépendances de WebKit et Firefox.
     runs-on: ubuntu-24.04
     timeout-minutes: 60

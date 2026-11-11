@@ -3,9 +3,9 @@ name: Site - publication
 # Publie uniquement les fichiers du journal (liste blanche, voir scripts/preparer-site.mjs) :
 # scripts, documentation, données de travail et configuration restent dans le dépôt.
 # Prérequis (une fois) : Settings > Pages > Build and deployment > Source = « GitHub Actions ».
+# Les minutes GitHub Actions servent uniquement aux robots du journal : pas de publication à
+# chaque fusion. Les modifications faites à la main partent avec l'édition suivante.
 on:
-  push:
-    branches: [main]
   # Les robots du journal appellent cette publication eux-mêmes, et seulement quand ils ont
   # réellement publié quelque chose (économie de minutes GitHub Actions).
   workflow_call:

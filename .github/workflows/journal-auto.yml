@@ -58,6 +58,9 @@ jobs:
         run: |
           git config user.name "journal-bot"
           git config user.email "journal-bot@users.noreply.github.com"
+          # Modifications du site faites à la main depuis la dernière édition : elles ne sont
+          # publiées qu'ici (pas de publication ni de tests GitHub pendant le développement).
+          [ "$(git log -1 --format=%an)" != "journal-bot" ] && echo "publie=oui" >> "$GITHUB_OUTPUT"
           git add -A
           git diff --cached --quiet && echo "Rien de nouveau" && exit 0
           git commit -qm "Journal : édition du $(date -u +%F)"
