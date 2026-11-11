@@ -31,7 +31,12 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/write-stories.mjs --nombre=6
+        run: node scripts/write-stories.mjs --nombre=10
+      - name: Billet d'humeur satirique de la semaine
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/write-billet.mjs
       - name: Rédaction des revues par rubrique
         continue-on-error: true
         env:

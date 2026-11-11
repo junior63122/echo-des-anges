@@ -464,6 +464,7 @@
     const sources = a.sources && a.sources.length ? `<span class="sources">${esc(T.sources)} : ${esc(a.sources.join(", "))}</span>` : "";
     app.innerHTML = `<div class="article-layout"><article class="article">
       <div class="crumbs">${a.type === "archive" ? `<a href="${archivesLink()}">${esc(T.archives)}</a>${SEP}` : ""}<a href="${secLink(a.section)}">${esc(secName(a.section))}</a>${revue ? `${SEP}${esc(T.review)}` : a.rubrique && a.rubrique !== "Archives" && a.rubrique !== secName(a.section) && a.type !== "revue" ? `${SEP}${esc(a.rubrique)}` : ""}</div>
+      ${a.satire ? `<p class="avertissement-satire" role="note">${lang === "en" ? "Satirical column: the exaggerations are deliberate and this is not a news report. The facts it refers to are taken from the sources listed at the end." : "Billet satirique : les exagérations sont volontaires, ce texte n'est pas une information. Les faits évoqués viennent des sources citées en fin d'article."}</p>` : ""}
       <h1>${esc(a.titre)}</h1>
       <p class="chapo">${esc(a.chapo)}</p>
       <div class="meta-line"><strong>${esc(T.by)} ${esc(a.auteur)}</strong><span class="when">${a.type === "archive" ? esc(quand(a)) : `${esc(a.precision === "mois" ? T.publishedIn : a.precision === "annee" ? "" : T.published)} ${esc(quand(a))}`}</span>${sources}</div>
