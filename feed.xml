@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Wed, 11 Nov 2026 22:42:17 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 13:51:16 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Culture : les faits marquants de la semaine du 6 au 12 novembre</title>
+    <link>https://echodesanges.fr/culture/2026/11/12/hebdo-culture/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/culture/2026/11/12/hebdo-culture/</guid>
+    <pubDate>Thu, 12 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Culture</category>
+    <description>13 informations publiées par 11 médias en sept jours. Au programme : « Pour les fêtes, offrez Nice Côte d’Azur en cadeau ! », « Le Dix-Huit : un nouvel…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-12-hebdo-culture.jpg" medium="image"/>
+  </item>
   <item>
     <title>Événementiel : les faits marquants de la semaine du 5 au 11 novembre</title>
     <link>https://echodesanges.fr/evenementiel/2026/11/11/hebdo-evenementiel/</link>
@@ -448,15 +457,6 @@
     <category>Économie</category>
     <description>Cinq ans après sa création, l’entreprise d’Amélie Coulombe et Alexandre Kanar a réalisé 8,3 millions d’euros de chiffre d’affaires en 2025 et élargit la…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/krokola-merveilles-du-monde-10-millions.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Une bouée connectée de Bioceanor surveille la qualité de l’eau dans la baie de Cannes</title>
-    <link>https://echodesanges.fr/nice/2026/04/10/bioceanor-bouee-connectee-baie-de-cannes/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/nice/2026/04/10/bioceanor-bouee-connectee-baie-de-cannes/</guid>
-    <pubDate>Fri, 10 Apr 2026 06:00:00 GMT</pubDate>
-    <category>Nice &amp; Côte d'Azur</category>
-    <description>L’agglomération Cannes Lérins expérimente le dispositif de la start-up de Sophia Antipolis cofondée par Charlotte et Samuel Dupont, qui prédit…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/bioceanor-bouee-connectee-baie-de-cannes.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
