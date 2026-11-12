@@ -25,7 +25,7 @@ Limites connues : seul Chromium est disponible pour les tests (pas de Safari/Web
 
 ## Coûts
 
-- Uniquement des outils gratuits : aucune rédaction par une IA payante (aucune clé `ANTHROPIC_API_KEY` dans les workflows), aucun service payant.
+- Uniquement des outils gratuits : aucune IA dans le journal ni dans ses robots (ni Claude/API Anthropic, ni Gemini, qui est réservé à Teufy), aucun service payant.
 - Rythme : deux éditions par jour et un dossier par jour (outils gratuits).
 - Minutes GitHub Actions (solde payé par le propriétaire) : réservées aux robots automatiques du journal (éditions, dossier, photos, publication du site). Le développement n'en consomme aucune : pas de tests sur les pull requests, pas de publication à la fusion (les changements partent avec l'édition suivante), aucun lancement manuel d'un workflow par Claude sans demande explicite.
 - Le journal doit consommer le moins possible : le dossier, l'actualité et les photos dans une seule exécution le matin, une courte le soir, le site republié seulement s'il a changé, rattrapage photo le lundi ; contrôle du site en ligne et tests Firefox/WebKit seulement à la demande.
