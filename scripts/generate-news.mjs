@@ -206,7 +206,7 @@ async function main() {
     art.liens.forEach((l) => dejaVus.add(l.url)); // une info = une seule rubrique
     const i = db.findIndex((a) => a.id === art.id);
     // Relancer le même jour = mise à jour. Si les dépêches n'ont pas changé,
-    // on garde l'article déjà rédigé (voir write-articles.mjs).
+    // on garde l'article déjà rédigé (anciens articles rédigés à la main).
     if (i >= 0) {
       const old = db[i];
       if (old.redige && old.liens.map((l) => l.url).join("|") === art.liens.map((l) => l.url).join("|")) {

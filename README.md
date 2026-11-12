@@ -15,21 +15,18 @@ en français et en anglais, mis à jour deux fois par jour par un workflow GitHu
 | Photos (articles, banque libre de droits + crédits) | `img/` |
 | Pages indexables générées (référencement) | `a/`, `p/`, `sitemap.xml`, `news-sitemap.xml`, `feed.xml`, `llms.txt`, `robots.txt` |
 | Collecte de l'actualité (flux RSS) | `scripts/generate-news.mjs` |
-| Articles du jour : choix des sujets parmi les dépêches et rédaction (API Claude) | `scripts/write-stories.mjs` |
-| Revues par rubrique rédigées (API Claude) | `scripts/write-articles.mjs` |
-| Rédaction des archives (API Claude + recherche web) | `scripts/write-archives.mjs` |
+| Dossier du jour et agenda (revue de presse, sans IA) | `scripts/dossier-semaine.mjs` |
 | Photos libres (Wikimedia Commons) | `scripts/fetch-images.mjs` |
 | Référencement | `scripts/build-static.mjs` |
 | Test des flux RSS | `scripts/check-feeds.mjs` |
 
 ## Robots (onglet Actions)
 
-- **Journal - éditions** : deux fois par jour (et à la demande). Collecte l'actualité dans les flux RSS des médias
-  (titres et résumés publiés pour être repris), choisit jusqu'à 6 sujets, rédige pour chacun un article original en
-  français et en anglais avec les sources citées (si la clé API est présente), met à jour les photos et le
-  référencement, puis publie. Le texte intégral des articles des autres médias n'est jamais récupéré.
-- **Journal - archives** : à la demande. Rédige des archives sur une période choisie (événements vérifiés par
-  recherche web, sources citées, version anglaise).
+- **Journal - éditions** : deux fois par jour. Collecte l'actualité dans les flux RSS des médias (titres et
+  résumés publiés pour être repris) et en fait des revues de presse par rubrique, sources citées ; le matin,
+  rédige aussi le dossier du jour. Cherche les photos libres, met à jour le référencement, puis publie.
+  Aucune IA, aucun service payant. Le texte intégral des articles des autres médias n'est jamais récupéré.
+- **Journal - photos des articles** : rattrapage le lundi.
 - **Journal - vérification des flux** : à la demande. Teste des flux RSS.
 
 ## Mise en service
@@ -39,8 +36,7 @@ en français et en anglais, mis à jour deux fois par jour par un workflow GitHu
    DNS du domaine : enregistrements A vers 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 ;
    AAAA vers 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153 ;
    CNAME `www` vers `junior63122.github.io`.
-2. **Clé API** (rédaction automatique) : Settings → Secrets and variables → Actions → New repository secret,
-   nom `ANTHROPIC_API_KEY`. Sans clé, les rubriques restent en revue de presse (titres, résumés, liens).
+2. **Aucune clé d'IA** : le journal n'utilise ni Claude, ni Gemini, ni aucune IA payante.
 3. **Mentions légales** : compléter `JOURNAL_CONFIG` en haut de `pages.js` (raison sociale, forme et capital,
    RCS, siège, téléphone, TVA, hébergeur). Les champs vides s'affichent « [à compléter] ».
 4. **Référencement** : déclarer le site et `sitemap.xml` dans Google Search Console et Bing Webmaster Tools.
