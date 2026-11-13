@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Thu, 12 Nov 2026 22:15:09 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 13:15:15 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Sorties : les faits marquants de la semaine du 7 au 13 novembre</title>
+    <link>https://echodesanges.fr/sorties/2026/11/13/hebdo-sorties/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/sorties/2026/11/13/hebdo-sorties/</guid>
+    <pubDate>Fri, 13 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Sorties</category>
+    <description>20 informations publiées par 11 médias en sept jours. Au programme : « Que faire à Nice le week-end du 13, 14 et 15 novembre 2026 ? », « Les premiers pas…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-13-hebdo-sorties.jpg" medium="image"/>
+  </item>
   <item>
     <title>Culture : les faits marquants de la semaine du 6 au 12 novembre</title>
     <link>https://echodesanges.fr/culture/2026/11/12/hebdo-culture/</link>
@@ -448,15 +457,6 @@
     <category>Tech</category>
     <description>Cofondatrice de Mycophyto en 2017, elle a bouclé en janvier une levée de 16 millions d’euros. Sa start-up ouvre une filiale au Maroc, première étape de…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/portrait-justine-lipuma-mycophyto.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Krokola, le chocolatier marseillais qui a ressuscité Merveilles du Monde, vise les 10 millions d’euros</title>
-    <link>https://echodesanges.fr/economie/2026/04/15/krokola-merveilles-du-monde-10-millions/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/04/15/krokola-merveilles-du-monde-10-millions/</guid>
-    <pubDate>Wed, 15 Apr 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Cinq ans après sa création, l’entreprise d’Amélie Coulombe et Alexandre Kanar a réalisé 8,3 millions d’euros de chiffre d’affaires en 2025 et élargit la…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/krokola-merveilles-du-monde-10-millions.jpg" medium="image"/>
   </item>
 </channel>
 </rss>

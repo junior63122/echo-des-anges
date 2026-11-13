@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/going-out/2026/11/13/hebdo-sorties/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-13T08:00:00+01:00</news:publication_date>
+      <news:title>Going out: the week’s main stories, 7 to 13 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/sorties/2026/11/13/hebdo-sorties/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-13T08:00:00+01:00</news:publication_date>
+      <news:title>Sorties : les faits marquants de la semaine du 7 au 13 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/en/culture/2026/11/12/hebdo-culture/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
@@ -14,22 +30,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-12T08:00:00+01:00</news:publication_date>
       <news:title>Culture : les faits marquants de la semaine du 6 au 12 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/events/2026/11/11/hebdo-evenementiel/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-11T08:00:00+01:00</news:publication_date>
-      <news:title>Events: the week’s main stories, 5 to 11 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/evenementiel/2026/11/11/hebdo-evenementiel/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-11T08:00:00+01:00</news:publication_date>
-      <news:title>Événementiel : les faits marquants de la semaine du 5 au 11 novembre</news:title>
     </news:news>
   </url>
 </urlset>
