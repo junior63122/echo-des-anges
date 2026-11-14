@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Fri, 13 Nov 2026 21:59:05 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 12:18:08 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Tech : les faits marquants de la semaine du 8 au 14 novembre</title>
+    <link>https://echodesanges.fr/tech/2026/11/14/hebdo-tech/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/11/14/hebdo-tech/</guid>
+    <pubDate>Sat, 14 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>27 informations publiées par 19 médias en sept jours. Au programme : « Après un été de cyberattaques et un an de blocage, la loi « résilience » de retour…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-3.jpg" medium="image"/>
+  </item>
   <item>
     <title>Sorties : les faits marquants de la semaine du 7 au 13 novembre</title>
     <link>https://echodesanges.fr/sorties/2026/11/13/hebdo-sorties/</link>
@@ -448,15 +457,6 @@
     <category>Économie</category>
     <description>La PME de Venelles, qui loue plus de 10 500 défibrillateurs surveillés à distance, change de président-directeur général. Le fils du fondateur veut «…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/citycare-guillaume-fornas-pdg-defibrillateurs.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Justine Lipuma, la microbiologiste de Grasse qui veut remplacer les pesticides par des champignons</title>
-    <link>https://echodesanges.fr/tech/2026/04/16/portrait-justine-lipuma-mycophyto/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/04/16/portrait-justine-lipuma-mycophyto/</guid>
-    <pubDate>Thu, 16 Apr 2026 06:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Cofondatrice de Mycophyto en 2017, elle a bouclé en janvier une levée de 16 millions d’euros. Sa start-up ouvre une filiale au Maroc, première étape de…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/portrait-justine-lipuma-mycophyto.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
