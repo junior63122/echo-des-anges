@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Sat, 14 Nov 2026 20:42:35 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 12:50:44 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>La semaine sportive en 7 sujets, du 9 au 15 novembre</title>
+    <link>https://echodesanges.fr/sport/2026/11/15/hebdo-sport/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/sport/2026/11/15/hebdo-sport/</guid>
+    <pubDate>Sun, 15 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Sport</category>
+    <description>50 informations publiées par 18 médias en sept jours. Au programme : « De la lanterne rouge havraise à la Ligue des champions avec Lens, la promotion…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-15-hebdo-sport.jpg" medium="image"/>
+  </item>
   <item>
     <title>Tech : les faits marquants de la semaine du 8 au 14 novembre</title>
     <link>https://echodesanges.fr/tech/2026/11/14/hebdo-tech/</link>
@@ -448,15 +457,6 @@
     <category>Économie</category>
     <description>Ancien chercheur postdoctoral à l’Ifremer, le cofondateur de Bioceanor dirige depuis 2018 la start-up de Sophia Antipolis. Sa bouée connectée est mise à…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/2026-04-23-samuel-dupont-bioceanor-biologiste-marin-ifremer-aquaculture.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Défibrillateurs connectés : Guillaume Fornas succède à son père à la tête de Citycare</title>
-    <link>https://echodesanges.fr/economie/2026/04/21/citycare-guillaume-fornas-pdg-defibrillateurs/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/04/21/citycare-guillaume-fornas-pdg-defibrillateurs/</guid>
-    <pubDate>Tue, 21 Apr 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>La PME de Venelles, qui loue plus de 10 500 défibrillateurs surveillés à distance, change de président-directeur général. Le fils du fondateur veut «…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/citycare-guillaume-fornas-pdg-defibrillateurs.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
