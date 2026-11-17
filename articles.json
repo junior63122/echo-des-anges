@@ -1,5 +1,398 @@
 [
   {
+    "id": "2026-11-17-en-hebdo-nice-cote-d-azur",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "The week",
+    "emoji": "🌴",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Lucas Giordano",
+    "titre": "Nice and the French Riviera: the week’s main stories, 11 to 17 November",
+    "chapo": "25 stories from 17 news outlets over seven days. In this round-up: “Storm Charles: several flights canceled from Nice airport this Wednesday”, “Man United transfer news: Monaco open to Balogun sale, but Serie A rival holds an advantage” and “Storm Charles: Maritime Alps underwater, roads cut off, emergency evacuations, here’s an update”.",
+    "corps": [
+      "From 11 November to 17 November, our newsroom followed the news in Nice and on the French Riviera through reporting by Nice Premium, Nice-Matin, Metro Mode, The Connexion, Sports Mole and The Peoples Person and others. Here are the stories that marked the week.",
+      "Leading the week, “Storm Charles: several flights canceled from Nice airport this Wednesday”, Nice Premium reported on Wednesday. In its words: “Storm Charles disrupts air traffic in the Iberian Peninsula on Wednesday, November 11, 2026” The story was also covered by Nice-Matin, Metro Mode and The Connexion.",
+      "Another major story: “Man United transfer news: Monaco open to Balogun sale, but Serie A rival holds an advantage”, Sports Mole reported on Tuesday. The story was also covered by The Peoples Person, Edinburgh News and ESPN.",
+      "Elsewhere, “Storm Charles: Maritime Alps underwater, roads cut off, emergency evacuations, here’s an update”, Nice Premium reported on Thursday. It added: “Heavy rains linked to storm Charles are affecting the Alpes-Maritimes on Thursday, November 12” The story was also covered by The Connexion, Monaco Life and Riviera Radio.",
+      "Meanwhile, “Brutal reason Man Utd finally sacked Michael Carrick as Monaco meeting details emerge”, The Mirror reported on Thursday. The story was also covered by Sky Sports, BBC and The Irish News.",
+      "Also this week, “Pokémon Cards: An auction takes place this Tuesday in Monaco”, Nice Premium reported on Tuesday. From the article: “To celebrate Pokémon’s 30th anniversary, the Monte-Carlo Auction House is organizing an auction entirely dedicated to the Japanese franchise on Tuesday, Novembe” The story was also covered by Nice-Matin.",
+      "Worth noting, “When Grace Kelly Moved to Monaco, She Refused to Give Up This American Thanksgiving Tradition”, Grazia reported on Saturday. The story was also covered by People.com and Tatler.",
+      "Finally, “Customised number plates arrive in Monaco”, The Connexion reported on Tuesday. The story was also covered by Riviera Radio.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "Nice Premium",
+      "Nice-Matin",
+      "Metro Mode",
+      "The Connexion",
+      "Sports Mole",
+      "The Peoples Person",
+      "Edinburgh News",
+      "ESPN",
+      "Monaco Life",
+      "Riviera Radio",
+      "The Mirror",
+      "Sky Sports",
+      "BBC",
+      "The Irish News",
+      "Grazia",
+      "People.com",
+      "Tatler"
+    ],
+    "liens": [
+      {
+        "titre": "Storm Charles: several flights canceled from Nice airport this Wednesday",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/storm-charles-several-flights-canceled-from-nice-airport-this-wednesday/",
+        "resume": "Storm Charles disrupts air traffic in the Iberian Peninsula on Wednesday, November 11, 2026",
+        "heure": "2026-11-11T10:26:41.000Z"
+      },
+      {
+        "titre": "\"GTA VI\" on the French Riviera: We Asked AI to Reimagine Monaco, Nice, Cannes and Saint-Tropez",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWmYxc0FnMmJlNERXZFJrZ2VDU1BVcGdNNnZpMTZaRUt0NGhkZ21pUlAwajZlTEpfeEJpWDhQRndGUlFWUGdrTXF5UlBPSTY5LWo4ejI3UWdqMW5fY1RkQUJobDRSem5vUXhRNmt6c2k0S3l3Y0QyN3cyOGlZaVRyc21ySUlPMGRaSm9IT291U2RzdXg5bE1DdDdSNmRxbG80YU83YlJvUVdBSWZsUkdXTVNxUmdjaGVEdV85SG5iMWxMMTNOQTB4UU1tYWY0TXhrMFJB?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T06:55:08.000Z"
+      },
+      {
+        "titre": "The most beautiful Christmas spots in the south of France – from Nice to Saint-Tropez",
+        "source": "Metro Mode",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU1BiekpPeXZfZ0EyTTVsZ1ZRaXc3V2F3RzVXZzhwZXBBTmNYbnppS2ZfMUhKZUxIOHFYTFdXcHJiT0RWeWc4VEg3SDlobC1KcWJYUF9ZWW8tVExfbFZ5dEFRWWlLTmFveVc5cDNfamJPbXFLOXFJUVpMc0s5RTNoYmZnS3dvaElxUWFwaTRSYkFFSTVqQ0kzb3pEQzQzeDhTMTZn?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T20:23:04.000Z"
+      },
+      {
+        "titre": "Storm Charles: Heavy Rain and Rough Seas Forecast for Monaco and the French Riviera",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdlFwdEUyd0RyOFpIZzZ6cXNNNVNDR3ZUMFZxY0hsTHJqcEQxLVBkV0FLZ0lMN18xUi1XSy12VlZudm1lZnhYendaWHp1WEpRNlNSRUUxMlczSjZDRHRFWEdTVEdoeG1fSjZhczE1WFdTYl9fRlpheThiMS1NTFR0SzRjdnR3ajRSWEJvNEpnQU9QcFpRSlFIS1djQ2JudU5hMG9wNmw3WlVjQWtqUHNFLVRVUWFxYktwNkRfc3EzWkw4bmViUVJLeWZXV0U?oc=5",
+        "resume": "",
+        "heure": "2026-11-11T16:57:25.000Z"
+      },
+      {
+        "titre": "Flights cancelled as south of France braces for arrival of Storm Charles",
+        "source": "The Connexion",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSVEybUtYeGhaWTQ2MXNBbzFuRDhyb0RSS0ZPT2JvZV9wdWVQaktwNGFQQTRFeG51LXhKM2JDb1N0bDhEUk5Vcm9XbTJvQ2gzSVRpakVhLTlIemoxdEhjOHBjYmRXLXdkUDUyRVo0akNuVTVXNW1CVG9xYkhkbkV1NlZMTWktUjc1WE5rcnkxa3RGMm50bWdMVjRtS081TGJ2YzAxSW93My1NMkY5VEJjS1dRSE1tdE1rSGRvN2cyLXBXcmJU?oc=5",
+        "resume": "",
+        "heure": "2026-11-11T11:04:06.000Z"
+      },
+      {
+        "titre": "Man United transfer news: Monaco open to Balogun sale, but Serie A rival holds an advantage",
+        "source": "Sports Mole",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTjZxMjlLVjhvQ1pxSEV0NmlNb3VSLTBrcHpnenZxLS1USzRCVlUtbDlreDl1NzM4UzdyQkl6Zy11MURDY1BqSzFqSzJ1Sjg0bUxPV1ZXTUw2Y216RjhXejZTNFN0ajZqRl80ZnB5OGM2Z1pnN1pUSnhKRVB5T3M3bUV0OVFSR1k2WFJCZUtRd1E2blp3TXdOaGlOM2NXaTFNX2o0THdmQTZONXFoa1Y2Z2t4Q281R3RNeWtNNVBqd0J3V3lBZHc5SFlGVDVmWDZCYWRFU1RYejdxQzdmY2IzMU4wTy1vd1R1YTdBSGUzQWdseEE0aUZZ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T11:51:50.000Z"
+      },
+      {
+        "titre": "Folarin Balogun: How Pochettino could help Man United land Monaco star in January",
+        "source": "The Peoples Person",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY3haMGdqcWdtZnA3ek0tX1Rlc1NxZUVOelhvSWwzRlNFOEppOXdmMkZJRElBZmFYU0V0UkFVSHlVRDFfeWpYTHNrY0pTWGVlY2NEQ1NjWE5YaVd4Sjc0S0JOUzRUVE1zNTRxenZOa0pLNzlKSUpGRGFQR1dmRTh4Ul9QT25KVkU3aG93U2xrMmJwcWVuTjZOUXk4WDJ5aW5UQkxXSnRJSEI5Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T22:54:34.000Z"
+      },
+      {
+        "titre": "Monaco star declares transfer exit intentions pre-Hearts clash",
+        "source": "Edinburgh News",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUkU4TXdILU95MklXTzRBTGZWaEI3U1JuZUY3Mm9zLXU0NVM0YWJZXzVBYkVMWUxQejJYb2ZYSG13Q3NnbVlzOXp0NlhIUWFndFJoWFp1dTllUDFieDRnNW5DalhmU2hwZjhTRlpEcEdiUHNIV0hyc3IzTk01VlBXc3JCSHJGQjNhZTMyV0Z1N0VNamRnYkxGSHF2SFBxU29XeUNDcF9mckk3UnlsTWhNakZZeVhvZjJCa0lnV3lEdE5RYUZHT0VjMnRTNGhMN1JiLW1icDhn?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T08:51:00.000Z"
+      },
+      {
+        "titre": "USMNT's Folarin Balogun says he'll seek transfer from Monaco in January",
+        "source": "ESPN",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1lrLUVWOURXb1FpMXV6ZGpDUVBtdTU0NHNUTkRqMzMxMzdmRGwwU05sZ2lCNFZsVUZVcEhIa3VQYk9uZW1sUkY1U3dfSHZnQ0JyQm04SXZ2VC1SakNhMG1FXzNLZFlQLS1KQXZtTEQ1V3llMkVQRFpUM3FobXdzeXRqWm9haTBIRmEyY3dUZi1lMnIyVFNCYzdRMFQ0OWtS?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T18:04:00.000Z"
+      },
+      {
+        "titre": "Storm Charles: Maritime Alps underwater, roads cut off, emergency evacuations, here’s an update",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/storm-charles-maritime-alps-underwater-roads-cut-off-emergency-evacuations-here-s-an-update/",
+        "resume": "Heavy rains linked to storm Charles are affecting the Alpes-Maritimes on Thursday, November 12",
+        "heure": "2026-11-12T12:38:59.000Z"
+      },
+      {
+        "titre": "Storm Charles: Firefighters rescue two following floods in Nice",
+        "source": "The Connexion",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT2YtaEdOTWs2OXM2R0ZxcjZ6d0tiZGNGR0lJUXJGRENubEIyOUNDeXJsRDF1NDJQc3Q1elBtSHc2RFJOeV9yNGdrcVhPZTZjbzdtS1UxMlRmMl81T0xZbE1tVHZNanlheVgzdlkwVUY3cEJTcnh4ODBLb1o1VzVCNnVZbHA2VGJ2Nm0yMjkwU2tleVNOZC1XMlZfRkZtMmlVU29wU21lSXF2alotZkE?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T08:17:32.000Z"
+      },
+      {
+        "titre": "Man swept away by floods in Nice: Storm Charles batters Riviera",
+        "source": "The Connexion",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTTBkNVBOY2kzLWEwTEZlYmNFc05MS2dUZjlDaXJDZ3pDNmJtWXJQZGVSQ2NaOC1vS2NyUzhVbVhyS0k1TndHX0tHdUtta3oxWURaNmQxbVVkaTVsUmZZelVwZlZ3TF9qMXQtdU1IcG5mUEhfWld1OUNxRDZfSXNCWUtCZkZfWnFzOXJjOVUybzc5R3ZEenlfcXNrYjhVcFNnalVQcWNCU3k4dkttNGc?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T15:42:23.000Z"
+      },
+      {
+        "titre": "Storm Charles batters French Riviera as rockfalls close roads and flooding hits coastal towns",
+        "source": "Monaco Life",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMlJYLWg3cnNOelp1elNGVWU0X2xDYmMtOFJPQ3M2TjJHa3dOZFZLVXh3YUFsdmFoV1k4UG9ieGFLeW5LSWdwS1A1ZEhXRnNrVS1lTEJ0dWd5SGl0NXBwaGFWakYxelRscnBINkEwbFhnMUNDMDBRU1Voc3lib29YYWpwZlpMaUNjQ1pGaVNYTHlGbjg0M2dKNHhfMmg4d1dxZG5sYldlZE1YOW9PZ1JJZ0p1cWNEbzZC?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T14:48:17.000Z"
+      },
+      {
+        "titre": "Storm Charles causes rockfall and road closures across the French Riviera",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSmN3SHdnRUFuV0NNMEd5YTI0ZXJId1pUUktpekdqVkowbmZQRWY1Q1JOa0JlcTlYR1hzRUgxUFFiS2g0TTROaFA4NVlmX0x6bGRNMUhJSkJ1Y0J5Q0E0Vi1QREFVYUxIc05aOXprS3hId2VOQkZ6bjZkWVJlQVNPV2FuTkJhWmhZT2c4UTh0WGxEMnpTVzkzQWliT0NuTDEzSTBZWHpJRnh1UTRMSW9EUlhOWHY4ajdmTXdhLQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T11:24:09.000Z"
+      },
+      {
+        "titre": "Brutal reason Man Utd finally sacked Michael Carrick as Monaco meeting details emerge",
+        "source": "The Mirror",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTU5ibVlma21uX2NQeUl4Qk5jNVlSUUd1MG8wVjUtblNzNGRuWkIwYk13OFZWb3lYdjZQak1QMW1QbVc0ME1kZ1NXaWFqcFo1RU55VlhxTG9KZk5JQ3ZleFVIRTdEbnFzNUc2VXJITnZjZjFYNVdudU02QkhqSm5YYVlDWFVrU0pldGhCLdIBkgFBVV95cUxPY2haQklKbk44TG9VOC1jRmY0VGFmNFl2bW9BX2VSZEVaa1J2V3Z2cElFS2ZlNVV3UU9fTW5JRjZWOFhFNmZjTlQ4Nm1hYkd5bGtGSXoxNmtjQ3IxQ1dzY1pnOHNGZkg5MGc1TndNNTZucHBVSG5YVWw1MWtDeUk0aF93ZDlXTFJyRk9Ja18wZjFGdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T11:35:00.000Z"
+      },
+      {
+        "titre": "Mauricio Pochettino: Man Utd close to agreeing deal with Michael Carrick's potential successor ahead of Monaco meeting",
+        "source": "Sky Sports",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSzJiaVdxeVlEb0pKVVN4YXh0MHJ1ejl5bG1RRGxPSV96ZGRBQnRub1VnVTZUQVZlalNIcjRkWGNWdEV5bFJwZ05Xc096U2dpNlBlcHYzZi13TC1EMF9BVmxxXzdCcDZwOWlSM3BTZEJyUHFpVmlnUXIyZWU5c3lGZFhjb3BOT2NscVNDUWhCZGlVRHF2Yzd6OVBvSjhjNGdJZlBlenJIY1I5bENMRWpZdFV1em10SGYzN3lQRW9DWnBsNkhUaGw3YXBFbFppNUFzTWpsRVdPcEVIR0FUVHZZSlF0M281YTNjTmdDSEQyQnM3RzE3STNtag?oc=5",
+        "resume": "",
+        "heure": "2026-11-11T10:13:04.000Z"
+      },
+      {
+        "titre": "Phone In: Monaco and Man Utd: Sack Carrick?",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU2MwbHlicnhhbHRVd1kxeGMzOU5qeGNUeHRnUkFMb0loZDNYc3RPLUloWUxhSkw4aVVlaWpmMU9iekpfbUZLcVZSTGpjQ09jTkNEcTFYQnI4NEtfRFdEVWl1ZXhLeWNFYzRjQk1sYnYyTE5Oa0tHWGMzZVhwUmp5aXdkUWdlZEJjY1FjY0lKTW0?oc=5",
+        "resume": "",
+        "heure": "2026-11-11T10:04:32.000Z"
+      },
+      {
+        "titre": "Michael Carrick arrives at Carrington as Man Utd executives meet in Monaco",
+        "source": "The Irish News",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWm9nUWVMZXg1VHVHY3k1X3VfZmc3WGZ3WnZlZWNVUnZDWk92ZEJTZEUwT3VyNkZ2eE5KOUlDN3ZIQ05ycHRPSHJfYWozNzdLT3dESWVEWjJDbzFNUXBob0d5TXViTEhfOTFqTTJPMHJHVFp4amR5a2RsVjFPUVE5cDJnWE95bEVOaUFDMnZublZRejQzbElMQ1hLX1VLcWRfZ2JDNDhXS1F3Vzk2cXlZWTRhdWhhTXhIVFVBQ18wNUJqS2Y5WHpac0JHOV8xWHBFTmdfZ2ZkUnE?oc=5",
+        "resume": "",
+        "heure": "2026-11-11T08:35:40.000Z"
+      },
+      {
+        "titre": "Pokémon Cards: An auction takes place this Tuesday in Monaco",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/pokemon-cards-an-auction-takes-place-this-tuesday-in-monaco/",
+        "resume": "To celebrate Pokémon's 30th anniversary, the Monte-Carlo Auction House is organizing an auction entirely dedicated to the Japanese franchise on Tuesday, Novembe",
+        "heure": "2026-11-17T10:52:04.000Z"
+      },
+      {
+        "titre": "Rare Pokémon Cards Worth Up to €180,000 Head to Auction in Monaco",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZi1ySm9KRnJfS1lQLUVfQlJxa0p5RHFBRXFrY19qT2twV0hpVC1wTnhfd0w3V0hQN1U2TUc1dmhfS19RSTAxQV9vLVlDUUxJTnlOaEI4WkhSQjZzbVpnV0o3d1BmNkQ0QWx1SnVFU3pFMnhTZW4ybXZkeUtQeXNHT2xYYjBLbnE5Q211cmE0TDVINzJ0bjRET0NfRkxZeGMyNWxnRXh5WmMwWGdOczlF?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T13:00:05.000Z"
+      }
+    ],
+    "redige": true,
+    "image": {
+      "src": "img/entreprises/2026-11-17-hebdo-nice-cote-d-azur.jpg",
+      "credit": "Anthony Baratier / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Magasins_%C3%A0_l%27a%C3%A9roport_de_Nice_C%C3%B4te_d%27Azur.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "chemin": "/en/riviera/2026/11/17/hebdo-nice-cote-d-azur/"
+  },
+  {
+    "id": "2026-11-17-hebdo-nice-cote-d-azur",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "La semaine",
+    "emoji": "🌴",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Lucas Giordano",
+    "titre": "Nice et la Côte d’Azur : les faits marquants de la semaine du 11 au 17 novembre",
+    "chapo": "80 informations publiées par 10 médias en sept jours. Au programme : « Manifestation de ce mardi 17 novembre : le grand retour du cortège avenue Jean Médecin à Nice pour la première fois depuis la manifestation du 17 octobre », « « On a tapé aux portes, les alarmes incendie ne marchaient pas » : comment une centaine d’étudiants ont évacué un immeuble en feu du centre-ville de Nice » et « Que retenir du passage de Roger Ricort dans 100% Aiglons ce lundi 16 novembre ? ».",
+    "corps": [
+      "Du 11 novembre au 17 novembre, la rédaction a suivi l’actualité de Nice et de la Côte d’Azur à travers les publications de France 3 Côte d’Azur, BFM Nice Côte d’Azur, ici Azur, Nice-Matin, BFM et ici.fr notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « Manifestation de ce mardi 17 novembre : le grand retour du cortège avenue Jean Médecin à Nice pour la première fois depuis la manifestation du 17 octobre », titrait France 3 Côte d’Azur mardi. Extrait : « L’intersyndicale appelle ce mardi 17 novembre les 5,8 millions d’agents publics à une nouvelle journée d’action pour réclamer une hausse des salaires face à l’inflation. » Le sujet a également été traité par BFM Nice Côte d’Azur, BFM, ici.fr, ici Azur, Art cote d’azur, Nice-Matin et Actu.fr.",
+      "Autre sujet marquant, « « On a tapé aux portes, les alarmes incendie ne marchaient pas » : comment une centaine d’étudiants ont évacué un immeuble en feu du centre-ville de Nice », titrait Nice-Matin lundi. On peut y lire : « Un incendie s’est déclaré, dimanche 15 novembre 2026, en plein centre-ville de Nice, vers 22 h 30, au sixième et dernier étage d’un immeuble habité par une centaine d’étudiants. » Le sujet a également été traité par France 3 Côte d’Azur, France 3 Régions, BFM Nice Côte d’Azur, BFM et ici Azur.",
+      "Dans un autre registre, « Que retenir du passage de Roger Ricort dans 100% Aiglons ce lundi 16 novembre ? », titrait ici Azur mardi. Extrait : « À quelques jours de la reprise de l’OGC Nice en Ligue 1 de foot, samedi à l’Allianz Riviera avec la réception du PSG, Ici Azur vous offre une occasion de patienter et de vous plonger dans l’actu du club, avec notre émission du lundi 100% Aiglons, et son… » Le sujet a également été traité par BFM Nice Côte d’Azur, BFM, France 3 Côte d’Azur et Nice-Matin.",
+      "Par ailleurs, « EN IMAGES. Inondations, routes coupées, dégâts, le passage de la dépression Charles dans les Alpes-Maritimes et le Var », titrait France 3 Côte d’Azur jeudi. Extrait : « La dépression Charles a touché la France et le Sud ce jeudi 12 novembre. » Le sujet a également été traité par BFM Nice Côte d’Azur, France 3 Régions, BFM et Actu.fr.",
+      "Toujours cette semaine, « Carnaval de Nice 2027 : promenoirs gratuits, hausse des tarifs en tribune… ce qui change », titrait BFM Nice Côte d’Azur lundi. On peut y lire : « Denis Del Rio, adjoint au maire en charge du tourisme et de l’évènementiel, était l’invité de Bonjour La Côte d’Azur ce lundi 16 novembre 2026. » Le sujet a également été traité par BFM, France 3 Côte d’Azur et RCF.",
+      "À noter également, « Un couple mis en examen après la mort d’un jeune homme entré par effraction chez eux à Saint-Paul-de-Vence », titrait BFM Nice Côte d’Azur vendredi. Le média précise : « Le procureur de Grasse a annoncé la mise en examen d’un homme et une femme pour \"coups mortels\" après la mort d’un homme de 18 ans, qui s’était introduit chez eux dans la nuit de dimanche à lundi à Saint-Paul-de-Vence (Alpes-Maritimes). » Le sujet a également été traité par France 3 Côte d’Azur, ici Azur et Nice-Matin.",
+      "Enfin, « \"Je pense qu’on est le bâtiment le plus aux normes de la Roya\" : Cédric Herrou risque-t-il de devoir fermer son restaurant Emmaüs ? », titrait France 3 Côte d’Azur mardi. Extrait : « Alors que le restaurant associatif de Cédric Herrou est sous le coup de plusieurs contrôles administratifs, dans un contexte politique très tendu avec la présidente RN de la communauté d’agglomération Alexandra Masson, une première décision devrait tomber ce… » Le sujet a également été traité par BFM Nice Côte d’Azur et Nice-Matin.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "France 3 Côte d'Azur",
+      "BFM Nice Côte d'Azur",
+      "ici Azur",
+      "Nice-Matin",
+      "BFM",
+      "ici.fr",
+      "Art cote d'azur",
+      "Actu.fr",
+      "France 3 Régions",
+      "RCF"
+    ],
+    "liens": [
+      {
+        "titre": "Manifestation de ce mardi 17 novembre : le grand retour du cortège avenue Jean Médecin à Nice pour la première fois depuis la manifestation du 17 octobre",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/manifestation-de-ce-mardi-17-novembre-le-grand-retour-du-cortege-avenue-jean-medecin-3451032.html",
+        "resume": "L'intersyndicale appelle ce mardi 17 novembre les 5,8 millions d'agents publics à une nouvelle journée d'action pour réclamer une hausse des salaires face à l'inflation. Dans les Alpes-Maritimes, une manifestation aura lieu ce mardi 17 novembre, à partir de 14h. Elle retrouve son parcours \"classique\".",
+        "heure": "2026-11-17T14:12:54.000Z"
+      },
+      {
+        "titre": "Grève du 17 novembre : une nouvelle manifestation prévue à Nice cet après-midi",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-greve-du-17-novembre-une-nouvelle-manifestation-prevue-a-nice-cet-apres-midi_VN-202611170360.html",
+        "resume": "Julien Picot, secrétaire départemental du PCF et conseiller d'opposition à la mairie de Nice, était l'invité de Bonjour La Côte d'Azur ce mardi 17 novembre 2026.",
+        "heure": "2026-11-17T08:22:45.000Z"
+      },
+      {
+        "titre": "Le journal de 8h du mardi 17 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-le-journal-de-8h-du-mardi-17-novembre-2026_VN-202611170276.html",
+        "resume": "Bonjour La Côte d'Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise. Au sommaire : Une formation pour réorienter les bacheliers. Vol au musée Renoir, Cagnes rend hommage aux forces de sécurité. Semaine de l'Arbre, des élèves découvrent la biodiversité à Cannes.",
+        "heure": "2026-11-17T07:14:46.000Z"
+      },
+      {
+        "titre": "À Nice, une nouvelle formation pour aider les jeunes à trouver leur voie après le bac",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-a-nice-une-nouvelle-formation-pour-aider-les-jeunes-a-trouver-leur-voie-apres-le-bac_VN-202611170193.html",
+        "resume": "Depuis septembre, l’association Evocaé s’est installée au Campus Sud des Métiers, à Nice. Dès janvier, elle proposera un programme de six mois pour accompagner les jeunes bacheliers sans affectation sur Parcoursup ou insatisfaits de leur orientation. L’objectif : leur faire découvrir différents métiers et les aider à construire leur projet professionnel. Les candidatures sont ouvertes.",
+        "heure": "2026-11-17T06:12:04.000Z"
+      },
+      {
+        "titre": "Le journal de 18h du lundi 16 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-le-journal-de-18h-du-lundi-16-novembre-2026_VN-202611160770.html",
+        "resume": "Bonsoir La Côte-d'Azur, présenté par Pauline Renoir, accompagne les téléspectateurs de Nice Côte d'Azur dans leur soirée avec un focus sur l'actualité locale : infos, météo, sport, trafic. Au sommaire : La manifestation de retour sur Jean Médecin. Puget-sur-Argens, une halte ferroviaire demandée. Et Roger Ricort, architecte du renouveau du Gym.",
+        "heure": "2026-11-16T17:56:38.000Z"
+      },
+      {
+        "titre": "Émission du 16 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-emission-du-16-novembre-2026_VN-202611160834.html",
+        "resume": "Ce 16 novembre 2026, Pauline Renoir vous donne rendez-vous pour revenir sur les temps forts de l’actualité de la journée et aborder les grands événements du lendemain.",
+        "heure": "2026-11-16T17:00:00.000Z"
+      },
+      {
+        "titre": "Émission du 16 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-emission-du-16-novembre-2026_VN-202611160327.html",
+        "resume": "Ce 16 novembre 2026, Laurie Canac vous donne rendez-vous pour démarrer la journée avec un tour de l’actualité locale de la métropole nicoise.",
+        "heure": "2026-11-16T08:00:00.000Z"
+      },
+      {
+        "titre": "Nouvelle manifestation à Nice : 3.500 personnes dans la rue selon les syndicats, 1.600 d'après la préfecture",
+        "source": "ici Azur",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/nouvelle-manifestation-a-nice-3-500-personnes-dans-la-rue-selon-les-syndicats-1-500-selon-la-police-9352644?at_medium=lien_RSS&at_locale=49",
+        "resume": "Nouvelle journée de mobilisation dans les rues de Nice ce samedi 14 novembre. À l'appel de l'intersyndicale, plusieurs milliers de personnes ont défilé dans le centre-ville pour dénoncer la vie chère et réclamer notamment de meilleures conditions d'études.",
+        "heure": "2026-11-14T15:07:51.000Z"
+      },
+      {
+        "titre": "« Certains artistes n'arrivent plus à se loger à Nice » : le cri d'alarme des salariés de l'Opéra, la grève reconduite jusqu'à fin 2026",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/certains-artistes-n-arrivent-plus-a-se-loger-a-nice-le-cri-d-alarme-des-salaries-de-l-opera-la-greve-reconduite-jusqu-a-fin-2026-3449781.html",
+        "resume": "Après deux soirées d'annulation, le rideau s'est finalement levé vendredi soir à l'Opéra Nice Côte d'Azur. Les artistes en grève ont profité de cette représentation maintenue pour s'adresser directement aux spectateurs et alerter sur leurs conditions salariales, malgré une fréquentation record l'an dernier.",
+        "heure": "2026-11-14T14:40:20.000Z"
+      },
+      {
+        "titre": "Le journal de 18h du vendredi 13 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-le-journal-de-18h-du-vendredi-13-novembre-2026_VN-202611130734.html",
+        "resume": "Bonsoir La Côte-d'Azur, présenté par Pauline Renoir, accompagne les téléspectateurs de Nice Côte d'Azur dans leur soirée avec un focus sur l'actualité locale : infos, météo, sport, trafic.Au sommaire : Les proviseurs mobilisés ce matin à Saint-Raphaël. Les Insoumis en réunion publique demain à Nice. Et l'hôpital de Tende, un projet de reconstruction.",
+        "heure": "2026-11-13T17:39:24.000Z"
+      },
+      {
+        "titre": "Émission du 13 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-emission-du-13-novembre-2026_VN-202611130842.html",
+        "resume": "Ce 13 novembre 2026, Céline Moncel vous donne rendez-vous pour revenir sur les temps forts de l’actualité de la journée et aborder les grands événements du lendemain.",
+        "heure": "2026-11-13T17:00:00.000Z"
+      },
+      {
+        "titre": "Émission du 13 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-emission-du-13-novembre-2026_VN-202611130362.html",
+        "resume": "Ce 13 novembre 2026, Laurie Canac vous donne rendez-vous pour démarrer la journée avec un tour de l’actualité locale de la métropole nicoise.",
+        "heure": "2026-11-13T08:00:00.000Z"
+      },
+      {
+        "titre": "Le journal de 8h du vendredi 13 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-le-journal-de-8h-du-vendredi-13-novembre-2026_VN-202611130282.html",
+        "resume": "Bonjour La Côte d'Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise. Au sommaire : Menton, nouvelle scène de tension ce jeudi. Sud-Est, un mois de pluie en quelques heures. Carnaval de Nice, des nouveautés pour 2027.",
+        "heure": "2026-11-13T07:28:11.000Z"
+      },
+      {
+        "titre": "Le journal de 18h du jeudi 12 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-le-journal-de-18h-du-jeudi-12-novembre-2026_VN-202611120822.html",
+        "resume": "Bonsoir La Côte-d'Azur, présenté par Pauline Renoir, accompagne les téléspectateurs de Nice Côte d'Azur dans leur soirée avec un focus sur l'actualité locale : infos, météo, sport, trafic. Au sommaire : Deux hommes emportés par le Paillon et évacués. Des ralentisseurs hors normes bientôt légaux ? Carnaval, l'affiche et les nouveautés dévoilées.",
+        "heure": "2026-11-12T18:03:08.000Z"
+      },
+      {
+        "titre": "« Il faut éviter de se rendre en centre-ville » : à Mandelieu, la pluie engendre de fortes restrictions de circulation ce jeudi 12 novembre à midi",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/faits-divers/il-faut-eviter-de-se-rendre-en-centre-ville-a-mandelieu-la-pluie-engendre-de-fortes-restrictions-de-circulationce-jeudi-12-novembre-a-midi-10758581",
+        "resume": "Les fortes averses qui s’abattent actuellement à l’ouest du département obligent la commune de Mandelieu à fermer des axes de circulation en centre-ville et à sécuriser des écoles. À Cannes, le secteur des Tourrades est également problématique.",
+        "heure": "2026-11-12T12:05:29.000Z"
+      },
+      {
+        "titre": "Émission du 12 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-emission-du-12-novembre-2026_VN-202611120411.html",
+        "resume": "Ce 12 novembre 2026, Laurie Canac vous donne rendez-vous pour démarrer la journée avec un tour de l’actualité locale de la métropole nicoise.",
+        "heure": "2026-11-12T08:00:00.000Z"
+      },
+      {
+        "titre": "Le journal de 8h du jeudi 12 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-le-journal-de-8h-du-jeudi-12-novembre-2026_VN-202611120273.html",
+        "resume": "Bonjour La Côte d'Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise. Au sommaire : Châteauneuf, le centre pour MNA va fermer. Route du Rhum, Alexia Barrier réalise l'exploit. Handball, les Aiglonnes dominent Paris 92.",
+        "heure": "2026-11-12T07:16:47.000Z"
+      },
+      {
+        "titre": "Grève à l’opéra de Nice : une représentation annulée ce mercredi 11 novembre 2026, les salariés dénoncent leurs conditions de travail",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/culture/greve-a-l-opera-de-nice-une-representation-annulee-ce-mercredi-11-novembre-2026-les-salaries-denoncent-leurs-conditions-de-travail-10758225",
+        "resume": "Une représentation de « La Veuve joyeuse », programmée ce mercredi 11 novembre 2026 à l’opéra de Nice, a été annulée en raison d’une mobilisation d’une partie du personnel. Musiciens et choristes dénoncent leurs rémunérations et le manque de moyens.",
+        "heure": "2026-11-11T18:57:20.000Z"
+      },
+      {
+        "titre": "Le journal de 18h du mercredi 11 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-le-journal-de-18h-du-mercredi-11-novembre-2026_VN-202611110671.html",
+        "resume": "Bonsoir La Côte-d'Azur, présenté par Pauline Renoir, accompagne les téléspectateurs de Nice Côte d'Azur dans leur soirée avec un focus sur l'actualité locale : infos, météo, sport, trafic. Au sommaire : Quand l'armistice s'exporte dans les écoles. À Saint-Paul, une intrusion qui vire au drame. De jeunes bouchers s'installent à Riquier.",
+        "heure": "2026-11-11T17:26:22.000Z"
+      },
+      {
+        "titre": "\"On n'a aucune réponse\", une cinquantaine de personnes devant l'Opéra de Nice pour soutenir les artistes en grève",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/on-n-a-aucune-reponse-une-cinquantaine-de-personnes-devant-l-opera-de-nice-pour-soutenir-les-artistes-en-greve-3448035.html",
+        "resume": "Une cinquantaine de personnes étaient rassemblées, ce mercredi 11 novembre, devant l'Opéra de Nice pour soutenir les artistes, en grève depuis trois jours. Ils réclament notamment une revalorisation salariale, dénonçant \"une véritable urgence sociale\" et le manque de réponse de la mairie.",
+        "heure": "2026-11-11T17:20:00.000Z"
+      }
+    ],
+    "redige": true,
+    "imageCommons": [
+      "Côte d'Azur Nice",
+      "Côte d'Azur",
+      "Nice vue",
+      "Nice"
+    ],
+    "image": {
+      "src": "img/entreprises/2026-11-17-hebdo-nice-cote-d-azur.jpg",
+      "credit": "Anthony Baratier / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Magasins_%C3%A0_l%27a%C3%A9roport_de_Nice_C%C3%B4te_d%27Azur.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "chemin": "/nice/2026/11/17/hebdo-nice-cote-d-azur/"
+  },
+  {
     "id": "2026-11-17-actu-business",
     "lang": "fr",
     "date": "2026-11-17",
@@ -7,43 +400,43 @@
     "rubrique": "Business",
     "emoji": "💼",
     "type": "revue",
-    "titre": "Mobilisation du 17 novembre : « Si le gouvernement mise sur une baisse de la contestation, il se met le doigt dans l’œil », estime Sophie Binet",
+    "titre": "25 000 offres d’emploi supprimées sur France Travail à cause de l’IA : quels secteurs sont concernés ?",
     "chapo": "Entreprises, emploi, stratégie : l’essentiel de l’actualité économique. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Mobilisation du 17 novembre : « Si le gouvernement mise sur une baisse de la contestation, il se met le doigt dans l’œil », estime Sophie Binet",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/17/mobilisation-du-17-novembre-si-le-gouvernement-mise-sur-une-baisse-de-la-contestation-il-se-met-le-doigt-dans-l-il-estime-sophie-binet_6812722_823448.html",
-        "resume": "La secrétaire générale de la CGT juge que la contestation reste vive et prévoit une nouvelle « forte journée de mobilisation ». A Lyon, la justice a autorisé une manifestation dans l’hypercentre, pour la première fois depuis celle du 17 octobre, qui avait été marquée par des violences et des dégradations.",
-        "heure": "2026-11-16T23:54:47.000Z"
-      },
-      {
-        "titre": "\"C'est pire que d'habitude\", \"Ça va être un bazar\"… La fermeture de l'A13 pour neuf mois provoque déjà des bouchons en Île-de-France et inquiète les communes",
+        "titre": "25 000 offres d'emploi supprimées sur France Travail à cause de l'IA : quels secteurs sont concernés ?",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/economie/transports/c-est-pire-que-d-habitude-ca-va-etre-un-bazar-la-fermeture-de-l-a13-pour-neuf-mois-provoque-deja-des-bouchons-en-ile-de-france-et-inquiete-les-communes_8285477.html#xtor=RSS-3-%5Beconomie%5D",
-        "resume": "Trouver un autre chemin pour aller travailler, c’est le casse-tête qui commence pour les habitués de l’A13, fermée depuis lundi 16 novembre matin à la sortie de Paris, en direction de la Normandie, jusqu’à fin août 2027. Les bouchons étaient déjà nombreux ce lundi, et les communes voisines veulent éviter de récupérer les voitures dans leurs rues. Certains maires ont même sollicité les applications GPS.",
-        "heure": "2026-11-16T22:44:34.000Z"
+        "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/25-000-offres-d-emploi-supprimees-sur-france-travail-a-cause-de-l-ia-quels-secteurs-sont-concernes_8286617.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "C'est un chiffre saisissant : pour la première fois, une grande étude a quantifié les effets de l'intelligence artificielle sur les embauches. Résultat, en seulement trois mois, ce sont 25 000 annonces de recrutement qui se sont envolées. Quels sont les secteurs les plus impactés ?",
+        "heure": "2026-11-17T14:28:17.000Z"
       },
       {
-        "titre": "Débat de la présidentielle 2027 : revivez le débat entre Marine Le Pen, Raphaël Glucksmann, Jean-Luc Mélenchon, Gabriel Attal et Bruno Retailleau",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/election-presidentielle-2027/live/2026/11/16/en-direct-debat-de-la-presidentielle-2027-les-cinq-candidats-s-affrontent-sur-les-retraites-marine-le-pen-cible-la-ligue-des-droits-de-l-homme-un-ramassis-de-gauchistes_6811633_6205049.html",
-        "resume": "Les cinq candidats à l’élection ont débattu pendant près de trois heures sur TF1 puis LCI. « Financement magique », « foire aux taxes », « cadeaux fiscaux aux plus riches »… Tous s’accusent, notamment, de ne pas financer leurs propositions.",
-        "heure": "2026-11-16T22:21:54.000Z"
-      },
-      {
-        "titre": "L'Assemblée adopte un texte soutenu par le gouvernement pour faciliter le déblocage de l'épargne salariale",
+        "titre": "Dans l'ombre de la sortie de GTA VI, des salariés de Rockstar Games se prononcent sur la reconnaissance d'un syndicat",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/economie/pouvoir-achat/l-assemblee-adopte-un-texte-soutenu-par-le-gouvernement-pour-faciliter-le-deblocage-de-l-epargne-salariale_8285510.html#xtor=RSS-3-%5Beconomie%5D",
-        "resume": "La proposition de loi doit désormais faire l'objet d'un compromis entre députés et sénateurs lors d'une prochaine commission mixte paritaire.",
-        "heure": "2026-11-16T21:46:35.000Z"
+        "url": "https://www.franceinfo.fr/culture/jeux-video/dans-l-ombre-de-la-sortie-de-gta-vi-des-salaries-de-rockstar-games-se-prononcent-sur-la-reconnaissance-d-un-syndicat_8284856.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Plus de 1 600 salariés britanniques du studio sont appelés à voter pour trancher le sort du Rockstar Game Workers Union. En cas de vote favorable, il deviendrait le plus gros syndicat de l'industrie du jeu vidéo au Royaume-Uni.",
+        "heure": "2026-11-17T14:21:56.000Z"
+      },
+      {
+        "titre": "Pétition pour interdire CNews : un débat élargi à tous les médias finalement organisé et déjà controversé",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/petition-pour-interdire-cnews-un-debat-elargi-a-tous-les-medias-finalement-organise-et-deja-controverse_6812980_3234.html",
+        "resume": "L’Assemblée nationale a acté, mardi 17 novembre, qu’elle discutera en Hémicycle du pluralisme et de la liberté d’expression dans les médias, mais pas de la suppression de la chaîne du groupe Bolloré. LFI dénonce « un scandale ».",
+        "heure": "2026-11-17T14:20:01.000Z"
+      },
+      {
+        "titre": "Plans d’épargne-retraite : ce qui a changé en 2026",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/17/plans-d-epargne-retraite-ce-qui-a-change-en-2026_6812971_1657007.html",
+        "resume": "Davantage souscrit pour les avantages fiscaux à l’entrée que pour le complément de revenu qu’il génère à la sortie, le PER a fait l’objet de trois ajustements dans le cadre des lois budgétaires de l’Etat. En cette période propice aux versements de fin d’année, il est préférable de les avoir à l’esprit.",
+        "heure": "2026-11-17T13:00:03.000Z"
       }
     ],
     "auteur": "Camille Rostand",
     "sources": [
-      "Le Monde",
-      "franceinfo"
+      "franceinfo",
+      "Le Monde"
     ],
     "chemin": "/economie/2026/11/17/revue-de-presse/"
   },
@@ -55,36 +448,52 @@
     "rubrique": "Culture",
     "emoji": "🎭",
     "type": "revue",
-    "titre": "Des images révélées par Mediapart et Le media montrent Gérard Depardieu toucher l’entrejambe d’une figurante.",
+    "titre": "Dans l’ombre de la sortie de GTA VI, des salariés de Rockstar Games se prononcent sur la reconnaissance d’un syndicat",
     "chapo": "Expositions, musées, théâtre, cinéma et musique : la vie culturelle, de la Côte d’Azur au reste du monde. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Des images révélées par Mediapart et Le media montrent Gérard Depardieu toucher l’entrejambe d’une figurante.",
+        "titre": "Dans l'ombre de la sortie de GTA VI, des salariés de Rockstar Games se prononcent sur la reconnaissance d'un syndicat",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/culture/cinema/depardieu/des-images-revelees-par-mediapart-et-le-media-montrent-gerard-depardieu-toucher-l-entrejambe-d-une-figurante_8285564.html#xtor=RSS-3-%5Bculture%5D",
-        "resume": "Des images révélées par Mediapart et Le_media_tv, jeudi 12 novembre, montrent Gérard Depardieu toucher l’entrejambe d’une figurante. En parallèle, il renonce à son procès en appel concernant d’autres accusations d’agr*ssion sexuelle, qui devait se tenir lundi 16 novembre. Il présente des excuses dans un communiqué.",
-        "heure": "2026-11-16T23:02:58.000Z"
+        "url": "https://www.franceinfo.fr/culture/jeux-video/dans-l-ombre-de-la-sortie-de-gta-vi-des-salaries-de-rockstar-games-se-prononcent-sur-la-reconnaissance-d-un-syndicat_8284856.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Plus de 1 600 salariés britanniques du studio sont appelés à voter pour trancher le sort du Rockstar Game Workers Union. En cas de vote favorable, il deviendrait le plus gros syndicat de l'industrie du jeu vidéo au Royaume-Uni.",
+        "heure": "2026-11-17T14:21:56.000Z"
       },
       {
-        "titre": "James Bond : Robert Pattinson choisi pour incarner le célèbre agent 007",
+        "titre": "La série \"Slow Horses\", renouvelée pour une neuvième et une dixième saison, deviendra ainsi la plus longue série de la plateforme Apple TV",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/culture/cinema/james-bond-robert-pattinson-choisi-pour-incarner-le-celebre-agent-007_8285498.html#xtor=RSS-3-%5Bculture%5D",
-        "resume": "Robert Pattinson va endosser le costume de James Bond. À 40 ans, l'acteur britannique, déjà connu pour ses rôles dans \"Twilight\" et \"Batman\", succède à Daniel Craig dans la peau du célèbre agent 007. Un choix qui suscite l'enthousiasme des fans. Il faudra toutefois attendre 2028 pour découvrir sa première apparition dans ce rôle mythique.",
-        "heure": "2026-11-16T21:14:29.000Z"
+        "url": "https://www.franceinfo.fr/culture/series/la-serie-slow-horses-renouvelee-pour-une-neuvieme-et-une-dixieme-saison-deviendra-ainsi-la-plus-longue-serie-de-la-plateforme-apple-tv_8286338.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "L'annonce est intervenue le même jour que la non-sélection de l'un de ses acteurs principaux, Jack Lowden, pour le rôle de James Bond.",
+        "heure": "2026-11-17T14:03:06.000Z"
       },
       {
-        "titre": "FOCUS du COFEES : une journée de conférences sur la culture responsable à Marseille",
-        "source": "jds.fr",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSHBlVUNmeW5qa3YyMFNJWDdGYkdGU2NoY3pETzRDeVpVaWpPRzM1VjMzRG90bENQQkpnLUJDQzNBTjBhcS1NR1VXak9zUTNLb2t6NjRaVXllUThSVnEzSXRzd21xckZka3lJcmFpRE9iOFU2WG4zdjRKVzhZSWM0Q25VaTN2RjlOanc2N29oQmN2NVpJODc2cXEwQ0V6VDlFQjZJaTFpaWFoTDE5MnZOd1B2bHlUZWtqMUZFSUNWX3Nvak82WHpHc1hwWnBKVUdtY21VYmFFOXVaYU11UTB2OA?oc=5",
+        "titre": "Jonathan Gensburger (CGT Spectacle) : « La situation de la culture est extrêmement préoccupante",
+        "source": "ici.fr",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeGZ6NU5UVHByMHh2X1RzdjVwa2hXdEt4Q1c1Wm1TR01RWkZxM0hxUlo2ZzEwOWdXTEZjMllWdmM1eXVzQXNlVmJQVkJEWVNiR0FDUUpybG1oMExIY1hXdzFiNzFYTENha0MtandOSENKVmlhS0tTRm5vUTV6d3VKZFFjSWV3QmJpeklSVVpNc0VvSFlLTktRQ3Z1MmNLOW1oYXAtbmNJeG5manAtRTE3YWdwY3RfUVROazBvUUREMndsOGNQRGVwbTBweEpucEJSOHI5bElrbDNBQjJSRW1ZQnFmWQ?oc=5",
         "resume": "",
-        "heure": "2026-11-15T03:01:26.000Z"
+        "heure": "2026-11-17T06:20:00.000Z"
+      },
+      {
+        "titre": "Mode queer : le vêtement comme langage d’émancipation sur la Côte d’Azur",
+        "source": "Nice Premium",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFRrb3dieU5tY2plZkRCdFJwQnNQNmlHZGphV1VhUHJ6cHIzbjNjZDdmU2RRTXlzYllwd3R0aS1BNzJpd015Qi1DelYwZTV4dHZ6U0wxWmdlUUFzcnBlWVgwcEpmajBvaFZacjRUcDBBbXBoY0JYT0xhNUdNTTJMcnJEbFJfdjRqUE1MMHJhckZQMWJ1ZXJRbndPb2VWLS1Nb2NuUHduanIwMzR0TElZT0Rn?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T08:04:15.000Z"
+      },
+      {
+        "titre": "Digne-les-Bains : un pôle culturel départemental implanté dans l’ancien Bricomarché",
+        "source": "mesinfos",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZXM4VGJKVnBkZjUwS05CdU93eEZwcEJ5OURHUVZvcVZZNkctYnoyZ2FYSW1YaUpDYXpyNnpqRjAwQldZVjZ0Q0hWMF9jR1d4dWRHX2o4dTE1WHBwZVlqZGhiYlNGX0ozSmE5ZUlBOEZ0S0JONW9pMW96eXZDOVBwVzN6V1g3SGRoanZ0aFNuVXpnYXJWUDdnY2tMTjk0Z0NmWXNWdmtpTjloYy1QbGxZQy1iMEtUMDd2TTZHa1NwNllrcjRWOXRuT2pvT0Z4cXBj?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T06:30:00.000Z"
       }
     ],
     "auteur": "Clara Venturini",
     "sources": [
       "franceinfo",
-      "jds.fr"
+      "ici.fr",
+      "Nice Premium",
+      "mesinfos"
     ],
     "chemin": "/culture/2026/11/17/revue-de-presse/"
   },
@@ -96,23 +505,23 @@
     "rubrique": "Événementiel",
     "emoji": "🎪",
     "type": "revue",
-    "titre": "Léa Murawiec, autrice de BD : « Enfant, j’étais persuadée d’avoir des pouvoirs magiques »",
+    "titre": "Sur scène, Guillaume Meurice se fait professeur d’histoire des révolutions",
     "chapo": "Salons, festivals, concerts, grands rendez-vous : l’actualité de l’événementiel. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Léa Murawiec, autrice de BD : « Enfant, j’étais persuadée d’avoir des pouvoirs magiques »",
+        "titre": "Sur scène, Guillaume Meurice se fait professeur d’histoire des révolutions",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/culture/article/2026/11/16/lea-murawiec-autrice-de-bd-enfant-j-etais-persuadee-d-avoir-des-pouvoirs-magiques_6812234_3246.html",
-        "resume": "« Dans ma bulle ». La dessinatrice de 32 ans, remarquée pour « Le Grand Vide » en 2021, revient avec « Bon Débarras ! », qui explore les thématiques de l’épuisement et du deuil en imaginant la transformation des défunts en bibelots, dans un album foisonnant et réfléchi.",
-        "heure": "2026-11-16T18:00:12.000Z"
+        "url": "https://www.lemonde.fr/culture/article/2026/11/17/sur-scene-guillaume-meurice-se-fait-professeur-d-histoire-des-revolutions_6812913_3246.html",
+        "resume": "Le chroniqueur-animateur de Radio Nova invente une conférence-spectacle savoureuse, dans laquelle, face à la montée de l’extrême droite, il prend le parti des révolutionnaires.",
+        "heure": "2026-11-17T06:00:04.000Z"
       },
       {
-        "titre": "Gims sera jugé dans une affaire de corruption en décembre, à Paris, aux côtés de quatre policiers",
+        "titre": "Bruxelles, une ville à « l’histoire en mille morceaux »",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/societe/article/2026/11/16/gims-sera-juge-dans-une-affaire-de-corruption-en-decembre-a-paris-aux-cotes-de-quatre-policiers_6812228_3224.html",
-        "resume": "Le chanteur est aussi poursuivi avec son associé, son avocate, et le responsable d’un centre de formation à la sécurité privée, pour corruption et travail dissimulé.",
-        "heure": "2026-11-16T17:16:34.000Z"
+        "url": "https://www.lemonde.fr/international/article/2026/11/17/bruxelles-une-ville-a-l-histoire-en-mille-morceaux_6812888_3210.html",
+        "resume": "Dans son spectacle « Bruxelles Chaos », Gaspard Melville raconte comment l’urbanisme désordonné de la capitale belge reflète une identité indéfinissable, qui pourrait expliquer en partie pourquoi l’extrême droite n’a jamais réussi à s’y enraciner.",
+        "heure": "2026-11-17T04:00:08.000Z"
       }
     ],
     "auteur": "Léa Fontaine",
@@ -129,52 +538,52 @@
     "rubrique": "Finance",
     "emoji": "📈",
     "type": "revue",
-    "titre": "L’Assemblée nationale adopte un texte pour débloquer l’épargne salariale, à la veille d’une nouvelle mobilisation pour le pouvoir d’achat",
+    "titre": "Le Cac 40 perd plus de 1 %, lesté par le luxe, les marchés se préparent aux comptes de Nvidia",
     "chapo": "Bourse, marchés, taux, crypto et argent au quotidien : ce qui a bougé. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "L’Assemblée nationale adopte un texte pour débloquer l’épargne salariale, à la veille d’une nouvelle mobilisation pour le pouvoir d’achat",
+        "titre": "Le Cac 40 perd plus de 1 %, lesté par le luxe, les marchés se préparent aux comptes de Nvidia",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeFZLdnkxNlZ0SFJzVDJ1X0k3cWQ0empQMUpOX0VWc1J6Y2dhRlluYzIyWWRWTHNfdFhZVXRnTC1GQWNFRXNyYmVmYmx0blk2S2NGb1R0QzM0RERYSzcxaENjUkhZbktqdnMzSFMtanVONUxDRGtqWUx6WDRzek5oNHVQcVY2X0JTS1I4Zk9EWHFlYzhac1VUb09odm8zRVdoQVJnSHpVNEZzSzFWR2NHeERkaVc4VDdpZV9wVEphcmlMRUl6bVVsQnc1bHNOdk1UeGdkdWFjYjNFVFZNUm1fdWNyMnlIVHRzWVNzSVNxMzVVUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T13:55:06.000Z"
+      },
+      {
+        "titre": "CAC 40 : la Bourse chute, les résultats de Nvidia auront de lourdes répercussions sur tout le secteur de l’IA",
+        "source": "Capital.fr",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb3R0WEpVbElZXzFqN3dNZ24yeEdfS0t5eWpWdmFKaDhYQ2hpanpCNzM5OTJ0b0VzU2lKWTI2dTlBcHNpak5vbGVab3dDZ29xbWl1WnU3bGhvNDNjWVJVZDc5Rkw4X1hEeURIYUc0dGFuSnU1bFk2aVBRQVFpU2wyNjVjaWlpYkJFV1ZMeXhjbi1GUnlhS1BGeWhSWEJjZFhrOV9FbGhYNWNBQ1V6STZ4THM1M1dJeUw2LW15VXpNTm1Da2dmX1hQOThGdG10T3lFclVPY20zU3lhRzFUT1pramlUUHBXU1pCQXRkQg?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T09:55:38.000Z"
+      },
+      {
+        "titre": "« Inside Deutsche Bank » : l’action de la banque chute en Bourse après la publication de l’enquête",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/16/l-assemblee-nationale-adopte-un-texte-pour-debloquer-l-epargne-salariale-a-la-veille-d-une-nouvelle-mobilisation-pour-le-pouvoir-d-achat_6812558_823448.html",
-        "resume": "Les députés de gauche ont dénoncé un dispositif qui ne crée pas de pouvoir d’achat supplémentaire et ne concerne qu’une partie des salariés, le jugeant « inégalitaire » et « inefficace ».",
-        "heure": "2026-11-16T22:05:22.000Z"
+        "url": "https://www.lemonde.fr/economie/article/2026/11/17/deutsche-bank-chute-en-bourse-apres-une-enquete-sur-une-fuite-de-documents-internes_6812937_3234.html",
+        "resume": "La première banque privée allemande chute mardi en Bourse après une grande enquête de presse à laquelle a participé « Le Monde ».",
+        "heure": "2026-11-17T09:35:00.000Z"
       },
       {
-        "titre": "Taux directeur et bitcoin : en 2022, le cours a chuté de 60 %",
-        "source": "CryptoTicker.io",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54T2ZUeXJsb1E3WVpyTjFHQWdNdThTR25QbV9ULVE4ajF4TmJFZzNpbXBhV1FGQzBWY1A4eTVvekpyaGJHTkpXR2x5TFMxNlU4bmJKc0ZHOHZTUDJGaFlMMC00Rlc5S3VoM1FTZVFIVTRZeVgtbjh6NktaU0R0OTA?oc=5",
+        "titre": "CAC40 DE RETOUR SUR SUPPORT !! - 100% Marchés - 17/11/2026 - M",
+        "source": "Bourse Direct",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSm1RelViaXJVZHg1aUR3cy1FVlpVQ0FpRGpWWENJOEpPRm9ka0dHZVppYkJEY1NSc1VweVAyT21OWDVNODNNaUNlMEZPZ3ZDdUZ0dEJwYko1RldyQzFxUTlUdjJ0NkFwOXJZcFFSQXdkQllWNHYydVd1azgzcWVkRlN5SkhNWFpNalcyc2R2VW4tRTBqU0k1dVVDcGd4WFRIcnNtamFsU1hEVjZLU08wU21Uc3p1dnNLc3I5MWh2ZDJSaURlak52ZHlnTERfZTZRcC1ZbmlabWdJSTY4SGVicG01VXk0bXR1MnNWdDBCbWsxbmZwZmZhTk9LSFN5UQ?oc=5",
         "resume": "",
-        "heure": "2026-11-16T17:25:17.000Z"
+        "heure": "2026-11-17T08:22:00.000Z"
       },
       {
-        "titre": "Fin de série pour le CAC 40, les marchés scrutent Nvidia et Anthropic",
-        "source": "Zonebourse",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVUg2RGxlY0V5aE10TEhQSVRJWUtQVXpWNWNGbWR1TC1qRHVuVE1ybTBOTF80WXBPOXpiVWtmRVBxNWQ0aVF2VHk0QldudEtFZ3dDWG9yMGdmV3VSTmtGMXhPcFctVWUwX1FVcXF1Zmk0MFNMOEl2OVNwVVFLb3R6bVdQanVoODRDUFk0MzhqU1hVY3IxTktSeURMal90VlNraFQzTUdEVVRKWFcyRmI4anNheHJtcHhzcHUyTEQtYnZldUFGQktEcA?oc=5",
+        "titre": "Le Cac 40 de nouveau en baisse, les résultats de Nvidia en ligne de mire",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOR0hYejMwUlotdVM4RUM1dVIxTk9QN1RnSE9MaHkwWTNxazJMMTZ3SVpVWURLRER1NjJaclpTeE1oNlQ2SG1rdGFwM05Bc1JvdF85d2ZVWmtWb2VxS1NaTldfajBHNFREWGVWTkUzcG9DTmszWWJOWHlHc1R4dTNHWE11aF81dnI5dFJGU05iZnJSWWdtZEhnLWVoSUwyWE5oYng1dTJ3Z19fQUhYcW1XQmxncmJTbXZWVnJsSlRvNFd0eDhfenFjc2JuZWlCbXRmZENUU2JTWTBudw?oc=5",
         "resume": "",
-        "heure": "2026-11-16T17:00:25.000Z"
-      },
-      {
-        "titre": "L'action Stellantis signe un plus bas de cinq ans et ferme la marche du CAC 40",
-        "source": "Idéal Investisseur",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3RTdlYtN0pJTW1GQ0lrakttZUhIMGFRcmpudWRaMWpfV19KQW43aUtPVjRibElJaG5FMmM0dEVaNHlPNTM5TmhSVmJwb0RSMGs1X2lRcWJRSE5jZzhfVzN0cl9vQlpMVVJIZW9kTTBlODMzcWxCaV9sTFdYY3RrRGRuaHdRa1BRTXVGY29FU3pNLV9HeFczRXJJUUNOWFdtRFd1OHduZWQyTUd5NWJ6aTNIX3NsLThoWFU3ZnF0THdhSDZuQ1h2NkhwVFY?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T16:26:00.000Z"
-      },
-      {
-        "titre": "Bien préparer la retraite",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/argent/article/2026/11/16/bien-preparer-la-retraite_6811901_1657007.html",
-        "resume": "Une minorité de Français mettent de l’argent de côté en prévision de leurs vieux jours. Pourtant, les plans d’épargne-retraite présentent de multiples avantages.",
-        "heure": "2026-11-16T14:00:08.000Z"
+        "heure": "2026-11-17T08:13:41.000Z"
       }
     ],
     "auteur": "Hugo Marchetti",
     "sources": [
+      "Investir Les Echos",
+      "Capital.fr",
       "Le Monde",
-      "CryptoTicker.io",
-      "Zonebourse",
-      "Idéal Investisseur"
+      "Bourse Direct"
     ],
     "chemin": "/finance/2026/11/17/revue-de-presse/"
   },
@@ -186,43 +595,43 @@
     "rubrique": "Monde",
     "emoji": "🌍",
     "type": "revue",
-    "titre": "Un juge fédéral américain annule les limites de séjour des étudiants et des journalistes étrangers imposées par Donald Trump",
+    "titre": "DIRECT. Guerre en Ukraine : la Russie estime que la présence de soldats français sur le terrain équivaut à une \"participation directe\" au conflit",
     "chapo": "Le tour du monde de l’actualité en quelques titres. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Un juge fédéral américain annule les limites de séjour des étudiants et des journalistes étrangers imposées par Donald Trump",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/16/un-juge-federal-americain-annule-les-limites-de-sejour-des-etudiants-et-journalistes-etrangers-imposees-par-donald-trump_6812623_3210.html",
-        "resume": "Dans une réglementation de juillet 2026, l’administration Trump avait décidé que les ressortissants étrangers détenteurs d’un visa étudiant ne seraient pas autorisés à rester plus de quatre ans sur le territoire américain tandis que les journalistes étrangers seraient limités à des séjours d’environ huit mois.",
-        "heure": "2026-11-16T22:30:16.000Z"
-      },
-      {
-        "titre": "Le XXᵉ Sommet de la francophonie paralysé par les tensions diplomatiques​",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/16/une-crise-inedite-au-sommet-de-la-francophonie-paralysee-par-les-tensions-diplomatiques_6812590_3210.html",
-        "resume": "Les 53 Etats membres de l’Organisation internationale de la francophonie ont reporté d’un an, lundi au Cambodge, la désignation de leur secrétaire général, faute de consensus. Une première, sur fond d’affrontement entre Kinshasa et Kigali autour d’un troisième mandat de la Rwandaise Louise Mushikiwabo.",
-        "heure": "2026-11-16T22:21:42.000Z"
-      },
-      {
-        "titre": "Cinq pays dévoilent leur projet de \"hub de retour\" au Rwanda, pour des personnes migrantes expulsées de l'Union européenne",
+        "titre": "DIRECT. Guerre en Ukraine : la Russie estime que la présence de soldats français sur le terrain équivaut à une \"participation directe\" au conflit",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/migrants/cinq-pays-devoilent-leur-projet-de-hub-de-retour-au-rwanda-pour-des-personnes-migrantes-expulsees-de-l-union-europeenne_8285039.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "L'initiative, dénoncée par les défenseurs des droits humains, a été présentée lors d'une conférence de presse en Autriche.",
-        "heure": "2026-11-16T22:06:32.000Z"
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-la-russie-estime-que-la-presence-de-soldats-francais-sur-le-terrain-equivaut-a-une-participation-directe-au-conflit_8286344.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Plusieurs dizaines de militaires français se trouvent en Ukraine pour de possibles actions de maintenance et de formation, selon les informations de RFI et du \"Monde\", confirmées par France Télévisions.",
+        "heure": "2026-11-17T14:30:22.000Z"
       },
       {
-        "titre": "Marine Le Pen réitère auprès de l'ambassadeur ukrainien que la France ne pourrait \"plus aider financièrement\" Kiev si elle est élue",
+        "titre": "Dans l'ombre de la sortie de GTA VI, des salariés de Rockstar Games se prononcent sur la reconnaissance d'un syndicat",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/marine-le-pen-reitere-aupres-de-l-ambassadeur-ukrainien-que-la-france-ne-pourrait-plus-aider-financierement-kiev-si-elle-est-elue_8285462.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "La candidate du RN à la présidentielle a cependant assuré qu'elle \"tiendrait les engagements pris jusqu'à présent par la France\".",
-        "heure": "2026-11-16T21:09:09.000Z"
+        "url": "https://www.franceinfo.fr/culture/jeux-video/dans-l-ombre-de-la-sortie-de-gta-vi-des-salaries-de-rockstar-games-se-prononcent-sur-la-reconnaissance-d-un-syndicat_8284856.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Plus de 1 600 salariés britanniques du studio sont appelés à voter pour trancher le sort du Rockstar Game Workers Union. En cas de vote favorable, il deviendrait le plus gros syndicat de l'industrie du jeu vidéo au Royaume-Uni.",
+        "heure": "2026-11-17T14:21:56.000Z"
+      },
+      {
+        "titre": "Turquie : Sözcü TV, dernière grande chaîne d’opposition, mise sous tutelle par les autorités après une perquisition",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/17/turquie-sozcu-tv-derniere-grande-chaine-d-opposition-mise-sous-tutelle-par-les-autorites-apres-une-perquisition_6812975_3210.html",
+        "resume": "Parmi les médias d’opposition les plus suivis de Turquie, la chaîne Sözcü a vu ses locaux investis par la police et ses dirigeants arrêtés. Un nouveau coup porté aux médias alors qu’un scandale financier fragilise le pouvoir.",
+        "heure": "2026-11-17T13:30:13.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : la Russie dénonce une « participation directe » de la France au conflit",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/17/en-direct-guerre-en-ukraine-la-russie-denonce-une-participation-directe-de-la-france-au-conflit_6810982_3210.html",
+        "resume": "Le ministre des affaires étrangères russe a annoncé avoir adressé une mise en garde à Paris concernant la présence de soldats français en Ukraine. De petits contingents de militaires français assurent des rotations pour de la formation et de la réparation de matériel de guerre, avait confirmé lundi au « Monde » une source proche du dossier.",
+        "heure": "2026-11-17T13:29:44.000Z"
       }
     ],
     "auteur": "Sofia Delmas",
     "sources": [
-      "Le Monde",
-      "franceinfo"
+      "franceinfo",
+      "Le Monde"
     ],
     "chemin": "/international/2026/11/17/revue-de-presse/"
   },
@@ -234,52 +643,51 @@
     "rubrique": "Nice & Côte d'Azur",
     "emoji": "🌴",
     "type": "revue",
-    "titre": "Kop Aiglons du lundi 16 novembre – OGC Nice : l’interview exclusive de Roger Ricort",
+    "titre": "Capitalisation, départ à 62 ans, pension majorée pour les mères : ce que contient la réforme des retraites de Marine Le Pen qui sera « engagée dès (son) arrivée au pouvoir »",
     "chapo": "Ce qui se passe près de chez nous, de Nice à Monaco. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Kop Aiglons du lundi 16 novembre – OGC Nice : l'interview exclusive de Roger Ricort",
-        "source": "BFM Nice Côte d'Azur",
-        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/kop-aiglons/kop-aiglons-du-lundi-16-novembre-ogc-nice-l-interview-exclusive-de-roger-ricort_EN-202611160915.html",
-        "resume": "Chaque lundi, retrouvez votre rendez-vous hebdomadaire \"Kop Aiglons\" sur l'actualité de l'OGC Nice, avec nos invités.",
-        "heure": "2026-11-16T21:09:04.000Z"
+        "titre": "Capitalisation, départ à 62 ans, pension majorée pour les mères : ce que contient la réforme des retraites de Marine Le Pen qui sera « engagée dès (son) arrivée au pouvoir »",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/societe/politique/capitalisation-depart-a-62-ans-pension-majoree-pour-les-meres-ce-que-contient-la-reforme-des-retraites-de-marine-qui-sera-engagee-des-son-arrivee-au-pouvoir-10762839",
+        "resume": "Marine Le Pen a affirmé mardi 17 novembre, que sa réforme des retraites, qui doit notamment ramener l’âge légal de départ à 62 voire 60 ans, serait « engagée dès (son) arrivée au pouvoir » si elle remportait l’élection présidentielle l’an prochain.",
+        "heure": "2026-11-17T14:21:22.000Z"
       },
       {
-        "titre": "PODCAST : Kop Aiglons du lundi 16 novembre – OGC Nice : l'interview exclusive de Roger Ricort",
-        "source": "BFM",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNN3oyV1NfRkZpSU5PWndTdHBYMEdtUTVZWjVzbWJXVmYtSGpDcElvZ0d5LWhxbkRSS0U2elZOTW42Smk3dkM1czNvU2p6SFV4NHU0VGRBOElfRy1FWGZMVVRFN0NYemd3eHo1Ujd5NHhfTlN0bkhQRkxPWHNhN3BXNjFvdmViZVc1UkxoR2oyb2thc19zWjhBUE90MmJScG1wY2d1TXdua05selhnenRoakc5a0pkdDBuUTh6MUlYSV80d3JmMWp3al9zd1gydmhCTmU4Q3AtVE04SnFMSnZnNzhLbUtEa3FaZllCb1AxTnAxbjFVS3c?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T21:09:03.000Z"
+        "titre": "« Sa vie, c’était ses clients, ses amis » : Rony, le patron de ce célèbre restaurant du port de Saint-Laurent-du-Var s’est éteint",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/loisirs/gastronomie/sa-vie-c-etait-ses-clients-ses-amis-rony-le-patron-de-ce-celebre-restaurant-du-port-de-saint-laurent-du-var-s-est-eteint-10762635",
+        "resume": "Il avait commencé comme commis au Royal sur la promenade des Anglais. Ronald Carles, surnommé Rony, a tenu pendant quarante ans le restaurant éponyme à Saint-Laurent-du-Var. Il est décédé vendredi 13 novembre 2026, à l’âge de 80 ans.",
+        "heure": "2026-11-17T14:15:08.000Z"
       },
       {
-        "titre": "\"On n’a pas signé pour ça\" : 25.000 membres d’un groupe Facebook de vide-greniers se retrouvent soutiens de David Lisnard malgré eux",
+        "titre": "Manifestation de ce mardi 17 novembre : le grand retour du cortège avenue Jean Médecin à Nice pour la première fois depuis la manifestation du 17 octobre",
         "source": "France 3 Côte d'Azur",
-        "url": "https://france3-regions.franceinfo.fr/occitanie/aveyron/rodez/on-n-a-pas-signe-pour-ca-25-000-membres-d-un-groupe-facebook-de-vide-greniers-se-retrouvent-soutiens-de-david-lisnard-malgre-eux-3450282.html",
-        "resume": "Depuis le 7 novembre 2026, le groupe Facebook aux 25.000 membres \"Évènements Lot, Cantal & Aveyron\" a été renommé par son administrateur. Les internautes se retrouvent désormais malgré eux membres d'un groupe de soutien à David Lisnard, candidat \"Nouvelle Energie\" pour 2027. Face à la polémique, l'équipe du candidat rétropédale",
-        "heure": "2026-11-16T20:18:46.000Z"
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/manifestation-de-ce-mardi-17-novembre-le-grand-retour-du-cortege-avenue-jean-medecin-3451032.html",
+        "resume": "L'intersyndicale appelle ce mardi 17 novembre les 5,8 millions d'agents publics à une nouvelle journée d'action pour réclamer une hausse des salaires face à l'inflation. Dans les Alpes-Maritimes, une manifestation aura lieu ce mardi 17 novembre, à partir de 14h. Elle retrouve son parcours \"classique\".",
+        "heure": "2026-11-17T14:12:54.000Z"
       },
       {
-        "titre": "On vous explique pourquoi cet amphithéâtre niçois dédié aux conférences a enfin rouvert ce lundi",
-        "source": "Nice-Matin",
-        "url": "https://www.nicematin.com/societe/vie-locale/on-vous-explique-pourquoi-cet-amphitheatre-nicois-dedie-aux-conferences-a-enfin-rouvert-ce-lundi-10762469",
-        "resume": "À cause de l’épisode méditerranéen du jeudi 12 novembre 2026, l’amphithéâtre de la maison des associations de la place Garibaldi, a pris l’eau. La salle est restée fermée le temps de faire les vérifications nécessaires et de permettre l’assèchement des locaux.",
-        "heure": "2026-11-16T20:15:06.000Z"
+        "titre": "\"Si 2000 litres d’eau par jour coulent dans ton jardin, tu vis avec des bottes en caoutchouc !\" Face au dysfonctionnement des compteurs d'eau, ces habitants se mobilisent",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/si-2000-litres-d-eau-par-jour-coulent-dans-ton-jardin-tu-vis-avec-des-bottes-en-caoutchouc-face-a-des-compteurs-d-eau-fous-ces-habitants-montent-au-creneau-3450927.html",
+        "resume": "Que se passe-t-il avec l'eau à Vence dans les Alpes-Maritimes ? De nombreux habitants se plaignent de factures exorbitantes, pour des montants qu'ils n'ont pas consommés. La régie Eau d'Azur va lancer une procédure pour rechercher des fuites.",
+        "heure": "2026-11-17T14:06:48.000Z"
       },
       {
-        "titre": "« On a tapé aux portes, les alarmes incendie ne marchaient pas » : comment une centaine d’étudiants ont évacué un immeuble en feu du centre-ville de Nice",
-        "source": "Nice-Matin",
-        "url": "https://www.nicematin.com/faits-divers/on-a-tape-aux-portes-les-alarmes-incendie-ne-marchaient-pas-comment-une-centaine-d-etudiants-ont-evacue-un-immeuble-en-feu-du-centre-ville-de-nice-10762390",
-        "resume": "Un incendie s’est déclaré, dimanche 15 novembre 2026, en plein centre-ville de Nice, vers 22 h 30, au sixième et dernier étage d’un immeuble habité par une centaine d’étudiants. Ces derniers ont été évacués et ont passé la nuit dans un gymnase. Certains dénoncent des défaillances des dispositifs de sécurité incendie.",
-        "heure": "2026-11-16T19:30:04.000Z"
+        "titre": "Grève du 17 novembre : une nouvelle manifestation prévue à Nice cet après-midi",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-greve-du-17-novembre-une-nouvelle-manifestation-prevue-a-nice-cet-apres-midi_VN-202611170360.html",
+        "resume": "Julien Picot, secrétaire départemental du PCF et conseiller d'opposition à la mairie de Nice, était l'invité de Bonjour La Côte d'Azur ce mardi 17 novembre 2026.",
+        "heure": "2026-11-17T08:22:45.000Z"
       }
     ],
     "auteur": "Lucas Giordano",
     "sources": [
-      "BFM Nice Côte d'Azur",
-      "BFM",
+      "Nice-Matin",
       "France 3 Côte d'Azur",
-      "Nice-Matin"
+      "BFM Nice Côte d'Azur"
     ],
     "chemin": "/nice/2026/11/17/revue-de-presse/"
   },
@@ -291,43 +699,53 @@
     "rubrique": "Sorties & loisirs",
     "emoji": "🎟️",
     "type": "revue",
-    "titre": "Noelissimo à Cannes 2026 | billetterie de l’édition 2026",
+    "titre": "Noël à Nice 2026 : village de Noël, patinoire, illuminations et grande parade - Du 27/11/2026 au 03/01/2027 - Nice",
     "chapo": "Que faire, où aller : sorties, spectacles, fêtes et bons plans sur la Côte d’Azur. Le point du 17 novembre.",
     "corps": [],
     "liens": [
+      {
+        "titre": "Noël à Nice 2026 : village de Noël, patinoire, illuminations et grande parade - Du 27/11/2026 au 03/01/2027 - Nice",
+        "source": "frequence-sud.fr",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORlJfNUVzdGx4aTFoN2twN3RfbzVlUTg0VHVtR2gxUVVEb1FDazJyaTFBLVBjajZIeUJVN0NiU2wwTzJ4Z21PcEYwSVZ4OEo2bFd3OXFWOGVtRmdFVExZa29uWFgtTk5kemFPYkFmbjEwcHQ0UUFwaU5HWWRhWHN6OTdWVGJzb1B0TmJWUktBZkRpWERuelBsWWlTcF82aFd2NVNjRkZ0cUk3RTBzdklsMmNLaU9SUy1uajNOMzVR?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T11:19:23.000Z"
+      },
+      {
+        "titre": "« J’avais 10 ans, j’ai l’image de 3 garçons… » : les bouleversantes révélations de l’humoriste Muriel Robin, victime d’un viol refoulé pendant « soixante ans »",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOQlhWOWwzMGdYSVhlc3ZvaEZseVVpZGo1dXpSeHlwWmNaMUlFclloNmRxWGRHck10Z1RzcTNhNHlXX2UxeHVvM1JGTGFMY3NOZjFNa2R5Q3pOUVZydXBfU2pHT1RDMHZkcEc5eVlhN2lLSWltLVNCX2tNdzJ0R0dtbHQ0eGJ0YTFEMVBRd3BpRGUzOUhlekJlMF9vTXFmTXYtbGNUOFRTTkswUzZ2QTNSOEJEb05iaUZGdkdEVmUwZ0VIS0s5R3lIXzVYbng5ZVljOXdiVHhPLXY4VzEzNlc2a29BcHNKRW9RdEd0TTFsX3VLWlhWcXpKQlZkcllFUW9uWGRGd1RrQ29Vc2ZMOVp3aUlVZXVPLVp3Uko1UjQ4QnBpdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T10:20:08.000Z"
+      },
+      {
+        "titre": "Le Festival du Livre de Cuisine Italienne s’installe à Nice ce week-end",
+        "source": "Radio Monaco",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcDFXaE9lSWJFdTZ3U2ZFT3U5empPX0VhbTFlVjJhR2VpZWNRQkg0YUdKOGtBTEVlaU1aSGg1ZWVyVUFNeWNVenFPYnctYlNGSERKRGxmTXk3TmEyM2hNMl9kc0s3b1ktNmIzWmxBc3NvSTlLcHdqX0RydEY3MEdxZWNDbEtlcHh5bEIxUTJWQ3FVcHFNWGo1Z0RVb054SDZKcEt3Mm4wWQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T08:16:54.000Z"
+      },
+      {
+        "titre": "Que faire à Nice le week-end des 20, 21 et 22 novembre 2026 ?",
+        "source": "eVous",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByXzJCVTVMeEV4YTY1NTVsT3VvekR1NmRkSnBhVWFEUG1XRTdfaFZzR2xMTjFXY1JTQlZKUHE0ZXRoS0llenhoYUlFNHhKMkFmM3c1WXBhU1d3UjlwbUZqNG9JR3lPNVc0VFNzb1dsYXB5M2lMWWxJ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T20:24:03.000Z"
+      },
       {
         "titre": "Noelissimo à Cannes 2026 | billetterie de l'édition 2026",
         "source": "jds.fr",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40ZFM4Wml0S0o3cWZnTnVfbnB4Y0VES1FkOV9JUHpCZ1dTSTBhUkZaLXdDMjFwQnQwZlp1c2VVMUJFaktRQWlEaEpQSHVnbjBQS1V2WkpZbDFTTG9kbmdNeFY3d1VzV1psZXJYelh6X1lPTURjYWd6V05Ka1luQQ?oc=5",
         "resume": "",
         "heure": "2026-11-16T19:41:09.000Z"
-      },
-      {
-        "titre": "Concert Noelissimo à Cannes 2026 - Chapelle de la Miséricorde : places, billetterie, dates, réservations...",
-        "source": "jds.fr",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ydDBXUVdRZFhuMXltdV8zU09BOHAtUHdtc0tzNmdhNE1wZ2Y3ei14RmhvODNUWVZxMXNVLUgyaUNtOGZtTUxUaDl4UW5Uamt1MDc2Q0Z6dEk2RXQ0U0tBNnA1bHNnZw?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T19:41:09.000Z"
-      },
-      {
-        "titre": "Après Miami, la Riviera à la sauce « GTA » ? La Prom’, La Croisette, Saint-Tropez... Voici à quoi pourraient ressembler les lieux mythiques de la Côte d’Azur version jeu vidéo",
-        "source": "Nice-Matin",
-        "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxON092UUtJbGYzSEFab0VmODFNT1pVOGM2eDNRb1Zhb1NOWEU0NDZLSW5XUlpmZkcwZGd0eXU3QjBwX3dybF9tMDZwb2ZUUHhqeXB5WGs0b1dDTVktV0ZxU19RZU9IOFF4Sl9fUDBKSGVfS29mUmt2Q25VdFY5TGhpZnB4UnQyd3l3Vk1EbHBDOUxrUkM5dHQ5d2VVdDgxcVk4bDNMY0tNbTJwRGg1VEliSFdQTmJib0oyOURPWjdWZlFLQXpEdUJaZjF5ZDRSVkVNY1MwM3puTXlUX0thb2NfR0p4Y1BXUzh5VlJ3a3hZUms5UmltenN0NE5felVjOF9RVnpmblJ6ZklHRmxYdV80MER5OEY2MFpzZWw5T185SDJJZHVudm9TZERmVER6V3VzT3ZFVEc0LVdiYldwLVE?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T18:38:09.000Z"
-      },
-      {
-        "titre": "En pleine heure de pointe, un accident perturbe la circulation sur l’autoroute A8 près de Cannes",
-        "source": "Nice-Matin",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPel9LSl9SVUtLZjJfaWJuV3F2LXVJS3RHMk51bUFTekw2NEhJRTdZbVFMbTlqemF0czJyTTJOcU81QklqMHM5ZmE3a19sZGwwdXpVeUc5S05tbm5nSFF3Zkl0aUFhSmI1N3gzdFRSc2xQYS1KZlRRU2pIUFM0QkRXZ2pjOTVNaTRkbjUwU0RMVmpHZm9JdGVvd29sT1ZSVWFfWktPTF9IcGRoVHY5ZndBX0d0dmNzZ1JHenpLSkU4MEN3MlFUS2xqYW1Ya3VIVkhZZ3dlY0k0cXlWZw?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T16:25:56.000Z"
       }
     ],
     "auteur": "Théo Marchal",
     "sources": [
-      "jds.fr",
-      "Nice-Matin"
+      "frequence-sud.fr",
+      "Nice-Matin",
+      "Radio Monaco",
+      "eVous",
+      "jds.fr"
     ],
     "chemin": "/sorties/2026/11/17/revue-de-presse/"
   },
@@ -339,51 +757,52 @@
     "rubrique": "Sport",
     "emoji": "⚽",
     "type": "revue",
-    "titre": "Le pape Léon XIV conclut sa tournée en Amérique du Sud",
+    "titre": "\"Des dérives qui ont introduit le poison de la division\" : les raisons de la candidature de Philippe Diallo face à Gianni Infantino pour la présidence de la Fifa",
     "chapo": "Résultats, transferts et grands moments du sport. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Le pape Léon XIV conclut sa tournée en Amérique du Sud",
+        "titre": "\"Des dérives qui ont introduit le poison de la division\" : les raisons de la candidature de Philippe Diallo face à Gianni Infantino pour la présidence de la Fifa",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/des-derives-qui-ont-introduit-le-poison-de-la-division-les-raisons-de-la-candidature-de-philippe-diallo-face-a-gianni-infantino-pour-la-presidence-de-la-fifa_8286545.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Face à la presse, mardi, le patron de la Fédération française de football a défendu une vision \"solidaire\", représentative du sport \"que les gens aiment\", s'estimant être \"une alternative crédible\" face au président sortant de la Fifa.",
+        "heure": "2026-11-17T14:26:30.000Z"
+      },
+      {
+        "titre": "\"J'en suis arrivé à un point où tu envisages le suicide\" : l'ex-footballeur britannique Wayne Rooney révèle avoir traversé une période très sombre au sommet de sa carrière",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/j-en-suis-arrive-a-un-point-ou-tu-envisages-le-suicide-l-ex-footballeur-britannique-wayne-rooney-revele-avoir-traverse-une-periode-tres-sombre-au-sommet-de-sa-carriere_8286548.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Dans un podcast diffusé mardi, l'ex-attaquant a confié que sa santé mentale s'était dégradée en 2008, alors qu'il était au sommet de sa carrière avec Manchester United.",
+        "heure": "2026-11-17T13:35:29.000Z"
+      },
+      {
+        "titre": "« Complice du “système Infantino”, Arsène Wenger a néanmoins été vu comme un recours crédible pour présider la FIFA »",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/video/2026/11/16/le-pape-leon-xiv-conclut-sa-tournee-en-amerique-du-sud_6812425_3210.html",
-        "resume": "À 71 ans, le premier pape américain, qui possède également la nationalité péruvienne, a parcouru l’Uruguay, l’Argentine et le Pérou, un itinéraire éprouvant, un mois à peine après une opération pour un cancer du poumon.",
-        "heure": "2026-11-16T20:49:24.000Z"
+        "url": "https://www.lemonde.fr/sport/article/2026/11/17/complice-du-systeme-infantino-arsene-wenger-a-neanmoins-ete-vu-comme-un-recours-credible-pour-presider-la-fifa_6812974_3242.html",
+        "resume": "Un temps pressenti pour être le candidat désigné de l’UEFA, l’ex-entraîneur d’Arsenal a finalement renoncé. L’hypothèse Wenger reposait sur une image d’intégrité et de respectabilité, qui a résisté à tout ce qui a pu la démentir au cours de sa carrière, juge Jérôme Latta dans sa chronique.",
+        "heure": "2026-11-17T13:30:10.000Z"
       },
       {
-        "titre": "Philippe Diallo, inattendu challenger de Gianni Infantino à la présidence de la FIFA",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/sport/article/2026/11/16/philippe-diallo-inattendu-challenger-de-gianni-infantino-a-la-presidence-de-la-fifa_6812297_3242.html",
-        "resume": "L’UEFA a annoncé, lundi, son soutien unanime à la candidature surprise du président de la Fédération française de football, qui brigue la présidence de la Fédération internationale face à son patron controversé.",
-        "heure": "2026-11-16T19:02:55.000Z"
-      },
-      {
-        "titre": "OGC Nice : l’interview exclusive de R. Ricort — former les jeunes pour faire vivre le club.",
-        "source": "BFM",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaHJVZzVOb0tteDl3d2UzZjUxN1JlenhrX2MtR1FfTDRXQkxJaWZQLTNpenpnYlNicTVZZzQ3RlJtUWdSWVdZdl9ocmJBMUF5a2VVaGdraTNuRkVfNXRzUkxvQ0ZoRmhDaklhREJVWVRZeEM3WEplNzR4UnhGd0hhWWd6c21OdFBBRzZyS2xkaEF5RV9GcTNxRWtkOUk4aU5vSFpraXpvWWpsejBudFZYajF4OG5qZExnWEphRnQ5OHVEWGowa19wUGsxOERFNmFOWFBIWnRtWlFLc09ONFM3WG5GSndxV1BvU01TSWY3SGJpQVRWbmU1QTFzRG84UUdGd21JME43MWhybXNHSzgyaQ?oc=5",
+        "titre": "Mais qui veut envoyer l'aigle de Nice à la retraite ?",
+        "source": "SO FOOT.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc3RnVS1US083VFRWUUdqYkZrVTllTWRrUzhyRG1maVpmSndyZVFxTl9yaThfT0daVkhMbUtPWjF4UFlvLWY3QWNMQnBaV1FYc1NKVlVYMkg4dHRPV2hOSjM5TW9ydXZqVVFPSkdkR0sxZUNhUVVwZThOWmtkc2FHYmpEaWNPOGhNX0g3WXMxNVAyLTZtWXN5NE1rR0Ytd01sUHI4X2s2T2UzODNYZG1n?oc=5",
         "resume": "",
-        "heure": "2026-11-16T18:47:33.000Z"
+        "heure": "2026-11-17T12:10:18.000Z"
       },
       {
-        "titre": "OGC Nice : l’interview exclusive de R. Ricort — le Gym a-t-il les moyens de viser l’Europe ?",
-        "source": "BFM",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPeVlZaDMzNnJ6UHVETFRicUFjck1PVjg1RTJoTjk1RF9NSl9PQTAtdVQ5ZGI3NnJYS0Vsdm5ucDdNWk1UWnQ3a04zZ003UFJSN0xwN2tvQXdGc2VCUy1KQUZqZk4zZlVGRkszVkFleTZaUHhfX0NfVVFEbFlOa2ZkX0E5Z20wQTFFbmRKTFEtT3RCalVoWFVjYjBPNXJfZzlHMTU5Ri1FcENucE1NSjNDN1hXZERLRWZ6d295dlRiNHQxYV9hM2NGdHBvYmdVNXZEaDNRdU5LandxLWhoMFlyTUNvcVl6VGkyZVNxZmdSalZQWEtJNGVNQ3JMRGNqNXZFV3IwRDgzLUZOeUk4d2RaRw?oc=5",
+        "titre": "« L’aigle est un symbole de liberté, mais Mèfi ne peut pas jouir de la sienne » : la Peta demande à l’OGC Nice de mettre son aigle à la retraite et d’opter pour une mascotte fictive",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNVzFVeUNqUHU2Ri1GN0tuZ0w2Y3phVmxIZEF2UFVCYTZ6djByREdqU09FWjVZZ1dsLTlkSTBJV2hvWDVZbUxNVW1NN2I2SFRRVTk0ZUozVXlidHJRNURWbzROX1ZJYzJzTFlmQlFGell4RV9Hb1VFNWtQNDhmdDMyNU00a0xsSi00ZzF5dzA3MVF3NkFBUTRuN3BWUTdqbkZydWlwa0kzbUdrWDRiY2pIZlB3d0c2M1lUREZGR050UXdTMzFFZ2Voa0RoNzdpSmpEcERDcFFDVnZvdmpvRmRkM1ZLeVQ3bHlGMFUtRkFrYUlPelRTdjd5ejVqb2hQTEZGOFY0Z0V0LXFZaHZFUFV0WHdlbkF0cko2ZUtrSk84b3ZJbnhNYWZ4bDBKVkhTcGtvSGo3Nm5oT1A0S2J2TGRQT051c01CSlRY?oc=5",
         "resume": "",
-        "heure": "2026-11-16T18:42:53.000Z"
-      },
-      {
-        "titre": "L'arbitre de la rencontre entre Nice et le PSG désigné",
-        "source": "Canal Supporters PSG 24-7",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVnRHaG5hY3JKTGt6bjRHcnpjak9XWkZ4em5QS2xvNHBJMzBHSWtBVG1raWE2OGZkUDlEN3A3VmFfUi1jSUs5T0owbmRnTWxjNklHRkQ0NlZwWTNRRXZUclRhS29hdjZJRk0yMTk2eTY0LXZQekRXOFJqYWVRMUxHRGdELURNWFpQNk93MENR0gGTAUFVX3lxTE9XczFIUTliOFhwZmMzdTMyS0p0cGI5TkVSbHhibGpDbVMwTXRmTXhUVW9DRlZiVktiQ3hUTTV4MDBTN1N3V2QyUWNHUTJQbEQzTlpnNWlQRndSVHducWxTSjE5VWxmeGtHTUU3S3o2ZU82c2NBeEMyeU9lMC1keGNjNC1GWExsb09ZQlphbExuQXBoTQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T18:30:48.000Z"
+        "heure": "2026-11-17T11:08:35.000Z"
       }
     ],
     "auteur": "Inès Morel",
     "sources": [
+      "franceinfo",
       "Le Monde",
-      "BFM",
-      "Canal Supporters PSG 24-7"
+      "SO FOOT.com",
+      "Nice-Matin"
     ],
     "chemin": "/sport/2026/11/17/revue-de-presse/"
   },
@@ -395,52 +814,52 @@
     "rubrique": "Tech",
     "emoji": "💻",
     "type": "revue",
-    "titre": "United Airlines confrontée à une panne de son système, écarte un problème de cybersécurité",
+    "titre": "Outlook : après la panne géante, Microsoft avance de premières explications",
     "chapo": "Intelligence artificielle, start-up, cybersécurité : les nouvelles du numérique. Le point du 17 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "United Airlines confrontée à une panne de son système, écarte un problème de cybersécurité",
-        "source": "Zonebourse",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTlZETVJSb2JoamMtZUZyZUFwM3dZYXlWT2FJU0J2eDJBeEtNSTd2XzhEZHJCVmdGc2NhX1Z1WGJrWnlFdFBVZFQ0azJhVHE4cXhlaGxQV044Yk1pVFBBdE13SWlqV09iZExXem5RWXNZa2NMYkJ6VWo1czJ2OGNFZjRqMnFaX3RDNzMzR2hJUGVqek1KWGJoUGRLZnp2ekVRdUpvNWdlQUJ5MmdzeFN1S2ZGOWRTOGk2aUJ1NmlYM0hWdktTTVBJbVU1dVNNNjlfcHNpcm5nVFhXY1hLRzExa3FxZXg?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T22:52:16.000Z"
-      },
-      {
-        "titre": "L’institut de sondages Ipsos annonce avoir été victime d’une cyberattaque, une plainte a été déposée",
-        "source": "Ouest-France",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNbmdXRzMzdUpMd3lGc2JYT3ZQUUpWMW1UN3hvaDBDeGlKV0VoTko3WEl3V256aEh2aXlVODYwcXdKbWR3YXdKZDcyS0NkWUtZZ3NmWnhjWmVrdVBhUVNIR1pGU0laa1l0LWpyMGRKT21ybWViMTllb0o4MFRUc3FLQVBjT2pVUHJpaHZITzRRRXNIdE9TMF85OUU0Y0VzUVAwWDQ2XzYzOWhqZkxTNnhhbG5UWVRrOXVQXzQ0MVU4N2tvMXJ4UzdKMC1TSUF1aXdpVFFUOUpJWjdkeG9UczB4TnlWeWdhVjFiZ051dXo2SFkweFowVFJ3RDQ5NUNFSGVvc1BqeDhldXhrbnFnWG9vcg?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T20:15:03.000Z"
-      },
-      {
-        "titre": "La Jordanie et l’Irak interdisent Telegram, accusé de contribuer à « l’extrémisme »",
+        "titre": "Outlook : après la panne géante, Microsoft avance de premières explications",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/pixels/article/2026/11/16/la-jordanie-et-l-irak-interdisent-telegram-accuse-de-contribuer-a-l-extremisme_6811768_4408997.html",
-        "resume": "La Jordanie, endeuillée par l’attaque d’une église fin octobre, souhaite contrer « toute tentative de propagation de la radicalisation et de l’extrémisme » et appelle ses citoyens à la vigilance sur les réseaux sociaux.",
-        "heure": "2026-11-16T19:31:18.000Z"
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/17/outlook-apres-la-panne-geante-microsoft-avance-de-premieres-explications_6812983_4408996.html",
+        "resume": "L’incident survenu jeudi et vendredi, d’une durée inhabituelle, a été causé par une fragilité logicielle qui s’est manifestée à la suite d’une conjonction malheureuse de dysfonctionnements.",
+        "heure": "2026-11-17T14:34:58.000Z"
       },
       {
-        "titre": "Nvidia : les Etats-Unis cherchent à bloquer l’accès de la Chine aux puces américaines par le biais de pays tiers",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/16/nvidia-les-etats-unis-cherchent-a-bloquer-l-acces-de-la-chine-aux-puces-americaines-par-le-biais-de-pays-tiers_6812260_3210.html",
-        "resume": "Les règles mises en place récemment par le gouvernement Trump instaurent notamment une nouvelle autorisation nécessaire pour l’exportation de semi-conducteurs américains en Indonésie, en Malaisie, en Thaïlande, au Brésil et à Singapour.",
-        "heure": "2026-11-16T18:30:08.000Z"
-      },
-      {
-        "titre": "Black Friday : la messagerie d'entreprise, angle mort de la cybersécurité",
+        "titre": "\"Des grandes entreprises craignent de se tromper dans la qualification NIS 2 de leurs entités\"",
         "source": "JDN",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYzNYMk1OZE9xSEM4a2k0Mmxxcl9aSjhRVTlzRkFPVjFseG05V2dsYjYyWjlXMVowTTQ4aU5QRURVbjNVdUxhS0lhUXN3YWMtZjhDQXZTbDAzMGtzcGdmeFhJVVhFNUh4N2h5dERCZkc3aEUyajF1b1AyX0V0YWtMXzdudzZ0bEtYaFhJa200Z0lhMWh2WjFNWGhsbWZDRnVZQXJsN1drMFZjZkJyTFVfbXNKclBLVkxhT2p2bnJzOA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUzFhWUdtSEJWWmQ2bEY0bXdzbTNqQ3ZzQXIxYUhZekVhQTFwTGpxS2VkbDBJYW5Jc0dRUWRhVVI1emV6bGYyd0hNZGpKN1lYZ1k1b2VOZUxSdXNYekxzaGYwT25IUWY5ejlWQjA1Rk13XzlpUUtMZk1ia2xENVdoM1Y4RmJfVmoxN0lja1JpVWlpdHlBTVNXeWdGQXFjLWltREVxdFp1V1daT0IyQURoOE5JU0RxelR3d1JVcmxJLUR2M2RRTlFvOU0xQnFHQlNYalp6R2lkclMtejEyUmx5U2d3M2I?oc=5",
         "resume": "",
-        "heure": "2026-11-16T18:12:09.000Z"
+        "heure": "2026-11-17T14:25:39.000Z"
+      },
+      {
+        "titre": "Charpentiers, chaudronniers, cybersécurité : les métiers méconnus de la Marine",
+        "source": "Actu.fr",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ3k5QWt4UUtiWmZjTUF6OXRBOHBkbTVTN1lobkVxSWE5OTlQZzFTXzk1NUxkc1pTbFFnYVc5UUhoYW04eElreWZ0c1NCNlZVOEFtb0Y5QndMd3VKaXNOTmMtZUxjSnJhdWxPVGFJR0JpVmctTnIwSF8tekQ3RVNVWmRkT0RYMFBOazVRem9senNicFZweTlESVhuaEJ4b19nNFYwLWpRWThheE9YaE9uNmJIbw?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T13:02:01.000Z"
+      },
+      {
+        "titre": "Les données de nombreux centres de contrôle technique automobile piratées",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/17/les-donnees-de-nombreux-centres-de-controle-technique-automobiles-piratees_6812941_4408996.html",
+        "resume": "Des centres de Sécuritest, Auto Sécurité France et Vérif’Autos sont concernés par cette fuite, qui concernerait 13 millions de plaques d’immatriculation.",
+        "heure": "2026-11-17T09:46:29.000Z"
+      },
+      {
+        "titre": "United Airlines résout un problème technique et exclut tout incident de cybersécurité",
+        "source": "Zonebourse Suisse",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU2Z5SGh6ZG1MQzd6QVl0N1RVWW1IT2dMa1NJTDZVMTVkSlBQX0JNRjVaYUk3akJlVlg3Qm5kQ3NfcUs1N0ZMQm04WXBpdEZMN1J1c0w5dTRGOUxKQUhzNklLQlRCOUsxQXBRYVNCUFpZb3V6bC10cVh1YlNtN2Y4am9zUFlLM08xR3laYVZEZ1RGUDA2dHktY011c2lQWlFyOExWc2U4NnZTMWswa19fYjQzbXRGLTlyUHFtY013eE9LakYtYzRwRzJfRVV6MXR5dnRuSUVLUVhwUFAzM0E?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T09:41:39.000Z"
       }
     ],
     "auteur": "Nathan Belkacem",
     "sources": [
-      "Zonebourse",
-      "Ouest-France",
       "Le Monde",
-      "JDN"
+      "JDN",
+      "Actu.fr",
+      "Zonebourse Suisse"
     ],
     "chemin": "/tech/2026/11/17/revue-de-presse/"
   },
@@ -452,30 +871,37 @@
     "rubrique": "Business",
     "emoji": "💼",
     "type": "revue",
-    "titre": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+    "titre": "How new US chip restrictions on South East Asia will hit China",
     "chapo": "Companies, jobs and strategy: the business news that matters. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+        "titre": "How new US chip restrictions on South East Asia will hit China",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
-        "resume": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
-        "heure": "2026-11-17T00:00:03.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+        "resume": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
+        "heure": "2026-11-17T14:25:45.000Z"
       },
       {
-        "titre": "We couldn't afford a house alone, so we bought one with strangers",
+        "titre": "Speed camera fault may have allowed drivers to escape fines",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
-        "resume": "People who can't afford to get on the housing ladder are buying homes with people they don't know.",
-        "heure": "2026-11-17T00:00:02.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/c5y4j7z373kzo?at_medium=RSS&at_campaign=rss",
+        "resume": "The Home Office has revoked approval that allowed footage from speed cameras to be used in evidence.",
+        "heure": "2026-11-17T13:03:30.000Z"
       },
       {
-        "titre": "Chattanooga Company hopes to build stronger local economy",
-        "source": "WDEF",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeHlTay1fUlJuSjg2RTM5QzdVblNGSjZEZWduR1BqcXE3cE1IMmhNczFkTDFwVGR4OE1TM0ZwTTAtN2E3Q3NEQlZ6Slhib0ZDQll1eGlvX3BJWHJpazFKSm1HQlhHSDRVWUxYLXIySnUtV3lwREpULXdTekR5QmhWeUhHT0R2Zw?oc=5",
+        "titre": "BMO Business Outlook: Companies Investing Despite Cost Pressures",
+        "source": "BMO",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXFnTGRiTGc3TkdBU2xETWRIcWJ4ZVNRZWgyanVfRjBvdVVRVlZzZU5oSHBQbVFpY2pSMHVlQnZXbUc5X0hyaGNjcEltZGR2djAzSmRseDU5OWFoOERzSWhfdzJXYTNVRXpSTzhqSi1UT25ZSkxaSzBTeTVJMy01d2dwNTRteTkzNWtRWElaVk9xVTF3WEt6SUUtdkZncW8y?oc=5",
         "resume": "",
-        "heure": "2026-11-16T23:42:49.000Z"
+        "heure": "2026-11-17T12:00:57.000Z"
+      },
+      {
+        "titre": "Survey Finds 15% of Japanese Companies Experience Customer Harassment",
+        "source": "Nippon.com",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13ZGZlOW10eTkwNE1iTzFLYkpRemhpUUNpY183d2QyVnc5ZndMQUJJX01oT0g2SURTYW5fNVJzSjhhaFNOdlZVVXd4TlZzOWJsZWJjZQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T20:59:00.000Z"
       },
       {
         "titre": "Businesses, community leaders feted by UAFS Center for Economic Development",
@@ -483,21 +909,14 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUE1TYUJuZ1d5VGxmdkd0SjZtSEFLUTFETjZ5N2VQMjBBV085R051M3Fva2U1aEpXVXk3bDZnVUpKZFRMdkNzdEk3OTF2T2RkZ2R5M3oxTmFraHB6NnpTdFMyQ0tEaklvQWRlMTlqLUdNZEVRdGx2VEhNWWJtZTd2NGNxUGFNaWhLRW9VR0ZLdjZocjBZSHVqVGpjUFBRWnppQnVicGNZeEhFV01z?oc=5",
         "resume": "",
         "heure": "2026-11-16T17:16:10.000Z"
-      },
-      {
-        "titre": "CIN-CG: They are raising prices, preparing layoffs, closing companies - what business people said in a survey about the \"Euro model\"",
-        "source": "vijesti.me",
-        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOWTZQWHl0WHpuSEhQS25HZmxIcGFxLUIzT05qcDBJc1RqZUhtMmxicTl6VmJ0cEl1ZUlWNVVEVXF4cDlLTTh2V25GazVuVmtUWnQ2LVZhOFR2UnZDMEcwSFNLQVlnUlB0ZzhBbVZlR1BrYUJTa2NYZmstcUFYNVNjY1M1SXpnVnk5NHZUTC1lZi1jQ1M1Vnh5M2lNLXo1dS1Pc1VLOGNvd3p4bzhybzFqRFJTb0xQVFBIcU1WSmJNOW5waHpCT1NKZE94QWNOT3l1WEVwYzEyV0tjZDh1cGthSzdVRXFpdC1Obzl2V0FYUGJlbUc1Y1Rxb0RsQVJyRUl1aDFEMHhBUGxhQklzTG13MlRKZnZVcjVUNHVTQ1N5SdIBjgJBVV95cUxOSnc1T0NQd3hiLWgwQmJXdnhKSU1HLV84al9rYTdkS3RaTGpSRTdPaGJYS09HM2k4VWd6cXlkcmpmcjI5R3ZRVzJCakdsdERoemhHLWVxNEdzc0YySlliNW1QbFdwX0RtR2Fob1dVVlB5MlFCWmMyTXJ5azdFS2hDQlZ4Zl9DN2VMN0VMU0c5WndpOU9malloQ0t0cWpac0xvV0hJYlAyWEdmc0hrcWRqcHJ0WW1VNDM0d3hTa1BOT3hZWkgxSU9KUWFQUXAydy1mQng4aGlpUHVialdrei1sUHhUYlZ3QnY4T2UyZ3ljR2RrR2lMWkpTU0l0S3E0U0N3TWdYR09aRXY4LWRES2c?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T16:02:00.000Z"
       }
     ],
     "auteur": "Camille Rostand",
     "sources": [
       "BBC News",
-      "WDEF",
-      "Talk Business & Politics",
-      "vijesti.me"
+      "BMO",
+      "Nippon.com",
+      "Talk Business & Politics"
     ],
     "chemin": "/en/business/2026/11/17/press-review/"
   },
@@ -509,23 +928,37 @@
     "rubrique": "Culture",
     "emoji": "🎭",
     "type": "revue",
-    "titre": "Nationwide strike in France on 17 November: Demonstrations and disruption expected on the French Riviera",
+    "titre": "Fragonard Celebrates 100 Years of the French Art of Living",
     "chapo": "Exhibitions, museums, theatre, film and music: cultural life, from the Riviera to the world. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Nationwide strike in France on 17 November: Demonstrations and disruption expected on the French Riviera",
-        "source": "Riviera Radio",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV18yVFd0ZjFVZzAxeVBzYnBLcjRSOGtWOGtHamJ5VVZtR0g2a2l5eGE3UWpMR1JqX3h1ZjJOR05UVV95X3ZndHJhNi0wTW10TE1kbkRUVU5VaTh5ZVZscjlOOEN5ZGl1R0pIQXJtNGNzME9ZdE5meDZiVWc1NUczOVV0aXdmbVRNUmRSLUF1WWQ3WUVXelZla0pDTEFFdGVuRTdjOUYxTmNOblRFQUdFS3NSemtxYno3a3NqTWxWamt4TUFTNXc?oc=5",
+        "titre": "Fragonard Celebrates 100 Years of the French Art of Living",
+        "source": "Luxus Magazine",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNkJidU5USTBqYWt2ZlB5blF2a3Q0ZExjdXNYZDgzTEs3Q1NrdTFTOFM0anA1R2t3VDRxQndtbHlXelBzS1VySjU2XzNXcm5DdW5pcmZ3enFjalJtTmFxUjhGZENMWG1nZkJtajVuSERlQmRVTk5NcEZJVHctaXRhRGtpU2tnOG11d0hNUG1VUXhUY1Z6cmgxN2N3?oc=5",
         "resume": "",
-        "heure": "2026-11-16T15:35:00.000Z"
+        "heure": "2026-11-17T09:33:45.000Z"
       },
       {
-        "titre": "Review: Balloon Museum - EUPHORIA - Art is in the Air",
-        "source": "Immersive Rumours",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTklLcF80LVlrYzhxN0M0R05ZMEtIRTlRR1RGVDh4QzJpVlBfM2oxc0p4dWJlSDdfWUZoVXRTdGVpb1hQb1JQZm1PQ2t2MTJnbk9rRzk2cmNEV0VMc280UWRKR1JDMlNINC1qSnFqNG9sWmRjaTA5X19FQzB2TUtJUWl1ZzNrbWxQeGtSa2puQQ?oc=5",
+        "titre": "Chippenham Museum to host free exhibition celebrating Bath Academy of Art legacy",
+        "source": "The Wiltshire Gazette and Herald",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSS1mS2NzM0lBMzVvUGJTTmduOWFiODktbnlibWpHUVQ0V1B6QWYtT2ZxN0Q1bHVVcFA3MHNCMUMxZXZ2NENIZ3pabFdqTno5MVFQTndEQ1dPYnUtX1RpTVE3MEhwQWxmaGlCZDVOcXZlbnlMZnlTRVdKeWxVMWt5SHEyeEpoUEpFUGJwYkIza3d5TVhPYzBta291dHVEN29lR1E?oc=5",
         "resume": "",
-        "heure": "2026-11-16T14:57:10.000Z"
+        "heure": "2026-11-17T05:00:00.000Z"
+      },
+      {
+        "titre": "A Guercino Returns to the Market: Auction in Monte Carlo",
+        "source": "Knoxville News Sentinel",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0Rva3hCV1dBOFQ2T1RSTkNuZ29oeV93SjdGY2x0dnNUTWNmM1dCeHk1dmVQM2xDZG82dnpmcWF6WlJNNld2U25DTGE5SWlSVXNWdGZ5ZDg2MXJqMzJoZTQ4WTVxdGpILXhSbC1YRjN2dW9ELWJHMjJYMk5ZLTJtWXkxVHVtLUVtUnd6WFlOc213aFZ0Ql9BMFRTbERlRlQ2eXp3SENKdFczQW56?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T00:16:19.000Z"
+      },
+      {
+        "titre": "2026 Seo SeMA New Media Emerging Artist Exhibition \"The Snake That Cannot Shed\" on View Through February 28, 2027, at Seo-Seoul Museum of Art",
+        "source": "K-ARTNOW",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HVWZ1LWJHa2RNSnlPc2tHZUVibWFSaHU4SHJmcFVpNDRsLU1kYWRfSlBaVGNLc3JMUWRMWWd6M2RoZmZvWEgyXzQzNmdwekxtb2xrM0kwV21veUk?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T15:05:35.000Z"
       },
       {
         "titre": "Cannes to celebrate artist Francis Picabia with new exhibition at La Malmaison",
@@ -533,20 +966,15 @@
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPczZfWnFtbDRMeW03Zlp1SWE5a2lsdEYxdGxJM3hwd2dyYU5aWFpHaVBfSzhDbkR4QUx3LURaQmF4dmRSejVjMzdhcnl2dVFmcURfZGl3V0V4RVFzam56QW9pUVd1dWNSMG10aWFHdHJWVDNVcmpodmtjNGlSajJTOXZXUi1YWTd3TFYzN1BoU2IwYjNSekNHdDBUcnpZa1h5Slh2Y2g1SVBzS1F0ZEp1Z29VSXY3c19sSUpnam55REgyU0U?oc=5",
         "resume": "",
         "heure": "2026-11-16T14:30:38.000Z"
-      },
-      {
-        "titre": "We want to praise you: Museum to hold Fatboy Slim exhibition",
-        "source": "Brighton and Hove News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbE1oLXVBY21nMmpUZGNMU2FrcExVdzlLd0xtTWstZHJPVFVhVGxaNGVPMjhoUGEzZEl1bkt4QTlYcmRGaHpmai16TTdndGVrZ2lqOW5zdUhyZWZ2Smt1V1JITE9EaTh5cHhHMmZidE9WVTJZODB2aFJxS2YyZ2xyamhqcWhYVUVCeDIzTDlxU1NDSGhnTVc0QlFTaER3WkZDLVVESUhPeHlPOXM?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T00:01:00.000Z"
       }
     ],
     "auteur": "Clara Venturini",
     "sources": [
-      "Riviera Radio",
-      "Immersive Rumours",
-      "Brighton and Hove News"
+      "Luxus Magazine",
+      "The Wiltshire Gazette and Herald",
+      "Knoxville News Sentinel",
+      "K-ARTNOW",
+      "Riviera Radio"
     ],
     "chemin": "/en/culture/2026/11/17/press-review/"
   },
@@ -558,54 +986,109 @@
     "rubrique": "Events",
     "emoji": "🎪",
     "type": "revue",
-    "titre": "New Orleans lands 4 travel, convention industry events",
+    "titre": "Channel 4 admits it doesn’t know number of Married At First Sight UK sex abuse complaints",
     "chapo": "Trade shows, festivals, concerts and big gatherings: the events industry today. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "New Orleans lands 4 travel, convention industry events",
-        "source": "New Orleans CityBusiness",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbVFaN2FiS2EtZ1V6SzRwS05fdkk5a3BYOWxiWnN1bkNMa2FJYUhSaVRlTVFwNEtZUDA1Q1piSU5nTXh6aWJ1NkxHVjduTEV2RFktT3ZZTXRheWhuRU9kVjhOaEZRNnpiSG5wRkRyOTB2d2FnYU92ZjdtSS1hcVVGQ2ZQZ2dIcmFmcFNXY3FTd2QzQQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T21:04:12.000Z"
-      },
-      {
-        "titre": "Robert Pattinson to replace Daniel Craig as James Bond",
+        "titre": "Channel 4 admits it doesn't know number of Married At First Sight UK sex abuse complaints",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cwx2ev0pxmvjo?at_medium=RSS&at_campaign=rss",
-        "resume": "The 40-year old is best known for his role in films including Twilight, The Batman and The Odyssey.",
-        "heure": "2026-11-16T19:43:58.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cqvg2xvdpy2ro?at_medium=RSS&at_campaign=rss",
+        "resume": "C4's chief executive is questioned by MPs after a string of allegations were made about the show.",
+        "heure": "2026-11-17T13:43:49.000Z"
       },
       {
-        "titre": "Emma Barnett to leave Radio 4's Today for new BBC show",
+        "titre": "Batman to James Bond: The clues about what to expect from Robert Pattinson's 007",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c6rrgw2p52l5o?at_medium=RSS&at_campaign=rss",
-        "resume": "Barnett, who has presented Today and Woman's Hour, will front a multiplatform show in the New Year.",
-        "heure": "2026-11-16T17:46:12.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/c8x2r6gyy2pzo?at_medium=RSS&at_campaign=rss",
+        "resume": "What can Robert Pattinson's past movie roles tell us about what he might be like as James Bond?",
+        "heure": "2026-11-17T13:15:38.000Z"
       },
       {
-        "titre": "MSS Celebrates 20 Years of Industry Leadership, Unveils New Brand Identity and Future Growth Vision",
-        "source": "BellaNaija",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UTG9mSmNZNjdoYktJUEY5M3UwMVJaNkRDNUc1M1ljRkN5LUNWTUU1RFQ2SUR1aHYxRFVSMHFqOEZyQzBvLTIxUS16bnNJc2s2U2M1RHU2dUQ?oc=5",
+        "titre": "Best Concrete Industry Events 2027 Calendar",
+        "source": "For Construction Pros",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbV9iU2FvR3dsVy1JaGRzLW8tWXBxWmhoWkFVUWVGNGhkc0VRMV9iZWRhNWtrSThhdnhfOWd5YWRMYWRzVHdHQzBWc0hYZWdnR1ZmenAta1dyMlFkX2F3dkZPeEk3S1N4TUZfUXZFdWMzamIwa1hGUzVpQzJ4aDdMeWR4MkNPUkRydXZaeGV2dU5VYWp1OU1hX0NUdEUtMkItaHg0OXRFQnBabjBFSDVPNDFYamppVnFsUVFhZFEwWWk3NTZadHMyNFRvQWlRZkZNamRqVlZHZmg0QQ?oc=5",
         "resume": "",
-        "heure": "2026-11-16T14:02:53.000Z"
+        "heure": "2026-11-17T11:33:24.000Z"
       },
       {
-        "titre": "Wednesday at CIFF: Rory Gallagher, Chris Kent, Culinary Cinema & industry events",
-        "source": "Cork International Film Festival",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMGxYZV9LcWpFSXBGbGl2ZHJlb1dSWmJTWVJxWHNCMGFPSzhHc1htZmxXanV0Q1h5djBEZ0lhUFFRTk5fcFRRbG5Wd0lTYmE4aDROVC1CNnByVnE2QXo1czlRR0wyZXh2a2s4TDBNUG5mdmkzdTV2UWh6cWYxTWt6dFc2YzBsaVhwR0cxdXVTRHpLbktnRHhXd0Frd1czTkFQbk5ZMTdaZ016akJzc3c?oc=5",
+        "titre": "RCP London Events hosts UK Adult ADHD Network Annual Conference 2026",
+        "source": "Event Industry News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjAzcXVoWERvUm1kdm5IMk9hdm96ZElOY1MxbTRnT08taUtTSU5QclFWeDRUWkw0czVRSExHTTMxUm1oNi1oOGh1Nzl0OWNzRU5teEtlV193akdBT291SzRyQWxIbmpvUjZmMkk5bTluNGRmVDB3ZXAyVUhMcFJHcElxZXpMcWI3aU1TcTR6RUZhdDgwVGM4cTB3VElNQ3BQZkp5YTZaWkEwM28?oc=5",
         "resume": "",
-        "heure": "2026-11-15T20:00:07.000Z"
+        "heure": "2026-11-17T10:53:08.000Z"
+      },
+      {
+        "titre": "Fast-growing UK location technology company Crowd Connected appoints former MapsPeople CMO to accelerate global events business",
+        "source": "Event Industry News",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORlc2bkx3M3d5N2Jpdk14bW4zeFVkcHExNWxmeUR0X1NsZHVCSkw5TTV2c09yUjllVWNmYWIwbm02ZF9SN1ZOcFMtc3YzdHFLTnNPdDh6Q3ltSHJ6UmJXOHRFS05jdU1QQXJDNnRKb21XOFpXMUt3cmNYN0F5dDNsUFY2bUpEYWk2Q3ZVWk9QRXVIaDRRSzI0RFpsVmRrZ0I0UGdkbUowYzFSRW1qVUZYTUg5aElKSjhHTXJuN0o5ZUR1N05NTlc1NVNwTnRJd3dLUU5TNW9fdGF1TTNuSlB4X2hKaHpaQWNydWw2Ujk3YVFVSXVtc2g2Tnl3?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T09:28:40.000Z"
       }
     ],
     "auteur": "Léa Fontaine",
     "sources": [
-      "New Orleans CityBusiness",
       "BBC News",
-      "BellaNaija",
-      "Cork International Film Festival"
+      "For Construction Pros",
+      "Event Industry News"
     ],
     "chemin": "/en/events/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-finance",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "Form 8K Sprout Social Inc For: 17 November By Investing.com",
+    "chapo": "Stocks, markets, interest rates and crypto: what moved today. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Form 8K Sprout Social Inc For: 17 November By Investing.com",
+        "source": "Investing.com UK",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdC1YYXEwaUhKU2t4TVl1MWN2T1ZuUXlleVFBUW5MQ1hOSGJVVHptT2FILVM0bzZXVDdEU2QtQ2l0T3l1SklBYXBjeER4eDVfdlMzRm9sRjBDbU1qeXVLM1d1LXhrZXV4NndvSjVMUTE5cnBwN3VwTE9ORkRRdWVLTFM4X3kySHVCSkZ0S2o2WFg2RVNmQjQ1dzc3a2puanZkbktCLQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T14:22:00.000Z"
+      },
+      {
+        "titre": "Viridian Metals raises $5.77M in oversubscribed financing By Investing.com",
+        "source": "Investing.com UK",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa01adGt0YlBEaG4tazdYVGc0ODZyVHVlV2Nra1BUSHZEZ3dLZE40c1VjVnFEc2d0bm1aa3I5b2RtSEt3eFE3OEw5RFVuVDlROWZNbFN0SFFKbUowM0VVWF9XTlczd2NoNzdZbDBBZms2MHZ4dEV4TXdWMmNMTmxaWVBRWUZjNGNtVXJKNUNFVHM0aW96cFNQT3lrYzNLX3luQW9TUVpnM0JodlJSRnI1N1RCQnJiVFk?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T13:22:00.000Z"
+      },
+      {
+        "titre": "Jensen Huang started closing the Bank of Nvidia months before he left — here’s what’s still open: Chart of the Day",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTkJMV1dJOFlYSDA4ME9vMkxDUzhDdWVVRnNOeEpqdU5vUGxqNEFZZFloRUgzWVZrcnp5bnZySzlLY0RwaGJaUE1JWjhRd0dmZU1INDFMSWxqekFLRGZuZmthUndMaUZSMU5kUkluX1NSODRSSVQ0OWYxTnd5OXg4djl4X2djYzF5TUhxZXRmNzFUa2tySUZHaFJQMm1OaXhkM3BCOTNIa0JkcWdZdmZZVlRLYk9UbGlYNmRqaTJpZU5CWFhMV2tKZTltdklwYVJL?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T12:58:50.000Z"
+      },
+      {
+        "titre": "3 Wall Street predictions for the stock market in 2027",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXJaaDhBTV9fUGRSYkJRajdkZF9MWFlNWENaaXc2WVJYbWZOVS1NbVdsbmxpZG1GRWhaQ0FTdElCUWMtZXhXSTJkcWlzZF9CdzBSVG41Q3RQT2NtUTd5SHZPZkRxYkJoZ25ZZDVaSE5xSWhPMTJVelVsLXIxT3o1cGZ6ZkhzQVhBMDZGVUFVNU10TEhVQjE0Vm1ScmQwR19ERmRGa2hMRG1XNzNHd2pzaA?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T11:47:02.000Z"
+      },
+      {
+        "titre": "Weekly market commentary",
+        "source": "BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T08:52:25.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Investing.com UK",
+      "Yahoo Finance",
+      "BlackRock"
+    ],
+    "chemin": "/en/finance/2026/11/17/press-review/"
   },
   {
     "id": "2026-11-17-en-actu-monde",
@@ -615,52 +1098,51 @@
     "rubrique": "World",
     "emoji": "🌍",
     "type": "revue",
-    "titre": "Nvidia dismisses campaign to bring back Jensen Huang as Trump backs effort",
+    "titre": "Apec and Asean summit, as it happened: Trump signs Thai trade deal as protests greet his arrival in Manila",
     "chapo": "Around the world in a few headlines. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Nvidia dismisses campaign to bring back Jensen Huang as Trump backs effort",
+        "titre": "Apec and Asean summit, as it happened: Trump signs Thai trade deal as protests greet his arrival in Manila",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2RNWmRCdkl4Z3YzQUduTWxkV3F0ZU9TN2NyeEhaZy1EZ2swMG00Y0pfOUVUeWMxZk5zTzZuTkR4RmZrMkdObEJuWHJ0ZDc5RXhzdmpGY1JIM21fZlJ4Q05QckVQTVBTWk9mSklUSXlmUnFuaDB0cVBjYzF5V2RSc05saGJkZUYtMDU3bzhtU25PZjNhTm1IYjdDYS04eW9FbVFReEdWc0hELXlPVGRrX1YyN2F6TEJ4ZjBSSllueU5LUEVmeEFScjR3?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T13:55:00.000Z"
+      },
+      {
+        "titre": "Trump meets Modi and other world leaders in Philippines on first leg of Asia trip",
         "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaNjZSeXBveGFTaEJEM1lROVBGeWI3TEpuWWcyblp2RGZxeXAtVVZhdWRyUlZISHNFNTgtUEZNUWt0TWVIY3B1T3pZR0hjQmNDUXV0NFdlUHUzMEU?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rQWtyMlFDaUE4QlFvdTFzUDBPU1ZQdm0zbjM2MTZVSGlEM0pyTkRjb2J2QWhMVnh3dUNLV3MwUGQyRXRZb2lpNXNSaUk1REt1M2xyM05n?oc=5",
         "resume": "",
-        "heure": "2026-11-16T22:21:27.000Z"
+        "heure": "2026-11-17T13:15:48.000Z"
       },
       {
-        "titre": "Houthi rebel advance in Yemen may further destabilise global economy",
+        "titre": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
-        "resume": "The Iran-backed Houthis are gaining ground and their advance could have dangerous consequences, writes the BBC's security correspondent.",
-        "heure": "2026-11-16T21:40:07.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+        "resume": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
+        "heure": "2026-11-17T13:02:17.000Z"
       },
       {
-        "titre": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
+        "titre": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
-        "resume": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
-        "heure": "2026-11-16T20:33:57.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+        "resume": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+        "heure": "2026-11-17T13:01:11.000Z"
       },
       {
-        "titre": "Pope hit in the eye by worshipper hurling rosary",
-        "source": "The Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONzNfVnhMdjJrQ25OajJRaHZSMkVKNUxrS0pnUllXeUNYTmFSaDg2UFJoVDViYnNTb3IzZngzeUJWaEw1NHBRQ0h3VzBsano4UElrSDZTSEZDOUk1MHlPcHZseHp6ZjljazRJbEdYUnM3U2xnaDNfTUxyY1dnTWxEdjNwVGlvVE0xajlvTm9CMUJXTDZCamZrYkxMWmxkbFR4?oc=5",
+        "titre": "DeChambeau joins DP World Tour after LIV Golf collapse",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nTnVYZkRmdVNOVWhxQjN3LUlBdnowQXJyTU1kWlJxbGh1Qnc0dFJsV2Z3ZUVuR3JQYVVUN1l1YVA0Zm1hU05iT2U0cllBeXQ3czJZMFVjRHcwYXB3elN2Y21LMmZBZw?oc=5",
         "resume": "",
-        "heure": "2026-11-16T19:17:00.000Z"
-      },
-      {
-        "titre": "Zelensky Says New Talks On Peace Prospects Held With US, EU",
-        "source": "NDTV",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVpLYk90b3lsbFhJcEpreUk0dXJJY0IycF9SSXNJcHdWUlB0X1VsRi1uMU9ERE1kekpXRlBlNlBVcTdrTlljZEJneWxrM1VRVUwxdVhtNWVBdVhjT1lLSUtyVnBxU0RFMVBrMGVlYmc1VjNqWWtUdFU0TW9iZkp4NV84NGNsam1qaHVCZmNkVENLb0s3OXBVY1g5bHZMcnBsZ3NLSnF3WV85VmtHU2pB0gG3AUFVX3lxTFA1WVpCYUl3d2JjRk1nMktGQjBkamxFZ3pJdlYybjFfblZKVDJ3N3ROTDluel84TlpURHM5N1NGTVpKOUFsc2Vpc0N5ZjdQY04wTnVGT3FZZFl4bktKd09ZMVlaT1hXYTExRUNjSDZ0V3NINXZtWkcwT3U2dUJPZnRpQ0p0dURyazh5aFpOb3hPYktIVzV5YU1Qb1FxUjNIVmxQWndfVC03dGk3SkhSd0phU1ZfVlQ4NA?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T18:54:01.000Z"
+        "heure": "2026-11-17T11:26:25.000Z"
       }
     ],
     "auteur": "Sofia Delmas",
     "sources": [
+      "The Guardian",
       "BBC",
-      "BBC News",
-      "The Telegraph",
-      "NDTV"
+      "BBC News"
     ],
     "chemin": "/en/world/2026/11/17/press-review/"
   },
@@ -672,50 +1154,52 @@
     "rubrique": "Nice & the Riviera",
     "emoji": "🌴",
     "type": "revue",
-    "titre": "Christmas 2026 Collections: Where to Donate Your Toys in Nice Before the Year-End Holidays?",
+    "titre": "Customised number plates arrive in Monaco",
     "chapo": "What’s happening on the French Riviera, from Nice to Monaco. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Christmas 2026 Collections: Where to Donate Your Toys in Nice Before the Year-End Holidays?",
+        "titre": "Customised number plates arrive in Monaco",
+        "source": "The Connexion",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc09oNUFWZkxQTlhHUWE3eGFJd1M5clozWUxxbF9IVWZPTjhZOXh3dE9LZHI3VVVYYVNjQjBSNU02ZlI3N211bjU5SHItVXNwNVdOWWdiY3p0RldtSVRIaE1TRzgwWHUzVWd3d2Q1eHpBOVo2QmZ4MmhkMW0xaURZSmE0QkVjYnk5dGlWTmRqeHhkZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T14:26:15.000Z"
+      },
+      {
+        "titre": "The communist elected official Julien Picot proposes to rename ten streets and avenues in Nice during the next municipal council",
         "source": "Nice Premium",
-        "url": "https://www.nice-premium.com/christmas-2026-collections-where-to-donate-your-toys-in-nice-before-the-year-end-holidays/",
-        "resume": "As Christmas approaches, several toy collections are being organized in Nice and the Alpes-Maritimes",
-        "heure": "2026-11-16T17:47:00.000Z"
+        "url": "https://www.nice-premium.com/the-communist-elected-official-julien-picot-proposes-to-rename-ten-streets-and-avenues-in-nice-during-the-next-municipal-council/",
+        "resume": "Communist city councilor Julien Picot is asking Éric Ciotti to initiate a procedure to change the names of ten Nice streets",
+        "heure": "2026-11-17T13:54:00.000Z"
       },
       {
-        "titre": "Riviera makers bring handmade Christmas gifts to Cap-Ferrat waterfront",
-        "source": "Monaco Life",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXlVYVlXdkZ0V0V4UmtvT2Z4TFBVNVplYWNOa2JXWVVNY0VTRWZaVVNnYUI3X3JVZnVTMmw4U192QzlJYmlYeVNsaDdlM0IxTnBScGtPT1NJcFpJbDJ4V2VzaDBCcEFYT3dLNEZGREhkNkRnNHVjcENoV2ZUZHhUMWcyazdKcEZTa1oydWQ1OWdLVGc5Ni1rWkZn?oc=5",
+        "titre": "Surprise swap deal on the horizon between Juventus and Monaco",
+        "source": "Goal.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMFhqaEdPcjZnWkZRdnEtQW1IX0pSWlI1bUI4MDF4Z0lRNTVBck44M0phTlU4QVkta1VKWlp6Z1QzWXQwT21CcEtUT2otaVpNSFV4UmlYaXFrdm1EME5BNkc5U3ozekFva3lQNlNGV0pMZUVTSzFPYVRzN05BSk1ZQVBHT1c1dGN2T0tuclFWZEg5ZDZTUFhKcFU3MEpKWGFtODNmRFBxWURQUWV5dVkw?oc=5",
         "resume": "",
-        "heure": "2026-11-16T16:15:07.000Z"
+        "heure": "2026-11-17T13:05:07.000Z"
       },
       {
-        "titre": "Strike on November 17 in Nice: routes, schools, trains… What disruptions should you expect?",
-        "source": "Nice Premium",
-        "url": "https://www.nice-premium.com/strike-on-november-17-in-nice-routes-schools-trains-what-disruptions-should-you-expect/",
-        "resume": "A new day of social mobilization is planned for Tuesday, November 17, 2026 in Nice",
-        "heure": "2026-11-16T16:02:07.000Z"
+        "titre": "Man United transfer news: Monaco open to Balogun sale, but Serie A rival holds an advantage",
+        "source": "Sports Mole",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTjZxMjlLVjhvQ1pxSEV0NmlNb3VSLTBrcHpnenZxLS1USzRCVlUtbDlreDl1NzM4UzdyQkl6Zy11MURDY1BqSzFqSzJ1Sjg0bUxPV1ZXTUw2Y216RjhXejZTNFN0ajZqRl80ZnB5OGM2Z1pnN1pUSnhKRVB5T3M3bUV0OVFSR1k2WFJCZUtRd1E2blp3TXdOaGlOM2NXaTFNX2o0THdmQTZONXFoa1Y2Z2t4Q281R3RNeWtNNVBqd0J3V3lBZHc5SFlGVDVmWDZCYWRFU1RYejdxQzdmY2IzMU4wTy1vd1R1YTdBSGUzQWdseEE0aUZZ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T11:51:50.000Z"
       },
       {
-        "titre": "Oil prices fall as Middle East exports recover and supply surplus looms",
+        "titre": "Yellow weather warning issued for Alpes-Maritimes as strong winds and rough seas approach",
         "source": "Riviera Radio",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSUNCV2hocjd6ZXBINlFva2U1b25ZdGd4cVZQWGMwVV9QaGR6QWF4bEZtUW9aeXJ6NXhSTEFITVlaUTgzVUhEU1hScXgzWUQ5NjF3ZVR4NjBxWFV5d1d1UE1kdU5HY0ZvRzNnRFlmUndZdjdRbTZ2OThfZGVzall3YVJuT3RzMExvUUJyLURYb0lCbXJIaEVmMXhWUV81bC1tM2J5VURDYUVqWTFGTmEtVy1OWVpPTlhiUXc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMmVXNHJINEpJMXl0NGVvSnZQdzFfVWRuam54X01RSl9XRGJvXzMxSUw3bk1WLVVEZGZzODIxejA5cW5qcWk2UGQ2WUdSM0pUcjFmdWlFelVsZkZvM0dweUh6ZDV5RlVQQUEyYm5uLVppeWp2Z2tGUmcyUFdUWEZscXRHMGJFbGM0cXQtVDhnTWZHb0Frem9LNVFlRlpLZ04xMnc2V1BtQ294WmxmNVk0a21SNjFmSmNoMmdoQ3FwSE51M0RhTGc?oc=5",
         "resume": "",
-        "heure": "2026-11-16T15:01:00.000Z"
-      },
-      {
-        "titre": "Jensen Huang reportedly considering return as Nvidia CEO days after resignation",
-        "source": "Riviera Radio",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeWNwZWUyMmpmdFdodnlHaV90ZFlDTFRLM1ZHbUFuN18tWC1URUE4eTZKeHBIYlgwbG9vaVlRWnlfOU1VZnZlU1Zubk94elowZ3FkM0lCRml0QThHX0pIOTNWU2JrRnNqR1FfeHJWT3dlZ0tyOGpURVlINkxyemFIMHNLb2Q5SndGb1dzekVDYnZYOUpVNUxMeXh3ekEwczJiamxMeGJmbExZZ0lFT3h2YnlDMnBORXlWdnRPMHdXaEw0YzNn?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T14:57:11.000Z"
+        "heure": "2026-11-17T11:13:26.000Z"
       }
     ],
     "auteur": "Lucas Giordano",
     "sources": [
+      "The Connexion",
       "Nice Premium",
-      "Monaco Life",
+      "Goal.com",
+      "Sports Mole",
       "Riviera Radio"
     ],
     "chemin": "/en/riviera/2026/11/17/press-review/"
@@ -728,29 +1212,53 @@
     "rubrique": "Going out",
     "emoji": "🎟️",
     "type": "revue",
-    "titre": "Princess Charlene melts hearts as she showers rescue dogs with love during sweet Monaco outing",
+    "titre": "This Nice hotel is a Belle Époque landmark with a restaurant worth travelling for",
     "chapo": "Where to go and what to do: outings, shows, festivals and tips on the French Riviera. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Princess Charlene melts hearts as she showers rescue dogs with love during sweet Monaco outing",
-        "source": "HOLA",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmFtcHkxUTZhZnB2WTZoaE92cVdSMHNOOE9kM0VBLWR2MTA0LUp5NldNaU00WmI4b0pQSWlJdFowc1JjQlhxNUc4VTBqVlF6OGxOSVNOUWY4SVB1bVpOcGNfWjlVVzNVdk5ONHRqbG1MQTFNZ1AwS0hLUkZnT1ZvZVlockUxQ0lsMzdtVFYtbi0tX1ZKeHpaUE9hcXU?oc=5",
+        "titre": "This Nice hotel is a Belle Époque landmark with a restaurant worth travelling for",
+        "source": "The Independent",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU3YyTzVRS1lqbnQzeUlaamJablNXalVCdDVUdnFwbHdSQ05rZWF0R2Z1OU5SekNqc0RqR1R6bXdEdmlVSjRWcjJOUXY3YmczZGtvaTFOcHFxMWx5bEVsTlVBOG8yNHZNT1pOT2VZbkd5STJsX3FWeDZXdF9IanpZaExKYzZNYnF5ay14VG1BaVNMX1F6SjQ4VXJTWVNuNElzT2dwVXhYWQ?oc=5",
         "resume": "",
-        "heure": "2026-11-16T17:32:00.000Z"
+        "heure": "2026-11-17T14:14:00.000Z"
       },
       {
-        "titre": "The 2027 Entry Revealed!",
-        "source": "Automobile Club de Monaco",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WYUxSWEtFdEZiczRlYmFYajJFeFB2MTFTOVR4enNjVFJyZWtMNWNLN19GVTJldEUtTmtZeVZydTVTSXRxcXFLdUM4UGo2clhObGdONQ?oc=5",
+        "titre": "Indian Actress and Director Nandita Das, Syrian Star Taim Hassan to Be Honored by Doha Film Festival",
+        "source": "Variety",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSlBtT01NeHlfZW1MTXJjNHQzaVB5ZUNZTFkta1RjMUNSTHNEc3pnVXNHMUxxYmRLUGJuTUVtRnlOd3lFTFo1VmdVZzMxZXVtMUI4ajJreHdtcllrcl9oLWZ5QVhmRWt1T2hsaUJwWWozZ05MNkJGQkJUdGVFM0I4RWpFQV9ndmZkMjkyeDFqdTBONlFaeEFOMDladjJHcTRnV1NMaA?oc=5",
         "resume": "",
-        "heure": "2026-11-16T16:39:53.000Z"
+        "heure": "2026-11-17T09:49:00.000Z"
+      },
+      {
+        "titre": "Exclusive: Formula E chairman planning multi-company event extravaganza",
+        "source": "RacingNews365",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQUdheEFuckdqemNKRlAyVE9mNW9zcS11OEg5NXlNaFZOZWZaRjJFMklMazVXTnBObEk3b2s0QjRubEU1LXFpcnpqMkk3SHlZYW0yaFBuQmR3VEZqc0c0a21VWW5KLXdXVi1nVnc3MlhCNFVhSndDTmNMUWhvc1kyOEgzMjJxcXFvanJmaHVJdG1OX2FnUkxxRWcwclI?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T09:30:00.000Z"
+      },
+      {
+        "titre": "Jung Ho-yeon Eyes Historic Bond Girl Role",
+        "source": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODdjQnRqZzJhTXRaMVpoQm5keHpEbjAwME5kLTJOa3lmT3FGYkg4MWFFeEluZ1NMZWdwMHVaOFlZZUdKWE9DZlhpRTJaNlFIdXlzRktSNUxmQWo0eTk4WUFmRWl5Nm1wb3NUSjk0cHhCRjY4RUJRN3dfRWNXUkpGeHRMM1dvaV9rcUlNNVFB?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T06:34:12.000Z"
+      },
+      {
+        "titre": "What's on at Afrika Eye Film Festival?",
+        "source": "epigram.org.uk",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKRmh4eGlSYlBGUHJma1ZERG1KSnpvWVBPeEFxcGs4ck1aRlk1Tl9paHNKeXJMZ0ZvODdMTUJMSk02TEFJMjdhazRyY2FFSGF6TlppV2V0VHZnZlRzZzAtMnBaRVFkQ0Fo?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T19:25:54.000Z"
       }
     ],
     "auteur": "Théo Marchal",
     "sources": [
-      "HOLA",
-      "Automobile Club de Monaco"
+      "The Independent",
+      "Variety",
+      "RacingNews365",
+      "조선일보",
+      "epigram.org.uk"
     ],
     "chemin": "/en/going-out/2026/11/17/press-review/"
   },
@@ -762,30 +1270,30 @@
     "rubrique": "Sport",
     "emoji": "⚽",
     "type": "revue",
-    "titre": "'Is that not match-fixing?' - Erasmus questions officiating",
+    "titre": "Rooney says he considered taking his own life at Man Utd",
     "chapo": "Results, transfers and the big moments in sport. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "'Is that not match-fixing?' - Erasmus questions officiating",
+        "titre": "Rooney says he considered taking his own life at Man Utd",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck0jx1dnd38go?at_medium=RSS&at_campaign=rss",
-        "resume": "South Africa head coach Rassie Erasmus predicts Ireland fly-half Sam Prendergast will not face a ban after being cited, and questions standards in officiating.",
-        "heure": "2026-11-16T23:14:48.000Z"
+        "url": "https://www.bbc.co.uk/sport/football/articles/cx1l0n3v003eo?at_medium=RSS&at_campaign=rss",
+        "resume": "Wayne Rooney says he considered taking his own life during his playing days at Manchester United and was \"speaking to a therapist to try and figure out what was up\".",
+        "heure": "2026-11-17T14:09:19.000Z"
       },
       {
-        "titre": "Littler hits triple-bull, but Price checkout doesn't add up",
+        "titre": "DeChambeau joins DP World Tour after LIV Golf collapse",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/sport/darts/articles/cwkgr9m0d0e5o?at_medium=RSS&at_campaign=rss",
-        "resume": "Gerwyn Price and Luke Littler make it through to the Grand Slam of Darts knockout stage after a rare counting error and a sensational triple-bull checkout in Wolverhampton.",
-        "heure": "2026-11-16T22:54:37.000Z"
+        "url": "https://www.bbc.co.uk/sport/golf/articles/c5vg27yzm9exo?at_medium=RSS&at_campaign=rss",
+        "resume": "Bryson DeChambeau agrees to join the DP World Tour for next season.",
+        "heure": "2026-11-17T13:44:17.000Z"
       },
       {
         "titre": "Nice plan January loan move for teenage midfielder Everton",
         "source": "TribalFootball",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdVVBaXZzTmRpdjFQby12Y1g2VG80UFBxVm9OQW1udmVFVGdoOG1aUFNiQU9hd2lZbHdGLTR6XzlDMGJZbjBxdW1hMjN0ZUMxSUZOTG4yYmZBWEQxUW41c0hUeHQyZ0RRYUFpVm1GZEhBSV94V3Y5b054ZzAyWXRja1NxZHZ6WUtKTWwwb2dVMGhCNG5zbU9FbjAxcjNiZHVnWHFLZ3N6RHBZaUxjMkFPX3JycjNNbDQtRWQ3ZUR4Z05UdzYweXVoVndMLXhxM28?oc=5",
         "resume": "",
-        "heure": "2026-11-16T20:04:36.000Z"
+        "heure": "2026-11-17T08:22:30.000Z"
       }
     ],
     "auteur": "Inès Morel",
@@ -803,52 +1311,52 @@
     "rubrique": "Tech",
     "emoji": "💻",
     "type": "revue",
-    "titre": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "titre": "Deep tech, deeper questions: India’s startup category",
     "chapo": "Start-ups, cybersecurity and digital life: the latest from the tech world. Our round-up for 17 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-        "source": "TechCrunch",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQlB2R3NfWnpXZkR1dF91Sk9iVmliSDlvMGVjeWJBaEdFSkRQZXFJVVZDQm51MHlwNFByWThhTmk1WkgzZ2V0UDUtckVmNkgteE9oaGJ4TnlCZThPWjN2VzROSFJxTnNtRzFNMVF4ZExVdHpzSG14cjJfS2NUMmpsY3ZYZGNBQWhuTERzdlFnRFpFLWptTXAyaVJBeGVKd2U3bW5ieVpUdw?oc=5",
+        "titre": "Deep tech, deeper questions: India’s startup category",
+        "source": "Law.asia",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54OTNJQUdVS2xRY1JDQ29YTzM2alVyNEd5bXd4TXFKd0NzdUxZT0xZaFBGMTZVSEtJcENKN2QxS0s2cUgtbHdsSG1XU1F1eFE4WWhZd2w0THY2M00?oc=5",
         "resume": "",
-        "heure": "2026-11-16T23:32:32.000Z"
+        "heure": "2026-11-17T13:36:33.000Z"
       },
       {
-        "titre": "The AI start-ups fixing India's broken roads and messy land records",
+        "titre": "Tech title Second Chapter aims to fill ‘gap’ in long-form tech journalism covering Europe",
+        "source": "Press Gazette",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaDdpSlluMVpPcHpMZGVHTmUxVEhLNzNuVTlhS2xoU2NRdGYxTFUzd3FBV0QtR3h5bWRDSjRtMzZDMFZOV29vM2RXVkh3MDhaNjB5Z3hLMkhXbzJnb3ZHbi1hV3NqdzhlZTZRTnJ5SWJBRnY3eGZ3WUlVejJiTWFrbktBb2lqYlRRazdwTTRLOXRTbXFRM0huUzgxOUxTOU5oWFFNeUlxS1J5dEhZMWs1emhVRmZleW5JMWNDTzg1dHZjVFBFQVIxSzNZSDRRUkxha214dUU5WTRRMGg5RlE?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T12:50:40.000Z"
+      },
+      {
+        "titre": "NHS data contract to stay with Palantir until 2029",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c820vnln2lzpo?at_medium=RSS&at_campaign=rss",
-        "resume": "From legal-tech to healthcare, dozens of Indian AI start-ups are solving uniquely Indian challenges.",
-        "heure": "2026-11-16T23:25:53.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cqvg27zpm8w8o?at_medium=RSS&at_campaign=rss",
+        "resume": "Despite calls from some Labour MPs to end the arrangement with Palantir, ministers say a new contract will not be awarded until 2029.",
+        "heure": "2026-11-17T12:00:12.000Z"
       },
       {
-        "titre": "Landeed, Fractal Analytics: The AI start-ups fixing India's broken roads and messy land records",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4Q09PeWc3VGhmdmZJQnY2VkgwOGtwM3lzclJERzk2bmJOM3lBSEU5YmVhQzkteElMR2dlem1UcWxHS2ZGSWYxTXQ1bnp2OFFldkt4MGdtck9lRDQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T23:25:53.000Z"
-      },
-      {
-        "titre": "California sues OpenAI over Hugging Face attack",
+        "titre": "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
-        "resume": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
-        "heure": "2026-11-16T23:12:24.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo?at_medium=RSS&at_campaign=rss",
+        "resume": "Sensor Tower estimates the game has already made $1.18bn from pre-orders across PlayStation and Xbox",
+        "heure": "2026-11-17T11:49:01.000Z"
       },
       {
-        "titre": "Why defense start-ups need trust, not just speed",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwVmJITXRZM21PbUhqN1dsZUdKUmRidmRQTkk2aXRBREZZbW9jc2dSVTlhR1NfVmpXS01oVHpyYXpSSU16Y1M5dGUtaDRGUXRvNUlEVkRYZw?oc=5",
+        "titre": "Comment: Why OT cybersecurity starts with engineering",
+        "source": "The Engineer",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUFpQZnNudUV2ckxSR3NSOV9DdU84VUptdzdoRFpZNmZVNWdvRkxJMGN5dllsYUVSUkxkQnB0WHR3dFdzR09FSnJMR2pxZmJQb0F1UmVlRGg1eFR2STY2Q1NESU1WcjBoVFR3RlZBTzB4Z0FrUUtvOG9KSy1pLTd2RWVzd1JYZlBYaTZUMVZ5bmo?oc=5",
         "resume": "",
-        "heure": "2026-11-16T22:59:24.000Z"
+        "heure": "2026-11-17T11:47:22.000Z"
       }
     ],
     "auteur": "Nathan Belkacem",
     "sources": [
-      "TechCrunch",
+      "Law.asia",
+      "Press Gazette",
       "BBC News",
-      "BBC",
-      "The Jerusalem Post"
+      "The Engineer"
     ],
     "chemin": "/en/tech/2026/11/17/press-review/"
   },

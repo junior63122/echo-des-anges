@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Tue, 17 Nov 2026 00:13:58 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 14:37:37 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Nice et la Côte d’Azur : les faits marquants de la semaine du 11 au 17 novembre</title>
+    <link>https://echodesanges.fr/nice/2026/11/17/hebdo-nice-cote-d-azur/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/nice/2026/11/17/hebdo-nice-cote-d-azur/</guid>
+    <pubDate>Tue, 17 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Nice &amp; Côte d'Azur</category>
+    <description>80 informations publiées par 10 médias en sept jours. Au programme : « Manifestation de ce mardi 17 novembre : le grand retour du cortège avenue Jean…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-17-hebdo-nice-cote-d-azur.jpg" medium="image"/>
+  </item>
   <item>
     <title>L’agenda de la semaine sur la Côte d’Azur, du 16 au 22 novembre</title>
     <link>https://echodesanges.fr/sorties/2026/11/16/agenda-semaine/</link>
@@ -448,15 +457,6 @@
     <category>Nice &amp; Côte d'Azur</category>
     <description>Anthony Renaudi devient directeur général de la holding du groupe familial fondé en 1964, aux côtés de son père Philippe, figure du patronat azuréen.</description>
     <media:content url="https://echodesanges.fr/img/entreprises/groupe-renaudi-anthony-renaudi-directeur-general.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Pierre Ippolito prend la présidence de Team Nice Côte d’Azur</title>
-    <link>https://echodesanges.fr/nice/2026/05/12/pierre-ippolito-president-team-nice-cote-dazur/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/nice/2026/05/12/pierre-ippolito-president-team-nice-cote-dazur/</guid>
-    <pubDate>Tue, 12 May 2026 06:00:00 GMT</pubDate>
-    <category>Nice &amp; Côte d'Azur</category>
-    <description>Déjà président de la CCI Nice Côte d’Azur, le dirigeant du groupe familial Ippolito, ETI de plus de 1 200 salariés, prend la tête de l’agence…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/pierre-ippolito-president-team-nice-cote-dazur.jpg" medium="image"/>
   </item>
 </channel>
 </rss>

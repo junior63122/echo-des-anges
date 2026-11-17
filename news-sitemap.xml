@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/riviera/2026/11/17/hebdo-nice-cote-d-azur/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-17T08:00:00+01:00</news:publication_date>
+      <news:title>Nice and the French Riviera: the week’s main stories, 11 to 17 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/nice/2026/11/17/hebdo-nice-cote-d-azur/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-17T08:00:00+01:00</news:publication_date>
+      <news:title>Nice et la Côte d’Azur : les faits marquants de la semaine du 11 au 17 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/sorties/2026/11/16/agenda-semaine/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
@@ -30,22 +46,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-16T08:00:00+01:00</news:publication_date>
       <news:title>La semaine internationale en 6 sujets, du 10 au 16 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/sport/2026/11/15/hebdo-sport/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-15T08:00:00+01:00</news:publication_date>
-      <news:title>The week in sport: the key stories, 9 to 15 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/sport/2026/11/15/hebdo-sport/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-15T08:00:00+01:00</news:publication_date>
-      <news:title>La semaine sportive en 7 sujets, du 9 au 15 novembre</news:title>
     </news:news>
   </url>
 </urlset>
