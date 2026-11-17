@@ -1,6 +1,942 @@
 [
  {
   "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Basket Elite 2 : Antibes renverse Le Havre et conserve la tête du championnat",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/sports/basket-elite-2-antibes-renverse-le-havre-et-conserve-la-tete-du-championnat-10763031",
+  "resume": "Après une première mi-temps hésitante, les Sharks ont retrouvé leurs moyens à l’Azur Arena pour dominer Le Havre et rester la seule équipe d’Elite 2 invaincue à domicile (5/5). Zeljko Sakic a encore fini en double-double (21 points, 12 rebonds). La course en tête continue.",
+  "date": "2026-11-17T23:27:18.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "Republic of Ireland talisman Parrott caps dream year with two more goals",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/football/articles/cqzjr3yr2z0eo?at_medium=RSS&at_campaign=rss",
+  "resume": "Republic of Ireland striker Troy Parrott reflects on a transformative 12 months for both club and country after scoring a double in the win against Kosovo.",
+  "date": "2026-11-17T23:10:33.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Business",
+  "titre": "Nvidia reports bumper results as firm says it's not reinstating Huang",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+  "resume": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+  "date": "2026-11-17T23:03:39.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "Humphries and Van Gerwen into Grand Slam knockouts",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/darts/articles/c6jd7el8d9kyo?at_medium=RSS&at_campaign=rss",
+  "resume": "Luke Humphries and Michael van Gerwen book their places in the last 16 of the Grand Slam of Darts with victories in their final group matches.",
+  "date": "2026-11-17T22:57:02.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "En Turquie, la police organise une descente dans une chaîne de télévision d'opposition et procède à des arrestations",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/turquie/en-turquie-la-police-organise-une-descente-dans-une-chaine-de-television-d-opposition-et-procede-a-des-arrestations_8287241.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "Cette opération au siège de Sözcü TV et de son groupe intervient un mois après la prise de contrôle par les autorités de la chaîne d'information la plus regardée du pays, Halk TV.",
+  "date": "2026-11-17T22:55:35.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "« Personne n’est révolté » : le Hyères-Toulon Var basket sombre encore à domicile, contre Nantes",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/sports/basket/personne-n-est-revolte-le-hyeres-toulon-var-basket-sombre-encore-a-domicile-contre-nantes-10762916",
+  "resume": "Malgré un sursaut d’orgueil dans le dernier quart, le HTV s’est incliné ce mardi face à Nantes lors de la 10e journée d’Élite 2 (86-94). Manque de caractère, d’énergie et de concentration ressortent une fois de plus au grand jour, au désespoir du coach, Stéphane Dumas.",
+  "date": "2026-11-17T22:55:00.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+  "resume": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+  "date": "2026-11-17T22:46:30.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "Thomas Markle charged over child sex abuse material in Philippines",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+  "resume": "Markle is being held in prison in the US on a separate charge and has previously denied all of the allegations.",
+  "date": "2026-11-17T22:44:15.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "\"On va avoir 20 mètres carrés de plus\" : ces couples de classe moyenne qui quittent les centres-villes pour payer leur logement moins cher",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/economie/pouvoir-achat/on-va-avoir-20-metres-carres-de-plus-ces-couples-de-classe-moyenne-qui-quittent-les-centres-villes-pour-payer-leur-logement-moins-cher_8287217.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Parmi les attentes des classes moyennes, pouvoir acheter son logement figure en haut de la liste. Pour des couples, même avec deux salaires, les centres-villes restent inaccessibles. Entre les prix des biens et le coût du crédit, il faut revoir ses projets, et parfois partir plus loin pour devenir propriétaire. Quels compromis sont-ils prêts à faire ?",
+  "date": "2026-11-17T22:41:55.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Les Chinois font décoller leur premier avion de ligne 100% électrique : que peut-on attendre en France ?",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/economie/aeronautique/les-chinois-font-decoller-leur-premier-avion-de-ligne-100-electrique-que-peut-on-attendre-en-france_8287124.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Après les voitures, les avions électriques. La Chine vient de faire voler un appareil conçu pour transporter 19 passagers. Son constructeur annonce une autonomie de 400 kilomètres. À Toulouse, un projet français vise un premier vol en 2027. L'Europe est-elle en retard ou vise-t-elle simplement une autre technologie ? Explications.",
+  "date": "2026-11-17T22:35:38.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Les Chinois font décoller leur premier avion de ligne 100% électrique : que peut-on attendre en France ?",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/economie/aeronautique/les-chinois-font-decoller-leur-premier-avion-de-ligne-100-electrique-que-peut-on-attendre-en-france_8287124.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "Après les voitures, les avions électriques. La Chine vient de faire voler un appareil conçu pour transporter 19 passagers. Son constructeur annonce une autonomie de 400 kilomètres. À Toulouse, un projet français vise un premier vol en 2027. L'Europe est-elle en retard ou vise-t-elle simplement une autre technologie ? Explications.",
+  "date": "2026-11-17T22:35:38.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "\"Il y a des choses qu'on ne peut pas faire\", \"À la fin du mois, on est limite à découvert\"… Les fonctionnaires vent debout contre la vie chère",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/economie/emploi/recherche-d-emploi/fonction-publique/il-y-a-des-choses-qu-on-ne-peut-pas-faire-a-la-fin-du-mois-on-est-limite-a-decouvert-les-fonctionnaires-vent-debout-contre-la-vie-chere_8287163.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Des cortèges globalement calmes, mais moins fournis que le 5 novembre. Seules 146 000 personnes ont manifesté en France selon le ministère de l’Intérieur, et plus de 500 000 pour la CGT. À l’appel des syndicats de fonctionnaires, des salariés du privé et des jeunes ont aussi défilé. Tous réclament des réponses sur le pouvoir d’achat, mais pour certains, les journées de grève commencent à peser sur le budget.",
+  "date": "2026-11-17T22:34:15.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "Liverpool lead Chelsea in Camara race - Wednesday's gossip",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/football/articles/cvx2xwx604y0o?at_medium=RSS&at_campaign=rss",
+  "resume": "Liverpool leading Chelsea in race for Monaco's Lamine Camara, Barcelona rule out moves for Virgil van Dijk and Bruno Fernandes, and ex-Crystal Palace winger Wilfried Zaha could rejoin the club.",
+  "date": "2026-11-17T22:25:16.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Des systèmes internes de la NSA, l'agence américaine de renseignement, \"affectés\" durant une opération de maintenance",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/usa/des-systemes-internes-de-la-nsa-l-agence-americaine-de-renseignement-affectes-durant-une-operation-de-maintenance_8287238.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "La chaîne américaine CNN avait rapporté plus tôt mardi dans la journée que NSA Net, le réseau de communication interne utilisé par ses employés pour échanger des informations classifiées, était hors service.",
+  "date": "2026-11-17T22:23:53.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Revenus, professions, sentiment de déclassement : 3 infos pour comprendre la classe moyenne",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/revenus-professions-sentiment-de-declassement-3-infos-pour-comprendre-la-classe-moyenne_8287232.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Qui sont les Français de la classe moyenne ? Quels sont leurs revenus, leurs professions ? Pourquoi le sentiment de déclassement progresse-t-il ? Entre hausse des impôts et pouvoir d’achat qui recule depuis deux ans, cette catégorie de la population a le sentiment de perdre du terrain.",
+  "date": "2026-11-17T22:15:42.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Matan Kahana, un fidèle de Gadi Eisenkot élu président du Parlement en Israël, coup dur pour Benyamin Nétanyahou",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/matan-kahana-un-fidele-de-gadi-eisenkot-elu-president-du-parlement-en-israel-coup-dur-pour-benyamin-netanyahou_8287226.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "Cet ancien membre des forces spéciales israéliennes, âgé de 54 ans, a été élu avec 66 voix sur les 120 que compte la Knesset.",
+  "date": "2026-11-17T22:13:29.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Sport",
+  "titre": "\"Je n'étais pas initialement candidat\" : Philippe Diallo officialise sa candidature à la présidence de la Fifa",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/sports/foot/philippe-diallo/je-n-etais-pas-initialement-candidat-philippe-diallo-officialise-sa-candidature-a-la-presidence-de-la-fifa_8287235.html#xtor=RSS-3-%5Bsports%5D",
+  "resume": "Philippe Diallo, le président de la Fédération Française de Football, est officiellement candidat à la présidence de la Fifa. Désigné par l’UEFA, il a confirmé mardi 17 novembre son intention de se présenter face à Gianni Infantino lors du congrès électif de l’instance, prévu le 18 mars 2027 à Rabat (Maroc).",
+  "date": "2026-11-17T22:11:35.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Événementiel",
+  "titre": "'Real life ghost story' inspires new TV drama in Welsh countryside",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/c6y4j73319dmo?at_medium=RSS&at_campaign=rss",
+  "resume": "The \"real-life ghost story\" of a family who experienced \"inexplicable\" things is turned into TV drama.",
+  "date": "2026-11-17T22:08:39.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Israël : Matan Kahana, un fidèle de Gadi Eisenkot, a été élu président de la Knesset",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/israel-matan-kahana-un-fidele-de-gadi-eisenkot-a-ete-elu-president-de-la-knesset_6813051_3210.html",
+  "resume": "M. Kahana a été élu avec 66 voix sur les 120 que compte la Knesset, grâce notamment au soutien des partis arabes israéliens. C’est une victoire pour le camp centriste de Gadi Eisenkot.",
+  "date": "2026-11-17T22:07:25.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Moins de taxes, plus d’aides… Quelles sont les attentes de la classe moyenne ?",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/moins-de-taxes-plus-d-aides-quelles-sont-les-attentes-de-la-classe-moyenne_8287202.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Tous les candidats à la présidentielle veulent la convaincre. Mais elle, qu’attend-elle d’eux ? Plus d’un Français sur deux estime faire partie de la classe moyenne. Pouvoir d’achat, logement, santé, sécurité, qu’est-ce qui doit changer en priorité ?",
+  "date": "2026-11-17T22:06:14.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "« On n’a pas joué à notre niveau » : après sa défaite à domicile contre Hammarby (33-34), le Saint-Raphaël Var handball est déjà éliminé de la coupe d’Europe",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/sports/on-n-a-pas-joue-a-notre-niveau-apres-sa-defaite-a-domicile-contre-hammarby-33-34-le-saint-raphael-var-handball-est-deja-elimine-de-la-coupe-d-europe-10762998",
+  "resume": "Défait pour la quatrième fois en autant de matchs, vendredi 20 novembre, contre Hammarby (33-34), malgré une première mi-temps solide, Saint-Raphaël quitte la Ligue européenne par la petite porte.",
+  "date": "2026-11-17T21:56:05.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Plus de 70 personnes confinées dans une maison d’enfants à caractère social à Toulon, les pompiers ont levé le doute après une odeur suspecte",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/faits-divers/plus-de-70-personnes-confinees-dans-une-maison-d-enfants-a-caractere-social-a-toulon-les-pompiers-ont-leve-le-doute-apres-une-odeur-suspecte-10762965",
+  "resume": "Une odeur suspecte a provoqué une opération de mise en sécurité des résidents d’une pension à caractère social de Toulon, dont une cinquantaine d’enfants et adolescents, qui ont pu réintégrer les locaux normalement en début de soirée.",
+  "date": "2026-11-17T21:50:40.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "Russian military plane crashes, killing all 19 on board",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+  "resume": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+  "date": "2026-11-17T21:06:11.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "US loses measles elimination status after 26 years amid record case numbers",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+  "resume": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s.",
+  "date": "2026-11-17T21:04:00.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Le pont de Crimée à nouveau visé par l'Ukraine",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/crimee/le-pont-de-crimee-a-nouveau-vise-par-l-ukraine_8286692.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "Le pont de Crimée, qui relie la Russie à la péninsule annexée, a été visé par des frappes ukrainiennes pour la deuxième nuit consécutive, mardi 17 novembre. L’ouvrage a été endommagé et la circulation suspendue. Le président ukrainien Volodymyr Zelensky a salué une “opération sans précédent”. #franceinfo",
+  "date": "2026-11-17T21:00:01.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Un projet de loi sur l’antisémitisme, soutenu par Giorgia Meloni et critiqué par l’opposition, a été adopté en Italie",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/un-projet-de-loi-sur-l-antisemitisme-soutenu-par-giorgia-meloni-et-critique-par-l-opposition-a-ete-adopte-en-italie_6813047_3210.html",
+  "resume": "Ce projet de loi intègre dans la législation italienne la définition de l’antisémitisme par l’International Holocaust Remembrance Alliance, et fait craindre à l’opposition une restriction de la liberté d’expression lorsqu’il s’agit de critiquer la politique israélienne.",
+  "date": "2026-11-17T20:56:18.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Produits défrisants accusés de causer des cancers : L’Oréal conclut un accord avec quatre plaignantes aux Etats-Unis",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/sante/article/2026/11/17/produits-defrisants-accuses-de-causer-des-cancers-l-oreal-conclut-un-accord-avec-quatre-plaignantes-aux-etats-unis_6813045_1651302.html",
+  "resume": "Le montant de l’indemnisation de ces quatre femmes afro-américaines n’a pas été rendu public. Le groupe français, qui défend la sûreté de ses produits supposés lisser les cheveux, fait face à de nombreuses plaintes de clientes américaines.",
+  "date": "2026-11-17T20:49:57.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Comment Marine Le Pen veut-elle financer son plan pour les retraites ?",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/comment-marine-le-pen-veut-elle-financer-son-plan-pour-les-retraites_8287178.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Partir à la retraite à 62 ans, voire 60 ans : Marine Le Pen a détaillé son projet mardi 17 novembre. Il y aura une nouveauté : une part de capitalisation obligatoire. Mais son plan durcirait aussi les règles pour les carrières incomplètes. Ses adversaires dénoncent une réforme qui pénaliserait les plus fragiles.",
+  "date": "2026-11-17T20:48:50.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Apple a-t-il dissuadé ses clients de réparer leur téléphone ? La marque, jugée en juin 2027 en France, se défend",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/internet/telephonie/apple-a-t-il-dissuade-ses-clients-de-reparer-leur-telephone-la-marque-jugee-en-juin-2027-en-france-se-defend_8287175.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Apple a-t-il volontairement empêché la réparation de certains iPhones ? Le géant américain sera jugé en juin 2027 en France. Il est accusé d’avoir bloqué certaines fonctions des téléphones lorsqu’une pièce était remplacée par un réparateur extérieur à son réseau agréé. Des pratiques qui auraient duré de 2021 à 2024. Apple conteste fermement ces accusations.",
+  "date": "2026-11-17T20:47:10.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Une femme grièvement blessée dans un accident sur la pénétrante Cannes-Grasse",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/faits-divers/une-femme-grievement-blessee-dans-un-accident-sur-la-penetrante-cannes-grasse-10762932",
+  "resume": "Une automobiliste d’une trentaine d’années a été grièvement blessée, mardi 17 novembre, dans un accident impliquant un seul véhicule, peu après la sortie Mougins. Elle a été transportée à l’hôpital Pasteur de Nice.",
+  "date": "2026-11-17T20:39:06.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "Trump in Asia ahead of talks with Russian and Chinese presidents",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
+  "resume": "The US president said he would be open to a one-on-one meeting with Russia's Vladimir Putin \"if it's available\".",
+  "date": "2026-11-17T20:25:46.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Cancer du pancréas : la Commission européenne donne son feu vert à un nouveau traitement",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/economie/article/2026/11/17/cancer-du-pancreas-la-commission-europeenne-donne-son-feu-vert-a-un-nouveau-traitement_6813042_3234.html",
+  "resume": "L’essai clinique mené par Revolution Medicines, la biotech américaine à l’origine du daraxonrasib, montre un doublement de la survie médiane chez les patients l’ayant reçu.",
+  "date": "2026-11-17T20:21:40.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "À Nice, 650 collégiens forment le mot « PAIX » dans la cour de leur établissement pour le 11-Novembre",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/societe/education/a-nice-650-collegiens-forment-le-mot-paix-dans-la-cour-de-leur-etablissement-pour-le-11-novembre-10762921",
+  "resume": "Au collège Louis-Nucéra de Nice, 650 élèves ont participé à une cérémonie particulière ce lundi 16 novembre 2026. Réunis dans la cour, ils ont formé le mot « PAIX », avant de rendre hommage aux victimes de la guerre en lisant un célèbre poème de Paul Éluard.",
+  "date": "2026-11-17T20:15:06.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "L'Ukraine frappe le pont de Crimée, symbole de l'annexion russe",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ukraine-frappe-le-pont-de-crimee-symbole-de-l-annexion-russe_8287157.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "L’armée ukrainienne a de nouveau frappé le pont de Crimée, symbole de l’annexion russe. Une partie de la chaussée s’est effondrée. Un revers majeur pour Vladimir Poutine. À Kiev, des missiles russes ont endommagé deux axes majeurs qui traversent le Dniepr.",
+  "date": "2026-11-17T20:07:10.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Cisjordanie : des sanctions britanniques contre des entreprises impliquées dans la construction de colonies ; Israël menace de « mesures de rétorsion »",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/cisjordanie-des-sanctions-britanniques-contre-des-entreprises-impliquees-dans-la-construction-de-colonies-israel-menace-de-mesures-de-retorsion_6813040_3210.html",
+  "resume": "Le Royaume-Uni demande l’arrêt d’un vaste projet israélien de colonisation en Cisjordanie, le programme E1, qui prévoit la construction de plus d’un millier de logements à l’est de Jérusalem et pour lequel un appel d’offres a été lancé.",
+  "date": "2026-11-17T20:02:27.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "« Qui n’a jamais eu de problème pour une démarche administrative ? » : tous les services publics offerts par le Département rassemblés sous un même toit, dans le moyen-pays des Alpes-Maritimes",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/societe/social/qui-n-a-jamais-eu-de-probleme-pour-une-demarche-administrative-tous-les-services-publics-offerts-par-le-departement-rassembles-sous-un-meme-toit-dans-le-moyen-pays-des-alpes-maritimes-10762906",
+  "resume": "Installée au centre-ville de Vence, la nouvelle Maison des Alpes-Maritimes réunit les services du Département pour accompagner les habitants, de la petite enfance au grand âge, et simplifier leurs démarches. Visite guidée.",
+  "date": "2026-11-17T20:00:05.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Réserver les HLM aux Français ? Cécile Duflot face à un député RN...",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/economie/immobilier/immobilier-indigne/reserver-les-hlm-aux-francais-cecile-duflot-face-a-un-depute-rn_8287040.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "\"L'extrême droite agite le chiffon des étrangers pour ne pas s'attaquer à la réalité du problème du logement en France\", selon Cécile Duflot directrice générale d'Oxfam France et ancienne ministre du logement, invitée de l'émission \"C Ce Soir\" du 17 novembre. Pour le député (RN) Frédéric Falcon, il n'y a aucune stigmatisation de son parti lorsqu'il propose de réserver les logements HLM aux Français.",
+  "date": "2026-11-17T20:00:02.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Culture",
+  "titre": "JUPITER : les secrets de tournage à l'Élysée",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/culture/cinema/jupiter-les-secrets-de-tournage-a-l-elysee_8287079.html#xtor=RSS-3-%5Bculture%5D",
+  "resume": "L’Élysée décor de cinéma ? Oui mais avec quelques règles à respecter. C’est ce que nous raconte le réalisateur de “Jupiter”, film à suspens sur une crise géopolitique nucléaire. Secrets de tournage.",
+  "date": "2026-11-17T20:00:02.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Sport",
+  "titre": "L'association Unicef France \"suspend la mission d'ambassadeur\" de Teddy Riner en raison de sa candidature à la présidentielle",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/sports/judo/teddy-riner/unicef-france-suspend-la-mission-d-ambassadeur-de-teddy-riner-en-raison-de-sa-candidature-a-la-presidentielle_8287055.html#xtor=RSS-3-%5Bsports%5D",
+  "resume": "L'association justifie cette décision en évoquant ses \"principes d'indépendance et de neutralité politique\".",
+  "date": "2026-11-17T19:56:47.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "\"Il y a une grosse fatigue physique\" : les CRS, à bout, se mobilisent",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/il-y-a-une-grosse-fatigue-physique-les-crs-a-bout-se-mobilisent_8287067.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "À force d’encadrer les manifestations, les CRS se disent à bout. Plus de 1 000 d’entre eux étaient indisponibles ce mardi 17 novembre selon le syndicat Alliance Police Nationale après avoir demandé à consulter un médecin.",
+  "date": "2026-11-17T19:52:39.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Un avion de transport militaire s'est écrasé en Sibérie faisant 19 morts",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/russie/un-avion-de-transport-militaire-s-est-ecrase-en-siberie-faisant-19-morts_8287073.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "L'appareil, qui effectuait \"un vol régulier\", s'est crashé dans \"une zone inhabitée\" dans la région de Kemerovo, selon le ministère de la Défense russe.",
+  "date": "2026-11-17T19:51:33.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "« Monaco doit demeurer ce pays sûr où chacun vit en paix et en sécurité » : comment le prince Albert II veut renforcer la sécurité à Monaco après l’explosion d’une bombe visant la famille Ermolaev",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/societe/securite/monaco-doit-demeurer-ce-pays-sur-ou-chacun-vit-en-paix-et-en-securite-comment-le-prince-albert-ii-veut-renforcer-la-securite-a-monaco-apres-l-explosion-d-une-bombe-visant-la-famille-ermolaev-10762889",
+  "resume": "Dans un entretien exclusif accordé à Monaco-Matin à l’occasion de la Fête nationale, le prince Albert II évoque son ressenti après l’explosion d’une bombe à Monaco, le 29 juin, visant la famille Ermolaev et comment il entend accroître le dispositif sécuritaire du pays.",
+  "date": "2026-11-17T19:50:04.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "\"Il ne reste plus qu'une seule arche\" : l'Ukraine et la Russie se livrent une guerre des ponts, le symbole de l'annexion russe de la Crimée touché par Kiev",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/il-ne-reste-plus-qu-une-seule-arche-l-ukraine-et-la-russie-se-livrent-une-guerre-des-ponts-le-symbole-de-l-annexion-russe-de-la-crimee-touche-par-kiev_8287085.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "En Ukraine les ponts sont au cœur des combats. À Kiev, des missiles russes ont endommagé deux axes majeurs qui traversent le fleuve Dniepr, tandis que l'armée ukrainienne a frappé le pont de Crimée, le symbole de l'annexion russe. Une partie de la chaussée s'est effondrée ; un revers majeur pour Vladimir Poutine à deux jours d'une rencontre avec Donald Trump et Xi Jinping.",
+  "date": "2026-11-17T19:45:52.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "EN DIRECT, guerre en Ukraine : Vladimir Poutine est arrivé en Chine, où il doit rencontrer Donald Trump et Xi Jinping, selon Moscou",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/live/2026/11/17/en-direct-guerre-en-ukraine-vladimir-poutine-est-arrive-en-chine-ou-il-doit-rencontrer-donald-trump-et-xi-jinping-selon-moscou_6810982_3210.html",
+  "resume": "Le président russe est arrivé mardi à Shenzhen, dans le sud-est de la Chine, pour participer au sommet annuel de la Coopération économique pour l’Asie-Pacifique, a annoncé l’agence de presse officielle russe TASS. Son avion a atterri à l’aéroport international de cette métropole voisine de Hongkong.",
+  "date": "2026-11-17T19:45:24.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Sport",
+  "titre": "Arthur Fils remporte son premier match en carrière au Masters",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/sports/tennis/arthur-fils/arthur-fils-remporte-son-premier-match-en-carriere-au-masters_8287070.html#xtor=RSS-3-%5Bsports%5D",
+  "resume": "Quinze ans après le dernier match remporté par un Français dans le Tournoi des Maîtres (Jo-Wilfried Tsonga en 2011), Arthur Fils a décroché la première victoire de sa carrière dans ce tournoi, qui réunit les huit meilleurs joueurs de la saison. Après sa défaite initiale contre Ben Shelton, le joueur tricolore a dominé l'Espagnol Rafael Jodar, mardi. Il se relance ainsi dans la course à la qualification.",
+  "date": "2026-11-17T19:29:48.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Russie : un avion de transport militaire s’écrase en Sibérie, 19 morts",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/faits-divers/russie-un-avion-de-transport-militaire-s-ecrase-en-siberie-19-morts-10762926",
+  "resume": "Un avion de transport militaire russe Antonov An-12 s’est écrasé mardi dans la région de Kemerovo, en Sibérie occidentale, entraînant la mort des 19 personnes à son bord, selon un communiqué du ministère de la Défense.",
+  "date": "2026-11-17T19:25:58.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "La justice prononce un non-lieu quatorze ans après l’ouverture d’une enquête sur la « fac privée » de La Garde qui proposait des formations controversées",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/societe/justice/la-justice-prononce-un-non-lieu-quatorze-ans-apres-l-ouverture-d-une-enquete-sur-la-fac-privee-de-la-garde-qui-proposait-des-formations-controversees-10762907",
+  "resume": "Le Centre libre d’enseignement supérieur international (Clesi) avait provoqué un tollé en proposant des formations à La Garde permettant de contourner le numerus clausus dans des études de santé.",
+  "date": "2026-11-17T19:25:03.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "La France participe-t-elle \"directement\" à la guerre en Ukraine, comme l'affirme le Kremlin ?",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/vrai-ou-fake/la-france-participe-t-elle-directement-a-la-guerre-en-ukraine-comme-l-affirme-le-kremlin_8287025.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "RFI a révélé, lundi 16 novembre, que des militaires français étaient déployés secrètement sur le territoire ukrainien. Sergueï Lavrov, le ministre russe des Affaires étrangères, a accusé la France de \"participation directe à la guerre\".",
+  "date": "2026-11-17T19:21:49.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Près de Nice, ce tableau encrassé dissimulait une signature prestigieuse",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/culture/pres-de-nice-ce-tableau-encrasse-dissimulait-une-signature-prestigieuse-10760655",
+  "resume": "La restauration des toiles de l’église du village de Blausasc, dans la vallée du Paillon, a mis au jour la signature d’un peintre renommé.",
+  "date": "2026-11-17T19:15:06.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Grève du 17 novembre : \"On les a fait bouger sur le Smic, on va les faire bouger sur la question du point d'indice\", assure Thomas Vacheron, secrétaire confédéral de la CGT",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/societe/manifestations/greve-du-17-novembre-on-les-a-fait-bouger-sur-le-smic-on-va-les-faire-bouger-sur-la-question-du-point-d-indice-assure-thomas-vacheron-secretaire-confederal-de-la-cgt_8287019.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Invité du \"Duel\" d'\"Avant le 20h\", Thomas Vacheron salue une \"mobilisation importante\", malgré une baisse du nombre de manifestants dans la rue, mardi 17 novembre, soulignant que \"les agents de la fonction publique ont perdu leur journée complète de salaire pour la deuxième fois en novembre.\" Maël de Calan, porte-parole d'Édouard Philippe, lui répond que \"si on veut du salaire en plus, il faut mettre des économies en face\".",
+  "date": "2026-11-17T19:09:56.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "La mairie de Montauban s’oppose à un meeting de Francis Lalanne, qui saisit le tribunal administratif avant sa venue à Fréjus ce vendredi",
+  "source": "Nice-Matin",
+  "url": "https://www.nicematin.com/culture/people/la-mairie-de-montauban-s-oppose-a-un-meeting-de-francis-lalanne-qui-saisit-le-tribunal-administratif-avant-sa-venue-a-frejus-ce-vendredi-10762924",
+  "resume": "La mairie de Montauban s’oppose à la tenue d’un meeting de Francis Lalanne, candidat déclaré à l’élection présidentielle, programmé mercredi, du fait de la présence du polémiste Dieudonné parmi les invités, une décision contestée devant la justice administrative.",
+  "date": "2026-11-17T19:02:48.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Royaume-Uni : une réforme « radicale » pour remettre dans l’emploi « une génération perdue »",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/royaume-uni-une-reforme-radicale-pour-remettre-dans-l-emploi-une-generation-perdue_6813035_3210.html",
+  "resume": "Un rapport a été publié, mardi, qui propose des mesures pour les près d’un million de jeunes Britanniques âgés de 16 à 24 ans qui ne sont ni en emploi, ni en études, ni en formation. Le gouvernement s’en inspirera pour présenter ses propositions en 2027.",
+  "date": "2026-11-17T18:48:40.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Demonstration on November 17 in Nice: mobilization down, the procession returns to Jean-Médecin Avenue",
+  "source": "Nice Premium",
+  "url": "https://www.nice-premium.com/demonstration-on-november-17-in-nice-mobilization-down-the-procession-returns-to-jean-medecin-avenue/",
+  "resume": "A month after the looting on October 17, protesters took to Jean-Médecin Avenue again on Tuesday, between Place Masséna and the Liberation district",
+  "date": "2026-11-17T18:43:38.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Business",
+  "titre": "Government backs welfare shake-up to prevent 'lost generation'",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/ck79210y125xo?at_medium=RSS&at_campaign=rss",
+  "resume": "Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.",
+  "date": "2026-11-17T18:43:05.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "En Israël, la police et le renseignement intérieur accusés d’avoir servi le clan Nétanyahou pour contester les résultats des législatives",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/en-israel-la-police-et-le-renseignement-interieur-accuses-d-avoir-servi-le-clan-netanyahou-pour-contester-les-resultats-des-legislatives_6813031_3210.html",
+  "resume": "Trois semaines après les législatives, aucun élément concret ne vient étayer les accusations de « fraude massive » portées par le premier ministre, Benyamin Nétanyahou, et relayées par la police et le Shin Bet à l’encontre des listes arabes. Ces allégations avaient conduit à des perquisitions et des placements en garde à vue.",
+  "date": "2026-11-17T18:30:04.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Après des attentats meurtriers, la Jordanie multiplie les interdictions d’utilisation des réseaux sociaux",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/apres-des-attentats-meurtriers-la-jordanie-multiplie-les-interdictions-d-utilisation-des-reseaux-sociaux_6813030_3210.html",
+  "resume": "Le royaume a décidé de prohiber le réseau Telegram. Il avait déjà mis au ban la plateforme TikTok et interdit l’utilisation de la messagerie WhatsApp pour passer des appels.",
+  "date": "2026-11-17T18:28:44.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Business",
+  "titre": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+  "resume": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
+  "date": "2026-11-17T18:24:21.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "William and Kate celebrate Earthshot Prize winners in Mumbai",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/cqlykve012d1o?at_medium=RSS&at_campaign=rss",
+  "resume": "The Prince and Princess of Wales were joined by sporting and acting stars for the annual environmental awards ceremony.",
+  "date": "2026-11-17T18:20:36.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "England's Atkinson set for All Blacks dream date",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6rrg0l2gz5jo?at_medium=RSS&at_campaign=rss",
+  "resume": "Centre Seb Atkinson is set to return to the England backline for a \"dream\" encounter with the All Blacks on Saturday.",
+  "date": "2026-11-17T18:12:46.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Jupiter » : la vertigineuse solitude du président face à l’arme nucléaire, incarné à l’écran par Denis Ménochet",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/jupiter-la-vertigineuse-solitude-du-president-face-a-l-arme-nucleaire-incarne-a-l-ecran-par-denis-menochet_6813026_3246.html",
+  "resume": "Le réalisateur Alexandre Smia fait monter la pression dans un huis clos au sein duquel le chef de l’Etat français doit décider d’utiliser ou non la bombe atomique contre la Russie.",
+  "date": "2026-11-17T18:00:09.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Comment les Ukrainiens ont réussi à détruire une partie du « pont de Poutine » reliant la Russie à la Crimée",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/comment-les-ukrainiens-ont-reussi-a-detruire-une-partie-du-pont-de-poutine-reliant-la-russie-a-la-crimee_6813025_3210.html",
+  "resume": "Des drones et des missiles ont ciblé, le 17 novembre, l’une des deux arches de cette mégastructure de 19 kilomètres, qui s’est effondrée dans les eaux du détroit de Kertch. Vital pour la péninsule ukrainienne, cet ouvrage inauguré en 2018 se veut aussi un symbole politique fort pour le Kremlin.",
+  "date": "2026-11-17T18:00:02.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Événementiel",
+  "titre": "Hunger Games prequel splits opinion: 'Surreally awful' or 'surprisingly strong'",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/c9vg2xgn0xe5o?at_medium=RSS&at_campaign=rss",
+  "resume": "Sunrise on the Reaping, the franchise's sixth film, is both criticised and praised by film critics.",
+  "date": "2026-11-17T17:57:56.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Kim Jong-Un va-t-il rencontrer Donald Trump en Chine ?",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/coree-du-nord/kim-jong-un/kim-jong-un-va-t-il-rencontrer-donald-trump-en-chine_8286974.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "Kim Jong-Un pose avec sa femme Ri Sol Ju, habituellement très discrète et sa fille, Ju Ae, dans la nouvelle station de ski de Samijyon. L’agence officielle de presse nord-coréenne a diffusé une série de photos du dictateur qui fait ainsi la promotion de ce projet touristique immobilier qu'il a initié. Un week-end sur la frontière avec la Chine qui nourrit les spéculations sur une rencontre entre Kim Jong-Un et Donald Trump qui sera cette semaine à Shenzhen, au sommet de l’Apec.",
+  "date": "2026-11-17T17:57:13.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Plus les entreprises sont grandes, moins elles comptent de dirigeantes, révèle l’Insee",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/17/plus-les-entreprises-sont-grandes-moins-elles-comptent-de-femmes-dirigeantes-revele-l-insee_6813024_1656968.html",
+  "resume": "En prenant en compte toutes les entreprises, microentrepreneuriat inclus, les femmes représentaient 35 % des dirigeants en France en 2024. Mais ce chiffre tombe à 17 % dans les sociétés de plus de 250 personnes, et de fortes disparités existent selon les secteurs.",
+  "date": "2026-11-17T17:49:24.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Sport",
+  "titre": "Rassie Erasmus, sélectionneur de l’Afrique du Sud, suspendu six matchs pour avoir tancé l’arbitrage face au XV de France",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/sport/article/2026/11/17/rassie-erasmus-selectionneur-de-l-afrique-du-sud-suspendu-six-matchs-pour-avoir-tance-l-arbitrage-face-au-xv-de-france_6813023_3242.html",
+  "resume": "Le coach des Springboks avait vertement critiqué, lundi, l’arbitrage vidéo, qui, selon lui, n’avait pas vu une quinzaine de plaquages non réglementaires de joueurs français. World Rugby a dénoncé une « attaque inacceptable contre la crédibilité et la compétence des officiels de match ».",
+  "date": "2026-11-17T17:49:19.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "La fin de 10 ans de post vérité ?",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/replay-radio/complorama/la-fin-de-10-ans-de-post-verite_8286962.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "Après les revers électoraux des républicains aux élections de mi-mandat, plusieurs figures de la complosphère américaine prennent leurs distances avec Donald Trump. Dix ans après le début de son premier mandat à la présidence des Etats-Unis, la séquence marque-t-elle la fin d’un cycle, celui de la post-vérité ? Décryptage dans le 117e numéro de Complorama.",
+  "date": "2026-11-17T17:49:11.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "\"On souhaite sortir de ce carcan de contraintes qui ne fonctionne pas\" : le RN veut revenir à un DPE purement informatif",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/replay-radio/la-question-des-informes/on-souhaite-sortir-de-ce-carcan-de-contraintes-qui-ne-fonctionne-pas-le-rn-veut-revenir-a-un-dpe-purement-informatif_8265083.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Le Rassemblement national souhaite supprimer les obligations liées au diagnostic de performance énergétique (DPE) pour les propriétaires bailleurs. Invité de franceinfo, Frédéric Falcon, député RN de l'Aude chargé des questions de logement, défend un DPE qui redeviendrait \"informatif purement et simplement\"",
+  "date": "2026-11-17T17:48:00.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "En Belgique, une œuvre représentant un cochon au volant d’une fourgonnette de police fait polémique",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/en-belgique-une-uvre-representant-un-cochon-au-volant-d-une-fourgonnette-de-police-fait-polemique_6813022_3210.html",
+  "resume": "Alors qu’à Bruxelles les étudiants manifestent à nouveau le mardi 17 novembre, une pièce exposée au musée municipal de Gand représentant un porc aux manettes d’un véhicule de patrouille déclenche une bataille politique.",
+  "date": "2026-11-17T17:45:07.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Jensen Huang, ex-patron de Nvidia, sera entendu au Congrès, le 1ᵉʳ décembre, sur sa liaison avec une Chinoise soupçonnée d’espionnage",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/jensen-huang-ex-patron-de-nvidia-sera-entendu-au-congres-le-1-decembre-sur-sa-liaison-avec-une-chinoise-soupconnee-d-espionnage_6813021_3210.html",
+  "resume": "Le cofondateur de la multinationale américaine des semi-conducteurs a aussi déclaré, sur X, se tenir prêt à revenir à la tête de l’entreprise si son conseil d’administration le décidait. Il a démissionné le 12 novembre après la révélation de sa liaison avec Alice Huang, une femme d’affaires chinoise.",
+  "date": "2026-11-17T17:42:16.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Nice & Côte d'Azur",
+  "titre": "OGC Nice: PETA demands the departure of eagle Mèfi, the club refuses to give in",
+  "source": "Nice Premium",
+  "url": "https://www.nice-premium.com/ogc-nice-peta-demands-the-departure-of-eagle-mefi-the-club-refuses-to-give-in/",
+  "resume": "Animal rights organization PETA is asking OGC Nice to end the flights of its royal eagle before matches at the Allianz Riviera",
+  "date": "2026-11-17T17:37:14.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Banque centrale européenne : l’Allemagne propose l’économiste Markus Brunnermeier au directoire, la présidence de Pablo Hernandez de Cos se profile",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/economie/article/2026/11/17/banque-centrale-europeenne-l-allemagne-propose-l-economiste-markus-brunnermeier-au-directoire-la-presidence-de-pablo-hernandez-de-cos-se-profile_6813020_3234.html",
+  "resume": "La France décrocherait le poste en charge des marchés financiers et nommerait Laurence Boone. Reste aux autres pays de la zone euro à accepter ces nominations.",
+  "date": "2026-11-17T17:37:13.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "Arsenal Double winner Storey dies aged 81",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
+  "resume": "Former Arsenal and England midfielder Peter Storey - who helped the Gunners win the Double in 1970-71 - has died at the age of 81.",
+  "date": "2026-11-17T17:33:41.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Gabin » : de l’enfance à l’adolescence, la naissance d’un homme",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/gabin-de-l-enfance-a-l-adolescence-la-naissance-d-un-homme_6813019_3246.html",
+  "resume": "Maxence Voiseux a accompagné durant dix ans, dans l’Artois, le fils d’une éleveuse de bovins et d’un boucher. De ses 8 à ses 18 ans, le gamin s’étoffe et tente de s’arracher à un territoire, sans trahir les siens. Un documentaire d’une impressionnante fluidité et d’une grande douceur.",
+  "date": "2026-11-17T17:30:07.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "Serbie : la liste étudiante entre au Parlement",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/serbie-la-liste-etudiante-entre-au-parlement_8286926.html#xtor=RSS-3-%5Bmonde%5D",
+  "resume": "Les 140 nouveaux députés serbes de la liste étudiante, élus le 25 octobre 2026, ont finalement pris place à l'Assemblée du pays ce matin. Ils ont repris la majorité absolue à la liste de l'ancien Président nationaliste, Aleksandar Vucic. Les étudiants serbes étaient nombreux à réagir avec émotions.",
+  "date": "2026-11-17T17:25:35.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Sport",
+  "titre": "Philippe Diallo, en campagne pour la présidence de la FIFA, veut offrir une « alternative crédible » à Gianni Infantino",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/sport/article/2026/11/17/philippe-diallo-en-campagne-pour-la-presidence-de-la-fifa-veut-offrir-une-alternative-credible-a-gianni-infantino_6813017_3242.html",
+  "resume": "Au lendemain de l’annonce de sa candidature, le président de la Fédération française de football a promis, mardi, « de dire stop » aux « dérives » de l’actuel président de la FIFA à qui il ambitionne de succéder, en mars 2027.",
+  "date": "2026-11-17T17:21:23.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+  "resume": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea.",
+  "date": "2026-11-17T17:19:57.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Monde",
+  "titre": "L’arrêt très attendu de la Cour internationale de justice sur la question du génocide des Rohingya",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/international/article/2026/11/17/l-arret-tres-attendu-de-la-cour-internationale-de-justice-sur-la-question-du-genocide-des-rohingya_6813016_3210.html",
+  "resume": "La CIJ dira, jeudi 19 novembre, si la Birmanie a commis un génocide contre la minorité musulmane. Alors que la décision devrait préciser les contours de la définition juridique du génocide, les tentatives américaines d’intimidation contre ses juges se multiplient.",
+  "date": "2026-11-17T17:15:07.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "\"Les entreprises doivent accorder la priorité aux jeunes\" : le Royaume-Uni veut remettre au travail un million de jeunes sans emploi",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/monde/royaume-uni/les-entreprises-doivent-accorder-la-priorite-aux-jeunes-le-royaume-uni-veut-remettre-au-travail-un-million-de-jeunes-sans-emploi_8286671.html#xtor=RSS-3-%5Beconomie%5D",
+  "resume": "Près d'un jeune Britannique sur huit n'est ni en emploi, ni en études, ni en formation, révèle un rapport sorti mardi et qui propose des pistes pour les aider à retrouver le chemin du travail.",
+  "date": "2026-11-17T17:07:11.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Culture",
+  "titre": "La chanson \"Les Antisémites\" de Pierre Perret, qui cible LFI avec virulence, suscite la \"peine\" de Jean-Luc Mélenchon",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/culture/musique/chanson-francaise/la-chanson-les-antisemites-de-pierre-perret-qui-cible-lfi-avec-virulence-suscite-la-peine-de-jean-luc-melenchon_8286701.html#xtor=RSS-3-%5Bculture%5D",
+  "resume": "Le candidat à la présidentielle de La France insoumise, qui dénonce les exactions de l'armée israélienne à Gaza, est régulièrement taxé d'ambiguïté sur la question de l'antisémitisme.",
+  "date": "2026-11-17T17:06:50.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Fonction publique : malgré les annonces du gouvernement, les fonctionnaires attendent des réponses structurelles sur la question salariale",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/politique/article/2026/11/17/fonction-publique-malgre-les-annonces-du-gouvernement-les-fonctionnaires-attendent-des-reponses-structurelles-sur-la-question-salariale_6813014_823448.html",
+  "resume": "En dépit du geste de l’exécutif en faveur des agents publics les moins bien payés, le tassement des grilles salariales persiste dans la fonction publique. Le gouvernement a promis d’engager des discussions en vue d’une « réforme structurelle ». Un chantier maintes fois évoqué, mais qui n’a jamais encore abouti.",
+  "date": "2026-11-17T17:02:20.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Weather alert: beaches and Nice coastal path closed to public access Tuesday evening",
+  "source": "Nice Premium",
+  "url": "https://www.nice-premium.com/weather-alert-beaches-and-nice-coastal-path-closed-to-public-access-tuesday-evening/",
+  "resume": "Facing the risk of dangerous waves and marine submersion, the city of Nice announced the closure of its beaches and coastal path this Tuesday, November 17, star",
+  "date": "2026-11-17T17:00:59.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Les Braves », de Lukas Dhont : deux soldats cherchent la lumière dans l’enfer des tranchées",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/les-braves-de-lukas-dhont-deux-soldats-cherchent-la-lumiere-dans-l-enfer-des-tranchees_6813012_3246.html",
+  "resume": "Le cinéaste met en scène deux jeunes engagés de l’armée belge dont la relation amoureuse se heurte aux injonctions sociales et à l’horreur de la première guerre mondiale.",
+  "date": "2026-11-17T17:00:09.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Tech",
+  "titre": "Géolocalise ton animal dans la jungle : pister numériquement la faune sauvage, une bonne idée ?",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/m-perso/article/2026/11/17/geolocalise-ton-animal-dans-la-jungle-pister-numeriquement-la-faune-sauvage-une-bonne-idee_6813013_4497916.html",
+  "resume": "Plusieurs entreprises commercialisent des bracelets donnant accès aux données GPS d’animaux sauvages, en échange d’une contribution annoncée à leur protection. Si certaines collaborent avec des organismes scientifiques, les pratiques du secteur restent inégales.",
+  "date": "2026-11-17T17:00:06.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Sport",
+  "titre": "L'équipe de France féminine de basket se rapproche d'une qualification pour l'Euro 2027 après un troisième succès consécutif contre l'Ukraine",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/sports/basket/l-equipe-de-france-feminine-de-basket-se-rapproche-d-une-qualification-pour-l-euro-2027-apres-un-troisieme-succes-consecutif-contre-l-ukraine_8286803.html#xtor=RSS-3-%5Bsports%5D",
+  "resume": "Les vice-championnes du monde, brillantes lors du troisième quart-temps, ont signé une large victoire, mardi, à Riga.",
+  "date": "2026-11-17T16:43:42.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Événementiel",
+  "titre": "Brad Pitt and Florence Pugh pitch for James Bond villain role",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/cq4gnpgl0zkxo?at_medium=RSS&at_campaign=rss",
+  "resume": "The two A-list stars throw their hats into the ring to be the villain facing Robert Pattinson's 007.",
+  "date": "2026-11-17T16:42:49.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Inventeur Gadget, les 1000 vies de Jean Chalopin », sur Canal+ : récit d’un visionnaire français aux rêves démesurés",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/inventeur-gadget-les-1000-vies-de-jean-chalopin-sur-canal-recit-d-un-visionnaire-francais-aux-reves-demesures_6813008_3246.html",
+  "resume": "Cette minisérie biographique consacrée au créateur de dessins animés cultes, d’« Ulysse 31 » à « Inspecteur Gadget », fait souffler un vent de fantaisie qui fait du bien.",
+  "date": "2026-11-17T16:30:11.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Manifestations du 17 novembre : entre 146 000, selon le gouvernement, et 500 000 personnes, selon la CGT, ont défilé en France ; revivez la journée de mobilisation",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/politique/live/2026/11/17/en-direct-manifestations-du-17-novembre-a-paris-une-manifestation-calme-a-17-heures-ayant-rassemble-28-000-personnes-selon-la-prefecture-de-police_6812905_823448.html",
+  "resume": "A Paris, le cortège qui a relié la place de la Nation à la place d’Italie a réuni 28 000 personnes, mardi, selon la Préfecture de police, et 175 000, selon la CGT.",
+  "date": "2026-11-17T16:28:59.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Patrick et Isabelle Balkany retrouvent leur moulin de Giverny, dont ils avaient été expulsés fin octobre, après un accord avec l’Etat",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/societe/article/2026/11/17/patrick-et-isabelle-balkany-retrouvent-leur-moulin-de-giverny-dont-ils-avaient-ete-expulses-fin-octobre-apres-un-accord-avec-l-etat_6813006_3224.html",
+  "resume": "Les époux Balkany avaient été expulsés le 29 octobre de leur moulin de Cossy à Giverny, dont ils avaient perdu l’usufruit en conséquence de leur condamnation pour blanchiment de fraude fiscale en 2023.",
+  "date": "2026-11-17T16:13:29.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "South Africa head coach Erasmus banned for six matches",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj752w5q7z90o?at_medium=RSS&at_campaign=rss",
+  "resume": "South Africa head coach Rassie Erasmus has been banned for six matches by World Rugby over comments he made about match officials.",
+  "date": "2026-11-17T16:09:24.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "La présidentielle de 2027 et ses enjeux : l’immigration face à la réalité des chiffres",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/11/17/la-presidentielle-de-2027-et-ses-enjeux-l-immigration-face-a-la-realite-des-chiffres_6813002_6205049.html",
+  "resume": "Les mouvements migratoires sont constitutifs de l’histoire de la France, mais restent au cœur des crispations. Qui arrive ? D’où vient-on ? Où travaille-t-on ? Comment s’intègre-t-on ? Une plongée dans les réalités de l’immigration, loin des seules perceptions.",
+  "date": "2026-11-17T16:00:07.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Hunger Games. Lever de soleil sur la moisson » retrouve l’ADN de ses débuts",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/hunger-games-lever-de-soleil-sur-la-moisson-retrouve-l-adn-de-ses-debuts_6813001_3246.html",
+  "resume": "Ce nouveau volet, qui reprend la narration du tout premier chapitre de la saga, présente des scènes d’action réussies, déjoue avec malice quelques attentes mais n’évite pas, hélas, les effets mélodramatiques trop appuyés.",
+  "date": "2026-11-17T16:00:05.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Culture",
+  "titre": "\"Hunger Games\" la saga, le récap !",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/culture/hunger-games-la-saga-le-recap_8286710.html#xtor=RSS-3-%5Bculture%5D",
+  "resume": "Avec un sixième film au cinéma ce mercredi 18 novembre, la saga dystopique “Hunger Games” attire depuis 2012 des milliers de spectateurs. Les symboles de la révolte dans la saga inspirent même de nombreuses manifestations actuelles et passées, en France et ailleurs. Vous ne connaissez pas la saga et voulez aller voir le nouveau film ? On vous récap l’histoire !",
+  "date": "2026-11-17T16:00:02.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Business",
+  "titre": "We can't afford to hire under-25s, say firms. Will Milburn plans help?",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
+  "resume": "The proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.",
+  "date": "2026-11-17T15:56:04.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "Woods set to return next month after two years out",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/golf/articles/cm93080ep703o?at_medium=RSS&at_campaign=rss",
+  "resume": "Tiger Woods is set to return to competitive golf in December for the first time in more than two years.",
+  "date": "2026-11-17T15:54:36.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Sport",
+  "titre": "FA wants to host Nations League finals in England",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
+  "resume": "England could host the Nations League finals this season after Football Association officials register their interest.",
+  "date": "2026-11-17T15:51:30.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Ulya », film esthétisant en hommage à une basketteuse hors norme",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/ulya-film-esthetisant-en-hommage-a-une-basketteuse-hors-norme_6812998_3246.html",
+  "resume": "La fiction en noir et blanc de Viesturs Kairiss, qui revisite le destin de la championne de la discipline Ouliana Semionova, a été choisie par la Lettonie pour représenter le pays aux Oscars 2027.",
+  "date": "2026-11-17T15:45:11.000Z"
+ },
+ {
+  "lang": "en",
+  "section": "Monde",
+  "titre": "How the attack on Crimean Bridge unfolded",
+  "source": "BBC News",
+  "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+  "resume": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
+  "date": "2026-11-17T15:38:10.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Camembert » : un réjouissant jeu de massacre familial autour d’une partie de Trivial Pursuit",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/camembert-un-rejouissant-jeu-de-massacre-familial-autour-d-une-partie-de-trivial-pursuit_6812996_3246.html",
+  "resume": "Cette comédie chorale bien écrite explore avec beaucoup de drôlerie les parcours de différents personnages réunis pour une partie dans une famille de bourgeois cultivés.",
+  "date": "2026-11-17T15:30:18.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Culture",
+  "titre": "Il se fait licencier pour avoir refusé de mettre de l’ananas sur une pizza",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/il-se-fait-licencier-pour-avoir-refuse-de-mettre-de-l-ananas-sur-une-pizza_8286698.html#xtor=RSS-3-%5Bculture%5D",
+  "resume": "C’est une histoire qui prouve décidément que les Italiens ne plaisantent pas avec la pizza. Un pizzaïolo a été licencié en Australie pour avoir refusé de mettre de l’ananas sur une pizza. Une \"insulte à ma culture\", s’est-il défendu. Le chef a alors saisi l’équivalent des prud’hommes, mais sa demande a été rejetée.",
+  "date": "2026-11-17T15:29:26.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Business",
+  "titre": "Les mouvements sociaux et l’après présidentielle suscitent l’inquiétude des fabricants de la marque « Elysée »",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/economie/article/2026/11/17/entre-mouvements-sociaux-et-incertitude-politique-les-fabricants-de-la-marque-elysee-s-inquietent-pour-son-avenir_6812993_3234.html",
+  "resume": "Les marques de produits estampillés « Elysée-présidence de la République », censés valoriser le savoir-faire français, redoutent un changement d’image de la marque après le scrutin de 2027.",
+  "date": "2026-11-17T15:25:31.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Culture",
+  "titre": "Le chanteur Aldebert sort un best of et prépare une tournée pour les dix-huit ans du premier volet de ses \"Enfantillages\"",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/culture/musique/chanson-francaise/le-chanteur-aldebert-sort-un-best-of-et-prepare-une-tournee-pour-les-dix-huit-ans-du-premier-volet-de-ses-enfantillages_8286410.html#xtor=RSS-3-%5Bculture%5D",
+  "resume": "L'artiste dévoué à la chanson pour la jeunesse promet une tournée \"comme une grande cour de récré\", remplie d'énergie, de surprises, mais aussi de cascades.",
+  "date": "2026-11-17T15:22:34.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Sport",
+  "titre": "Arthur Fils se défait de Rafael Jodar au Masters de Turin, première victoire française depuis 2011 dans cette compétition",
+  "source": "franceinfo",
+  "url": "https://www.franceinfo.fr/sports/tennis/arthur-fils/arthur-fils-se-defait-de-rafael-jodar-au-masters-de-turin-premiere-victoire-francaise-depuis-2011-dans-cette-competition_8286668.html#xtor=RSS-3-%5Bsports%5D",
+  "resume": "Le Français a battu, mardi, l'Espagnol en trois manches lors des Finales ATP. Il conserve ainsi des chances de se qualifier en demi-finales.",
+  "date": "2026-11-17T15:06:39.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Événementiel",
+  "titre": "« Malika », l’hommage à une cantatrice des cités en porte-à-faux avec les impératifs bourgeois",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/culture/article/2026/11/17/malika-l-hommage-a-une-cantatrice-des-cites-en-porte-a-faux-avec-les-imperatifs-bourgeois_6812988_3246.html",
+  "resume": "Dans son nouveau film, la réalisatrice Mounia Meddour célèbre avec une justesse mélodramatique la vie de l’artiste lyrique Malika Bellaribi.",
+  "date": "2026-11-17T15:00:09.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Tech",
+  "titre": "De Fela Kuti à Burna Boy, les radios de « GTA » racontent l’ascension des musiques nigérianes et sud-africaines",
+  "source": "Le Monde",
+  "url": "https://www.lemonde.fr/afrique/article/2026/11/17/de-fela-kuti-a-burna-boy-les-radios-de-gta-racontent-l-ascension-des-musiques-nigerianes-et-sud-africaines_6812987_3212.html",
+  "resume": "Dix-huit ans après avoir glissé des titres du père de l’afrobeat, le Nigérian Fela Kuti, dans son quatrième épisode, le jeu vidéo « Grand Theft Auto VI », qui sort jeudi 19 novembre, confie au chanteur nigérian Burna Boy une station entière consacrée aux musiques du Nigeria, d’Afrique du Sud et du Ghana.",
+  "date": "2026-11-17T15:00:03.000Z"
+ },
+ {
+  "lang": "fr",
   "section": "Tech",
   "titre": "Outlook : après la panne géante, Microsoft avance de premières explications",
   "source": "Le Monde",
@@ -1260,6 +2196,15 @@
   "date": "2026-11-17T09:08:00.000Z"
  },
  {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Nice : les Restos du Cœur aident aussi à se reconstruire",
+  "source": "ici Azur",
+  "url": "https://www.ici.fr/emissions/ici-ca-marche-avec-ici-azur/nice-les-restos-du-coeur-aident-aussi-a-se-reconstruire-8050413?at_medium=lien_RSS&at_locale=49",
+  "resume": "À Nice, les Restos du Cœur offrent plus que des repas. Pour leur 42e campagne d'hiver, Jocelyne, retraitée, et une ancienne bénéficiaire devenue bénévole racontent l'accueil, le lien et la confiance retrouvée. Des parcours qui illustrent le rôle de l'association face à la précarité et à l'isolement.",
+  "date": "2026-11-17T09:06:00.000Z"
+ },
+ {
   "lang": "en",
   "section": "Événementiel",
   "titre": "IBTM World Highlights the People and Connections Behind the Events Industry",
@@ -1681,6 +2626,15 @@
   "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-a-nice-une-nouvelle-formation-pour-aider-les-jeunes-a-trouver-leur-voie-apres-le-bac_VN-202611170193.html",
   "resume": "Depuis septembre, l’association Evocaé s’est installée au Campus Sud des Métiers, à Nice. Dès janvier, elle proposera un programme de six mois pour accompagner les jeunes bacheliers sans affectation sur Parcoursup ou insatisfaits de leur orientation. L’objectif : leur faire découvrir différents métiers et les aider à construire leur projet professionnel. Les candidatures sont ouvertes.",
   "date": "2026-11-17T06:12:04.000Z"
+ },
+ {
+  "lang": "fr",
+  "section": "Nice & Côte d'Azur",
+  "titre": "Rubans noirs sur les panneaux : les maires dénoncent les coupes budgétaires",
+  "source": "BFM Nice Côte d'Azur",
+  "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-rubans-noirs-sur-les-panneaux-les-maires-denoncent-les-coupes-budgetaires_VN-202611170191.html",
+  "resume": "Le gouvernement demande aux communes un effort de 5,5 milliards d’euros l’année prochaine. Pour protester, plusieurs maires, dont celui de Breil-sur-Roya, ont apposé un ruban noir sur les panneaux à l’entrée de leur commune. Une action symbolique lancée par l’Association des maires de France contre les coupes prévues dans la loi de finances.",
+  "date": "2026-11-17T06:10:21.000Z"
  },
  {
   "lang": "fr",
@@ -31066,1103 +32020,5 @@
   "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko?at_medium=RSS&at_campaign=rss",
   "resume": "Polesitter Lando Norris says qualifying for the Sao Paulo Grand Prix brought \"some of the wettest conditions\" in which he had ever driven.",
   "date": "2026-11-07T23:53:30.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "How and Where to Watch Le Mans vs. AS Monaco LIVE on beIN SPORTS",
-  "source": "beIN SPORTS",
-  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNlI1VDFGbWwyR3RCZmt0OFoxYVR4QlljVDNkRnN5bUlJZHNOVnlXM1B6OGtRNzJuc3pXTVh4LU16dzQydmNOTjRXZmR0R2xNcFFNeWpSNDZHYlBhZkliM3hVWmNZVUp2bm43Z3dJbE9FeDJDVmFzMVJ1STlCNjVVQm1BMnZLV3RxMWczbXh6VkFxOFpBYVlZWG1HRXdweUdSNU9pQ0xONzAxbUNITlZrNEF1SFprSTBrV3I1MVFQamlnc3RGTENZdjVrNA?oc=5",
-  "resume": "",
-  "date": "2026-11-07T23:34:01.000Z"
- },
- {
-  "lang": "en",
-  "section": "Business",
-  "titre": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
-  "resume": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
-  "date": "2026-11-07T23:02:35.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sorties",
-  "titre": "Que faire à Antibes, Cannes, Isola 2000 ou Nice (entre autres) du 2 au 8 novembre 2026 ?",
-  "source": "ici.fr",
-  "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMHI0MnlaLUJnd2VqX2JfN1JZNm54ZzhFUUJnbGg4b1BiZVBVeDhOeWxSbWNpMEdoVWdEcVo2V2ZaN1Z4VXAtQ25SNkhKSWIxZ19qNzdEWlFwa05LSElEZ1VZcnRrSHA1WkptVmhoRTRCMUVyTUNhUkdxZDBCWFppNUNfbldjdy04NUM2eU1TN1VERzEzQThBY2xrdUtOVmNKQ19DLWgwSkg5aW90NEV3dW9lbnhtQU1hWmU4ZGZmNlNnaHFuWDY1aDBLR3VnQmp3aDVuQ3htUS1PV3RSM2dabnRtUVBMYkZtVzVCX1YyTGtHczEzR1E?oc=5",
-  "resume": "",
-  "date": "2026-11-07T23:00:00.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Championnat des nations : une victoire au prix fort pour le XV de France contre les Fidji",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/sport/article/2026/11/07/une-victoire-au-prix-fort-pour-le-xv-de-france-contre-les-fidji_6808318_3242.html",
-  "resume": "Les hommes de Fabien Galthié ont étrillé les joueurs du Pacifique, samedi, au Groupama Stadium de Décines-Charpieu. Mais ils ont perdu leur ouvreur Romain Ntamack, à six jours du choc contre l’Afrique du Sud.",
-  "date": "2026-11-07T22:50:47.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Israel's president tasks opposition leader Eisenkot with forming government",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-  "resume": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
-  "date": "2026-11-07T22:19:59.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Le XV de France signe une démonstration face à des Fidjiens stériles pour son premier match d'automne",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/sports/rugby/xv-de-france/le-xv-de-france-signe-une-demonstration-face-a-des-fidjiens-steriles-pour-son-premier-match-d-automne_8272730.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Les hommes de Fabien Galthié n'ont pas laissé le moindre espoir aux Fidjiens (54-17), samedi soir à Lyon. Point noir de la soirée : la sortie sur blessure de Romain Ntamack.",
-  "date": "2026-11-07T22:01:02.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "This French Riviera Retreat Just Got a Serene Makeover. Here’s a Look Inside.",
-  "source": "Robb Report",
-  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQei1DS2twbjY1aTZBWk9aNkpjNnNEMy1HMWloOUQweWZ6NERnNXhzZW5FbWh3NlRZZ3hFUTh1T2Zsanltc3dBWkE4UER6c09pWXg3bUNjRzNsN1g3dU52SS1Na09aRjhkT2Q4ejE4WnRCSldEMl9HSHZlcXU4VlB5VTl3azRFZnlGSUJFTXIwQVg4QktfcGJ0Mg?oc=5",
-  "resume": "",
-  "date": "2026-11-07T22:00:36.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Ligue 1 : SCO Angers - OGC Nice, opposition de style et dynamiques opposées",
-  "source": "ici.fr",
-  "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNFk2bnppTkg0ZnZfTHlUWFJ2MTU5U04wWm14Z2R6YzN3cnJKMUtUblNrYlF5cnJ3RmxMZFFWcFhDUTVsZmZQSkt6OWFmX0ZRLUg1c3lHVWJ2YXREOEk2MUZwZEJ3alp3N1E0X2I4U0hHeXZieWx2TS11SkVHWkZpU0J4V0l0WTdBUG5jeW5zS3M5VktpOW9oWVViYnJWSzJjTG9rMVZGYmpPbzZwN2pYNjlOR29pWm9XUWpJSm1kaS15cjNZSnVmU21TaEgzWnZXN0xMbGhzUGdRTzRmZUc5a1V4NUFsbjg?oc=5",
-  "resume": "",
-  "date": "2026-11-07T21:59:27.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Le PSG assure le service minimum contre Troyes et signe un septième succès d'affilée en Ligue 1",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/sports/foot/psg/le-psg-assure-le-service-minimum-contre-troyes-et-signe-un-septieme-succes-d-affilee-en-ligue-1_8272742.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Le club parisien est assuré de rester leader du championnat à l'issue de la 10e journée.",
-  "date": "2026-11-07T21:56:29.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Blow for Netanyahu as opposition rival asked to form government by Israel's president",
-  "source": "Sky News",
-  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNEhYQ2dKeFg3NU5aSXY3My1zUTlIanJZMERucFFwa0Z6NDZVb2hBWlRCTWpEb01jQlROR1F1VTFOMWt0ZnZEcHZoalgtZ0FYRm9Fa1ZFdS1UWWRfR0xEUVNFTllDNFFjNURaMnhnV2NtWENjNERDWXFPZVZxcGtZaTB2cTAyS2MtUjZrQnpQbHJzaURyQW84elEzcDFqWEg5cWxCVzNNZzJiS1dGYWJfd2FzSVpHQmpObmNFdg?oc=5",
-  "resume": "",
-  "date": "2026-11-07T21:53:05.000Z"
- },
- {
-  "lang": "en",
-  "section": "Tech",
-  "titre": "Oxford website outages raises cybersecurity concerns",
-  "source": "The Oxford Student",
-  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV2loeUJFMnU2RzJ3Nko4N0VmN1lGbnp1cVd2SlA5RFBYT2x1UkczZ3AtWEVwTWFZLU1KSGdmZXViVFNNZVBPSHI5N3UxMG5ubWY4b2RvUWx5eExnV3d0cGhUNGlYZVNNYk5EaDJWMndvQTg1OUFCUk1SU0luNzExRkZmQjhVaWJBdDhkbDY4Q1dIMVQ3TktYWmEwNDJyU3c?oc=5",
-  "resume": "",
-  "date": "2026-11-07T21:43:23.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Tech",
-  "titre": "Cybersécurité : comment les PME romandes font face aux attaques",
-  "source": "rts.ch",
-  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSHdwMWluLUlRVmZwTE1UcHp2YS1WS0Vwek45WW9aNTdrTjEyZEVFTnpFYWZvSVlsRG81UHJUQWRMX19wRmQ4ZVpOcHJjWGRYRDZ6Uk5nd21mQ2JHMTdRTEtUWmUzODY1TDRNbFdzbUhiRFdjaVdVcm9qcnVfRVBEeVVUSnhqekpVa2dZaGltbFFSakI2d0JNS0t3NERpQ3lrenNsNnJoWW8yYVp3R1dHclJKRmp3TGNoTzgtRWNn?oc=5",
-  "resume": "",
-  "date": "2026-11-07T21:39:09.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
-  "resume": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
-  "date": "2026-11-07T21:36:16.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Business",
-  "titre": "\"On fait en sorte que ça transpire l’Amérique\" : des cow-boys du Far West au cœur du Morbihan",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/on-fait-en-sorte-que-ca-transpire-l-amerique-des-cow-boys-du-far-west-au-c-ur-du-morbihan_8272727.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Un couple breton a réalisé son rêve. Dans le Morbihan leur ferme, ou plutôt leur ranch, est un véritable décor de Far West avec des chevaux, du bétail et une vie de passion. Rencontre.",
-  "date": "2026-11-07T21:30:28.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Elena Rybakina: World number one withdraws from WTA Finals title defence",
-  "source": "BBC",
-  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Jb0l4c19UdmFacDRKRXg5MGRVcWpjX0hMTXJrNUlENG5hMXRFMmsza2NqV21McC1JWG9ZN29pazFwaFNrNnpCeEl6Ry1ObU5ra2RIY01EaXl5WU8zVG9UQ3p1elplQQ?oc=5",
-  "resume": "",
-  "date": "2026-11-07T21:10:55.000Z"
- },
- {
-  "lang": "en",
-  "section": "Business",
-  "titre": "Kosovo’s Top 10 Companies: Economic Growth Amid Institutional Crises and Challenges",
-  "source": "Revista Monitor",
-  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVnhFcC0xUFRodHZpdmJvNVJOZURkNFlEU0ZJNi1ZOEFOSnJnaHRKajUxYVNSR0F3VHFXSjRvbE1Mb2JzWlZPX0VLT2pxRE5WRjZ2TkpIcU4xUmF1UE01VTkzWWtraF9lVmpCYk9aanRGQ2VTcXhsSi1XVHVzbWY0ejY3ZUtlMW9icGtneGVncFZJVm0zb0xueHpKWUdnX3RyR1Rv?oc=5",
-  "resume": "",
-  "date": "2026-11-07T21:09:54.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Lando Norris signe la pole position au Brésil au terme d'une séance de qualifications rendue interminable par la pluie",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/sports/auto-moto/formule-1/lando-norris-signe-la-pole-position-au-bresil-au-terme-d-une-seance-de-qualifications-rendue-interminable-par-la-pluie_8272724.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Le pilote britannique de l'écurie McLaren s'est montré le plus rapide à Interlagos, samedi.",
-  "date": "2026-11-07T21:02:57.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Culture",
-  "titre": "\"Le symbole de la France\" : la baguette, toujours aussi craquante !",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/le-symbole-de-la-france-la-baguette-toujours-aussi-craquante_8272718.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Le prix des carburants est devenu au fil des décennies un accélérateur de tensions sociales. Ce fut également le cas pour le pain à travers l’histoire. Samedi 7 novembre, la baguette fait son entrée dans notre série Culte.",
-  "date": "2026-11-07T21:00:16.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Maresca's dream start turns into nightmare as title hopes hit",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0l03n8vo?at_medium=RSS&at_campaign=rss",
-  "resume": "Enzo Maresca left the City Ground with chants of \"can we play you every week?\" ringing in his ears, as Manchester City's dream start turns into a nightmare.",
-  "date": "2026-11-07T20:54:12.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Le Mans",
-  "source": "Flashscore.com",
-  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONFJjM1V2UEItXzZtTENYUHJ6MGdpaTlyUk9wcFh6bGhobUNJWXpfQ0loTHFacGFreUdkSGVPNUpNUDhsOGRXTlNjX1JxMno0T3NfQ2VMbmVldFYyUGRJeE9aQ1EwZ2Z5RHFab1kzTG1pdkhvNjZRVkgtYUd1RjF1blozMlBLMUhxR1FJNlF0c2lvQnlrcWFoOEpmRUEtTm5MYVdrYTMtNA?oc=5",
-  "resume": "",
-  "date": "2026-11-07T20:26:30.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Nos U17 confirment",
-  "source": "OGC Nice",
-  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rdWd2Tms4V0hzTUVsZnpLVnVONkRveDNjTnR1aG5JUW9MMDBvQi1kazV0SnhoVUl6QWU5WE5pMWdTUjdSMDZCRlBCMUluUy1SWG0yZlZ0Q1NhYWNJdDhTX3pkYWV3OU1SR3JrVV8zYTRzcXM?oc=5",
-  "resume": "",
-  "date": "2026-11-07T20:10:00.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "What we know so far after Polish gunman opens fire in Krakow main square",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-  "resume": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
-  "date": "2026-11-07T20:08:31.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "\"Tout a pénétré le sol, c'est devenu l'enfer\" : quand nos déchets inondent la Turquie",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/monde/turquie/tout-a-penetre-le-sol-c-est-devenu-l-enfer-quand-nos-dechets-inondent-la-turquie_8272700.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Alors que la COP 31 s’ouvrira lundi 9 novembre en Turquie, les pays présents réussiront-ils à s’unir face à l’urgence visible sur toute la planète ? Illustration avec la question du plastique qui concerne directement le pays d’accueil du rendez-vous : pourquoi une grande partie des déchets européens se retrouvent sur le sol turc ?",
-  "date": "2026-11-07T20:07:44.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-  "source": "The Guardian",
-  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMW1qMXMxZXdPWGdTYXp1U0ZhemlJREFGbUNZU0VWT3BSNWFfZ1pDOG1abm1BeS0zM19MTUdYWHpFU2NGS2V1RUhtLTBYN0RUeDN1VGNuVkp3dzNrS2xEelJWNXpjbkpOQmN0QnZqN1hCOG53QVJaTGVGQTZ0Nm43Ump2SGxVM0l2eXp4VUhseWdNRFlQTFhueg?oc=5",
-  "resume": "",
-  "date": "2026-11-07T20:02:34.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Delap double inspires Forest to stunning win over Man City",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss",
-  "resume": "Liam Delap scores a superb double as Nottingham Forest stun Manchester City 3-1 for their first Premier League win at the City Ground this season.",
-  "date": "2026-11-07T20:02:25.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Crash d'hélicopter : j'ai passé le test",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/sports/crash-d-helicopter-j-ai-passe-le-test_8271248.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Pour un reportage en pleine mer sur une plateforme gazière, notre journaliste a dû passer le HUET : un exercice obligatoire de survie dans une réplique d'hélicoptère. On te plonge dans une piscine, on retourne la cabine et tu dois t’échapper.",
-  "date": "2026-11-07T20:00:01.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Muniz strike denies Newcastle and Jaissle much-needed win",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/videos/cm2d69p2x3g7o?at_medium=RSS&at_campaign=rss",
-  "resume": "Rodrigo Muniz scores his first goal since the opening day of last season as Fulham deny Newcastle and head coach Matthias Jaissle a much-needed win at Craven Cottage.",
-  "date": "2026-11-07T19:59:37.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Leeds beat Spurs to end five-game winless run",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/videos/ckz7x4jlypq3o?at_medium=RSS&at_campaign=rss",
-  "resume": "Noah Okafor scores the only goal of the game to give Leeds United their first win since the 14th of September, as Tottenham are beaten 1-0 at Elland Road in the Premier League.",
-  "date": "2026-11-07T19:59:34.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Arsenal beat Hull to extend lead at top of the table",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/videos/crx230ke2gzxo?at_medium=RSS&at_campaign=rss",
-  "resume": "Arsenal captain Martin Odegaard scores the winner as his side beat Hull City to extend their lead at the top of the Premier League table.",
-  "date": "2026-11-07T19:59:31.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "Investissements accrus dans des domaines stratégiques, rapprochement avec l'UE... Comment le Canada de Mark Carney continue à s'éloigner du voisin américain",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-radio/d-un-monde-a-l-autre/investissements-accrus-dans-des-domaines-strategiques-rapprochement-avec-l-ue-comment-le-canada-de-mark-carney-continue-a-s-eloigner-du-voisin-americain_8251738.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Malgré la victoire démocrate aux élections de mi-mandat aux Etats-Unis, le Canada maintient sa stratégie d'indépendance économique.",
-  "date": "2026-11-07T19:55:04.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "En Israël, le chef de l'opposition à Benyamin Nétanyahou, Gadi Eisenkot, sera chargé dimanche de former le prochain gouvernement, annonce la présidence",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/monde/israel/en-israel-le-chef-de-l-opposition-a-benyamin-netanyahou-gadi-eisenkot-sera-charge-dimanche-de-former-le-prochain-gouvernement-annonce-la-presidence_8272685.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Cet ancien chef d'état-major aura la lourde tâche de rallier un minimum de 61 députés dans un paysage politique fracturé, à l'image du pays.",
-  "date": "2026-11-07T19:52:36.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
-  "resume": "The BBC has asked the White House and TKO Holdings, the parent company of UFC, for comment.",
-  "date": "2026-11-07T19:52:23.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "Israël : Gadi Eisenkot, principal opposant de Benyamin Nétanyahou, va être chargé de former un gouvernement",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/international/article/2026/11/07/israel-gadi-eisenkot-le-principal-opposant-de-benyamin-netanyahou-va-etre-charge-de-former-un-gouvernement_6808313_3210.html",
-  "resume": "L’ancien chef d’état-major israélien, aujourd’hui à la tête du parti Yashar !, sera officiellement chargé dimanche de former le prochain gouvernement israélien, a annoncé samedi soir la présidence.",
-  "date": "2026-11-07T19:51:02.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
-  "source": "The Guardian",
-  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR0JHczRrNlAyS01zWHNUYlRNR1d4NVNQMVR3Q3VreERqZjY0QmJ5dlJsaEFoWUc4VEQxcjNxMmw2RkIydWVVSFZ3Ukg5M0lDX1EzWjJ2cmt5ZmFEOTZXWk11Zkh6OUNDc21OM29sQXVjcXgwNTZYYWdXYnZuMUNJYUtWNlJGblN2TXRZN2M1TW82VjVaUFJ3?oc=5",
-  "resume": "",
-  "date": "2026-11-07T19:49:00.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "La Varoise Léa Serries remporte Miss Tattoo France : sous l’encre de ses tatouages, une reine de cœur",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/societe/la-varoise-lea-serries-remporte-miss-tattoo-france-sous-l-encre-de-ses-tatouages-une-reine-de-cur-10753612",
-  "resume": "Originaire de Grande-Synthe, dans le Nord, et installée à Montauroux (Var), la tatoueuse et assistante vétérinaire de 29 ans a décroché le titre national de Miss Tattoo France, le 25 octobre 2026, à Paris. Une consécration inattendue pour cette jeune femme à la spontanéité communicative, qui entend désormais faire rayonner sa passion bien au-delà des frontières.",
-  "date": "2026-11-07T19:45:00.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Paris police clash with protesters as 250,000 take to the streets in nationwide demonstration",
-  "source": "Riviera Radio",
-  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQejdaMkRKOVQxRUV3akFmcXBTeTlPdGZTNnZRY0FIalR0azdjLXk2RFp6ajhET3VyS0N1dDFBN19Rd0R0TXdoRmhhb2s0Wk9vTDVST1JRR1RiNXI5dFlpaWdZUEI0M0FxNHpwT1BlaG5JWTB4QzhsdEcxcU9qZmpCN0xKc21VcTRs?oc=5",
-  "resume": "",
-  "date": "2026-11-07T19:40:43.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Route du Rhum : Tom Laperche en route pour pulvériser le record",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/route-du-rhum-tom-laperche-en-route-pour-pulveriser-le-record_8272670.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Ce samedi 7 novembre le skipper Tom Laperche est en passe de réaliser un exploit sur la Route du Rhum. Il s'apprête à battre le record à bord de son trimaran SVR Lazartigue six jours seulement après son départ depuis Saint-Malo.",
-  "date": "2026-11-07T19:38:46.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
-  "resume": "Arsenal move six points clear at the top of the Premier League after beating Hull City - but did Martin Odegaard's goal save the blushes of the VAR?",
-  "date": "2026-11-07T19:34:32.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "Donald Trump propose le poste de porte-parole de la Maison Blanche à Dana White, patron d'une fédération de MMA",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/monde/usa/donald-trump-propose-le-poste-de-porte-parole-de-la-maison-blanche-a-dana-white-patron-d-une-federation-de-mma_8272667.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Ce poste stratégique est vacant depuis l'éviction le 16 octobre de la précédente porte-parole, Katie Zacharia, congédiée au bout d'une petite semaine.",
-  "date": "2026-11-07T19:28:31.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« Un peu comme si c’était mon premier match » : Gaël Dréan raconte son retour avec Toulon et son essai, cinq mois après son opération du cœur",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/sports/rugby/un-peu-comme-si-c-etait-mon-premier-match-gael-drean-raconte-son-retour-et-son-essai-cinq-mois-apres-son-operation-du-cur-10755212",
-  "resume": "De retour ! Cinq mois après son opération à cœur ouvert, Gaël Dréan a repris la compétition ce samedi en Top 14, à Mayol face au Stade français (victoire 43-23 du RCT). En plus, l’ailier international (26 ans, 1 sélection) a marqué un essai. Il raconte !",
-  "date": "2026-11-07T19:26:22.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Business",
-  "titre": "\"Cette recrudescence des vols impacte la production des parcs\" : 500 km de câbles de cuivre dérobés dans une centrale photovoltaïque",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/france/nouvelle-aquitaine/gironde/cette-recrudescence-des-vols-impacte-la-production-des-parcs-500-km-de-cables-de-cuivre-derobes-dans-une-centrale-photovoltaique_8272673.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Plus de 500 kilomètres de câbles de cuivre, dont le cours ne cesse de s’envoler, ont été dérobés dans des parcs photovoltaïques du Sud-Ouest. Le montant du préjudice est estimé à 1 million d’euros. Plus d’une centaine de gendarmes ont été mobilisés pour démanteler un réseau, et six personnes placées en détention.",
-  "date": "2026-11-07T19:22:19.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Leeds United Eye Sidelined Monaco Striker: Is He Worth The January Risk?",
-  "source": "The 4th Official",
-  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV0k2cnBKU1JiRjR1RFg1V1k2SFhucVBoeGY1ellXbWdMY1ExbzJlTlNNNkRQVVllVG5aS3A0UkR3NkNoc1JRbmJjNnM1VUFjM0lUQThkWWlxODBZckNCWmtLbVZQMDY3M210Zy1kUktyTnVzQ3c3OURxV1hQZW5xbGwtX0FmSW1GQm90LXlzcVBoVnhtbldqTXRoa25jckNUTGJmTXpfcnhfdw?oc=5",
-  "resume": "",
-  "date": "2026-11-07T19:20:59.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« La jeunesse emmerde le Front national » : À Nice, la colère lycéenne a muté en front anti-extrême droite",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/societe/politique/la-jeunesse-emmerde-le-front-national-a-nice-la-colere-lyceenne-a-mute-en-front-anti-extreme-droite-10755207",
-  "resume": "Parties de revendications lycéennes, les manifestations ont pris un virage très politique à Nice. Avec (presque) une seule cible : le Rassemblement national et l’extrême droite sous toutes ses formes.",
-  "date": "2026-11-07T19:20:09.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sorties",
-  "titre": "South Korean director Yeon Sang-ho revisits AI themes in latest thriller 'Paradise Lost'",
-  "source": "Japan Today",
-  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMnVyaXp3ZUw4bUVkTDM2a2hxdVFoYlpCUEs5VG12b3JyLUlCT0JFVVJ4SzdIdTZmVS1ROENzdVpKVVgySjVDYUtSelZfSnV3M3I3OEROMUV0TjdUcVVnMlBjaTNOVmF4VnM2ZU5nOGt3dHBiN09faVVieXczNUYzU0ZkVmVwRVpEeDBmWGo0d2dwOF9wNGVLN1kyUGV0ZzBlOU1PRWkxWkZHdm5CeTNad3RJX0ZEdUJUSmtfUzFPZ0hoTDJsc3ZGdS0xel95VU1sX2tWbQ?oc=5",
-  "resume": "",
-  "date": "2026-11-07T19:20:00.000Z"
- },
- {
-  "lang": "en",
-  "section": "Tech",
-  "titre": "Claude Code's \"Yes, and Don't Ask Again\" Option Can Leak Passwords and API Keys to GitHub",
-  "source": "CyberSecurityNews",
-  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YS3VBRHpydjVLY3doT2I2TVUyUnlEQ0xWczB3ZlA4WHdheXUyUk9hWWlidXJpM0VKSUlmaU5UM3oyZlNCYkEtbElwcDZ0WGFQUUJ1WU5WeFZqTEt4bWx0T2Z2S3ZYRlM5NFRKWWlKNWdBdHVV0gF6QVVfeXFMTkRUQmYxZlNxaHlZLTRXV09Kb1hwOE50bndwOVhvWmR1WGtTN2FmYXJUWWVadXFOdFlCQWtaYnBlTFRadUpZNjU3VEExTFFnYm5GOWtTRVZJVTBCZDM4cWFnUEZFQllCVllILXduWWQ5SUlYVF9lWDdmWFE?oc=5",
-  "resume": "",
-  "date": "2026-11-07T19:18:45.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« Ouah, le monde ! Y a au moins 1 000 personnes là ! » : file d’attente interminable, groupies et Marseillaise pour Jordan Bardella en dédicace à La Seyne-sur-Mer",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/societe/politique/ouah-le-monde-y-a-au-moins-1-000-personnes-la-file-d-attente-interminable-groupies-et-marseillaise-pour-jordan-bardella-en-dedicace-a-la-seyne-sur-mer-10755206",
-  "resume": "Le président du Rassemblement national, venu dédicacer son troisième livre, « Gouverner », a été accueilli par une foule enthousiaste dans le Var, samedi 7 novembre 2026. Parmi laquelle des admiratrices.",
-  "date": "2026-11-07T19:16:01.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Tech",
-  "titre": "OpenAI muscle sa cybersécurité, mais la fenêtre se rétrécit",
-  "source": "Servicesmobiles.fr",
-  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVklLQTlFQ2lzN0NTM2tZb2FUS1pDZ1F4YTBlNnRpeHVLYVlvTTVfZFhiOU12VEd5eGZOTGhmRkxROURvd051T1hYYnFBNjRVUDJoOTlCVWNBQ2Z4bW52WGptc3lqdU4tX0xYUmVnVlNhSVhoVncxU2lKem5zcldxTExFRkd6VlhLS2NIc1Q1VkhheHRvOGFpSVFZelk?oc=5",
-  "resume": "",
-  "date": "2026-11-07T19:00:57.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« Cela plaît au public qui le prend régulièrement en photo » : un robot poubelle autonome se balade dans le terminal 2 de l’aéroport de Nice",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/societe/transports/cela-plait-au-public-qui-le-prend-regulierement-en-photon-un-robot-poubelle-autonome-se-balade-dans-le-terminal-2-de-l-aeroport-de-nice-10741793",
-  "resume": "Ce robot, destiné à collecter les déchets des passagers, est en service depuis le printemps 2026. La machine plaît aux usagers pour qui le fait de jeter ses déchets devient ludique.",
-  "date": "2026-11-07T19:00:08.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Culture",
-  "titre": "Didier Bourdon : \"C’est sympa de jouer les gens pitoyables !\"",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/culture/cinema/didier-bourdon-c-est-sympa-de-jouer-les-gens-pitoyables_8270741.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Le comédien Didier Bourdon est l’invité du Monde d’Élodie à l’occasion de la sortie du film Un Bon Patron au cinéma et dans lequel il incarne un chef d’entreprise détestable mais aussi profondément humain. Un rôle complexe que l’ancien membre des Inconnus a pris beaucoup de plaisir à jouer.",
-  "date": "2026-11-07T19:00:01.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sorties",
-  "titre": "Explorimages : trente ans d'aventures de Nice au pays grassois",
-  "source": "laclepublique.fr",
-  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMlliVlRmU1FhcWZOdHZ6WFB4ZGlaZ282dDJ5WUI5cHZZQnpLblZXTHA5d3V5b0J4TnhEVTJWTEFQQUNOZldJNE83QV9UenNhY0doZFBxdE82Q0V3OGVKUktEb2tNeXMteHduTk1GRWx4Zzh1cnBWUk5HeHdGSmp2OVNFaDhPQ2pXZ21pWEUtX0I1Q3UtX3pIVw?oc=5",
-  "resume": "",
-  "date": "2026-11-07T18:52:33.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Benoît Sineau a activé sa balise de détresse sur la Route du Rhum, des concurrents déroutés pour le secourir",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/sports/voile/route-du-rhum/benoit-sineau-a-active-sa-balise-de-detresse-sur-la-route-du-rhum-des-concurrents-deroutes-pour-le-secourir_8272628.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "L'organisation a annoncé samedi dans un communiqué qu'elle avait demandé à plusieurs bateaux de venir en aide au skippeur d'Ekinox-Rhétores.",
-  "date": "2026-11-07T18:50:04.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Grand huit à domicile pour le pilote azuréen Bruno Riberi sur les routes du 50e Rallye régional du Haut Pays Niçois",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/sports/automobile/grand-huit-a-domicile-pour-le-pilote-azureen-bruno-riberi-sur-les-routes-du-50e-rallye-regional-du-haut-pays-nicois-10755211",
-  "resume": "Leader encore intouchable, le recordman de l’épreuve orchestrée par l’ASAC de Nice a marqué de son empreinte les tablettes une huitième fois ce samedi soir à Contes.",
-  "date": "2026-11-07T18:47:23.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Wales labour to bonus-point win against Japan",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crd6d1ygjv68o?at_medium=RSS&at_campaign=rss",
-  "resume": "Wales resumed their Nations Championship campaign with an unconvincing bonus-point 28-21 victory against Japan at the Principality Stadium.",
-  "date": "2026-11-07T18:43:59.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« Au départ, nous voulions faire entendre nos revendications » : à Nice, les jeunes mènent le cortège de la manif dans une ambiance apaisée et sans effrayer les commerçants",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/societe/social/au-depart-nous-voulions-faire-entendre-nos-revendications-a-nice-les-jeunes-menent-le-cortege-de-la-manif-dans-une-ambiance-apaisee-et-sans-effrayer-les-commercants-10755195",
-  "resume": "Partis de la place Masséna vers le port pour un quatrième samedi de mobilisation, lycéens, syndicats et militants de gauche ont défilé sans heurts, sous le regard partagé entre curiosité et soulagement des commerçants qui ne s’étaient pas barricadés pour le passage du cortège.",
-  "date": "2026-11-07T18:40:07.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "OGC Nice - Un retour dans le groupe des Aiglons pour le match face à Angers SCO",
-  "source": "MadeInFoot",
-  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb2xKR0pkOC1OUXAtVThQSF82NENQVUxTX3B1YkZ6YURfdHdVY1lPZ3h3ZHJMNVRqZ2dOa2lOdWVSOVdSVDNkM1UtREJCU1E5WGpTcWJyNTlDeG9iT19YVklfWHp1Wnh4SnU1aTNHMkFmSGhuVnNLT2tWeDN3emZfZjRTMVlKRi0wb19YN3FBbDhKOVZ3dTFmUlZzQ096NTVkSTRNaFo1MVFMYVM1WnVnQXUxVkVNNnc3MzZoQVBUUXR5angzUDZaYXM2WU4yUGpadm1pZg?oc=5",
-  "resume": "",
-  "date": "2026-11-07T18:39:00.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Tuipulotu takes 'full responsibility' for Scotland collapse",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvx28xpn57r9o?at_medium=RSS&at_campaign=rss",
-  "resume": "Captain Sione Tuipulotu takes responsibility for Scotland's second-half Nations Championship collapse against New Zealand, saying they were \"nowhere near accurate enough\".",
-  "date": "2026-11-07T18:38:00.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« C’est la fin du handball professionnel à Draguignan » : les Dragons, douzièmes de Proligue, déposent le bilan",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/sports/handball/c-est-la-fin-du-handball-professionnel-a-draguignan-les-dragons-douziemes-de-proligue-deposent-le-bilan-10755209",
-  "resume": "C’est un coup de tonnerre qui secoue le monde du handball professionnel. À l’issue d’un nouveau conseil d’administration, Draguignan a décidé ce samedi 7 novembre de déposer le bilan et de mettre un terme à son aventure dans le monde professionnel. La Ligue nationale de handball s’interroge, elle, sur « l’authenticité de certaines pièces produites » cet été pour le dossier d’engagement du club en deuxième division.",
-  "date": "2026-11-07T18:37:19.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Route du Rhum 2026: Alexia Barrier anticipates a tropical depression and fights fatigue",
-  "source": "Nice Premium",
-  "url": "https://www.nice-premium.com/route-du-rhum-2026-alexia-barrier-anticipates-a-tropical-depression-and-fights-fatigue/",
-  "resume": "Just days before arriving in Guadeloupe, Alexia Barrier must face a new challenge on the 2026 Rhum Route",
-  "date": "2026-11-07T18:35:37.000Z"
- },
- {
-  "lang": "en",
-  "section": "Finance",
-  "titre": "How midterm elections sent Wall Street from celebration to mayhem in just 24 hours / this week",
-  "source": "Yahoo Finance",
-  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTklhVlJaYnBBLW00MDBWejE4c0dvUFlMdUI3YWRDdUxnUFZVSFZuQzBUOU5xdTB3RFJoVS1IUjVaR2N5SXdaaU9sRXlvT1MtUWJRU09sano1NzhfanJXNzFJRFdBMzZNdjhYZkYtb1I3MmFiTGZqZUZaYi1henNsdGJKYzFtaFBfNHBRblpvMVU2dndoeEV5UDJBTC1fRy11aDE4aWNkaDVMQU9WNmRfR3JmM2k1N3k1WnRNaFl5VkpRU2twZmZMZl9FeXlxV25SVklGZEZWVQ?oc=5",
-  "resume": "",
-  "date": "2026-11-07T18:33:12.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "80 € (-29 %) d’économie sur cette montre Garmin Forerunner 165 pour suivre vos performances sportives et votre santé",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/guide-conso/80-29-d-economie-sur-cette-montre-garmin-forerunner-165-pour-suivre-vos-performances-sportives-et-votre-sante-10754880",
-  "resume": "La Garmin Forerunner 165 perd 29 %, soit 80 € d’économie, et passe à 199 € chez I-RUN : un écran AMOLED lisible en plein soleil sur une montre running qui ne pèse que 39 g.",
-  "date": "2026-11-07T18:30:06.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "National League Carlisle upset League Two leaders Salford",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/videos/cm1exw70d49po?at_medium=RSS&at_campaign=rss",
-  "resume": "National League side Carlisle United defeat League Two leaders Salford City 1-0 to progress into the second round of the FA Cup.",
-  "date": "2026-11-07T18:29:20.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Title race hots up before Chelsea-Man City showdown",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/articles/cm0qkjdx3l9zo?at_medium=RSS&at_campaign=rss",
-  "resume": "Champions Manchester City will travel to Chelsea next week on top of the pile after a decisive Saturday in the Women's Super League.",
-  "date": "2026-11-07T18:27:46.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "EN DIRECT, guerre en Ukraine : les dernières informations",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/international/live/2026/11/07/en-direct-guerre-en-ukraine-les-dernieres-informations_6803934_3210.html",
-  "resume": "L’armée russe a lancé plusieurs attaques contre des infrastructures énergétiques ukrainiennes, cette nuit, selon le ministère de l’énergie ukrainien, qui signale des coupures d’électricité dans les oblasts de Dnipropetrovsk, Donetsk, Kiev, Jytomyr et Kharkiv.",
-  "date": "2026-11-07T18:24:37.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Le groupe niçois à Angers",
-  "source": "OGC Nice",
-  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOWHRoU2UyX29vdW1ZY1dEbFQ5bUg1ck54VlpiQUcwR244Y09tX0hiMFJVQ3AzbmctVG5MUlVvbjg5YkZNTXhiN3FLYVdnbkItMzlnVlhfaWhfenBQb2JiM0YzSDNEX3JqdEtXNmtJNi1pQUJHczlUbUYtME8?oc=5",
-  "resume": "",
-  "date": "2026-11-07T18:21:00.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« Acte IV » de la mobilisation contre la vie chère : 50 interpellations après la manifestation à Nice",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/societe/greves/acte-iv-de-la-mobilisation-contre-la-vie-chere-50-interpellations-apres-la-manifestation-a-nice-10755208",
-  "resume": "La manifestation déclarée par les organisations syndicales ce samedi après-midi s’est déroulée dans un climat globalement calme, malgré des slogans et propos inacceptables à l’encontre des forces de police.",
-  "date": "2026-11-07T18:18:07.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Dictée, lectures, ateliers d’écriture : quand le plaisir des mots est partagé à Draguignan",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/culture/litterature/dictee-lectures-ateliers-d-ecriture-quand-le-plaisir-des-mots-est-partage-a-draguignan-10755196",
-  "resume": "À l’image du succès de l’édition de la grande dictée « Dictadulte » ce samedi 7 novembre, les mots et la littérature sont bien au cœur de la vie de la médiathèque Jacqueline de Romilly du Pôle culturel Chabran à Draguignan.",
-  "date": "2026-11-07T18:15:06.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "US offers $20m reward for information about Iran's nuclear programme",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-  "resume": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
-  "date": "2026-11-07T18:14:38.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "EN DIRECT, France-Fidji : Antoine Dupont et Romain Ntamack de retour pour le Championnat des nations",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/sport/live/2026/11/07/en-direct-france-fidji-suivez-le-match-de-championnat-des-nations-de-rugby-2026_6808309_3242.html",
-  "resume": "Après deux victoires et une défaite en juillet dans l’hémisphère Sud, les Bleus continuent leur parcours dans le Championnat des nations de rugby, samedi, avec un match contre les Fidji.",
-  "date": "2026-11-07T18:10:03.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "ENTRETIEN. \"Je ne prends pas à la légère l'idée d'un second tour entre M. Mélenchon et Mme Le Pen.\" Pour Bruno Retailleau, une primaire de la droite et du centre devient urgente",
-  "source": "France 3 Côte d'Azur",
-  "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/entretien-je-ne-prends-pas-a-la-legere-cette-idee-d-un-second-tour-entre-mr-melenchon-et-mme-le-pen-pour-bruno-retailleau-l-organisation-d-une-primaire-de-la-droite-et-du-centre-devient-urgente-3446094.html",
-  "resume": "À l'occasion de sa venue à Saint-Raphaël (Var) pour les Rencontres de l'avenir, Bruno Retailleau nous a accordé un entretien, à découvrir dans Dimanche en Politique. Le président des Républicains, sénateur et candidat à l'élection présidentielle, se dit prêt à participer à une primaire de la droite et du centre pour éviter la division.",
-  "date": "2026-11-07T18:07:52.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "« Il faut sensibiliser dès le plus jeune âge » : après la mort d’un enfant, les trottinettes électriques dans le viseur de la police à Toulon",
-  "source": "Nice-Matin",
-  "url": "https://www.nicematin.com/societe/il-faut-sensibiliser-des-le-plus-jeune-age-apres-la-mort-d-un-enfant-les-trottinettes-electriques-dans-le-viseur-de-la-police-a-toulon-10755192",
-  "resume": "Vendredi après-midi, les forces de l’ordre ont effectué de nombreux contrôles ciblant les conducteurs de trottinette électrique alors que la réglementation a été renforcée à Toulon après la mort d’un garçon de 12 ans.",
-  "date": "2026-11-07T18:05:05.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sorties",
-  "titre": "Lone Star Film Festival celebrates 20 years in Fort Worth with star-studded lineup, award-winning films",
-  "source": "NBC 5 Dallas-Fort Worth",
-  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbkpXSFROU3FrMFNTV0xDdjNuNFJ6M0FSb1lvTTlxcHBidDdTWXZKM2xtbVpBYVpfQ0N2V0w4SThMVEE3ZTNXTUNNRFZtZ0FuWXVENnFtdk1KZ3hKbGZKVTgzWWppNndhOFNtcndsaFkxWWV1RHFzNzFRZDFWLWVwTkVsZDhUazAzRktJN0hjOEV1VTM1X1FLeklzS3ZEa1ozQnhiQTllY0hOYmllWXgxVDl1TlRPRkxQTXVid3gtUlR1dlptU3RSVVlGQ1VCM2Z4bTFKQU9ySWQzbzdLaVHSAeYBQVVfeXFMTVlpbkNqMXJKV2kyMmpGZEExTm1WdEp0cXhNeDE3NmRjTG92bFdobm9hWHVVN1l6NUhiLWtGMTJfa0JIaGp5MnB5MEdqTmotb2JmaWxDOE5zb3RYV19LWGFvYkVCYmljVHhFWWN0N1pKODBYOHV4Rl9CWHljLUdmX1Z1NWFTMm8tbnVBVUwwd0kybVhLVFJjcGdfbElJdEFVeGEtVGpfbUNmZmRDczdRSDU4SlZmamxMMTk0NXVjRTVlWkRYeVZ2a2plbGFBSlF4ZkdWdlVxQ0IxZ2dXY1ZvT3ExdnFUanc?oc=5",
-  "resume": "",
-  "date": "2026-11-07T18:00:00.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Demonstration on Saturday, November 7 in Nice: between 2,300 and 5,000 people mobilized",
-  "source": "Nice Premium",
-  "url": "https://www.nice-premium.com/demonstration-on-saturday-november-7-in-nice-between-2300-and-5000-people-mobilized/",
-  "resume": "Social protest did not weaken in the streets of Nice this Saturday",
-  "date": "2026-11-07T17:57:55.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Solide, Carlos Alcaraz rejoint Ben Shelton en finale du Masters 1000 de Paris",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/sports/tennis/masters-1000/solide-carlos-alcaraz-rejoint-ben-shelton-en-finale-du-masters-1000-de-paris_8272580.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "L'Espagnol a tenu rang et n'a pas eu à forcer son jeu face à Casper Ruud en demi-finales du tournoi francilien, samedi.",
-  "date": "2026-11-07T17:57:04.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Tech",
-  "titre": "Des sportifs et créateurs de contenus français courent pendant vingt-cinq heures pour soutenir une association",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/videos/article/2026/11/07/des-sportifs-et-createurs-de-contenus-francais-courent-pendant-vingt-cinq-heures-pour-soutenir-une-association_6808306_1669088.html",
-  "resume": "Cent quarante coureurs ont récolté près de 1,5 million d’euros pour l’association Rêves, qui réalise les vœux d’enfants gravement malades.",
-  "date": "2026-11-07T17:50:19.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Poland shooting: What we know about gun attack in Poland",
-  "source": "BBC",
-  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50UHJ1ZzRLTm9QdWhIQzJlNGhxczRmQTVEWnZldVFNWmRKeldOOC14Nnl4UXFJM1RHRk9ROFZESm9hT1otbC1IRkpkWUIzV3BZSjlBNUtnSExZbEVsYXc?oc=5",
-  "resume": "",
-  "date": "2026-11-07T17:48:29.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "En Pologne, au moins six morts dans une attaque par arme à feu à Cracovie, le tireur interpellé",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/international/article/2026/11/07/en-pologne-au-moins-six-morts-dans-une-attaque-par-arme-a-feu-a-cracovie-le-tireur-interpelle_6808293_3211.html",
-  "resume": "Selon un porte-parole de la police, un homme a foncé en voiture sur la grande place de la vieille ville et a tiré « au hasard » sur des passants. L’auteur des faits était « fasciné par les idéologies d’extrême droite », a affirmé le ministre de l’intérieur.",
-  "date": "2026-11-07T17:34:57.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Culture",
-  "titre": "Stephen Graham dans \"Nocturne\", auteur de la série \"Adolescence\" : dans les supermarchés, les gens me remercient\"",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-radio/l-empire-des-series/stephen-graham-dans-nocturne-auteur-de-la-serie-adolescence-dans-les-supermarches-les-gens-me-remercient_8251741.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Auteur de \"Adolescence\", Stephen Graham incarne dans ce thriller un psychopathe qui manipule les gens dans une ville qui a vécu de nombreuses disparitions. La série est disponible sur Apple TV.",
-  "date": "2026-11-07T17:30:04.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Les Rencontres de l'Avenir : une crise sociale qui persiste en France",
-  "source": "BFM Nice Côte d'Azur",
-  "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bfm-cote-d-azur-chez-vous/video-les-rencontres-de-l-avenir-une-crise-sociale-qui-persiste-en-france_VN-202611070449.html",
-  "resume": "Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. Vos chaînes locales sont au cœur des Rencontres de l’Avenir pour vous faire vivre cet événement et suivre les temps forts de ces échanges. Cette émission a été réalisée en partenariat avec La Tribune.",
-  "date": "2026-11-07T17:27:33.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "Tout juste destitué, l'ex-président du Paraguay entendu par la justice dans le cadre de la crise bancaire qui secoue le pays",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/monde/ameriques/l-ex-president-du-paraguay-entendu-par-la-justice-dans-le-cadre-de-la-crise-bancaire-qui-secoue-le-pays_8272526.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "La crise bancaire a éclaté mardi avec la mise sous tutelle pour insolvabilité d'une banque en ligne, gelant ainsi les dépôts de près de trois millions de personnes.",
-  "date": "2026-11-07T17:26:16.000Z"
- },
- {
-  "lang": "en",
-  "section": "Sport",
-  "titre": "Highlights: Non-league Kidderminster shock League One Doncaster",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz7l6exx3o?at_medium=RSS&at_campaign=rss",
-  "resume": "National League Kidderminster shock League One Doncaster to progress to the second round of the FA Cup.",
-  "date": "2026-11-07T17:23:20.000Z"
- },
- {
-  "lang": "en",
-  "section": "Finance",
-  "titre": "£250 a month could generate a £1,941 yearly passive income – and rocky markets can actually help!",
-  "source": "Yahoo Finance UK",
-  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd3VEdmZob0dPcW1lU2pxWklwRVgtZGFDU0FLZ2t2Q3ExNUtqSmZ1SkVkZ1pLbzVwVGVqTGliN2lxSi1XS2dJOWdMMFZjOEkwd2ZRYmZoRXRmdmJnRmJ0a241RmpraTZ2U3Q4ZDNweXNubUVYaFd0YmhCd2hWbmljRQ?oc=5",
-  "resume": "",
-  "date": "2026-11-07T17:15:00.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Luca Van Assche, dernier représentant tricolore au Masters 1000 de Paris, s’incline en demi-finale",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/sport/article/2026/11/07/luca-van-assche-dernier-representant-tricolore-au-masters-1000-de-paris-s-incline-en-demi-finale_6808303_3242.html",
-  "resume": "Malgré une rencontre disputée, le Français de 22 ans a été éliminé par Ben Shelton, quatrième mondial, en demi-finale du Masters 1000 de Paris samedi. L’Américain affrontera Carlos Alcaraz, vainqueur de Casper Ruud, pour le titre.",
-  "date": "2026-11-07T17:11:30.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Houthis say at least 25 killed in Saudi air strike",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-  "resume": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-  "date": "2026-11-07T17:09:24.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Tech",
-  "titre": "Dans les cabinets d’affaires, l’inquiétude des jeunes avocats : « D’ici à cinq ans, l’IA sera capable d’exécuter la quasi-totalité des tâches aujourd’hui confiées à un stagiaire ou à un jeune collaborateur »",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/campus/article/2026/11/07/dans-les-cabinets-d-affaires-l-inquietude-des-jeunes-avocats-d-ici-a-cinq-ans-l-ia-sera-capable-d-executer-la-quasi-totalite-des-taches-aujourd-hui-confiees-a-un-stagiaire-ou-a-un-jeune-collaborateur_6808299_4401467.html",
-  "resume": "Alors que l’intelligence artificielle générative déferle dans le monde du droit, une partie de la jeune génération d’avocats s’interroge sur ses perspectives de carrière.",
-  "date": "2026-11-07T17:00:14.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "« L’Europe et le Canada se sont mis d’accord pour essayer de vivre dans un monde post-Trump avant même qu’il ait quitté la Maison Blanche »",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/idees/article/2026/11/07/l-europe-et-le-canada-se-sont-mis-d-accord-pour-essayer-de-vivre-dans-un-monde-post-trump-avant-meme-qu-il-ait-quitte-la-maison-blanche_6808298_3232.html",
-  "resume": "L’Union européenne et Ottawa s’inspirent de la stratégie de la « révolution autolimitée », pensée par les dissidents d’Europe de l’Est dans les années 1970 pour bâtir une société parallèle à côté de la société officielle, sans chercher à la réformer, note le politiste bulgare Ivan Krastev, dans une tribune au « Monde ».",
-  "date": "2026-11-07T17:00:13.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Culture",
-  "titre": "Angèle s'inquiète du trop-plein de nos vies",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-radio/ces-chansons-qui-font-l-actu/angele-s-inquiete-du-trop-plein-de-nos-vies_8251669.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Avec \"Trop\", chanson de son nouvel album, la chanteuse belge s'insère dans une tradition perpétuellement renouvelée d'inventaires du ras-le-bol des tensions et des stress de l'époque.",
-  "date": "2026-11-07T17:00:02.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Business",
-  "titre": "J'ai testé pour vous un cours pour apprendre la Langue des signes française (LSF)",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-radio/j-ai-teste-pour-vous/j-ai-teste-pour-vous-un-cours-pour-apprendre-la-langue-des-signes-francaise-lsf_8251648.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Pour sa nouvelle immersion, Ingrid Pohu s'est rendue au Centre Paris Anim’ Richet. Elle a choisi le niveau débutant, accessible dès 14 ans. Durée du cours : une heure et demie.",
-  "date": "2026-11-07T17:00:01.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Briton among six dead after gunman opens fire in Kraków market square",
-  "source": "The Guardian",
-  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTzNFdnFEUjdfLUpna3o3TDJHZ0NOZ3pDdXZtdk52aVRqZkJXVGRYc1Y2YmNFZ3FjeEZINXMxR29KV005XzhpZ250Skt6ZWJ4TFRFcG9SMmRWWXUwQmNlbXBMWjhCd013WV9EVUUyMVhNRXI2WEZ4eG5EcG1ScHVQRXlzbFRfY1p4Ymlrd015aFYzYVY0NHNydXhyem0?oc=5",
-  "resume": "",
-  "date": "2026-11-07T16:59:00.000Z"
- },
- {
-  "lang": "en",
-  "section": "Tech",
-  "titre": "Why Reducing Risk, Not Counting It, Is the Right Security Metric",
-  "source": "Cybersecurity Insiders",
-  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObl84TzJMUUJfVUE5dWpwV3hUMWQwSmhZYWY0eE5FczI1ZGVvODNuS1VQR1dNdWoxa09aNXBJWFFBNGxQdWstMkZqa0VNQmhPLW9aUThVNnM4T0FocTlxVVVlRlRSUmJuTVAwT1dRLUN4QU9md0RsYXFnUHhtX1VxZ0pPN3BWbnNMWU9XcFYyakRLdkNNYUVxUU15bWhqNVhXYnJYYQ?oc=5",
-  "resume": "",
-  "date": "2026-11-07T16:52:15.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Italian foreign minister says hackers leaked his personal data",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
-  "resume": "Prime Minister Giorgia Meloni has blamed pro-Russian hackers for publishing the details online.",
-  "date": "2026-11-07T16:50:06.000Z"
- },
- {
-  "lang": "en",
-  "section": "Tech",
-  "titre": "Are hackers targeting America’s food supply?",
-  "source": "FOX 8 News",
-  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBubU16NktfSjhVN2VKSkxfSloxMC1TSFp2SlFaeEpPNS1mMG4tako0RWh3UDNMYXRtYUt3c1FvbnhqVUZyRHg2TlBfSkNBcmE0TTJsOGQxaklaQm4zS1BLMnBUd0tvbkl0SjZLU0V0NlQ0LVXSAXhBVV95cUxNaUxFS05aSmdUcTB4SlhoWEtoUnRVeFdBSDZyX1Z6NXdMNHNwNkhUWXExT0ltWkNmd0QzWFVyU0Z6OTB5UkwtV0d0azZSREhwS01lVlBSMVdMUk9DMXdTMDJkR0xkSUw1YVhKakFTd2tWdjVkUmlWRng?oc=5",
-  "resume": "",
-  "date": "2026-11-07T16:44:42.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "L’IA, un enjeu d’avenir pour la Région Sud : 70 millions d’euros investis sur cinq ans",
-  "source": "BFM Nice Côte d'Azur",
-  "url": "https://www.bfmtv.com/cote-d-azur/videos/video-l-ia-un-enjeu-d-avenir-pour-la-region-sud-70-millions-d-euros-investis-sur-cinq-ans_VN-202611070414.html",
-  "resume": "Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. Vos chaînes locales sont au cœur des Rencontres de l’Avenir pour vous faire vivre cet événement et suivre les temps forts de ces échanges.",
-  "date": "2026-11-07T16:38:16.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "SCO Angers - OGC Nice en direct - Ligue 1 : Football Scores & Résultats - 08/11/2026",
-  "source": "Eurosport",
-  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeWZSSTh0S0d2ZDdocHFXbGdwR0pZQVc2eHlhek4xemNnSkxVQmkxY29tMUF6N3ptTWFBLThXUURoc1hlb2RrVDJCTGNLSkVwcUNiR0txV09SV09kRzRMaHpKUy1aamdON0loUzFFNWdoeE1sRkRyV1d4ZnRfWUd6WHU0bFA4NUVDRXFtTDEyRDN3c3c1RlVoRS1pX1dYV0cx?oc=5",
-  "resume": "",
-  "date": "2026-11-07T16:36:14.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Culture",
-  "titre": "Le monde du livre place tous ses espoirs sur Noël après une rentrée littéraire difficile",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/culture/livres/le-monde-du-livre-place-tous-ses-espoirs-sur-noel-apres-une-rentree-litteraire-difficile_8272517.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Entre polémique sur l'intelligence artificielle, contestation des grands prix littéraires et inquiétudes sur la concentration du marché, le secteur traverse une période de fortes turbulences.",
-  "date": "2026-11-07T16:33:43.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Événementiel",
-  "titre": "« Super-rafales, un phénomène sous surveillance », sur Arte : voyage au centre des mégatempêtes",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/culture/article/2026/11/07/super-rafales-un-phenomene-sous-surveillance-sur-arte-voyage-au-centre-des-megatempetes_6808297_3246.html",
-  "resume": "A l’occasion de la COP31 sur le climat, des scientifiques passionnés décryptent ces phénomènes météorologiques récents et violents dans un documentaire spectaculaire.",
-  "date": "2026-11-07T16:30:10.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Colère lycéenne: Manuel Valls défend des classes moins nombreuses et davantage d'égalité des chances",
-  "source": "BFM Nice Côte d'Azur",
-  "url": "https://www.bfmtv.com/cote-d-azur/videos/video-colere-lyceenne-manuel-valls-defend-des-classes-moins-nombreuses-et-davantage-d-egalite-des-chances_VN-202611070406.html",
-  "resume": "Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. Vos chaînes locales sont au cœur des Rencontres de l’Avenir pour vous faire vivre cet événement et suivre les temps forts de ces échanges.",
-  "date": "2026-11-07T16:24:48.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "Footage shows police officer shooting suspect in Krakow",
-  "source": "Sky News",
-  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZVFaSmhzNVh4RVlzR2F0NE9wNnVPczk5UTBJZTNoRVJra2w1bUJtRzRDVFJsQ1l5a2VlQ2NWQk1oSXhWZjBuRTBsT2U2TjNBRVN6UDdyMFhzQTJVdGFnb1c1QlZBaTJIS2xZVTJNQTVHOC1pWXNZelJlS1REdFNvbEd4TUxLdnFYN2xLd1BFTklDa2d1T1E?oc=5",
-  "resume": "",
-  "date": "2026-11-07T16:19:58.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Crise sociale : Manuel Valls regrette le retard du gouvernement dans le dialogue avec les Français",
-  "source": "BFM Nice Côte d'Azur",
-  "url": "https://www.bfmtv.com/cote-d-azur/videos/video-crise-sociale-manuel-valls-regrette-le-retard-du-gouvernement-dans-le-dialogue-avec-les-francais_VN-202611070394.html",
-  "resume": "Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. Vos chaînes locales sont au cœur des Rencontres de l’Avenir pour vous faire vivre cet événement et suivre les temps forts de ces échanges.",
-  "date": "2026-11-07T16:11:48.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "L'épopée du Français Luca van Assche stoppée en demi-finales du Masters 1000 de Paris par Ben Shelton",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/sports/tennis/masters-1000/l-epopee-du-francais-luca-van-assche-stoppee-en-demi-finales-du-masters-1000-de-paris-par-ben-shelton_8272385.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "L'Américain, numéro quatre mondial, a vacillé mais a finalement fait respecter son rang, samedi, en dominant le Français en trois sets.",
-  "date": "2026-11-07T16:10:32.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "À l’approche de 2027, les Rencontres de l’Avenir prônent le dialogue au cœur du débat politique",
-  "source": "BFM Nice Côte d'Azur",
-  "url": "https://www.bfmtv.com/cote-d-azur/videos/video-a-l-approche-de-2027-les-rencontres-de-l-avenir-pronent-le-dialogue-au-c-ur-du-debat-politique_VN-202611070390.html",
-  "resume": "Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. Vos chaînes locales sont au cœur des Rencontres de l’Avenir pour vous faire vivre cet événement et suivre les temps forts de ces échanges.",
-  "date": "2026-11-07T16:03:06.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "\"L'objectif est de faire avancer la recherche\" : une jeune Lyonnaise va courir un marathon pour rendre hommage à son amie décédée d'une tumeur au cerveau",
-  "source": "France 3 Côte d'Azur",
-  "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/l-objectif-est-de-faire-avancer-la-recherche-une-jeune-lyonnaise-va-courir-un-marathon-pour-rendre-hommage-a-son-amie-decedee-d-une-tumeur-au-cerveau-3445245.html",
-  "resume": "Elise Martin sera alignée ce dimanche 8 novembre au départ du marathon des Alpes-Maritimes, aux côtés des proches d'Alexia, son amie emportée par une tumeur au cerveau en juin dernier.",
-  "date": "2026-11-07T16:02:09.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Edwin Pindi, président du club de football de Troyes : « Même sous pavillon étranger, il y a un vrai respect de l’identité locale »",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/sport/article/2026/11/07/edwin-pindi-president-du-club-de-football-de-troyes-meme-sous-pavillon-etranger-il-y-a-un-vrai-respect-de-l-identite-locale_6808295_3242.html",
-  "resume": "Alors que la formation auboise affronte le PSG au Parc des Princes, samedi, en Ligue 1, son dirigeant revient, dans un entretien au « Monde », sur les relations avec son puissant propriétaire, le City Football Group, également à la tête des Skyblues outre-Manche.",
-  "date": "2026-11-07T16:00:11.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "No clear winner after tight New Zealand general election",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
-  "resume": "Weeks of coalition talks could follow after preliminary results pointed to a highly divided national parliament.",
-  "date": "2026-11-07T15:56:28.000Z"
- },
- {
-  "lang": "en",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Matthieu Bailet: “When I’m smiling, I’m quick on skis”",
-  "source": "Nice Premium",
-  "url": "https://www.nice-premium.com/matthieu-bailet-when-i-m-smiling-i-m-quick-on-skis/",
-  "resume": "On the eve of his departure for the United States, where the season will open on November 28 with a Super-G at Copper Mountain, Matthieu Bailet reflects on his",
-  "date": "2026-11-07T15:47:24.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Business",
-  "titre": "Alertes à la bombe visant des avions : une enquête ouverte par le parquet de Paris, notamment sur un lien éventuel avec des puissances étrangères",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/societe/article/2026/11/07/alertes-a-la-bombe-visant-des-avions-une-enquete-ouverte-par-le-parquet-de-paris-notamment-sur-un-lien-eventuel-avec-des-puissances-etrangeres_6808294_3224.html",
-  "resume": "Les investigations sont « menées pour retrouver les auteurs des courriels divulguant ces fausses informations afin de faire croire à une destruction dangereuse », a expliqué le parquet.",
-  "date": "2026-11-07T15:43:47.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Crise de confiance : l’ex-ministre Agnès Buzyn reconnaît un échec face aux attentes des Français",
-  "source": "BFM Nice Côte d'Azur",
-  "url": "https://www.bfmtv.com/cote-d-azur/videos/video-crise-de-confiance-l-ex-ministre-agnes-buzyn-reconnait-un-echec-face-aux-attentes-des-francais_VN-202611070382.html",
-  "resume": "Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. Vos chaînes locales sont au cœur des Rencontres de l’Avenir pour vous faire vivre cet événement et suivre les temps forts de ces échanges.",
-  "date": "2026-11-07T15:37:30.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sorties",
-  "titre": "Ce week-end à Nice, 9 idées sorties incontournables : marathon, concert à la bougie, procès immersif et bien plus encore du 6 au 8 novembre",
-  "source": "jds.fr",
-  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTNCS3RlOG9QVS1fb3NFS1FiRmJXM2ZPeFVndEkyNjJWN1ppdjNuamhRdm0ySElYaUtEblRPS1p6WktxUTlSa09MVExpU0ROVkprYzVISGNFbGstQTZKb0t6ZnRjQzNUczJNbmFVRUF4OFNyT1Y3anhURHV4M2NyQVpTbkZiWGtRMnh1REVaZlE1Sy1aWlRtMDQ0S3p4ZnU4aFBLZU1IeUw3cmhl?oc=5",
-  "resume": "",
-  "date": "2026-11-07T15:35:44.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Business",
-  "titre": "Immobilier : Les Assises de l’innovation dans l’habitat",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/replay-radio/info-immobilier/immobilier-les-assises-de-l-innovation-dans-l-habitat_8251705.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Dans le cadre de la semaine de l’immobilier et du logement, plusieurs événements étaient organisés dont les 1res Assises de l’innovation dans l’habitat. Que faut-il retenir en synthèse ?",
-  "date": "2026-11-07T15:30:02.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "L’arrestation du père de Meghan Markle pour pédocriminalité, sept ans après de premières « allégations », interroge sur l’absence d’enquête durant cette période",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/international/article/2026/11/07/l-arrestation-du-pere-de-meghan-markle-pour-pedocriminalite-sept-ans-apres-de-premieres-allegations-interroge-sur-l-absence-d-enquete-durant-cette-periode_6808292_3210.html",
-  "resume": "Arrêté vendredi 6 novembre en Floride pour détention d’images à caractère pédopornographique, Thomas Markle a été placé sous surveillance électronique par le FBI. Dès 2019, la duchesse de Sussex avait été informée d’« allégations troublantes » contre son père par la police de Londres.",
-  "date": "2026-11-07T15:22:13.000Z"
- },
- {
-  "lang": "en",
-  "section": "Monde",
-  "titre": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
-  "source": "BBC News",
-  "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
-  "resume": "The former Brexit negotiator says EU countries would reject any British attempts to follow economic rules \"a la carte\".",
-  "date": "2026-11-07T15:19:35.000Z"
- },
- {
-  "lang": "en",
-  "section": "Culture",
-  "titre": "Splashes of light and colors from the French Riviera illuminate London",
-  "source": "TravelMole",
-  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbXY4YWdrb1BSQS1Gc1VwdUJZZTdTZzNrREFEY0JQcE5xSVllN3VlUnFwSVplUFI5eVBwQzMxS21KY183UFl2UmJvVXpVQTZvYUVLV2dKZUswU3ZIQ2VZLXZBa1FXaVV6cG1rN1VGV0RJaEh6TFpYTFpwRzZNZzYzXzh6VGRhMHFfLTRhMnYzRGdoZXBSX2hQdktSX3hTMlE?oc=5",
-  "resume": "",
-  "date": "2026-11-07T15:13:41.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Mobilisation du 7 novembre à Nice 2300 à 5000 manifestants dans une ambiance festive avant des interpellations",
-  "source": "ici Azur",
-  "url": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/mobilisation-du-7-novembre-a-nice-2300-a-5000-manifestants-dans-une-ambiance-musicale-et-militante-3041618?at_medium=lien_RSS&at_locale=49",
-  "resume": "Des milliers de personnes ont manifesté à Nice pour défendre le pouvoir d'achat et soutenir le mouvement lycéen. Une manifestation dans le calme mais après la dispersion, la police a interpellé une cinquantaine de personnes qui tentaient de se rendre sur l'avenue Jean Médecin.",
-  "date": "2026-11-07T15:12:51.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Culture",
-  "titre": "Des millions de lecteurs privés de leurs histoires : la grande bibliothèque en ligne où les fans réécrivent leurs séries et leurs films préférés victime d'une cyberattaque",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/culture/livres/des-millions-de-lecteurs-prives-de-leurs-histoires-la-grande-bibliotheque-en-ligne-ou-les-fans-reecrivent-leurs-series-et-leurs-films-preferes-victime-d-une-cyberattaque_8272433.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Créé en 2008, \"Archive of Our Own\" héberge près de 18 millions de récits écrits par des amateurs. L'association qui gère le site espère pouvoir le remettre en ligne d'ici un mois.",
-  "date": "2026-11-07T15:11:54.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Événementiel",
-  "titre": "Ann Jefferson, biographe : « Nathalie Sarraute cherchait à rendre visible ce que les mots dissimulent »",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/culture/article/2026/11/07/ann-jefferson-biographe-nathalie-sarraute-cherchait-a-rendre-visible-ce-que-les-mots-dissimulent_6808290_3246.html",
-  "resume": "Pour Nathalie Sarraute (1900-1999), les paroles sont autant d’armes que de moyens de dissimulation. Ses livres mettent en scène des drames, petits et grands, dont les mots sont la cause et l’instrument. Ann Jefferson, sa biographe, qui a participé à l’édition de ses œuvres complètes dans « La Pléiade », retrace son parcours et ce qui l’a amenée à s’intéresser aux blessures que nous infligent les propos des autres.",
-  "date": "2026-11-07T15:00:15.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sport",
-  "titre": "Le XV de France confronté à une hécatombe de blessures avant son match contre les Fidji, un casse-tête pour Fabien Galthié",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/sport/article/2026/11/07/le-xv-de-france-confronte-a-une-hecatombe-de-blessures-avant-son-match-contre-les-fidji-un-casse-tete-pour-fabien-galthie_6808289_3242.html",
-  "resume": "Privés de nombreux titulaires, les Bleus affrontent les Fidji, samedi, lors du Championnat des nations de rugby. Avant de se frotter aux doubles champions du monde sud-africains, moins d’une semaine plus tard.",
-  "date": "2026-11-07T15:00:06.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Tech",
-  "titre": "Guillaume Séraphine (Cybermatch) :Cybermatch, cabinet de recrutement en cybersécurité - 07/11",
-  "source": "BFM",
-  "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOa1hXZ29Wa1dYVEtUUUJabHZITm16dWdnN1I0Wk5PcEdrRDg1SXU0V1RNMDZOYnU5SzMxTUFOaTRERWFKbXVIbkhJZUxpeThBdVZMamtFSDEtMG5XeWxRemtBWV9pSzEyQjZsOS1GUGxYZDhlbXFPMncyMXVRM2YxWHIyd1ExVFFPYUxrMFltcHEzdWtlb1FaRUtpaGtiNE1ud1lUQlVmOHZ5Z3Z6TFBFMm5xX3VqY0xLZXREVGtYMkM2RGV4SU5yRGZnTDE5Yi1BeTk5RjZOTll0YWRIUDdBY3l3Zl81Mm5iRFlGdnIwVTlVZmRzNmprY19odUZEQ1VlRWtaZXNEbkFoQQ?oc=5",
-  "resume": "",
-  "date": "2026-11-07T14:59:55.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Nice & Côte d'Azur",
-  "titre": "Rencontres de l’Avenir : P. Bentata appelle à s’inspirer des modèles européens pour réduire la dette",
-  "source": "BFM Nice Côte d'Azur",
-  "url": "https://www.bfmtv.com/cote-d-azur/videos/video-rencontres-de-l-avenir-p-bentata-appelle-a-s-inspirer-des-modeles-europeens-pour-reduire-la-dette_VN-202611070366.html",
-  "resume": "Pendant trois jours, du 6 au 8 novembre, Saint-Raphaël accueille les grandes figures politiques françaises pour débattre des enjeux de demain, à quelques mois de l’élection présidentielle. Vos chaînes locales sont au cœur des Rencontres de l’Avenir pour vous faire vivre cet événement et suivre les temps forts de ces échanges.",
-  "date": "2026-11-07T14:57:27.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Tech",
-  "titre": "Cyberattaque Crédit Mutuel Arkéa : comment contenir une menace sans interrompre les services bancaires",
-  "source": "Global Security Mag Online",
-  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQelhvWjNITFFfN0NfQnlKaVBNU0hMNmpmdlE4WlBsVUp0MDU3MnBTZWdVZHZaWUV6QjFFUDdPUGVXOUlrc1NJT1l2ZmRxOXlkV25yVnhkaU9jVFg2d1k3akliNTZFcUdCa1hKNjZLT0VSMmNfLV8wYnRuZFRrcVhUd1BvelNmckdQS1p3dWhsaDJnNDJKeTA1ejVYNm12N05mQ1c2QjF0bEJBMklrQk9qck9hcEtnQQ?oc=5",
-  "resume": "",
-  "date": "2026-11-07T14:49:17.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "A Gaza, des pluies diluviennes et des inondations privent d’abri des dizaines de milliers de déplacés",
-  "source": "Le Monde",
-  "url": "https://www.lemonde.fr/international/article/2026/11/07/a-gaza-des-inondations-privent-d-abri-des-dizaines-de-milliers-de-deplaces_6808287_3210.html",
-  "resume": "Environ « 70 000 tentes (…) ont été inondées durant la première journée » d’une dépression qui touche le territoire palestinien «, a expliqué le bureau de presse du gouvernement contrôlé par le mouvement islamiste Hamas.",
-  "date": "2026-11-07T14:47:21.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "Volodymyr Zelensky accuse la Russie d'intensifier ses frappes pour \"mettre la pression\" avant les négociations trilatérales",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/volodymyr-zelensky-accuse-la-russie-d-intensifier-ses-frappes-pour-mettre-la-pression-avant-les-negociations-trilaterales_8272400.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Le président ukrainien a par ailleurs estimé que l'armée russe avait notamment utilisé des missiles fabriqués en Corée du Nord lors des frappes contre les infrastructures énergétiques dans la nuit de vendredi à samedi.",
-  "date": "2026-11-07T14:44:52.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Sorties",
-  "titre": "Ben Harper, Kassav' et les Nuits du Sud : les incontournables du week-end dans le Var et les Alpes-Maritimes",
-  "source": "https://horticulture-abadie-pyrenees.com/",
-  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vS2tkUVFfS1kxQzBBQXdWQV8yY2lhOHIwVEszLVZPRTc3TW1Yd0Y5alFNeF9GZzN2MnVacFhZMUw1eTJOVmkzeE5DcmlYaXFUdi1VbGhnc094ME9tRXJULXBhajdWeTVkMmZPZA?oc=5",
-  "resume": "",
-  "date": "2026-11-07T14:42:24.000Z"
- },
- {
-  "lang": "fr",
-  "section": "Monde",
-  "titre": "Stephen Miller, un réactionnaire à la tête de l'administration Trump",
-  "source": "franceinfo",
-  "url": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/stephen-miller-un-reactionnaire-a-la-tete-de-l-administration-trump_8272337.html#xtor=RSS-3-%5Bgeneral%5D",
-  "resume": "Aux États-Unis, quel signal Donald Trump allait-il donner après sa défaite aux élections de mi-mandat ? Le président américain a décidé de nommer une figure de la droite identitaire comme nouveau directeur de cabinet : Stephen Miller, considéré comme un défenseur du suprémacisme blanc. Une décision fortement critiquée par les démocrates.",
-  "date": "2026-11-07T14:42:06.000Z"
  }
 ]
