@@ -1,590 +1,856 @@
 [
   {
-    "id": "2026-11-16-en-agenda-semaine",
-    "lang": "en",
-    "date": "2026-11-16",
-    "section": "Sorties",
-    "rubrique": "What's on",
-    "emoji": "🗓️",
-    "type": "article",
-    "genre": "agenda",
-    "auteur": "Théo Marchal",
-    "titre": "What’s on this week on the French Riviera, 16 to 22 November",
-    "chapo": "6 events and outings spotted in the news, from Nice to Monaco.",
-    "corps": [
-      "What is coming up on the French Riviera this week? Our newsroom has gathered the announcements published over the past seven days by Expats.cz, IMDb, Zolima CityMag, Monaco Life and Nice-Matin: shows, exhibitions, festivals and events, from Nice to Monaco.",
-      "“Czech cinema spotlight: French Film Festival brings Cannes to Prague” (Expats.cz).",
-      "“Monaco launches new Résonance music festival with eight free concerts in historic churches” (Monaco Life).",
-      "“Édith Piaf Comes Back to Life in Monaco: Nathalie Lermitte Stars in a Free Show on November 18, 2026” (Montecarlo Living).",
-      "“Francis Picabia Exhibition, Mediterranean, the Azure Studio, at La Malmaison in Cannes” (Arts in the City).",
-      "“Painting the French Riviera: a ‘miraculous’ exhibition” (The Week).",
-      "“AI-powered films awarded in Istanbul to compete at Cannes festival in 2027” (Türkiye Today).",
-      "Dates and times can change: check with the organisers before you go. The full articles are available through the links at the end of the page."
-    ],
-    "sources": [
-      "Expats.cz",
-      "IMDb",
-      "Zolima CityMag",
-      "Monaco Life",
-      "Nice-Matin",
-      "Montecarlo Living",
-      "Arts in the City",
-      "The Week",
-      "Türkiye Today"
-    ],
-    "liens": [
-      {
-        "titre": "Czech cinema spotlight: French Film Festival brings Cannes to Prague",
-        "source": "Expats.cz",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYXJnMEoyS0ZZaW0wR1pNSmRSNGZtUEFfRWx3VnBhVjFIUFJ4c0dMMEwzYldZdkdraU9WLWVhWFFENldRNWZubVZDMkswMHJGeVlqSmJKMWZCV3BpZkF4Tmx2TU1nVEoyWEVsbnhROW14dHRfNjNoeFc5NjVrNUE0VThabkZwWE04N3NqamQzVUlJMnlTUUVhZnNES2VlWWRFNWNJTUR6T1ZHalpE?oc=5",
-        "resume": "",
-        "heure": "2026-11-15T13:02:00.000Z"
-      },
-      {
-        "titre": "The Safar Twins at the 79th Cannes Film Festival",
-        "source": "IMDb",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UNWs4Y2laVl9xazZBVGtJQTkxWmpJSTQzX3hHZm9JMl9vMlV2aFBhYVZPTmpVbkpFYmxiblk5dlNSVGlBaTNIbEtfbEpWd3RwLUE?oc=5",
-        "resume": "",
-        "heure": "2026-11-15T05:55:12.000Z"
-      },
-      {
-        "titre": "Hong Kong French Film Festival Turns 55, Collabs with Cannes",
-        "source": "Zolima CityMag",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03MVNnbktVNmNJM0pzaC1jdF9aMFdxNlNuU3FfaVQybGJrQVJiZkE1aDNRNFJpM0RNN2h6a1RfSnZQLXl4aDM2dDBVanY1bHZTVzRZMnBwZVlUdzBVcE9SOXlzVVc1UXZMVXBqYjR2eGxFXzZQRmJPXw?oc=5",
-        "resume": "",
-        "heure": "2026-11-11T08:00:00.000Z"
-      },
-      {
-        "titre": "Monaco launches new Résonance music festival with eight free concerts in historic churches",
-        "source": "Monaco Life",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOThzaklWU2NOUFdYNTN3NGY0MDRseFBwck0tdkp6VG9GTnpQNWJiLW16VEsydG14MjQ4UDhZZ0JJYzNrTEZjaU5KeV9EWkVXaGdnNWhJUEpyY09YWmIxWHZpQU94NTNmQlpfdV9xRkNLRVVKMUowX0RGYUIwM0FkMEFrT1VSRVN0NWV6RTQ1VmR2eGdtcFk0ZlYxUXNTczRIZ2hxVXotRThNQ3BzQms3U1RwUmE?oc=5",
-        "resume": "",
-        "heure": "2026-11-11T14:23:17.000Z"
-      },
-      {
-        "titre": "Monaco Launches \"Résonance\", a New Music Festival Celebrating Four Centuries of Music",
-        "source": "Nice-Matin",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOUpMS1I5RkhBaTNMS2JVc0pQTjh0MnVRRElMcUU5QkJERGZ0ZFlrNmZQRjJKVXdpXzFUa1hDMVhycmQ4WFNsd3lrbll3V1lGRjVqdlc4d2xRSXNZUVdoOHJIaUxhVnFSSlQzRmlsOGdDeXJDeVJ2MFpacFp2UktGRHlsN2wtcVRWQzhrZkJpa09TckJLN0FTelhUdmZYQVNNMEVpa3Eya0FkQ2hvNHZheERPV1VYR1BkcHlObG1hMW1QRzgwMkhpSjFEeHJScEMtNjBzNWQyVUY3c2F5?oc=5",
-        "resume": "",
-        "heure": "2026-11-10T17:02:01.000Z"
-      },
-      {
-        "titre": "Édith Piaf Comes Back to Life in Monaco: Nathalie Lermitte Stars in a Free Show on November 18, 2026",
-        "source": "Montecarlo Living",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUmlvd1NJNkY5bm9GVDhKSkdITWJqcEE3SWVsbWxvdUp4WmNOejVsY2FnamdQTWNCajV6b3ktME93OTdqYkZ6VTVvZjdyMG5hX09XdGZHQWx4NkNURDhpQ3JQSmJVOGNCTG92dXJ5QVZtaWlyTjRqdkZlUTc4MFFEclcwNjRDLWlEem52a0tIaTR6YUs1eWpmRnZPM1AzTVZ5aWJpYlp1QU5VZTBQMGxHNF93V0ZQVnBNeVpIbHMtMHNwSzgwcW1ua2xTWGt4Vk10QjhFV3RTSEU4VnppUlE?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T08:03:37.000Z"
-      },
-      {
-        "titre": "Francis Picabia Exhibition, Mediterranean, the Azure Studio, at La Malmaison in Cannes",
-        "source": "Arts in the City",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMk5ycjBXYWxjWEdUSEFvZ21ZQ3VwMjJfdUV3QlFPZ2VkcFZZNWZSMHBfSU1wV3RRNFQ1V3otQmJfeHlYWkJVd1R2ekhfZXhIT25fMHEtSDd4amZ2anhpWjk4MXdYNm9GaUY0d2VHdzVKbUNJbDN6ZGlUTU0wQ2pHWDlmS2ZDWTU0eXJTUUQ2SlNTbU1GeWhhcUFnbVBRd2ozYS1ieWlVX3RGTF9qUHk4Y3ZWbXhxZFRBUE9VUE1Cdjdadw?oc=5",
-        "resume": "",
-        "heure": "2026-11-15T20:03:17.000Z"
-      },
-      {
-        "titre": "Painting the French Riviera: a ‘miraculous’ exhibition",
-        "source": "The Week",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONnlvZjc0dFBmVGdKTWxlZ0tTSnhBUDZVaUR2QXRySmluQzc5RWE1eWdFcnlFTjAtOTB0Q2Y2QUYxTkk2MmF1cmJKQWZ1RUpnSEphVjYwMjBQNGh0UEllamt3WlFaakdCdlMwanZzQmJvb2FVR0U2YVhzOW5FQUZid196eG1palNLb2h1U0RKN2FKLXlISmdSRUR4dWhXakt4?oc=5",
-        "resume": "",
-        "heure": "2026-11-13T09:36:52.000Z"
-      },
-      {
-        "titre": "Painting the French Riviera: a ‘miraculous’ exhibition",
-        "source": "The Week",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbDMwUldlQ1RrTC1ORVh3NWZNbWcwRkJhLTdIQlgyb2FhbkNqaFBNNGlSOXhRbS1XMXdUREloWmRmNTVtUnJNZ0NZdFZObzZ5RnVyZDZuT2U1SUFIa3pfS0lzUS1kNW54WHRfd2JCZFdKdm13b2ZoSVpKenkxcXVFTmZhMHhhRUZKWFo5cDlBc1ZlbW1HZGZvaVptS2k?oc=5",
-        "resume": "",
-        "heure": "2026-11-13T09:36:52.000Z"
-      },
-      {
-        "titre": "AI-powered films awarded in Istanbul to compete at Cannes festival in 2027",
-        "source": "Türkiye Today",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbzcxcDdNaTUyX1U5YThfTDZxcWFxc2h1MGZTUWNRMFBVT09nSGVlUjVDVjFRLURNY1BuZjZkT2NTUFJxelR2Z2MzamhKeGZpQUREdzY3WHdoN0dlVWhQdlAybEMwN2FyQU9mYVgxSm1JY1h0YThOU0lJRGtNSjJ2RHVJX1ZXREswWVpldHk2MWlZeDhmdGJ6TnFvYXc2MU5hQ0xUaFdLaHVKUWExX0lqdjFSV3QxZFBtVTFF?oc=5",
-        "resume": "",
-        "heure": "2026-11-12T07:33:35.000Z"
-      }
-    ],
-    "redige": true,
-    "image": {
-      "src": "img/entreprises/2026-11-16-agenda-semaine.jpg",
-      "credit": "Florian Fèvre / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:FlixBus_Irizar_i6_-_Nice_A%C3%A9roport.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    },
-    "chemin": "/en/going-out/2026/11/16/agenda-semaine/"
-  },
-  {
-    "id": "2026-11-16-agenda-semaine",
+    "id": "2026-11-17-actu-business",
     "lang": "fr",
-    "date": "2026-11-16",
-    "section": "Sorties",
-    "rubrique": "Agenda",
-    "emoji": "🗓️",
-    "type": "article",
-    "genre": "agenda",
-    "auteur": "Théo Marchal",
-    "titre": "L’agenda de la semaine sur la Côte d’Azur, du 16 au 22 novembre",
-    "chapo": "7 rendez-vous et idées de sorties repérés dans l’actualité, de Nice à Monaco.",
-    "corps": [
-      "Que faire cette semaine sur la Côte d’Azur ? La rédaction a rassemblé les annonces publiées ces sept derniers jours par Tribuca.net, Monaco Hebdo, BFM Nice Côte d’Azur, jds.fr et Nice-Matin : spectacles, expositions, fêtes et rendez-vous, de Nice à Monaco.",
-      "« De l’Australie à la Corée du Sud, onze pays à l’affiche du Festival de danse de Cannes » (Tribuca.net).",
-      "« Le journal de 8h du vendredi 13 novembre 2026 » (BFM Nice Côte d’Azur). Bonjour La Côte d’Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise.",
-      "« « L’IA peut venir me rendre visite, j’aurai toujours mon stylo à la main » : Luc Besson honoré pour sa carrière à Monaco » (Nice-Matin). Le réalisateur français a reçu un Legend Award samedi soir pour la soirée de clôture du Monte-Carlo Film Festival de la comédie.",
-      "« Le pilote niçois Stéphane Tribaudini marque les esprits sur la piste de la course d’ouverture de l’Asian Le Mans Series au Castellet » (Nice-Matin). Leader de la catégorie GT3 à l’issue de son relais, le seul régional de l’étape, qui pilotait une Mercedes-AMG, a fait forte impression d’entrée ce week-end sur le circuit Paul-Ricard…",
-      "« À la Malmaison, Francis Picabia, peintre insaisissable et provocateur, va retrouver Cannes et la Croisette près d’un siècle après sa première exposition » (Nice-Matin). Il a vécu près de vingt ans sur la Côte d’Azur, fréquenté les grandes figures des Années folles et multiplié les expérimentations artistiques.",
-      "« Festival Femmes en Scènes : projection ciné-concert à la Cinémathèque de Nice » (jds.fr).",
-      "« Concert de nyckelharpa au Palais Lascaris de Nice » (jds.fr).",
-      "Les dates et horaires peuvent évoluer : vérifiez auprès des organisateurs avant de vous déplacer. Les articles complets sont accessibles par les liens en fin de page."
-    ],
-    "sources": [
-      "Tribuca.net",
-      "Monaco Hebdo",
-      "BFM Nice Côte d'Azur",
-      "jds.fr",
-      "Nice-Matin"
-    ],
+    "date": "2026-11-17",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "Mobilisation du 17 novembre : « Si le gouvernement mise sur une baisse de la contestation, il se met le doigt dans l’œil », estime Sophie Binet",
+    "chapo": "Entreprises, emploi, stratégie : l’essentiel de l’actualité économique. Le point du 17 novembre.",
+    "corps": [],
     "liens": [
       {
-        "titre": "De l'Australie à la Corée du Sud, onze pays à l'affiche du Festival de danse de Cannes",
-        "source": "Tribuca.net",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZWgtai1uSF9ldWZvbW1mMl92RmZnLUhxZlB0cHRQaE4wVGhobkRSSHJTSTgxaGlWdnlGTGQ2a0JfSHBYQ1N1dkFfbUh3LTlVRXNtQVpLbmZuX1ViM2otUGRTcGF1UlJFTUlPYTNJRFVVcVp3dWdmZTlqQ3YyUkN4QkRPT2pNY0lVUDZ5X2Z3VVQ2VlQ3eFltQlZaWFNUMkhZMzhhQlVBdw?oc=5",
-        "resume": "",
-        "heure": "2026-11-15T09:31:34.000Z"
+        "titre": "Mobilisation du 17 novembre : « Si le gouvernement mise sur une baisse de la contestation, il se met le doigt dans l’œil », estime Sophie Binet",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/17/mobilisation-du-17-novembre-si-le-gouvernement-mise-sur-une-baisse-de-la-contestation-il-se-met-le-doigt-dans-l-il-estime-sophie-binet_6812722_823448.html",
+        "resume": "La secrétaire générale de la CGT juge que la contestation reste vive et prévoit une nouvelle « forte journée de mobilisation ». A Lyon, la justice a autorisé une manifestation dans l’hypercentre, pour la première fois depuis celle du 17 octobre, qui avait été marquée par des violences et des dégradations.",
+        "heure": "2026-11-16T23:54:47.000Z"
       },
       {
-        "titre": "Le festival de danse Cannes – Côte d’Azur, c’est du 21 novembre au 6 décembre",
-        "source": "Monaco Hebdo",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRkZ4bDUyX2hiVzdqYjVUTXpnejd1UTh3QU5Sb2dsM2lsMktqNHNzOFpkbE5Ed3RvVkRGWkFNeGhNVVNtUFdDMVBNQVhhQlJCa1VqSm0yYVJDV3BtdGltOGJkcndxWHhmeGtQdlkzMjlMYm51X04tTS1iTW41MFljdkdFTmJ3NDMxdlRTSG0zX3ZKX3Q5dTVXR0ZCak5GaVlHaWNiTjBWeEppQQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-15T07:11:00.000Z"
+        "titre": "\"C'est pire que d'habitude\", \"Ça va être un bazar\"… La fermeture de l'A13 pour neuf mois provoque déjà des bouchons en Île-de-France et inquiète les communes",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/transports/c-est-pire-que-d-habitude-ca-va-etre-un-bazar-la-fermeture-de-l-a13-pour-neuf-mois-provoque-deja-des-bouchons-en-ile-de-france-et-inquiete-les-communes_8285477.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Trouver un autre chemin pour aller travailler, c’est le casse-tête qui commence pour les habitués de l’A13, fermée depuis lundi 16 novembre matin à la sortie de Paris, en direction de la Normandie, jusqu’à fin août 2027. Les bouchons étaient déjà nombreux ce lundi, et les communes voisines veulent éviter de récupérer les voitures dans leurs rues. Certains maires ont même sollicité les applications GPS.",
+        "heure": "2026-11-16T22:44:34.000Z"
       },
       {
-        "titre": "Le journal de 8h du vendredi 13 novembre 2026",
-        "source": "BFM Nice Côte d'Azur",
-        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-le-journal-de-8h-du-vendredi-13-novembre-2026_VN-202611130282.html",
-        "resume": "Bonjour La Côte d'Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise. Au sommaire : Menton, nouvelle scène de tension ce jeudi. Sud-Est, un mois de pluie en quelques heures. Carnaval de Nice, des nouveautés pour 2027.",
-        "heure": "2026-11-13T07:28:11.000Z"
+        "titre": "Débat de la présidentielle 2027 : revivez le débat entre Marine Le Pen, Raphaël Glucksmann, Jean-Luc Mélenchon, Gabriel Attal et Bruno Retailleau",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/election-presidentielle-2027/live/2026/11/16/en-direct-debat-de-la-presidentielle-2027-les-cinq-candidats-s-affrontent-sur-les-retraites-marine-le-pen-cible-la-ligue-des-droits-de-l-homme-un-ramassis-de-gauchistes_6811633_6205049.html",
+        "resume": "Les cinq candidats à l’élection ont débattu pendant près de trois heures sur TF1 puis LCI. « Financement magique », « foire aux taxes », « cadeaux fiscaux aux plus riches »… Tous s’accusent, notamment, de ne pas financer leurs propositions.",
+        "heure": "2026-11-16T22:21:54.000Z"
       },
       {
-        "titre": "Ce week-end dans les Alpes-Maritimes, 9 sorties incontournables du 13 au 15 novembre 2026, du concert de Vanessa Paradis à Nice aux secrets olfactifs de Grasse",
-        "source": "jds.fr",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSDdYWVMzcG1uMUp0VmE3em1MSWkxdWt2dE4ycFV6Q0pLSmdDN3FUSEhQOFNqZDMyaDRiTWMwRi1pTHhiWGFfOWtLUGdJNXZ1X3pXTm1nRGNBZ1ZfM0xTejhHR2phWEI3bUFHbERCR1RnN0dMM2VZUEJacVI0a0x5LUZnbDU5TndpYV96bWNGU2pBaWZxTmhmWjlhOEQ1aDFxWUo3M2pBd2tMalZFa3JuNHdheEVsckp3UDRVb0ZUUThSLTlvdGdWaHhrZGo?oc=5",
-        "resume": "",
-        "heure": "2026-11-12T05:00:27.000Z"
-      },
-      {
-        "titre": "« L’IA peut venir me rendre visite, j’aurai toujours mon stylo à la main » : Luc Besson honoré pour sa carrière à Monaco",
-        "source": "Nice-Matin",
-        "url": "https://www.nicematin.com/culture/cinema/l-ia-peut-venir-me-rendre-visite-j-aurai-toujours-mon-stylo-a-la-main-luc-besson-honore-pour-sa-carriere-a-monaco-10761612",
-        "resume": "Le réalisateur français a reçu un Legend Award samedi soir pour la soirée de clôture du Monte-Carlo Film Festival de la comédie. Sur scène, il a livré quelques anecdotes sur ses méthodes de travail.",
-        "heure": "2026-11-15T18:00:02.000Z"
-      },
-      {
-        "titre": "Le pilote niçois Stéphane Tribaudini marque les esprits sur la piste de la course d’ouverture de l’Asian Le Mans Series au Castellet",
-        "source": "Nice-Matin",
-        "url": "https://www.nicematin.com/sports/automobile/le-pilote-nicois-stephane-tribaudini-marque-les-esprits-sur-la-piste-de-la-course-d-ouverture-de-l-asian-le-mans-series-au-castellet-10761754",
-        "resume": "Leader de la catégorie GT3 à l’issue de son relais, le seul régional de l’étape, qui pilotait une Mercedes-AMG, a fait forte impression d’entrée ce week-end sur le circuit Paul-Ricard…",
-        "heure": "2026-11-15T17:53:24.000Z"
-      },
-      {
-        "titre": "À la Malmaison, Francis Picabia, peintre insaisissable et provocateur, va retrouver Cannes et la Croisette près d’un siècle après sa première exposition",
-        "source": "Nice-Matin",
-        "url": "https://www.nicematin.com/societe/vie-locale/a-la-malmaison-francis-picabia-peintre-insaisissable-et-provocateur-va-retrouver-cannes-et-la-croisette-pres-d-un-siecle-apres-sa-premiere-exposition-10760062",
-        "resume": "Il a vécu près de vingt ans sur la Côte d’Azur, fréquenté les grandes figures des Années folles et multiplié les expérimentations artistiques. À partir du samedi 5 décembre 2026, La Malmaison consacre une exposition au peintre et dessinateur, Francis Picabia, et à ses années azuréennes.",
-        "heure": "2026-11-15T12:30:00.000Z"
-      },
-      {
-        "titre": "Festival Femmes en Scènes : projection ciné-concert à la Cinémathèque de Nice",
-        "source": "jds.fr",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLXdoNmZSVVhXU2pzX24xWmxXZUFVa1BHSE5DOUQtcDU2RHRZd1l0OWhUMzhqNV9vWEUwQWNrSFgwZ2g0aEZVcFpEcC1vVlNmREoweUlyVE1iUndZdmROcXNSWV9WRkdEV1hWakJtdjN3d1drVFJDbEFDNEQzYjhiVF96WjdPUktnVzJYMVM3R2YwNjBUekFfZGxuWUppNmJSc2lYQnFYNTdXeDEteVJNNURjZmJqclNFdVZneVVDTEkwd3RXaFE?oc=5",
-        "resume": "",
-        "heure": "2026-11-15T00:45:41.000Z"
-      },
-      {
-        "titre": "Ciné Récré à la Cinémathèque de Nice : un festival de cinéma pour les enfants",
-        "source": "jds.fr",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY0Qtd3VSZE9ISGN6eXVyWE90QVowRTF6QnhlTnNNZEJqWW13NktUUW9iTkIzRURKbWpXSm5KbjJMeDM5QmMyNVFxR1c5b284a1ZFbGFtTkZLZVVNbEtWaFU1TFh5bnhHRHR2Z1pnRHByTGVPak1jdjRWU0gyMmtDMDJTa0ZXUEFIRC1iaHpBajFieFQ0dTV2QWJnVEJlTHZ5QVBMZ2ktSld5eE9pOTFtTnZiNTlMblluWHAwOThwb1BlMl9rMHc?oc=5",
-        "resume": "",
-        "heure": "2026-11-14T23:07:06.000Z"
-      },
-      {
-        "titre": "Concert de nyckelharpa au Palais Lascaris de Nice",
-        "source": "jds.fr",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeWtrQnBydWFtZGthampWOEFXN3VyeE1yQTdLbXlxRlRKWlRMajM0VzRyT25ScDVhbHNRQmx0QWp4UHZpX2pQUl9ldUl2aERXVl9jQ0lHbWtVbmpGenJfLUpMX1RxWFRRYXpYU3h0dklubjZ5dXRvT0QtYjV1dUMtSzdRZFVwSE5kbjdqTThDRk0zVGFILWJJ?oc=5",
-        "resume": "",
-        "heure": "2026-11-14T23:10:33.000Z"
+        "titre": "L'Assemblée adopte un texte soutenu par le gouvernement pour faciliter le déblocage de l'épargne salariale",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/pouvoir-achat/l-assemblee-adopte-un-texte-soutenu-par-le-gouvernement-pour-faciliter-le-deblocage-de-l-epargne-salariale_8285510.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "La proposition de loi doit désormais faire l'objet d'un compromis entre députés et sénateurs lors d'une prochaine commission mixte paritaire.",
+        "heure": "2026-11-16T21:46:35.000Z"
       }
     ],
-    "redige": true,
-    "imageCommons": [
-      "Côte d'Azur Nice",
-      "Côte d'Azur",
-      "Nice vue",
-      "Monaco vue",
-      "Nice"
-    ],
-    "image": {
-      "src": "img/entreprises/2026-11-16-agenda-semaine.jpg",
-      "credit": "Florian Fèvre / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:FlixBus_Irizar_i6_-_Nice_A%C3%A9roport.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    },
-    "chemin": "/sorties/2026/11/16/agenda-semaine/"
-  },
-  {
-    "id": "2026-11-16-en-hebdo-international",
-    "lang": "en",
-    "date": "2026-11-16",
-    "section": "Monde",
-    "rubrique": "The week",
-    "emoji": "🌍",
-    "type": "article",
-    "genre": "hebdo",
-    "auteur": "Sofia Delmas",
-    "titre": "The week around the world: the key stories, 10 to 16 November",
-    "chapo": "38 stories from 6 news outlets over seven days. In this round-up: “Trump, Putin and Xi plan historic joint meeting in China next week, White House says”, “US has floated Ukraine ceding Donbas for Nato membership, Zelensky says” and “Iran targets US military base in Bahrain with drone attack”.",
-    "corps": [
-      "From 10 November to 16 November, our newsroom followed the news around the world through reporting by BBC News, The Telegraph, Sky News, BBC, The Guardian and Al Jazeera. Here are the stories that marked the week.",
-      "Leading the week, “Trump, Putin and Xi plan historic joint meeting in China next week, White House says”, BBC News reported on Saturday. From the article: “Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.” The story was also covered by The Telegraph, Sky News and BBC.",
-      "Another major story: “US has floated Ukraine ceding Donbas for Nato membership, Zelensky says”, BBC News reported on Saturday. It added: “The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.” The story was also covered by The Guardian, Sky News and BBC.",
-      "Elsewhere, “Iran targets US military base in Bahrain with drone attack”, BBC News reported on Sunday. From the article: “It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.” The story was also covered by BBC and The Guardian.",
-      "Meanwhile, “Microsoft says services fully restored after day-long global outage”, BBC reported on Friday. The story was also covered by The Guardian and Al Jazeera.",
-      "Also this week, “Ukraine hits Kerch bridge between Russia and occupied Crimea”, The Guardian reported on Monday. The story was also covered by The Telegraph.",
-      "Worth noting, “Prince Harry tells Ukrainians they are ‘going to win war’ on surprise trip to Lviv”, The Guardian reported on Sunday. The story was also covered by Sky News.",
-      "Finally, “Spain vs England live: UEFA Nations League”, Al Jazeera reported on Sunday. The story was also covered by BBC.",
-      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
-    ],
-    "sources": [
-      "BBC News",
-      "The Telegraph",
-      "Sky News",
-      "BBC",
-      "The Guardian",
-      "Al Jazeera"
-    ],
-    "liens": [
-      {
-        "titre": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-        "resume": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
-        "heure": "2026-11-14T05:52:31.000Z"
-      },
-      {
-        "titre": "China: World peace is objective of our meeting with Trump and Putin",
-        "source": "The Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPREdSa0JHMGdyZllsTy1aLTVlVnIzSmptdFlyR2hLUzZkMVZ4dEZUam9BVzRnSGdrMWZFRnZHYy1nLUhsMGZLbk15dTlZLUtmMnd1emNneVZlUFRRVXV5WkRaMW1hd0xrZzh3cVJVTl9XSUJnRmROU1FZd3ljWXVMeEswVUtKS0IzVHgzMEgzQ05Hc1pQc0k0cm0yRjE5NlNQbkM3ZFhMejAtc0U?oc=5",
-        "resume": "",
-        "heure": "2026-11-16T13:30:00.000Z"
-      },
-      {
-        "titre": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
-        "source": "Sky News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa2ZBS0JtUUJZa2JKNFRNMl8zQk5ZNzBrRUc1Mnd0Y3Q4UTVuaS1LVE81NXRLS0FiQzFTZElTMUtTQV92UUh4cEpkVDZrel9VWWU2MzNwVGJKUTZTRjhsQnVKck9zVmVOMDZyZ2pLZnhVSVNhblRMQlUyRDJXZVlOY0Z4MXpyRVpTVFFDQTNqODlvcWV4Szl4V2k1aW5Oc1JPU2NB?oc=5",
-        "resume": "",
-        "heure": "2026-11-14T11:34:31.000Z"
-      },
-      {
-        "titre": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwcWhNYWJ4VUFhU01RNGpYNVZIYzhtcGlIZWZxSC1JdjBIWVY2Z0ZudEU0ZzkwWjRsc25IdzZ4bWwxLXFQZjlOdWxRZEppNEVRQUlGdFMwMERSOU9uanc?oc=5",
-        "resume": "",
-        "heure": "2026-11-14T02:05:55.000Z"
-      },
-      {
-        "titre": "Why are 50 world leaders meeting in Dublin?",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5faGh5Qk1vSVpuc2w0X3lVQ0tpZVZNYUZKcTJuNndSdGU2blZybzNya2FTa0UwUTliNENEeXhvOXVpeDRNS0JQa2Jab01VX0ZOaFBoYnhhUGt3Qzg?oc=5",
-        "resume": "",
-        "heure": "2026-11-12T13:33:47.000Z"
-      },
-      {
-        "titre": "EU: 50 world leaders in Dublin for major European summit",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FNnpDYzY5OHNlX2Fsel8tYVRoSUxRa3ZScmJiYXA3SzV5RXB1Xy1wcHhpYlBhX3oxbFZfc1lOMGZOT0g2a1gxRkFOajZ3R2JudmpMNlpOUENLeTBUVnc?oc=5",
-        "resume": "",
-        "heure": "2026-11-12T07:28:55.000Z"
-      },
-      {
-        "titre": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-        "resume": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
-        "heure": "2026-11-14T11:41:20.000Z"
-      },
-      {
-        "titre": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
-        "resume": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
-        "heure": "2026-11-13T02:01:35.000Z"
-      },
-      {
-        "titre": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-        "resume": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
-        "heure": "2026-11-12T12:14:51.000Z"
-      },
-      {
-        "titre": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-        "resume": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
-        "heure": "2026-11-11T18:04:58.000Z"
-      },
-      {
-        "titre": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-        "resume": "Kyiv, Washington and Moscow have all sent delegations to the United Arab Emirates for the first trilateral talks since February.",
-        "heure": "2026-11-10T09:07:00.000Z"
-      },
-      {
-        "titre": "Ukraine war briefing: US proposes Kyiv cede land to Russia for Nato membership, Zelenskyy says",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONDZhdzBhLVdGZk1vZFdVY1E5MmhQMWVMWjAyRFJ4RzB6NUlfLWVBbmdsb1BQMFpLbnNlQ2J4bUdWNVpuUE1jbzNseWhuREhsYkRUWm1oRTNLUVhMLVNWWEE5ejh0OVpZakN3YkNjWDNvYUUybUtMVVhsVmladkljQ2h6ZDNvUWREdUVaNkpBclpHTkY2Uktzd3lYMnltNmZEeUh4MUV2RllDSWZPUWNlZjJsaEJ0T29BeDVfLTJydUV2aVVlbncwVTVKc3pEZEJ4YzY3LQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-15T03:41:00.000Z"
-      },
-      {
-        "titre": "US asked if Ukraine would give up parts of Donbas for NATO membership, Zelenskyy says",
-        "source": "Sky News",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUFR4U0ZNUWxvdTlBSEY2ckpkZGV5RTRBaTRDZWRPM0s0WmExV1lfM2NNTnVQM3hQWWVBcW1jajVuU1hNREU2M3Z4ZDA3R1dMTjljajBkVkw1ckxLT1VNdDU3aHBvc1JTUmk5UFlTNFBGeVlLbnVDTmNiS3hpaC1nMWJSZ29DckdzY3pVSUFaXzJLMGQxYVJGa0RRVjJlSFJmTl85azVaY1Zpa3pfZnQtRGRwQkZZYTRES0RB?oc=5",
-        "resume": "",
-        "heure": "2026-11-14T14:54:43.000Z"
-      },
-      {
-        "titre": "Zelenskyy accuses SpaceX of lying about Starshield – and says US floated Donbas-for-Nato deal",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXlzLUQtSFlMUmxtemZJTk13emUzT2stSmpjb1M1UC1oUS0wRFhtOVVSOUJ2TE5NNTVzVmQtc2VIN25GZ3k5dTJNTmJidDRoUnFaVHZtdFljXzB5aFY4R2pvbk1kN05Kb2hrYjdNM2w0bG1lOFdPUjUtbzU2MHdEemI1aFFYTWtNd3k3RzFscThLREFGenJvR3BBdngySWczdlZuc19KR1JSaGk3RG15ZEJB?oc=5",
-        "resume": "",
-        "heure": "2026-11-14T14:35:00.000Z"
-      },
-      {
-        "titre": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ncHB4Ym5vZzlHclkySUNxbFJzeHhobEFlcnZHNkxrOXptenBPT0hvVTI1dHBSYzZqbHY2Smt3enFMWC1mQXFTdVZMVS1uYmhXU3BlVzJjeld6cDc4OWc?oc=5",
-        "resume": "",
-        "heure": "2026-11-14T10:30:38.000Z"
-      },
-      {
-        "titre": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHZrWDRYUnNtd29ldUdSRnVFSjNDaEk5VnNwZk5DSXRrVVJkMnBqYmVEbjNvMGpSemRSV01FWDg5bHdoVjE3dS13TUhPVlhzTWN2RGYtajVONm4xRmYzYjYxMjNsNnFCblpZSUxldk5BQXgzMUpxOGdYeVZOR0VzdWJMM0VvazN3eGhnclQxbkVHWGp5cGhDM2xqaVBwX1B5NlN2YlZsTkZNUE9PWll2OFAyaw?oc=5",
-        "resume": "",
-        "heure": "2026-11-13T12:39:00.000Z"
-      },
-      {
-        "titre": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSa01kekJuV3cwdnA1cDlvaVJ2OV9PWDNwVHhDOElkLWpaT2VLdDlwSVptbXJsMWVlcHRRWE1tVExwZkhyb1RKb08wZVNaTHBCR3Rscm14SnlBdVFMNGc?oc=5",
-        "resume": "",
-        "heure": "2026-11-13T02:01:35.000Z"
-      },
-      {
-        "titre": "New talks with Russia, Ukraine and European countries agreed, US says",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNjloWUQ4N0lPcVpScWVPUU4yeDV4UnlneERFcl9fd0lHSVVRczVkQWJlWVJ1ZmFMT3Nfel9LQldfeUd5dFFEZ29MY3RWelZQN0VLOG1ONnVUTjZaRjZ6Y0tsZU1uZWVrQ2pJTFRQNmxKZWRyX1NPSmtPUUt4dUlCV3JHNF9tU2ViZVN3TzhpSjllbVJvdkE2aDRlQzk2ZWd5WWdpUlJIWHNnY1dUZzZxRnlDZGlKTzlxLUNOaDVlM1BVdzE0NHVLNEJrY1lPUUpXSXNSeDhKWmFPRzFQSXBUSFJGOA?oc=5",
-        "resume": "",
-        "heure": "2026-11-12T17:17:55.000Z"
-      },
-      {
-        "titre": "Putin proposes new humanitarian mission after US-Russia talks",
-        "source": "Sky News",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWXA5ZEI0Z25DSE1MeVRwQTZPaGFrUGtsSGF6dzRGNktsamViajFBc1hEM2tfYkNBdlY1eDEtbUVJV3ZZSzlFekRCc3R0cGZKTzI3Sk1ybkNuVkVxOUNwYUN6OEM3b2RpQVNyU0tmc3Uta0c0NlFqQTNiLVJWNm5rOUpGTDBpWkJBSDVEVjFmT2dSRDc2QVN4X3hnYWF1dw?oc=5",
-        "resume": "",
-        "heure": "2026-11-12T16:17:47.000Z"
-      },
-      {
-        "titre": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6OW5hR0FFS0Jyb1l4WG54T1lyclJ4MWM4WERvRDB6WkNkYzFFZ3N3akJCa0RWbU1KcjJRb19kN1N2VmhoNFU0TzZjRGhNN1ZqR0VuN2JjTHpwakJUN0E?oc=5",
-        "resume": "",
-        "heure": "2026-11-12T10:08:38.000Z"
-      }
-    ],
-    "redige": true,
-    "chemin": "/en/world/2026/11/16/hebdo-international/"
-  },
-  {
-    "id": "2026-11-16-hebdo-international",
-    "lang": "fr",
-    "date": "2026-11-16",
-    "section": "Monde",
-    "rubrique": "La semaine",
-    "emoji": "🌍",
-    "type": "article",
-    "genre": "hebdo",
-    "auteur": "Sofia Delmas",
-    "titre": "La semaine internationale en 6 sujets, du 10 au 16 novembre",
-    "chapo": "61 informations publiées par 2 médias en sept jours. Au programme : « Dans les Alpes-Maritimes, un lieu pour écrire l’histoire des camps forestiers de harkis : « On était parqués comme des animaux, cachés au milieu de la forêt. On était une honte pour la France » », « L’UE annonce de nouvelles sanctions contre plus de 100 entités et personnes \"pour mieux restreindre la capacité de la Russie à financer sa guerre\" en Ukraine » et « Législatives en Israël : Benyamin Nétanyahou accusé d’avoir tenté un « coup d’Etat » par des opposants ».",
-    "corps": [
-      "Du 10 novembre au 16 novembre, la rédaction a suivi l’actualité internationale à travers les publications de Le Monde et franceinfo. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
-      "À la une de la semaine, « Dans les Alpes-Maritimes, un lieu pour écrire l’histoire des camps forestiers de harkis : « On était parqués comme des animaux, cachés au milieu de la forêt. On était une honte pour la France » », titrait Le Monde samedi. Le média précise : « La première pierre de la Maison de la mémoire harkie a été posée fin septembre sur le site de l’ancien hameau de forestage de Valbonne, où près de 35 familles ont vécu dans des conditions misérables de 1967 à 1992. »",
-      "Autre sujet marquant, « L’UE annonce de nouvelles sanctions contre plus de 100 entités et personnes \"pour mieux restreindre la capacité de la Russie à financer sa guerre\" en Ukraine », titrait franceinfo lundi. Extrait : « Des banques russes sont notamment ciblées, tout comme le secteur de l’e-commerce du pays. » Le sujet a également été traité par Le Monde.",
-      "Dans un autre registre, « Législatives en Israël : Benyamin Nétanyahou accusé d’avoir tenté un « coup d’Etat » par des opposants », titrait Le Monde lundi. Le média précise : « Nétanyahou est accusé d’avoir orienté des officiers de police vers une prétendue source de renseignement sur des militants d’une formation arabe, qui était en fait un ancien employé du bureau du premier ministre. » Le sujet a également été traité par franceinfo.",
-      "Par ailleurs, « Moscou fustige la décision de l’Estonie de fermer sa frontière avec la Russie », titrait franceinfo lundi. On peut y lire : « Tallinn a annoncé cette mesure, dimanche, après une tentative d’incendie d’une usine de drones orchestrée, selon l’Etat balte, par le renseignement militaire russe (GRU). » Le sujet a également été traité par Le Monde.",
-      "Toujours cette semaine, « Gaza : Royaume-Uni, Italie, Australie et Canada appellent Israël à permettre un accès humanitaire « immédiat » et « sans entrave » dans le territoire palestinien », titrait Le Monde dimanche. Extrait : « L’enclave a été frappée par des pluies diluviennes ayant entraîné l’inondation de milliers de tentes de personnes déplacées. » Le sujet a également été traité par franceinfo.",
-      "Enfin, « Au Cambodge, Emmanuel Macron appelle à l'\"unité\" de l’Organisation internationale de la francophonie, secouée par une rivalité entre la RDC et le Rwanda », titrait franceinfo dimanche. Extrait : « Les deux pays africains s’affrontent autour du nom du prochain secrétaire général de l’institution qui œuvre notamment pour la promotion de la langue française, reléguant des enjeux politiques au second plan. » Le sujet a également été traité par Le Monde.",
-      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
-    ],
+    "auteur": "Camille Rostand",
     "sources": [
       "Le Monde",
       "franceinfo"
     ],
+    "chemin": "/economie/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-culture",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "Des images révélées par Mediapart et Le media montrent Gérard Depardieu toucher l’entrejambe d’une figurante.",
+    "chapo": "Expositions, musées, théâtre, cinéma et musique : la vie culturelle, de la Côte d’Azur au reste du monde. Le point du 17 novembre.",
+    "corps": [],
     "liens": [
       {
-        "titre": "Dans les Alpes-Maritimes, un lieu pour écrire l’histoire des camps forestiers de harkis : « On était parqués comme des animaux, cachés au milieu de la forêt. On était une honte pour la France »",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/m-le-mag/article/2026/11/14/dans-les-alpes-maritimes-un-lieu-pour-ecrire-l-histoire-des-camps-forestiers-de-harkis-on-etait-parques-comme-des-animaux-caches-au-milieu-de-la-foret-on-etait-une-honte-pour-la-france_6810317_4500055.html",
-        "resume": "La première pierre de la Maison de la mémoire harkie a été posée fin septembre sur le site de l’ancien hameau de forestage de Valbonne, où près de 35 familles ont vécu dans des conditions misérables de 1967 à 1992.",
-        "heure": "2026-11-14T14:00:05.000Z"
-      },
-      {
-        "titre": "Des harkis réclament justice pour le traitement de leurs morts dans des camps en France dans les années 1960 : « Nous avons été traités avec mépris par la République »",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/afrique/article/2026/11/10/des-harkis-reclament-justice-pour-le-traitement-de-leurs-morts-dans-des-camps-en-france-dans-les-annees-1960-nous-avons-ete-traites-avec-mepris-par-la-republique_6808883_3212.html",
-        "resume": "Cinq familles de harkis, dont des membres ont vécu dans le camp de Saint-Maurice-l’Ardoise (Gard), après leur arrivée d’Algérie en 1962, veulent comprendre pourquoi leurs proches ont été enterrés en catimini et pourquoi les ossements de certains d’entre eux ont disparu. Elles ont déposé plainte le 9 novembre.",
-        "heure": "2026-11-10T17:10:19.000Z"
-      },
-      {
-        "titre": "L'UE annonce de nouvelles sanctions contre plus de 100 entités et personnes \"pour mieux restreindre la capacité de la Russie à financer sa guerre\" en Ukraine",
+        "titre": "Des images révélées par Mediapart et Le media montrent Gérard Depardieu toucher l’entrejambe d’une figurante.",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ue-annonce-de-nouvelles-sanctions-contre-plus-de-100-entites-et-personnes-pour-mieux-restreindre-la-capacite-de-la-russie-a-financer-sa-guerre-en-ukraine_8284817.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Des banques russes sont notamment ciblées, tout comme le secteur de l'e-commerce du pays.",
-        "heure": "2026-11-16T12:31:24.000Z"
+        "url": "https://www.franceinfo.fr/culture/cinema/depardieu/des-images-revelees-par-mediapart-et-le-media-montrent-gerard-depardieu-toucher-l-entrejambe-d-une-figurante_8285564.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Des images révélées par Mediapart et Le_media_tv, jeudi 12 novembre, montrent Gérard Depardieu toucher l’entrejambe d’une figurante. En parallèle, il renonce à son procès en appel concernant d’autres accusations d’agr*ssion sexuelle, qui devait se tenir lundi 16 novembre. Il présente des excuses dans un communiqué.",
+        "heure": "2026-11-16T23:02:58.000Z"
       },
       {
-        "titre": "EN DIRECT, guerre en Ukraine : l’Estonie ferme ses frontières avec la Russie, Kiev invite les gouvernements européens à faire preuve de la même fermeté",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/15/en-direct-guerre-en-ukraine-l-estonie-ferme-ses-frontieres-avec-la-russie-kiev-invite-les-gouvernements-europeens-a-faire-preuve-de-la-meme-fermete_6810982_3210.html",
-        "resume": "Le ministre des affaires étrangères estonien, Margus Tsahkna, a annoncé dimanche la fermeture de tous les postes-frontières avec la Russie à compter du 1er décembre. Il a déclaré détenir des « preuves manifestes » indiquant que le service de renseignement militaire russe a ordonné une « opération de sabotage » contre une entreprise estonienne du secteur de la défense.",
-        "heure": "2026-11-15T19:05:08.000Z"
-      },
-      {
-        "titre": "EN DIRECT, guerre en Ukraine : les restrictions d’accès à Starshield persistent et empêchent Kiev de se protéger des attaques russes, dit Volodymyr Zelensky",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/15/en-direct-guerre-en-ukraine-l-emissaire-americain-jared-kushner-regrette-la-diffusion-de-positions-maximalistes-apres-les-negociations-avec-l-ukraine-et-la-russie_6810982_3210.html",
-        "resume": "Selon le président ukrainien, la Russie avait utilisé « plus de 2 300 drones d’attaque, 1 590 bombes aériennes et 15 missiles de différents types » au cours de la semaine passée. « De nombreuses de ces attaques sont possibles en raison des limitations de vitesse des terminaux Starshield le long de la ligne de front », a-t-il ajouté, demandant aux Etats-Unis et à SpaceX de rétablir l’accès au système satellitaire militaire.",
-        "heure": "2026-11-15T09:59:59.000Z"
-      },
-      {
-        "titre": "Volodymyr Zelensky affirme que Washington a proposé des concessions territoriales en échange d'une adhésion de l'Ukraine à l'Otan",
+        "titre": "James Bond : Robert Pattinson choisi pour incarner le célèbre agent 007",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/volodymyr-zelensky-affirme-que-washington-a-propose-des-concessions-territoriales-en-echange-d-une-adhesion-de-l-ukraine-a-l-otan_8282804.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Le dirigeant a rencontré des dirigeants européens et les émissaires de Donald Trump dans la foulée de deux jours de pourparlers entre l'Ukraine et la Russie à Abou Dhabi.",
-        "heure": "2026-11-14T19:47:09.000Z"
+        "url": "https://www.franceinfo.fr/culture/cinema/james-bond-robert-pattinson-choisi-pour-incarner-le-celebre-agent-007_8285498.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Robert Pattinson va endosser le costume de James Bond. À 40 ans, l'acteur britannique, déjà connu pour ses rôles dans \"Twilight\" et \"Batman\", succède à Daniel Craig dans la peau du célèbre agent 007. Un choix qui suscite l'enthousiasme des fans. Il faudra toutefois attendre 2028 pour découvrir sa première apparition dans ce rôle mythique.",
+        "heure": "2026-11-16T21:14:29.000Z"
       },
       {
-        "titre": "EN DIRECT, guerre en Ukraine : Emmanuel Macron dénonce « ceux qui veulent rationner » l’aide à Kiev et « l’obliger à une paix injuste »",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-emmanuel-macron-denonce-ceux-qui-veulent-rationner-l-aide-a-kiev-et-l-obliger-a-une-paix-injuste_6808609_3210.html",
-        "resume": "La candidate du Rassemblement national, Marine Le Pen, entend, si elle est élue, cesser l’aide financière à l’Ukraine. Une position fustigée par le gouvernement et les candidats d’un arc allant de la social-démocratie à la droite. Samedi soir, le chef de l’Etat a mis en garde contre le risque d’une « vulnérabilisation durable » de l’Europe.",
-        "heure": "2026-11-14T19:33:34.000Z"
-      },
-      {
-        "titre": "Emmanuel Macron affirme que \"ceux qui veulent rationner\" l'aide à l'Ukraine veulent \"l'obliger à une paix injuste\"",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/emmanuel-macron-affirme-que-ceux-qui-veulent-rationner-l-aide-a-l-ukraine-veulent-l-obliger-a-une-paix-injuste_8282819.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Marine Le Pen entend, si elle est élue, cesser l'aide financière à l'Ukraine, envahie depuis 2022 par la Russie, après une période de six mois.",
-        "heure": "2026-11-14T19:31:20.000Z"
-      },
-      {
-        "titre": "Guerre en Ukraine : les Etats-Unis ont proposé des concessions territoriales en échange d'une adhésion de Kiev à l'Otan, selon Volodymyr Zelensky",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-volodymy-zelensky-affirme-que-les-etats-unis-ont-propose-des-concessions-territoriales-en-echange-d-une-adhesion-de-kiev-a-l-otan_8282333.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Le président ukrainien a également annoncé vendredi que son pays était en pourparlers pour obtenir \"des garanties de sécurité spécifiques de la part de l'Otan et de l'UE\".",
-        "heure": "2026-11-14T11:14:15.000Z"
-      },
-      {
-        "titre": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme que les Etats-Unis ont évoqué des concessions territoriales en échange d’une adhésion à l’OTAN",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-volodymyr-zelensky-affirme-que-les-etats-unis-ont-evoque-des-concessions-territoriales-en-echange-d-une-adhesion-a-l-otan_6808609_3210.html",
-        "resume": "« C’est la première fois que cette question a été soulevée », a déclaré le président ukrainien, quelques jours après le dernier cycle de pourparlers de paix à Abou ⁠Dhabi. Il a répété que l’Ukraine n’était pas disposée à retirer ⁠ses ‌troupes et que les termes d’un éventuel accord de paix devraient être approuvés par référendum.",
-        "heure": "2026-11-14T11:13:27.000Z"
-      },
-      {
-        "titre": "Face à Israël et aux Etats-Unis, l’Iran resserre ses liens avec la Russie",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/14/face-a-israel-et-aux-etats-unis-l-iran-resserre-ses-liens-avec-la-russie_6809692_3210.html",
-        "resume": "Les rencontres diplomatiques se multiplient entre Téhéran et Moscou, tandis que la mer Caspienne devient un axe stratégique pour leurs échanges commerciaux et militaires. Un rapprochement réel, mais qui se heurte aux limites de l’engagement russe.",
-        "heure": "2026-11-14T05:00:31.000Z"
-      },
-      {
-        "titre": "EN DIRECT, guerre en Ukraine : la France, l’Allemagne, le Royaume-Uni, l’Italie et la Pologne représenteront les Européens lors des prochains pourparlers sur l’Ukraine",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/13/en-direct-guerre-en-ukraine-la-france-l-allemagne-le-royaume-uni-l-italie-et-la-pologne-representeront-les-europeens-lors-des-prochains-pourparlers-sur-l-ukraine_6808609_3210.html",
-        "resume": "« L’Europe doit parler d’une voix claire et unie dans toutes les discussions qui façonnent l’avenir de l’Ukraine et la sécurité de notre continent », a déclaré Antonio Costa, le président du Conseil européen.",
-        "heure": "2026-11-13T19:35:30.000Z"
-      },
-      {
-        "titre": "Guerre en Ukraine : le système satellitaire militaire américain Starshield à nouveau perturbé, annonce Volodymyr Zelensky",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-le-systeme-satellitaire-militaire-americain-starshield-a-nouveau-perturbe-annonce-volodymyr-zelensky_8281142.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Selon Kiev, les terminaux Starshield cessent actuellement d'émettre au-delà d'une vitesse de déplacement de 160 km/h, comme cela avait déjà été observé en octobre. L'Ukraine avait alors dénoncé les conséquences de ces perturbations sur la défense antiaérienne.",
-        "heure": "2026-11-13T19:18:56.000Z"
-      },
-      {
-        "titre": "DIRECT. Guerre en Ukraine : la Russie veut connaître les \"intentions\" des Européens avant de les laisser participer aux pourparlers",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-la-russie-veut-connaitre-les-intentions-des-europeens-avant-de-les-laisser-participer-aux-pourparlers_8280860.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "La cheffe de la diplomatie de l'Union européenne a de son côté exclu vendredi que la Russie ait son mot à dire pour choisir les représentants européens pour de futures négociations.",
-        "heure": "2026-11-13T13:09:13.000Z"
-      },
-      {
-        "titre": "EN DIRECT, guerre en Ukraine : Kaja Kallas met en garde contre les « pièges » tendus par Moscou",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/13/en-direct-guerre-en-ukraine-kaja-kallas-met-en-garde-contre-les-pieges-tendus-par-moscou_6808609_3210.html",
-        "resume": "La cheffe de la diplomatie européenne a appelé les Européens à faire du cessez-le-feu en Ukraine leur priorité. « Si nous commençons à parler de ce que la Russie demande concernant l’architecture de sécurité, nous tombons en réalité dans les pièges que la Russie nous tend, à savoir détourner l’attention du fait qu’il n’y a pas de cessez-le-feu et commencer à écouter leurs revendications. »",
-        "heure": "2026-11-13T10:44:39.000Z"
-      },
-      {
-        "titre": "L'Ukraine, les Etats-Unis et l'UE affirment que les Européens seront présents lors des prochaines négociations pour mettre fin à la guerre, la Russie ne commente pas",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/kiev-et-washington-affirment-que-les-europeens-seront-presents-aux-prochaines-negociations-sur-l-ukraine_8280449.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Le Kremlin n'a pas confirmé que Vladimir Poutine avait accepté d'inclure l'Europe dans de futurs pourparlers de paix.",
-        "heure": "2026-11-13T09:55:02.000Z"
-      },
-      {
-        "titre": "EN DIRECT, guerre en Ukraine : les émissaires américains sont arrivés à Dublin pour rencontrer Volodymyr Zelensky",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/12/en-direct-guerre-en-ukraine-les-emissaires-americains-sont-arrives-a-dublin-pour-rencontrer-volodymyr-zelensky_6808609_3210.html",
-        "resume": "Jared Kushner et Steve Witkoff, les émissaires des Etats-Unis pour les négociations sur le conflit entre la Russie et l’Ukraine, avaient auparavant fait étape à Moscou pour des entretiens avec le président russe Vladimir Poutine.",
-        "heure": "2026-11-12T21:10:20.000Z"
-      },
-      {
-        "titre": "EN DIRECT, guerre en Ukraine : Poutine propose une mission « humanitaire » dans une ville d’Ukraine ; les émissaires américains veulent la participation des Européens aux négociations",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/live/2026/11/12/en-direct-guerre-en-ukraine-vladimir-poutine-a-detruit-la-securite-europeenne-apres-l-invasion-de-l-ukraine-estime-antonio-costa-president-du-conseil-europeen_6808609_3210.html",
-        "resume": "Alors que Jared Kushner et Steve Witkoff ont plaidé auprès de Vladimir Poutine pour la participation des Européens aux pourparlers, le président russe, qui les reçoit au Kremlin, a proposé une mission pour Kostiantynivka, ville de l’oblast de Donetsk au cœur des combats.",
-        "heure": "2026-11-12T12:52:51.000Z"
-      },
-      {
-        "titre": "« Faites preuve de respect ! » : un garde américain rappelle à l’ordre Pete Hegseth près de la tombe du Soldat inconnu",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/12/faites-preuve-de-respect-un-garde-rappelle-a-l-ordre-pete-hegseth-pres-de-la-tombe-du-soldat-inconnu_6809067_3210.html",
-        "resume": "Un garde a vertement réprimandé le secrétaire à la défense et ses accompagnants, mercredi, alors que ceux-ci discutaient et riaient près de la tombe du Soldat inconnu au cimetière national d’Arlington, en pleine Journée des anciens combattants.",
-        "heure": "2026-11-12T06:55:09.000Z"
-      },
-      {
-        "titre": "L'ambassadeur russe aux Etats-Unis est mort \"soudainement\" à 66 ans, annonce Moscou",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/russie/l-ambassadeur-russe-aux-etats-unis-est-mort-soudainement-a-66-ans-annonce-moscou_8278313.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Il avait pris ses fonctions à Washington en mars 2025, en plein rapprochement entre les deux pays impulsé par les présidents Vladimir Poutine et Donald Trump, notamment sur l'Ukraine.",
-        "heure": "2026-11-11T20:51:09.000Z"
+        "titre": "FOCUS du COFEES : une journée de conférences sur la culture responsable à Marseille",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSHBlVUNmeW5qa3YyMFNJWDdGYkdGU2NoY3pETzRDeVpVaWpPRzM1VjMzRG90bENQQkpnLUJDQzNBTjBhcS1NR1VXak9zUTNLb2t6NjRaVXllUThSVnEzSXRzd21xckZka3lJcmFpRE9iOFU2WG4zdjRKVzhZSWM0Q25VaTN2RjlOanc2N29oQmN2NVpJODc2cXEwQ0V6VDlFQjZJaTFpaWFoTDE5MnZOd1B2bHlUZWtqMUZFSUNWX3Nvak82WHpHc1hwWnBKVUdtY21VYmFFOXVaYU11UTB2OA?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T03:01:26.000Z"
       }
     ],
-    "redige": true,
-    "chemin": "/international/2026/11/16/hebdo-international/"
+    "auteur": "Clara Venturini",
+    "sources": [
+      "franceinfo",
+      "jds.fr"
+    ],
+    "chemin": "/culture/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-evenementiel",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Événementiel",
+    "rubrique": "Événementiel",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "Léa Murawiec, autrice de BD : « Enfant, j’étais persuadée d’avoir des pouvoirs magiques »",
+    "chapo": "Salons, festivals, concerts, grands rendez-vous : l’actualité de l’événementiel. Le point du 17 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Léa Murawiec, autrice de BD : « Enfant, j’étais persuadée d’avoir des pouvoirs magiques »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/16/lea-murawiec-autrice-de-bd-enfant-j-etais-persuadee-d-avoir-des-pouvoirs-magiques_6812234_3246.html",
+        "resume": "« Dans ma bulle ». La dessinatrice de 32 ans, remarquée pour « Le Grand Vide » en 2021, revient avec « Bon Débarras ! », qui explore les thématiques de l’épuisement et du deuil en imaginant la transformation des défunts en bibelots, dans un album foisonnant et réfléchi.",
+        "heure": "2026-11-16T18:00:12.000Z"
+      },
+      {
+        "titre": "Gims sera jugé dans une affaire de corruption en décembre, à Paris, aux côtés de quatre policiers",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/societe/article/2026/11/16/gims-sera-juge-dans-une-affaire-de-corruption-en-decembre-a-paris-aux-cotes-de-quatre-policiers_6812228_3224.html",
+        "resume": "Le chanteur est aussi poursuivi avec son associé, son avocate, et le responsable d’un centre de formation à la sécurité privée, pour corruption et travail dissimulé.",
+        "heure": "2026-11-16T17:16:34.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "Le Monde"
+    ],
+    "chemin": "/evenementiel/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-finance",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "L’Assemblée nationale adopte un texte pour débloquer l’épargne salariale, à la veille d’une nouvelle mobilisation pour le pouvoir d’achat",
+    "chapo": "Bourse, marchés, taux, crypto et argent au quotidien : ce qui a bougé. Le point du 17 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "L’Assemblée nationale adopte un texte pour débloquer l’épargne salariale, à la veille d’une nouvelle mobilisation pour le pouvoir d’achat",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/16/l-assemblee-nationale-adopte-un-texte-pour-debloquer-l-epargne-salariale-a-la-veille-d-une-nouvelle-mobilisation-pour-le-pouvoir-d-achat_6812558_823448.html",
+        "resume": "Les députés de gauche ont dénoncé un dispositif qui ne crée pas de pouvoir d’achat supplémentaire et ne concerne qu’une partie des salariés, le jugeant « inégalitaire » et « inefficace ».",
+        "heure": "2026-11-16T22:05:22.000Z"
+      },
+      {
+        "titre": "Taux directeur et bitcoin : en 2022, le cours a chuté de 60 %",
+        "source": "CryptoTicker.io",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54T2ZUeXJsb1E3WVpyTjFHQWdNdThTR25QbV9ULVE4ajF4TmJFZzNpbXBhV1FGQzBWY1A4eTVvekpyaGJHTkpXR2x5TFMxNlU4bmJKc0ZHOHZTUDJGaFlMMC00Rlc5S3VoM1FTZVFIVTRZeVgtbjh6NktaU0R0OTA?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T17:25:17.000Z"
+      },
+      {
+        "titre": "Fin de série pour le CAC 40, les marchés scrutent Nvidia et Anthropic",
+        "source": "Zonebourse",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVUg2RGxlY0V5aE10TEhQSVRJWUtQVXpWNWNGbWR1TC1qRHVuVE1ybTBOTF80WXBPOXpiVWtmRVBxNWQ0aVF2VHk0QldudEtFZ3dDWG9yMGdmV3VSTmtGMXhPcFctVWUwX1FVcXF1Zmk0MFNMOEl2OVNwVVFLb3R6bVdQanVoODRDUFk0MzhqU1hVY3IxTktSeURMal90VlNraFQzTUdEVVRKWFcyRmI4anNheHJtcHhzcHUyTEQtYnZldUFGQktEcA?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T17:00:25.000Z"
+      },
+      {
+        "titre": "L'action Stellantis signe un plus bas de cinq ans et ferme la marche du CAC 40",
+        "source": "Idéal Investisseur",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3RTdlYtN0pJTW1GQ0lrakttZUhIMGFRcmpudWRaMWpfV19KQW43aUtPVjRibElJaG5FMmM0dEVaNHlPNTM5TmhSVmJwb0RSMGs1X2lRcWJRSE5jZzhfVzN0cl9vQlpMVVJIZW9kTTBlODMzcWxCaV9sTFdYY3RrRGRuaHdRa1BRTXVGY29FU3pNLV9HeFczRXJJUUNOWFdtRFd1OHduZWQyTUd5NWJ6aTNIX3NsLThoWFU3ZnF0THdhSDZuQ1h2NkhwVFY?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T16:26:00.000Z"
+      },
+      {
+        "titre": "Bien préparer la retraite",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/16/bien-preparer-la-retraite_6811901_1657007.html",
+        "resume": "Une minorité de Français mettent de l’argent de côté en prévision de leurs vieux jours. Pourtant, les plans d’épargne-retraite présentent de multiples avantages.",
+        "heure": "2026-11-16T14:00:08.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Le Monde",
+      "CryptoTicker.io",
+      "Zonebourse",
+      "Idéal Investisseur"
+    ],
+    "chemin": "/finance/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-monde",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Monde",
+    "rubrique": "Monde",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Un juge fédéral américain annule les limites de séjour des étudiants et des journalistes étrangers imposées par Donald Trump",
+    "chapo": "Le tour du monde de l’actualité en quelques titres. Le point du 17 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Un juge fédéral américain annule les limites de séjour des étudiants et des journalistes étrangers imposées par Donald Trump",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/16/un-juge-federal-americain-annule-les-limites-de-sejour-des-etudiants-et-journalistes-etrangers-imposees-par-donald-trump_6812623_3210.html",
+        "resume": "Dans une réglementation de juillet 2026, l’administration Trump avait décidé que les ressortissants étrangers détenteurs d’un visa étudiant ne seraient pas autorisés à rester plus de quatre ans sur le territoire américain tandis que les journalistes étrangers seraient limités à des séjours d’environ huit mois.",
+        "heure": "2026-11-16T22:30:16.000Z"
+      },
+      {
+        "titre": "Le XXᵉ Sommet de la francophonie paralysé par les tensions diplomatiques​",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/16/une-crise-inedite-au-sommet-de-la-francophonie-paralysee-par-les-tensions-diplomatiques_6812590_3210.html",
+        "resume": "Les 53 Etats membres de l’Organisation internationale de la francophonie ont reporté d’un an, lundi au Cambodge, la désignation de leur secrétaire général, faute de consensus. Une première, sur fond d’affrontement entre Kinshasa et Kigali autour d’un troisième mandat de la Rwandaise Louise Mushikiwabo.",
+        "heure": "2026-11-16T22:21:42.000Z"
+      },
+      {
+        "titre": "Cinq pays dévoilent leur projet de \"hub de retour\" au Rwanda, pour des personnes migrantes expulsées de l'Union européenne",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/migrants/cinq-pays-devoilent-leur-projet-de-hub-de-retour-au-rwanda-pour-des-personnes-migrantes-expulsees-de-l-union-europeenne_8285039.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "L'initiative, dénoncée par les défenseurs des droits humains, a été présentée lors d'une conférence de presse en Autriche.",
+        "heure": "2026-11-16T22:06:32.000Z"
+      },
+      {
+        "titre": "Marine Le Pen réitère auprès de l'ambassadeur ukrainien que la France ne pourrait \"plus aider financièrement\" Kiev si elle est élue",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/marine-le-pen-reitere-aupres-de-l-ambassadeur-ukrainien-que-la-france-ne-pourrait-plus-aider-financierement-kiev-si-elle-est-elue_8285462.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "La candidate du RN à la présidentielle a cependant assuré qu'elle \"tiendrait les engagements pris jusqu'à présent par la France\".",
+        "heure": "2026-11-16T21:09:09.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "Le Monde",
+      "franceinfo"
+    ],
+    "chemin": "/international/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-nice-cote-d-azur",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & Côte d'Azur",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Kop Aiglons du lundi 16 novembre – OGC Nice : l’interview exclusive de Roger Ricort",
+    "chapo": "Ce qui se passe près de chez nous, de Nice à Monaco. Le point du 17 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Kop Aiglons du lundi 16 novembre – OGC Nice : l'interview exclusive de Roger Ricort",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/kop-aiglons/kop-aiglons-du-lundi-16-novembre-ogc-nice-l-interview-exclusive-de-roger-ricort_EN-202611160915.html",
+        "resume": "Chaque lundi, retrouvez votre rendez-vous hebdomadaire \"Kop Aiglons\" sur l'actualité de l'OGC Nice, avec nos invités.",
+        "heure": "2026-11-16T21:09:04.000Z"
+      },
+      {
+        "titre": "PODCAST : Kop Aiglons du lundi 16 novembre – OGC Nice : l'interview exclusive de Roger Ricort",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNN3oyV1NfRkZpSU5PWndTdHBYMEdtUTVZWjVzbWJXVmYtSGpDcElvZ0d5LWhxbkRSS0U2elZOTW42Smk3dkM1czNvU2p6SFV4NHU0VGRBOElfRy1FWGZMVVRFN0NYemd3eHo1Ujd5NHhfTlN0bkhQRkxPWHNhN3BXNjFvdmViZVc1UkxoR2oyb2thc19zWjhBUE90MmJScG1wY2d1TXdua05selhnenRoakc5a0pkdDBuUTh6MUlYSV80d3JmMWp3al9zd1gydmhCTmU4Q3AtVE04SnFMSnZnNzhLbUtEa3FaZllCb1AxTnAxbjFVS3c?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T21:09:03.000Z"
+      },
+      {
+        "titre": "\"On n’a pas signé pour ça\" : 25.000 membres d’un groupe Facebook de vide-greniers se retrouvent soutiens de David Lisnard malgré eux",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/occitanie/aveyron/rodez/on-n-a-pas-signe-pour-ca-25-000-membres-d-un-groupe-facebook-de-vide-greniers-se-retrouvent-soutiens-de-david-lisnard-malgre-eux-3450282.html",
+        "resume": "Depuis le 7 novembre 2026, le groupe Facebook aux 25.000 membres \"Évènements Lot, Cantal & Aveyron\" a été renommé par son administrateur. Les internautes se retrouvent désormais malgré eux membres d'un groupe de soutien à David Lisnard, candidat \"Nouvelle Energie\" pour 2027. Face à la polémique, l'équipe du candidat rétropédale",
+        "heure": "2026-11-16T20:18:46.000Z"
+      },
+      {
+        "titre": "On vous explique pourquoi cet amphithéâtre niçois dédié aux conférences a enfin rouvert ce lundi",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/societe/vie-locale/on-vous-explique-pourquoi-cet-amphitheatre-nicois-dedie-aux-conferences-a-enfin-rouvert-ce-lundi-10762469",
+        "resume": "À cause de l’épisode méditerranéen du jeudi 12 novembre 2026, l’amphithéâtre de la maison des associations de la place Garibaldi, a pris l’eau. La salle est restée fermée le temps de faire les vérifications nécessaires et de permettre l’assèchement des locaux.",
+        "heure": "2026-11-16T20:15:06.000Z"
+      },
+      {
+        "titre": "« On a tapé aux portes, les alarmes incendie ne marchaient pas » : comment une centaine d’étudiants ont évacué un immeuble en feu du centre-ville de Nice",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/faits-divers/on-a-tape-aux-portes-les-alarmes-incendie-ne-marchaient-pas-comment-une-centaine-d-etudiants-ont-evacue-un-immeuble-en-feu-du-centre-ville-de-nice-10762390",
+        "resume": "Un incendie s’est déclaré, dimanche 15 novembre 2026, en plein centre-ville de Nice, vers 22 h 30, au sixième et dernier étage d’un immeuble habité par une centaine d’étudiants. Ces derniers ont été évacués et ont passé la nuit dans un gymnase. Certains dénoncent des défaillances des dispositifs de sécurité incendie.",
+        "heure": "2026-11-16T19:30:04.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "BFM Nice Côte d'Azur",
+      "BFM",
+      "France 3 Côte d'Azur",
+      "Nice-Matin"
+    ],
+    "chemin": "/nice/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-sorties",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Sorties",
+    "rubrique": "Sorties & loisirs",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Noelissimo à Cannes 2026 | billetterie de l’édition 2026",
+    "chapo": "Que faire, où aller : sorties, spectacles, fêtes et bons plans sur la Côte d’Azur. Le point du 17 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Noelissimo à Cannes 2026 | billetterie de l'édition 2026",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40ZFM4Wml0S0o3cWZnTnVfbnB4Y0VES1FkOV9JUHpCZ1dTSTBhUkZaLXdDMjFwQnQwZlp1c2VVMUJFaktRQWlEaEpQSHVnbjBQS1V2WkpZbDFTTG9kbmdNeFY3d1VzV1psZXJYelh6X1lPTURjYWd6V05Ka1luQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T19:41:09.000Z"
+      },
+      {
+        "titre": "Concert Noelissimo à Cannes 2026 - Chapelle de la Miséricorde : places, billetterie, dates, réservations...",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ydDBXUVdRZFhuMXltdV8zU09BOHAtUHdtc0tzNmdhNE1wZ2Y3ei14RmhvODNUWVZxMXNVLUgyaUNtOGZtTUxUaDl4UW5Uamt1MDc2Q0Z6dEk2RXQ0U0tBNnA1bHNnZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T19:41:09.000Z"
+      },
+      {
+        "titre": "Après Miami, la Riviera à la sauce « GTA » ? La Prom’, La Croisette, Saint-Tropez... Voici à quoi pourraient ressembler les lieux mythiques de la Côte d’Azur version jeu vidéo",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxON092UUtJbGYzSEFab0VmODFNT1pVOGM2eDNRb1Zhb1NOWEU0NDZLSW5XUlpmZkcwZGd0eXU3QjBwX3dybF9tMDZwb2ZUUHhqeXB5WGs0b1dDTVktV0ZxU19RZU9IOFF4Sl9fUDBKSGVfS29mUmt2Q25VdFY5TGhpZnB4UnQyd3l3Vk1EbHBDOUxrUkM5dHQ5d2VVdDgxcVk4bDNMY0tNbTJwRGg1VEliSFdQTmJib0oyOURPWjdWZlFLQXpEdUJaZjF5ZDRSVkVNY1MwM3puTXlUX0thb2NfR0p4Y1BXUzh5VlJ3a3hZUms5UmltenN0NE5felVjOF9RVnpmblJ6ZklHRmxYdV80MER5OEY2MFpzZWw5T185SDJJZHVudm9TZERmVER6V3VzT3ZFVEc0LVdiYldwLVE?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T18:38:09.000Z"
+      },
+      {
+        "titre": "En pleine heure de pointe, un accident perturbe la circulation sur l’autoroute A8 près de Cannes",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPel9LSl9SVUtLZjJfaWJuV3F2LXVJS3RHMk51bUFTekw2NEhJRTdZbVFMbTlqemF0czJyTTJOcU81QklqMHM5ZmE3a19sZGwwdXpVeUc5S05tbm5nSFF3Zkl0aUFhSmI1N3gzdFRSc2xQYS1KZlRRU2pIUFM0QkRXZ2pjOTVNaTRkbjUwU0RMVmpHZm9JdGVvd29sT1ZSVWFfWktPTF9IcGRoVHY5ZndBX0d0dmNzZ1JHenpLSkU4MEN3MlFUS2xqYW1Ya3VIVkhZZ3dlY0k0cXlWZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T16:25:56.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "jds.fr",
+      "Nice-Matin"
+    ],
+    "chemin": "/sorties/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-sport",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Le pape Léon XIV conclut sa tournée en Amérique du Sud",
+    "chapo": "Résultats, transferts et grands moments du sport. Le point du 17 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Le pape Léon XIV conclut sa tournée en Amérique du Sud",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/video/2026/11/16/le-pape-leon-xiv-conclut-sa-tournee-en-amerique-du-sud_6812425_3210.html",
+        "resume": "À 71 ans, le premier pape américain, qui possède également la nationalité péruvienne, a parcouru l’Uruguay, l’Argentine et le Pérou, un itinéraire éprouvant, un mois à peine après une opération pour un cancer du poumon.",
+        "heure": "2026-11-16T20:49:24.000Z"
+      },
+      {
+        "titre": "Philippe Diallo, inattendu challenger de Gianni Infantino à la présidence de la FIFA",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/sport/article/2026/11/16/philippe-diallo-inattendu-challenger-de-gianni-infantino-a-la-presidence-de-la-fifa_6812297_3242.html",
+        "resume": "L’UEFA a annoncé, lundi, son soutien unanime à la candidature surprise du président de la Fédération française de football, qui brigue la présidence de la Fédération internationale face à son patron controversé.",
+        "heure": "2026-11-16T19:02:55.000Z"
+      },
+      {
+        "titre": "OGC Nice : l’interview exclusive de R. Ricort — former les jeunes pour faire vivre le club.",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaHJVZzVOb0tteDl3d2UzZjUxN1JlenhrX2MtR1FfTDRXQkxJaWZQLTNpenpnYlNicTVZZzQ3RlJtUWdSWVdZdl9ocmJBMUF5a2VVaGdraTNuRkVfNXRzUkxvQ0ZoRmhDaklhREJVWVRZeEM3WEplNzR4UnhGd0hhWWd6c21OdFBBRzZyS2xkaEF5RV9GcTNxRWtkOUk4aU5vSFpraXpvWWpsejBudFZYajF4OG5qZExnWEphRnQ5OHVEWGowa19wUGsxOERFNmFOWFBIWnRtWlFLc09ONFM3WG5GSndxV1BvU01TSWY3SGJpQVRWbmU1QTFzRG84UUdGd21JME43MWhybXNHSzgyaQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T18:47:33.000Z"
+      },
+      {
+        "titre": "OGC Nice : l’interview exclusive de R. Ricort — le Gym a-t-il les moyens de viser l’Europe ?",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPeVlZaDMzNnJ6UHVETFRicUFjck1PVjg1RTJoTjk1RF9NSl9PQTAtdVQ5ZGI3NnJYS0Vsdm5ucDdNWk1UWnQ3a04zZ003UFJSN0xwN2tvQXdGc2VCUy1KQUZqZk4zZlVGRkszVkFleTZaUHhfX0NfVVFEbFlOa2ZkX0E5Z20wQTFFbmRKTFEtT3RCalVoWFVjYjBPNXJfZzlHMTU5Ri1FcENucE1NSjNDN1hXZERLRWZ6d295dlRiNHQxYV9hM2NGdHBvYmdVNXZEaDNRdU5LandxLWhoMFlyTUNvcVl6VGkyZVNxZmdSalZQWEtJNGVNQ3JMRGNqNXZFV3IwRDgzLUZOeUk4d2RaRw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T18:42:53.000Z"
+      },
+      {
+        "titre": "L'arbitre de la rencontre entre Nice et le PSG désigné",
+        "source": "Canal Supporters PSG 24-7",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVnRHaG5hY3JKTGt6bjRHcnpjak9XWkZ4em5QS2xvNHBJMzBHSWtBVG1raWE2OGZkUDlEN3A3VmFfUi1jSUs5T0owbmRnTWxjNklHRkQ0NlZwWTNRRXZUclRhS29hdjZJRk0yMTk2eTY0LXZQekRXOFJqYWVRMUxHRGdELURNWFpQNk93MENR0gGTAUFVX3lxTE9XczFIUTliOFhwZmMzdTMyS0p0cGI5TkVSbHhibGpDbVMwTXRmTXhUVW9DRlZiVktiQ3hUTTV4MDBTN1N3V2QyUWNHUTJQbEQzTlpnNWlQRndSVHducWxTSjE5VWxmeGtHTUU3S3o2ZU82c2NBeEMyeU9lMC1keGNjNC1GWExsb09ZQlphbExuQXBoTQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T18:30:48.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "Le Monde",
+      "BFM",
+      "Canal Supporters PSG 24-7"
+    ],
+    "chemin": "/sport/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-actu-tech",
+    "lang": "fr",
+    "date": "2026-11-17",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "United Airlines confrontée à une panne de son système, écarte un problème de cybersécurité",
+    "chapo": "Intelligence artificielle, start-up, cybersécurité : les nouvelles du numérique. Le point du 17 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "United Airlines confrontée à une panne de son système, écarte un problème de cybersécurité",
+        "source": "Zonebourse",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTlZETVJSb2JoamMtZUZyZUFwM3dZYXlWT2FJU0J2eDJBeEtNSTd2XzhEZHJCVmdGc2NhX1Z1WGJrWnlFdFBVZFQ0azJhVHE4cXhlaGxQV044Yk1pVFBBdE13SWlqV09iZExXem5RWXNZa2NMYkJ6VWo1czJ2OGNFZjRqMnFaX3RDNzMzR2hJUGVqek1KWGJoUGRLZnp2ekVRdUpvNWdlQUJ5MmdzeFN1S2ZGOWRTOGk2aUJ1NmlYM0hWdktTTVBJbVU1dVNNNjlfcHNpcm5nVFhXY1hLRzExa3FxZXg?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T22:52:16.000Z"
+      },
+      {
+        "titre": "L’institut de sondages Ipsos annonce avoir été victime d’une cyberattaque, une plainte a été déposée",
+        "source": "Ouest-France",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNbmdXRzMzdUpMd3lGc2JYT3ZQUUpWMW1UN3hvaDBDeGlKV0VoTko3WEl3V256aEh2aXlVODYwcXdKbWR3YXdKZDcyS0NkWUtZZ3NmWnhjWmVrdVBhUVNIR1pGU0laa1l0LWpyMGRKT21ybWViMTllb0o4MFRUc3FLQVBjT2pVUHJpaHZITzRRRXNIdE9TMF85OUU0Y0VzUVAwWDQ2XzYzOWhqZkxTNnhhbG5UWVRrOXVQXzQ0MVU4N2tvMXJ4UzdKMC1TSUF1aXdpVFFUOUpJWjdkeG9UczB4TnlWeWdhVjFiZ051dXo2SFkweFowVFJ3RDQ5NUNFSGVvc1BqeDhldXhrbnFnWG9vcg?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T20:15:03.000Z"
+      },
+      {
+        "titre": "La Jordanie et l’Irak interdisent Telegram, accusé de contribuer à « l’extrémisme »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/16/la-jordanie-et-l-irak-interdisent-telegram-accuse-de-contribuer-a-l-extremisme_6811768_4408997.html",
+        "resume": "La Jordanie, endeuillée par l’attaque d’une église fin octobre, souhaite contrer « toute tentative de propagation de la radicalisation et de l’extrémisme » et appelle ses citoyens à la vigilance sur les réseaux sociaux.",
+        "heure": "2026-11-16T19:31:18.000Z"
+      },
+      {
+        "titre": "Nvidia : les Etats-Unis cherchent à bloquer l’accès de la Chine aux puces américaines par le biais de pays tiers",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/16/nvidia-les-etats-unis-cherchent-a-bloquer-l-acces-de-la-chine-aux-puces-americaines-par-le-biais-de-pays-tiers_6812260_3210.html",
+        "resume": "Les règles mises en place récemment par le gouvernement Trump instaurent notamment une nouvelle autorisation nécessaire pour l’exportation de semi-conducteurs américains en Indonésie, en Malaisie, en Thaïlande, au Brésil et à Singapour.",
+        "heure": "2026-11-16T18:30:08.000Z"
+      },
+      {
+        "titre": "Black Friday : la messagerie d'entreprise, angle mort de la cybersécurité",
+        "source": "JDN",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYzNYMk1OZE9xSEM4a2k0Mmxxcl9aSjhRVTlzRkFPVjFseG05V2dsYjYyWjlXMVowTTQ4aU5QRURVbjNVdUxhS0lhUXN3YWMtZjhDQXZTbDAzMGtzcGdmeFhJVVhFNUh4N2h5dERCZkc3aEUyajF1b1AyX0V0YWtMXzdudzZ0bEtYaFhJa200Z0lhMWh2WjFNWGhsbWZDRnVZQXJsN1drMFZjZkJyTFVfbXNKclBLVkxhT2p2bnJzOA?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T18:12:09.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "Zonebourse",
+      "Ouest-France",
+      "Le Monde",
+      "JDN"
+    ],
+    "chemin": "/tech/2026/11/17/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-17-en-actu-business",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+    "chapo": "Companies, jobs and strategy: the business news that matters. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+        "resume": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
+        "heure": "2026-11-17T00:00:03.000Z"
+      },
+      {
+        "titre": "We couldn't afford a house alone, so we bought one with strangers",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+        "resume": "People who can't afford to get on the housing ladder are buying homes with people they don't know.",
+        "heure": "2026-11-17T00:00:02.000Z"
+      },
+      {
+        "titre": "Chattanooga Company hopes to build stronger local economy",
+        "source": "WDEF",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeHlTay1fUlJuSjg2RTM5QzdVblNGSjZEZWduR1BqcXE3cE1IMmhNczFkTDFwVGR4OE1TM0ZwTTAtN2E3Q3NEQlZ6Slhib0ZDQll1eGlvX3BJWHJpazFKSm1HQlhHSDRVWUxYLXIySnUtV3lwREpULXdTekR5QmhWeUhHT0R2Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T23:42:49.000Z"
+      },
+      {
+        "titre": "Businesses, community leaders feted by UAFS Center for Economic Development",
+        "source": "Talk Business & Politics",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUE1TYUJuZ1d5VGxmdkd0SjZtSEFLUTFETjZ5N2VQMjBBV085R051M3Fva2U1aEpXVXk3bDZnVUpKZFRMdkNzdEk3OTF2T2RkZ2R5M3oxTmFraHB6NnpTdFMyQ0tEaklvQWRlMTlqLUdNZEVRdGx2VEhNWWJtZTd2NGNxUGFNaWhLRW9VR0ZLdjZocjBZSHVqVGpjUFBRWnppQnVicGNZeEhFV01z?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T17:16:10.000Z"
+      },
+      {
+        "titre": "CIN-CG: They are raising prices, preparing layoffs, closing companies - what business people said in a survey about the \"Euro model\"",
+        "source": "vijesti.me",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOWTZQWHl0WHpuSEhQS25HZmxIcGFxLUIzT05qcDBJc1RqZUhtMmxicTl6VmJ0cEl1ZUlWNVVEVXF4cDlLTTh2V25GazVuVmtUWnQ2LVZhOFR2UnZDMEcwSFNLQVlnUlB0ZzhBbVZlR1BrYUJTa2NYZmstcUFYNVNjY1M1SXpnVnk5NHZUTC1lZi1jQ1M1Vnh5M2lNLXo1dS1Pc1VLOGNvd3p4bzhybzFqRFJTb0xQVFBIcU1WSmJNOW5waHpCT1NKZE94QWNOT3l1WEVwYzEyV0tjZDh1cGthSzdVRXFpdC1Obzl2V0FYUGJlbUc1Y1Rxb0RsQVJyRUl1aDFEMHhBUGxhQklzTG13MlRKZnZVcjVUNHVTQ1N5SdIBjgJBVV95cUxOSnc1T0NQd3hiLWgwQmJXdnhKSU1HLV84al9rYTdkS3RaTGpSRTdPaGJYS09HM2k4VWd6cXlkcmpmcjI5R3ZRVzJCakdsdERoemhHLWVxNEdzc0YySlliNW1QbFdwX0RtR2Fob1dVVlB5MlFCWmMyTXJ5azdFS2hDQlZ4Zl9DN2VMN0VMU0c5WndpOU9malloQ0t0cWpac0xvV0hJYlAyWEdmc0hrcWRqcHJ0WW1VNDM0d3hTa1BOT3hZWkgxSU9KUWFQUXAydy1mQng4aGlpUHVialdrei1sUHhUYlZ3QnY4T2UyZ3ljR2RrR2lMWkpTU0l0S3E0U0N3TWdYR09aRXY4LWRES2c?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T16:02:00.000Z"
+      }
+    ],
+    "auteur": "Camille Rostand",
+    "sources": [
+      "BBC News",
+      "WDEF",
+      "Talk Business & Politics",
+      "vijesti.me"
+    ],
+    "chemin": "/en/business/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-culture",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "Nationwide strike in France on 17 November: Demonstrations and disruption expected on the French Riviera",
+    "chapo": "Exhibitions, museums, theatre, film and music: cultural life, from the Riviera to the world. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Nationwide strike in France on 17 November: Demonstrations and disruption expected on the French Riviera",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV18yVFd0ZjFVZzAxeVBzYnBLcjRSOGtWOGtHamJ5VVZtR0g2a2l5eGE3UWpMR1JqX3h1ZjJOR05UVV95X3ZndHJhNi0wTW10TE1kbkRUVU5VaTh5ZVZscjlOOEN5ZGl1R0pIQXJtNGNzME9ZdE5meDZiVWc1NUczOVV0aXdmbVRNUmRSLUF1WWQ3WUVXelZla0pDTEFFdGVuRTdjOUYxTmNOblRFQUdFS3NSemtxYno3a3NqTWxWamt4TUFTNXc?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T15:35:00.000Z"
+      },
+      {
+        "titre": "Review: Balloon Museum - EUPHORIA - Art is in the Air",
+        "source": "Immersive Rumours",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTklLcF80LVlrYzhxN0M0R05ZMEtIRTlRR1RGVDh4QzJpVlBfM2oxc0p4dWJlSDdfWUZoVXRTdGVpb1hQb1JQZm1PQ2t2MTJnbk9rRzk2cmNEV0VMc280UWRKR1JDMlNINC1qSnFqNG9sWmRjaTA5X19FQzB2TUtJUWl1ZzNrbWxQeGtSa2puQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T14:57:10.000Z"
+      },
+      {
+        "titre": "Cannes to celebrate artist Francis Picabia with new exhibition at La Malmaison",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPczZfWnFtbDRMeW03Zlp1SWE5a2lsdEYxdGxJM3hwd2dyYU5aWFpHaVBfSzhDbkR4QUx3LURaQmF4dmRSejVjMzdhcnl2dVFmcURfZGl3V0V4RVFzam56QW9pUVd1dWNSMG10aWFHdHJWVDNVcmpodmtjNGlSajJTOXZXUi1YWTd3TFYzN1BoU2IwYjNSekNHdDBUcnpZa1h5Slh2Y2g1SVBzS1F0ZEp1Z29VSXY3c19sSUpnam55REgyU0U?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T14:30:38.000Z"
+      },
+      {
+        "titre": "We want to praise you: Museum to hold Fatboy Slim exhibition",
+        "source": "Brighton and Hove News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbE1oLXVBY21nMmpUZGNMU2FrcExVdzlLd0xtTWstZHJPVFVhVGxaNGVPMjhoUGEzZEl1bkt4QTlYcmRGaHpmai16TTdndGVrZ2lqOW5zdUhyZWZ2Smt1V1JITE9EaTh5cHhHMmZidE9WVTJZODB2aFJxS2YyZ2xyamhqcWhYVUVCeDIzTDlxU1NDSGhnTVc0QlFTaER3WkZDLVVESUhPeHlPOXM?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T00:01:00.000Z"
+      }
+    ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "Riviera Radio",
+      "Immersive Rumours",
+      "Brighton and Hove News"
+    ],
+    "chemin": "/en/culture/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-evenementiel",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Événementiel",
+    "rubrique": "Events",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "New Orleans lands 4 travel, convention industry events",
+    "chapo": "Trade shows, festivals, concerts and big gatherings: the events industry today. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "New Orleans lands 4 travel, convention industry events",
+        "source": "New Orleans CityBusiness",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbVFaN2FiS2EtZ1V6SzRwS05fdkk5a3BYOWxiWnN1bkNMa2FJYUhSaVRlTVFwNEtZUDA1Q1piSU5nTXh6aWJ1NkxHVjduTEV2RFktT3ZZTXRheWhuRU9kVjhOaEZRNnpiSG5wRkRyOTB2d2FnYU92ZjdtSS1hcVVGQ2ZQZ2dIcmFmcFNXY3FTd2QzQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T21:04:12.000Z"
+      },
+      {
+        "titre": "Robert Pattinson to replace Daniel Craig as James Bond",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwx2ev0pxmvjo?at_medium=RSS&at_campaign=rss",
+        "resume": "The 40-year old is best known for his role in films including Twilight, The Batman and The Odyssey.",
+        "heure": "2026-11-16T19:43:58.000Z"
+      },
+      {
+        "titre": "Emma Barnett to leave Radio 4's Today for new BBC show",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c6rrgw2p52l5o?at_medium=RSS&at_campaign=rss",
+        "resume": "Barnett, who has presented Today and Woman's Hour, will front a multiplatform show in the New Year.",
+        "heure": "2026-11-16T17:46:12.000Z"
+      },
+      {
+        "titre": "MSS Celebrates 20 Years of Industry Leadership, Unveils New Brand Identity and Future Growth Vision",
+        "source": "BellaNaija",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UTG9mSmNZNjdoYktJUEY5M3UwMVJaNkRDNUc1M1ljRkN5LUNWTUU1RFQ2SUR1aHYxRFVSMHFqOEZyQzBvLTIxUS16bnNJc2s2U2M1RHU2dUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T14:02:53.000Z"
+      },
+      {
+        "titre": "Wednesday at CIFF: Rory Gallagher, Chris Kent, Culinary Cinema & industry events",
+        "source": "Cork International Film Festival",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMGxYZV9LcWpFSXBGbGl2ZHJlb1dSWmJTWVJxWHNCMGFPSzhHc1htZmxXanV0Q1h5djBEZ0lhUFFRTk5fcFRRbG5Wd0lTYmE4aDROVC1CNnByVnE2QXo1czlRR0wyZXh2a2s4TDBNUG5mdmkzdTV2UWh6cWYxTWt6dFc2YzBsaVhwR0cxdXVTRHpLbktnRHhXd0Frd1czTkFQbk5ZMTdaZ016akJzc3c?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T20:00:07.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "New Orleans CityBusiness",
+      "BBC News",
+      "BellaNaija",
+      "Cork International Film Festival"
+    ],
+    "chemin": "/en/events/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-monde",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Monde",
+    "rubrique": "World",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Nvidia dismisses campaign to bring back Jensen Huang as Trump backs effort",
+    "chapo": "Around the world in a few headlines. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Nvidia dismisses campaign to bring back Jensen Huang as Trump backs effort",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaNjZSeXBveGFTaEJEM1lROVBGeWI3TEpuWWcyblp2RGZxeXAtVVZhdWRyUlZISHNFNTgtUEZNUWt0TWVIY3B1T3pZR0hjQmNDUXV0NFdlUHUzMEU?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T22:21:27.000Z"
+      },
+      {
+        "titre": "Houthi rebel advance in Yemen may further destabilise global economy",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+        "resume": "The Iran-backed Houthis are gaining ground and their advance could have dangerous consequences, writes the BBC's security correspondent.",
+        "heure": "2026-11-16T21:40:07.000Z"
+      },
+      {
+        "titre": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
+        "resume": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
+        "heure": "2026-11-16T20:33:57.000Z"
+      },
+      {
+        "titre": "Pope hit in the eye by worshipper hurling rosary",
+        "source": "The Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONzNfVnhMdjJrQ25OajJRaHZSMkVKNUxrS0pnUllXeUNYTmFSaDg2UFJoVDViYnNTb3IzZngzeUJWaEw1NHBRQ0h3VzBsano4UElrSDZTSEZDOUk1MHlPcHZseHp6ZjljazRJbEdYUnM3U2xnaDNfTUxyY1dnTWxEdjNwVGlvVE0xajlvTm9CMUJXTDZCamZrYkxMWmxkbFR4?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T19:17:00.000Z"
+      },
+      {
+        "titre": "Zelensky Says New Talks On Peace Prospects Held With US, EU",
+        "source": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVpLYk90b3lsbFhJcEpreUk0dXJJY0IycF9SSXNJcHdWUlB0X1VsRi1uMU9ERE1kekpXRlBlNlBVcTdrTlljZEJneWxrM1VRVUwxdVhtNWVBdVhjT1lLSUtyVnBxU0RFMVBrMGVlYmc1VjNqWWtUdFU0TW9iZkp4NV84NGNsam1qaHVCZmNkVENLb0s3OXBVY1g5bHZMcnBsZ3NLSnF3WV85VmtHU2pB0gG3AUFVX3lxTFA1WVpCYUl3d2JjRk1nMktGQjBkamxFZ3pJdlYybjFfblZKVDJ3N3ROTDluel84TlpURHM5N1NGTVpKOUFsc2Vpc0N5ZjdQY04wTnVGT3FZZFl4bktKd09ZMVlaT1hXYTExRUNjSDZ0V3NINXZtWkcwT3U2dUJPZnRpQ0p0dURyazh5aFpOb3hPYktIVzV5YU1Qb1FxUjNIVmxQWndfVC03dGk3SkhSd0phU1ZfVlQ4NA?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T18:54:01.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "BBC",
+      "BBC News",
+      "The Telegraph",
+      "NDTV"
+    ],
+    "chemin": "/en/world/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-nice-cote-d-azur",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & the Riviera",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Christmas 2026 Collections: Where to Donate Your Toys in Nice Before the Year-End Holidays?",
+    "chapo": "What’s happening on the French Riviera, from Nice to Monaco. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Christmas 2026 Collections: Where to Donate Your Toys in Nice Before the Year-End Holidays?",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/christmas-2026-collections-where-to-donate-your-toys-in-nice-before-the-year-end-holidays/",
+        "resume": "As Christmas approaches, several toy collections are being organized in Nice and the Alpes-Maritimes",
+        "heure": "2026-11-16T17:47:00.000Z"
+      },
+      {
+        "titre": "Riviera makers bring handmade Christmas gifts to Cap-Ferrat waterfront",
+        "source": "Monaco Life",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXlVYVlXdkZ0V0V4UmtvT2Z4TFBVNVplYWNOa2JXWVVNY0VTRWZaVVNnYUI3X3JVZnVTMmw4U192QzlJYmlYeVNsaDdlM0IxTnBScGtPT1NJcFpJbDJ4V2VzaDBCcEFYT3dLNEZGREhkNkRnNHVjcENoV2ZUZHhUMWcyazdKcEZTa1oydWQ1OWdLVGc5Ni1rWkZn?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T16:15:07.000Z"
+      },
+      {
+        "titre": "Strike on November 17 in Nice: routes, schools, trains… What disruptions should you expect?",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/strike-on-november-17-in-nice-routes-schools-trains-what-disruptions-should-you-expect/",
+        "resume": "A new day of social mobilization is planned for Tuesday, November 17, 2026 in Nice",
+        "heure": "2026-11-16T16:02:07.000Z"
+      },
+      {
+        "titre": "Oil prices fall as Middle East exports recover and supply surplus looms",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSUNCV2hocjd6ZXBINlFva2U1b25ZdGd4cVZQWGMwVV9QaGR6QWF4bEZtUW9aeXJ6NXhSTEFITVlaUTgzVUhEU1hScXgzWUQ5NjF3ZVR4NjBxWFV5d1d1UE1kdU5HY0ZvRzNnRFlmUndZdjdRbTZ2OThfZGVzall3YVJuT3RzMExvUUJyLURYb0lCbXJIaEVmMXhWUV81bC1tM2J5VURDYUVqWTFGTmEtVy1OWVpPTlhiUXc?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T15:01:00.000Z"
+      },
+      {
+        "titre": "Jensen Huang reportedly considering return as Nvidia CEO days after resignation",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeWNwZWUyMmpmdFdodnlHaV90ZFlDTFRLM1ZHbUFuN18tWC1URUE4eTZKeHBIYlgwbG9vaVlRWnlfOU1VZnZlU1Zubk94elowZ3FkM0lCRml0QThHX0pIOTNWU2JrRnNqR1FfeHJWT3dlZ0tyOGpURVlINkxyemFIMHNLb2Q5SndGb1dzekVDYnZYOUpVNUxMeXh3ekEwczJiamxMeGJmbExZZ0lFT3h2YnlDMnBORXlWdnRPMHdXaEw0YzNn?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T14:57:11.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "Nice Premium",
+      "Monaco Life",
+      "Riviera Radio"
+    ],
+    "chemin": "/en/riviera/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-sorties",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Sorties",
+    "rubrique": "Going out",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Princess Charlene melts hearts as she showers rescue dogs with love during sweet Monaco outing",
+    "chapo": "Where to go and what to do: outings, shows, festivals and tips on the French Riviera. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Princess Charlene melts hearts as she showers rescue dogs with love during sweet Monaco outing",
+        "source": "HOLA",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmFtcHkxUTZhZnB2WTZoaE92cVdSMHNOOE9kM0VBLWR2MTA0LUp5NldNaU00WmI4b0pQSWlJdFowc1JjQlhxNUc4VTBqVlF6OGxOSVNOUWY4SVB1bVpOcGNfWjlVVzNVdk5ONHRqbG1MQTFNZ1AwS0hLUkZnT1ZvZVlockUxQ0lsMzdtVFYtbi0tX1ZKeHpaUE9hcXU?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T17:32:00.000Z"
+      },
+      {
+        "titre": "The 2027 Entry Revealed!",
+        "source": "Automobile Club de Monaco",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WYUxSWEtFdEZiczRlYmFYajJFeFB2MTFTOVR4enNjVFJyZWtMNWNLN19GVTJldEUtTmtZeVZydTVTSXRxcXFLdUM4UGo2clhObGdONQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T16:39:53.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "HOLA",
+      "Automobile Club de Monaco"
+    ],
+    "chemin": "/en/going-out/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-sport",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "'Is that not match-fixing?' - Erasmus questions officiating",
+    "chapo": "Results, transfers and the big moments in sport. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "'Is that not match-fixing?' - Erasmus questions officiating",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck0jx1dnd38go?at_medium=RSS&at_campaign=rss",
+        "resume": "South Africa head coach Rassie Erasmus predicts Ireland fly-half Sam Prendergast will not face a ban after being cited, and questions standards in officiating.",
+        "heure": "2026-11-16T23:14:48.000Z"
+      },
+      {
+        "titre": "Littler hits triple-bull, but Price checkout doesn't add up",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/darts/articles/cwkgr9m0d0e5o?at_medium=RSS&at_campaign=rss",
+        "resume": "Gerwyn Price and Luke Littler make it through to the Grand Slam of Darts knockout stage after a rare counting error and a sensational triple-bull checkout in Wolverhampton.",
+        "heure": "2026-11-16T22:54:37.000Z"
+      },
+      {
+        "titre": "Nice plan January loan move for teenage midfielder Everton",
+        "source": "TribalFootball",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdVVBaXZzTmRpdjFQby12Y1g2VG80UFBxVm9OQW1udmVFVGdoOG1aUFNiQU9hd2lZbHdGLTR6XzlDMGJZbjBxdW1hMjN0ZUMxSUZOTG4yYmZBWEQxUW41c0hUeHQyZ0RRYUFpVm1GZEhBSV94V3Y5b054ZzAyWXRja1NxZHZ6WUtKTWwwb2dVMGhCNG5zbU9FbjAxcjNiZHVnWHFLZ3N6RHBZaUxjMkFPX3JycjNNbDQtRWQ3ZUR4Z05UdzYweXVoVndMLXhxM28?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T20:04:36.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "BBC News",
+      "TribalFootball"
+    ],
+    "chemin": "/en/sport/2026/11/17/press-review/"
+  },
+  {
+    "id": "2026-11-17-en-actu-tech",
+    "lang": "en",
+    "date": "2026-11-17",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "chapo": "Start-ups, cybersecurity and digital life: the latest from the tech world. Our round-up for 17 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+        "source": "TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQlB2R3NfWnpXZkR1dF91Sk9iVmliSDlvMGVjeWJBaEdFSkRQZXFJVVZDQm51MHlwNFByWThhTmk1WkgzZ2V0UDUtckVmNkgteE9oaGJ4TnlCZThPWjN2VzROSFJxTnNtRzFNMVF4ZExVdHpzSG14cjJfS2NUMmpsY3ZYZGNBQWhuTERzdlFnRFpFLWptTXAyaVJBeGVKd2U3bW5ieVpUdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T23:32:32.000Z"
+      },
+      {
+        "titre": "The AI start-ups fixing India's broken roads and messy land records",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c820vnln2lzpo?at_medium=RSS&at_campaign=rss",
+        "resume": "From legal-tech to healthcare, dozens of Indian AI start-ups are solving uniquely Indian challenges.",
+        "heure": "2026-11-16T23:25:53.000Z"
+      },
+      {
+        "titre": "Landeed, Fractal Analytics: The AI start-ups fixing India's broken roads and messy land records",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4Q09PeWc3VGhmdmZJQnY2VkgwOGtwM3lzclJERzk2bmJOM3lBSEU5YmVhQzkteElMR2dlem1UcWxHS2ZGSWYxTXQ1bnp2OFFldkt4MGdtck9lRDQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T23:25:53.000Z"
+      },
+      {
+        "titre": "California sues OpenAI over Hugging Face attack",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+        "resume": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+        "heure": "2026-11-16T23:12:24.000Z"
+      },
+      {
+        "titre": "Why defense start-ups need trust, not just speed",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwVmJITXRZM21PbUhqN1dsZUdKUmRidmRQTkk2aXRBREZZbW9jc2dSVTlhR1NfVmpXS01oVHpyYXpSSU16Y1M5dGUtaDRGUXRvNUlEVkRYZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T22:59:24.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "TechCrunch",
+      "BBC News",
+      "BBC",
+      "The Jerusalem Post"
+    ],
+    "chemin": "/en/tech/2026/11/17/press-review/"
   },
   {
     "id": "2026-11-16-actu-business",
@@ -1489,6 +1755,593 @@
       "Fox News"
     ],
     "chemin": "/en/tech/2026/11/16/press-review/"
+  },
+  {
+    "id": "2026-11-16-agenda-semaine",
+    "lang": "fr",
+    "date": "2026-11-16",
+    "section": "Sorties",
+    "rubrique": "Agenda",
+    "emoji": "🗓️",
+    "type": "article",
+    "genre": "agenda",
+    "auteur": "Théo Marchal",
+    "titre": "L’agenda de la semaine sur la Côte d’Azur, du 16 au 22 novembre",
+    "chapo": "7 rendez-vous et idées de sorties repérés dans l’actualité, de Nice à Monaco.",
+    "corps": [
+      "Que faire cette semaine sur la Côte d’Azur ? La rédaction a rassemblé les annonces publiées ces sept derniers jours par Tribuca.net, Monaco Hebdo, BFM Nice Côte d’Azur, jds.fr et Nice-Matin : spectacles, expositions, fêtes et rendez-vous, de Nice à Monaco.",
+      "« De l’Australie à la Corée du Sud, onze pays à l’affiche du Festival de danse de Cannes » (Tribuca.net).",
+      "« Le journal de 8h du vendredi 13 novembre 2026 » (BFM Nice Côte d’Azur). Bonjour La Côte d’Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise.",
+      "« « L’IA peut venir me rendre visite, j’aurai toujours mon stylo à la main » : Luc Besson honoré pour sa carrière à Monaco » (Nice-Matin). Le réalisateur français a reçu un Legend Award samedi soir pour la soirée de clôture du Monte-Carlo Film Festival de la comédie.",
+      "« Le pilote niçois Stéphane Tribaudini marque les esprits sur la piste de la course d’ouverture de l’Asian Le Mans Series au Castellet » (Nice-Matin). Leader de la catégorie GT3 à l’issue de son relais, le seul régional de l’étape, qui pilotait une Mercedes-AMG, a fait forte impression d’entrée ce week-end sur le circuit Paul-Ricard…",
+      "« À la Malmaison, Francis Picabia, peintre insaisissable et provocateur, va retrouver Cannes et la Croisette près d’un siècle après sa première exposition » (Nice-Matin). Il a vécu près de vingt ans sur la Côte d’Azur, fréquenté les grandes figures des Années folles et multiplié les expérimentations artistiques.",
+      "« Festival Femmes en Scènes : projection ciné-concert à la Cinémathèque de Nice » (jds.fr).",
+      "« Concert de nyckelharpa au Palais Lascaris de Nice » (jds.fr).",
+      "Les dates et horaires peuvent évoluer : vérifiez auprès des organisateurs avant de vous déplacer. Les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "Tribuca.net",
+      "Monaco Hebdo",
+      "BFM Nice Côte d'Azur",
+      "jds.fr",
+      "Nice-Matin"
+    ],
+    "liens": [
+      {
+        "titre": "De l'Australie à la Corée du Sud, onze pays à l'affiche du Festival de danse de Cannes",
+        "source": "Tribuca.net",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZWgtai1uSF9ldWZvbW1mMl92RmZnLUhxZlB0cHRQaE4wVGhobkRSSHJTSTgxaGlWdnlGTGQ2a0JfSHBYQ1N1dkFfbUh3LTlVRXNtQVpLbmZuX1ViM2otUGRTcGF1UlJFTUlPYTNJRFVVcVp3dWdmZTlqQ3YyUkN4QkRPT2pNY0lVUDZ5X2Z3VVQ2VlQ3eFltQlZaWFNUMkhZMzhhQlVBdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T09:31:34.000Z"
+      },
+      {
+        "titre": "Le festival de danse Cannes – Côte d’Azur, c’est du 21 novembre au 6 décembre",
+        "source": "Monaco Hebdo",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRkZ4bDUyX2hiVzdqYjVUTXpnejd1UTh3QU5Sb2dsM2lsMktqNHNzOFpkbE5Ed3RvVkRGWkFNeGhNVVNtUFdDMVBNQVhhQlJCa1VqSm0yYVJDV3BtdGltOGJkcndxWHhmeGtQdlkzMjlMYm51X04tTS1iTW41MFljdkdFTmJ3NDMxdlRTSG0zX3ZKX3Q5dTVXR0ZCak5GaVlHaWNiTjBWeEppQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T07:11:00.000Z"
+      },
+      {
+        "titre": "Le journal de 8h du vendredi 13 novembre 2026",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-le-journal-de-8h-du-vendredi-13-novembre-2026_VN-202611130282.html",
+        "resume": "Bonjour La Côte d'Azur présentée par Laurie Canac, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole niçoise. Au sommaire : Menton, nouvelle scène de tension ce jeudi. Sud-Est, un mois de pluie en quelques heures. Carnaval de Nice, des nouveautés pour 2027.",
+        "heure": "2026-11-13T07:28:11.000Z"
+      },
+      {
+        "titre": "Ce week-end dans les Alpes-Maritimes, 9 sorties incontournables du 13 au 15 novembre 2026, du concert de Vanessa Paradis à Nice aux secrets olfactifs de Grasse",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSDdYWVMzcG1uMUp0VmE3em1MSWkxdWt2dE4ycFV6Q0pLSmdDN3FUSEhQOFNqZDMyaDRiTWMwRi1pTHhiWGFfOWtLUGdJNXZ1X3pXTm1nRGNBZ1ZfM0xTejhHR2phWEI3bUFHbERCR1RnN0dMM2VZUEJacVI0a0x5LUZnbDU5TndpYV96bWNGU2pBaWZxTmhmWjlhOEQ1aDFxWUo3M2pBd2tMalZFa3JuNHdheEVsckp3UDRVb0ZUUThSLTlvdGdWaHhrZGo?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T05:00:27.000Z"
+      },
+      {
+        "titre": "« L’IA peut venir me rendre visite, j’aurai toujours mon stylo à la main » : Luc Besson honoré pour sa carrière à Monaco",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/culture/cinema/l-ia-peut-venir-me-rendre-visite-j-aurai-toujours-mon-stylo-a-la-main-luc-besson-honore-pour-sa-carriere-a-monaco-10761612",
+        "resume": "Le réalisateur français a reçu un Legend Award samedi soir pour la soirée de clôture du Monte-Carlo Film Festival de la comédie. Sur scène, il a livré quelques anecdotes sur ses méthodes de travail.",
+        "heure": "2026-11-15T18:00:02.000Z"
+      },
+      {
+        "titre": "Le pilote niçois Stéphane Tribaudini marque les esprits sur la piste de la course d’ouverture de l’Asian Le Mans Series au Castellet",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/automobile/le-pilote-nicois-stephane-tribaudini-marque-les-esprits-sur-la-piste-de-la-course-d-ouverture-de-l-asian-le-mans-series-au-castellet-10761754",
+        "resume": "Leader de la catégorie GT3 à l’issue de son relais, le seul régional de l’étape, qui pilotait une Mercedes-AMG, a fait forte impression d’entrée ce week-end sur le circuit Paul-Ricard…",
+        "heure": "2026-11-15T17:53:24.000Z"
+      },
+      {
+        "titre": "À la Malmaison, Francis Picabia, peintre insaisissable et provocateur, va retrouver Cannes et la Croisette près d’un siècle après sa première exposition",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/societe/vie-locale/a-la-malmaison-francis-picabia-peintre-insaisissable-et-provocateur-va-retrouver-cannes-et-la-croisette-pres-d-un-siecle-apres-sa-premiere-exposition-10760062",
+        "resume": "Il a vécu près de vingt ans sur la Côte d’Azur, fréquenté les grandes figures des Années folles et multiplié les expérimentations artistiques. À partir du samedi 5 décembre 2026, La Malmaison consacre une exposition au peintre et dessinateur, Francis Picabia, et à ses années azuréennes.",
+        "heure": "2026-11-15T12:30:00.000Z"
+      },
+      {
+        "titre": "Festival Femmes en Scènes : projection ciné-concert à la Cinémathèque de Nice",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLXdoNmZSVVhXU2pzX24xWmxXZUFVa1BHSE5DOUQtcDU2RHRZd1l0OWhUMzhqNV9vWEUwQWNrSFgwZ2g0aEZVcFpEcC1vVlNmREoweUlyVE1iUndZdmROcXNSWV9WRkdEV1hWakJtdjN3d1drVFJDbEFDNEQzYjhiVF96WjdPUktnVzJYMVM3R2YwNjBUekFfZGxuWUppNmJSc2lYQnFYNTdXeDEteVJNNURjZmJqclNFdVZneVVDTEkwd3RXaFE?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T00:45:41.000Z"
+      },
+      {
+        "titre": "Ciné Récré à la Cinémathèque de Nice : un festival de cinéma pour les enfants",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY0Qtd3VSZE9ISGN6eXVyWE90QVowRTF6QnhlTnNNZEJqWW13NktUUW9iTkIzRURKbWpXSm5KbjJMeDM5QmMyNVFxR1c5b284a1ZFbGFtTkZLZVVNbEtWaFU1TFh5bnhHRHR2Z1pnRHByTGVPak1jdjRWU0gyMmtDMDJTa0ZXUEFIRC1iaHpBajFieFQ0dTV2QWJnVEJlTHZ5QVBMZ2ktSld5eE9pOTFtTnZiNTlMblluWHAwOThwb1BlMl9rMHc?oc=5",
+        "resume": "",
+        "heure": "2026-11-14T23:07:06.000Z"
+      },
+      {
+        "titre": "Concert de nyckelharpa au Palais Lascaris de Nice",
+        "source": "jds.fr",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeWtrQnBydWFtZGthampWOEFXN3VyeE1yQTdLbXlxRlRKWlRMajM0VzRyT25ScDVhbHNRQmx0QWp4UHZpX2pQUl9ldUl2aERXVl9jQ0lHbWtVbmpGenJfLUpMX1RxWFRRYXpYU3h0dklubjZ5dXRvT0QtYjV1dUMtSzdRZFVwSE5kbjdqTThDRk0zVGFILWJJ?oc=5",
+        "resume": "",
+        "heure": "2026-11-14T23:10:33.000Z"
+      }
+    ],
+    "redige": true,
+    "imageCommons": [
+      "Côte d'Azur Nice",
+      "Côte d'Azur",
+      "Nice vue",
+      "Monaco vue",
+      "Nice"
+    ],
+    "image": {
+      "src": "img/entreprises/2026-11-16-agenda-semaine.jpg",
+      "credit": "Florian Fèvre / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:FlixBus_Irizar_i6_-_Nice_A%C3%A9roport.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "chemin": "/sorties/2026/11/16/agenda-semaine/"
+  },
+  {
+    "id": "2026-11-16-en-agenda-semaine",
+    "lang": "en",
+    "date": "2026-11-16",
+    "section": "Sorties",
+    "rubrique": "What's on",
+    "emoji": "🗓️",
+    "type": "article",
+    "genre": "agenda",
+    "auteur": "Théo Marchal",
+    "titre": "What’s on this week on the French Riviera, 16 to 22 November",
+    "chapo": "6 events and outings spotted in the news, from Nice to Monaco.",
+    "corps": [
+      "What is coming up on the French Riviera this week? Our newsroom has gathered the announcements published over the past seven days by Expats.cz, IMDb, Zolima CityMag, Monaco Life and Nice-Matin: shows, exhibitions, festivals and events, from Nice to Monaco.",
+      "“Czech cinema spotlight: French Film Festival brings Cannes to Prague” (Expats.cz).",
+      "“Monaco launches new Résonance music festival with eight free concerts in historic churches” (Monaco Life).",
+      "“Édith Piaf Comes Back to Life in Monaco: Nathalie Lermitte Stars in a Free Show on November 18, 2026” (Montecarlo Living).",
+      "“Francis Picabia Exhibition, Mediterranean, the Azure Studio, at La Malmaison in Cannes” (Arts in the City).",
+      "“Painting the French Riviera: a ‘miraculous’ exhibition” (The Week).",
+      "“AI-powered films awarded in Istanbul to compete at Cannes festival in 2027” (Türkiye Today).",
+      "Dates and times can change: check with the organisers before you go. The full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "Expats.cz",
+      "IMDb",
+      "Zolima CityMag",
+      "Monaco Life",
+      "Nice-Matin",
+      "Montecarlo Living",
+      "Arts in the City",
+      "The Week",
+      "Türkiye Today"
+    ],
+    "liens": [
+      {
+        "titre": "Czech cinema spotlight: French Film Festival brings Cannes to Prague",
+        "source": "Expats.cz",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYXJnMEoyS0ZZaW0wR1pNSmRSNGZtUEFfRWx3VnBhVjFIUFJ4c0dMMEwzYldZdkdraU9WLWVhWFFENldRNWZubVZDMkswMHJGeVlqSmJKMWZCV3BpZkF4Tmx2TU1nVEoyWEVsbnhROW14dHRfNjNoeFc5NjVrNUE0VThabkZwWE04N3NqamQzVUlJMnlTUUVhZnNES2VlWWRFNWNJTUR6T1ZHalpE?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T13:02:00.000Z"
+      },
+      {
+        "titre": "The Safar Twins at the 79th Cannes Film Festival",
+        "source": "IMDb",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UNWs4Y2laVl9xazZBVGtJQTkxWmpJSTQzX3hHZm9JMl9vMlV2aFBhYVZPTmpVbkpFYmxiblk5dlNSVGlBaTNIbEtfbEpWd3RwLUE?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T05:55:12.000Z"
+      },
+      {
+        "titre": "Hong Kong French Film Festival Turns 55, Collabs with Cannes",
+        "source": "Zolima CityMag",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03MVNnbktVNmNJM0pzaC1jdF9aMFdxNlNuU3FfaVQybGJrQVJiZkE1aDNRNFJpM0RNN2h6a1RfSnZQLXl4aDM2dDBVanY1bHZTVzRZMnBwZVlUdzBVcE9SOXlzVVc1UXZMVXBqYjR2eGxFXzZQRmJPXw?oc=5",
+        "resume": "",
+        "heure": "2026-11-11T08:00:00.000Z"
+      },
+      {
+        "titre": "Monaco launches new Résonance music festival with eight free concerts in historic churches",
+        "source": "Monaco Life",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOThzaklWU2NOUFdYNTN3NGY0MDRseFBwck0tdkp6VG9GTnpQNWJiLW16VEsydG14MjQ4UDhZZ0JJYzNrTEZjaU5KeV9EWkVXaGdnNWhJUEpyY09YWmIxWHZpQU94NTNmQlpfdV9xRkNLRVVKMUowX0RGYUIwM0FkMEFrT1VSRVN0NWV6RTQ1VmR2eGdtcFk0ZlYxUXNTczRIZ2hxVXotRThNQ3BzQms3U1RwUmE?oc=5",
+        "resume": "",
+        "heure": "2026-11-11T14:23:17.000Z"
+      },
+      {
+        "titre": "Monaco Launches \"Résonance\", a New Music Festival Celebrating Four Centuries of Music",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOUpMS1I5RkhBaTNMS2JVc0pQTjh0MnVRRElMcUU5QkJERGZ0ZFlrNmZQRjJKVXdpXzFUa1hDMVhycmQ4WFNsd3lrbll3V1lGRjVqdlc4d2xRSXNZUVdoOHJIaUxhVnFSSlQzRmlsOGdDeXJDeVJ2MFpacFp2UktGRHlsN2wtcVRWQzhrZkJpa09TckJLN0FTelhUdmZYQVNNMEVpa3Eya0FkQ2hvNHZheERPV1VYR1BkcHlObG1hMW1QRzgwMkhpSjFEeHJScEMtNjBzNWQyVUY3c2F5?oc=5",
+        "resume": "",
+        "heure": "2026-11-10T17:02:01.000Z"
+      },
+      {
+        "titre": "Édith Piaf Comes Back to Life in Monaco: Nathalie Lermitte Stars in a Free Show on November 18, 2026",
+        "source": "Montecarlo Living",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUmlvd1NJNkY5bm9GVDhKSkdITWJqcEE3SWVsbWxvdUp4WmNOejVsY2FnamdQTWNCajV6b3ktME93OTdqYkZ6VTVvZjdyMG5hX09XdGZHQWx4NkNURDhpQ3JQSmJVOGNCTG92dXJ5QVZtaWlyTjRqdkZlUTc4MFFEclcwNjRDLWlEem52a0tIaTR6YUs1eWpmRnZPM1AzTVZ5aWJpYlp1QU5VZTBQMGxHNF93V0ZQVnBNeVpIbHMtMHNwSzgwcW1ua2xTWGt4Vk10QjhFV3RTSEU4VnppUlE?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T08:03:37.000Z"
+      },
+      {
+        "titre": "Francis Picabia Exhibition, Mediterranean, the Azure Studio, at La Malmaison in Cannes",
+        "source": "Arts in the City",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMk5ycjBXYWxjWEdUSEFvZ21ZQ3VwMjJfdUV3QlFPZ2VkcFZZNWZSMHBfSU1wV3RRNFQ1V3otQmJfeHlYWkJVd1R2ekhfZXhIT25fMHEtSDd4amZ2anhpWjk4MXdYNm9GaUY0d2VHdzVKbUNJbDN6ZGlUTU0wQ2pHWDlmS2ZDWTU0eXJTUUQ2SlNTbU1GeWhhcUFnbVBRd2ozYS1ieWlVX3RGTF9qUHk4Y3ZWbXhxZFRBUE9VUE1Cdjdadw?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T20:03:17.000Z"
+      },
+      {
+        "titre": "Painting the French Riviera: a ‘miraculous’ exhibition",
+        "source": "The Week",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONnlvZjc0dFBmVGdKTWxlZ0tTSnhBUDZVaUR2QXRySmluQzc5RWE1eWdFcnlFTjAtOTB0Q2Y2QUYxTkk2MmF1cmJKQWZ1RUpnSEphVjYwMjBQNGh0UEllamt3WlFaakdCdlMwanZzQmJvb2FVR0U2YVhzOW5FQUZid196eG1palNLb2h1U0RKN2FKLXlISmdSRUR4dWhXakt4?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T09:36:52.000Z"
+      },
+      {
+        "titre": "Painting the French Riviera: a ‘miraculous’ exhibition",
+        "source": "The Week",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbDMwUldlQ1RrTC1ORVh3NWZNbWcwRkJhLTdIQlgyb2FhbkNqaFBNNGlSOXhRbS1XMXdUREloWmRmNTVtUnJNZ0NZdFZObzZ5RnVyZDZuT2U1SUFIa3pfS0lzUS1kNW54WHRfd2JCZFdKdm13b2ZoSVpKenkxcXVFTmZhMHhhRUZKWFo5cDlBc1ZlbW1HZGZvaVptS2k?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T09:36:52.000Z"
+      },
+      {
+        "titre": "AI-powered films awarded in Istanbul to compete at Cannes festival in 2027",
+        "source": "Türkiye Today",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbzcxcDdNaTUyX1U5YThfTDZxcWFxc2h1MGZTUWNRMFBVT09nSGVlUjVDVjFRLURNY1BuZjZkT2NTUFJxelR2Z2MzamhKeGZpQUREdzY3WHdoN0dlVWhQdlAybEMwN2FyQU9mYVgxSm1JY1h0YThOU0lJRGtNSjJ2RHVJX1ZXREswWVpldHk2MWlZeDhmdGJ6TnFvYXc2MU5hQ0xUaFdLaHVKUWExX0lqdjFSV3QxZFBtVTFF?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T07:33:35.000Z"
+      }
+    ],
+    "redige": true,
+    "image": {
+      "src": "img/entreprises/2026-11-16-agenda-semaine.jpg",
+      "credit": "Florian Fèvre / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:FlixBus_Irizar_i6_-_Nice_A%C3%A9roport.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "chemin": "/en/going-out/2026/11/16/agenda-semaine/"
+  },
+  {
+    "id": "2026-11-16-en-hebdo-international",
+    "lang": "en",
+    "date": "2026-11-16",
+    "section": "Monde",
+    "rubrique": "The week",
+    "emoji": "🌍",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Sofia Delmas",
+    "titre": "The week around the world: the key stories, 10 to 16 November",
+    "chapo": "38 stories from 6 news outlets over seven days. In this round-up: “Trump, Putin and Xi plan historic joint meeting in China next week, White House says”, “US has floated Ukraine ceding Donbas for Nato membership, Zelensky says” and “Iran targets US military base in Bahrain with drone attack”.",
+    "corps": [
+      "From 10 November to 16 November, our newsroom followed the news around the world through reporting by BBC News, The Telegraph, Sky News, BBC, The Guardian and Al Jazeera. Here are the stories that marked the week.",
+      "Leading the week, “Trump, Putin and Xi plan historic joint meeting in China next week, White House says”, BBC News reported on Saturday. From the article: “Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.” The story was also covered by The Telegraph, Sky News and BBC.",
+      "Another major story: “US has floated Ukraine ceding Donbas for Nato membership, Zelensky says”, BBC News reported on Saturday. It added: “The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.” The story was also covered by The Guardian, Sky News and BBC.",
+      "Elsewhere, “Iran targets US military base in Bahrain with drone attack”, BBC News reported on Sunday. From the article: “It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.” The story was also covered by BBC and The Guardian.",
+      "Meanwhile, “Microsoft says services fully restored after day-long global outage”, BBC reported on Friday. The story was also covered by The Guardian and Al Jazeera.",
+      "Also this week, “Ukraine hits Kerch bridge between Russia and occupied Crimea”, The Guardian reported on Monday. The story was also covered by The Telegraph.",
+      "Worth noting, “Prince Harry tells Ukrainians they are ‘going to win war’ on surprise trip to Lviv”, The Guardian reported on Sunday. The story was also covered by Sky News.",
+      "Finally, “Spain vs England live: UEFA Nations League”, Al Jazeera reported on Sunday. The story was also covered by BBC.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "BBC News",
+      "The Telegraph",
+      "Sky News",
+      "BBC",
+      "The Guardian",
+      "Al Jazeera"
+    ],
+    "liens": [
+      {
+        "titre": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+        "resume": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+        "heure": "2026-11-14T05:52:31.000Z"
+      },
+      {
+        "titre": "China: World peace is objective of our meeting with Trump and Putin",
+        "source": "The Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPREdSa0JHMGdyZllsTy1aLTVlVnIzSmptdFlyR2hLUzZkMVZ4dEZUam9BVzRnSGdrMWZFRnZHYy1nLUhsMGZLbk15dTlZLUtmMnd1emNneVZlUFRRVXV5WkRaMW1hd0xrZzh3cVJVTl9XSUJnRmROU1FZd3ljWXVMeEswVUtKS0IzVHgzMEgzQ05Hc1pQc0k0cm0yRjE5NlNQbkM3ZFhMejAtc0U?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T13:30:00.000Z"
+      },
+      {
+        "titre": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+        "source": "Sky News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa2ZBS0JtUUJZa2JKNFRNMl8zQk5ZNzBrRUc1Mnd0Y3Q4UTVuaS1LVE81NXRLS0FiQzFTZElTMUtTQV92UUh4cEpkVDZrel9VWWU2MzNwVGJKUTZTRjhsQnVKck9zVmVOMDZyZ2pLZnhVSVNhblRMQlUyRDJXZVlOY0Z4MXpyRVpTVFFDQTNqODlvcWV4Szl4V2k1aW5Oc1JPU2NB?oc=5",
+        "resume": "",
+        "heure": "2026-11-14T11:34:31.000Z"
+      },
+      {
+        "titre": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwcWhNYWJ4VUFhU01RNGpYNVZIYzhtcGlIZWZxSC1JdjBIWVY2Z0ZudEU0ZzkwWjRsc25IdzZ4bWwxLXFQZjlOdWxRZEppNEVRQUlGdFMwMERSOU9uanc?oc=5",
+        "resume": "",
+        "heure": "2026-11-14T02:05:55.000Z"
+      },
+      {
+        "titre": "Why are 50 world leaders meeting in Dublin?",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5faGh5Qk1vSVpuc2w0X3lVQ0tpZVZNYUZKcTJuNndSdGU2blZybzNya2FTa0UwUTliNENEeXhvOXVpeDRNS0JQa2Jab01VX0ZOaFBoYnhhUGt3Qzg?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T13:33:47.000Z"
+      },
+      {
+        "titre": "EU: 50 world leaders in Dublin for major European summit",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FNnpDYzY5OHNlX2Fsel8tYVRoSUxRa3ZScmJiYXA3SzV5RXB1Xy1wcHhpYlBhX3oxbFZfc1lOMGZOT0g2a1gxRkFOajZ3R2JudmpMNlpOUENLeTBUVnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T07:28:55.000Z"
+      },
+      {
+        "titre": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+        "resume": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
+        "heure": "2026-11-14T11:41:20.000Z"
+      },
+      {
+        "titre": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+        "resume": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
+        "heure": "2026-11-13T02:01:35.000Z"
+      },
+      {
+        "titre": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+        "resume": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
+        "heure": "2026-11-12T12:14:51.000Z"
+      },
+      {
+        "titre": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+        "resume": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+        "heure": "2026-11-11T18:04:58.000Z"
+      },
+      {
+        "titre": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+        "resume": "Kyiv, Washington and Moscow have all sent delegations to the United Arab Emirates for the first trilateral talks since February.",
+        "heure": "2026-11-10T09:07:00.000Z"
+      },
+      {
+        "titre": "Ukraine war briefing: US proposes Kyiv cede land to Russia for Nato membership, Zelenskyy says",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONDZhdzBhLVdGZk1vZFdVY1E5MmhQMWVMWjAyRFJ4RzB6NUlfLWVBbmdsb1BQMFpLbnNlQ2J4bUdWNVpuUE1jbzNseWhuREhsYkRUWm1oRTNLUVhMLVNWWEE5ejh0OVpZakN3YkNjWDNvYUUybUtMVVhsVmladkljQ2h6ZDNvUWREdUVaNkpBclpHTkY2Uktzd3lYMnltNmZEeUh4MUV2RllDSWZPUWNlZjJsaEJ0T29BeDVfLTJydUV2aVVlbncwVTVKc3pEZEJ4YzY3LQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-15T03:41:00.000Z"
+      },
+      {
+        "titre": "US asked if Ukraine would give up parts of Donbas for NATO membership, Zelenskyy says",
+        "source": "Sky News",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUFR4U0ZNUWxvdTlBSEY2ckpkZGV5RTRBaTRDZWRPM0s0WmExV1lfM2NNTnVQM3hQWWVBcW1jajVuU1hNREU2M3Z4ZDA3R1dMTjljajBkVkw1ckxLT1VNdDU3aHBvc1JTUmk5UFlTNFBGeVlLbnVDTmNiS3hpaC1nMWJSZ29DckdzY3pVSUFaXzJLMGQxYVJGa0RRVjJlSFJmTl85azVaY1Zpa3pfZnQtRGRwQkZZYTRES0RB?oc=5",
+        "resume": "",
+        "heure": "2026-11-14T14:54:43.000Z"
+      },
+      {
+        "titre": "Zelenskyy accuses SpaceX of lying about Starshield – and says US floated Donbas-for-Nato deal",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXlzLUQtSFlMUmxtemZJTk13emUzT2stSmpjb1M1UC1oUS0wRFhtOVVSOUJ2TE5NNTVzVmQtc2VIN25GZ3k5dTJNTmJidDRoUnFaVHZtdFljXzB5aFY4R2pvbk1kN05Kb2hrYjdNM2w0bG1lOFdPUjUtbzU2MHdEemI1aFFYTWtNd3k3RzFscThLREFGenJvR3BBdngySWczdlZuc19KR1JSaGk3RG15ZEJB?oc=5",
+        "resume": "",
+        "heure": "2026-11-14T14:35:00.000Z"
+      },
+      {
+        "titre": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ncHB4Ym5vZzlHclkySUNxbFJzeHhobEFlcnZHNkxrOXptenBPT0hvVTI1dHBSYzZqbHY2Smt3enFMWC1mQXFTdVZMVS1uYmhXU3BlVzJjeld6cDc4OWc?oc=5",
+        "resume": "",
+        "heure": "2026-11-14T10:30:38.000Z"
+      },
+      {
+        "titre": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHZrWDRYUnNtd29ldUdSRnVFSjNDaEk5VnNwZk5DSXRrVVJkMnBqYmVEbjNvMGpSemRSV01FWDg5bHdoVjE3dS13TUhPVlhzTWN2RGYtajVONm4xRmYzYjYxMjNsNnFCblpZSUxldk5BQXgzMUpxOGdYeVZOR0VzdWJMM0VvazN3eGhnclQxbkVHWGp5cGhDM2xqaVBwX1B5NlN2YlZsTkZNUE9PWll2OFAyaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T12:39:00.000Z"
+      },
+      {
+        "titre": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSa01kekJuV3cwdnA1cDlvaVJ2OV9PWDNwVHhDOElkLWpaT2VLdDlwSVptbXJsMWVlcHRRWE1tVExwZkhyb1RKb08wZVNaTHBCR3Rscm14SnlBdVFMNGc?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T02:01:35.000Z"
+      },
+      {
+        "titre": "New talks with Russia, Ukraine and European countries agreed, US says",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNjloWUQ4N0lPcVpScWVPUU4yeDV4UnlneERFcl9fd0lHSVVRczVkQWJlWVJ1ZmFMT3Nfel9LQldfeUd5dFFEZ29MY3RWelZQN0VLOG1ONnVUTjZaRjZ6Y0tsZU1uZWVrQ2pJTFRQNmxKZWRyX1NPSmtPUUt4dUlCV3JHNF9tU2ViZVN3TzhpSjllbVJvdkE2aDRlQzk2ZWd5WWdpUlJIWHNnY1dUZzZxRnlDZGlKTzlxLUNOaDVlM1BVdzE0NHVLNEJrY1lPUUpXSXNSeDhKWmFPRzFQSXBUSFJGOA?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T17:17:55.000Z"
+      },
+      {
+        "titre": "Putin proposes new humanitarian mission after US-Russia talks",
+        "source": "Sky News",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWXA5ZEI0Z25DSE1MeVRwQTZPaGFrUGtsSGF6dzRGNktsamViajFBc1hEM2tfYkNBdlY1eDEtbUVJV3ZZSzlFekRCc3R0cGZKTzI3Sk1ybkNuVkVxOUNwYUN6OEM3b2RpQVNyU0tmc3Uta0c0NlFqQTNiLVJWNm5rOUpGTDBpWkJBSDVEVjFmT2dSRDc2QVN4X3hnYWF1dw?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T16:17:47.000Z"
+      },
+      {
+        "titre": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6OW5hR0FFS0Jyb1l4WG54T1lyclJ4MWM4WERvRDB6WkNkYzFFZ3N3akJCa0RWbU1KcjJRb19kN1N2VmhoNFU0TzZjRGhNN1ZqR0VuN2JjTHpwakJUN0E?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T10:08:38.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/en/world/2026/11/16/hebdo-international/"
+  },
+  {
+    "id": "2026-11-16-hebdo-international",
+    "lang": "fr",
+    "date": "2026-11-16",
+    "section": "Monde",
+    "rubrique": "La semaine",
+    "emoji": "🌍",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Sofia Delmas",
+    "titre": "La semaine internationale en 6 sujets, du 10 au 16 novembre",
+    "chapo": "61 informations publiées par 2 médias en sept jours. Au programme : « Dans les Alpes-Maritimes, un lieu pour écrire l’histoire des camps forestiers de harkis : « On était parqués comme des animaux, cachés au milieu de la forêt. On était une honte pour la France » », « L’UE annonce de nouvelles sanctions contre plus de 100 entités et personnes \"pour mieux restreindre la capacité de la Russie à financer sa guerre\" en Ukraine » et « Législatives en Israël : Benyamin Nétanyahou accusé d’avoir tenté un « coup d’Etat » par des opposants ».",
+    "corps": [
+      "Du 10 novembre au 16 novembre, la rédaction a suivi l’actualité internationale à travers les publications de Le Monde et franceinfo. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « Dans les Alpes-Maritimes, un lieu pour écrire l’histoire des camps forestiers de harkis : « On était parqués comme des animaux, cachés au milieu de la forêt. On était une honte pour la France » », titrait Le Monde samedi. Le média précise : « La première pierre de la Maison de la mémoire harkie a été posée fin septembre sur le site de l’ancien hameau de forestage de Valbonne, où près de 35 familles ont vécu dans des conditions misérables de 1967 à 1992. »",
+      "Autre sujet marquant, « L’UE annonce de nouvelles sanctions contre plus de 100 entités et personnes \"pour mieux restreindre la capacité de la Russie à financer sa guerre\" en Ukraine », titrait franceinfo lundi. Extrait : « Des banques russes sont notamment ciblées, tout comme le secteur de l’e-commerce du pays. » Le sujet a également été traité par Le Monde.",
+      "Dans un autre registre, « Législatives en Israël : Benyamin Nétanyahou accusé d’avoir tenté un « coup d’Etat » par des opposants », titrait Le Monde lundi. Le média précise : « Nétanyahou est accusé d’avoir orienté des officiers de police vers une prétendue source de renseignement sur des militants d’une formation arabe, qui était en fait un ancien employé du bureau du premier ministre. » Le sujet a également été traité par franceinfo.",
+      "Par ailleurs, « Moscou fustige la décision de l’Estonie de fermer sa frontière avec la Russie », titrait franceinfo lundi. On peut y lire : « Tallinn a annoncé cette mesure, dimanche, après une tentative d’incendie d’une usine de drones orchestrée, selon l’Etat balte, par le renseignement militaire russe (GRU). » Le sujet a également été traité par Le Monde.",
+      "Toujours cette semaine, « Gaza : Royaume-Uni, Italie, Australie et Canada appellent Israël à permettre un accès humanitaire « immédiat » et « sans entrave » dans le territoire palestinien », titrait Le Monde dimanche. Extrait : « L’enclave a été frappée par des pluies diluviennes ayant entraîné l’inondation de milliers de tentes de personnes déplacées. » Le sujet a également été traité par franceinfo.",
+      "Enfin, « Au Cambodge, Emmanuel Macron appelle à l'\"unité\" de l’Organisation internationale de la francophonie, secouée par une rivalité entre la RDC et le Rwanda », titrait franceinfo dimanche. Extrait : « Les deux pays africains s’affrontent autour du nom du prochain secrétaire général de l’institution qui œuvre notamment pour la promotion de la langue française, reléguant des enjeux politiques au second plan. » Le sujet a également été traité par Le Monde.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "Le Monde",
+      "franceinfo"
+    ],
+    "liens": [
+      {
+        "titre": "Dans les Alpes-Maritimes, un lieu pour écrire l’histoire des camps forestiers de harkis : « On était parqués comme des animaux, cachés au milieu de la forêt. On était une honte pour la France »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/m-le-mag/article/2026/11/14/dans-les-alpes-maritimes-un-lieu-pour-ecrire-l-histoire-des-camps-forestiers-de-harkis-on-etait-parques-comme-des-animaux-caches-au-milieu-de-la-foret-on-etait-une-honte-pour-la-france_6810317_4500055.html",
+        "resume": "La première pierre de la Maison de la mémoire harkie a été posée fin septembre sur le site de l’ancien hameau de forestage de Valbonne, où près de 35 familles ont vécu dans des conditions misérables de 1967 à 1992.",
+        "heure": "2026-11-14T14:00:05.000Z"
+      },
+      {
+        "titre": "Des harkis réclament justice pour le traitement de leurs morts dans des camps en France dans les années 1960 : « Nous avons été traités avec mépris par la République »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/afrique/article/2026/11/10/des-harkis-reclament-justice-pour-le-traitement-de-leurs-morts-dans-des-camps-en-france-dans-les-annees-1960-nous-avons-ete-traites-avec-mepris-par-la-republique_6808883_3212.html",
+        "resume": "Cinq familles de harkis, dont des membres ont vécu dans le camp de Saint-Maurice-l’Ardoise (Gard), après leur arrivée d’Algérie en 1962, veulent comprendre pourquoi leurs proches ont été enterrés en catimini et pourquoi les ossements de certains d’entre eux ont disparu. Elles ont déposé plainte le 9 novembre.",
+        "heure": "2026-11-10T17:10:19.000Z"
+      },
+      {
+        "titre": "L'UE annonce de nouvelles sanctions contre plus de 100 entités et personnes \"pour mieux restreindre la capacité de la Russie à financer sa guerre\" en Ukraine",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ue-annonce-de-nouvelles-sanctions-contre-plus-de-100-entites-et-personnes-pour-mieux-restreindre-la-capacite-de-la-russie-a-financer-sa-guerre-en-ukraine_8284817.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Des banques russes sont notamment ciblées, tout comme le secteur de l'e-commerce du pays.",
+        "heure": "2026-11-16T12:31:24.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : l’Estonie ferme ses frontières avec la Russie, Kiev invite les gouvernements européens à faire preuve de la même fermeté",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/15/en-direct-guerre-en-ukraine-l-estonie-ferme-ses-frontieres-avec-la-russie-kiev-invite-les-gouvernements-europeens-a-faire-preuve-de-la-meme-fermete_6810982_3210.html",
+        "resume": "Le ministre des affaires étrangères estonien, Margus Tsahkna, a annoncé dimanche la fermeture de tous les postes-frontières avec la Russie à compter du 1er décembre. Il a déclaré détenir des « preuves manifestes » indiquant que le service de renseignement militaire russe a ordonné une « opération de sabotage » contre une entreprise estonienne du secteur de la défense.",
+        "heure": "2026-11-15T19:05:08.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : les restrictions d’accès à Starshield persistent et empêchent Kiev de se protéger des attaques russes, dit Volodymyr Zelensky",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/15/en-direct-guerre-en-ukraine-l-emissaire-americain-jared-kushner-regrette-la-diffusion-de-positions-maximalistes-apres-les-negociations-avec-l-ukraine-et-la-russie_6810982_3210.html",
+        "resume": "Selon le président ukrainien, la Russie avait utilisé « plus de 2 300 drones d’attaque, 1 590 bombes aériennes et 15 missiles de différents types » au cours de la semaine passée. « De nombreuses de ces attaques sont possibles en raison des limitations de vitesse des terminaux Starshield le long de la ligne de front », a-t-il ajouté, demandant aux Etats-Unis et à SpaceX de rétablir l’accès au système satellitaire militaire.",
+        "heure": "2026-11-15T09:59:59.000Z"
+      },
+      {
+        "titre": "Volodymyr Zelensky affirme que Washington a proposé des concessions territoriales en échange d'une adhésion de l'Ukraine à l'Otan",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/volodymyr-zelensky-affirme-que-washington-a-propose-des-concessions-territoriales-en-echange-d-une-adhesion-de-l-ukraine-a-l-otan_8282804.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Le dirigeant a rencontré des dirigeants européens et les émissaires de Donald Trump dans la foulée de deux jours de pourparlers entre l'Ukraine et la Russie à Abou Dhabi.",
+        "heure": "2026-11-14T19:47:09.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : Emmanuel Macron dénonce « ceux qui veulent rationner » l’aide à Kiev et « l’obliger à une paix injuste »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-emmanuel-macron-denonce-ceux-qui-veulent-rationner-l-aide-a-kiev-et-l-obliger-a-une-paix-injuste_6808609_3210.html",
+        "resume": "La candidate du Rassemblement national, Marine Le Pen, entend, si elle est élue, cesser l’aide financière à l’Ukraine. Une position fustigée par le gouvernement et les candidats d’un arc allant de la social-démocratie à la droite. Samedi soir, le chef de l’Etat a mis en garde contre le risque d’une « vulnérabilisation durable » de l’Europe.",
+        "heure": "2026-11-14T19:33:34.000Z"
+      },
+      {
+        "titre": "Emmanuel Macron affirme que \"ceux qui veulent rationner\" l'aide à l'Ukraine veulent \"l'obliger à une paix injuste\"",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/emmanuel-macron-affirme-que-ceux-qui-veulent-rationner-l-aide-a-l-ukraine-veulent-l-obliger-a-une-paix-injuste_8282819.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Marine Le Pen entend, si elle est élue, cesser l'aide financière à l'Ukraine, envahie depuis 2022 par la Russie, après une période de six mois.",
+        "heure": "2026-11-14T19:31:20.000Z"
+      },
+      {
+        "titre": "Guerre en Ukraine : les Etats-Unis ont proposé des concessions territoriales en échange d'une adhésion de Kiev à l'Otan, selon Volodymyr Zelensky",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-volodymy-zelensky-affirme-que-les-etats-unis-ont-propose-des-concessions-territoriales-en-echange-d-une-adhesion-de-kiev-a-l-otan_8282333.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Le président ukrainien a également annoncé vendredi que son pays était en pourparlers pour obtenir \"des garanties de sécurité spécifiques de la part de l'Otan et de l'UE\".",
+        "heure": "2026-11-14T11:14:15.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme que les Etats-Unis ont évoqué des concessions territoriales en échange d’une adhésion à l’OTAN",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-volodymyr-zelensky-affirme-que-les-etats-unis-ont-evoque-des-concessions-territoriales-en-echange-d-une-adhesion-a-l-otan_6808609_3210.html",
+        "resume": "« C’est la première fois que cette question a été soulevée », a déclaré le président ukrainien, quelques jours après le dernier cycle de pourparlers de paix à Abou ⁠Dhabi. Il a répété que l’Ukraine n’était pas disposée à retirer ⁠ses ‌troupes et que les termes d’un éventuel accord de paix devraient être approuvés par référendum.",
+        "heure": "2026-11-14T11:13:27.000Z"
+      },
+      {
+        "titre": "Face à Israël et aux Etats-Unis, l’Iran resserre ses liens avec la Russie",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/14/face-a-israel-et-aux-etats-unis-l-iran-resserre-ses-liens-avec-la-russie_6809692_3210.html",
+        "resume": "Les rencontres diplomatiques se multiplient entre Téhéran et Moscou, tandis que la mer Caspienne devient un axe stratégique pour leurs échanges commerciaux et militaires. Un rapprochement réel, mais qui se heurte aux limites de l’engagement russe.",
+        "heure": "2026-11-14T05:00:31.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : la France, l’Allemagne, le Royaume-Uni, l’Italie et la Pologne représenteront les Européens lors des prochains pourparlers sur l’Ukraine",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/13/en-direct-guerre-en-ukraine-la-france-l-allemagne-le-royaume-uni-l-italie-et-la-pologne-representeront-les-europeens-lors-des-prochains-pourparlers-sur-l-ukraine_6808609_3210.html",
+        "resume": "« L’Europe doit parler d’une voix claire et unie dans toutes les discussions qui façonnent l’avenir de l’Ukraine et la sécurité de notre continent », a déclaré Antonio Costa, le président du Conseil européen.",
+        "heure": "2026-11-13T19:35:30.000Z"
+      },
+      {
+        "titre": "Guerre en Ukraine : le système satellitaire militaire américain Starshield à nouveau perturbé, annonce Volodymyr Zelensky",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-le-systeme-satellitaire-militaire-americain-starshield-a-nouveau-perturbe-annonce-volodymyr-zelensky_8281142.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Selon Kiev, les terminaux Starshield cessent actuellement d'émettre au-delà d'une vitesse de déplacement de 160 km/h, comme cela avait déjà été observé en octobre. L'Ukraine avait alors dénoncé les conséquences de ces perturbations sur la défense antiaérienne.",
+        "heure": "2026-11-13T19:18:56.000Z"
+      },
+      {
+        "titre": "DIRECT. Guerre en Ukraine : la Russie veut connaître les \"intentions\" des Européens avant de les laisser participer aux pourparlers",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-la-russie-veut-connaitre-les-intentions-des-europeens-avant-de-les-laisser-participer-aux-pourparlers_8280860.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "La cheffe de la diplomatie de l'Union européenne a de son côté exclu vendredi que la Russie ait son mot à dire pour choisir les représentants européens pour de futures négociations.",
+        "heure": "2026-11-13T13:09:13.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : Kaja Kallas met en garde contre les « pièges » tendus par Moscou",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/13/en-direct-guerre-en-ukraine-kaja-kallas-met-en-garde-contre-les-pieges-tendus-par-moscou_6808609_3210.html",
+        "resume": "La cheffe de la diplomatie européenne a appelé les Européens à faire du cessez-le-feu en Ukraine leur priorité. « Si nous commençons à parler de ce que la Russie demande concernant l’architecture de sécurité, nous tombons en réalité dans les pièges que la Russie nous tend, à savoir détourner l’attention du fait qu’il n’y a pas de cessez-le-feu et commencer à écouter leurs revendications. »",
+        "heure": "2026-11-13T10:44:39.000Z"
+      },
+      {
+        "titre": "L'Ukraine, les Etats-Unis et l'UE affirment que les Européens seront présents lors des prochaines négociations pour mettre fin à la guerre, la Russie ne commente pas",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/kiev-et-washington-affirment-que-les-europeens-seront-presents-aux-prochaines-negociations-sur-l-ukraine_8280449.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Le Kremlin n'a pas confirmé que Vladimir Poutine avait accepté d'inclure l'Europe dans de futurs pourparlers de paix.",
+        "heure": "2026-11-13T09:55:02.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : les émissaires américains sont arrivés à Dublin pour rencontrer Volodymyr Zelensky",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/12/en-direct-guerre-en-ukraine-les-emissaires-americains-sont-arrives-a-dublin-pour-rencontrer-volodymyr-zelensky_6808609_3210.html",
+        "resume": "Jared Kushner et Steve Witkoff, les émissaires des Etats-Unis pour les négociations sur le conflit entre la Russie et l’Ukraine, avaient auparavant fait étape à Moscou pour des entretiens avec le président russe Vladimir Poutine.",
+        "heure": "2026-11-12T21:10:20.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : Poutine propose une mission « humanitaire » dans une ville d’Ukraine ; les émissaires américains veulent la participation des Européens aux négociations",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/12/en-direct-guerre-en-ukraine-vladimir-poutine-a-detruit-la-securite-europeenne-apres-l-invasion-de-l-ukraine-estime-antonio-costa-president-du-conseil-europeen_6808609_3210.html",
+        "resume": "Alors que Jared Kushner et Steve Witkoff ont plaidé auprès de Vladimir Poutine pour la participation des Européens aux pourparlers, le président russe, qui les reçoit au Kremlin, a proposé une mission pour Kostiantynivka, ville de l’oblast de Donetsk au cœur des combats.",
+        "heure": "2026-11-12T12:52:51.000Z"
+      },
+      {
+        "titre": "« Faites preuve de respect ! » : un garde américain rappelle à l’ordre Pete Hegseth près de la tombe du Soldat inconnu",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/12/faites-preuve-de-respect-un-garde-rappelle-a-l-ordre-pete-hegseth-pres-de-la-tombe-du-soldat-inconnu_6809067_3210.html",
+        "resume": "Un garde a vertement réprimandé le secrétaire à la défense et ses accompagnants, mercredi, alors que ceux-ci discutaient et riaient près de la tombe du Soldat inconnu au cimetière national d’Arlington, en pleine Journée des anciens combattants.",
+        "heure": "2026-11-12T06:55:09.000Z"
+      },
+      {
+        "titre": "L'ambassadeur russe aux Etats-Unis est mort \"soudainement\" à 66 ans, annonce Moscou",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/russie/l-ambassadeur-russe-aux-etats-unis-est-mort-soudainement-a-66-ans-annonce-moscou_8278313.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Il avait pris ses fonctions à Washington en mars 2025, en plein rapprochement entre les deux pays impulsé par les présidents Vladimir Poutine et Donald Trump, notamment sur l'Ukraine.",
+        "heure": "2026-11-11T20:51:09.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/international/2026/11/16/hebdo-international/"
   },
   {
     "id": "2026-11-15-actu-business",
