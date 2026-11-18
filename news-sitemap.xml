@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/business/2026/11/18/hebdo-economie/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-18T08:00:00+01:00</news:publication_date>
+      <news:title>The week in business: the key stories, 12 to 18 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/economie/2026/11/18/hebdo-economie/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-18T08:00:00+01:00</news:publication_date>
+      <news:title>La semaine économique en 7 sujets, du 12 au 18 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/en/riviera/2026/11/17/hebdo-nice-cote-d-azur/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
@@ -14,38 +30,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-17T08:00:00+01:00</news:publication_date>
       <news:title>Nice et la Côte d’Azur : les faits marquants de la semaine du 11 au 17 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/sorties/2026/11/16/agenda-semaine/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-16T08:00:00+01:00</news:publication_date>
-      <news:title>L’agenda de la semaine sur la Côte d’Azur, du 16 au 22 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/going-out/2026/11/16/agenda-semaine/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-16T08:00:00+01:00</news:publication_date>
-      <news:title>What’s on this week on the French Riviera, 16 to 22 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/world/2026/11/16/hebdo-international/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-16T08:00:00+01:00</news:publication_date>
-      <news:title>The week around the world: the key stories, 10 to 16 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/international/2026/11/16/hebdo-international/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-16T08:00:00+01:00</news:publication_date>
-      <news:title>La semaine internationale en 6 sujets, du 10 au 16 novembre</news:title>
     </news:news>
   </url>
 </urlset>

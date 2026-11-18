@@ -1,5 +1,1358 @@
 [
   {
+    "id": "2026-11-18-en-hebdo-economie",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Business",
+    "rubrique": "The week",
+    "emoji": "💼",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Camille Rostand",
+    "titre": "The week in business: the key stories, 12 to 18 November",
+    "chapo": "21 stories from 15 news outlets over seven days. In this round-up: “How important are Nvidia and Jensen Huang to the US economy?”, “Chattanooga Company hopes to build stronger local economy” and “Survey Finds 15% of Japanese Companies Experience Customer Harassment”.",
+    "corps": [
+      "From 12 November to 18 November, our newsroom followed the news in business through reporting by BBC News, The Japan Times, Fast Company, Marketplace.org, The New York Times and WDEF and others. Here are the stories that marked the week.",
+      "Leading the week, “How important are Nvidia and Jensen Huang to the US economy?”, BBC News reported on Wednesday. From the article: “The former Nvidia chief executive has been at the centre of the artificial intelligence boom.” The story was also covered by The Japan Times, Fast Company, Marketplace.org and The New York Times.",
+      "Another major story: “Chattanooga Company hopes to build stronger local economy”, WDEF reported on Tuesday. The story was also covered by Chattanooga Pulse and Inc.com.",
+      "Elsewhere, “Survey Finds 15% of Japanese Companies Experience Customer Harassment”, Nippon.com reported on Monday. The story was also covered by Yahoo Finance and PR Newswire.",
+      "Meanwhile, “H.I.G. Capital Forms Creator Economy Company Waveborn, Buys Talent Firm JRE as Its First Acquisition”, Net Influencer reported on Friday. The story was also covered by PR Newswire Canada and PR Newswire.",
+      "Also this week, “Circular economy company Recove Ventures raises Rs 56.25 Cr”, YourStory.com reported on Wednesday. The story was also covered by BW Disrupt.",
+      "Worth noting, “Anthropic: The seven founders who are about to become multi-billionaires”, BBC News reported on Wednesday. From the article: “The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.”",
+      "Finally, “Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again”, BBC News reported on Wednesday. It added: “Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.”",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "BBC News",
+      "The Japan Times",
+      "Fast Company",
+      "Marketplace.org",
+      "The New York Times",
+      "WDEF",
+      "Chattanooga Pulse",
+      "Inc.com",
+      "Nippon.com",
+      "Yahoo Finance",
+      "PR Newswire",
+      "Net Influencer",
+      "PR Newswire Canada",
+      "YourStory.com",
+      "BW Disrupt"
+    ],
+    "liens": [
+      {
+        "titre": "How important are Nvidia and Jensen Huang to the US economy?",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+        "resume": "The former Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+        "heure": "2026-11-18T06:04:21.000Z"
+      },
+      {
+        "titre": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+        "resume": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
+        "heure": "2026-11-17T18:24:21.000Z"
+      },
+      {
+        "titre": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+        "resume": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+        "heure": "2026-11-13T03:57:01.000Z"
+      },
+      {
+        "titre": "Who could replace Jensen Huang as Nvidia's chief executive?",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+        "resume": "As uncertainty swirls over the boss of the AI chip giant, some names have emerged as potential successors.",
+        "heure": "2026-11-12T11:21:25.000Z"
+      },
+      {
+        "titre": "Nvidia’s Huang ousted by board in move that roils AI economy",
+        "source": "The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQODR1Y290M1NJWUhIOEx0MmlITWhmdGlXYUFCYlAxMDRtakl2WU1kUnREdUsxNTBTMUprU0dTbVJDYjNVXzVPMkdIazZyTEcyOEs5MXNKc0tyd25zaEJTXzVoOHdBTEw2Vk1QdnVjTXBWTE9icEh4aU54NmlGaDZydFhLUHU2UQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T22:26:00.000Z"
+      },
+      {
+        "titre": "How the effects of Jensen Huang’s ouster is spiraling out through the economy",
+        "source": "Fast Company",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMEM3S2Q0aVMzdVpCMXhDRUcyRGY1V0l4dENiNWh5Zi1ZSHFKLUJGbV8yUVVSR3pRMi02emdJWGRBVlZRemlFM2p5RjZ4Uk9BRUtUY3A4RUk2RWlfalJVV3Jubm8tNTVKd0hBaXc0NUtJSk9RTWJjTTdraTVwRXozeUJjaUk1OV9pNmMtOVkxOFg2emd6eGowNXBiWQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T21:02:44.000Z"
+      },
+      {
+        "titre": "Jensen Huang is out. What does that mean for Nvidia and the broader economy?",
+        "source": "Marketplace.org",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wN1lFN0lMenNMM3N1OGRab3U1YU9ScmxsZEJHa2x6d0NnUEJscDItMFZLSnJUdFc1Y0otTTRjT1pUVHpTZ2RLMTFuUmo5Q0drd2hULWVUbjRrV0JuLWg3Z3VHSkgxSGpDWUJ6MHhpSXMwd0lqQ2x0UzNDM0s?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T17:08:00.000Z"
+      },
+      {
+        "titre": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQWJtRi1PaGtpX0Rjd0phWUU4T0tjNlVZMzlXVGpGTmpTR0dVNDZSOWh4UExvaGhsejltMDhkdDRTNjAxMnhscWRoVHl5OWw3UVhqa3VuWlNSWm0yOXE0aHhWeEJxdUhHUGJ4NWM4RHdJdTBKTTd6MkdFdmJwcU9iVnc5dUJaU1k1Y0tzTUs1cXo?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T14:46:25.000Z"
+      },
+      {
+        "titre": "Chattanooga Company hopes to build stronger local economy",
+        "source": "WDEF",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeHlTay1fUlJuSjg2RTM5QzdVblNGSjZEZWduR1BqcXE3cE1IMmhNczFkTDFwVGR4OE1TM0ZwTTAtN2E3Q3NEQlZ6Slhib0ZDQll1eGlvX3BJWHJpazFKSm1HQlhHSDRVWUxYLXIySnUtV3lwREpULXdTekR5QmhWeUhHT0R2Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T23:42:49.000Z"
+      },
+      {
+        "titre": "The Chattanooga Company Created To Build A Stronger And Unified Local Economy",
+        "source": "Chattanooga Pulse",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeC1pZzhVOEFKWGQ1eHVnSktSdnFEekp0b2swejl4RHE4MHpsV2ROaFJuU044eFNKang3czlaVDdXcXRPT1NPTlhnd2xrTEs0YzdzYXJMbGtWRE5aemFQQVdHTXlGSWk3NjlQVnN6Tzg5WTItRWNyRWtscnhqOTNmbjdhVGRIR0l2VVdRTzdCMHJzTmNta0dzN01ucVZYTzVwOWpLTFU2YkpSdGpjWmEzbmtMM0t0dTNZSENWcQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T10:10:00.000Z"
+      },
+      {
+        "titre": "Is Your Company Helping Reshape Your Local Economy?",
+        "source": "Inc.com",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLWFmazJScW9WSTktM21kNWVjcVF3NGJ2aUtzVDdjQnRWRUxOMjVKdFRBQ2tpbmE4X0h5SWxBalFZdjVBTUljNEJoR2ZaZ3MxTFZ6bnJkdng3OXh4OXJubVJIakF2YXBiUFR3NG9jM3NZeDRwdlhQS1kxZmV6SXl1MEZHRzRUODR1enROWDl5U1plNU8xMWhEaWJn?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T16:01:45.000Z"
+      },
+      {
+        "titre": "Survey Finds 15% of Japanese Companies Experience Customer Harassment",
+        "source": "Nippon.com",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13ZGZlOW10eTkwNE1iTzFLYkpRemhpUUNpY183d2QyVnc5ZndMQUJJX01oT0g2SURTYW5fNVJzSjhhaFNOdlZVVXd4TlZzOWJsZWJjZQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T20:59:00.000Z"
+      },
+      {
+        "titre": "Small Business Owners Are More Confident In Their Own Companies Than In The Economy, And Two-Thirds Use AI, Gusto Survey Finds",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZXU0NDdWRk96ZlAxM0tFbmE1UlZZelgwaVJPWGhkejkwbHliSm56U2k0Tl9ibWFzZUF6bVFDZmtVbDZwem56blNaZVZzNGFLWHRHSms5V1hlRmJKcU9OdERia1JOMjJ5R2kxY2NIM1VUMHE5MUJLLW9ycWpfUVdtWE1hVENBMnE0c0NUQ0VaeFVheXNObUpLZmFJazU3MjQ0Ukg4?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T11:00:00.000Z"
+      },
+      {
+        "titre": "Small Business Owners Are More Confident In Their Own Companies Than In The Economy, And Two-Thirds Use AI, Gusto Survey Finds",
+        "source": "PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPTE9KcjdwSjJ5T24tUFhLZTR6bnNhZDh2NkMyNExaZTVRdXY3RGUyRC1LNXJ6LWVJYUhfUm1lTTRQcjNwaS01YnRreUdtSVRTN0Jzd0dBQVpyNHNRVTZHcllIUm16VlRMX1p5LWFjVTRzMjlNV0VVVzAtdDRXemRxXzVsOGdBNXZmVWJoT0JOWUE3TkdOTjlXUkVXVWp5bXhBR3prVXN2TW1WeEhVRWZmSnFsNFQwOWx4RURFVFVXTHNOQ1hKaExoMi1GZDdJNkltTEFmUGZhcGlvQ2ZycmpIY2hRRXZ0eDFMWTY5aldaRU5YY1pNb1dxOWxPTGpvQWlmX0FOeWVQMnpJV2ZS?oc=5",
+        "resume": "",
+        "heure": "2026-11-12T11:00:00.000Z"
+      },
+      {
+        "titre": "H.I.G. Capital Forms Creator Economy Company Waveborn, Buys Talent Firm JRE as Its First Acquisition",
+        "source": "Net Influencer",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3I2UVdXTm1EZ3lCLWZjX2ZlWl95VFo5My1Nd29KTWs2VkdLVXN6LVJ5NG5RbVVFLVRYRnNxQkNQdTZJQ3dOdDVPMjVMMzRBMW9UVlRkbFlucUtNaXBOeEdlSF9JYmwxaTFDTmU2QnhqWTNXUDNiYi1nbzY4YVlSclVKRU1PamxXNG1CaGVvaDg3WkxmTVprN3REd0dtMXExRHpGaXp1eDJMc2hOZTZiLU9LdUZET2VSLUhF?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T14:43:08.000Z"
+      },
+      {
+        "titre": "H.I.G. Forms New Creator Economy Company Waveborn, Acquires JRE",
+        "source": "PR Newswire Canada",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPODFNOTkwWlJZZC15N3FwVWtEemd4N0M3aE9jNXJZRnNBVmUtOG5OVERZWjBPbU9HaVlkU1dibFh6OGxpaURleEFaUU0zcl8yQjMxZHNieS15d0lXbDVCSEFDVnRLbVBZd3JqdmF0dDZHcmtDUEVSc1BBSHFYblVsb1Rsd3VKd3hNc2czWTltUUpnclhTWW1kSnN3aC1pMFcyWDdrYlJOWDRDRkdISFQ2T1JaMGU?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T14:00:00.000Z"
+      },
+      {
+        "titre": "H.I.G. Forms New Creator Economy Company Waveborn, Acquires JRE",
+        "source": "PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX0NsNnlaOS1nTzFFMkxZUzRHZkNuUzVRVEpmM3Y5SFhXaXBkU2VXd0V2cl9QQ2xWbHhoTTRFeUpIY0Vac1gyUWVLVlZQbmNHbFR1M0NWNFYyd0RQeGhraDJUdXdOczNWeC1DTUFGdVhUVjZNT29rLWRlOFBiMktZRkxYWlZ3OTk3MVVoaFFrR0JsMDlQOFZ5Rmt1Y1Z2ZnZCYWxKRENTamdfUWpsZWk3ZFluSm5vdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-13T14:00:00.000Z"
+      },
+      {
+        "titre": "Circular economy company Recove Ventures raises Rs 56.25 Cr",
+        "source": "YourStory.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1V0b2dBNFZWOVQxOU5xSXZranpueW1kNHNJOXVUUXVoLVZSa2hydGJCUHgwRldHa01lUkRtdVhpalJEYkh6MVlmV1ZPekxYVGhRN3I0MkMyTlBCVUMtVnY3YTNOWVNjbXpVaUpKUVRINTNPY2hGOFJRdEZMOUs5RllFcXhCT0JFUFgxSERDWTlMcUE?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T10:35:59.000Z"
+      },
+      {
+        "titre": "B2B Circular Economy Company Recove Ventures Raises Rs 56.25 Cr",
+        "source": "BW Disrupt",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLVZYa0c0UDM0c1RkaG5uMUQtdWR2Ukd5MVFFeXpnTmQxU3o4NFl5aGN2WEQtYjNwQVNvOHQ4VXlFWkhPazhPOVFvanE5SFpBOWlVU2pqLU5CQU1rZTBRekM4YnlRSFVjUlh3RDg5eTBjMGVOTXJsbHBLWVdfbVp1d3V1dWR1R2IzVUdVdEdnelRRQ2tQNVc0ajhKaTJPUXd6RERxMDEtaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T06:38:33.000Z"
+      },
+      {
+        "titre": "Anthropic: The seven founders who are about to become multi-billionaires",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+        "resume": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+        "heure": "2026-11-18T13:55:14.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/en/business/2026/11/18/hebdo-economie/"
+  },
+  {
+    "id": "2026-11-18-hebdo-economie",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Business",
+    "rubrique": "La semaine",
+    "emoji": "💼",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Camille Rostand",
+    "titre": "La semaine économique en 7 sujets, du 12 au 18 novembre",
+    "chapo": "21 informations publiées par 4 médias en sept jours. Au programme : « EN DIRECT, manifestations du 17 novembre : blocus de lycées levés à Toulouse, témoignages dans le cortège parisien... suivez nos correspondants sur place », « Nvidia : l’affaire Jensen Huang révèle les failles de l’administration Trump sur la Chine » et « Plus les entreprises sont grandes, moins elles comptent de dirigeantes, révèle l’Insee ».",
+    "corps": [
+      "Du 12 novembre au 18 novembre, la rédaction a suivi l’actualité économique à travers les publications de Le Monde, franceinfo, Le Monde.fr et l’Opinion. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « EN DIRECT, manifestations du 17 novembre : blocus de lycées levés à Toulouse, témoignages dans le cortège parisien... suivez nos correspondants sur place », titrait Le Monde mardi. On peut y lire : « L’ensemble des organisations syndicales de la fonction publique appelle à se mobiliser mardi pour exiger des augmentations immédiates de traitements. » Le sujet a également été traité par franceinfo.",
+      "Autre sujet marquant, « Nvidia : l’affaire Jensen Huang révèle les failles de l’administration Trump sur la Chine », titrait Le Monde mercredi. Extrait : « Soutenu par la Silicon Valley et d’excellents résultats, le fondateur de la firme de microprocesseurs, rattrapé par plusieurs affaires d’adultère, tente de reprendre la tête de l’entreprise, qu’il avait été contraint de quitter le 12 novembre. » Le sujet a également été traité par franceinfo.",
+      "Dans un autre registre, « Plus les entreprises sont grandes, moins elles comptent de dirigeantes, révèle l’Insee », titrait Le Monde mardi. On peut y lire : « En prenant en compte toutes les entreprises, microentrepreneuriat inclus, les femmes représentaient 35 % des dirigeants en France en 2024. » Le sujet a également été traité par Le Monde.fr.",
+      "Par ailleurs, « L’Union européenne appelle la France et la Belgique à réduire leur déficit et leur dette », titrait franceinfo mardi. On peut y lire : « Le commissaire européen à l’Economie, Valdis Dombrovskis, a néanmoins assuré mardi qu’il ne voyait \"aucun problème imminent en matière de stabilité financière\" dans la zone euro. » Le sujet a également été traité par Le Monde.",
+      "Toujours cette semaine, « Menton rayonne de couleurs et de douceur de vivre toute l’année », titrait franceinfo vendredi. Le média précise : « Comme chaque vendredi, le \"13 Heures\" en week-end vous emmène à la découverte de nos plus beaux coins de France. »",
+      "À noter également, « David Amiel annonce une revalorisation du point d’indice pour les fonctionnaires aux plus bas salaires », titrait franceinfo dimanche. Le média précise : « Alors que le gouvernement a annoncé une hausse du smic à 1502 euros net le 1er décembre, le ministre de l’Action et des Comptes publics ajoute que les plus bas salaires parmi les fonctionnaires verront également leur point d’indice revalorisé. #Budget… » Le sujet a également été traité par Le Monde.",
+      "Enfin, « Attractivité : des dividendes tangibles pour l’économie française et ses territoires », titrait l’Opinion mercredi.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "Le Monde",
+      "franceinfo",
+      "Le Monde.fr",
+      "l'Opinion"
+    ],
+    "liens": [
+      {
+        "titre": "EN DIRECT, manifestations du 17 novembre : blocus de lycées levés à Toulouse, témoignages dans le cortège parisien... suivez nos correspondants sur place",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/live/2026/11/17/en-direct-greve-du-17-novembre-suivez-la-mobilisation-a-marseille-lyon-ou-nantes-avec-nos-envoyes-speciaux-avant-le-cortege-parisien-qui-doit-s-elancer-a-14-heures_6812905_823448.html",
+        "resume": "L’ensemble des organisations syndicales de la fonction publique appelle à se mobiliser mardi pour exiger des augmentations immédiates de traitements. Nos correspondants sont sur le terrain à Paris, Marseille, Lyon, Toulouse, en Bretagne et dans le Nord.",
+        "heure": "2026-11-17T12:46:53.000Z"
+      },
+      {
+        "titre": "À Lyon, la justice autorise le cortège de la mobilisation du 17 novembre à manifester jusqu'à la place Bellecour",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/transports/mobilisation-du-17-novembre/a-lyon-la-justice-autorise-le-cortege-de-la-mobilisation-du-17-novembre-a-manifester-jusqu-a-la-place-bellecour_8285450.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Cette autorisation représente \"une victoire pour la liberté de manifester\", selon l'intersyndicale.",
+        "heure": "2026-11-16T20:32:57.000Z"
+      },
+      {
+        "titre": "Nvidia : l’affaire Jensen Huang révèle les failles de l’administration Trump sur la Chine",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/18/nvidia-l-affaire-jensen-huang-revele-les-failles-de-l-administration-trump-sur-la-chine_6813087_3234.html",
+        "resume": "Soutenu par la Silicon Valley et d’excellents résultats, le fondateur de la firme de microprocesseurs, rattrapé par plusieurs affaires d’adultère, tente de reprendre la tête de l’entreprise, qu’il avait été contraint de quitter le 12 novembre. Les partisans de Donald Trump dénoncent les zones obscures de l’affaire.",
+        "heure": "2026-11-18T07:30:14.000Z"
+      },
+      {
+        "titre": "Jensen Huang, ex-patron de Nvidia, sera entendu au Congrès, le 1ᵉʳ décembre, sur sa liaison avec une Chinoise soupçonnée d’espionnage",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/17/jensen-huang-ex-patron-de-nvidia-sera-entendu-au-congres-le-1-decembre-sur-sa-liaison-avec-une-chinoise-soupconnee-d-espionnage_6813021_3210.html",
+        "resume": "Le cofondateur de la multinationale américaine des semi-conducteurs a aussi déclaré, sur X, se tenir prêt à revenir à la tête de l’entreprise si son conseil d’administration le décidait. Il a démissionné le 12 novembre après la révélation de sa liaison avec Alice Huang, une femme d’affaires chinoise.",
+        "heure": "2026-11-17T17:42:16.000Z"
+      },
+      {
+        "titre": "L’affaire Nvidia tourne à la crise politique pour Donald Trump",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/14/aux-etats-unis-l-affaire-nvidia-tourne-a-la-crise-politique-pour-donald-trump_6809696_3210.html",
+        "resume": "Selon le « New York Times », le président américain aurait été mis au courant, dès le mois de mai, des risques liés à la relation entre Jensen Huang, patron du géant des semi-conducteurs, et une entrepreneuse chinoise soupçonnée d’espionnage. Il est directement mis en cause pour son inaction.",
+        "heure": "2026-11-14T05:00:42.000Z"
+      },
+      {
+        "titre": "Nvidia : l’ancien PDG de Nvidia Jensen Huang et le secrétaire au commerce Howard Lutnick invités à témoigner au Sénat américain",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/13/nvidia-l-ancien-pdg-de-nvidia-et-le-secretaire-au-commerce-invites-a-temoigner-au-senat-americain_6809295_3210.html",
+        "resume": "La démission de Jensen Huang, après des révélations sur sa liaison avec une femme d’affaires soupçonnée d’espionnage pour la Chine, place le contrôle des exportations de puces avancées au cœur des interrogations du Congrès.",
+        "heure": "2026-11-13T08:49:27.000Z"
+      },
+      {
+        "titre": "Effondrement en bourse, révélations du New York Times… La chute de Jensen Huang, le patron de Nvidia proche de Donald Trump",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/entreprises/effondrement-en-bourse-revelations-du-new-york-times-la-chute-de-jensen-huang-le-patron-de-nvidia-proche-de-donald-trump_8280008.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "C'est la chute de l'un des dirigeants les plus puissants du monde. Aux États-Unis, le patron de Nvidia a fini par démissionner. Déjà fragilisé par sa liaison avec une femme d'affaires Chinoise soupçonnée d’espionnage, Jensen Huang aurait aussi entretenu une relation avec l’une de ses dirigeantes. Son départ fait vaciller le cours de Bourse de ce géant des puces pour l’intelligence artificielle.",
+        "heure": "2026-11-12T21:54:58.000Z"
+      },
+      {
+        "titre": "Qui est Alice Huang, l’intermédiaire soupçonnée d’espionnage à l’origine de la chute de Jensen Huang ?",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/12/alice-huang-l-insaisissable-intermediaire-de-l-ombre-a-l-origine-de-la-chute-de-jensen-huang-le-patron-de-nvidia_6809128_3234.html",
+        "resume": "Soupçonnée d’espionnage et maîtresse déclarée du fondateur du géant des puces américain, cette habituée des montages financiers complexes, naviguant entre les mondes des affaires et de la politique, éclaire, par son parcours, les zones grises de la guerre technologique sino-américaine.",
+        "heure": "2026-11-12T16:25:43.000Z"
+      },
+      {
+        "titre": "Jensen Huang, patron emblématique de Nvidia et parrain de l’IA, quitte ses fonctions",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/12/jensen-huang-patron-emblematique-de-nvidia-et-parrain-de-l-ia-demis-de-ses-fonctions_6809106_3234.html",
+        "resume": "Le fondateur du géant des semi-conducteurs américain, mis en cause pour une liaison avec une entrepreneuse chinoise soupçonnée d’espionnage, quitte l’entreprise.",
+        "heure": "2026-11-12T13:53:07.000Z"
+      },
+      {
+        "titre": "Plus les entreprises sont grandes, moins elles comptent de dirigeantes, révèle l’Insee",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/17/plus-les-entreprises-sont-grandes-moins-elles-comptent-de-femmes-dirigeantes-revele-l-insee_6813024_1656968.html",
+        "resume": "En prenant en compte toutes les entreprises, microentrepreneuriat inclus, les femmes représentaient 35 % des dirigeants en France en 2024. Mais ce chiffre tombe à 17 % dans les sociétés de plus de 250 personnes, et de fortes disparités existent selon les secteurs.",
+        "heure": "2026-11-17T17:49:24.000Z"
+      },
+      {
+        "titre": "Plus les entreprises sont grandes, moins elles comptent de dirigeantes, révèle l’Insee",
+        "source": "Le Monde.fr",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQcDRJOUdDd0MyNzdiM3ZIcUF3bmVMQVVSdWlnRGdvclV1TXBad1ZVMDdMMGFjOTRGTHlkSk9aRjFKamRUVEFJNFYxWXQwTF9rTlpPczNSdE51OVdqTTRHVExweW41aWV6dVE2c2swZndFTW83WWFPT0VGXzhCWGo0NWFucHJLVmIyMkhWYXNiM0FxSU0yZmt2TzBWUFR0clpkNkc4M3lNODhlVEhhS1h1OHk0dU8xcDl4MUZFNHBlTjE2UWlBZ3l4NURFM0MzN2NRVlJPR0lwWHltV3pWbnZwTXhyM1JpMU1BclVGVjVNOVFHN0ltamNYcU5TTzd0RVpOMTZZ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T17:49:24.000Z"
+      },
+      {
+        "titre": "L'Union européenne appelle la France et la Belgique à réduire leur déficit et leur dette",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/union-europeenne/l-union-europeenne-appelle-la-france-et-la-belgique-a-reduire-leur-deficit-et-leur-dette_8286455.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Le commissaire européen à l'Economie, Valdis Dombrovskis, a néanmoins assuré mardi qu'il ne voyait \"aucun problème imminent en matière de stabilité financière\" dans la zone euro.",
+        "heure": "2026-11-17T11:52:19.000Z"
+      },
+      {
+        "titre": "\"La France décroche\", alerte l'ancien gouverneur de la Banque de France qui appelle à \"répondre\" à \"cette crise de la dette\"",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/crise/crise-de-la-dette/la-france-decroche-alerte-l-ancien-gouverneur-de-la-banque-de-france-qui-appelle-a-repondre-a-cette-crise-de-la-dette_8284649.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Invité du 8h30 de franceinfo, François Villeroy de Galhau estime notamment que l'État \"emprunte aujourd'hui beaucoup plus cher qu'au début de l'année\". Mais il croit également que \"nous avons les moyens de nous en sortir\".",
+        "heure": "2026-11-16T10:37:25.000Z"
+      },
+      {
+        "titre": "En Allemagne, l’économie va mieux qu’en France, mais l’envolée de la dette fait craindre une « crise budgétaire » d’envergure",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/12/en-allemagne-l-economie-va-mieux-qu-en-france-mais-l-envolee-de-la-dette-fait-craindre-une-crise-budgetaire-d-envergure_6809071_3234.html",
+        "resume": "Remis jeudi au chancelier, Friedrich Merz, le rapport annuel du Conseil allemand des experts économiques confirme la reprise de l’activité, mais alerte sur la hausse des dépenses publiques, notamment dans le secteur de la défense.",
+        "heure": "2026-11-12T08:00:09.000Z"
+      },
+      {
+        "titre": "Menton rayonne de couleurs et de douceur de vivre toute l'année",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/patrimoine/menton-rayonne-de-couleurs-et-de-douceur-de-vivre-toute-l-annee_8281307.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Comme chaque vendredi, le \"13 Heures\" en week-end vous emmène à la découverte de nos plus beaux coins de France. Direction Menton, dans les Alpes Maritimes : capitale du citron, c'est aussi une ville splendide connue pour sa Pichade au maqué, dont la recette familiale est gardée secrète depuis trois générations.",
+        "heure": "2026-11-13T17:02:01.000Z"
+      },
+      {
+        "titre": "David Amiel annonce une revalorisation du point d'indice pour les fonctionnaires aux plus bas salaires",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/david-amiel-annonce-une-revalorisation-du-point-d-indice-pour-les-fonctionnaires-aux-plus-bas-salaires_8283416.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Alors que le gouvernement a annoncé une hausse du smic à 1502 euros net le 1er décembre, le ministre de l'Action et des Comptes publics ajoute que les plus bas salaires parmi les fonctionnaires verront également leur point d'indice revalorisé. #Budget #Finances #smic #franceinfoRF",
+        "heure": "2026-11-15T11:00:03.000Z"
+      },
+      {
+        "titre": "Les revalorisations annoncées pour les plus bas salaires coûteront \"un peu plus d'un milliard d'euros\" aux finances publiques, déclare le ministre David Amiel",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/pouvoir-achat/il-y-aura-bien-une-hausse-des-points-pour-les-plus-bas-salaires-de-la-fonction-publique-confirme-le-ministre-david-amiel_8283254.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "David Amiel confirme, dans le \"8h30 franceinfo\" dimanche, une augmentation \"pour les plus bas salaires de la fonction publique\" représentant \"350 euros brut par an\".",
+        "heure": "2026-11-15T08:49:24.000Z"
+      },
+      {
+        "titre": "Sébastien Lecornu ouvre une discussion d'un mois avec les syndicats de fonctionnaires portant notamment sur une \"revalorisation des bas salaires\"",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/syndicats/sebastien-lecornu-ouvre-une-discussion-d-un-mois-avec-les-syndicats-de-fonctionnaires-portant-notamment-sur-une-revalorisation-des-bas-salaires_8281073.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Le Premier ministre recevra à nouveau les syndicats le 11 décembre, après les élections professionnelles dans la Fonction publique, pour \"sceller des avancées dès la mi-décembre\".",
+        "heure": "2026-11-13T13:04:48.000Z"
+      },
+      {
+        "titre": "Sébastien Lecornu ouvre une discussion d’un mois avec les syndicats de fonctionnaires, notamment sur la revalorisation des « bas salaires »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/13/mobilisations-sociales-sebastien-lecornu-ouvre-une-discussion-d-un-mois-avec-les-syndicats_6809324_823448.html",
+        "resume": "A l’issue de la réunion à Matignon, la CFDT a annoncé se joindre à l’appel à la grève et à la mobilisation dans le public mardi 17 novembre.",
+        "heure": "2026-11-13T12:43:02.000Z"
+      },
+      {
+        "titre": "Plan de relance agricole : la ministre de l'Agriculture promet 725 millions d'euros, notamment pour \"l'adaptation au changement climatique\"",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/plan-de-relance-agricole-la-ministre-de-l-agriculture-promet-725-millions-d-euros-notamment-pour-l-adaptation-au-changement-climatique_8279273.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Cent millions d'euros seront consacrés à un \"guichet d'équipement\" pour aider les agriculteurs à \"protéger les animaux et les cultures contre les fortes chaleurs\".",
+        "heure": "2026-11-12T12:45:41.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/economie/2026/11/18/hebdo-economie/"
+  },
+  {
+    "id": "2026-11-18-actu-business",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "« Inside Deutsche Bank » : en Colombie, le « robinet » d’argent « coulait » sans frein",
+    "chapo": "Entreprises, emploi, stratégie : l’essentiel de l’actualité économique. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "« Inside Deutsche Bank » : en Colombie, le « robinet » d’argent « coulait » sans frein",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/18/inside-deutsche-bank-en-colombie-le-robinet-d-argent-coulait-sans-frein_6813141_4355770.html",
+        "resume": "Dans ce pays d’Amérique latine, le géant bancaire allemand détenait une position hégémonique sur les paiements en euro sans exercer les contrôles nécessaires, au risque de favoriser l’exploitation sexuelle ou le trafic de drogue, selon les révélations de l’enquête du « Monde ».",
+        "heure": "2026-11-18T14:00:06.000Z"
+      },
+      {
+        "titre": "La Cnil inflige une amende de 5 millions d'euros à l'assureur Macif Vie \"en raison de l'insuffisance des mesures prises pour la sécurité des données\"",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/la-cnil-inflige-une-amende-de-5-millions-d-euros-a-l-assureur-macif-vie-en-raison-de-l-insuffisance-des-mesures-prises-pour-la-securite-des-donnees_8288285.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Certaines données des clients étaient mal sécurisées comme des mots de passe conservés sans protection. L'entreprise précise par ailleurs \"qu'aucune donnée [des clients] n'a été divulguée\".",
+        "heure": "2026-11-18T13:00:32.000Z"
+      },
+      {
+        "titre": "Christian Dior : Colette Neuville conteste la nouvelle structure capitalistique voulue par la famille Arnault",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/18/christian-dior-colette-neuville-conteste-la-nouvelle-structure-capitalistique-voulue-par-la-famille-arnault_6813132_3234.html",
+        "resume": "Le groupe doit faire voter avant la fin d’année une étape importante de son plan présenté en septembre. Il inclut notamment une offre publique de retrait qui permettrait aux actionnaires minoritaires de vendre leurs parts, mais à 95 % seulement du patrimoine estimé de l’entreprise.",
+        "heure": "2026-11-18T13:00:10.000Z"
+      },
+      {
+        "titre": "\"Ne vous fiez pas à vos amis\": pourquoi les ados s’arrachent \"Power\", la bible du cynisme",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/replay-radio/l-il-de-constance/ne-vous-fiez-pas-a-vos-amis-pourquoi-les-ados-s-arrachent-power-la-bible-du-cynisme_8266733.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Près de trente ans après sa sortie, \"Power, les 48 lois du pouvoir\" de l’Américain Robert Greene est devenu un phénomène chez les adolescents, porté par TikTok et le pass Culture. Un manuel de manipulation qui en dit long sur l’époque.",
+        "heure": "2026-11-18T10:39:18.000Z"
+      },
+      {
+        "titre": "Attractivité : des dividendes tangibles pour l’économie française et ses territoires",
+        "source": "l'Opinion",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONV9sOUpVTUVBdmlzd0NCZ3I3RDNQdmJKWEtPUm5fY3BnN2pRdGxWcTE4TjYtam44TUJ3VUNLd2FGTFhwMG14YXdBWEtUZWdGNmlJOWczNE9qVlUzSGozQXJ0Ujk5UWU4WmIxSU4yTWJpcnNYS2VmTnVKWkYzZnltTnpxMmVDdlpOMmNVbE9CTWFwaHdxSnBTaXRiajdncDczelhxdzdtR2ljYzhYWFliTkN4Umc?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T06:30:00.000Z"
+      }
+    ],
+    "auteur": "Camille Rostand",
+    "sources": [
+      "Le Monde",
+      "franceinfo",
+      "l'Opinion"
+    ],
+    "chemin": "/economie/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-culture",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "La justice espagnole ouvre une enquête contre le chanteur Julio Iglesias, accusé d’agressions sexuelles par deux anciennes employées",
+    "chapo": "Expositions, musées, théâtre, cinéma et musique : la vie culturelle, de la Côte d’Azur au reste du monde. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "La justice espagnole ouvre une enquête contre le chanteur Julio Iglesias, accusé d'agressions sexuelles par deux anciennes employées",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/la-justice-espagnole-ouvre-une-enquete-contre-le-chanteur-julio-iglesias-accuse-d-agressions-sexuelles-par-deux-anciennes-employees_8288225.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Les plaignantes affirment avoir subi des agressions sexuelles et d'autres mauvais traitements lorsqu'elles travaillaient dans des propriétés de l'artiste, en 2021. Julio Iglesias dénonce des accusations \"absolument fausses\".",
+        "heure": "2026-11-18T12:34:00.000Z"
+      },
+      {
+        "titre": "Le patron d'Amazon, Jeff Bezos, dit avoir été \"extrêmement impliqué\" dans le choix du nouveau James Bond",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/cinema/le-patron-d-amazon-jeff-bezos-dit-avoir-ete-extremement-implique-dans-le-choix-du-nouveau-james-bond_8288060.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Le milliardaire, dont l'empire de sociétés inclut la Metro Goldwyn Mayer, major détentrice des droits de la franchise 007, explique que Robert Pattinson n'était pas son premier choix.",
+        "heure": "2026-11-18T12:10:25.000Z"
+      },
+      {
+        "titre": "Festival Sacrée Musique, du 3 au 13 décembre 2026",
+        "source": "France Télévisions",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSlc5M2NkMDVGTWVnNFZpbmdZSjVNMmNIRFViZ2t5UkE2dFdQS09zOEczYm1KNXBFZHRkdk5uenhWSkkyOHJRQ0NyUXJBcnZrVHdaNzJuZm0tcDZtWHd5QUR1ZjlsRWdFaktucExBOFpscVh0R0VvNDF5R1VONXlBT09sTWd5MjBob2NmekVtNFpyTHNXb3l0cHZlZl9wcmI3Snd0cFh6OVpBLWhmU3RRUVlPaXVoWDdZVGVkMUxRc0pCeDdZVlkwdTE5R1FKaXFDSVEyR2kzOU4?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T16:08:49.000Z"
+      },
+      {
+        "titre": "La Côte d’Azur s’invite à Paris : la saison d’hiver Nice Côte d’Azur mise en récit !",
+        "source": "Explore Nice Côte d'Azur",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSE5KenBTVXQ4TElMb29qWnRPakR4blpMZHRMQlZrOU8yNWo2alhtQ3BTZkFRcmtoa3VaWmY1Y0Njcm5mRXZsSzgxOVJ0YkVJUlAydGJaZVVPdEJheGNsbi1WLWxoN2d5VnI0WjZEemVDb210TWNwcVdqYUlqUmFnOTBLX2htR0RrR0lHNHFFZkFSa203QlVDMXF4dThLQnFaaU9HdGtxcDBnYzBuc2NCYmFEbVM?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T07:33:30.000Z"
+      },
+      {
+        "titre": "Qui sera élue Miss France 2027 ? Découvrez les portraits officiels des 31 prétendantes à la couronne",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdFFXcGgwTmJlX09iN1FsTlZjWkFRb2V5aUI3Vm1UVktTcjQwVHJaVTdJd3lTckRCa2VWMGl5SDBmdzlDQXB5Z09wUXZ5bnNGamhKZWZUOUVld2VpemxpTXl0QlZEbzNTczZrbmtoNFZFYTdSRklTS1U5MFRxeDJYZWpvWEJvNmt0NUN6VS1GWVJ1VW1CZVlZeUkzcTRQd3Y1SFFUVEcxYTFyOHBvcWYzVTlXZk8zOUFaY1dHeE1XVEc2XzV3QjBUODZybS1YX2Q5X1YzUURTMk1UNkViNm1lLTZ3?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T15:22:03.000Z"
+      }
+    ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "franceinfo",
+      "France Télévisions",
+      "Explore Nice Côte d'Azur",
+      "Nice-Matin"
+    ],
+    "chemin": "/culture/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-evenementiel",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Événementiel",
+    "rubrique": "Événementiel",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "Avec « Celle qui doute », Isabelle Lafon fait du théâtre la place forte de l’amitié",
+    "chapo": "Salons, festivals, concerts, grands rendez-vous : l’actualité de l’événementiel. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Avec « Celle qui doute », Isabelle Lafon fait du théâtre la place forte de l’amitié",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/18/avec-celle-qui-doute-isabelle-lafon-fait-du-theatre-la-place-forte-de-l-amitie_6813117_3246.html",
+        "resume": "Sur la scène de la Colline, la comédienne atteint la quintessence du jeu en détournant les codes du stand-up.",
+        "heure": "2026-11-18T11:10:24.000Z"
+      },
+      {
+        "titre": "A Paris, les mondes évanescents du peintre Yu Nishimura",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/m-styles/article/2026/11/18/a-paris-les-mondes-evanescents-du-peintre-yu-nishimura_6813115_4497319.html",
+        "resume": "La fondation Lafayette Anticipations accueille la première grande exposition en France du peintre japonais. Une plongée sensorielle parmi une cinquantaine de toiles aux silhouettes mystérieuses et aux paysages baignés d’une douce étrangeté.",
+        "heure": "2026-11-18T11:00:08.000Z"
+      },
+      {
+        "titre": "Evénementiel : Annick Pellerin rejoint Entre Deux Events",
+        "source": "Tour Hebdo",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQnZVTnZ3Y1ZWNk5mLXF1WnAyV0hMckp6WVhqYV85M1czb2t6MERIQkZvNWhlMHk4NEZjTkNDU185Mks3QjZGcmxQLTRjSk1xTW5LOEJYTXJfQ0NtcGdHWnZWWXJHbTcwbFZCWjNSbmkxN2dvaGhtM3ROUk10WWtnWDZUY0ZFRnpSLTNIM1hNb0tTeFU2R2pWYzVBbUFkOThSVVZJQmlzTlZSdXV1RmpxN0lnTUI3WEctWVpuRnNqNkRZVzd4WXVYZXh4OE9fMDU0dXBJbkk4Ri1MRUFyTXVGdXpOYkM?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T16:37:23.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "Le Monde",
+      "Tour Hebdo"
+    ],
+    "chemin": "/evenementiel/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-finance",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "Nvidia, le géant des puces qui ne connaît pas la panne, le prochain test pour l’IA sera l’introduction en Bourse d’Anthropic",
+    "chapo": "Bourse, marchés, taux, crypto et argent au quotidien : ce qui a bougé. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Nvidia, le géant des puces qui ne connaît pas la panne, le prochain test pour l'IA sera l'introduction en Bourse d'Anthropic",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOUEk5b0FocUlMUkxTZ19Ub25sUUt1NThsdTdNV00yN1YtTmdIRWFwSkYydEVrMHcwZmlVQjYwUEN3Wm9RREdpRGtoTUdBRC16LXh2dEtyQ1NRRzZyQnl4RmYwNWVHY2xRQkpqRU1aS283RG41ZVF1V0hnSi1Jd2h2bWx2bmFqT1laU0RmV01MSm9hUjN3Mmk3bmFZQ0o0VTliWjFOZ3FXQWNZNWRTMmxySW9IaFI1UVBKY1J5WDlKelR3QVFFV09jMDhIRVNSb0paaUpWUFp0blpVSFJvUEs4UzJkQk13eU9NTTM4b1E4M0RnanBTWjhJcXN0eS0xY2dkNEc0VVhBR0VaWWtaSDVvSW5oZE1YTzRUR1E?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T08:24:10.000Z"
+      },
+      {
+        "titre": "Assurance-vie : la chasse aux produits trop chers est ouverte",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/18/assurance-vie-la-chasse-aux-produits-trop-chers-est-ouverte_6813072_1657007.html",
+        "resume": "Soumises à un contrôle renforcé du rapport rendement-coût des supports en unités de compte référencés dans leurs offres d’assurance-vie, les compagnies bancaires ont commencé à faire le ménage dans leurs gammes.",
+        "heure": "2026-11-18T05:00:20.000Z"
+      },
+      {
+        "titre": "Le Cac 40 perd plus de 1 %, lesté par le luxe, les marchés se préparent aux comptes de Nvidia",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeFZLdnkxNlZ0SFJzVDJ1X0k3cWQ0empQMUpOX0VWc1J6Y2dhRlluYzIyWWRWTHNfdFhZVXRnTC1GQWNFRXNyYmVmYmx0blk2S2NGb1R0QzM0RERYSzcxaENjUkhZbktqdnMzSFMtanVONUxDRGtqWUx6WDRzek5oNHVQcVY2X0JTS1I4Zk9EWHFlYzhac1VUb09odm8zRVdoQVJnSHpVNEZzSzFWR2NHeERkaVc4VDdpZV9wVEphcmlMRUl6bVVsQnc1bHNOdk1UeGdkdWFjYjNFVFZNUm1fdWNyMnlIVHRzWVNzSVNxMzVVUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T13:54:59.000Z"
+      },
+      {
+        "titre": "CAC40 DE RETOUR SUR SUPPORT !! - 100% Marchés - 17/11/2026 - M",
+        "source": "Bourse Direct",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSm1RelViaXJVZHg1aUR3cy1FVlpVQ0FpRGpWWENJOEpPRm9ka0dHZVppYkJEY1NSc1VweVAyT21OWDVNODNNaUNlMEZPZ3ZDdUZ0dEJwYko1RldyQzFxUTlUdjJ0NkFwOXJZcFFSQXdkQllWNHYydVd1azgzcWVkRlN5SkhNWFpNalcyc2R2VW4tRTBqU0k1dVVDcGd4WFRIcnNtamFsU1hEVjZLU08wU21Uc3p1dnNLc3I5MWh2ZDJSaURlak52ZHlnTERfZTZRcC1ZbmlabWdJSTY4SGVicG01VXk0bXR1MnNWdDBCbWsxbmZwZmZhTk9LSFN5UQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T08:22:00.000Z"
+      },
+      {
+        "titre": "Quelles sont les démarches administratives à faire après le décès d’un proche ?",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/17/succession-quelles-sont-les-demarches-a-accomplir-au-deces-d-un-proche_6812903_1657007.html",
+        "resume": "Les semaines qui suivent la disparition de son conjoint ou d’un parent sont jalonnées d’étapes administratives fastidieuses, mais indispensables.",
+        "heure": "2026-11-17T05:00:11.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Investir Les Echos",
+      "Le Monde",
+      "Bourse Direct"
+    ],
+    "chemin": "/finance/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-monde",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Monde",
+    "rubrique": "Monde",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "EN DIRECT, guerre en Ukraine : sept civils tués dans l’oblast occupé de Louhansk, selon les autorités prorusses locales",
+    "chapo": "Le tour du monde de l’actualité en quelques titres. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : sept civils tués dans l’oblast occupé de Louhansk, selon les autorités prorusses locales",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/18/en-direct-guerre-en-ukraine-sept-civils-tues-dans-l-oblast-occupe-de-louhansk-selon-les-autorites-prorusses-locales_6810982_3210.html",
+        "resume": "Quatre personnes ont également été blessées par des bombardements ou des drones ukrainiens, mercredi, dans l’oblast ukrainien occupé de Louhansk, annonce Leonid Passetchnik, président de la « république populaire » autoproclamée.",
+        "heure": "2026-11-18T14:07:50.000Z"
+      },
+      {
+        "titre": "« A Shenzhen, la parole des absents pèsera autant que celle des présents sur les affaires du monde »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/idees/article/2026/11/18/a-shenzhen-la-parole-des-absents-pesera-autant-que-celle-des-presents-sur-les-affaires-du-monde_6813140_3232.html",
+        "resume": "Même si la photo des trois présidents côte à côte promet d’être saisissante, plusieurs ombres flotteront sur la rencontre entre Donald Trump, Vladimir Poutine et Xi Jinping, jeudi, à l’occasion du sommet de la Coopération économique pour l’Asie-Pacifique, analyse dans sa chronique Gilles Paris, éditorialiste au « Monde ».",
+        "heure": "2026-11-18T14:00:08.000Z"
+      },
+      {
+        "titre": "La justice espagnole ouvre une enquête contre le chanteur Julio Iglesias, accusé d'agressions sexuelles par deux anciennes employées",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/la-justice-espagnole-ouvre-une-enquete-contre-le-chanteur-julio-iglesias-accuse-d-agressions-sexuelles-par-deux-anciennes-employees_8288225.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Les plaignantes affirment avoir subi des agressions sexuelles et d'autres mauvais traitements lorsqu'elles travaillaient dans des propriétés de l'artiste, en 2021. Julio Iglesias dénonce des accusations \"absolument fausses\".",
+        "heure": "2026-11-18T12:34:00.000Z"
+      },
+      {
+        "titre": "L'Union européenne propose un nouveau prêt de 45 milliards d'euros à l'Ukraine pour 2027",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-union-europeenne-propose-un-nouveau-pret-de-45-milliards-d-euros-a-l-ukraine-pour-2027_8288159.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Kiev ne devra rembourser \"qu'une fois que la Russie aura payé pour les destructions qu'elle a causées en Ukraine\", a déclaré mercredi la présidente de la Commission européenne, Ursula von der Leyen.",
+        "heure": "2026-11-18T11:44:03.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "Le Monde",
+      "franceinfo"
+    ],
+    "chemin": "/international/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-nice-cote-d-azur",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & Côte d'Azur",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Soupçons de \"fraude\" au sein de la justice à Monaco : le Tribunal suprême accepte exceptionnellement de suspendre sa décision sur l’Esplanade des Pêcheurs",
+    "chapo": "Ce qui se passe près de chez nous, de Nice à Monaco. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Soupçons de \"fraude\" au sein de la justice à Monaco : le Tribunal suprême accepte exceptionnellement de suspendre sa décision sur l'Esplanade des Pêcheurs",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/menton/esplanade-des-pecheurs-le-tribunal-supreme-de-monaco-accepte-de-suspendre-sa-decision-si-une-fraude-dans-sa-propre-instance-est-demontree-3451608.html",
+        "resume": "C’est une procédure exceptionnelle qui s’ouvre à Monaco. Le Tribunal suprême a jugé recevable, ce mercredi 18 novembre, la demande de l’État, qui veut faire réexaminer deux décisions de justice l'ayant condamné à verser près de 209 millions d’euros à un promoteur immobilier.",
+        "heure": "2026-11-18T14:08:51.000Z"
+      },
+      {
+        "titre": "Des irrégularités relevées au \"resto paysan\" de Cédric Herrou, le procureur ordonne l'ouverture d'une enquête",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/des-irregularites-relevees-au-resto-paysan-de-cedric-herrou-le-procureur-ordonne-l-ouverture-d-une-enquete_AN-202611180655.html",
+        "resume": "Un nouveau contrôle a eu lieu au début du mois de novembre, dans le restaurant de Cédric Herrou, Resto Paysan, à Breil-sur-Roya (Alpes-Maritimes), pour des irrégularités sanitaires tandis qu'un contrôle avait déjà eu lieu en janvier 2026 entraînant l'ouverture d'une enquête.",
+        "heure": "2026-11-18T14:07:13.000Z"
+      },
+      {
+        "titre": "« Vous reproduisez ce que vous dénoncez » : pourquoi Maria Carolina de Bourbon des Deux-Siciles, compagne de Jordan Bardella tacle Anne-Cécile Mailfert au sujet de la polémique ?",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/culture/people/vous-reproduisez-ce-que-vous-denoncez-pourquoi-maria-carolina-de-bourbon-des-deux-siciles-compagne-de-jordan-bardella-tacle-anne-cecile-mailfert-au-sujet-de-la-polemique-10763299",
+        "resume": "Sur Instagram, Maria Carolina de Bourbon des Deux-Siciles, compagne de Jordan Bardella a donné son sentiment sur l’affaire qui agite les médias depuis quelques jours : la mention de la relation de couple de la présidente de la Fondation des Femmes, Anne-Cécile Mailfert avec Stéphane Sitbon-Gomez, numéro 2 de France Télévisions.",
+        "heure": "2026-11-18T14:06:02.000Z"
+      },
+      {
+        "titre": "« J’aime l’idée que la pensée naît de l’expérience, ce qui semble difficile quand on a décidé de passer sa vie comme une vache devant un écran » : l’écrivain Sylvain Tesson est le président d’honneur de la Fête du livre du Var à Toulon",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/culture/litterature/j-aime-l-idee-que-la-pensee-nait-de-l-experience-ce-qui-semble-difficile-quand-on-a-decide-de-passer-sa-vie-comme-une-vache-devant-un-ecran-l-ecrivain-sylvain-tesson-est-le-president-d-honneur-de-la-fete-du-livre-du-var-a-toulon-10762857",
+        "resume": "Sa littérature est une invitation au voyage, géographique autant qu’intérieur. Un appel à la liberté et à l’humilité : Sylvain Tesson est le président d’honneur de la 29e édition de la Fête du livre du Var, les 20, 21 et 22 novembre au palais des Congrès Neptune à Toulon.",
+        "heure": "2026-11-18T14:00:04.000Z"
+      },
+      {
+        "titre": "\"On ne fermera pas de toute façon\" : une enquête ouverte et des irrégularités constatées dans le restaurant Emmaüs de Cédric Herrou dans la Roya",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/menton/resto-paysan-d-emmaus-roya-fonde-par-cedric-herrou-une-enquete-judiciaire-en-cours-pour-des-irregularites-liees-aux-regles-d-urbanisme-3451599.html",
+        "resume": "Alors que plusieurs contrôles coordonnés des services de l'État ont eu lieu le 6 novembre dernier dans cette communauté Emmaüs, c'est un dossier plus ancien qui pourrait compromettre l'avenir du \"Resto paysan\" fondé par Cédric Herrou pour accompagner des personnes en migration. La préfecture confirme l'ouverture d'une enquête par le procureur de la République de Nice. Le militant de la Roya se dit prêt à une longue bataille judiciaire.",
+        "heure": "2026-11-18T11:48:58.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "France 3 Côte d'Azur",
+      "BFM Nice Côte d'Azur",
+      "Nice-Matin"
+    ],
+    "chemin": "/nice/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-sorties",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Sorties",
+    "rubrique": "Sorties & loisirs",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Une Niçoise crée un agenda gratuit pour découvrir les événements des Alpes-Maritimes",
+    "chapo": "Que faire, où aller : sorties, spectacles, fêtes et bons plans sur la Côte d’Azur. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Une Niçoise crée un agenda gratuit pour découvrir les événements des Alpes-Maritimes",
+        "source": "Nice Premium",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWN3Vl9WSW96MHlVa1RTLUdRekVKVHlqY1h5VnV1aGV3REIweUJTVGtoNC02RFFDZU9HLUpyVnBYdjl3U0ZPNTZxSE8zVnpkNndNSDVZeWpIZGdnUWZJV2dnMUxlTUV6VzgxbU94VGZKYks1QUN1X0E2Z1B0a1BqcVRMWW5vQ0lNOHFBaFkxZ08ycU9CS3ZQakM0a2hLWHY5VWhObg?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T06:13:54.000Z"
+      },
+      {
+        "titre": "Derrière le feu d’artifice et le Te Deum, connaissez-vous l’histoire de la Fête nationale de Monaco ?",
+        "source": "France 3 Régions",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPSlV4UzNjOFJyeUFjNjZOR1NDbV9XWG9EV0lwNnJ4REUyRTRnMUtDaFF3NmdnQnhQVFUtemlJYUZtbTZkcU9CdFFqRDk1cXpJeGFsQzM1T21tR1ZNaWEtSkVDVE5PdGJwcTlkVkFxR3dOSVAtQmhWck1pX0pmSkRGQzN5YVF2V3RGdXNlOUxNWWpiVzg5YXhRWHdLeGVIOGJvQmNsQVk2RjFBTTZMY2VOU3pfdVBHeHRzRUhBOFRleFBKa3dCWFhieUF5NUpEMXpOekFKUkF1RUVGSXh0aTFMa1RGeVZES2NkeWgxUVdVdzQtQUhWM3hQWW90SHlIcmhBd2pMSlo3c1VNMnN2SzNHMnJDd3RMb015ZFpCbkpQUi02TlZaSnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T05:05:04.000Z"
+      },
+      {
+        "titre": "Noël à Nice 2026 : village de Noël, patinoire, illuminations et grande parade - Du 27/11/2026 au 03/01/2027 - Nice",
+        "source": "frequence-sud.fr",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa1ZwY2duVU1HYWdRSGxUZkNpT1pYYkhZUHliQUdHYjJrYW5fVjhQMTNtcnE4MF83NWczVDBjWmRQd0xzdlZjY3c0UGFCRkJoU1owcDRVTXNySV9KQnNWcDdqN2E4b0pld0ctNTVzcU1MS0x1WHpWLVNzMUltNE9ObFRrRzd4Y05iSzg5ZGhDNm55aWVaaXItUEJzSFlETVF0RG96Z1l4M2hGRFVTazhxdF95cE9Dd0lIeElqX2tLZE0?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T12:57:50.000Z"
+      },
+      {
+        "titre": "Marché de Noël à Nice : le Village de Noël s'installe au Jardin Albert 1er - Du 25/11/2026 au 03/01/2027 - Nice",
+        "source": "frequence-sud.fr",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNenM4X0h6X1N3YzBKbWEzaC10MWZLdEMyTVZzV0NJMDlNbTBqQVE2eVVUMGNjaEpTdVYyMWxKMG1nLTM5Q0RtM0IteHE5eXVnWWQ0VFNVelE5Y2cwcS1DOWRfbVFiM1NUbzZKbnBVT2U3Nm42VDdHUWxNOEV1NzhwSXc5bFluNTRqZXlLUENvUW96Z2NBcXV4TlVpdmV3WHM0cVA5U3RVUEplNEFxa0ZNZk9hb3ZBV0hl?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T11:19:24.000Z"
+      },
+      {
+        "titre": "Nice-Monaco en 15 minutes jour et nuit, une rame toutes les 5 minutes, 14 stations sécurisées et automatisées : décryptage du projet fou de métro porté par les patrons de Monaco",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPUU9OVEprckRaS0kxbjFPeUVvOXNiT3ZZcTBtT1JneVpGRTF6UmRCN2pOcWZxUU5yb0U5NDUyMWRUTTdpMndxMzIxaDdoLTl1M0d4eTRlYUlLbjBRc3Azd1piWWRFTUFod1oySzhSOEczd29lUzc4TWtuSkpPdUkzWDFTNi1HdGxQYWtjLTB1cHg5cDZoSnFZUVBlYm5mdTlNY29ZeDR5NjgzNTVjaVRmOEtUYVdETmJxVjIzLXdJM3NidlRpMGFZQzVfVkJzZUZuYUtkTklWRDk4Vk5rVDZ3VnRpcElNT3JtQzJ2WFJzNjVMaTN4OWNmSVA4OG9yMERYMTNtZ1NBcVZIeEt0aTBnc3g2ZWNiSTJ6TjlVNmVaU1poTUJndTNqM2I3dEFvaUxTYmtBczhfTWhzTkxEVDdZOXJJcTVYR1I2V3Qw?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T04:00:09.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "Nice Premium",
+      "France 3 Régions",
+      "frequence-sud.fr",
+      "Nice-Matin"
+    ],
+    "chemin": "/sorties/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-sport",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Gianni Infantino est-il inéligible ? L’autre menace qui plane sur le président de la FIFA",
+    "chapo": "Résultats, transferts et grands moments du sport. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Gianni Infantino est-il inéligible ? L’autre menace qui plane sur le président de la FIFA",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/sport/article/2026/11/18/gianni-infantino-est-il-ineligible-l-autre-menace-qui-plane-sur-le-president-de-la-fifa_6813142_3242.html",
+        "resume": "L’ONG britannique FairSquare exhorte la Fédération internationale de football à ne pas laisser son président, déjà mis en cause dans plusieurs dossiers, se présenter à sa propre succession en mars 2027 : les statuts de l’instance fixant une limitation à trois mandats.",
+        "heure": "2026-11-18T14:00:14.000Z"
+      },
+      {
+        "titre": "Billets Nice-Lens : prix, informations sur le match et ventes de dernière minute en Ligue 1",
+        "source": "Goal.com",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUURYQ1pJUFk0MER0RFVtNTRCeFRhd1pyU19icnB2ZEdoTnEtWXNaMFl2emJmRHZZczJPUF94QVZkMEdvUWVrZWdnczQ3V0pMRlpwcnhPcVhUUXdqYjJRN1FKNnNjZWZoeEY0RlZ1SE9kVWxBSmdGSXBGNGZhVUI3alNWa1Rmc3NwejIzVkw1RGdXQVd1QWJTOEhpQW1DLTdQNmhmY1JfTFFrb0tmRk5rT0ZGUnhybEZaMjZZT3FxVnFIeFBmbVpodmxiUURXOHNibXdsUE1kcDdfNkZHMk9HN0R1bVVDTkNtRkhrWQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:44:39.000Z"
+      },
+      {
+        "titre": "Plaquages illégaux, \"tricherie\", sanction lourde… Trois questions sur les propos polémiques sur l'arbitrage du sélectionneur de l'Afrique du Sud après la défaite contre le XV de France",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/rugby/plaquages-illegaux-tricherie-sanction-lourde-trois-questions-sur-les-propos-polemiques-sur-l-arbitrage-du-selectionneur-de-l-afrique-du-sud-apres-la-defaite-contre-le-xv-de-france_8288177.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Les propos de Rassie Erasmus, lundi, ont entraîné une lourde sanction de la part de la fédération internationale. Le sélectionneur a évoqué \"une tricherie\" et \"une manière de manipuler le résultat\".",
+        "heure": "2026-11-18T12:06:03.000Z"
+      },
+      {
+        "titre": "Football. Ancien attaquant du DFCO et de l'OGC Nice, Mickaël Le Bihan signe en Régional 2 en Côte-d'Or",
+        "source": "Le Bien Public",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcWt2eHVMdWp2QkpoMEJYWGZibkNUQnNPcWk5ODUtelNTRFdERU9rMHl1TzZlMUZaTURSS2drVWJ4NkFwY1haRUE4a1lrQ3liYnRTQkN3bEhITjhKa1dVVnhsRWEzRmNtbTdkTmEyUkQtd3R3WlVtUGJEQUVSaFVqQ2RuTDBZaXlYWkNhb1B0WEY5WWpzRC1ESktJQ3BNZ2t6YlJqeXFYbVBRNTB1WEQteDBMdWgza3pXdWxDVjhrcw?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T11:18:46.000Z"
+      },
+      {
+        "titre": "Le sélectionneur sud-africain Rassie Erasmus suspendu six matchs après avoir critiqué l'arbitrage lors du Championnat des nations de rugby",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/rugby/coupe-d-automne-des-nations/le-selectionneur-sud-africain-rassie-erasmus-suspendu-six-matchs-apres-avoir-critique-l-arbitrage-lors-du-championnat-des-nations-de-rugby_8288051.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "La fédération internationale a prononcé sa sanction mardi, au lendemain de propos très critiques du Sud-Africain.",
+        "heure": "2026-11-18T10:41:26.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "Le Monde",
+      "Goal.com",
+      "franceinfo",
+      "Le Bien Public"
+    ],
+    "chemin": "/sport/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-actu-tech",
+    "lang": "fr",
+    "date": "2026-11-18",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "« GTA VI » : dans ses tests, la presse internationale dithyrambique",
+    "chapo": "Intelligence artificielle, start-up, cybersécurité : les nouvelles du numérique. Le point du 18 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "« GTA VI » : dans ses tests, la presse internationale dithyrambique",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/18/gta-vi-dans-ses-tests-la-presse-internationale-dithyrambique_6813139_4408996.html",
+        "resume": "Les premières critiques du jeu de Rockstar Games ont été publiées par des influenceurs et la presse internationale, tandis que les images et vidéos de « Grand Theft Auto VI », accessible depuis minuit à l’heure néo-zélandaise, inondent les réseaux sociaux.",
+        "heure": "2026-11-18T13:48:34.000Z"
+      },
+      {
+        "titre": "« GTA VI », un jeu de braquage sulfureux devenu mastodonte du divertissement",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/18/gta-vi-un-jeu-de-braquage-sulfureux-devenu-mastodonte-du-divertissement_6813125_4408996.html",
+        "resume": "Le nouvel opus de la saga « Grand Theft Auto », déjà disponible dans certain pays, a pulvérisé des records de vente avec ses précommandes. Longtemps critiquée pour sa violence, la série s’est imposée comme un des mètres étalons de l’industrie.",
+        "heure": "2026-11-18T12:23:42.000Z"
+      },
+      {
+        "titre": "Souss-Massa : l’APEBI mise sur les jeunes startups",
+        "source": "Industrie du Maroc",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VQWZFX001dUx0N0xTdkRwUDNRckRzRTJKUUVzLTRfRlpYTEZVWVRmcWlzZGFBNmtQT2VNMUtDdGVkenNRWTZ0cUM5NDkyUnJZNXRpd0xIT25GakZRS1Btay1mRjRHOTVnWElMOWFneDdUT1JyNGp3Qktn?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T12:09:06.000Z"
+      },
+      {
+        "titre": "OPINION. « La cybersécurité, le grand défi de l'hygiène numérique française »",
+        "source": "La Tribune",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSi1CTzVTUUM3bjJyaGptd3NqVDJfam1RRk1tZ19IelFkTS1sS21NVFZPeW9CRE5Pc1BhN01fUnVKYnUtWV9sMGdleEkzeWxMTTRPQ0EtZFpwdUd2Qi1KYTg1MGdJRU5CREkwWWJuTnZrOW9NR1JTWmZUWEJzVzFadHFjUFV2aHAyUkw1YlNUZlFiR0l0QkFpUjlRUGs0UUs3X1ozak51dm1PTGJodmVST2hoNnhtcXoxVFRoSzVWZTdTeGEz?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T10:30:02.000Z"
+      },
+      {
+        "titre": "Cybersécurité: l'Assemblée nationale approuve le projet de loi musclant les mesures de protection",
+        "source": "LCP-Assemblée nationale",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanJPbUN4OWVWOUdDQlNURDFQX09pazh3eFVuQW1UbzhmLXF1QWdwUS1DQklrVzd0MEpIRm44VVUyMlRzdVBHUzFmamlOTTBqcHRCOFJYNDNaX0ZuaUpEb05PUWJYNmpuWEN0bGp4ZVhNNUFGLTB2SDlKc3lWMUhiVUExNWFLdDFFajhMdnBSWVlNaVB3ZE9GUWlabjRoeHVTaEhPNEFZWnFSd1BjLWpmZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T17:05:21.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "Le Monde",
+      "Industrie du Maroc",
+      "La Tribune",
+      "LCP-Assemblée nationale"
+    ],
+    "chemin": "/tech/2026/11/18/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-18-en-actu-business",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "Anthropic: The seven founders who are about to become multi-billionaires",
+    "chapo": "Companies, jobs and strategy: the business news that matters. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Anthropic: The seven founders who are about to become multi-billionaires",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+        "resume": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+        "heure": "2026-11-18T13:55:14.000Z"
+      },
+      {
+        "titre": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+        "resume": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
+        "heure": "2026-11-18T13:17:06.000Z"
+      },
+      {
+        "titre": "Abu Dhabi delegation connects US investors with opportunities in key sectors through high-level business engagements in New York",
+        "source": "مكتب أبوظبي الإعلامي",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNT1dZSkdlVExBa05GUkZYWFhkbm5HVFEwZW9tNWhGd0pEREZGb0VQQ2tIclBtTHZfcnJIT19rM3JUS3Y0TTVENzdNUVB1bXBSWnktOVNoVXJpdWdSc0hWbHA4cEFpckxic3RNRUpLYkJCRHUzM3E0eFdzVTlHS0FfY2tKYVM2a3FVdXIxLVpQN08xLU1qRWdKdERidENaNXRjcTFZTE8tdWVJYlYxTkZKTlg3U0VRX3VtMDZ3bGtmR0Q2VDZzdFBwNExzbkdsa1ltbmg0OHA4Si10MGJPR3p3VHBJRlBIT2M2eFlyODVBb04zQm54eEtjMm1PMzhMV2lhdXVZ?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:00:45.000Z"
+      },
+      {
+        "titre": "Circular economy company Recove Ventures raises Rs 56.25 Cr",
+        "source": "YourStory.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1V0b2dBNFZWOVQxOU5xSXZranpueW1kNHNJOXVUUXVoLVZSa2hydGJCUHgwRldHa01lUkRtdVhpalJEYkh6MVlmV1ZPekxYVGhRN3I0MkMyTlBCVUMtVnY3YTNOWVNjbXpVaUpKUVRINTNPY2hGOFJRdEZMOUs5RllFcXhCT0JFUFgxSERDWTlMcUE?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T10:35:59.000Z"
+      },
+      {
+        "titre": "Dubai's businesses gain an AI workforce on demand",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRTlCcElLVktCSkduTUhVaUtWbjhoT0poZlQ1a3FLaGloTjhxZ1hna2c4NFdTNEtwQTktSEVwSzc3TWRfSzZCV2tvQkgySFdBd3dCSUoxZXNBU05EM2M5XzFBSHllNmdSVTFXU2Z1VmRpSVM2UzFzeDdfRXVSSlFoT3RmSmpVdVVHVHNyRg?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T09:07:47.000Z"
+      }
+    ],
+    "auteur": "Camille Rostand",
+    "sources": [
+      "BBC News",
+      "مكتب أبوظبي الإعلامي",
+      "YourStory.com",
+      "Euronews.com"
+    ],
+    "chemin": "/en/business/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-culture",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "About the Constantinople to Istanbul: One City, Two Empires exhibition",
+    "chapo": "Exhibitions, museums, theatre, film and music: cultural life, from the Riviera to the world. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "About the Constantinople to Istanbul: One City, Two Empires exhibition",
+        "source": "Victoria and Albert Museum",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLUFtNmc2QlJIWkRyY1o4dzNqR0tLdnlmWk1DSjBYcWg4LVBzTWk4dDNRS1RObDdoeE1lamkxdXBaUDdPWERNc3dVT0duX2RpdDJPOXl4dTE0UkdYSlEyMUtDM05XemVTS2kzam5KT3d5cDhrX2pwTkNKTUlYTTJsQXVnbTNOVEEzNGpPUENIOXhiWVR5U0paVmhiVGtTcmx4?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T11:56:28.000Z"
+      },
+      {
+        "titre": "\"GTA VI\" by the Numbers : We Compared \"Grand Theft Auto\" Records With Figures From Monaco and the French Riviera",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPenR0d2pxeW82TTQxd2hBcjBFTGdNLUNKbUR6SFFaT01YVXhGdE51ZVNfUHp6aS1SdENienU0WF9Ga3p6ak1NUjhrUk9SNk02M3hOWjEtRV9MZDAwdXNxZ1NTS2lRd2swdUhhLUxPQjBuV0d0djNFQ1ZWQTlDbHlOX2k4WEd2UUJ5UzdDUk9sUHQtX0g3elBQTHZpc3NwdVZkTGpWdFVNRnhCRVQyOVNHVDU5TC0tZ1VGMFVVc0RxWG93Q2FGYndsV0tFa0NXSUU4MzVMZEpmOHRqc0NvUm1tTHZRSTJYQmM?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T07:05:07.000Z"
+      },
+      {
+        "titre": "The Top Exhibitions To See In London: November And December 2026",
+        "source": "Londonist",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVklvcmVtRTZSTFlWWTlVeWN6WDJ5QVBDM0hybVdQVUlqME9nTTZaM3pSR0VXczBoZzJlZnRVTVQ3ejZCdUdzbFpaTXpSaXlDcjFCYjk1YXlhaW5jempkUlhPVU9VRGJBeWd0QmZGTzMyREVKQVVoUC1scEgteEZjWkRMUW1TY0hvZk1CY1Mxc2xwWUxsdnJQUEtnRDROVWhLNU9LaDVrY0RlQXJSVV9FSlpn?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T04:52:10.000Z"
+      },
+      {
+        "titre": "Testing Ground by Kevin Abosch",
+        "source": "Artsy",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IMDdpMG9rSnRSc0I3bXdqeEtxeWlQbmgwNjc1R0tXZkVxb0RRMjdZeFRNd3EyQUtXNm8yZ2l3aEVhQlVGbnNaMkVsaVU1ek1CNUZ3ME5INkR0RTBfaU1fWDJTQjM0VkF2cTg3bVp5ckxDZ3Zla1E?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T19:32:29.000Z"
+      },
+      {
+        "titre": "A Guercino Returns to the Market: Auction in Monte Carlo",
+        "source": "Courier & Press",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEhqNmwzWDM4T1dMbXRMVkpSbUZ3Umd1Y3FOWWc0R3Vjek50c1BKNncwbkNiMExYUEtwNFpHRGoxY3lLanoxZjI4X0hFdVplZEItV2JoZF96d29GZDlYaVcxY0lrTFh3UEtmSnUwMktkTWxuUHVSb05rdUR3NC1fR2VFaDJfcldpRUhLRjVNRGpEWWhQR3lLTnFaNVM2M3dyazhkbW5VZjBLM1F6UVRFWF9R?oc=5",
+        "resume": "",
+        "heure": "2026-11-16T22:25:11.000Z"
+      }
+    ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "Victoria and Albert Museum",
+      "Nice-Matin",
+      "Londonist",
+      "Artsy",
+      "Courier & Press"
+    ],
+    "chemin": "/en/culture/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-evenementiel",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Événementiel",
+    "rubrique": "Events",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "Unite signs landmark recognition agreement at Rock City",
+    "chapo": "Trade shows, festivals, concerts and big gatherings: the events industry today. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Unite signs landmark recognition agreement at Rock City",
+        "source": "Unite the Union",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ1JGQzlpSkRHeHBpUjEzMHdwa3JYSUNVX3Fqdm1qRHNSVEhqWFBKbUY2MjA3YzZkNjRWckVjZjQyc01Xa0FCQTZoVWx6bVVZUlduQ1FsYTdiVXpMZzJ6UWlPTGEyMzdLcmdMQzFacVV0dWhaWDhIcEN3S2lSckxKYVFPdVE5YlpYZ2RlenQ0UDRnMm5iZUdFWUkwY19jWHdUVUVrcXE4UGlGVE1Jdzd2ek5ETms5QUU?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T12:41:35.000Z"
+      },
+      {
+        "titre": "Minister criticises media for 'amplifying' Russell Brand's prison message",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cq702k1w8xd3o?at_medium=RSS&at_campaign=rss",
+        "resume": "Lucy Powell says outlets shouldn't have played a clip of a message read by the jailed rapist's wife.",
+        "heure": "2026-11-18T12:11:39.000Z"
+      },
+      {
+        "titre": "Joanna Page says male actor made 'awful' and 'inappropriate' comments to her on set",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqj3kelenm0do?at_medium=RSS&at_campaign=rss",
+        "resume": "Page spoke of the comments during Tuesday's episode of I'm a Celebrity... Get Me Out Of Here!",
+        "heure": "2026-11-18T11:00:05.000Z"
+      },
+      {
+        "titre": "Real Time Automation, Inc. Accelerates Market Expansion with Trio of Major Industry Events",
+        "source": "Bergen Record",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd2JMM01EREJSYkZkYjVrYXpSNzRlMTczZU10R2VQQzMycldPZUtfWF9tekw1My1FNS1Kc3kxUG9jQzM0MUdpckNoZG1qQTBydzRtc2VydmlpelpCVjA4MHFORDVERXJxMUx6aEN6OG1mTHpRU0N0M0JHN2RzdXpHWWkzckRlRmRKejBPRk9sbEFTWnFEQ1NqOTJCYVhWV1MtUVQ2OGM0cGYtYWplX3p1Qms1U3pSUm9FQmFJbllaeHlnUjJaYWlSU2RTLXNSbUNFMHBVa21fSnBtbk8y?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T09:00:41.000Z"
+      },
+      {
+        "titre": "Summit targets growth of events industry",
+        "source": "Punch Newspapers",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQms4dEFsMVh6SURBeVAzcHJtYU1mN2dtRmNnZTA0RFpYY3pwZVpXM2FjT0VrbUNvSDhrRUhyRW1BNWZsMUxiWGNqRzhnQU5MeFdQUk54RUs2TmNsWGc4dlJfdTlGVTJUal9OVVdwN3FPQXlxQjNaYmlSZlJHTUlUOExxeHZzWVZqbEFoYW92VERoRXhZanYwSm1UZnlBQnFSeUEzWDZR?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T02:44:50.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "Unite the Union",
+      "BBC News",
+      "Bergen Record",
+      "Punch Newspapers"
+    ],
+    "chemin": "/en/events/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-finance",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "TPG RE finance director Todd Schuster buys $224,824 in company stock",
+    "chapo": "Stocks, markets, interest rates and crypto: what moved today. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "TPG RE finance director Todd Schuster buys $224,824 in company stock",
+        "source": "Investing.com UK",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVkU5d2JBMUE1LWxBLUxkQjM0eWpTNDRWcFdtdTZKQ2wtOG1ZVmpYajZSNFBVTjZHWDdlcXRUNVZfVEZaSjFiV2toNnhmcFZYaG1PQWdtd2xsWHZKeE5FRHlaaWYtV3BHNmlEUER1SEw1cEpIYkJjT215U1JzTkU2Q3FjbUp3Y21KNF9rLWphRlBYT2E2QjRxVG9CVjY4LUsyem5zZ3ZfOTN3bkFCOUM3OXFGWFJkYVUteWZ3cTMxaWk2NkhhVlE?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:32:00.000Z"
+      },
+      {
+        "titre": "Stock market today: Dow, S&P 500, Nasdaq futures rise after Nvidia clears hurdle, Anthropic prepares to price its IPO",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNakxPR0JsWUpYSzlnR2tTWVplbVlZTmgxX3Y4UVJkemZQWXRXdmpDNWYyX2cteXdJYVd0TW9WRHVMLU1UZmtzd2U2V3c3UmhsNGl3WV8wRXMwRDdraHc0NHRJTFMtcTRFUUg5dXl6QnJIbXlHc2xiYkp6RmdkdlNXUHE1OGNZVmxNQ1R1ZmlVaGl5ZEdtV2pTcDl5UjhUYjRGck91RjYzTl9JYTdkRzlISjVQVURucE5VbTduTkZvOWladWhYZkZyVEMxbGt3dw?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T11:00:46.000Z"
+      },
+      {
+        "titre": "Highly Anticipated FED Minutes to be Released Today! How Could It Affect Bitcoin?",
+        "source": "Cryptonews.net",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Pbmt2TjdSLVViaXdaUlVoSl85Y3hMejBqYVlsaFZvUkNNZFc4V1ZRYV82T19vV3RsTkhIRDdiNUI2dEJPcXNFY2ZiaTN2ZVNqdEFfSVhZRGQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T10:59:22.000Z"
+      },
+      {
+        "titre": "Financial Stability Review, November 2026",
+        "source": "European Central Bank",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVN0dXJmOTlUVFhGaTNyYm1ubnkzaFZKR2VDcFNlRzBLOFRFMEgxOTFVRDVfX3VzSnBvOEtnMm9mZlA3Wk9yN0F3UEZEWTNsd2RTcVFhN3ZiUWZkVDRKbHRpTTdsRWFUM1NhbXBFNVR3bzU2TzFaMllOaDJGS2RUbnNhUVBXNkNVb0lnNnpjUTc3Nzl6bVloQS1tM3AzTkdaM1J5Um5OcVFUdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T09:03:04.000Z"
+      },
+      {
+        "titre": "Jefferies Says Major Central Banks May Hike Rates Less Than Markets Expect",
+        "source": "bloomingbit",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKNjF1aWFnQWJDcFJSZkdDNm5UMGFlNWtiYjgzY3pQRUIwdFBMRkJMbFVwUDlvN05oNE1pa21DZGYybE5pbWl2eFZ1anBrSTNwWnhGSw?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T08:12:39.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Investing.com UK",
+      "Yahoo Finance",
+      "Cryptonews.net",
+      "European Central Bank",
+      "bloomingbit"
+    ],
+    "chemin": "/en/finance/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-monde",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Monde",
+    "rubrique": "World",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Grand Theft Auto 6: Reviews come in as worldwide release begins",
+    "chapo": "Around the world in a few headlines. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Grand Theft Auto 6: Reviews come in as worldwide release begins",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52eWRacVFwVkp5S3NhZ2ExWFBId3FKTGxSbjJqT2JaZGwzWWExamUxMF9XUzJSOFlzV2NWQ2pzTUFNVGRVUzhTNjFOcUExNEhjMXpYSjJVRlA?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T14:05:05.000Z"
+      },
+      {
+        "titre": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+        "resume": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
+        "heure": "2026-11-18T13:04:48.000Z"
+      },
+      {
+        "titre": "Apec summit live: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOGlCUHJNQVF3R3BkMURkZ1E4TDNXWXhSYWZDc0lNUmlQUmpqSlBCTWNLaUp5V3BpVGJoSjMyalV5MlM5XzJ5YnZvai1iS0xVai1UNmlBUDkwX3NHVUgtZ3BJQ2FKOHNEZlpyUERMT3JrdHZJZXEtaHJfMmxybVJ3N0dOeExSZ0hTOFprZUxlVnFZdkxPa2hsNlNWMVluc1VrVEJhaUpDeWtncTRqVE5HWkYyUTRqQW1ZU2FwUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:00:00.000Z"
+      },
+      {
+        "titre": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+        "resume": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
+        "heure": "2026-11-18T12:39:24.000Z"
+      },
+      {
+        "titre": "The meeting that could mark the end of the world as we know it",
+        "source": "The Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWYxMkhtVGU2UEV3Tzd4ZjAtUnVvOGI2c2pUeGJybzJrdVZETkczbWQ3d3RKZU4xQThoanFocm53d2FTdU0wR29XRnRNWTA0ZWluNXhJQlBVNFBHTnhuRVB2T3BxRzVLYVByQ3F0b2VFdXZQa0lzdHZpN2JYN0NGNnJQNk5xNUdhXzBrYkR1bmhfZzdWWHJMaUx1VEh2cEctb1BPNUpJU2RUVnVB?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T12:38:00.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "BBC",
+      "BBC News",
+      "The Guardian",
+      "The Telegraph"
+    ],
+    "chemin": "/en/world/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-nice-cote-d-azur",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & the Riviera",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "How to get Rennes vs Monaco tickets: Ligue 1 prices, fixture information, last-minute sales & more",
+    "chapo": "What’s happening on the French Riviera, from Nice to Monaco. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "How to get Rennes vs Monaco tickets: Ligue 1 prices, fixture information, last-minute sales & more",
+        "source": "Goal.com",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMzdFTE1wUDRibjBSRWJKdldhVi1qcUE1OEtfZDl2T3RBblpSSk5sbWdianI5ODBtQUh3Ml9pRFprUHNseHBqazNiSE1ZVjBiUHNUUVV0Ri14MVZ4RTdzV1REZ1BUNzV0T3dtdWl0TkQ1c1ZtUEVqS1RfU3pNSTdyUkRadm9VWlh0TVZ6OHZuNDBBdXo5R1E?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T14:10:25.000Z"
+      },
+      {
+        "titre": "An investigation opened by the prefecture of the Alpes-Maritimes concerning the “Resto Paysan” of Cédric Herrou",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/an-investigation-opened-by-the-prefecture-of-the-alpes-maritimes-concerning-the-resto-paysan-of-cedric-herrou/",
+        "resume": "The \"Resto Paysan\", an establishment run by the Emmaüs Roya association in Breil-sur-Roya, has been the subject of several reports following administrative insp",
+        "heure": "2026-11-18T13:39:55.000Z"
+      },
+      {
+        "titre": "Ukrainian Oligarch Linked to \"Monaco Battalion\" to Appeal Seizure of $40 Million Paris Mansion",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQ2l5RUVjMTJDTmFNR0NVazlVeFdadG1NaVYzRk5kVGtNVHFkN3A5REVDOFpqR0QwSW9VdU1lNnB2ODdrbTBaNUJ0QVVCWVNkOTR2a1JOcXNteE9ZZTFYVkQyRW81SUJYVHo5c0ZaaThKclktWkxYX0lheHl2NnF0NnJQTGw1R21LUlN6anpQczR6NHZNV0E2dC02eVlkV0RvWTBTNExRcEhRMWpZN2RoRVZXZ0p5MG96c3o0Y1dUUzZ1Z2VHSHRtRzBrTUpUaWtEMDlYbldsODBkS2RNWWZiRg?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:38:11.000Z"
+      },
+      {
+        "titre": "Monaco National Day 2026: Where to celebrate across the Principality",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNkRWY0t3QkZ4eWp3OXBOcnZ1Z1dlU0xCQ2haTTJWaVNiMll6MGRGb2FVV1g1UFBFemtVaVBIaFdJSFhia2pCNVFaNkR5SnpkRERnc2FxQlJnajhiN043WXpCSHQxQWd4UVdFTE9SeXZqQ2FjX3JxMGRTY3pCNmJRaTF2bmZjTmhZUXZwaWZRX2ZYeU5hUm5pSVY5QlBPOEFqZGlyT1BrTGRIS0NvbjJMNXR5cGo?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:36:33.000Z"
+      },
+      {
+        "titre": "Animated rugby film puts survivors at heart of Monaco campaign",
+        "source": "Monaco Life",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObGJRckt2S1JzVzNmbEtPeTVFZS1OYkZYaTZmOXFtM0x1ZEdmTHozcDBBNnU4dDFBU3hPVkZKM19DSUxiUUtLQ3A0Q1k3U3pfLXd0cUhTLVNtTm1icDBwXy1qWjJUaDc1NFY5X2E1Wlc4ekRDRmVxTTJmb20zZVJiYkRsTy0xX0JqWkp2UjkzTQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T12:52:42.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "Goal.com",
+      "Nice Premium",
+      "Nice-Matin",
+      "Riviera Radio",
+      "Monaco Life"
+    ],
+    "chemin": "/en/riviera/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-sorties",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Sorties",
+    "rubrique": "Going out",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Could Josh O’Connor and Joel Coen’s new thriller bring Netflix back to Cannes?",
+    "chapo": "Where to go and what to do: outings, shows, festivals and tips on the French Riviera. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Could Josh O'Connor and Joel Coen's new thriller bring Netflix back to Cannes?",
+        "source": "EasternEye",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRWxJM1M1d1ljQXVpdWhOWHRFRVR2em9UY2NMMm5jSWphRmVEaTlER0RxTE1qYTlXT0VaWGcyNktIUkpNakFGX1h2ZUgtNUtLUlFiU1NuOUZIZEZBVy0zMVNtTkpLRV9iRnVPUXZlSmgzYTQyRlRkMmMyMjB6MjNsYVdfd2JDNzZJS3c?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:36:42.000Z"
+      },
+      {
+        "titre": "Monaco National Day: Prince Albert II Honors 78 Recipients of the Orders of Saint-Charles and Grimaldi",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTXNNNUktNGlscnhWRGw1eFJhZTF1QU5SOFFYbEgxbG01WGY1QUNod2Q3VkZPOTR1QW8teEhIYjFZNVBVY0lOb3NjZWpHRWNVcVRoRkZHbTBkOVRlREhQRTB2WnZ1emFQdkVjY1g1VlkxRDlDMW5BdmRhanBHa056QmpBa0ExT3A2WnZvLXdNWG1paVhaUUZEWV81cVg2cVNuajRzUnRWNnU1Wktra1FacC1UMnZEUERwTEdxXzhVMlNhdnR1Ql9pWElTNm1LRWFZV2MyajZabkVOa3lmLTN5RDRFaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T12:53:09.000Z"
+      },
+      {
+        "titre": "Marrakech’s Atlas Workshops Takes Victory Lap as Industry Event Celebrates Cannes, Venice Triumphs",
+        "source": "IMDb",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1S3IzX01tX3hmRGg3bkpwWFpBVGVtQWUwWVh2THl6MjFtQXp2bWZZNXBDSjhIVS1LbFd3OEtid2pXbHZCWFJlRTFPMWhZaUxSRVN6bDNncHVFSU9NVDJWRE9HUk5zUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T12:31:26.000Z"
+      },
+      {
+        "titre": "Harry Styles, Billie Eilish, Sam Fender and Cher announced for Glastonbury 2027",
+        "source": "Great Yarmouth Mercury",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZEU3QWJfZmotUDRrRmN4ckQyYmg0RDdmNE52Qm12QVJBRGZxeXh3ek01aFJ5eHI2RmExdFpFM01TZVBSRTFIYmtfaXNlMlR0LXQ4Y3E3WGpDTzBfbDItaE54OVF0dHl3V0hCeDhNNl9oS2IwNm1rd0lCeXVQQnIzTDVxMEFUX0ZMX2VRcDNRaHBacW84NEV4a2w1V1VxVlFDTW9TUXFsOUg0bjlBdnBHX3FycFpfMnNOc1NpajFIZ1lxUjE1Q0NIQ3pjVGE?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T08:32:10.000Z"
+      },
+      {
+        "titre": "Nice celebrates Children's Rights Week with workshops, performances and activities",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdmFzd2trYWtFa3Z0ekdqbnZfNlFhYUJwcS01bUpUcllOa2UxT3FsaHBmbVRCQjlWQi1abWs5dFZJVDlEQ2lBaFA3aXlNSm84dWk4UHZValVoOEpTbUFrdGNGeVd0M0FCbERfX0pPeENQbVlOWlpiSkppQ0FSUnNyakdDbnIxdDI3aEFYRkVDQjJnUG5leVBuQmRpbWwzdlpGRU02S0hiR2kxRzdHS0VuMDNzTHNUM0pIMDBHU2tkb3plQnAxTnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T06:45:00.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "EasternEye",
+      "Nice-Matin",
+      "IMDb",
+      "Great Yarmouth Mercury",
+      "Riviera Radio"
+    ],
+    "chemin": "/en/going-out/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-sport",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "How to get Nice vs Lens tickets: Ligue 1 prices, fixture information, last-minute sales & more",
+    "chapo": "Results, transfers and the big moments in sport. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "How to get Nice vs Lens tickets: Ligue 1 prices, fixture information, last-minute sales & more",
+        "source": "Goal.com",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTkJGWk1FcnFfWEVuQ3FKYmFhTlRjbEZLNElrM2RQa0ZMT1pJTE9HQTFvVGRKNkZlb3Y0Vmc2ZkY5RkJKSEtEM2tZMm9CSFQ0c3FFVXVCNUhXV2Z1VXRMUkxsT0F6UEE5cGZVdnZvVW9BWTNUVVNRbW5rZUVRa1c1N1hFX1VlZng5R1VXRVk2RDE?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:50:22.000Z"
+      },
+      {
+        "titre": "Ivan Toney loses bid to avoid Euro 2028 court clash",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
+        "resume": "Ivan Toney's trial, for an alleged assault which he denies, is due to take place during the Euro 2028 tournament.",
+        "heure": "2026-11-18T12:46:12.000Z"
+      },
+      {
+        "titre": "Joint-record six referee errors in last Premier League weekend",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
+        "resume": "The Premier League's Key Match Incidents Panel rules there were six on-field errors in the last round of games - the joint-highest in one weekend.",
+        "heure": "2026-11-18T12:38:38.000Z"
+      },
+      {
+        "titre": "OGC Nice’s Mohamed Abdelmonem set to miss PSG game",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVjYwMTkwOGRVcUJnNWRSQ0d1Vkpxck1oSm9xT2gzMHYxTTZRV2FzVTh5QlVPNkhwV2E1enZOU2hyYlVWNG13Z3hQcS1BWEhwQWNHOUtCZ3hMYXFjNmJ0NzNEQ0pGOUVDckhOSndEOVBRNGkwby1zYWFsS2t0cEpZemRZOHFaYmc?oc=5",
+        "resume": "",
+        "heure": "2026-11-17T09:52:00.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "Goal.com",
+      "BBC News",
+      "Yahoo Sports"
+    ],
+    "chemin": "/en/sport/2026/11/18/press-review/"
+  },
+  {
+    "id": "2026-11-18-en-actu-tech",
+    "lang": "en",
+    "date": "2026-11-18",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "Beyond cattle: Virtual fencing company Monil reveals Sheep Collars for the U.S.",
+    "chapo": "Start-ups, cybersecurity and digital life: the latest from the tech world. Our round-up for 18 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Beyond cattle: Virtual fencing company Monil reveals Sheep Collars for the U.S.",
+        "source": "www.agnavigator.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGVFbWkzd0Y3YjZKZjVFM3VVRTF3aFZoN2tEckgxWmFGb3p5R3B4elFuM0dadXV2ZmN5cGYtMFFCMjl2dVNBcmtfcFBvRkJwOXZRcTI1eC15Z29DUEdIWEFkTFp3cFVDSFZ6Y1lXY2pjZXdCMzk3MGlpeVMwaFByVk5wcGpSelRqYjNZdHYyd3Z3SWhXOTZDNm9Lc3N5bFItNVZCZWphQnhwbWRtUjByMHFpbVQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T14:07:35.000Z"
+      },
+      {
+        "titre": "Hacks, AI or just overdue updates - why have there been so many outages?",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss",
+        "resume": "There is no evidence these are linked, but the constant series of tech disruptions can be unnerving.",
+        "heure": "2026-11-18T13:16:53.000Z"
+      },
+      {
+        "titre": "Slush 2026: How Start-Ups Could Help Europe Catch Up",
+        "source": "www.trendingtopics.eu",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQenlnWnJKdzFaOUgyWUtLcnc0ajJxVVNPX2Ixa1JxYm1ScWhYTWJEMFhISm5nX2lUWTRmWlNlVTlfMW0waldLN201ZVJBVWhxb2RvZVdkZ0VLaVRRTlQzRjFjQXhZN01lN09yWTNoTjl3Uk9ZZkdULVJ6R3ZyZlZSV1pR?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T12:37:41.000Z"
+      },
+      {
+        "titre": "Grand Theft Auto 6 is a masterpiece, say critics",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+        "resume": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
+        "heure": "2026-11-18T12:22:15.000Z"
+      },
+      {
+        "titre": "Qualcomm Awards $75,000 Grant to African Livestock Technology Startup Qualikeeper",
+        "source": "TechAfrica News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQkJ5U1l1UXlsbVZRYzZfbk95dVpFYmVtZU9GYmpMTVhPSlRQOVJwWXVQRkdDTDhaZUd0c3hFRm43SGlycDItTzMtdGh1YUlIOTBJM2xkalppUEpPekFUTVdxU3c1dGo4VGp0SUE2MWZYcjBZTnNwbGxLcW9sRTVCWWVwNzg4dkJIYmhuQmdaNkZJQjVhZWxxSUhtNEYyQV8wdWg5anZiQzdjTHFvcDN3MDJOOGladHBnbHc?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T10:52:02.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "www.agnavigator.com",
+      "BBC News",
+      "www.trendingtopics.eu",
+      "TechAfrica News"
+    ],
+    "chemin": "/en/tech/2026/11/18/press-review/"
+  },
+  {
     "id": "2026-11-17-actu-business",
     "lang": "fr",
     "date": "2026-11-17",

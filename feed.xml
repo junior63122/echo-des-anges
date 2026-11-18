@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Tue, 17 Nov 2026 23:34:36 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 14:14:53 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>La semaine économique en 7 sujets, du 12 au 18 novembre</title>
+    <link>https://echodesanges.fr/economie/2026/11/18/hebdo-economie/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/11/18/hebdo-economie/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Économie</category>
+    <description>21 informations publiées par 4 médias en sept jours. Au programme : « EN DIRECT, manifestations du 17 novembre : blocus de lycées levés à Toulouse…</description>
+    <media:content url="https://echodesanges.fr/img/stock/business-azur-3.jpg" medium="image"/>
+  </item>
   <item>
     <title>Nice et la Côte d’Azur : les faits marquants de la semaine du 11 au 17 novembre</title>
     <link>https://echodesanges.fr/nice/2026/11/17/hebdo-nice-cote-d-azur/</link>
@@ -448,15 +457,6 @@
     <category>Économie</category>
     <description>Fondateur et président de la deeptech niçoise Cosma, il défend ce jeudi à Paris sa candidature aux Grands Prix de l’Académie des technologies. Son…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/frederic-mittaine-cosma-drones-sous-marins-portrait.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Travaux publics : chez Renaudi, la troisième génération prend place à Cagnes-sur-Mer</title>
-    <link>https://echodesanges.fr/nice/2026/05/20/groupe-renaudi-anthony-renaudi-directeur-general/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/nice/2026/05/20/groupe-renaudi-anthony-renaudi-directeur-general/</guid>
-    <pubDate>Wed, 20 May 2026 06:00:00 GMT</pubDate>
-    <category>Nice &amp; Côte d'Azur</category>
-    <description>Anthony Renaudi devient directeur général de la holding du groupe familial fondé en 1964, aux côtés de son père Philippe, figure du patronat azuréen.</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/groupe-renaudi-anthony-renaudi-directeur-general.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
