@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Wed, 18 Nov 2026 22:57:01 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 14:30:30 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>La semaine financière en 7 sujets, du 13 au 19 novembre</title>
+    <link>https://echodesanges.fr/finance/2026/11/19/hebdo-finance/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/finance/2026/11/19/hebdo-finance/</guid>
+    <pubDate>Thu, 19 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Finance</category>
+    <description>9 informations publiées par 3 médias en sept jours. Au programme : « « L’entrée en Bourse d’Anthropic est un test de confiance XXL des marchés financiers…</description>
+    <media:content url="https://echodesanges.fr/img/stock/finance-azur-2.jpg" medium="image"/>
+  </item>
   <item>
     <title>La semaine économique en 7 sujets, du 12 au 18 novembre</title>
     <link>https://echodesanges.fr/economie/2026/11/18/hebdo-economie/</link>
@@ -448,15 +457,6 @@
     <category>Tech</category>
     <description>Spécialiste de la sclérose en plaques au CHU de Nice, il a cofondé Neuraccure, start-up incubée à MonacoTech. Son application d’analyse des mouvements…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/mikael-cohen-neurologue-nice-neuraccure-portrait.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Frédéric Mittaine, l’ingénieur des données sismiques qui veut cartographier les fonds marins avec Cosma</title>
-    <link>https://echodesanges.fr/economie/2026/05/21/frederic-mittaine-cosma-drones-sous-marins-portrait/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/05/21/frederic-mittaine-cosma-drones-sous-marins-portrait/</guid>
-    <pubDate>Thu, 21 May 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Fondateur et président de la deeptech niçoise Cosma, il défend ce jeudi à Paris sa candidature aux Grands Prix de l’Académie des technologies. Son…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/frederic-mittaine-cosma-drones-sous-marins-portrait.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
