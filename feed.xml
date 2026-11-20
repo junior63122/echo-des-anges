@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Thu, 19 Nov 2026 23:02:38 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 14:08:47 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Événementiel : les faits marquants de la semaine du 14 au 20 novembre</title>
+    <link>https://echodesanges.fr/evenementiel/2026/11/20/hebdo-evenementiel/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/evenementiel/2026/11/20/hebdo-evenementiel/</guid>
+    <pubDate>Fri, 20 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Événementiel</category>
+    <description>7 informations publiées par 5 médias en sept jours. Au programme : « Le chorégraphe Bruno Vandelli mis en examen pour viol aggravé, agressions sexuelles…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-20-hebdo-evenementiel.jpg" medium="image"/>
+  </item>
   <item>
     <title>La semaine financière en 7 sujets, du 13 au 19 novembre</title>
     <link>https://echodesanges.fr/finance/2026/11/19/hebdo-finance/</link>
@@ -448,15 +457,6 @@
     <category>Économie</category>
     <description>Au sommet Choose France, le propriétaire monégasque de Venturi a annoncé 250 millions d’euros d’investissement et près de 200 emplois à Toulouse pour sa…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/portrait-gildo-pastor-venturi-space.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Mikaël Cohen, le neurologue niçois qui veut faire passer l’examen neurologique sur tablette</title>
-    <link>https://echodesanges.fr/tech/2026/05/29/mikael-cohen-neurologue-nice-neuraccure-portrait/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/05/29/mikael-cohen-neurologue-nice-neuraccure-portrait/</guid>
-    <pubDate>Fri, 29 May 2026 06:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Spécialiste de la sclérose en plaques au CHU de Nice, il a cofondé Neuraccure, start-up incubée à MonacoTech. Son application d’analyse des mouvements…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/mikael-cohen-neurologue-nice-neuraccure-portrait.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
