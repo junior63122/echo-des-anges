@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Fri, 20 Nov 2026 22:40:15 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 13:33:48 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Culture : les faits marquants de la semaine du 15 au 21 novembre</title>
+    <link>https://echodesanges.fr/culture/2026/11/21/hebdo-culture/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/culture/2026/11/21/hebdo-culture/</guid>
+    <pubDate>Sat, 21 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Culture</category>
+    <description>16 informations publiées par 12 médias en sept jours. Au programme : « Cannes : 25 compagnies de 11 pays pour un grand festival de danse », « Miss France…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-21-hebdo-culture.jpg" medium="image"/>
+  </item>
   <item>
     <title>Événementiel : les faits marquants de la semaine du 14 au 20 novembre</title>
     <link>https://echodesanges.fr/evenementiel/2026/11/20/hebdo-evenementiel/</link>
@@ -448,15 +457,6 @@
     <category>Tech</category>
     <description>Issue du CNRS et d’Université Côte d’Azur, la start-up de Sophia Antipolis dirigée par Melpomeni Dimopoulou commercialise sa première offre d’archivage…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/pearcode-coffre-fort-adn-sophia-antipolis.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Gildo Pastor, de la voiture électrique à la Lune : le patron de Venturi change d’échelle</title>
-    <link>https://echodesanges.fr/economie/2026/06/02/portrait-gildo-pastor-venturi-space/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/06/02/portrait-gildo-pastor-venturi-space/</guid>
-    <pubDate>Tue, 02 Jun 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Au sommet Choose France, le propriétaire monégasque de Venturi a annoncé 250 millions d’euros d’investissement et près de 200 emplois à Toulouse pour sa…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/portrait-gildo-pastor-venturi-space.jpg" medium="image"/>
   </item>
 </channel>
 </rss>

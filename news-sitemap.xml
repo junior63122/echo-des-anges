@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/culture/2026/11/21/hebdo-culture/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-21T08:00:00+01:00</news:publication_date>
+      <news:title>Culture: the week’s main stories, 15 to 21 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/culture/2026/11/21/hebdo-culture/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-21T08:00:00+01:00</news:publication_date>
+      <news:title>Culture : les faits marquants de la semaine du 15 au 21 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/en/events/2026/11/20/hebdo-evenementiel/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
@@ -14,22 +30,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-20T08:00:00+01:00</news:publication_date>
       <news:title>Événementiel : les faits marquants de la semaine du 14 au 20 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/finance/2026/11/19/hebdo-finance/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-19T08:00:00+01:00</news:publication_date>
-      <news:title>The week in finance: the key stories, 13 to 19 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/finance/2026/11/19/hebdo-finance/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-19T08:00:00+01:00</news:publication_date>
-      <news:title>La semaine financière en 7 sujets, du 13 au 19 novembre</news:title>
     </news:news>
   </url>
 </urlset>
