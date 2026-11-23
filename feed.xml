@@ -5,9 +5,27 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Sun, 22 Nov 2026 21:45:19 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 16:09:01 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>L’agenda de la semaine sur la Côte d’Azur, du 23 au 29 novembre</title>
+    <link>https://echodesanges.fr/sorties/2026/11/23/agenda-semaine/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/sorties/2026/11/23/agenda-semaine/</guid>
+    <pubDate>Mon, 23 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Sorties</category>
+    <description>7 rendez-vous et idées de sorties repérés dans l’actualité, de Nice à Monaco.</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-23-agenda-semaine.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Tech : les faits marquants de la semaine du 17 au 23 novembre</title>
+    <link>https://echodesanges.fr/tech/2026/11/23/hebdo-tech/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/11/23/hebdo-tech/</guid>
+    <pubDate>Mon, 23 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Tech</category>
+    <description>32 informations publiées par 20 médias en sept jours. Au programme : « Une course contre la montre "pour appliquer les correctifs dès que possible": des…</description>
+    <media:content url="https://echodesanges.fr/img/stock/tech-3.jpg" medium="image"/>
+  </item>
   <item>
     <title>Sorties : les faits marquants de la semaine du 16 au 22 novembre</title>
     <link>https://echodesanges.fr/sorties/2026/11/22/hebdo-sorties/</link>
@@ -439,24 +457,6 @@
     <category>Événementiel</category>
     <description>Présidente du groupe Belles Rives, elle a repris en 2001 l’hôtel familial et créé en 2011 un prix littéraire. La 15e édition du Prix Fitzgerald vient de…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/portrait-marianne-estene-chauvin-belles-rives.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Jean Lemaire, l’entrepreneur de Sophia Antipolis qui veut électrifier les flottes de camions</title>
-    <link>https://echodesanges.fr/economie/2026/06/11/jean-lemaire-paragon-mobility-portrait-recharge-electrique/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/06/11/jean-lemaire-paragon-mobility-portrait-recharge-electrique/</guid>
-    <pubDate>Thu, 11 Jun 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Fondateur de Paragon Mobility, il défend une recharge électrique modulaire, livrée en conteneurs. Son entreprise vient de s’allier au girondin Valorem…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/jean-lemaire-paragon-mobility-portrait-recharge-electrique.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Recharge des camions électriques : le sophipolitain Paragon Mobility s’allie au girondin Valorem</title>
-    <link>https://echodesanges.fr/economie/2026/06/11/sophia-antipolis-paragon-mobility-valorem-recharge-camions/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/06/11/sophia-antipolis-paragon-mobility-valorem-recharge-camions/</guid>
-    <pubDate>Thu, 11 Jun 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Le spécialiste des bornes de recharge modulaires de Sophia Antipolis signe un premier accord avec l’opérateur d’énergie verte de Bègles pour accélérer…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/2026-06-11-sophia-antipolis-paragon-mobility-valorem-recharge-camions.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
