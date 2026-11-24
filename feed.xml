@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Tue, 24 Nov 2026 02:54:41 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 15:59:29 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>La semaine sportive en 7 sujets, du 18 au 24 novembre</title>
+    <link>https://echodesanges.fr/sport/2026/11/24/hebdo-sport/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/sport/2026/11/24/hebdo-sport/</guid>
+    <pubDate>Tue, 24 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Sport</category>
+    <description>56 informations publiées par 27 médias en sept jours. Au programme : « Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-24-hebdo-sport.jpg" medium="image"/>
+  </item>
   <item>
     <title>L’agenda de la semaine sur la Côte d’Azur, du 23 au 29 novembre</title>
     <link>https://echodesanges.fr/sorties/2026/11/23/agenda-semaine/</link>
@@ -448,15 +457,6 @@
     <category>Économie</category>
     <description>Né sur le Rocher en 2005, le concept de restaurant du patron du groupe Giraudi compte une quarantaine d’adresses dans le monde. Il s’installe cette…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/portrait-riccardo-giraudi-beefbar.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Marianne Estène-Chauvin, la gardienne du Belles Rives qui fait vivre l’esprit de Fitzgerald à Juan-les-Pins</title>
-    <link>https://echodesanges.fr/evenementiel/2026/06/13/portrait-marianne-estene-chauvin-belles-rives/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/evenementiel/2026/06/13/portrait-marianne-estene-chauvin-belles-rives/</guid>
-    <pubDate>Sat, 13 Jun 2026 06:00:00 GMT</pubDate>
-    <category>Événementiel</category>
-    <description>Présidente du groupe Belles Rives, elle a repris en 2001 l’hôtel familial et créé en 2011 un prix littéraire. La 15e édition du Prix Fitzgerald vient de…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/portrait-marianne-estene-chauvin-belles-rives.jpg" medium="image"/>
   </item>
 </channel>
 </rss>

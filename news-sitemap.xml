@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/sport/2026/11/24/hebdo-sport/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-24T08:00:00+01:00</news:publication_date>
+      <news:title>The week in sport: the key stories, 18 to 24 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/sport/2026/11/24/hebdo-sport/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-24T08:00:00+01:00</news:publication_date>
+      <news:title>La semaine sportive en 7 sujets, du 18 au 24 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/sorties/2026/11/23/agenda-semaine/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
@@ -30,22 +46,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-23T08:00:00+01:00</news:publication_date>
       <news:title>Tech : les faits marquants de la semaine du 17 au 23 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/going-out/2026/11/22/hebdo-sorties/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-22T08:00:00+01:00</news:publication_date>
-      <news:title>Going out: the week’s main stories, 16 to 22 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/sorties/2026/11/22/hebdo-sorties/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-22T08:00:00+01:00</news:publication_date>
-      <news:title>Sorties : les faits marquants de la semaine du 16 au 22 novembre</news:title>
     </news:news>
   </url>
 </urlset>
