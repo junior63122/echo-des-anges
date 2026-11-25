@@ -1,411 +1,892 @@
 [
   {
-    "id": "2026-11-24-en-hebdo-sport",
-    "lang": "en",
-    "date": "2026-11-24",
-    "section": "Sport",
-    "rubrique": "The week",
-    "emoji": "⚽",
-    "type": "article",
-    "genre": "hebdo",
-    "auteur": "Inès Morel",
-    "titre": "The week in sport: the key stories, 18 to 24 November",
-    "chapo": "23 stories from 17 news outlets over seven days. In this round-up: “PSG’s Doue to undergo surgery after serious knee injury”, “Nice 2-3 PSG : Ligue 1 Highlights” and “'It wasn’t our best display!' - Ferran Torres reveals why late Nice winner eased Paris Saint-Germain’s post-break nerves”.",
-    "corps": [
-      "From 18 November to 24 November, our newsroom followed the news in sport through reporting by Reuters, TNT Sports, WhoScored.com, news.bet365.com, Bleacher Nation and beIN SPORTS and others. Here are the stories that marked the week.",
-      "Leading the week, “PSG’s Doue to undergo surgery after serious knee injury”, Reuters reported on Sunday. The story was also covered by TNT Sports, WhoScored.com, news.bet365.com, Bleacher Nation, beIN SPORTS, LiveScore, PSG Post, Transfermarkt and Anadolu Ajansı.",
-      "Another major story: “Nice 2-3 PSG : Ligue 1 Highlights”, Sky Sports reported on Saturday. The story was also covered by beIN SPORTS, Sofascore and OneFootball.",
-      "Elsewhere, “'It wasn’t our best display!' - Ferran Torres reveals why late Nice winner eased Paris Saint-Germain’s post-break nerves”, Yahoo reported on Sunday. The story was also covered by Paris Saint-Germain.",
-      "Meanwhile, “Luis Enrique: \"We did our job well\"”, Paris Saint-Germain reported on Saturday. The story was also covered by Tu Futbolero.",
-      "Also this week, “OGC Nice 2-3 PSG: Paris come back to secure narrow away win over Nice”, LiveScore reported on Saturday.",
-      "Worth noting, “Live: Nice vs. PSG”, beIN SPORTS reported on Saturday.",
-      "Finally, “OGC Nice predicted XI v PSG: Mohamed Abdelmonem out, Elye Wahi to start”, Yahoo Sports reported on Saturday.",
-      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
-    ],
-    "sources": [
-      "Reuters",
-      "TNT Sports",
-      "WhoScored.com",
-      "news.bet365.com",
-      "Bleacher Nation",
-      "beIN SPORTS",
-      "LiveScore",
-      "PSG Post",
-      "Transfermarkt",
-      "Anadolu Ajansı",
-      "Sky Sports",
-      "Sofascore",
-      "OneFootball",
-      "Yahoo",
-      "Paris Saint-Germain",
-      "Tu Futbolero",
-      "Yahoo Sports"
-    ],
+    "id": "2026-11-25-actu-business",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "Le géant chinois Huawei reconnu coupable de vol de secrets industriels aux Etats-Unis, après huit ans de procédure",
+    "chapo": "Entreprises, emploi, stratégie : l’essentiel de l’actualité économique. Le point du 25 novembre.",
+    "corps": [],
     "liens": [
       {
-        "titre": "PSG's Doue to undergo surgery after serious knee injury",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOakdBY0hzNk5tT2ZIbXZWRlRMbEFDcmU0RTZja2tlbzJxRHNSM2kwei1fTGZQcWlCNlRUdFIwc1Z6d05PVjhRVWY5c0VQVkJFNWI2bEotOWNHZHZxdHZJajBRaEtaeU9CSWYxa2U2LUZyUHV6U29FZThtOHhveGNiX25makdSb2pJcHdTLWw0RWVYc3MzTzVMUzd3UUplRVkwcmhN?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T12:30:58.000Z"
+        "titre": "Le géant chinois Huawei reconnu coupable de vol de secrets industriels aux Etats-Unis, après huit ans de procédure",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/25/le-geant-chinois-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis-apres-huit-ans-de-procedure_6814902_3210.html",
+        "resume": "Le champion de la tech chinoise était notamment accusé d’avoir tenté de recruter des salariés d’entreprises de télécommunications américaines, obtenant d’eux, au passage, des informations technologiques.",
+        "heure": "2026-11-24T23:49:03.000Z"
       },
       {
-        "titre": "Enrique confirms 'serious' Doue injury blow",
-        "source": "TNT Sports",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSld3dWNsLXNqSXFNaGd1bHMwUG16R09wckJOQkNnZng1REt5Z2dJdFo5YmZtNmprR2NLenFIbnY3eVdrTW5feHhLblpLUV9aMUFJd0lpbGZUVzZCSGxIaVo5OU92SllNZnhnX0xnTGd5QnN6bE5La1VxSWlzNnpkYzRNUElhajRoSkpmcmRYXzEtVzA2NTNhejQ0OXRyYk5HX3dXN3JaZTE0Ymh2Tm1QZEtmYjdsSXJCVTRRclM2STFITGhnWEdrVFNYeVVRSHRHQ1hrYlJzcDFfVnVPYk0wQQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T23:25:00.000Z"
+        "titre": "Consommation : un rappel massif de pommes de terre toxiques",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/consommation-un-rappel-massif-de-pommes-de-terre-toxiques_8298336.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Des pommes de terre rouges, vendues dans toute la France chez Auchan, Leclerc et Lidl font l'objet d’un rappel des autorités sanitaires. En cause, une teneur trop élevée en glycoalcaloïdes, une substance naturellement présente dans la pomme de terre. En trop grande quantité, elle provoque toutefois des troubles digestifs.",
+        "heure": "2026-11-24T22:23:48.000Z"
       },
       {
-        "titre": "Paris St Germain win 3-2 at Nice, Doue suffers serious injury",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOczd0bVMzMG0tM2x2MWswX3N1V2FJbUZCa1RhX3Z1ZXV1V2dZSHZoTW1oU1JBdURxOHFwaGlHTWVmc1Bpd1p1LWJKOXBmUVkxQ1hvekVZa3M0aDlyMmxmSldLU3RMY0IwTHlkVHBBNzdVd2piQ0tCNTY2a0RmY0RpRnkxZ2JYNXZjWTY5eUx2bGIwWnpSRVlTV3RLUHJrc2x2anFEc3dpSklOeEk?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T19:05:44.000Z"
+        "titre": "Le constructeur automobile chinois BYD va s’implanter en France",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-constructeur-automobile-chinois-byd-va-s-implanter-en-france_6814850_3234.html",
+        "resume": "Le groupe a annoncé, mardi 24 novembre, son projet de rachat d’une usine à Hambach, en Moselle. Il cherche depuis un an à produire ses véhicules en Europe pour contourner les droits de douane.",
+        "heure": "2026-11-24T20:35:09.000Z"
       },
       {
-        "titre": "Nice vs Paris Saint-Germain Confirmed Lineups",
-        "source": "WhoScored.com",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeHAtaXJLcFBranZtR1ZGcnRtdjlFck8wMWsyNEhJa25UWXpMeXpnLTVuWG9xY1NZRVp0OWFWUm5MZUxDc2F6UlkxdUsyM2Y5VGZGbEZmRjFQbjg0Tl9IN2JQN1hxdTRBTEVha0tUSVZjX0RpNjRZUl9lbHhxdDBhbGNzM2MyanpYTF8zR0pYWkRiU2NQTVpZRDVjaE1uRGlvdW52cnE3LTJOU0VxUDhrd3dYUW9nUldpY05rY00tODJKWVZyZ19pc0hn?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T15:19:00.000Z"
+        "titre": "Sébastien Lecornu recevra les présidents des groupes parlementaires début décembre pour prolonger les discussions sur le budget 2027",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/budget/sebastien-lecornu-recevra-les-presidents-des-groupes-parlementaires-la-semaine-prochaine-pour-prolonger-les-discussions-sur-le-budget-2027_8298285.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Le Premier ministre s'est également félicité de l'adoption du projet de loi de finances de fin de gestion pour 2026.",
+        "heure": "2026-11-24T19:15:27.000Z"
       },
       {
-        "titre": "Nice v Paris Saint-Germain Prediction: PSG to claim lively 6/4 away win",
-        "source": "news.bet365.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaGxNSUM3djBORzJxNVc1eTBKc1FsUXdjNlF1UFVUc0JzM2UtTWFXY3ZKQk5idS1iVEoyNWxHZWM3d05Oc3pnQ2VYT0U3b1E1U0F2RHBwQjZJcEJ6U2V6NDEwVW9mLUQwdzNCM1c0b1BoOXc2OXZCSi1yNl96LWdDZVpyeGVEUXd2Y0VaQWZTN1NIdjlOLVZNOVZRNHotU25YcTdsVV84eUVTek9lNGRCdg?oc=5",
+        "titre": "La France, championne d’Europe des dividendes: qui profite vraiment de ces milliards paradoxaux?",
+        "source": "Le Temps",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVGx5RFJuSmJwT0pqN1JVQTJmcXlXVkJySGphVXc1dXBNbEhwX3pwYkZEZWRNNFVlcUlzdXJuNlNTb3luTGFGOHFTbmJoWG5DMmpZMHp1RjZIaWdNREM3ejhpY1B2RjRrTWxxU2xMSldWclFXb3ZEUk9YQVFSaU1fWDQwd3Fnd3Fyd2JqLVNia2MzZlZ0ZExNOUZZWHRwT0J5Tlg5bndkbmxqeF9jcDJZVFVOdFdHUUF2dTdfbzA3dDhvU25VOGRnemYzcGh1dw?oc=5",
         "resume": "",
-        "heure": "2026-11-21T09:33:57.000Z"
-      },
-      {
-        "titre": "Paris Saint-Germain vs. OGC Nice Prediction, Picks, Live Odds",
-        "source": "Bleacher Nation",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVVCUzA0a3dPRFczcF9YMmJaZHFmUmpCTjVGVjBBVExyVVBmYVJ4TzZMMzhlcm9uWC1tLWxrZ20tQ3J2dk8xUlRWRURma1dSTTJLQ2JRSDM2Q0gyMUdKZDAyRU1STnFWTjVERS10VXhjY3ZwOFZpUkQ4SFM4bWhtNWhkVkcyN2xMdjRsdlNCOXZ2ellHV1ZPNXNrMGVabng1ZjVCZHdoWUxZM3NqcnU5UVR4M0o?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T04:24:24.000Z"
-      },
-      {
-        "titre": "Nice vs Paris Saint-Germain LIVE",
-        "source": "beIN SPORTS",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZFdjVWYyNHNzeW9NRmp2MmVpVnFfV2JsWUVoX0FVU0NJMGNRQ2o5Y0xYUnlobWRJQTZEeVdvUkZrSldLS2FnVWdFcjJsN1h1UHR3c3lmcTZQalZpLUZ6M2RRcmJhX3pLeHBUX1hWWjNTcjZWX0FSaTBqWUUxSTJ6SDVrTnBkbWVScl9nbHRSTVZlU0l2RlVUcWN6bE95bm1IUXpsQUFyU0kyTm1MV2lxMno3eC1TWUNmYTVtYjVvbHpLX3NfRXBkUDY3RDJLRGRnVjZnM2hRWjgxWWUwZjh5Z3J3bGRNX1pO?oc=5",
-        "resume": "",
-        "heure": "2026-11-20T14:39:25.000Z"
-      },
-      {
-        "titre": "OGC Nice vs Paris Saint-Germain: Predicted starting lineup for Ligue 1 match",
-        "source": "LiveScore",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOS15UWEwaE90d0t0UmF5TG1RZHBnQ3N4TmRwUzR4WGlCOWs4NEFmeTlzQmxyLU41MWJXdmg3UzkyZ0dnRlhzX2JLTGx4Wlg0VWhxNk5ySEdtODdCRFZzSFU3UWpuRDNqYzdkNUFqTDI5TXhqTV9NdHVXYUlReTRlMkRqMkE1Z1ZIWG1ZZ080WjVHUjl1cDcwaU05UWhQaldQbWI3dWd1dExBZFRXclVXRUN1LWlxdzNsOE53Y0RHTV9RWkRzcUZ6blpOSnMxS05lUmc?oc=5",
-        "resume": "",
-        "heure": "2026-11-20T11:59:49.000Z"
-      },
-      {
-        "titre": "OGC Nice vs Paris Saint-Germain: Predicted starting lineup for Ligue 1 match",
-        "source": "PSG Post",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGNjQjhhM21OMlZfcWZwVVJ5VDE0VDdMR2pBdV9wVVNWSVlsVkNjeTNHbU9ZcFBjdGRqWGpMRXUwUVFTaC1pYzhrQzk5MFlhVHY1MGhCU2FoekxneEJjb2V0SXF4VFdWSG9nbTEwQjhVclRtQ0tJNG5sb1pVblRBUGRiX043U2hsbUtlRXZQZ2FNdTlKYkhxa2JPcEtjN1daQ1JoM0VIa0ZsV0JV?oc=5",
-        "resume": "",
-        "heure": "2026-11-20T11:43:47.000Z"
-      },
-      {
-        "titre": "OGC Nice - Paris Saint-Germain FC prediction & tips 21.11.2026",
-        "source": "Transfermarkt",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzVuN3d5T01DVEJ3NUtpZDczeEFlZEpWZlpYcXBpUWRMOXhsaUFvMzROblAxX2VWcE5xdTRWaWNuc3B1S0RJWWowbDdWdVZYNV96bE85dDAwd1RQQXVGcmdpSU5OeFBPV25xdXF6Yl9Oc1NQZzFFZXdYUDRxOWh1UzhhQWNQWDM5b0xEWXY3YjJ4Q3BwRGI4QU12TmZGUQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-19T18:09:52.000Z"
-      },
-      {
-        "titre": "France bans PSG fans from traveling to Nice for Saturday's Ligue 1 match",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOUdqQUl1ZmF6SXFpdk9XMnF5MGtZSWFmbzVDTTdTanlPWE5zX0wzVUVPdlkyaklRVU1MVmdITWRsX0J1UWZwRkdwejRqUEM3bXpyNzRGNDJoWl9uWXFPNkt5SjFfSGhjbW1NMlpzbFhobHdYcGxkc0dIS0ZQOE9RSHFRT29RdXlwRGhyc3JKRHNyendDUTN2WTRPbFhjZjlfczRnajJqeVZnNGhFX0RwMg?oc=5",
-        "resume": "",
-        "heure": "2026-11-19T13:15:10.000Z"
-      },
-      {
-        "titre": "Nice 2-3 PSG : Ligue 1 Highlights",
-        "source": "Sky Sports",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGdXLXpsQS1EQmIwRnFzanFZVGNNQzZLZEtfY1ZaeE9FM2JTTVJrV3M2SG5PdHRnTkp4bW54UXFGU0gwMUVCNG9ENHgxdkZtMm5lNU9wLVNITVdnWXRUS3M2QXBpS2EwNUxMN19FS0s3NmFRX3RYSWR0cDIxLU1Zbk1LZ2tSSVA5?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T19:58:08.000Z"
-      },
-      {
-        "titre": "Nice vs. PSG | Highlights",
-        "source": "beIN SPORTS",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY1JSNmFZUFRmQ29YQVE3czRTQTItNkdKdVB4SmwxZXNQcnE1ZEZWUnZqWExaZHBtdUhZbjFJNGQyVnlOVGQtUzZWX0FHc0tiQ0pzY1hSUFVmaXBhR2toWGhtOGFyNnZKbWp0Yk9KSFViSWNySTBDZ21aSkRTakRBRXBCbDc5SEJuZUtjOFU1allTT3hvQVlhN3FFSGdUNDFkLXFyRkxaWQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T19:34:35.000Z"
-      },
-      {
-        "titre": "Nice 2-3 PSG: Ligue 1 match report and xG story",
-        "source": "Sofascore",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOE5ILXduWDdtMmt2bXFkdndaT2c4VGh4RXJGZVEwbUtlclItbWlITzlFNk5IeFh1RWJWY182VHBxdU02ZEhEVHB6a1VkYjhibEdtand2NGFSNUFyTjZYaC16emNtOVp6SXZONVVvWVgya21yblVYOGNYcGdRZmZEZDlDaw?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T18:39:34.000Z"
-      },
-      {
-        "titre": "Ligue 1 - OGC Nice 2",
-        "source": "OneFootball",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJY3NldUNOMHpPZ2JzeFotYUlwUG9UQlBxQWhWa09QWUplaVZYbGRYazBONXRsa2kwM2JpMW9YRTl2MXJSSjdXd1UxSXRWMm91TktYRTZHeGpoWnhKc09zRDJNNGVWNjRwNVdEREhfcU5DcWR4Tlh5V1Z3?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T18:38:08.000Z"
-      },
-      {
-        "titre": "Ligue 1 - OGC Nice 2",
-        "source": "OneFootball",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rblFrREF4dnd1Mk12czhVeXZCNFlUSzRKWF9TYnJYSWRoSXU0XzBPRm1CSEZEWnJXaEhBQUUwcG9IYlJIZEhRUmFUMkxuMDcwU2xuYlJYUElYRHN3R0tkOVVrSGNhZ1Q3WGJmc2IzS2dUVmFOMGFnZklMdw?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T18:30:20.000Z"
-      },
-      {
-        "titre": "'It wasn't our best display!' - Ferran Torres reveals why late Nice winner eased Paris Saint-Germain's post-break nerves",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOEpucVRwM19mQjZUZEtoRFdFSGN1ZktrR2s5ai1xSFdSbXBSTHE4cVZaTDdxUU0wMlpQb1ZJOG4yZkFlOFYyODhISTk3ejBrTzNySWhJcVAzeVBPUjIzdVdpQS16UXRBNHlwNC1sRmRlUG84eHZUSW1jM1BZWnJ2OElrbGxXbW8?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T08:17:32.000Z"
-      },
-      {
-        "titre": "Paris earn dominant win over Nice",
-        "source": "Paris Saint-Germain",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcGNUcWVYc2hZX1VSZzc1ejJjX0RqYWRlMjZ5MV9TczNHNkpPYWVpT0gzODRidXI0TDFnOEJrY2hOWWRrdkllQ0QzSmh2ZmZnWmJqRmpfSHJBZHA4RzI0bFZlazBYWWozV1pySGFNNnliYTZYMUpzV19nU3d2X21hOTh2X0tSZzlYdmdncjR5YlROakZRQ0JTUjk1cWlKNkkySUgzdi1PSDYySkRFNlc5OGRpQWpfMUpCM29vOUpQYVRCQnc?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T19:10:58.000Z"
-      },
-      {
-        "titre": "Luis Enrique: \"We did our job well\"",
-        "source": "Paris Saint-Germain",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLWYyNGNDcmFLeUNIV1ZqU1BLYzZET2c2Z1QyOTh0anlBVUJuNkNUU2NRT3k4YUxfU0Rib0ttemk4RWxMSjR0Z3BfUFRjOUlIdkVfaUhNVDdhSi1kcWhMMlpibVl6OHJWeUVGeFAxbDJqRkpuOTdWVXdCeGRmeW1wVTZXVFJ5VlNQVlVvcW9JenBhMDhYUjFZT0tZaU05Sk9uRjBhTDg3NHkzc1V5b3R4bGZibm5HRWE3b2x3NDF3?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T20:00:25.000Z"
-      },
-      {
-        "titre": "Luis Enrique: “All players are liars” ahead of Nice-PSG",
-        "source": "Tu Futbolero",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTzVaOUc5T2sxcnpLcUVSRGg0ZDB1U19iTV95dElQM0gxNXZBeGNUX1BiWkZNQWpZbHoxaVRQWVR1aUl2WUh2TVJmalpTOTFQcDJBTjM5WElkT09HMVNTb0NNT29oWnVKLTJSd2VjbTVFazMzWkV4V3ZZVFNJTy1MS2pUNDlPMHV5RlZSb1ZEMXlMVmU5YmtiOTREVQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-20T13:30:50.000Z"
+        "heure": "2026-11-24T18:12:26.000Z"
       }
     ],
-    "redige": true,
-    "image": {
-      "src": "img/entreprises/2026-11-24-hebdo-sport.jpg",
-      "credit": "Spike / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Nice_from_Castle_Hill_01.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
-      }
-    },
-    "chemin": "/en/sport/2026/11/24/hebdo-sport/"
+    "auteur": "Camille Rostand",
+    "sources": [
+      "Le Monde",
+      "franceinfo",
+      "Le Temps"
+    ],
+    "chemin": "/economie/2026/11/25/revue-de-presse/"
   },
   {
-    "id": "2026-11-24-hebdo-sport",
+    "id": "2026-11-25-actu-culture",
     "lang": "fr",
-    "date": "2026-11-24",
-    "section": "Sport",
-    "rubrique": "La semaine",
-    "emoji": "⚽",
-    "type": "article",
-    "genre": "hebdo",
-    "auteur": "Inès Morel",
-    "titre": "La semaine sportive en 7 sujets, du 18 au 24 novembre",
-    "chapo": "56 informations publiées par 27 médias en sept jours. Au programme : « Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de compétition », « Nice - PSG : Luis Enrique pense que ses joueurs sont \"des menteurs\", heure et chaîne TV » et « CAN 2025 : le Tribunal arbitral du sport déclare le Sénégal champion d’Afrique de football, au détriment du Maroc ».",
-    "corps": [
-      "Du 18 novembre au 24 novembre, la rédaction a suivi l’actualité sportive à travers les publications de franceinfo, Le Monde, Nice-Matin, Eurosport, Ouest-France et Le Figaro notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
-      "À la une de la semaine, « Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de compétition », titrait franceinfo mardi. Extrait : « L’ancien numéro un mondial de tennis a été opéré pour allonger sa bandelette ilio-tibiale, alors qu’il souffrait du genou et avait dû faire une croix sur toute la fin de saison. » Le sujet a également été traité par Nice-Matin, Le Monde, Eurosport, Ouest-France, Le Figaro, 20 Minutes, Nice Premium, Foot National, Flashscore.fr et L’Équipe.",
-      "Autre sujet marquant, « Nice - PSG : Luis Enrique pense que ses joueurs sont \"des menteurs\", heure et chaîne TV », titrait Linternaute.com samedi. Le sujet a également été traité par Sports - Orange, L’Équipe, 20 Minutes, MadeInParisiens, Score.fr, Flashscore.fr et RMC Sport.",
-      "Dans un autre registre, « CAN 2025 : le Tribunal arbitral du sport déclare le Sénégal champion d’Afrique de football, au détriment du Maroc », titrait Le Monde mardi. Extrait : « Le 18 janvier 2026, la finale de la CAN entre les deux équipes s’était achevée dans le chaos et la tension, ouvrant la voie à près d’un an de batailles juridiques. » Le sujet a également été traité par franceinfo, DailyMercato, L’Équipe et Goal.com.",
-      "Par ailleurs, « Florian Maurice et l’Estac en discussions pour le poste de directeur sportif vacant depuis le départ de Jocelyn Blanchard », titrait L’Est éclair jeudi. Le sujet a également été traité par La Voix du Nord, SO FOOT.com, RMC Sport, MadeInFoot et Foot Mercato.",
-      "Toujours cette semaine, « Nice-PSG : Elye Wahi arrête le McDo et GTA 6 », titrait Foot01 samedi. Le sujet a également été traité par Foot Mercato, SO FOOT.com et L’Équipe.",
-      "À noter également, « PODCAST : Kop Aiglons du lundi 23 novembre – OGC Nice - Paris SG (2-3) : le débrief », titrait BFM lundi. Le sujet a également été traité par OGC Nice et L’Équipe.",
-      "Enfin, « Coupe de France Féminine : Monaco United et l’OGC Nice se qualifient et se retrouve au 2e tour fédéral », titrait Actufoot lundi. Le sujet a également été traité par Nice-Matin.",
-      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    "date": "2026-11-25",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "Ateliers de cuisine, vidéos sur Internet… Les chefs partagent leurs astuces pour des plats réussis",
+    "chapo": "Expositions, musées, théâtre, cinéma et musique : la vie culturelle, de la Côte d’Azur au reste du monde. Le point du 25 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Ateliers de cuisine, vidéos sur Internet… Les chefs partagent leurs astuces pour des plats réussis",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/cuisine-et-gastronomie/ateliers-de-cuisine-videos-sur-internet-les-chefs-partagent-leurs-astuces-pour-des-plats-reussis_8298444.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "À l'approche des fêtes de fin d'année, certains veulent se mettre à cuisiner. Des chefs proposent des ateliers pour se perfectionner, mais aussi des tutos sur Internet.",
+        "heure": "2026-11-24T22:44:04.000Z"
+      },
+      {
+        "titre": "\"C'est la madeleine de Proust du cuisinier\" : la folie du pâté en croûte",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/culture/cuisine-et-gastronomie/c-est-la-madeleine-de-proust-du-cuisinier-la-folie-du-pate-en-croute_8298387.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Le pâté en croûte, ou pâté-croûte, c'est une pâte bien dorée et une farce savoureuse... Mais quels est le secret des spécialistes ? France Télévisions a suivi le championnat de France, où le jury a goûté les créations à l’aveugle.",
+        "heure": "2026-11-24T22:39:48.000Z"
+      },
+      {
+        "titre": "\"L'école des femmes\", du 16 au 19 décembre 2026",
+        "source": "France Télévisions",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb3lVTXRFR2IyNjVyTU1wN1FBVGptaUpKWmNfVHJOal9saVZiSjBZTG1GUUZNVjNNRWlLZVBpeTM5WWJlU3FITWVVSTNadU9pMHBsdHBPNGwtU1pHd0dYQ0lpYUhYTnlpUkxnOG4tQ3RyWEhHUDNfanM0a2EyS0FVbkJrVXQ3ZnMzbkNwZ1pZUEhCQzM0Q09vT3d2WkEwbFFMUlVrVFZ4VThENFY2empQRXZKVWN2by05NWZlb0V0Y3ZVRk9QQ2hkdmZwSHBjZEJPeUE?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T15:31:03.000Z"
+      },
+      {
+        "titre": "France : Un Israélien Retrouvé Mort Sur La Côte D'Azur, Plusieurs Suspects Interpellés",
+        "source": "i24NEWS",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObHNfTHJReW5nWTVRdTRmY0s3U0tBalRkSllPbDNKazNzNURaNkd1em9BcldBV3lobW1PX2diSzJlNXBNWWdrSFpZQUUwNkFNUzZmdHhuZkU3OTlFRGN2a2tmUGlJTnlwdGE5OEFJSDFYalFKV0JreEhNd2RxNmVyR3BCM3N6VDV4TzE0T3dELWhrOGllQURIekFpNWFSUnFOckl4WGdqV3VDR19BT0ViSjVPSGRSSnJ5Y1ljYW9wNUhJWmc1?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T13:16:29.000Z"
+      }
     ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "franceinfo",
+      "France Télévisions",
+      "i24NEWS"
+    ],
+    "chemin": "/culture/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-actu-evenementiel",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Événementiel",
+    "rubrique": "Événementiel",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "Les films à l’affiche : « Paper Tiger », « Un bon petit soldat », « La Libertad Doble », « Merci d’être venu »…",
+    "chapo": "Salons, festivals, concerts, grands rendez-vous : l’actualité de l’événementiel. Le point du 25 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Les films à l’affiche : « Paper Tiger », « Un bon petit soldat », « La Libertad Doble », « Merci d’être venu »…",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/25/les-films-a-l-affiche-paper-tiger-un-bon-petit-soldat-la-libertad-doble-merci-d-etre-venu_6814901_3246.html",
+        "resume": "Chaque mercredi dans La Matinale, les journalistes cinéma du « Monde » livrent leurs critiques des films à découvrir en salle. Aujourd’hui, notamment, le récit captivant d’une lente dislocation familiale, inspiré de la propre jeunesse du cinéaste James Gray.",
+        "heure": "2026-11-24T23:30:09.000Z"
+      },
+      {
+        "titre": "« La Fête » d’Anne-Cécile Vandalem tourne mal au théâtre Nanterre-Amandiers",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/24/la-fete-d-anne-cecile-vandalem-tourne-mal-au-theatre-nanterre-amandiers_6814836_3246.html",
+        "resume": "Inspiré d’un fait réel, ce spectacle dénonce un racisme belge systémique en usant d’artifices dramaturgiques qui desservent le propos.",
+        "heure": "2026-11-24T18:15:03.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "Le Monde"
+    ],
+    "chemin": "/evenementiel/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-actu-finance",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "Budget 2027 : le Sénat abaisse le plafond de l’abattement fiscal de 10 % des retraités, refusant sa suppression totale",
+    "chapo": "Bourse, marchés, taux, crypto et argent au quotidien : ce qui a bougé. Le point du 25 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Budget 2027 : le Sénat abaisse le plafond de l’abattement fiscal de 10 % des retraités, refusant sa suppression totale",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/24/budget-2027-le-senat-abaisse-le-plafond-de-l-abattement-fiscal-de-10-des-retraites-refusant-sa-suppression-totale_6814837_823448.html",
+        "resume": "Actuellement, l’abattement dont bénéficient les retraités est plafonné à 4 439 euros. Dans son projet de loi de finances, le gouvernement proposait de réduire ce plafond à 3 000 euros. Les sénateurs ont voté son abaissement à 1 000 euros.",
+        "heure": "2026-11-24T18:15:05.000Z"
+      },
+      {
+        "titre": "CAC 40 : ces entreprises qui ont brillé en Bourse sur la dernière décennie / Euronext remporte la palme",
+        "source": "WanSquare",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLUp3ZnpXVWxUczBqWmtvancwMXU2bVExanRWQUJnT0ticUsxeFkxQXJRNHhZYldJRGZOSVZUMDlabjZPWTFRMUdKUUtxbjVselkza1ZNbVF6SXdGbnpnQWlBRTZkaUlYQmQzM29tazIwd1JSdG5kVElQTDBGLW1EQzZ1LUdXa3M0N2drMUxXTUhpSDJGVnZVWGZXdlNuaWlaM2R4WGdTeHg4WGN3RHhHUFRB?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T15:00:00.000Z"
+      },
+      {
+        "titre": "Les épargnants ont retiré près de 10 milliards d’euros de leurs Livret A depuis janvier, un record depuis dix ans",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/24/les-epargnants-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livret-a-depuis-janvier-un-record-depuis-dix-ans_6814708_1657007.html",
+        "resume": "Les discussions sur la hausse de son plafond, voulue par le gouvernement, sont toujours en cours. Son taux d’intérêt pourrait passer de 1,7 % actuellement à 2,8 % en février.",
+        "heure": "2026-11-24T05:00:31.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Le Monde",
+      "WanSquare"
+    ],
+    "chemin": "/finance/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-actu-monde",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Monde",
+    "rubrique": "Monde",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Victoire du Sénégal à la CAN : la Confédération africaine de football déclare \"respecter la décision\" du Tribunal arbitral du sport",
+    "chapo": "Le tour du monde de l’actualité en quelques titres. Le point du 25 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Victoire du Sénégal à la CAN : la Confédération africaine de football déclare \"respecter la décision\" du Tribunal arbitral du sport",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/can/direct-senegal-vainqueur-de-la-can-le-tribunal-arbitral-du-sport-a-rendu-justice-au-sport-estime-le-president-de-la-federation-senegalaise_8298138.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Le Tribunal arbitral du sport (TAS) a déclaré mardi le Sénégal vainqueur de la Coupe d'Afrique des nations 2025, aux dépens du Maroc qui avait obtenu le titre.",
+        "heure": "2026-11-25T00:35:45.000Z"
+      },
+      {
+        "titre": "Israël : le parti de gauche Les Démocrates suspend les négociations avec celui de Gadi Eisenkot",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/25/israel-le-parti-de-gauche-les-democrates-suspend-les-negociations-avec-celui-de-gadi-eisenkot_6814903_3210.html",
+        "resume": "Le parti de Yaïr Golan presse Gadi Eisenkot de constituer une coalition avec deux listes à majorité arabe, mais un autre partenaire du bloc anti-Nétanyahou, Israël Beitenou, s’y oppose.",
+        "heure": "2026-11-25T00:15:12.000Z"
+      },
+      {
+        "titre": "EN DIRECT, guerre en Ukraine : les dirigeants ukrainien et hongrois affichent leur volonté de réchauffer les relations entre Kiev et Budapest",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/live/2026/11/25/en-direct-guerre-en-ukraine-les-dirigeants-ukrainien-et-hongrois-affichent-leur-volonte-de-rechauffer-les-relations-entre-kiev-et-budapest_6814183_3210.html",
+        "resume": "Après des années de tensions diplomatiques avec le dirigeant hongrois Viktor Orban, prorusse, le président ukrainien, Volodymyr Zelensky, et le nouveau premier ministre hongrois, Péter Magyar, ont salué ensemble mardi, à l’issue d’un entretien, l’avènement d’une nouvelle ère dans leurs relations bilatérales.",
+        "heure": "2026-11-25T00:03:41.000Z"
+      },
+      {
+        "titre": "Donald Trump s'est-il enrichi avec le retour de Jensen Huang à la tête de Nvidia ?",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/donald-trump-s-est-il-enrichi-avec-le-retour-de-jensen-huang-a-la-tete-de-nvidia_8298372.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Si son départ avait secoué Wall Street, le retour de Jensen Huang a fait bondir l’action Nvidia de plus de 30% en une séance. Donald Trump reconnaît avoir fait pression pour son retour... Mais en a-t-il lui-même tiré profit, comme l’en accusent des élus démocrates ?",
+        "heure": "2026-11-24T22:33:52.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "franceinfo",
+      "Le Monde"
+    ],
+    "chemin": "/international/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-actu-nice-cote-d-azur",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & Côte d'Azur",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Sur courant alternatif, le Saint-Raphaël Var handball s’incline pour la cinquième fois d’affilée en coupe d’Europe face aux Croates de Našice (39-41)",
+    "chapo": "Ce qui se passe près de chez nous, de Nice à Monaco. Le point du 25 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Sur courant alternatif, le Saint-Raphaël Var handball s’incline pour la cinquième fois d’affilée en coupe d’Europe face aux Croates de Našice (39-41)",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/sur-courant-alternatif-le-saint-raphael-var-handball-s-incline-pour-la-cinquieme-fois-d-affilee-en-coupe-d-europe-face-aux-croates-de-naice-39-41-10768274",
+        "resume": "Le Saint-Raphaël Var handball est passé près d’accrocher le RK Nexe de Našice, mardi 24 novembre, à domicile, malgré une prestation en dents de scie. Les Varois ont procédé à une large revue d’effectif qui a permis aux jeunes du centre de formation de marquer plusieurs buts.",
+        "heure": "2026-11-24T22:45:07.000Z"
+      },
+      {
+        "titre": "Sergio Pérez Manzanares va quitter le Saint-Raphaël Var handball pour une autre équipe de Starligue",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/sergio-perez-manzanares-va-quitter-le-saint-raphael-var-handball-pour-une-autre-equipe-de-starligue-10768232",
+        "resume": "Le demi-centre du Saint-Raphaël Var handball Sergio Pérez Manzanares partira vers de nouveaux horizons la saison prochaine. Selon nos informations, l’Espagnol est en passe de s’engager avec Toulouse.",
+        "heure": "2026-11-24T22:30:06.000Z"
+      },
+      {
+        "titre": "Vigilance orange pluie-inondation : la Côte d’Azur touchée par de fortes pluies.",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-vigilance-orange-pluie-inondation-la-cote-d-azur-touchee-par-de-fortes-pluies_VN-202611240839.html",
+        "resume": "",
+        "heure": "2026-11-24T17:56:14.000Z"
+      },
+      {
+        "titre": "Féminicide d’une policière niçoise : l’auteur présumé et ex-mari plaide l’amnésie.",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-feminicide-d-une-policiere-nicoise-l-auteur-presume-et-ex-mari-plaide-l-amnesie_VN-202611240822.html",
+        "resume": "",
+        "heure": "2026-11-24T17:42:32.000Z"
+      },
+      {
+        "titre": "24-25 novembre 1926 : la nuit où la montagne a emporté ce vieux village du haut pays niçois",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/24-novembre-1926-la-nuit-ou-la-montagne-a-emporte-ce-vieux-village-du-haut-pays-nicois-3454937.html",
+        "resume": "Il y a un siècle, dans la nuit du 24 au 25 novembre 1926, plusieurs millions de mètres cubes de terre et de boue dévalaient sur un versant de la vallée de la Vésubie et endeuillaient le village de Roquebillière avec la mort de 19 habitants. Cette tragédie géologique a redessiné la carte de la commune.",
+        "heure": "2026-11-24T17:20:25.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "Nice-Matin",
+      "BFM Nice Côte d'Azur",
+      "France 3 Côte d'Azur"
+    ],
+    "chemin": "/nice/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-actu-sorties",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Sorties",
+    "rubrique": "Sorties & loisirs",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Sacrée Musique SUD #6",
+    "chapo": "Que faire, où aller : sorties, spectacles, fêtes et bons plans sur la Côte d’Azur. Le point du 25 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Sacrée Musique SUD #6",
+        "source": "TV83",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZTnpBWjB5SFltbzVreXRXVTF1cjlaeG1QQlNubUVkMWhhdUJiMjJ5S2hqb3Jid0MweWRxZ0FrYTVHandwc2Fyal9UbUJHNEd2djA4Q1hZMmU?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T03:03:57.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "TV83"
+    ],
+    "chemin": "/sorties/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-actu-sport",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Victoire du Sénégal à la CAN : la Confédération africaine de football déclare \"respecter la décision\" du Tribunal arbitral du sport",
+    "chapo": "Résultats, transferts et grands moments du sport. Le point du 25 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Victoire du Sénégal à la CAN : la Confédération africaine de football déclare \"respecter la décision\" du Tribunal arbitral du sport",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/can/direct-senegal-vainqueur-de-la-can-le-tribunal-arbitral-du-sport-a-rendu-justice-au-sport-estime-le-president-de-la-federation-senegalaise_8298138.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Le Tribunal arbitral du sport (TAS) a déclaré mardi le Sénégal vainqueur de la Coupe d'Afrique des nations 2025, aux dépens du Maroc qui avait obtenu le titre.",
+        "heure": "2026-11-25T00:37:06.000Z"
+      },
+      {
+        "titre": "Leipzig-Lens : les Sang et Or une nouvelle fois défaits en Ligue des champions",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/sport/article/2026/11/24/leipzig-lens-les-sang-et-or-une-nouvelle-fois-defaits-en-ligue-des-champions_6814868_3242.html",
+        "resume": "Le RC Lens a concédé une nouvelle défaite en Ligue des champions face au RB Leipzig (1-3), mardi, et voit ses espoirs de qualification pour les seizièmes de finale s’éloigner dangereusement.",
+        "heure": "2026-11-24T22:31:21.000Z"
+      },
+      {
+        "titre": "Plombé par une entame ratée, Lens s'incline à Leipzig et enchaîne une quatrième défaite en Ligue des champions",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/ligue-des-champions/plombe-par-une-entame-ratee-lens-s-incline-a-leipzig-et-enchaine-une-quatrieme-defaite-en-ligue-des-champions_8298393.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Les Artésiens ont montré du mieux, trois semaines après le naufrage contre Côme, mais n'ont pas réussi à prendre un point en Allemagne mardi.",
+        "heure": "2026-11-24T21:51:14.000Z"
+      },
+      {
+        "titre": "Leipzig-Lens : revivez la nouvelle défaites des Sang et Or, qui voient la qualification pour les seizièmes de finale s’éloigner",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/sport/live/2026/11/24/en-direct-leipzig-lens-suivez-le-match-de-ligue-des-champions-de-football_6814834_3242.html",
+        "resume": "Les Lensois se sont inclinés (1-3) sur la pelouse du RB Leipzig, mardi 24 novembre, lors de la cinquième journée de la phase de ligue de la Ligue des champions. Cette quatrième défaite en cinq matchs réduit leurs chances de qualification pour les seizièmes de finale de la compétition.",
+        "heure": "2026-11-24T18:00:05.000Z"
+      },
+      {
+        "titre": "La section de para-football adapté du Gym présentée aux supporters",
+        "source": "OGC Nice",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb3BXSlFWM2JwYzQyc2JzemluVWwySWp4Wnh1YzU4U2M5S2JjeHdnNlRpQlFzMndFMTVSazVla2c2M1R4SEVLVzd5OWh5ak81NjBiTkJsQ2NEbExjbi1SNzU3YXVKcGVSNGVDbVFPVVA2bHNsV2FZVTNFUlFkQUxxckc3eGNqel9FbC1TdVo3b1lMUnlmQXBwRVhXR1AzUjFlQ3hXY0p3RzJFc3Q1d1F1eWw0Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T16:40:00.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
     "sources": [
       "franceinfo",
       "Le Monde",
-      "Nice-Matin",
-      "Eurosport",
-      "Ouest-France",
-      "Le Figaro",
-      "20 Minutes",
-      "Nice Premium",
-      "Foot National",
-      "Flashscore.fr",
-      "L'Équipe",
-      "Linternaute.com",
-      "Sports - Orange",
-      "MadeInParisiens",
-      "Score.fr",
-      "RMC Sport",
-      "DailyMercato",
-      "Goal.com",
-      "L'Est éclair",
-      "La Voix du Nord",
-      "SO FOOT.com",
-      "MadeInFoot",
-      "Foot Mercato",
-      "Foot01",
-      "BFM",
-      "OGC Nice",
-      "Actufoot"
+      "OGC Nice"
     ],
+    "chemin": "/sport/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-actu-tech",
+    "lang": "fr",
+    "date": "2026-11-25",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "L’influenceur Tibo InShape dépose plainte après une action devant son domicile revendiquée par un groupuscule identitaire",
+    "chapo": "Intelligence artificielle, start-up, cybersécurité : les nouvelles du numérique. Le point du 25 novembre.",
+    "corps": [],
     "liens": [
       {
-        "titre": "Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de compétition",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/sports/tennis/atp/jannik-sinner-a-ete-opere-du-genou-droit-et-devrait-manquer-plusieurs-mois-de-competition_8297760.html#xtor=RSS-3-%5Bsports%5D",
-        "resume": "L'ancien numéro un mondial de tennis a été opéré pour allonger sa bandelette ilio-tibiale, alors qu'il souffrait du genou et avait dû faire une croix sur toute la fin de saison.",
-        "heure": "2026-11-24T14:14:02.000Z"
-      },
-      {
-        "titre": "Désiré Doué souffre d'une rupture du ligament croisé antérieur du genou droit et devra être opéré \"d'ici la fin du mois\"",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/sports/foot/psg/desire-doue-souffre-d-une-rupture-du-ligament-croise-anterieur-du-genou-droit-et-devra-etre-opere-d-ici-la-fin-du-mois_8294843.html#xtor=RSS-3-%5Bsports%5D",
-        "resume": "Le PSG a annoncé, dimanche, que Désiré Doué \"subira une intervention chirurgicale d’ici la fin du mois\".",
-        "heure": "2026-11-22T12:14:52.000Z"
-      },
-      {
-        "titre": "Ligue 1 : le PSG s’impose à Nice mais perd Désiré Doué sur blessure, Lyon fait chuter Lille",
+        "titre": "L’influenceur Tibo InShape dépose plainte après une action devant son domicile revendiquée par un groupuscule identitaire",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/football/article/2026/11/22/ligue-1-le-psg-s-impose-a-nice-mais-perd-desire-doue-sur-blessure-lyon-fait-chuter-lille_6814072_1616938.html",
-        "resume": "Le jeune attaquant parisien doit passer des examens médicaux après sa sortie sur civière, samedi, tandis que le LOSC voit sa préparation au choc face au Bayern Munich perturbée par un revers à domicile. Les Parisiens ont désormais 5 points d’avance en tête du championnat.",
-        "heure": "2026-11-21T23:32:35.000Z"
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/25/l-influenceur-tibo-inshape-depose-plainte-apres-une-action-devant-son-domicile-revendiquee-par-un-groupuscule-identitaire_6814900_4408996.html",
+        "resume": "L’action a été revendiquée par Le « mouvement de la jeunesse identitaire toulousaine » Furie. Le youtubeur fait l’objet d’attaques en ligne depuis la publication d’une vidéo avec une coach sportive portant le drapeau français en guise de voile.",
+        "heure": "2026-11-24T23:20:22.000Z"
       },
       {
-        "titre": "Le PSG conforte sa place de leader de Ligue 1 en s'imposant à Nice, mais tremble pour Désiré Doué",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/sports/foot/ligue-1/le-psg-conforte-sa-place-de-leader-de-ligue-1-en-s-imposant-a-nice-mais-tremble-pour-desire-doue_8294072.html#xtor=RSS-3-%5Bsports%5D",
-        "resume": "Un temps mené, le Paris Saint-Germain a réagi en patron pour s'imposer sur la Côte d'Azur (3-2), samedi, pour le compte de la 11e journée du championnat de France, mais a perdu sur blessure Désiré Doué.",
-        "heure": "2026-11-21T18:22:24.000Z"
+        "titre": "« GTA VI » piraté : comment des hackeurs assistés par IA font la course pour adapter le jeu vidéo sur PC",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/24/gta-vi-pirate-comment-des-hackeurs-assistes-par-ia-font-la-course-pour-adapter-le-jeu-video-sur-pc_6814851_4408996.html",
+        "resume": "Des communautés de bidouilleurs travaillent à rendre le jeu de Rockstar Games, disponible uniquement sur console, jouable sur PC. Les pirates de Cyberleek, qui ont illégalement diffusé une version Xbox Series du jeu dès sa sortie, leur ont apporté une aide décisive.",
+        "heure": "2026-11-24T20:48:06.000Z"
       },
       {
-        "titre": "\"Blessure grave\" pour Désiré Doué, touché au genou droit avec le PSG et sorti sur civière face à Nice en Ligue 1",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/sports/foot/ligue-1/grosse-inquietude-pour-desire-doue-blesse-au-genou-droit-avec-le-psg-et-sorti-sur-civiere-face-a-nice-en-ligue-1_8294027.html#xtor=RSS-3-%5Bsports%5D",
-        "resume": "L'attaquant international français est sorti sur civière à la 44e minute, samedi à Nice, après un mauvais appui suite auquel Désiré Doué s'est immédiatement tenu le genou.",
-        "heure": "2026-11-21T17:42:55.000Z"
-      },
-      {
-        "titre": "OGC Nice - PSG : Désiré Doué souffre d’une rupture du ligament croisé antérieur du genou droit",
-        "source": "Nice-Matin",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaTRZSzY1My1feDhiRHpKSEJadDI5UkJoaTVoSWNOS0NWNWExdEo0ZFNUTDBucDRBbk5EZmN5emhLOVJMMk1LMVVBYnlWR2lfN1UySnFCc0pfcXQ3WW1rVWpfSUpnVldHaHZvZnJuV3N0M3hzc3NwZWJDSncxbWM1NVp0cVNOTDZLVTNMQ3BNUHByNExuZ3pPSzQ5Ni1xRGxiTW1QcUdZZXNucHFXN25RNmlVNFhwWXV4TDFOX3ZuRndEUnRQZ2ZvV19rWjI1NXlRUW40U09NcVo?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T12:11:15.000Z"
-      },
-      {
-        "titre": "Suivez Nice - PSG En direct - Ligue 1",
-        "source": "Eurosport",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSU5qaURyYko4TVJILWtXY2J3YUtSbHRCX2JRUlBTLXMtaXpha3YzTVpSMUt6S3E4ZV8tQ2FwM3pqWmhQTXpOcGhESWJteDdvNVBpaHBPOExmVWdWb1hYdlZvckVQQ2xqUzJEMDdlWk1EdWFGNHVDLTNhOXdyWHJQdHRabnc2QU5CZG5kbkpTUTU3a19qbzBKTkRUSnhHNmZIUTBWMHJjZ09WRjlHb2ZYZDlDUHQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T18:19:04.000Z"
-      },
-      {
-        "titre": "VIDÉO OGC Nice - PSG. Touché à un genou, Désiré Doué sort en larmes et sur civière",
-        "source": "Ouest-France",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUGVBeWVFNGZtWDNQRHRlbG9MOXNxNjBqR2xaeHlrMEhnVHZCZnoyS2ljS2hRWTNaUE1yREd2WWtQT2JUZDNwZlpQVU9zS3NfM2FsRy1WQmJXYzdDWDVWUUtFUEhPeWppVUFmbTR5MFZ4RXU5OTV0WXNsYXFqU2s0ZndqWVQzWTE4bFlXcEZ2aFh1MU1YWUduYWx2ZU5mME10WUthanpQSnhscDN3c0hfUVJURGVMOXF0R0tPVS1iOEFoNXZTNGZKX1ZNcXF5UGlYdU1iTHk4Yy1tMWNBa2Vsb0ZxaXo3M1dRX1RTbVNLQmZZVkk?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T17:26:05.000Z"
-      },
-      {
-        "titre": "Nice-PSG : revivez la victoire au goût amer du PSG face aux Aiglons avec la blessure de Doué",
+        "titre": "États-Unis : la CIA et l’ODNI victimes d’une faille de cybersécurité touchant certaines informations non classifiées",
         "source": "Le Figaro",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMHJFVk5oNlF3T2Vyb2xjNkh6Y1U4M2xYbW9rMERtbmV5NUlZQ2FsZkhsUFJRMHRmVGJ5X2p2YUotUWkxa1dvZXBnUmlkUEM3VGVtdUZlaDFyYm1ZLXNKNUo4bmh0cTJFLUo0bVEweE9KVDZTc2tDdUgwMzd2aTZ1bnI1RWs5Zw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeXZRVFFhNlYyOUlnOGh1VHF2T2JNMk90TmhjOEJXcmtueXkxMGNPMHFGRm9lYXAtZGs3blN6QzVJLXdrRjBsMlJzV0tLbzBxbFBUemlvVDZ0ak1ndGFESmdUM3hvcDdFckdGVGVyUFFvN2tpbzJvd3NiN1p2TldSdjVhOVRFdDRCdVVaUEhPRXN6X1owajJIU09QUk5EUm9sN0pJMW45d0hQNFlWR1M2bTFBNXhBR2pXTGVkLWo5dUxZc1l5cmFRV0Q5TVpjYmlvY2t5Y2RLODUzTWJkSWRsYl9xcDhhc185MU56OHhJazFnR2dFM0szRQ?oc=5",
         "resume": "",
-        "heure": "2026-11-21T16:02:37.000Z"
+        "heure": "2026-11-24T20:12:57.000Z"
       },
       {
-        "titre": "Nice - PSG : Paris s'impose chez le Gym mais s'inquiète pour le genou de Désiré Doué",
-        "source": "20 Minutes",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWW1zcEZsMUJfZXViSWRrQlRzakFvSjhVLURtQW1PempnbGFOZGtBMmEwWlJZM0JoeTZRX29QdmhpOUtBcXM5OEhyT0tFanNNYXhRZEhuc2ZuSjlTLW5QLURQNTI2UnU4Q283c0o3NE1jYzlUTWotdEs1eU01Q2FqN1FSTGFKTWpYOWVZVmlyYmFzbFJnY1hObkQ5MlJnZG5hVF9PLTc5TzNobl9ISmlrQXgzbWdGZUlENklxU1VlU0pPdTVsNkE?oc=5",
+        "titre": "Cybersécurité : la CNIL est passée à la vitesse supérieure",
+        "source": "Le Mag IT",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOREs2NjBWQ0dUNVZUNTRyYUZsd1lMN0VGLTNnclZwcW9zTmFpMmw2Rks2TkJMT2dOVW9Rb0hSWE5JajJMcWpLZkRGLVJIaFpMUGYzU0RKeld3Q1JaODNVek5jTTVEa3dJNnp4NXU5cmlaNm41WVE1cFRMSGpOekVfMHlEWHpoMXdnMHNYN1doNHY?oc=5",
         "resume": "",
-        "heure": "2026-11-21T14:17:36.000Z"
+        "heure": "2026-11-24T17:56:38.000Z"
       },
       {
-        "titre": "Nice-PSG : six mois après avoir frôlé la relégation, les Aiglons peuvent-ils se rêver un avenir européen ?",
-        "source": "Le Figaro",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNem5NTXhwOHhpbWMtaWxsdTNIWFp0bW9TWlhob1BndGJwVWRlb3dxNXpWQ3czUHJVOEoxdzF6NTdVTXhhbU1FSWJPbzRSbDk5UWVETWFjVjJWMnA1TlpNR1F3T2RJTk5fb3FhLWZKVnAzSEpHSm1mV0gyR21Tc3R2Mlg0ZWZFU0d2cEN5dHZ2Vk1GdzB2d2hxU3pxTFRoSG5nYVBlajdNMDBmOHpvTzZsclJqOVUwMmJzTG03WnFRMlpub29GRjQzbC1JY2Noa25fS1ZTTGpPbEtYdThwaDdDUUxjdUlwYy1EV3BTcDRTcw?oc=5",
+        "titre": "Cyberattaque contre le CHU de Bordeaux : pourquoi les établissements de santé sont devenus la cible privilégiée des pirates ?",
+        "source": "Sud Ouest",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNeHJxQUhjcW5xb2RKbGlCLV9WTklWNkE3dUlLYlMwMnhLNngwR1dMR0dFeS15RTFQREJhZTh4SXZaR0o0MDNWakxRNTN3SHZmY1V2OFVpVVJQcWRNOVVEWUxxdlpfZ00ydW9HZzZoY1dQdldxSlVqYTllbjNkRVBZX3A0MjhkbFdEVXdDQldLSDN4QnNIYjl1a19lamRtMTl5bm13Q3VueElTQkptSW91TFZhRGRWbVNQMkstRndibGhUVnloYzNpSW9wbnJoLUVlOE5xWXp6cDUtWDdRc0hYVmNWZ3YxVUppNjhmbTJ3NmI5TmhqN0t5Z3BPTUFmUllCbWY5M0xvWDRJQnpTLVE?oc=5",
         "resume": "",
-        "heure": "2026-11-21T07:06:00.000Z"
+        "heure": "2026-11-24T16:46:02.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "Le Monde",
+      "Le Figaro",
+      "Le Mag IT",
+      "Sud Ouest"
+    ],
+    "chemin": "/tech/2026/11/25/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-25-en-actu-business",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "US preparing to unveil new tariffs on global trading partners",
+    "chapo": "Companies, jobs and strategy: the business news that matters. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "US preparing to unveil new tariffs on global trading partners",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+        "resume": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+        "heure": "2026-11-25T00:38:01.000Z"
       },
       {
-        "titre": "L’attaquant de l’OGC Nice Elye Wahi a-t-il été élu meilleur joueur du mois d’octobre en Ligue 1 ? On connaît la réponse !",
-        "source": "Nice-Matin",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPY1FIdmhJSkNqVlJNeE50YXNTandzRm5SbmJ0M2Y4R0F1OWJpRUdHSF83aVZraE01RVVGVE1XcUlWMXBGUmRYQjJwZ0pkMFA4MC1saVYxbS14ZWcxTXAwclNxdDBna29MVGlONVFBTWVkaW96bzNJenZzZlJGVDRGOWNyZXMyRnp3d2JzLVJkQXlEYWlSOW5HbU0xTUVmNHZMQkhBR3MwY09DVVJIZE9rcWVneE1hUVpRWFRIbElPcUNwUWlmWmVhRndCRy1GUE9OZEMzcEtaZFJsdm1qc1IwRFgwOEhoOTBxNUlCanBuZXg?oc=5",
-        "resume": "",
-        "heure": "2026-11-20T19:33:34.000Z"
+        "titre": "Why tiny cars are taking off across Europe",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+        "resume": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
+        "heure": "2026-11-25T00:34:05.000Z"
       },
       {
-        "titre": "OGC Nice – PSG : le Gym peut-il s’offrir le scalp du leader ?",
+        "titre": "5 economic trends to be thankful for",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTEVHNG9sdVBKV1FwcjhUN3JoT1RxXzBIdkNsT0hoV080emFNajhNcFp1Q0pvU1hUYUF5WmtwMkdQc2ZPQm1PS2N6Smlhclp5T0xyVkhTc1ItNHNMWWJfS1dYa0FMRlJQd0pLU0x2SjhBX212WW9JdnNUZW9MQUNkUVdxSzBOM1hjSGpvNg?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T17:00:11.000Z"
+      },
+      {
+        "titre": "Trump’s Nvidia Move Heralds a New Front in Economic Intervention",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQakQ0a2JfUmZTVkdhSmRUR3lpNF96cTVzdDVyaEtyYmhlbkdiWHJYNFRhdEpjUzhHeUc0UnJ4M0FoMFJHWExrYnMwQU12c29tVzJJXzYxLXBTTy1GbldPSWQ3bTEwSndFWmhNbWstLVNxNlJkQWVTdnFGOHVyN1F1cXlCSUxZbTM3ajdiRGNBaUF2ZG9uelFrYkhnVnlEbmtFcFE?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T15:59:07.000Z"
+      },
+      {
+        "titre": "The number of German companies in Ukraine has almost tripled",
+        "source": "UkrMedia News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONFdvcE41Z3ZqRFBUbTdwU0x6amYxV0FFWUlISlZTUGRhUENLWGdRQnd5V005cTgtR05fdzZGRG11TG1tbERIaE40TkZIS1pKUVg4bnM4ZkRVQ29RX253b1BQUDkzUDhxaXJtblRtMFQ4dVRBMnprcjBRVmdsRXRBMGhvYkRVdVppS25yMw?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T15:50:29.000Z"
+      }
+    ],
+    "auteur": "Camille Rostand",
+    "sources": [
+      "BBC News",
+      "Axios",
+      "The New York Times",
+      "UkrMedia News"
+    ],
+    "chemin": "/en/business/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-culture",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "New museum exhibition puts pollution and its impact under the spotlight",
+    "chapo": "Exhibitions, museums, theatre, film and music: cultural life, from the Riviera to the world. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "New museum exhibition puts pollution and its impact under the spotlight",
+        "source": "Warrington Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWWRkNFNfbzgzUjV0elNXTmtvWkRJWXFqUldibE9LemZTREg2VlgzUXJzTzY5Rk1BMnFxcmRybkJtd0twcjdJdDliUzF4aldGRTkwdEROQktJWGRoa2hQb3pfT3NmU3J1VGJGcElnYjNqRTktOEFGeFFLbEkxWDZTSmxIRmIzUWJpQzhQcUdyRmIzTkhSQmNQRl9rZ3FDWW44R1E?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T14:00:00.000Z"
+      },
+      {
+        "titre": "Fantasy 2 (2025) by Yulia Sabo - For Sale",
+        "source": "Artsy",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CM1hJWHdzalZqMHl4TGZLemJHY2NrZVZCR21tblA1Y21WS3pPUjhrbVQxTlNLMXBoWTF3ak5lMEdpUlN4Mm9zdkVCdzUwNUVFbVVJM1RackN2dHE3Y3hZ?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T23:06:32.000Z"
+      },
+      {
+        "titre": "Violence Against Women: Monaco, the French Riviera and Liguria Join Forces to Break the Silence",
+        "source": "Montecarlo Living",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRHlwUjJHUHRWRzJ6b1hrLWY4Nlh2eHJzVDE5VmhLdlcxVG1fUDZjZGM3QjU5VlprU2RiM0pRN0ZJcXpXR0ZJQzZ5Q0NUdk1SLU5zaFRFdXRKYmhOcGRNNDAxWEIxSFlORzNQUS10T3VaUlg2SWd3aDBNQXktaTh1RFhBdkhYYjJzcndLVU9ZZzVfZWpBZGtGWnp1MVRZTUIwUFNWcEllZXpMQmdsWEtTeVN4M1hGQlpBLXMxVExjamlMY0dzTWVJU1JXVklpcWZraTRwU216QmpmQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T09:47:52.000Z"
+      }
+    ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "Warrington Guardian",
+      "Artsy",
+      "Montecarlo Living"
+    ],
+    "chemin": "/en/culture/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-evenementiel",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Événementiel",
+    "rubrique": "Events",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "Substance released at concert could be linked to robberies, police say",
+    "chapo": "Trade shows, festivals, concerts and big gatherings: the events industry today. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Substance released at concert could be linked to robberies, police say",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqrmgvnzwrm3o?at_medium=RSS&at_campaign=rss",
+        "resume": "Police are investigating a possible link between the Co-op Live evacuation and reported robberies.",
+        "heure": "2026-11-24T22:01:30.000Z"
+      },
+      {
+        "titre": "Bake Off winner crowned after high-stakes final",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cm894exd27j2o?at_medium=RSS&at_campaign=rss",
+        "resume": "Judge Nigella Lawson describes the three finalists as \"sensational\" bakers.",
+        "heure": "2026-11-24T21:40:58.000Z"
+      },
+      {
+        "titre": "A bigger stage for conferences and events at Automechanika Shanghai 2026 to explore what the current and future automotive industry needs",
+        "source": "TheNewsMarket",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOcUdpQWdobjZPRjZ6cmVfMHJJa0ZOTGZKc1NleDNFUWRiYk9fTXU5TGZkZlRhcmlmOGI1M3BGQ2RXT1Z6bEdlcFl2TDByWjZjV0pjME5YaVVydXR2UHRCUTJfaWFLNlFFN3daRmg0Rlo5RUt1RGoxVjZ2TWJaZmt0ZVhVNG5vR2F5bXhLbUo0UzVxcDJsSUZ2UU94dUdaNnhUSVZzWk43cGI5SVk3d1ZvcFpfdnV4UmttQ19US3FLNW5mUU9MellBOVFBMERiRWlRTWdjY0t3d3RVR3FzV2xqWXBfclI4SWJPSklFeGcteFdxV2lLRXJsdTZMSF9uQzRqdXlnMA?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T12:47:38.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "BBC News",
+      "TheNewsMarket"
+    ],
+    "chemin": "/en/events/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-finance",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "Nvidia live updates: Nvidia stock falls after massive rally, Jensen Huang apologizes to employees",
+    "chapo": "Stocks, markets, interest rates and crypto: what moved today. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Nvidia live updates: Nvidia stock falls after massive rally, Jensen Huang apologizes to employees",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYnBZTkhUUGlCUVBvdW9Mam9JbGJueElLNmRUenk3eTZ2YmhXSEJhb3VCTTlrQ0xDZzF1N3pURFZFNDROVkZhOW1Mc0JxQUhGQ25rSjdWZXdxMnZNLWFaNzJfdXdFeEpUMzFQMUl3alZfWVotcFRHRGxSRzNiWHJuSlpyaXVHTld1MDFLSy1rdDJCU1F6ME9vZDB1bzB2bS1PeHpZbTg5czJrQ1lzdFRHbUlmS3JzYlFvQnRjZ2xRT3hoR1FVMUQ2a0hNMXZwNEtYckw1Q0ZYOThJMTlobXZTY3JzdDFESjBN?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T22:03:05.000Z"
+      },
+      {
+        "titre": "Crazy stock market sends panicked NYC finance bros to shrink couches for ‘executive therapy’",
+        "source": "Forex Factory",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUjBWcmNtSGloMm43UG5DRkwxcEtEYmJQM1FJVmpDNENBSWtRTHRRWF8zanJScE1Eejg1TENlTXR0cC1LMWNLX29WQkNwWWNjc2dIb0VkenFLUkV6MXlFbGQ3NVlsT1pReUVXM3dhRUQxbnU4dkVJUndvQU9saXlaOGtVX202S1VQM29LRUl2UnN4bVJCYUJr0gGcAUFVX3lxTE1pazQxMWZoSG5VWkFxSlljSWVrSDNDbHJMQS1XME1aRjJ0OFVsOFB5SWZfOWNySGgxMy1RRHFfcGJjRWtZYUFGU1dHWFJqSGhVUHhTTmJQSC1CRXVPaE4za0pWaXNYazJEZmpuQ2NLMmhXRUFhakVHQURac2wtRjNNTzd2LVhVcnJ5Y1pETXRjMXViSnFvWE9DODlRRg?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T18:45:00.000Z"
+      },
+      {
+        "titre": "Bank of Canada may hike rates if inflation stays high, says Macklem",
+        "source": "Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc2t2dnktSTRqSTlZbUt1eDBOdWJFd3hSM3I3U2VRaFJxTlgwZ3BIdEJZVzloUUxtT3hKY0ZfeXVOQzFlczBMNlYxckF3cm9EOHhITmpDWGNyOXJCeHUtdjI2TU9LSUxBUWVfNXJTTEtGOXhOdWIwU2VxUUpuVTEtSlppZVR1ZV85N0hTaFg0eFZ6ZXNpdk1SejJ3?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T17:32:41.000Z"
+      },
+      {
+        "titre": "Anthropic stock drops below $83 IPO price as day-one pop vanishes",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdF9semMwVkFDQkVHWEd3QVVjT2NGTjBHcDJWTTJBZlhsS3FsVmU3S2p4dDBGVktPV3dBUlBQc2p3OERudGJyWHgtU1lWNWlxOFhDVHNfREZzMDNIeDdPODc5Y3VtSGR0dmY5a0x6dlRWM0FqeFpRVGlZT0JCSEVIQXJ3cEE2Vi1sZjN0bGR2TUpmUlpHTnVpd293dXNMRUhhTV9zd1UxSU9Sc3BxSWFZaW9JeTAxTFpQSzVZLVhn?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T16:34:56.000Z"
+      },
+      {
+        "titre": "Silver Hits Its Most Oversold Level Since Covid, Without 2020's Rate Cuts",
+        "source": "BeInCrypto",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KV1Y1NUNvS0UwRmhOaXZhczFoeFZqczF4cUpObU1JQkxrcVBOY3Z0T29nVGY1OW4zTFRNcGpuSEZVaE5qaEx0Z1FlMUo0S0lqc0VHRTFvQXl2a1NUV3V2UjRXMF95T2FMY0N5SmRFa0xyaVU?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T13:33:16.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Yahoo Finance",
+      "Forex Factory",
+      "Crypto Briefing",
+      "BeInCrypto"
+    ],
+    "chemin": "/en/finance/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-monde",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Monde",
+    "rubrique": "World",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "World News in Brief: Vaccine crisis in Yemen, aid for Ukraine, another UNRWA staffer killed",
+    "chapo": "Around the world in a few headlines. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "World News in Brief: Vaccine crisis in Yemen, aid for Ukraine, another UNRWA staffer killed",
+        "source": "UN News",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE83Z014bmtpekVBRV9obUM5SXY4UVA1UFhwbWtaRHRFQjAxTTVteDZEX1QtZDJDNzlHdzBzQWNlMmFJQU8wTVRJdnViRFZtOFRfUElSa2ZXMA?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T21:00:55.000Z"
+      },
+      {
+        "titre": "Nigerian monarch, 92, suspended after sexual assault claims",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmglrz462nn6o?at_medium=RSS&at_campaign=rss",
+        "resume": "The Emir of Daura is one of Nigeria's best-known monarchs, with politicians often trying to gain his support.",
+        "heure": "2026-11-24T19:10:31.000Z"
+      },
+      {
+        "titre": "Armed men hold hostages at supermarket in top Colombian tourist destination",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjBBNmluQUtFZGNIdTVyM3RqaFlvSWQxMGpaWnBEQlFGUjhJX3ZDc0J6MENrN294ZEZCVmVZbVBINVNpRndUaEdrRHhVYzdKUjVzN1ZtOWV1QXlwNW1ORlhDaXQ1MjNVYnBNU0s2Rk4welVsQmxWdGxNemJOR3gySEFhaWVaTWtsclBSYS13?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T18:08:00.000Z"
+      },
+      {
+        "titre": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+        "resume": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
+        "heure": "2026-11-24T18:07:46.000Z"
+      },
+      {
+        "titre": "China reportedly sentences official to death for leaking state secrets",
+        "source": "Sky News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOelh0cjRWQmw4bXF1eDNHb1lobmtDd0x3aGpwdnRabGwwX2F3eXBzTUxkUEhGbDdzcHhiNE5pWTdwal9EbkI1R0lOWWlsNWV6ZlZxNnp6X3A1cGgya1B6eElMYU5UemVrVExlY3gwejN5N2J4akp2MlNUZnZLQ0xKamZwM2tWQ0lsR2V6LVNCZEVqOGpEdkp3cDAycWxCbmxteXJjUUVjLVBXQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T16:37:14.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "UN News",
+      "BBC News",
+      "The Guardian",
+      "Sky News"
+    ],
+    "chemin": "/en/world/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-nice-cote-d-azur",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & the Riviera",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "French Riviera weekend feast",
+    "chapo": "What’s happening on the French Riviera, from Nice to Monaco. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "French Riviera weekend feast",
+        "source": "The Star",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQS2dkTkFCa0o0ODJTWVRaV3NTLWUzeHdfbWQ3VEtERlhuMVQ4ejVrOFhiNkFmTU9rb3Z5SHp1bWw3NFpzU3kzbFZveUEybFBwRFdRNUZpeWxlQUNCMV95LWQ4bzZRWGZPa2lCT3hFcklUc2x3UEJkY29iVEE2XzVMUDJjMFg2ZzZXOHc?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T23:25:05.000Z"
+      },
+      {
+        "titre": "A Blistering Second Quarter Sends Monaco Basket to Derby Victory",
+        "source": "HelloMonaco",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ0JYTFl4UUpKN0FZZHpYNFhnMXJ6d0l6RktkMmxGUmpoUUI0d0tkV2k0dkNLUUwtOGpEam1tVlhUUnBnbVI1Znp2VEF1Y3lpQ0U0dEgzT2ZNUFRsOHlKZkg2bm5kRXE0Ri1wblFlQU5hZlFKeHNENE50bDJKM3dUZXJhTEtINmplU0piUU40U2o3SDBHUUh2TVhzMVRCYjdJRjA0RVFLQlhWVXFQQ1QwVEVGcGc?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T23:21:30.000Z"
+      },
+      {
+        "titre": "Weather Alert: up to 150 mm of rain expected, Alpes-Maritimes placed on orange alert",
         "source": "Nice Premium",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSXUwOGVzeDlMTVE3RHhYUDJtS3JDMExoUENEem5IUkxUOWhzZm5hNDdjOUwyMVpRWGZmY3NoaFM1WkJfanpobU9xQWtkWHlBZjdFNl9VaGFhTWJueG93S3lNZGVNYzF3SUlaQUpaTnE1cXhMRG5TQ0FyZDFOU0l1SW1BUkNyamFFZ2dIYm41dlBHQ0ZpX0M4eEJTN2FSb0hfM0hmYm5B?oc=5",
-        "resume": "",
-        "heure": "2026-11-20T14:29:17.000Z"
+        "url": "https://www.nice-premium.com/weather-alert-up-to-150-mm-of-rain-expected-alpes-maritimes-placed-on-orange-alert/",
+        "resume": "A new Mediterranean episode will affect the Alpes-Maritimes from the night of Tuesday, November 24 to Wednesday, November 25, 2026",
+        "heure": "2026-11-24T23:10:00.000Z"
       },
       {
-        "titre": "Six mois après son départ de Nice, Florian Maurice en discussion avec un promu de Ligue 1",
-        "source": "Foot National",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRTJCSzZDTnlGd1RsWWxsUkRJVDhhZEpjLWkzVjdPdWhlRGRrUGxONXJIMlg3eFByRGotQWVOWll1bnYwUG5YNG5KLTVYQ2FPNzBGUTgzb0VyTlZrSHVJMGVLUWdSUmRqblIydEkxUEg0MUlGcWFYSEpLcnpqbWp3ZjZBTEJJNTJQaVU3bGtjbmNCdVJlRW9SUjZ5cm01T194aTJOV1JMNjN5QW9jVzNDVGkyTlhPcHh6RmtkRXdQZjZVOGNpOVpZcVdOaw?oc=5",
-        "resume": "",
-        "heure": "2026-11-19T12:59:00.000Z"
+        "titre": "France Cup: NVB advances to quarterfinals in pain",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/france-cup-nvb-advances-to-quarterfinals-in-pain/",
+        "resume": "Competing in the French Cup round of 16, Nice Volley-Ball made short work of Chalon-sur-Saône for two sets before suffering more against a Ligue B team that sho",
+        "heure": "2026-11-24T21:29:28.000Z"
       },
       {
-        "titre": "Suivez OGC Nice - Paris Saint-Germain : Où Regarder, Compos et Cotes",
-        "source": "Flashscore.fr",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMFUwa01BTVNoTHlwQVdZUWlQeFYwVWd5WG5fbXhHNG1WOVZyMkhMa0ROQndmOEFDaHYyTk4yRHZ0a25vZE5pMnhBaWpmeFhiS0pnT2Z1MGk2WkViV1l1dm9fOVZBNVJkOGViYlRvVVlpbHJMTU40WUNHUzgyYzFFcjMybnBCOGo0bnkycENZWXRnUlFvU1FVLTRVM1RxMjlDSTZRVHByUnV1UFZ2WTlpNWMtRXJ3bzZ4dG1xX0w2ck85QQ?oc=5",
+        "titre": "PREVIEW | Hearts vs Monaco: team news, lineups, predictions (Europa Conference League 26/11)",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNnFMMTMwcmVMVmI0c21NLVRMSFZ4WUpGZUhpampjVkRZczZjc0huQWg3RUZfMnRHdXN4aFl0TlpjclJJOHNoaWRRYjg3QXFxWXJ4UmNvTGlIVW9QRUJ2R1REcmZ1MWg1UDJOVk9ZQ2VwbkNqODJmbmdUX2xzeXA4eDdGSWQ?oc=5",
         "resume": "",
-        "heure": "2026-11-19T07:00:00.000Z"
-      },
-      {
-        "titre": "« Déjà hier après l'entraînement, ça a discuté GTA » : les joueurs de Nice n'échappent pas au phénomène du jeu vidéo",
-        "source": "L'Équipe",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ3F5a29zS1NGcDdqa3NabllIMW04b2tHc2RPbmFMRFEyMGRmNWJlWWZUV1h0QlhTQ2lIa3JPRTNpcFFVaEFBNk1MV29JSXFpSk43QVhyeVBjejBIa2xQNDRtVFY4aFoyYWxRRzJzcWxpdGpUM1RDazBTclpHdlhTckViVGx1TWJBRmJHMDY5WXNKaml0U1AzNUpfRWY1WF95TmpCeGdRd3pXdU1iUVJfQzFQeUpqQXhvQmozLVlRRTV5VUdud1ZzZl9vMWQxajNUVnNyaFh6R2Jpb0ZqaDVKUTFqSW5vY190ZHlpaVNMbGNOZW8?oc=5",
-        "resume": "",
-        "heure": "2026-11-18T13:28:28.000Z"
-      },
-      {
-        "titre": "Nice - PSG : Luis Enrique pense que ses joueurs sont \"des menteurs\", heure et chaîne TV",
-        "source": "Linternaute.com",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSlkzU3RDSng0UUdDQ2YyM0FWc25qaW9FOHlFTC1BZUMxLXcwajZWRjJMZURDWnVMUEI0T1U0UkNDakZMREhGcmd1cEkycm1ieUlyNGtodzZ1TnhRM0dWZnFGZkZVTXVrbVJRTlFQYnJ1QWFxYXdaOTlEa1BLOG9fV1BvSE11MmhlNTlzckJxdG1NNHB0NnBMclR0WmdqTzY0Z3lyMDZfR1VYLWNqTkEyVjFxUnNXYnJNSDRLR2xkM3FCYXVfT2JlRA?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T12:52:06.000Z"
-      },
-      {
-        "titre": "Ligue 1 (J11) : Sur quelle chaîne TV et à quelle heure regarder Nice - PSG ? : Sports",
-        "source": "Sports - Orange",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPR0JOOGNDRXY4TDdPN2ctMlYzQnlIMlRaY3UzcEZLZXp3eHBIUjhWbVJMZEk4VExkYUhtQXZUa3l4SmhRN2t5ZW9rOHpWTG95NEhuWDNiWHpEUG5MOWg0bXNpbl9Zd0ZCRDAwbTBNMlRrY1NOSzFabHpnV2xEemFfeVN3TWZtbnFjV05zc3ZER0t0S3I5LWlhWTNHc25vUjl4dXBwel9ydUYtamlmci1HYkpERWF4amJZcldhQUdSemJHVWRFRDBndXlEZXlDT3J1TUdlelg0YVhjZVJ00gHbAUFVX3lxTFBDNXppaENQUF9LamwtWWpwMkh3bDJtWDBTMHR3U0FWbFlrbEpWd2pQd21KdXowdXBVQUgyRFBGc1BuZlZGamEyMUQ3MVZkOHk3N2Y2bkJCM2RlaWxQRV9PdkVUMnBfZzlZXzJjeWxNc2ZRaXIxV1N2TkZwRkxOR1VNRzcyVlRVcHc2ZGRZa0E2c1VPVE5SYk0wZXR2MFFiZHZWNkZUSUl4S256cm1vWXRub1VsN1RDUWdzS3hKaEVoT1UtaGhsOE04eW91NHVxNmkzT1dkLXpLYTAxNA?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T08:48:00.000Z"
-      },
-      {
-        "titre": "À quelle heure et sur quelle chaîne voir Nice",
-        "source": "L'Équipe",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV0NkQVZ5R1plWTUzblc1M3VCX3ljano2ZnlZQ0tudHZYdTRZcVJnWjFRdFdJcFk3ajFjdHl1SzhQTEpZMjNqRmZCMVZ5aWkyLXc0M1NPMFhVanRLaGVJdm1IWWc1cHcwMkFlVmRjV2tKTjFDT2wxdGtlbGxsTzM3TmtDYWc0Nnp3VllzQlI1MUdRdlNyOEwxbGNFUWpKWVdQOHI1RXJNVE56MU1LU2NxQQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T06:55:00.000Z"
-      },
-      {
-        "titre": "Sur quelle chaîne TV et à quelle heure voir Nice-PSG en Ligue 1 samedi",
-        "source": "20 Minutes",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3dFSVo0d1lpdG00dThDX1c2R1kwMDZyc2xjd0JnY1JqUUtqWWt1SXRHZ01vRVBwM3piOHNtWHhoV1pUWEZlV0paa0FMMEQ3TWpmaWZDcTJ4OVNaQ3E3cmdPbXYxMzJzcHhWc1BUWVo4Y2oyMmtHTDYyZWVDU1lhUldBdExnUmNfR2RScHE5azZnYW5tUHIyQlN4TUNXYjZwRzA5NmUyUHNuRjFyemxpRHdyZlI2ejY0Vk40?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T06:02:00.000Z"
+        "heure": "2026-11-24T17:20:00.000Z"
       }
     ],
-    "redige": true,
-    "imageCommons": [
-      "Nice stade",
-      "Nice"
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "The Star",
+      "HelloMonaco",
+      "Nice Premium",
+      "Yahoo Sports"
     ],
-    "image": {
-      "src": "img/entreprises/2026-11-24-hebdo-sport.jpg",
-      "credit": "Spike / Wikimedia Commons (CC BY-SA 4.0)",
-      "page": "https://commons.wikimedia.org/wiki/File:Nice_from_Castle_Hill_01.jpg",
-      "paysage": true,
-      "legende": {
-        "fr": "",
-        "en": ""
+    "chemin": "/en/riviera/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-sorties",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Sorties",
+    "rubrique": "Going out",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "Want to Attend a Major Film Festival with IndieWire? Applications for Our 2027 Intensives Are Now Open",
+    "chapo": "Where to go and what to do: outings, shows, festivals and tips on the French Riviera. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Want to Attend a Major Film Festival with IndieWire? Applications for Our 2027 Intensives Are Now Open",
+        "source": "Yahoo News UK",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hNW44NlpnMk5CekRWM0EyOXpGeGp4aWsxMFBxajlWczhNMUNQZ2s2MnJ5Ymp3TS1MaXpyemZKYWdCTEZDVmRwUklLVnFqOXBIMDZCMnU1WnBPTVZWY3IwSGJ2QldrRWFDZXZnVm5NeGY1STY0bzAzdDRQLXE?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T20:00:00.000Z"
+      },
+      {
+        "titre": "WFA names LIONS its strategic creativity partner",
+        "source": "https://marketingreport.one/",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWdNOVpqUlo4T2ZDWE5uWk9HcmNvMkhobGlIb1lHbml6VjR2eTk0TURwcjhXSEhsRnVaMjlXTUoxZUhkV0NRdklSM2U4Z3dBenM3SjdadVNIOGp3ek1JREdsSGEyclRDVVNGdXRmc0FzdWpSU1o0V2VRWS1wYnVXa3I0NWJWc2hERmFkRmNDSDZZQ25k?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T12:40:55.000Z"
+      },
+      {
+        "titre": "Monaco’s Council of Europe Presidency: Six Months of Diplomacy, Human Rights and International Cooperation",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNXzZvSlpxTzZ6dU9ZN3VrbFpjSEczX3haUExtcnhOUHgwSmY1bFU3eGFNRi01RDhaSjV2c3lWMlRpcGlFRzhIRFFXWi1zOGlQX0RKYk03YUFuOEpvSGtZVnhhMVdHR0VTNmVzMlVibkZlWUVRLVhqV2F3QUFOYW55SmdMRGFyZDNTb1I0a0UxWm5PQ0JhOUFRQWRfdWo2OU5KU1pxeUZNLTd0TnRSOEpESE93SUZLMjJPb3hocFdfRlQ2U1NCQXkyVXhWa1Ytb3ZlNFVZeEpwNDNaZ3lkT0VuUzlFYV96VzIxaEF0YW10NDVfY0U?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T06:48:01.000Z"
+      },
+      {
+        "titre": "Nice Carnival 2027 : Dates, Corsos and Where to Watch",
+        "source": "Pixidia",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90Z3JSYWpvS2RNNjhrSDVSM1B1c0dzTl9HUWI1RVR4MEtjd1pRZTk5bW9JSE1OSTFwQWc2NEdCdWpoeWxpTU9UR1NIUnNaeUJaVEJicw?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T22:47:33.000Z"
+      },
+      {
+        "titre": "Industry@Tallinn & Baltic Event hands out its awards",
+        "source": "Cineuropa",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tekVWQ0dHa3JXTWFrb19tXzh3enZjanU1UG1uWDVTYWgwTlQtTGRkenpyUTVUblBPcUpuN1dOeFk4WXhWaFZJcXNmV1d0a1dIY2ZVag?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T10:48:23.000Z"
       }
-    },
-    "chemin": "/sport/2026/11/24/hebdo-sport/"
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "Yahoo News UK",
+      "https://marketingreport.one/",
+      "Nice-Matin",
+      "Pixidia",
+      "Cineuropa"
+    ],
+    "chemin": "/en/going-out/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-sport",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Bellingham plays down Zidane comparison after wonder goal",
+    "chapo": "Results, transfers and the big moments in sport. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Bellingham plays down Zidane comparison after wonder goal",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c893r9kdwl91o?at_medium=RSS&at_campaign=rss",
+        "resume": "Jose Mourinho says Jude Bellingham is the best midfielder in the world, but the Real Madrid star played down comparisons to Zinedine Zidane.",
+        "heure": "2026-11-24T23:54:10.000Z"
+      },
+      {
+        "titre": "Arteta says Arsenal need more luck to kill off games",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c3ewv0kdjlp9o?at_medium=RSS&at_campaign=rss",
+        "resume": "Arsenal need more luck to kill off games says manager Mikel Arteta after they are held to a draw by Borussia Dortmund.",
+        "heure": "2026-11-24T23:44:04.000Z"
+      },
+      {
+        "titre": "Canada defender Moise Bombito returns to Nice training after second tibia surgery",
+        "source": "Canadian Soccer Daily -",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY21uakh1NWstT3dWSkx2ZjA2M0NWT0lYNS1IZ1NqV1FrRWdXYkdEc0FmeUxSNWJQWWpDWmpENjdBX1hOYW5DbGxRUUo2QTdobDhZYmJfY3NyeHp0aDBBRTZDd0tFUlB1amh4NWlSN3JYR3ZGUkVfbm1jaGdIUVo2ajZPY2NvWXRDQmVVZlA5Z1U4ZWZEWFZoYXlxWWxKbzR3TVFaV2xUdXlvcXViMjFEVWVQUzN5dTA3RTVVMm5sR29jOWs?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T23:08:57.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "BBC News",
+      "Canadian Soccer Daily -"
+    ],
+    "chemin": "/en/sport/2026/11/25/press-review/"
+  },
+  {
+    "id": "2026-11-25-en-actu-tech",
+    "lang": "en",
+    "date": "2026-11-25",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "U.S. Spy Agencies Suffer Breach of Some Unclassified Information",
+    "chapo": "Start-ups, cybersecurity and digital life: the latest from the tech world. Our round-up for 25 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "U.S. Spy Agencies Suffer Breach of Some Unclassified Information",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ0ZENzdyVk5TQkMwN05tS3VmQXVZOUo1c2g5LTRQenB1RzB1RFo4OTdTdDA3XzRPZEFpLS1PRUZRQWw1NXhmZlZZNWU2NkdJQWFEUlhOZkppQW9YRHFVUzNOVFBkNnlZdmpkVDNwTFRadG5Cd1I3RmR3VXNTYnZ6Yi15VEszSUxKVnZrenExMm1HekZf?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T23:01:09.000Z"
+      },
+      {
+        "titre": "US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMEY3TVFidy1CMzFaVE9HN09yYWVNX25JZ0hKNkhmVmJYMFhNdDQyd2k5TzFHWkhhUjFrbzBiSkIxWkZZREdEZ2Z2b2QwVFhDVEtEYzNuc19LWGd4SkdaMjRuZFVWVjJjMXR0MGwyNWRvOFZCVjdPYUVCaUJzbEpkVmtNWjJQalR2UlVfVVdEUElpZTR1Z0FnVW51alF3SkppOXdWNThkUU84bEgxalNDeTRkaVR5QQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T22:55:43.000Z"
+      },
+      {
+        "titre": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "resume": "The verdict follows a months-long trial in New York.",
+        "heure": "2026-11-24T22:24:23.000Z"
+      },
+      {
+        "titre": "US attorney general dodges questions about Nvidia investigation",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+        "resume": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+        "heure": "2026-11-24T21:19:42.000Z"
+      },
+      {
+        "titre": "The Best Black Friday Cybersecurity Deals Arrived Early: Save Up to 79% on Bitdefender, McAfee, Norton, and More",
+        "source": "PCMag UK",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWDZCMEdLRHgtcGVkTmwwQ0RvM2gtSDdZa0tSaWgwTWVjb01CaTl1QlNKSXl4ci1OSkN1OHF6ZzZSc28xQUgtSG5kMnJDZ3ExdHpiSEVxYlYzTEc1Rmp0Q3NWSEVQd3l4UzJ3c3hXMlVVZDZxam5KUGUxV0QxS3h2QllkaEQ3cHNSN3RCeDczQlQ4a1ExeVlOLTVCUWVRQld5M2dfTGZNQXZONG5OOHlOLXdadDlaZ0g3REpTNUlhTnpXeFlyN1JMX1JyNGZnZE11YkxtaA?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T17:09:40.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "The New York Times",
+      "Reuters",
+      "BBC News",
+      "PCMag UK"
+    ],
+    "chemin": "/en/tech/2026/11/25/press-review/"
   },
   {
     "id": "2026-11-24-actu-business",
@@ -1360,6 +1841,414 @@
       "Silicon UK"
     ],
     "chemin": "/en/tech/2026/11/24/press-review/"
+  },
+  {
+    "id": "2026-11-24-en-hebdo-sport",
+    "lang": "en",
+    "date": "2026-11-24",
+    "section": "Sport",
+    "rubrique": "The week",
+    "emoji": "⚽",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Inès Morel",
+    "titre": "The week in sport: the key stories, 18 to 24 November",
+    "chapo": "23 stories from 17 news outlets over seven days. In this round-up: “PSG’s Doue to undergo surgery after serious knee injury”, “Nice 2-3 PSG : Ligue 1 Highlights” and “'It wasn’t our best display!' - Ferran Torres reveals why late Nice winner eased Paris Saint-Germain’s post-break nerves”.",
+    "corps": [
+      "From 18 November to 24 November, our newsroom followed the news in sport through reporting by Reuters, TNT Sports, WhoScored.com, news.bet365.com, Bleacher Nation and beIN SPORTS and others. Here are the stories that marked the week.",
+      "Leading the week, “PSG’s Doue to undergo surgery after serious knee injury”, Reuters reported on Sunday. The story was also covered by TNT Sports, WhoScored.com, news.bet365.com, Bleacher Nation, beIN SPORTS, LiveScore, PSG Post, Transfermarkt and Anadolu Ajansı.",
+      "Another major story: “Nice 2-3 PSG : Ligue 1 Highlights”, Sky Sports reported on Saturday. The story was also covered by beIN SPORTS, Sofascore and OneFootball.",
+      "Elsewhere, “'It wasn’t our best display!' - Ferran Torres reveals why late Nice winner eased Paris Saint-Germain’s post-break nerves”, Yahoo reported on Sunday. The story was also covered by Paris Saint-Germain.",
+      "Meanwhile, “Luis Enrique: \"We did our job well\"”, Paris Saint-Germain reported on Saturday. The story was also covered by Tu Futbolero.",
+      "Also this week, “OGC Nice 2-3 PSG: Paris come back to secure narrow away win over Nice”, LiveScore reported on Saturday.",
+      "Worth noting, “Live: Nice vs. PSG”, beIN SPORTS reported on Saturday.",
+      "Finally, “OGC Nice predicted XI v PSG: Mohamed Abdelmonem out, Elye Wahi to start”, Yahoo Sports reported on Saturday.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "Reuters",
+      "TNT Sports",
+      "WhoScored.com",
+      "news.bet365.com",
+      "Bleacher Nation",
+      "beIN SPORTS",
+      "LiveScore",
+      "PSG Post",
+      "Transfermarkt",
+      "Anadolu Ajansı",
+      "Sky Sports",
+      "Sofascore",
+      "OneFootball",
+      "Yahoo",
+      "Paris Saint-Germain",
+      "Tu Futbolero",
+      "Yahoo Sports"
+    ],
+    "liens": [
+      {
+        "titre": "PSG's Doue to undergo surgery after serious knee injury",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOakdBY0hzNk5tT2ZIbXZWRlRMbEFDcmU0RTZja2tlbzJxRHNSM2kwei1fTGZQcWlCNlRUdFIwc1Z6d05PVjhRVWY5c0VQVkJFNWI2bEotOWNHZHZxdHZJajBRaEtaeU9CSWYxa2U2LUZyUHV6U29FZThtOHhveGNiX25makdSb2pJcHdTLWw0RWVYc3MzTzVMUzd3UUplRVkwcmhN?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T12:30:58.000Z"
+      },
+      {
+        "titre": "Enrique confirms 'serious' Doue injury blow",
+        "source": "TNT Sports",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSld3dWNsLXNqSXFNaGd1bHMwUG16R09wckJOQkNnZng1REt5Z2dJdFo5YmZtNmprR2NLenFIbnY3eVdrTW5feHhLblpLUV9aMUFJd0lpbGZUVzZCSGxIaVo5OU92SllNZnhnX0xnTGd5QnN6bE5La1VxSWlzNnpkYzRNUElhajRoSkpmcmRYXzEtVzA2NTNhejQ0OXRyYk5HX3dXN3JaZTE0Ymh2Tm1QZEtmYjdsSXJCVTRRclM2STFITGhnWEdrVFNYeVVRSHRHQ1hrYlJzcDFfVnVPYk0wQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T23:25:00.000Z"
+      },
+      {
+        "titre": "Paris St Germain win 3-2 at Nice, Doue suffers serious injury",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOczd0bVMzMG0tM2x2MWswX3N1V2FJbUZCa1RhX3Z1ZXV1V2dZSHZoTW1oU1JBdURxOHFwaGlHTWVmc1Bpd1p1LWJKOXBmUVkxQ1hvekVZa3M0aDlyMmxmSldLU3RMY0IwTHlkVHBBNzdVd2piQ0tCNTY2a0RmY0RpRnkxZ2JYNXZjWTY5eUx2bGIwWnpSRVlTV3RLUHJrc2x2anFEc3dpSklOeEk?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T19:05:44.000Z"
+      },
+      {
+        "titre": "Nice vs Paris Saint-Germain Confirmed Lineups",
+        "source": "WhoScored.com",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeHAtaXJLcFBranZtR1ZGcnRtdjlFck8wMWsyNEhJa25UWXpMeXpnLTVuWG9xY1NZRVp0OWFWUm5MZUxDc2F6UlkxdUsyM2Y5VGZGbEZmRjFQbjg0Tl9IN2JQN1hxdTRBTEVha0tUSVZjX0RpNjRZUl9lbHhxdDBhbGNzM2MyanpYTF8zR0pYWkRiU2NQTVpZRDVjaE1uRGlvdW52cnE3LTJOU0VxUDhrd3dYUW9nUldpY05rY00tODJKWVZyZ19pc0hn?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T15:19:00.000Z"
+      },
+      {
+        "titre": "Nice v Paris Saint-Germain Prediction: PSG to claim lively 6/4 away win",
+        "source": "news.bet365.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaGxNSUM3djBORzJxNVc1eTBKc1FsUXdjNlF1UFVUc0JzM2UtTWFXY3ZKQk5idS1iVEoyNWxHZWM3d05Oc3pnQ2VYT0U3b1E1U0F2RHBwQjZJcEJ6U2V6NDEwVW9mLUQwdzNCM1c0b1BoOXc2OXZCSi1yNl96LWdDZVpyeGVEUXd2Y0VaQWZTN1NIdjlOLVZNOVZRNHotU25YcTdsVV84eUVTek9lNGRCdg?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T09:33:57.000Z"
+      },
+      {
+        "titre": "Paris Saint-Germain vs. OGC Nice Prediction, Picks, Live Odds",
+        "source": "Bleacher Nation",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVVCUzA0a3dPRFczcF9YMmJaZHFmUmpCTjVGVjBBVExyVVBmYVJ4TzZMMzhlcm9uWC1tLWxrZ20tQ3J2dk8xUlRWRURma1dSTTJLQ2JRSDM2Q0gyMUdKZDAyRU1STnFWTjVERS10VXhjY3ZwOFZpUkQ4SFM4bWhtNWhkVkcyN2xMdjRsdlNCOXZ2ellHV1ZPNXNrMGVabng1ZjVCZHdoWUxZM3NqcnU5UVR4M0o?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T04:24:24.000Z"
+      },
+      {
+        "titre": "Nice vs Paris Saint-Germain LIVE",
+        "source": "beIN SPORTS",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZFdjVWYyNHNzeW9NRmp2MmVpVnFfV2JsWUVoX0FVU0NJMGNRQ2o5Y0xYUnlobWRJQTZEeVdvUkZrSldLS2FnVWdFcjJsN1h1UHR3c3lmcTZQalZpLUZ6M2RRcmJhX3pLeHBUX1hWWjNTcjZWX0FSaTBqWUUxSTJ6SDVrTnBkbWVScl9nbHRSTVZlU0l2RlVUcWN6bE95bm1IUXpsQUFyU0kyTm1MV2lxMno3eC1TWUNmYTVtYjVvbHpLX3NfRXBkUDY3RDJLRGRnVjZnM2hRWjgxWWUwZjh5Z3J3bGRNX1pO?oc=5",
+        "resume": "",
+        "heure": "2026-11-20T14:39:25.000Z"
+      },
+      {
+        "titre": "OGC Nice vs Paris Saint-Germain: Predicted starting lineup for Ligue 1 match",
+        "source": "LiveScore",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOS15UWEwaE90d0t0UmF5TG1RZHBnQ3N4TmRwUzR4WGlCOWs4NEFmeTlzQmxyLU41MWJXdmg3UzkyZ0dnRlhzX2JLTGx4Wlg0VWhxNk5ySEdtODdCRFZzSFU3UWpuRDNqYzdkNUFqTDI5TXhqTV9NdHVXYUlReTRlMkRqMkE1Z1ZIWG1ZZ080WjVHUjl1cDcwaU05UWhQaldQbWI3dWd1dExBZFRXclVXRUN1LWlxdzNsOE53Y0RHTV9RWkRzcUZ6blpOSnMxS05lUmc?oc=5",
+        "resume": "",
+        "heure": "2026-11-20T11:59:49.000Z"
+      },
+      {
+        "titre": "OGC Nice vs Paris Saint-Germain: Predicted starting lineup for Ligue 1 match",
+        "source": "PSG Post",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGNjQjhhM21OMlZfcWZwVVJ5VDE0VDdMR2pBdV9wVVNWSVlsVkNjeTNHbU9ZcFBjdGRqWGpMRXUwUVFTaC1pYzhrQzk5MFlhVHY1MGhCU2FoekxneEJjb2V0SXF4VFdWSG9nbTEwQjhVclRtQ0tJNG5sb1pVblRBUGRiX043U2hsbUtlRXZQZ2FNdTlKYkhxa2JPcEtjN1daQ1JoM0VIa0ZsV0JV?oc=5",
+        "resume": "",
+        "heure": "2026-11-20T11:43:47.000Z"
+      },
+      {
+        "titre": "OGC Nice - Paris Saint-Germain FC prediction & tips 21.11.2026",
+        "source": "Transfermarkt",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzVuN3d5T01DVEJ3NUtpZDczeEFlZEpWZlpYcXBpUWRMOXhsaUFvMzROblAxX2VWcE5xdTRWaWNuc3B1S0RJWWowbDdWdVZYNV96bE85dDAwd1RQQXVGcmdpSU5OeFBPV25xdXF6Yl9Oc1NQZzFFZXdYUDRxOWh1UzhhQWNQWDM5b0xEWXY3YjJ4Q3BwRGI4QU12TmZGUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-19T18:09:52.000Z"
+      },
+      {
+        "titre": "France bans PSG fans from traveling to Nice for Saturday's Ligue 1 match",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOUdqQUl1ZmF6SXFpdk9XMnF5MGtZSWFmbzVDTTdTanlPWE5zX0wzVUVPdlkyaklRVU1MVmdITWRsX0J1UWZwRkdwejRqUEM3bXpyNzRGNDJoWl9uWXFPNkt5SjFfSGhjbW1NMlpzbFhobHdYcGxkc0dIS0ZQOE9RSHFRT29RdXlwRGhyc3JKRHNyendDUTN2WTRPbFhjZjlfczRnajJqeVZnNGhFX0RwMg?oc=5",
+        "resume": "",
+        "heure": "2026-11-19T13:15:10.000Z"
+      },
+      {
+        "titre": "Nice 2-3 PSG : Ligue 1 Highlights",
+        "source": "Sky Sports",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGdXLXpsQS1EQmIwRnFzanFZVGNNQzZLZEtfY1ZaeE9FM2JTTVJrV3M2SG5PdHRnTkp4bW54UXFGU0gwMUVCNG9ENHgxdkZtMm5lNU9wLVNITVdnWXRUS3M2QXBpS2EwNUxMN19FS0s3NmFRX3RYSWR0cDIxLU1Zbk1LZ2tSSVA5?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T19:58:08.000Z"
+      },
+      {
+        "titre": "Nice vs. PSG | Highlights",
+        "source": "beIN SPORTS",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY1JSNmFZUFRmQ29YQVE3czRTQTItNkdKdVB4SmwxZXNQcnE1ZEZWUnZqWExaZHBtdUhZbjFJNGQyVnlOVGQtUzZWX0FHc0tiQ0pzY1hSUFVmaXBhR2toWGhtOGFyNnZKbWp0Yk9KSFViSWNySTBDZ21aSkRTakRBRXBCbDc5SEJuZUtjOFU1allTT3hvQVlhN3FFSGdUNDFkLXFyRkxaWQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T19:34:35.000Z"
+      },
+      {
+        "titre": "Nice 2-3 PSG: Ligue 1 match report and xG story",
+        "source": "Sofascore",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOE5ILXduWDdtMmt2bXFkdndaT2c4VGh4RXJGZVEwbUtlclItbWlITzlFNk5IeFh1RWJWY182VHBxdU02ZEhEVHB6a1VkYjhibEdtand2NGFSNUFyTjZYaC16emNtOVp6SXZONVVvWVgya21yblVYOGNYcGdRZmZEZDlDaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T18:39:34.000Z"
+      },
+      {
+        "titre": "Ligue 1 - OGC Nice 2",
+        "source": "OneFootball",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJY3NldUNOMHpPZ2JzeFotYUlwUG9UQlBxQWhWa09QWUplaVZYbGRYazBONXRsa2kwM2JpMW9YRTl2MXJSSjdXd1UxSXRWMm91TktYRTZHeGpoWnhKc09zRDJNNGVWNjRwNVdEREhfcU5DcWR4Tlh5V1Z3?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T18:38:08.000Z"
+      },
+      {
+        "titre": "Ligue 1 - OGC Nice 2",
+        "source": "OneFootball",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rblFrREF4dnd1Mk12czhVeXZCNFlUSzRKWF9TYnJYSWRoSXU0XzBPRm1CSEZEWnJXaEhBQUUwcG9IYlJIZEhRUmFUMkxuMDcwU2xuYlJYUElYRHN3R0tkOVVrSGNhZ1Q3WGJmc2IzS2dUVmFOMGFnZklMdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T18:30:20.000Z"
+      },
+      {
+        "titre": "'It wasn't our best display!' - Ferran Torres reveals why late Nice winner eased Paris Saint-Germain's post-break nerves",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOEpucVRwM19mQjZUZEtoRFdFSGN1ZktrR2s5ai1xSFdSbXBSTHE4cVZaTDdxUU0wMlpQb1ZJOG4yZkFlOFYyODhISTk3ejBrTzNySWhJcVAzeVBPUjIzdVdpQS16UXRBNHlwNC1sRmRlUG84eHZUSW1jM1BZWnJ2OElrbGxXbW8?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T08:17:32.000Z"
+      },
+      {
+        "titre": "Paris earn dominant win over Nice",
+        "source": "Paris Saint-Germain",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcGNUcWVYc2hZX1VSZzc1ejJjX0RqYWRlMjZ5MV9TczNHNkpPYWVpT0gzODRidXI0TDFnOEJrY2hOWWRrdkllQ0QzSmh2ZmZnWmJqRmpfSHJBZHA4RzI0bFZlazBYWWozV1pySGFNNnliYTZYMUpzV19nU3d2X21hOTh2X0tSZzlYdmdncjR5YlROakZRQ0JTUjk1cWlKNkkySUgzdi1PSDYySkRFNlc5OGRpQWpfMUpCM29vOUpQYVRCQnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T19:10:58.000Z"
+      },
+      {
+        "titre": "Luis Enrique: \"We did our job well\"",
+        "source": "Paris Saint-Germain",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLWYyNGNDcmFLeUNIV1ZqU1BLYzZET2c2Z1QyOTh0anlBVUJuNkNUU2NRT3k4YUxfU0Rib0ttemk4RWxMSjR0Z3BfUFRjOUlIdkVfaUhNVDdhSi1kcWhMMlpibVl6OHJWeUVGeFAxbDJqRkpuOTdWVXdCeGRmeW1wVTZXVFJ5VlNQVlVvcW9JenBhMDhYUjFZT0tZaU05Sk9uRjBhTDg3NHkzc1V5b3R4bGZibm5HRWE3b2x3NDF3?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T20:00:25.000Z"
+      },
+      {
+        "titre": "Luis Enrique: “All players are liars” ahead of Nice-PSG",
+        "source": "Tu Futbolero",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTzVaOUc5T2sxcnpLcUVSRGg0ZDB1U19iTV95dElQM0gxNXZBeGNUX1BiWkZNQWpZbHoxaVRQWVR1aUl2WUh2TVJmalpTOTFQcDJBTjM5WElkT09HMVNTb0NNT29oWnVKLTJSd2VjbTVFazMzWkV4V3ZZVFNJTy1MS2pUNDlPMHV5RlZSb1ZEMXlMVmU5YmtiOTREVQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-20T13:30:50.000Z"
+      }
+    ],
+    "redige": true,
+    "image": {
+      "src": "img/entreprises/2026-11-24-hebdo-sport.jpg",
+      "credit": "Spike / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Nice_from_Castle_Hill_01.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "chemin": "/en/sport/2026/11/24/hebdo-sport/"
+  },
+  {
+    "id": "2026-11-24-hebdo-sport",
+    "lang": "fr",
+    "date": "2026-11-24",
+    "section": "Sport",
+    "rubrique": "La semaine",
+    "emoji": "⚽",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Inès Morel",
+    "titre": "La semaine sportive en 7 sujets, du 18 au 24 novembre",
+    "chapo": "56 informations publiées par 27 médias en sept jours. Au programme : « Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de compétition », « Nice - PSG : Luis Enrique pense que ses joueurs sont \"des menteurs\", heure et chaîne TV » et « CAN 2025 : le Tribunal arbitral du sport déclare le Sénégal champion d’Afrique de football, au détriment du Maroc ».",
+    "corps": [
+      "Du 18 novembre au 24 novembre, la rédaction a suivi l’actualité sportive à travers les publications de franceinfo, Le Monde, Nice-Matin, Eurosport, Ouest-France et Le Figaro notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de compétition », titrait franceinfo mardi. Extrait : « L’ancien numéro un mondial de tennis a été opéré pour allonger sa bandelette ilio-tibiale, alors qu’il souffrait du genou et avait dû faire une croix sur toute la fin de saison. » Le sujet a également été traité par Nice-Matin, Le Monde, Eurosport, Ouest-France, Le Figaro, 20 Minutes, Nice Premium, Foot National, Flashscore.fr et L’Équipe.",
+      "Autre sujet marquant, « Nice - PSG : Luis Enrique pense que ses joueurs sont \"des menteurs\", heure et chaîne TV », titrait Linternaute.com samedi. Le sujet a également été traité par Sports - Orange, L’Équipe, 20 Minutes, MadeInParisiens, Score.fr, Flashscore.fr et RMC Sport.",
+      "Dans un autre registre, « CAN 2025 : le Tribunal arbitral du sport déclare le Sénégal champion d’Afrique de football, au détriment du Maroc », titrait Le Monde mardi. Extrait : « Le 18 janvier 2026, la finale de la CAN entre les deux équipes s’était achevée dans le chaos et la tension, ouvrant la voie à près d’un an de batailles juridiques. » Le sujet a également été traité par franceinfo, DailyMercato, L’Équipe et Goal.com.",
+      "Par ailleurs, « Florian Maurice et l’Estac en discussions pour le poste de directeur sportif vacant depuis le départ de Jocelyn Blanchard », titrait L’Est éclair jeudi. Le sujet a également été traité par La Voix du Nord, SO FOOT.com, RMC Sport, MadeInFoot et Foot Mercato.",
+      "Toujours cette semaine, « Nice-PSG : Elye Wahi arrête le McDo et GTA 6 », titrait Foot01 samedi. Le sujet a également été traité par Foot Mercato, SO FOOT.com et L’Équipe.",
+      "À noter également, « PODCAST : Kop Aiglons du lundi 23 novembre – OGC Nice - Paris SG (2-3) : le débrief », titrait BFM lundi. Le sujet a également été traité par OGC Nice et L’Équipe.",
+      "Enfin, « Coupe de France Féminine : Monaco United et l’OGC Nice se qualifient et se retrouve au 2e tour fédéral », titrait Actufoot lundi. Le sujet a également été traité par Nice-Matin.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "franceinfo",
+      "Le Monde",
+      "Nice-Matin",
+      "Eurosport",
+      "Ouest-France",
+      "Le Figaro",
+      "20 Minutes",
+      "Nice Premium",
+      "Foot National",
+      "Flashscore.fr",
+      "L'Équipe",
+      "Linternaute.com",
+      "Sports - Orange",
+      "MadeInParisiens",
+      "Score.fr",
+      "RMC Sport",
+      "DailyMercato",
+      "Goal.com",
+      "L'Est éclair",
+      "La Voix du Nord",
+      "SO FOOT.com",
+      "MadeInFoot",
+      "Foot Mercato",
+      "Foot01",
+      "BFM",
+      "OGC Nice",
+      "Actufoot"
+    ],
+    "liens": [
+      {
+        "titre": "Jannik Sinner a été opéré du genou droit et devrait manquer plusieurs mois de compétition",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/tennis/atp/jannik-sinner-a-ete-opere-du-genou-droit-et-devrait-manquer-plusieurs-mois-de-competition_8297760.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "L'ancien numéro un mondial de tennis a été opéré pour allonger sa bandelette ilio-tibiale, alors qu'il souffrait du genou et avait dû faire une croix sur toute la fin de saison.",
+        "heure": "2026-11-24T14:14:02.000Z"
+      },
+      {
+        "titre": "Désiré Doué souffre d'une rupture du ligament croisé antérieur du genou droit et devra être opéré \"d'ici la fin du mois\"",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/psg/desire-doue-souffre-d-une-rupture-du-ligament-croise-anterieur-du-genou-droit-et-devra-etre-opere-d-ici-la-fin-du-mois_8294843.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Le PSG a annoncé, dimanche, que Désiré Doué \"subira une intervention chirurgicale d’ici la fin du mois\".",
+        "heure": "2026-11-22T12:14:52.000Z"
+      },
+      {
+        "titre": "Ligue 1 : le PSG s’impose à Nice mais perd Désiré Doué sur blessure, Lyon fait chuter Lille",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/football/article/2026/11/22/ligue-1-le-psg-s-impose-a-nice-mais-perd-desire-doue-sur-blessure-lyon-fait-chuter-lille_6814072_1616938.html",
+        "resume": "Le jeune attaquant parisien doit passer des examens médicaux après sa sortie sur civière, samedi, tandis que le LOSC voit sa préparation au choc face au Bayern Munich perturbée par un revers à domicile. Les Parisiens ont désormais 5 points d’avance en tête du championnat.",
+        "heure": "2026-11-21T23:32:35.000Z"
+      },
+      {
+        "titre": "Le PSG conforte sa place de leader de Ligue 1 en s'imposant à Nice, mais tremble pour Désiré Doué",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/ligue-1/le-psg-conforte-sa-place-de-leader-de-ligue-1-en-s-imposant-a-nice-mais-tremble-pour-desire-doue_8294072.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Un temps mené, le Paris Saint-Germain a réagi en patron pour s'imposer sur la Côte d'Azur (3-2), samedi, pour le compte de la 11e journée du championnat de France, mais a perdu sur blessure Désiré Doué.",
+        "heure": "2026-11-21T18:22:24.000Z"
+      },
+      {
+        "titre": "\"Blessure grave\" pour Désiré Doué, touché au genou droit avec le PSG et sorti sur civière face à Nice en Ligue 1",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/ligue-1/grosse-inquietude-pour-desire-doue-blesse-au-genou-droit-avec-le-psg-et-sorti-sur-civiere-face-a-nice-en-ligue-1_8294027.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "L'attaquant international français est sorti sur civière à la 44e minute, samedi à Nice, après un mauvais appui suite auquel Désiré Doué s'est immédiatement tenu le genou.",
+        "heure": "2026-11-21T17:42:55.000Z"
+      },
+      {
+        "titre": "OGC Nice - PSG : Désiré Doué souffre d’une rupture du ligament croisé antérieur du genou droit",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaTRZSzY1My1feDhiRHpKSEJadDI5UkJoaTVoSWNOS0NWNWExdEo0ZFNUTDBucDRBbk5EZmN5emhLOVJMMk1LMVVBYnlWR2lfN1UySnFCc0pfcXQ3WW1rVWpfSUpnVldHaHZvZnJuV3N0M3hzc3NwZWJDSncxbWM1NVp0cVNOTDZLVTNMQ3BNUHByNExuZ3pPSzQ5Ni1xRGxiTW1QcUdZZXNucHFXN25RNmlVNFhwWXV4TDFOX3ZuRndEUnRQZ2ZvV19rWjI1NXlRUW40U09NcVo?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T12:11:15.000Z"
+      },
+      {
+        "titre": "Suivez Nice - PSG En direct - Ligue 1",
+        "source": "Eurosport",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSU5qaURyYko4TVJILWtXY2J3YUtSbHRCX2JRUlBTLXMtaXpha3YzTVpSMUt6S3E4ZV8tQ2FwM3pqWmhQTXpOcGhESWJteDdvNVBpaHBPOExmVWdWb1hYdlZvckVQQ2xqUzJEMDdlWk1EdWFGNHVDLTNhOXdyWHJQdHRabnc2QU5CZG5kbkpTUTU3a19qbzBKTkRUSnhHNmZIUTBWMHJjZ09WRjlHb2ZYZDlDUHQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T18:19:04.000Z"
+      },
+      {
+        "titre": "VIDÉO OGC Nice - PSG. Touché à un genou, Désiré Doué sort en larmes et sur civière",
+        "source": "Ouest-France",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUGVBeWVFNGZtWDNQRHRlbG9MOXNxNjBqR2xaeHlrMEhnVHZCZnoyS2ljS2hRWTNaUE1yREd2WWtQT2JUZDNwZlpQVU9zS3NfM2FsRy1WQmJXYzdDWDVWUUtFUEhPeWppVUFmbTR5MFZ4RXU5OTV0WXNsYXFqU2s0ZndqWVQzWTE4bFlXcEZ2aFh1MU1YWUduYWx2ZU5mME10WUthanpQSnhscDN3c0hfUVJURGVMOXF0R0tPVS1iOEFoNXZTNGZKX1ZNcXF5UGlYdU1iTHk4Yy1tMWNBa2Vsb0ZxaXo3M1dRX1RTbVNLQmZZVkk?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T17:26:05.000Z"
+      },
+      {
+        "titre": "Nice-PSG : revivez la victoire au goût amer du PSG face aux Aiglons avec la blessure de Doué",
+        "source": "Le Figaro",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMHJFVk5oNlF3T2Vyb2xjNkh6Y1U4M2xYbW9rMERtbmV5NUlZQ2FsZkhsUFJRMHRmVGJ5X2p2YUotUWkxa1dvZXBnUmlkUEM3VGVtdUZlaDFyYm1ZLXNKNUo4bmh0cTJFLUo0bVEweE9KVDZTc2tDdUgwMzd2aTZ1bnI1RWs5Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T16:02:37.000Z"
+      },
+      {
+        "titre": "Nice - PSG : Paris s'impose chez le Gym mais s'inquiète pour le genou de Désiré Doué",
+        "source": "20 Minutes",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWW1zcEZsMUJfZXViSWRrQlRzakFvSjhVLURtQW1PempnbGFOZGtBMmEwWlJZM0JoeTZRX29QdmhpOUtBcXM5OEhyT0tFanNNYXhRZEhuc2ZuSjlTLW5QLURQNTI2UnU4Q283c0o3NE1jYzlUTWotdEs1eU01Q2FqN1FSTGFKTWpYOWVZVmlyYmFzbFJnY1hObkQ5MlJnZG5hVF9PLTc5TzNobl9ISmlrQXgzbWdGZUlENklxU1VlU0pPdTVsNkE?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T14:17:36.000Z"
+      },
+      {
+        "titre": "Nice-PSG : six mois après avoir frôlé la relégation, les Aiglons peuvent-ils se rêver un avenir européen ?",
+        "source": "Le Figaro",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNem5NTXhwOHhpbWMtaWxsdTNIWFp0bW9TWlhob1BndGJwVWRlb3dxNXpWQ3czUHJVOEoxdzF6NTdVTXhhbU1FSWJPbzRSbDk5UWVETWFjVjJWMnA1TlpNR1F3T2RJTk5fb3FhLWZKVnAzSEpHSm1mV0gyR21Tc3R2Mlg0ZWZFU0d2cEN5dHZ2Vk1GdzB2d2hxU3pxTFRoSG5nYVBlajdNMDBmOHpvTzZsclJqOVUwMmJzTG03WnFRMlpub29GRjQzbC1JY2Noa25fS1ZTTGpPbEtYdThwaDdDUUxjdUlwYy1EV3BTcDRTcw?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T07:06:00.000Z"
+      },
+      {
+        "titre": "L’attaquant de l’OGC Nice Elye Wahi a-t-il été élu meilleur joueur du mois d’octobre en Ligue 1 ? On connaît la réponse !",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPY1FIdmhJSkNqVlJNeE50YXNTandzRm5SbmJ0M2Y4R0F1OWJpRUdHSF83aVZraE01RVVGVE1XcUlWMXBGUmRYQjJwZ0pkMFA4MC1saVYxbS14ZWcxTXAwclNxdDBna29MVGlONVFBTWVkaW96bzNJenZzZlJGVDRGOWNyZXMyRnp3d2JzLVJkQXlEYWlSOW5HbU0xTUVmNHZMQkhBR3MwY09DVVJIZE9rcWVneE1hUVpRWFRIbElPcUNwUWlmWmVhRndCRy1GUE9OZEMzcEtaZFJsdm1qc1IwRFgwOEhoOTBxNUlCanBuZXg?oc=5",
+        "resume": "",
+        "heure": "2026-11-20T19:33:34.000Z"
+      },
+      {
+        "titre": "OGC Nice – PSG : le Gym peut-il s’offrir le scalp du leader ?",
+        "source": "Nice Premium",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSXUwOGVzeDlMTVE3RHhYUDJtS3JDMExoUENEem5IUkxUOWhzZm5hNDdjOUwyMVpRWGZmY3NoaFM1WkJfanpobU9xQWtkWHlBZjdFNl9VaGFhTWJueG93S3lNZGVNYzF3SUlaQUpaTnE1cXhMRG5TQ0FyZDFOU0l1SW1BUkNyamFFZ2dIYm41dlBHQ0ZpX0M4eEJTN2FSb0hfM0hmYm5B?oc=5",
+        "resume": "",
+        "heure": "2026-11-20T14:29:17.000Z"
+      },
+      {
+        "titre": "Six mois après son départ de Nice, Florian Maurice en discussion avec un promu de Ligue 1",
+        "source": "Foot National",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRTJCSzZDTnlGd1RsWWxsUkRJVDhhZEpjLWkzVjdPdWhlRGRrUGxONXJIMlg3eFByRGotQWVOWll1bnYwUG5YNG5KLTVYQ2FPNzBGUTgzb0VyTlZrSHVJMGVLUWdSUmRqblIydEkxUEg0MUlGcWFYSEpLcnpqbWp3ZjZBTEJJNTJQaVU3bGtjbmNCdVJlRW9SUjZ5cm01T194aTJOV1JMNjN5QW9jVzNDVGkyTlhPcHh6RmtkRXdQZjZVOGNpOVpZcVdOaw?oc=5",
+        "resume": "",
+        "heure": "2026-11-19T12:59:00.000Z"
+      },
+      {
+        "titre": "Suivez OGC Nice - Paris Saint-Germain : Où Regarder, Compos et Cotes",
+        "source": "Flashscore.fr",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMFUwa01BTVNoTHlwQVdZUWlQeFYwVWd5WG5fbXhHNG1WOVZyMkhMa0ROQndmOEFDaHYyTk4yRHZ0a25vZE5pMnhBaWpmeFhiS0pnT2Z1MGk2WkViV1l1dm9fOVZBNVJkOGViYlRvVVlpbHJMTU40WUNHUzgyYzFFcjMybnBCOGo0bnkycENZWXRnUlFvU1FVLTRVM1RxMjlDSTZRVHByUnV1UFZ2WTlpNWMtRXJ3bzZ4dG1xX0w2ck85QQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-19T07:00:00.000Z"
+      },
+      {
+        "titre": "« Déjà hier après l'entraînement, ça a discuté GTA » : les joueurs de Nice n'échappent pas au phénomène du jeu vidéo",
+        "source": "L'Équipe",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ3F5a29zS1NGcDdqa3NabllIMW04b2tHc2RPbmFMRFEyMGRmNWJlWWZUV1h0QlhTQ2lIa3JPRTNpcFFVaEFBNk1MV29JSXFpSk43QVhyeVBjejBIa2xQNDRtVFY4aFoyYWxRRzJzcWxpdGpUM1RDazBTclpHdlhTckViVGx1TWJBRmJHMDY5WXNKaml0U1AzNUpfRWY1WF95TmpCeGdRd3pXdU1iUVJfQzFQeUpqQXhvQmozLVlRRTV5VUdud1ZzZl9vMWQxajNUVnNyaFh6R2Jpb0ZqaDVKUTFqSW5vY190ZHlpaVNMbGNOZW8?oc=5",
+        "resume": "",
+        "heure": "2026-11-18T13:28:28.000Z"
+      },
+      {
+        "titre": "Nice - PSG : Luis Enrique pense que ses joueurs sont \"des menteurs\", heure et chaîne TV",
+        "source": "Linternaute.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSlkzU3RDSng0UUdDQ2YyM0FWc25qaW9FOHlFTC1BZUMxLXcwajZWRjJMZURDWnVMUEI0T1U0UkNDakZMREhGcmd1cEkycm1ieUlyNGtodzZ1TnhRM0dWZnFGZkZVTXVrbVJRTlFQYnJ1QWFxYXdaOTlEa1BLOG9fV1BvSE11MmhlNTlzckJxdG1NNHB0NnBMclR0WmdqTzY0Z3lyMDZfR1VYLWNqTkEyVjFxUnNXYnJNSDRLR2xkM3FCYXVfT2JlRA?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T12:52:06.000Z"
+      },
+      {
+        "titre": "Ligue 1 (J11) : Sur quelle chaîne TV et à quelle heure regarder Nice - PSG ? : Sports",
+        "source": "Sports - Orange",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPR0JOOGNDRXY4TDdPN2ctMlYzQnlIMlRaY3UzcEZLZXp3eHBIUjhWbVJMZEk4VExkYUhtQXZUa3l4SmhRN2t5ZW9rOHpWTG95NEhuWDNiWHpEUG5MOWg0bXNpbl9Zd0ZCRDAwbTBNMlRrY1NOSzFabHpnV2xEemFfeVN3TWZtbnFjV05zc3ZER0t0S3I5LWlhWTNHc25vUjl4dXBwel9ydUYtamlmci1HYkpERWF4amJZcldhQUdSemJHVWRFRDBndXlEZXlDT3J1TUdlelg0YVhjZVJ00gHbAUFVX3lxTFBDNXppaENQUF9LamwtWWpwMkh3bDJtWDBTMHR3U0FWbFlrbEpWd2pQd21KdXowdXBVQUgyRFBGc1BuZlZGamEyMUQ3MVZkOHk3N2Y2bkJCM2RlaWxQRV9PdkVUMnBfZzlZXzJjeWxNc2ZRaXIxV1N2TkZwRkxOR1VNRzcyVlRVcHc2ZGRZa0E2c1VPVE5SYk0wZXR2MFFiZHZWNkZUSUl4S256cm1vWXRub1VsN1RDUWdzS3hKaEVoT1UtaGhsOE04eW91NHVxNmkzT1dkLXpLYTAxNA?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T08:48:00.000Z"
+      },
+      {
+        "titre": "À quelle heure et sur quelle chaîne voir Nice",
+        "source": "L'Équipe",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV0NkQVZ5R1plWTUzblc1M3VCX3ljano2ZnlZQ0tudHZYdTRZcVJnWjFRdFdJcFk3ajFjdHl1SzhQTEpZMjNqRmZCMVZ5aWkyLXc0M1NPMFhVanRLaGVJdm1IWWc1cHcwMkFlVmRjV2tKTjFDT2wxdGtlbGxsTzM3TmtDYWc0Nnp3VllzQlI1MUdRdlNyOEwxbGNFUWpKWVdQOHI1RXJNVE56MU1LU2NxQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T06:55:00.000Z"
+      },
+      {
+        "titre": "Sur quelle chaîne TV et à quelle heure voir Nice-PSG en Ligue 1 samedi",
+        "source": "20 Minutes",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3dFSVo0d1lpdG00dThDX1c2R1kwMDZyc2xjd0JnY1JqUUtqWWt1SXRHZ01vRVBwM3piOHNtWHhoV1pUWEZlV0paa0FMMEQ3TWpmaWZDcTJ4OVNaQ3E3cmdPbXYxMzJzcHhWc1BUWVo4Y2oyMmtHTDYyZWVDU1lhUldBdExnUmNfR2RScHE5azZnYW5tUHIyQlN4TUNXYjZwRzA5NmUyUHNuRjFyemxpRHdyZlI2ejY0Vk40?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T06:02:00.000Z"
+      }
+    ],
+    "redige": true,
+    "imageCommons": [
+      "Nice stade",
+      "Nice"
+    ],
+    "image": {
+      "src": "img/entreprises/2026-11-24-hebdo-sport.jpg",
+      "credit": "Spike / Wikimedia Commons (CC BY-SA 4.0)",
+      "page": "https://commons.wikimedia.org/wiki/File:Nice_from_Castle_Hill_01.jpg",
+      "paysage": true,
+      "legende": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "chemin": "/sport/2026/11/24/hebdo-sport/"
   },
   {
     "id": "2026-11-23-actu-business",
