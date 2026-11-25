@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Wed, 25 Nov 2026 00:42:50 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 15:44:58 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>La semaine internationale en 6 sujets, du 19 au 25 novembre</title>
+    <link>https://echodesanges.fr/international/2026/11/25/hebdo-international/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/international/2026/11/25/hebdo-international/</guid>
+    <pubDate>Wed, 25 Nov 2026 07:00:00 GMT</pubDate>
+    <category>International</category>
+    <description>53 informations publiées par 2 médias en sept jours. Au programme : « Les Etats-Unis annoncent de nouveaux droits de douane contre leurs principaux…</description>
+    <media:content url="https://echodesanges.fr/img/stock/monde-2.jpg" medium="image"/>
+  </item>
   <item>
     <title>La semaine sportive en 7 sujets, du 18 au 24 novembre</title>
     <link>https://echodesanges.fr/sport/2026/11/24/hebdo-sport/</link>
@@ -448,15 +457,6 @@
     <category>Tech</category>
     <description>La start-up de Junior William Joyant combine GPS et Bluetooth pour guider le public et aider les organisateurs à surveiller la foule. Après de premiers…</description>
     <media:content url="https://echodesanges.fr/img/articles/jwj-climathon.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Riccardo Giraudi, l’homme qui a fait de Beefbar un empire mondial de la viande</title>
-    <link>https://echodesanges.fr/economie/2026/06/16/portrait-riccardo-giraudi-beefbar/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/economie/2026/06/16/portrait-riccardo-giraudi-beefbar/</guid>
-    <pubDate>Tue, 16 Jun 2026 06:00:00 GMT</pubDate>
-    <category>Économie</category>
-    <description>Né sur le Rocher en 2005, le concept de restaurant du patron du groupe Giraudi compte une quarantaine d’adresses dans le monde. Il s’installe cette…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/portrait-riccardo-giraudi-beefbar.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
