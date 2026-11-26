@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Thu, 26 Nov 2026 00:19:35 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 15:27:09 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Nice et la Côte d’Azur : les faits marquants de la semaine du 20 au 26 novembre</title>
+    <link>https://echodesanges.fr/nice/2026/11/26/hebdo-nice-cote-d-azur/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/nice/2026/11/26/hebdo-nice-cote-d-azur/</guid>
+    <pubDate>Thu, 26 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Nice &amp; Côte d'Azur</category>
+    <description>100 informations publiées par 20 médias en sept jours. Au programme : « "Avoir des bonnes installations, le confort, ça joue sur le moral" : des nouveaux…</description>
+    <media:content url="https://echodesanges.fr/img/entreprises/2026-11-26-hebdo-nice-cote-d-azur.jpg" medium="image"/>
+  </item>
   <item>
     <title>La semaine internationale en 6 sujets, du 19 au 25 novembre</title>
     <link>https://echodesanges.fr/international/2026/11/25/hebdo-international/</link>
@@ -448,15 +457,6 @@
     <category>Nice &amp; Côte d'Azur</category>
     <description>La plateforme cofondée par Sébastien Tomi et Brice Sorgia équipe plages privées et piscines d’hôtels. Après une levée de fonds au printemps, elle…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/mysunbed-transats-plages-paris.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Oneera, l’application niçoise qui veut en finir avec les amis perdus en festival</title>
-    <link>https://echodesanges.fr/tech/2026/06/17/oneera-cartographie-temps-reel/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/06/17/oneera-cartographie-temps-reel/</guid>
-    <pubDate>Wed, 17 Jun 2026 06:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>La start-up de Junior William Joyant combine GPS et Bluetooth pour guider le public et aider les organisateurs à surveiller la foule. Après de premiers…</description>
-    <media:content url="https://echodesanges.fr/img/articles/jwj-climathon.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
