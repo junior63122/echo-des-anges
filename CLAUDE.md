@@ -15,6 +15,8 @@ Cycle : analyser, corriger, retester, noter, recommencer. Ne jamais déclarer un
 4. Lighthouse en mobile et ordinateur sur l'accueil, une rubrique, un article, les archives, une fiche sujet, l'anglais.
 5. Ces tests se lancent ici, sur la machine de travail, jamais sur GitHub Actions (`qualite.yml` n'est lancé qu'à la demande explicite du propriétaire).
 
+6. Veille hebdomadaire (tâche programmée de Claude, mercredi 10 h 37) : outils seo-news-discover, technical-seo-code-audit, seo-hreflang, seo-schema, seo-geo, site-audit, accessibility-review et revue de sécurité ; chaque constat est rejoué, corrigé puis retesté avec les quatre suites ; corrections sur une branche `veille/AAAA-MM-JJ`, rapport dans `audits/AAAA-MM-JJ.md`.
+
 Limites connues : seul Chromium est disponible pour les tests (pas de Safari/WebKit ni Firefox réels) ; le site n'a pas de vidéo ni de formulaire d'envoi (contact par adresse électronique, recherche locale).
 
 ## Règles éditoriales

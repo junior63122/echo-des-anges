@@ -93,8 +93,10 @@ const MEDIAS = { "lemonde.fr": "Le Monde", "francetvinfo.fr": "franceinfo", "fee
   "france3-regions.franceinfo.fr": "France 3 Côte d'Azur", "francebleu.fr": "ici Azur", "bfmtv.com": "BFM Nice Côte d'Azur",
   "monaco-tribune.com": "Monaco Tribune", "nice-premium.com": "Nice Premium" };
 
-// Contenus écartés : pronostics et paris sportifs, publicités déguisées.
-const HORS_SUJET = /\bpronostics?\b|paris sportifs?|\bbookmakers?\b|cotes? (?:du match|boostées?)|code promo|sportytrader/i;
+// Contenus écartés : pronostics et paris sportifs, publicités déguisées ; depuis le 27/11/2026 (audit News/Discover :
+// contenus « minces » ou automatiques), déclarations boursières d'initiés (« CFO sells $16,808 in common stock »),
+// appels à témoignages et pages de billetterie présentées comme des informations.
+const HORS_SUJET = /\bpronostics?\b|paris sportifs?|\bbookmakers?\b|cotes? (?:du match|boostées?)|code promo|sportytrader|\b(?:sells|buys|acquires)\s+\$[\d,.]+[kmb]?\s+(?:in|of|worth)\b[^|]*\bstock\b|appel (?:à|a) t[ée]moignages?|[|–-]\s*billetterie\b/i;
 
 export function parseFeed(xml, feedUrl = "") {
   const host = (() => { try { return new URL(feedUrl).hostname.replace(/^www\./, ""); } catch { return ""; } })();
@@ -102,6 +104,8 @@ export function parseFeed(xml, feedUrl = "") {
   const blocks = xml.match(/<item[\s>][\s\S]*?<\/item>|<entry[\s>][\s\S]*?<\/entry>/gi) || [];
   return blocks.map((b) => {
     let titre = clean(tag(b, "title"));
+    // Étiquettes de format en tête de titre (« EN DIRECT, », « VIDEO », « LIVE: ») : retirées, le titre reste celui du média.
+    titre = titre.replace(/^(?:(?:en )?direct|vid[ée]o|live|breaking|info|alerte)\s*[,.:|–-]+\s*/i, "").replace(/^(?:[Vv][Ii][Dd][EeÉé][Oo]|[Dd][Ii][Rr][Ee][Cc][Tt])\s+(?=\p{Lu})/u, "");
     let link = clean(tag(b, "link"));
     if (!link) { const m = b.match(/<link[^>]*href="([^"]+)"/i); link = m ? decode(m[1]) : ""; }
     let source = clean(tag(b, "source")) || MEDIAS[host] || channel.replace(/\s+[:|–-]\s+.*$/, "") || host;
