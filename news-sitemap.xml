@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/business/2026/11/27/hebdo-economie/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-27T08:00:00+01:00</news:publication_date>
+      <news:title>The week in business: the key stories, 21 to 27 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/economie/2026/11/27/hebdo-economie/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-27T08:00:00+01:00</news:publication_date>
+      <news:title>La semaine économique en 7 sujets, du 21 au 27 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/en/riviera/2026/11/26/hebdo-nice-cote-d-azur/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
@@ -14,22 +30,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-26T08:00:00+01:00</news:publication_date>
       <news:title>Nice et la Côte d’Azur : les faits marquants de la semaine du 20 au 26 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/world/2026/11/25/hebdo-international/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-25T08:00:00+01:00</news:publication_date>
-      <news:title>The week around the world: the key stories, 19 to 25 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/international/2026/11/25/hebdo-international/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-25T08:00:00+01:00</news:publication_date>
-      <news:title>La semaine internationale en 6 sujets, du 19 au 25 novembre</news:title>
     </news:news>
   </url>
 </urlset>
