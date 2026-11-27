@@ -10,7 +10,7 @@ window.JOURNAL_CONFIG = {
   telephone: "",        // numéro de téléphone de l'éditeur
   tva: "",              // numéro de TVA intracommunautaire (si assujetti)
   directeur: "Jules Vernet",          // directeur de la publication
-  contact: "jules.vernet@gmail.com",  // adresse de contact (droit de réponse, données personnelles)
+  contact: "jules.vernet83@gmail.com",  // adresse de contact (droit de réponse, données personnelles)
   statistiques: "", // identifiant GoatCounter (mesure d'audience sans cookie), par ex. "echodesanges" une fois le compte créé sur goatcounter.com ; vide = désactivée
   hebergeur: "GitHub, Inc. (service GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis",
 };
