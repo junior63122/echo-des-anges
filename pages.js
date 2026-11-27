@@ -1,7 +1,7 @@
 // Pages fixes de L'Écho des Anges : histoire du journal et mentions légales.
 //
 // MENTIONS LÉGALES — À COMPLÉTER PAR L'ÉDITEUR AVANT LA MISE EN LIGNE
-// Renseignez les champs ci-dessous ; tant qu'un champ est vide, la page affiche « [à compléter] ».
+// Renseignez les champs ci-dessous ; un champ vide n'est pas affiché.
 window.JOURNAL_CONFIG = {
   editeur: "",          // raison sociale de la société éditrice (ex. « L'Écho des Anges SAS »)
   forme: "",            // forme juridique et capital (ex. « SAS au capital de 10 000 € »)
@@ -17,8 +17,8 @@ window.JOURNAL_CONFIG = {
 
 (function () {
   const C = window.JOURNAL_CONFIG;
-  const v = (x) => x || "[à compléter]";
-  const mail = C.contact ? `<a href="mailto:${C.contact}">${C.contact}</a>` : "[à compléter]";
+  const v = (x) => x || "";
+  const mail = C.contact ? `<a href="mailto:${C.contact}">${C.contact}</a>` : "";
 
   window.JOURNAL_PAGES = {
     histoire: {
@@ -102,7 +102,7 @@ Courriel : ${mail}${C.tva ? `<br>TVA intracommunautaire : ${C.tva}` : ""}</p>
   <li><strong>Hébergement.</strong> L'hébergeur enregistre des données techniques de connexion, dont l'adresse IP, pour assurer le fonctionnement et la sécurité du service.</li>
   <li><strong>Polices de caractères.</strong> Les polices sont chargées depuis Google Fonts ; votre navigateur transmet à ce titre votre adresse IP à Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">règles de confidentialité de Google</a>).</li>
 </ul>
-<p>Responsable du traitement : ${v(C.editeur)}. Conformément au RGPD, vous disposez de droits d'accès, de rectification, d'effacement et d'opposition, que vous pouvez exercer à l'adresse ${mail}. Vous pouvez également adresser une réclamation à la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).</p>
+<p>Responsable du traitement : ${v(C.editeur || C.directeur)}. Conformément au RGPD, vous disposez de droits d'accès, de rectification, d'effacement et d'opposition, que vous pouvez exercer à l'adresse ${mail}. Vous pouvez également adresser une réclamation à la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).</p>
 
 <h2>Droit applicable</h2>
 <p>Le présent site et ses mentions légales sont soumis au droit français.</p>`,
@@ -144,7 +144,7 @@ Email: ${mail}${C.tva ? `<br>EU VAT number: ${C.tva}` : ""}</p>
   <li><strong>Hosting.</strong> The host logs technical connection data, including IP addresses, to run and secure the service.</li>
   <li><strong>Fonts.</strong> Fonts are loaded from Google Fonts, so your browser sends your IP address to Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privacy policy</a>).</li>
 </ul>
-<p>Data controller: ${v(C.editeur)}. Under the GDPR you have rights of access, rectification, erasure and objection, which you can exercise at ${mail}. You may also lodge a complaint with the CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).</p>
+<p>Data controller: ${v(C.editeur || C.directeur)}. Under the GDPR you have rights of access, rectification, erasure and objection, which you can exercise at ${mail}. You may also lodge a complaint with the CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).</p>
 
 <h2>Governing law</h2>
 <p>This site and its legal notice are governed by French law.</p>`,

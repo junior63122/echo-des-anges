@@ -38,7 +38,7 @@ en français et en anglais, mis à jour deux fois par jour par un workflow GitHu
    CNAME `www` vers `junior63122.github.io`.
 2. **Aucune clé d'IA** : le journal n'utilise ni Claude, ni Gemini, ni aucune IA payante.
 3. **Mentions légales** : compléter `JOURNAL_CONFIG` en haut de `pages.js` (raison sociale, forme et capital,
-   RCS, siège, téléphone, TVA, hébergeur). Les champs vides s'affichent « [à compléter] ».
+   RCS, siège, téléphone, TVA, hébergeur). Les champs vides ne sont pas affichés.
 4. **Référencement** : déclarer le site et `sitemap.xml` dans Google Search Console et Bing Webmaster Tools.
 
 ## Changer de domaine
