@@ -1,5 +1,327 @@
 [
   {
+    "id": "2026-11-28-en-hebdo-finance",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Finance",
+    "rubrique": "The week",
+    "emoji": "📈",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Hugo Marchetti",
+    "titre": "The week in finance: the key stories, 22 to 28 November",
+    "chapo": "26 stories from 10 news outlets over seven days. In this round-up: “Asian Markets Rise as AI Sentiment Stabilizes”, “Stock market today: Dow, S&P 500, Nasdaq gain on Black Friday as AI jitters steady” and “How to get more UK money into UK equity markets”.",
+    "corps": [
+      "From 22 November to 28 November, our newsroom followed the news in finance through reporting by WSJ, Al Jazeera, Yahoo Finance, Investing.com, Fidelity International and Financial Times and others. Here are the stories that marked the week.",
+      "Leading the week, “Asian Markets Rise as AI Sentiment Stabilizes”, WSJ reported on Friday. The story was also covered by Al Jazeera, Yahoo Finance and Investing.com.",
+      "Another major story: “Stock market today: Dow, S&P 500, Nasdaq gain on Black Friday as AI jitters steady”, Yahoo Finance reported on Friday. The story was also covered by Fidelity International and Financial Times.",
+      "Elsewhere, “How to get more UK money into UK equity markets”, Financial Times reported on Saturday. The story was also covered by Yahoo Finance.",
+      "Meanwhile, “Trump Can’t Rescue the Stock Market. Here’s What Can”, WSJ reported on Friday. The story was also covered by Yahoo Finance.",
+      "Also this week, “How to Live Calmly, Despite Stock Market Whiplash”, The New York Times reported on Friday. The story was also covered by WSJ.",
+      "Worth noting, “European stocks rally as tech jitters ease”, Yahoo Finance reported on Thursday. The story was also covered by Yahoo Finance UK.",
+      "Finally, “Has Gold Lost Its Safe-Haven Edge Over Bitcoin Due to the Federal Reserve?”, KuCoin reported on Thursday. The story was also covered by TradingView.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "WSJ",
+      "Al Jazeera",
+      "Yahoo Finance",
+      "Investing.com",
+      "Fidelity International",
+      "Financial Times",
+      "The New York Times",
+      "Yahoo Finance UK",
+      "KuCoin",
+      "TradingView"
+    ],
+    "liens": [
+      {
+        "titre": "Asian Markets Rise as AI Sentiment Stabilizes",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcnRDczhFTDhaVXp4YmhscHNzZ3M3Z2JIVkNtdXJoQlJxai1BYnVtczd2Z3B6LThnRUVaWUxtVllXZnZWY0gzWVdTUlJSOFNMVXZfSWEwX2wyUVRnWUVtcVJlY1E4eXdaSk5wNDV2Z0lMSlBuUm13dy1saXp6ZlhLTTdBNHVLT1huOGpjYXNFbWtVdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T05:53:00.000Z"
+      },
+      {
+        "titre": "Asian stock markets rise after earlier tech rout",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdGVRWWVjMXZERWVTSkhGRDFoSTFXVE1NeGY4cVdYSmQ0MkQwUFNnSXU2enI2ckEzREZrTmFVWFhMVVNKbnhuc3dQSjB1X3JTN2dNeWNwNGhFcDJmWUYzSnAzeUQyWHlBU21sY1VWWHl6a2RuRWRwdmZ1Y1NtSFpkcGs0RHR0T1RuUVJZREtCMm44RWNra3FyNtIBngFBVV95cUxNZUR4RVgzSXFQeEp5WktydzV5NjF4eU1XblVwdVRnUEh6MEZ5a1hvZmI1QmVuM0VaQkd2dVpQRGhIZ09IeEp4ZTl2WHpfNVIybjJ5X1Z2SElYUzl3UndYNkYyME5rNHoxeUt5Tmd2QVJud3FDb3p5Vk1MRnJRc3l3bkZ0eng3ZzUtVVZuSlVmNUdZMzVGWDZEYmlYWVFaUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T03:46:18.000Z"
+      },
+      {
+        "titre": "Asian countries take steps to aid stock markets after AI rout",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2hTbGd3Q2JhVFl6bkQyd1BqMGJ1Nnk5ckhIcFlLOTAySEZuV2ExRnVEMmpYcnZPUlVNbzdfMmhpR0F3SEhxeF92WlNSUmFuc0JobFROVmNxU3JTSDBNNDdZZk1NSDdLcGc1TnJZSjd1bDFyam5TdFBFVE00OFBIVmo4dDI3dU82SXJrWUl3LThUUlBEa1N3cm1oZTY?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T15:42:43.000Z"
+      },
+      {
+        "titre": "Asian countries take steps to aid stock markets after AI rout",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX0Znb2pUb3hhWS0wd3ZSOXRsNjRUbnB0dU56cUhfSWNLTmJSX2pYTm9renFGWTRzZ3dmUGRZd1RXMDR2S294dF9kTFB0THdUbFZkc0puSWhRUW9NLUxCRHl2emQ5S0hYZzh0OG8tUGd0SXM3RUVvUUlIVkhaQW5yOHRfZWgwbktSdEU2YVJsakxCc3d3RjNvRVVLVFpTSkdzMEJrN2wxVmxMNnZTaExDOW9BVHdGV3hOZlE?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T15:17:07.000Z"
+      },
+      {
+        "titre": "Stock market today: Dow, S&P 500, Nasdaq gain on Black Friday as AI jitters steady",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjdiRzk3dDlWMEFzNF9vYkRKWDZCZjhSU0FsRFZKZVNBT09SbnBBVFhxUGZCM180elZHMVFhbW80eVdqZi1WRG5XbzJXZTUySzVGOXNlVUJfZ2c3NmEydmFhZUJXZUM1NFMzWjIxbDF4OHhPLXVKMkRza0VMLVpoUWF1WDNkdFdwTmw4eU15M01laEJrQy1ra1FtU2piZ096dmpmSGlhdGs3WTRveTZ5aklMUkh1eW5PeHBZUlF0ODU1WE1xN3JnSVJB?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T15:05:42.000Z"
+      },
+      {
+        "titre": "Stock market today: Dow, S&P 500, Nasdaq sink on hot inflation, new Trump tariffs as chip rout continues",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEhyLTdac1NBTVdPT1QyLUJKck4wUUJkNjlXQWFHTG1peDJyeDRqNklFSkVpek9JbmEyQ0gya1R6dGZicmpfbkFIS1BjR3lDeGhFMmpIYU90ajhxZ2lwYW5sLW93TmdZcXR3Q2p3akUxc1JBRVRmbEpVQW5LM3pDaXhNZWx6a0txT19rUTQ3R2xVejJWQkh0TzdSRmlOY0lDa05oNklJOE1fVV9CY1FuRXJMNHJrVG8zQzdTX0pjYmNwanNhd0VJcTVkRQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-25T15:33:03.000Z"
+      },
+      {
+        "titre": "Stock market today: Dow, S&P 500, Nasdaq fall as chip stocks tumble, investors test Nvidia-fueled rally",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRElscjEtckxzUEhMMWRhYk92WEhnM0E5aFFzYl9PVzIxbGotWTh3bjhrNE9ncTMxdFFyTDFJOTdNLXBuMWgyMEg3TGpKVTZqaXBiQS1JeklvM2xiTXpPTXh5VkNOTkdqNzM3WHhHLWtEOVNQZHZHRWk1RWRWSk1sS1hnZDVkN0dVeEN6ektwTVdfY2xpQWQ1elREX0NiVW13N1VHRzRnaG4zUHNiOFZnMnMtamZhV09NQjMzaTRfUVNiWWNtQUlMOQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T15:40:46.000Z"
+      },
+      {
+        "titre": "Nvidia stock falls after epic rally on Jensen Huang's return as CEO",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ2VuMWM0TmxDX1JHckNONUktS3M3eFVSbDVJeWQ0bWZsUFlhWTZ6dkZWSi1lUTlZUjVnamk5OTQ4bTBBc2ViWHJzekF0cTlWSlo0blR1ZkU2RDNYVU5QbnJOaDcwZVlmWlljTHEwRV9wQ2pfdG9nNG1icTZvcnBwalZFZGRCa3Q0dTNvQ2dWcVdzTnlGcHZEajN4ME5URDNTTV9RODhxSWQzdlBTZUZDZTF1ZkExektQMVhibk5PdFoyMEJfMmtIYnZR?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T09:45:35.000Z"
+      },
+      {
+        "titre": "Anthropic stock falls as Monday's tech rally takes off",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcERtaUZVZTdzd0E0YlZTYmNKWHdHcWxCdS1FaURnbWFjOW5MTTZ6WURNS0ZFenpKdEVqcXIwdjdDcV9UaE52dnJwUTkyS1pVSUdkMEtHRUtPYjlWSlZKZGlGaGNFQ0RIX1BaU0d6M0h2S3o3RzhhLUFuOWhlZ2hiOHVlQTJIX3hMNHkzUTNzU0oxbFNtVTdCZ094VzVGYkJWUjliOHVORUY5b0RYa2tMTXdOVlV6X3pL?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T19:59:37.000Z"
+      },
+      {
+        "titre": "Stock market today: Dow, S&P 500, Nasdaq surge as Jensen Huang's reinstatement at Nvidia sparks stunning rally",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcTlIWVNCVDhHdjFYY0tuLXl4NG1oRWwzTndTRWhLTkhXRi1iZF95My1vbGRiYXlTaFllTExWWmtkb0t4YlpfVGdqRk9wZld6clh3TW9ucEpPdGM2cVpVd0FkWEVFRUxCWWVQVExlZ3VtVFpoMnl4WkVUMTRwWDQyQ0J6cU9DaS1TcE5uVmJyMl9hcDNxMmNCM0ZfeGdTRGhCSzg1NmdsWVQwLU01X3ZaX3dNMnI3dkNDaFVTMnoxNnZRX1EzTXZvd0FIVlNWbmdMMVlqRk9xbUV1eVdXc1ZBVW11QmhnZUE?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T18:20:39.000Z"
+      },
+      {
+        "titre": "Investors turn bearish on Big Tech",
+        "source": "Fidelity International",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYlJTZWdyU0JfWEFDT01hdWdKQzBuak9iMWNDWkpVYXQzd1lNRkZXQzVmUVhGN3NZOUlDSmZaUGs0Z1ZhWGQ3X0ZZY0Z2c29GNjlqaGFUN3ZBZ0g0ekFNWVl0Q19WOTlZTkpsMUNKZzh3VkwtM2FDMGhzZjRKX1AzbDJxOHBhUmpjeFdHWDZJakRtMi1JNmd0MktR?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T13:54:47.000Z"
+      },
+      {
+        "titre": "Is the stock market open on Thanksgiving and Black Friday?",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUGxNaFVNcUlTOUdBMC05cnlFNk0xclZhd1JTZV9rRENvTFpkZDF4WnVLb1FWdmNmMDhOT0dpSDYzc3ljNFNYUTZSdm4ybnMxNlRzZkpCbkxrWG5NeHU3bGhRaUJlQkR3Uktjd2U3MDBDUWd2RGthRVhpVExtQmxCM2NocEdVZWpZM3liSzZXeFNHaWFHckRQajZRM1o3a29NbERKMHJESGRIbk41SWxfSGV1cjlKSGZyLVB1RzhHOUtUS0RTc2RjSTRQNVFkUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T13:54:19.000Z"
+      },
+      {
+        "titre": "Nvidia stock jumps as DC makes stunning u-turn on Jensen Huang",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYVpaTEFMb19XbmlqTzZRaUtlWGk0TE9wa25vdXF0R3JpRHM4azRDSmxYZ09WYm13RlU0bDlKYk9JR0tqVEJtQkpubV9pcWROeGllektrMUcxYm9ZWkFPMENIMkdSWmlYRWRKUm9pX1RsV2VHaVlBalkweHhNNXg4dDUxZENWbFh3ODFOZFpHLWtPZ0JwZWFyZS1sVV85SElkUDFRZXB6THdrWVJxZmZlM1dXR0hTYlpyLTc0ZVJnbDRtMFRY?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T11:34:19.000Z"
+      },
+      {
+        "titre": "Nasdaq jumps 7% as Nvidia shares soar",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeXhpd01xVDBQSlFMWUJzZktLSGh3WXZ0b3JfRTdwSEV4Rll0bjlIc3FfM3MwemllQlRidmpiOEpUbHJBQzZ4YU1ZOFNhMmVpMjBWc3RULWppdmxLZVdERHFTLXJHSjU3aTFWcmFrakkzS3VpTDFkSE45Vk1TbmszWUhzcVM?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T01:37:46.000Z"
+      },
+      {
+        "titre": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZjc4cHQ0TnRGd25uNTM5MUw5Zk5WUUdIV09nY3ltNDNBR2pvemJNRl9TOTZnR2lNay1CdTl1RHhPZEhtVmdTWE1qdS1SZVVmWURldUhJTTgxTktCX0xsMTdPNGpKS0JkYV9fUXpaY0NqLWlBa0tlVElTSmpnV1NzVGZ3Z0RSWW9XTFkwVm9YdW5WOWNRQU92MzUyekxmNjZWUnkyZ1VNdl9FMy13eTN5SFhIVG14TG5DZHZyYVR2VUxwOHkzeWRz?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T19:00:51.000Z"
+      },
+      {
+        "titre": "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcDZEcElOUEQwWnhDamh2ZWdRd0VqWUI3U0dROEtaUDNkM0c3dktBbkxhSXNvVVBSWnJtZEdEel9YRnd1RVVrN3BtRGsxOE50eHRKQWl5VmFJMmdvcEtSMm96MUlrQlpWSzJfMC1WeW1IZWhhS1NPVkRzS0VEczd0b3J4c1R4RUc3NW9MY0owT3dmQmZJYk5kcHhSM3Bldw?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T00:50:00.000Z"
+      },
+      {
+        "titre": "How to get more UK money into UK equity markets",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXo0b1hzQU82XzUwVzY5WWpBTVRtei1QN28wNTh2TnhjVGxMdWpYRHJyTG1wN0FEMjJiQWdTUFZ5ekFvSTBsNXd6bThfVkxiRWVNajRDQjZRaHViNEVqUnE2TjVabkgyQlVGTHZqWURoT3hkRkx1OUNpNWlPY3VJc3Q2Ny0?oc=5",
+        "resume": "",
+        "heure": "2026-11-28T05:00:41.000Z"
+      },
+      {
+        "titre": "10 big money topics you might have to tackle over turkey: A Yahoo Finance guide to Nvidia, markets, and more",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNeHFqVC1sVmpKQ2p3NkZtXzFHd01TckVvZ2pTV1ZBQmVPcmMwNmJMeUQ0LWFPYjY1ZFpEajJ3RnhnXzE1dnhZbmZ4Y0tTSXplX0NmanRpLWNVNE9HYmlSeTBNNXdrVHRtTkFkSDB5LVRnd3RXQ1VVcVdEZUhkTzV4REJMTFpRZVJFSk5SYTNoVl9DSjFyMVR0cmJkYlBXZ0NHeEhnR3E0QVEyZ01yTkx0S2ZpeVUzWmdBNnY0RmdBb2JVdU1SQi1ITy03WGt2ZjUzNHZFZHRHdndzbnpBSXZsYVJmLVlCanZWSU1naTVRUjVpai1P?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T16:17:17.000Z"
+      },
+      {
+        "titre": "Trump Can’t Rescue the Stock Market. Here’s What Can",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUkpRejhPeEh2RnhWZndBWFpzM0pBNVBpaVVpOVBMaGVPSW9oVlgzU3hNVVBqTnZWejQ3QlpYX3BheFh2M3RwanhvdmZESll0UDI4eHRYUEJIUUtYSDB3ZmxNdDNQSVJsZWgybW1VT0RSSWpUb1drY2ozY2E5VDh0OUxxME5oenctV0lpWE1xYk9kY21Zal9jVA?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T10:30:00.000Z"
+      },
+      {
+        "titre": "Trump Blames Voters for Stock Market Tanking",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT2RpRFhVc1F3ZUhLMnNSczVnWEVZaTYtUVRtNGdESE9wemNoRVlpbnpMYzlRSE1PY3N4c2FNbElfQ0d6dHkxZXpKZVRVdGhuNDBOTG1qTW92MkVOdWZwLW11ems3c0xWUkZzRGVXdEQyMzhVVmpzUFVVZEZVaW0wbGM1TkpZX0tib2YyWVMyNjduMExfQ1kxUFlDYTE3Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-25T19:12:06.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/en/finance/2026/11/28/hebdo-finance/"
+  },
+  {
+    "id": "2026-11-28-hebdo-finance",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Finance",
+    "rubrique": "La semaine",
+    "emoji": "📈",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Hugo Marchetti",
+    "titre": "La semaine financière en 7 sujets, du 22 au 28 novembre",
+    "chapo": "15 informations publiées par 7 médias en sept jours. Au programme : « La tech remet le couvert après Thanksgiving, le Cac 40 toujours en hausse avant le verdict de S&P », « Bourses européennes : le CAC 40 et le DAX ouvrent en nette hausse » et « Comment sont taxés les logements vides et les résidences secondaires ? ».",
+    "corps": [
+      "Du 22 novembre au 28 novembre, la rédaction a suivi l’actualité financière à travers les publications de Investir Les Echos, Bourse Direct, Le Revenu, ABC Bourse, Le Monde et Les Echos notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « La tech remet le couvert après Thanksgiving, le Cac 40 toujours en hausse avant le verdict de S&P », titrait Investir Les Echos vendredi. Le sujet a également été traité par Bourse Direct.",
+      "Autre sujet marquant, « Bourses européennes : le CAC 40 et le DAX ouvrent en nette hausse », titrait Le Revenu jeudi. Le sujet a également été traité par ABC Bourse.",
+      "Dans un autre registre, « Comment sont taxés les logements vides et les résidences secondaires ? », titrait Le Monde samedi. Extrait : « La donne va changer à compter de 2027, alors qu’une nouvelle règle fusionne les deux préexistantes – taxe sur les logements vacants en zone tendue, taxe d’habitation sur les logements vacants hors zone tendue – et pourrait bien faire monter la note pour les… »",
+      "Par ailleurs, « Assurance-vie : pourquoi les épargnants se ruent-ils au Luxembourg ? », titrait Le Monde vendredi. On peut y lire : « Inquiétudes politiques, recherche de sécurité, souplesse des placements… »",
+      "Toujours cette semaine, « Elon Musk promet d’offrir deux actions de SpaceX à « chaque enfant » aux Etats-Unis », titrait Le Monde jeudi. On peut y lire : « Le milliardaire avait déjà promis, en octobre, une action à chaque enfant aux Etats-Unis. »",
+      "À noter également, « Retour au vert pour le Cac 40 dans un marché toujours très volatil », titrait Les Echos vendredi.",
+      "Enfin, « CAC 40 : la Bourse hésite, la décision de l’agence S&P sur la note de la France attendue au tournant », titrait Capital.fr vendredi.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "Investir Les Echos",
+      "Bourse Direct",
+      "Le Revenu",
+      "ABC Bourse",
+      "Le Monde",
+      "Les Echos",
+      "Capital.fr"
+    ],
+    "liens": [
+      {
+        "titre": "La tech remet le couvert après Thanksgiving, le Cac 40 toujours en hausse avant le verdict de S&P",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTEI1OHd3U2RkeHk2eE9JQUNOZ3EzRGQtTnVLQ0E0UzR0MDFRVVNsM2J6SDBOYjRKbXJ3dVUtV1hHdWlUWklfeHVmS1c4TkNnamYxVmpNV1RYRVRqNTNwYVR3bVM5ZVE0RHhzVWpvU2V4eVBvMmNTU3FEdlliZFhlSUJrNDV1M0UtWVA2Rl9QV1hyZ2xiSWgwVVBoYks4cFNYMGxyb3pqOUFlRDhPdHcwaExFeGpyeURiNXAycU1wQlN0Z0JFTmxYYnJmdG84MGpXRDFtaVJWU2VwVzBCQ056Y09GczZ4aHc3bVNHMWwwTjBFQ0ZJNUl1QQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T11:37:28.000Z"
+      },
+      {
+        "titre": "Le Cac 40 poursuit sa remontée en attendant la décision de S&P sur la note de la France, Wall Street prépare un retour en hausse après Thanksgiving",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNaFp4QlBsT2ZGOUJpazdlMXJ5dFJuLUpELVBkV2VLYllEV2RzMWp0UFlrd3JFLVR0ZTVUM2k0WkhFVTBJdEViYlZsV0VGbnhUS2d2X3FqSEREVUd2b2NXSFFnc1hBRXVMQThxZlB2dW5mamlmN0pMcmFMQTUwVGFDbnVWZG8zU28tV1VMSXY0VFViZGNaQVllQlQtcDVLNnA5SlB1TmJDQmNjYmlidWdNcXNKVU5oZGgxLXNQRk9uZVV5bTEyeWdCTzZZSDVrY2Y5ZVhZdkZMZTBjUDRNMWlyNERINWQyMFNtN3c2cnc2Q2QyY0pzNUI2SVhQSFhsZ1lydFlvb1d2c3NkRXdMZWRSTmRiemtxMm1teEYwWWdwMEpwVnBzeGh6bkM1am9TRmN2anRwNGhqYzFOano4?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T08:16:43.000Z"
+      },
+      {
+        "titre": "Le Cac 40 s'invite à la fête, pendant que Wall Street prend congé pour Thanksgiving",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNY2dmY3VUblR3aDQxN2QwTkJpRG02aTUybzZrZlpaYTlNS1ZkRURkVnVwTnRhTk5qaGV3NWEwTlV1cmNfdjM0RnRDYjNSRDZlT1JzZDBwLW9CdXkySnl6YnNNbGhPYWpYei1oVVBMS0pnb1hyWTRaWGVJZGphRHBPeEJHT2ZQZHpuTmEybVZuUFdManZjMmtuMWhwWnBvdVhpX1cxRW55eWhQNDZHQTVNU0dNYTRHaWViMlRpTXVJUFM1MERwUHVTSU1Td0JpdjJhYllodGZid212QlJkUHZfNGFjbko3QUk?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T11:39:25.000Z"
+      },
+      {
+        "titre": "Wall Street prend son jeudi pour Thanksgiving, pas de répit pour les marchés européens",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMnU1WTRpYU9XQmZudXJ3NlJuaXR0MGJhVzl4VEhnYW45NHZ3REFueEszMFE1QzEyZks4WDVNUlQxZ3JVallSSXFWSFp6TU42S2JjQldyVjhBa0UwOHFQN1lLMnp1cnVHMUMtcUNMM3d3LUMxOHk5ZEdFLTlneG55cWg2RkpHcUt2OUxXUHZ1RlR2ZURFVjYyQjBobmtwVVN1aFVCTEV5cUdFN3lKZDY2MFhoajluSmpiaDVvQUtudUd3Vk9GMXNWaDMwODJOZHk5TTBLcURkM3l4NldlSDdZaDhpNGFNWGFEWm1pcQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-25T14:55:33.000Z"
+      },
+      {
+        "titre": "Le Cac 40 attendu stable à l'ouverture, les marchés attendent l'inflation américaine après une nouvelle baisse de la tech à Wall Street",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOUXk0eTlYdjBPZl9FeU54ekhYS05yblZTc0R6czFGVnkwSEY1bmJjSXlNcVRDRklxZy1xM0FZQzBsd1RBSXptMTBzT3JwQkFHZ3lZbXFrUGlROU1pTDBoR1RjX0I2bmh6b0ZIaUNVQkhMR0FuaUNNV3hDdDVYVmE2emgtVzVXUG1YQ09SUFJnUFNDWnJKRHZOd2ZSc21qdF9LWnVCTHZ4R1VtMjY1ejNJQl9XSTMxZkJxODVqRkN6VW03MDM0TXpVU3VsM0Q1RVN5LXRGSk14N2hVaW5uUkV4dVUzRERISi03THhoTFZQYWhhQ0VWR2RnMC1FZVhLNzBwckhMVUxnMlVXVl9UVzAtMjZnNm9kRUxFYzVqNGtKYlY1dmhQY2l0S0J0dw?oc=5",
+        "resume": "",
+        "heure": "2026-11-25T07:39:44.000Z"
+      },
+      {
+        "titre": "Le Cac 40 encore en légère hausse après le retour en grâce de Jensen Huang chez Nvidia, importante acquisition pour Sanofi, en tête de l'indice vedette",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPeG1HNF9CeXZ1LWNiZy0xaTVNRWo0bXZsZS1Tcm9FcXpSeGRudC1LNUJ6U09MdDdlVUxOUXBfQmFlWnlweU9kdFBGSWhhVFlEbWk0d3hISVBwOHZVY3NWQjl0OWw3RU9UVWxPbTdvUTc4cm5IRmhkUGZxQjNLYkVBeXdSZll1dWh1UjdyTUJWUHI4NUs0ZWJQaVpHeHRYVV9RMUkydnYyajdBdVdRZGdLMU9FMmgxNWJIN3lSbXVkbVNDQjFGeE1sQUFfNVNIcTFHZUZObkxmTm1DSmpxSFJxLVNyUDFTSktYM0I2bGVWZXFhc1p2UG45UzFYVmRudjRjQUFQZWtETFptdy05WWZNUzJXVFlUUmdXdHdJWWRlRmlIcTA3eDNEYWxEaXo5TVpnZWhBZDZkYWFNWDNlLUQzVA?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T08:10:38.000Z"
+      },
+      {
+        "titre": "CAC 40 : Cette fois, Nvidia propulse les marchés",
+        "source": "Bourse Direct",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT1VhRnJfUGhPTkt5c2k5TWoyUlZRRjBrMXlBX0NrY1VDZTZSVjdmZjFSdWNYSVpRR3c2a0xYejdHVjNxWnY3dDNjc0tKNENxLU1RM29nRS1SdjV6bmptaHRiN2xDTTB2S2dsLWVLOWhUM1dzYkdsOXVCTWVleVhUMmgwc2IxdXRwSHE4TWdweXo5OVNrdWJGQXpkVHBieW51d0hOV3ZpN05mdHQwdGxtVHd5cy1Id2FFZU5WQXU3Ung4ZFdYMDRWUTU1V3lTbkJRN2FadnRBV3ZtOGQ0ZnU0ZTBFMVBUQXgyYUNucmVObw?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T07:30:00.000Z"
+      },
+      {
+        "titre": "Les marchés tentent un rebond après une semaine noire pour la tech américaine et le Cac 40",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNa3g0Qlc0a2RDNl9NTXBJVjVPemxXWFF5Mm0xQ3dlNGxNblJPeWFmSEJXU1o1REhDazVXcWZLVGM3Z0ZqTGpvcklPUF9vZjlINHNDY0ZJZFM4LTZQT1E1TU5TLUd2V2ZyczBiT1poQjVwUTZCZ0k5VjlkZDNmVVB3Z3Y1eU51Ym5GUVVTYkZmYW1TWDg4bXVBTnhsVFhIdGExV01Ec1MtOURxN0tCQllVcDluaV81em9IMmwwRHBHS3ZVWUtCTzAxYjBJQXNuRUZ3QW80NF85OFVvZlFyMm93VmxESEVNN1hkLWtPS3JjdGtLQzA?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T08:12:13.000Z"
+      },
+      {
+        "titre": "Bourses européennes : le CAC 40 et le DAX ouvrent en nette hausse",
+        "source": "Le Revenu",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYy16Y0ZEMVM1XzZnWE0tWUdvaG00SmVYM29ldTB1S3ZTVnpXWnVKOEstTm5CVVF4Qi1vTHp2TzlCMEJXOWlCMWFyZzRqQV84OHFVQUt2U1ZKbEdlTEpDNHlmYy1SMmhUT3NvUGIycDQyYkVGZkRhUjlfbEMzR2stNGMxYTRmblpvRkowY1pGZlJMX3V0WjRfdmFIenBmdXhwMzNXZEhnUjlPRWZuWWx0ZkRfXzhmTE13c2Zwamh4RUNYQm5UVTd5X2ticGxHR3pPLW5uTjUtcl9RSjAwMUZZ?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T09:46:00.000Z"
+      },
+      {
+        "titre": "Les Bourses européennes en nette hausse, portées par les valeurs technologiques",
+        "source": "ABC Bourse",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNndtczVKdnE1S2lwTno4TDUzMHVudmF6ODNscjZhVFk4TlBpRmtZQU0wRFo3X1FmNHluX2hFN0Fzc1VqVkpnVFZSb1MwTTFYZ2U1OE1MV29DZ1FLdVdfRGtnOVNmMmZtTmtMaFpaeXpDbld0dy11UDRGWVY4aGcxdUtScGc5WnBqaWVqZjc4dVhWWmxlV0NkdzFkN0pHenlqZTFRaTJSZWlBTFFZYjhXRmg1c3NTVWszQ2M0?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T08:30:23.000Z"
+      },
+      {
+        "titre": "Comment sont taxés les logements vides et les résidences secondaires ?",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/28/comment-sont-taxes-les-logements-vides-et-les-residences-secondaires_6816069_1657007.html",
+        "resume": "La donne va changer à compter de 2027, alors qu’une nouvelle règle fusionne les deux préexistantes – taxe sur les logements vacants en zone tendue, taxe d’habitation sur les logements vacants hors zone tendue – et pourrait bien faire monter la note pour les propriétaires, explique Virginie Roche, avocate chez CMS Francis Lefebvre Avocats.",
+        "heure": "2026-11-28T05:00:37.000Z"
+      },
+      {
+        "titre": "Assurance-vie : pourquoi les épargnants se ruent-ils au Luxembourg ?",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/27/assurance-vie-pourquoi-les-epargnants-se-ruent-ils-au-luxembourg_6815801_1657007.html",
+        "resume": "Inquiétudes politiques, recherche de sécurité, souplesse des placements… L’assurance-vie luxembourgeoise séduit de plus en plus d’épargnants français. Un attrait renforcé par le contexte politique actuel. Mais attention à l’effet de mode.",
+        "heure": "2026-11-27T05:00:22.000Z"
+      },
+      {
+        "titre": "Elon Musk promet d’offrir deux actions de SpaceX à « chaque enfant » aux Etats-Unis",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/26/elon-musk-promet-d-offrir-deux-actions-de-spacex-a-chaque-enfant-aux-etats-unis_6815531_3210.html",
+        "resume": "Le milliardaire avait déjà promis, en octobre, une action à chaque enfant aux Etats-Unis. Selon lui, une action provenant de SpaceX sera transférée le mois prochain, tandis qu’une autre venant de lui personnellement sera transférée en juin 2027. Il n’a donné aucun détail sur le dispositif.",
+        "heure": "2026-11-26T12:42:46.000Z"
+      },
+      {
+        "titre": "Retour au vert pour le Cac 40 dans un marché toujours très volatil",
+        "source": "Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNTJVcnhTT0RxdHFoVmxIYTRYU1otdzQ1UmlDcmRGSUhzdHVpSEk0QkxMY3Vyam5CSzliajNhazlnVnFxU1ZVLUZwenpaZVFXS3hhb2dFazJjTzZkZndZZVpWMTJNR0w2VzVqMFNPRXpJYjU5N0xvb1g1RnkycXRoeXd3cXJzeTVRWlpuWG1YQkVZZi12czlHZHZIRmUwWjhiVTJZWjA2NXhKWHhMQUk5VkF6QkhtbXpSR0Q2MUxDQ0NZeElFTVFRZlZUdm9JZ3NBaUpj?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T17:35:09.000Z"
+      },
+      {
+        "titre": "CAC 40 : la Bourse hésite, la décision de l'agence S&P sur la note de la France attendue au tournant",
+        "source": "Capital.fr",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2J5TUt1OHltMno3TWk0YjVveG1SSjhXVkxpLWp5UWZhNGtIR2l5MnVGQVNwYUpEN3k0OHlvUUdsbGt5WGc0eTR4cVQxZUUtZE52d3JQNGIxY1pIdXZCSV9vbTF4bHlQUmRoMjE4ZFNzYWVDeFBQUGFoVjlsOWg2eUdRdEFLSjBVT2NQSFBGaEIza04wQzR1SGl0RjRRQjZpeUs1d3V6WVJSZHRQZDU5RVdEamJhamIwYjFYdllfTGJsbkVDRG9zSHB5UXBqVk51WFVQXzczS3FNWmxGTFg4RA?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T09:42:12.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/finance/2026/11/28/hebdo-finance/"
+  },
+  {
     "id": "2026-11-28-actu-business",
     "lang": "fr",
     "date": "2026-11-28",
@@ -7,37 +329,37 @@
     "rubrique": "Business",
     "emoji": "💼",
     "type": "revue",
-    "titre": "L’activité de l’abattoir de Haute-Saône suspendue par le préfet après avoir été visé par une enquête",
+    "titre": "Le numéro 2 de la Banque centrale européenne écarte un scénario à la grecque pour la dette française",
     "chapo": "Entreprises, emploi, stratégie : l’essentiel de l’actualité économique. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "L'activité de l'abattoir de Haute-Saône suspendue par le préfet après avoir été visé par une enquête",
+        "titre": "Le numéro 2 de la Banque centrale européenne écarte un scénario à la grecque pour la dette française",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/environnement/biodiversite/animaux/l-activite-de-l-abattoir-de-haute-saone-suspendue-par-le-prefet-apres-avoir-ete-vise-par-une-enquete_8303862.html#xtor=RSS-3-%5Beconomie%5D",
-        "resume": "Jeudi, l'association de défense des animaux L214 avait annoncé avoir déposé plainte à l'encontre de la Société d'abattage des Vosges saônoises (SAVS), qui gère l'abattoir mis en cause.",
-        "heure": "2026-11-27T22:43:09.000Z"
+        "url": "https://www.franceinfo.fr/economie/crise/le-numero-2-de-la-banque-centrale-europeenne-ecarte-un-scenario-a-la-grecque-pour-la-dette-francaise_8304585.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "L'agence de notation S&P Global a abaissé vendredi la perspective de stable à négative, la menaçant d'une éventuelle dégradation à l'avenir, en raison des difficultés du pays à réduire son déficit.",
+        "heure": "2026-11-28T13:53:39.000Z"
       },
       {
-        "titre": "Loyers exorbitants, crise des salaires... La face cachée de la croissance espagnole",
+        "titre": "\"Cette situation est vraiment compliquée\" : il reçoit des dizaines de PV par erreur",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/espagne/loyers-exorbitants-crise-des-salaires-la-face-cachee-de-la-croissance-espagnole_8303760.html#xtor=RSS-3-%5Beconomie%5D",
-        "resume": "En Espagne, qui remportera les élections législatives, dimanche 29 novembre ? Les sondages sont incertains mais semblent favorables à l’opposition au premier ministre socialiste. Alors que le pays bénéfice d’une croissance économique presque insolente, un nuage sombre se dresse dans ce ciel économique.",
-        "heure": "2026-11-27T22:35:51.000Z"
+        "url": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/cette-situation-est-vraiment-compliquee-il-recoit-des-dizaines-de-pv-par-erreur_8304690.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Recevoir des amendes pour des infractions que vous n’avez pas commises, c’est le triste sort d’un garagiste charentais. La plaque d’immatriculation d’une moto qu’il ne possède plus a été usurpée. Depuis, il a reçu plus de 80 contraventions. Il tente de démêler cette situation en se heurtant à ce qu’il décrit comme un \"enfer administratif\".",
+        "heure": "2026-11-28T13:29:06.000Z"
       },
       {
-        "titre": "OpenAI accuse Apple de vol de secrets et de pressions sur ses fournisseurs",
+        "titre": "Binance, géant mondial des cryptomonnaies, prépare sa sortie de l’Europe, faute de visa des régulateurs",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/27/openai-accuse-apple-de-vol-de-secrets-et-de-pressions-sur-ses-fournisseurs_6815936_3234.html",
-        "resume": "Les deux partenaires se rapprochent de mois en mois d’une situation de rivaux, et se rendent désormais coup pour coup devant la justice.",
-        "heure": "2026-11-27T21:49:36.000Z"
+        "url": "https://www.lemonde.fr/economie/article/2026/11/28/binance-geant-mondial-des-cryptomonnaies-prepare-sa-sortie-de-l-europe-faute-de-visa-des-regulateurs_6816107_3234.html",
+        "resume": "La plateforme d’échange de cryptoactifs n’a pas obtenu l’agrément devenu indispensable pour opérer dans l’Union européenne. Avant de fermer ses serveurs le 31 décembre, elle facture désormais des commissions à ses clients européens, ainsi incités à clôturer leurs comptes.",
+        "heure": "2026-11-28T13:00:12.000Z"
       },
       {
-        "titre": "L’agence S&P menace de dégrader encore la note de la France, entrée en récession",
+        "titre": "A un banquet du Canon français, à Biarritz, des manifestants bloquent les participants, qu’ils accusent de véhiculer des idées d’extrême droite",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
-        "resume": "Vendredi, l’agence américaine a assorti d’une perspective négative la note actuelle de la dette française. Cela ouvre la voie à une possible dégradation à moyen terme. Le dérapage du déficit inquiète les investisseurs.",
-        "heure": "2026-11-27T21:18:33.000Z"
+        "url": "https://www.lemonde.fr/societe/article/2026/11/28/a-un-banquet-du-canon-francais-a-biarritz-des-manifestants-bloquent-les-participants-qu-ils-accusent-de-vehiculer-des-idees-d-extreme-droite_6816103_3224.html",
+        "resume": "Des convives de cet événement cofinancé par le milliardaire Pierre-Edouard Stérin ont été pris à partie par les manifestants, qui avaient annoncé un « rempart humain » pour empêcher les 1 500 participants attendus de rejoindre le site.",
+        "heure": "2026-11-28T12:00:14.000Z"
       },
       {
         "titre": "La croissance pire que prévu, l'économie française en récession",
@@ -63,23 +385,23 @@
     "rubrique": "Culture",
     "emoji": "🎭",
     "type": "revue",
-    "titre": "Bruce Lee, un mythe né un 27 novembre et fait roi du kung-fu au cinéma par \"Opération Dragon\"",
+    "titre": "Salon du livre de Montreuil : \"Avec le théâtre jeunesse, les enfants sont davantage impliqués dans la lecture\"",
     "chapo": "Expositions, musées, théâtre, cinéma et musique : la vie culturelle, de la Côte d’Azur au reste du monde. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Bruce Lee, un mythe né un 27 novembre et fait roi du kung-fu au cinéma par \"Opération Dragon\"",
+        "titre": "Salon du livre de Montreuil : \"Avec le théâtre jeunesse, les enfants sont davantage impliqués dans la lecture\"",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/culture/cinema/bruce-lee-un-mythe-ne-un-27-novembre-et-fait-roi-du-kung-fu-au-cinema-par-operation-dragon_8302965.html#xtor=RSS-3-%5Bculture%5D",
-        "resume": "Le documentaire \"Opération Dragon, la révolution Bruce Lee\" et l'ouvrage \"Il était une fois le ciné kung-fu\" retracent la vie et reviennent sur l'héritage cinématographique du légendaire artiste martial, mort il y a plus de cinquante ans.",
-        "heure": "2026-11-27T21:17:37.000Z"
+        "url": "https://www.franceinfo.fr/culture/livres/salon-du-livre-et-de-la-presse-jeunesse-de-montreuil/salon-du-livre-de-montreuil-avec-le-theatre-jeunesse-les-enfants-sont-davantage-impliques-dans-la-lecture_8304390.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "La sélection 2026 des Pépites du salon compte \"Kingsland\" de Sophie Merceron, une pièce de théâtre pour adolescents. Rencontre avec son éditeur Espaces 34. pour évoquer le genre.",
+        "heure": "2026-11-28T14:11:48.000Z"
       },
       {
-        "titre": "Jodie Foster \"J'ai toujours voulu jouer une méchante\"",
+        "titre": "La jacket potato, reine des patates anglaises, de nouveau à la mode",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/culture/cinema/jodie-foster-j-ai-toujours-voulu-jouer-une-mechante_8303235.html#xtor=RSS-3-%5Bculture%5D",
-        "resume": "\"Jouer une méchante\", Jodie Foster en a toujours rêvé. Son rêve est devenu réalité dans le dernier film d’animation des studios Disney “Billie”. L' actrice américaine francophone et francophile a doublé son personnage en anglais et en français.",
-        "heure": "2026-11-27T21:00:01.000Z"
+        "url": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/la-jacket-potato-reine-des-patates-anglaises-de-nouveau-a-la-mode_8304702.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Ce n’est pas qu’une simple pomme de terre en robe des champs, elle est fendue et garnie de tout ce qui peut être réconfortant. La jacket potato, vieille tradition culinaire anglaise, refait surface et est même au menu de restaurants étoilés.",
+        "heure": "2026-11-28T14:10:27.000Z"
       },
       {
         "titre": "Crise au Mucem : après la Ville de Marseille, région et département suspendent leur participation au conseil d’administration",
@@ -87,12 +409,20 @@
         "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdHBOeklDMHhSMVFzMHRMMnlHaXJOeDdrWUItZmdnemJxM1J1c1pVc3ZYY3pVYm4zdGZITlk1XzVaME9XS2ZDS0RNd0RINWkzazdRSlkycW1xYlpTTExDeFJFX3dEMXFUckpzTlA4VUVTa2lyRGVlZnJtbUdpSWFJaUN4TEVJNGhqbUtzR2c3elREMUJiVXVnbm42SDlCSUVlN0ZTa2NBT3dBczhTdmh1bkpzR0JCckVWUlVwQzc4X3J4MzQ0MkRsT2FKeFROQmdVT2ZLVVVlTF85ZFhNemthZ3liM0djUmlaczB5ZF9ZNWdxRnNWUzVydXFiTW9Nc1JBM2JxZDdn?oc=5",
         "resume": "",
         "heure": "2026-11-27T17:06:20.000Z"
+      },
+      {
+        "titre": "Visée par des appels au boycott, Chimène Badi voit son concert annulé à Tunis",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSVBhTmk0bUxNckhEclNTa2tFbTRqazRFX0gtWmRvMVhoVkFMVUZjM2hJbzM3a1NsbEJ3UXpEX2h4ZzZ2OUJkUVU3dzB2OWhxcDUtYlZsRzlmRUdRaDdwZmR2UFVwTzBNWWRWaUlORUQwTUYwU1BENTloUTlxXzZPOEQweVBMZVRtSVd0d2tZM2haVmRXQUZCQWJVMTFWQXBkSXgwZ1BhTnRudjFsWDU2Yng0cUQxNFdhNi1BdXZIZmNQVm55U3B5WTd6RmVJMGUx?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T15:31:53.000Z"
       }
     ],
     "auteur": "Clara Venturini",
     "sources": [
       "franceinfo",
-      "Télérama"
+      "Télérama",
+      "BFM"
     ],
     "chemin": "/culture/2026/11/28/revue-de-presse/"
   },
@@ -104,23 +434,23 @@
     "rubrique": "Événementiel",
     "emoji": "🎪",
     "type": "revue",
-    "titre": "MC Solaar et Youssoupha célèbrent leur amitié et la musique noire dans « Supersonic Social Club »",
+    "titre": "James Gray, réalisateur de « Paper Tiger » : « La dimension sensorielle du cinéma est primordiale, c’est ce qui résiste le mieux au temps »",
     "chapo": "Salons, festivals, concerts, grands rendez-vous : l’actualité de l’événementiel. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "MC Solaar et Youssoupha célèbrent leur amitié et la musique noire dans « Supersonic Social Club »",
+        "titre": "James Gray, réalisateur de « Paper Tiger » : « La dimension sensorielle du cinéma est primordiale, c’est ce qui résiste le mieux au temps »",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/culture/article/2026/11/27/mc-solaar-et-youssoupha-celebrent-leur-amitie-et-la-musique-noire-dans-supersonic-social-club_6815917_3246.html",
-        "resume": "Avec leur spectacle commun, les deux rappeurs rendent hommage au rap, mais aussi à l’afrobeat, à la rumba congolaise, à la soul… Récit d’une belle complicité née dans un bus en Géorgie, il y a plus de quinze ans.",
-        "heure": "2026-11-27T18:00:12.000Z"
+        "url": "https://www.lemonde.fr/culture/article/2026/11/28/james-gray-realisateur-de-paper-tiger-la-dimension-sensorielle-du-cinema-est-primordiale-c-est-ce-qui-resiste-le-mieux-au-temps_6816108_3246.html",
+        "resume": "Dans un entretien au « Monde », le cinéaste américain revient sur la genèse de son dernier film, « Paper Tiger », en salle depuis mercredi 25 novembre, et sur l’influence de la tragédie antique dans son univers narratif.",
+        "heure": "2026-11-28T13:00:18.000Z"
       },
       {
-        "titre": "Réédition de « I’ve Known Rivers and Other Bodies », de Gary Bartz : un album mythique célébrant l’afrocentrisme, salué par la jeune génération",
+        "titre": "Pour Alba Rohrwacher, actrice dans « Un bon petit soldat », « le jeu doit être un prolongement de la vie pour arriver au cœur de l’humain »",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/culture/article/2026/11/27/reedition-de-i-ve-known-rivers-and-other-bodies-de-gary-bartz-un-album-mythique-celebrant-l-afrocentrisme-salue-par-la-jeune-generation_6815912_3246.html",
-        "resume": "Isaiah Collier et Immanuel Wilkins, deux jeunes musiciens afro-américains, reviennent sur l’héritage et la portée de ce double disque majeur du saxophoniste aujourd’hui âgé de 86 ans, enregistré, avec sa formation NTU Troop, le 7 juillet 1973 au Montreux Jazz Festival, en Suisse.",
-        "heure": "2026-11-27T17:09:12.000Z"
+        "url": "https://www.lemonde.fr/culture/article/2026/11/28/pour-alba-rohrwacher-actrice-dans-un-bon-petit-soldat-le-jeu-doit-etre-un-prolongement-de-la-vie-pour-arriver-au-c-ur-de-l-humain_6816098_3246.html",
+        "resume": "La comédienne italienne explique qu’elle a travaillé son langage et ses attitudes pour incarner une directrice des ressources humaines dans le long-métrage de Stéphane Brizé.",
+        "heure": "2026-11-28T11:00:11.000Z"
       }
     ],
     "auteur": "Léa Fontaine",
@@ -137,13 +467,20 @@
     "rubrique": "Finance",
     "emoji": "📈",
     "type": "revue",
-    "titre": "Retour au vert pour le Cac 40 dans un marché toujours très volatil",
+    "titre": "Comment sont taxés les logements vides et les résidences secondaires ?",
     "chapo": "Bourse, marchés, taux, crypto et argent au quotidien : ce qui a bougé. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
+        "titre": "Comment sont taxés les logements vides et les résidences secondaires ?",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/28/comment-sont-taxes-les-logements-vides-et-les-residences-secondaires_6816069_1657007.html",
+        "resume": "La donne va changer à compter de 2027, alors qu’une nouvelle règle fusionne les deux préexistantes – taxe sur les logements vacants en zone tendue, taxe d’habitation sur les logements vacants hors zone tendue – et pourrait bien faire monter la note pour les propriétaires, explique Virginie Roche, avocate chez CMS Francis Lefebvre Avocats.",
+        "heure": "2026-11-28T05:00:37.000Z"
+      },
+      {
         "titre": "Retour au vert pour le Cac 40 dans un marché toujours très volatil",
-        "source": "Les Echos",
+        "source": "Investir Les Echos",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNTJVcnhTT0RxdHFoVmxIYTRYU1otdzQ1UmlDcmRGSUhzdHVpSEk0QkxMY3Vyam5CSzliajNhazlnVnFxU1ZVLUZwenpaZVFXS3hhb2dFazJjTzZkZndZZVpWMTJNR0w2VzVqMFNPRXpJYjU5N0xvb1g1RnkycXRoeXd3cXJzeTVRWlpuWG1YQkVZZi12czlHZHZIRmUwWjhiVTJZWjA2NXhKWHhMQUk5VkF6QkhtbXpSR0Q2MUxDQ0NZeElFTVFRZlZUdm9JZ3NBaUpj?oc=5",
         "resume": "",
         "heure": "2026-11-27T17:35:09.000Z"
@@ -172,10 +509,9 @@
     ],
     "auteur": "Hugo Marchetti",
     "sources": [
-      "Les Echos",
-      "Capital.fr",
+      "Le Monde",
       "Investir Les Echos",
-      "Le Monde"
+      "Capital.fr"
     ],
     "chemin": "/finance/2026/11/28/revue-de-presse/"
   },
@@ -187,43 +523,43 @@
     "rubrique": "Monde",
     "emoji": "🌍",
     "type": "revue",
-    "titre": "Le bateau naufragé au large d’Ibiza sera remorqué vers le port espagnol de Carthagène",
+    "titre": "Mexique : premiers résultats positifs pour la politique sécuritaire de la présidente Claudia Sheinbaum",
     "chapo": "Le tour du monde de l’actualité en quelques titres. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Le bateau naufragé au large d'Ibiza sera remorqué vers le port espagnol de Carthagène",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/espagne/le-bateau-naufrage-au-large-d-ibiza-sera-remorque-vers-le-port-espagnol-de-carthagene_8303865.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "Le carburant est, pour l'heure, contenu et le navire a été stabilisé en pleine mer. Les autorités font face à une opération de sauvetage complexe, dans un contexte de crainte d'une pollution majeure.",
-        "heure": "2026-11-27T22:56:50.000Z"
-      },
-      {
-        "titre": "Loyers exorbitants, crise des salaires... La face cachée de la croissance espagnole",
-        "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/espagne/loyers-exorbitants-crise-des-salaires-la-face-cachee-de-la-croissance-espagnole_8303760.html#xtor=RSS-3-%5Bmonde%5D",
-        "resume": "En Espagne, qui remportera les élections législatives, dimanche 29 novembre ? Les sondages sont incertains mais semblent favorables à l’opposition au premier ministre socialiste. Alors que le pays bénéfice d’une croissance économique presque insolente, un nuage sombre se dresse dans ce ciel économique.",
-        "heure": "2026-11-27T22:35:51.000Z"
-      },
-      {
-        "titre": "La Cour suprême canadienne consacre la laïcité au Québec dans une décision historique",
+        "titre": "Mexique : premiers résultats positifs pour la politique sécuritaire de la présidente Claudia Sheinbaum",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/27/la-cour-supreme-canadienne-consacre-la-laicite-au-quebec-dans-une-decision-historique_6815937_3210.html",
-        "resume": "Cette loi consacre le fait laïc au Québec et tranche avec le multiculturalisme de l’Etat fédéral canadien, ce qui crée des remous dans la classe politique.",
-        "heure": "2026-11-27T22:06:52.000Z"
+        "url": "https://www.lemonde.fr/international/article/2026/11/28/mexique-premiers-resultats-positifs-pour-la-politique-securitaire-de-la-presidente-claudia-sheinbaum_6816113_3210.html",
+        "resume": "Le 20 novembre, les forces spéciales mexicaines ont réussi à capturer le narcotrafiquant « El Chapo Isidro », un des dix fugitifs les plus recherchés par les Etats-Unis. Un succès pour la cheffe de l’Etat, qui refuse une intervention directe américaine contre les cartels sur son territoire mais affiche des résultats, avec une moyenne des homicides quotidiens ayant diminué de moitié en deux ans.",
+        "heure": "2026-11-28T14:12:34.000Z"
       },
       {
-        "titre": "En Cisjordanie occupée, la lente asphyxie du système de santé palestinien",
+        "titre": "La jacket potato, reine des patates anglaises, de nouveau à la mode",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/la-jacket-potato-reine-des-patates-anglaises-de-nouveau-a-la-mode_8304702.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Ce n’est pas qu’une simple pomme de terre en robe des champs, elle est fendue et garnie de tout ce qui peut être réconfortant. La jacket potato, vieille tradition culinaire anglaise, refait surface et est même au menu de restaurants étoilés.",
+        "heure": "2026-11-28T14:10:27.000Z"
+      },
+      {
+        "titre": "Projet pétrolier au large des îles Malouines : le tribunal international du droit de la mer rejette la demande de blocage de l’Argentine",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/27/en-cisjordanie-occupee-la-lente-asphyxie-du-systeme-de-sante-palestinien_6815929_3210.html",
-        "resume": "A Naplouse, alors que les checkpoints et les attaques de colons entravent l’accès aux soins des malades et le travail des urgentistes, les impayés de l’Autorité palestinienne fragilisent l’ensemble du maillage sanitaire du territoire.",
-        "heure": "2026-11-27T19:30:04.000Z"
+        "url": "https://www.lemonde.fr/international/article/2026/11/28/projet-petrolier-au-large-des-iles-malouines-le-tribunal-international-du-droit-de-la-mer-rejette-la-demande-de-blocage-de-l-argentine_6816110_3210.html",
+        "resume": "Buenos Aires, qui conteste le droit du Royaume-Uni d’autoriser l’exploitation du pétrole au large de l’archipel, avait demandé au tribunal d’ordonner à Londres de prendre « toutes les mesures nécessaires pour qu’aucun nouveau forage aux fins d’exploitation ni aucune installation d’infrastructures de production n’ait lieu ».",
+        "heure": "2026-11-28T13:21:59.000Z"
+      },
+      {
+        "titre": "À Berlin, Jean-Luc Mélenchon défend sa vision de la relation franco-allemande et répond aux accusations de germanophobie",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/politique/melenchon/a-berlin-jean-luc-melenchon-defend-sa-vision-de-la-relation-franco-allemande-et-repond-aux-accusations-de-germanophobie_8304450.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Devant une salle comble, majoritairement composée de jeunes Français, le chef de file de La France insoumise est venu présenter son livre \"Faites mieux ! Vers une révolution citoyenne\", traduit en allemand, à quelques mois de la présidentielle.",
+        "heure": "2026-11-28T10:59:01.000Z"
       }
     ],
     "auteur": "Sofia Delmas",
     "sources": [
-      "franceinfo",
-      "Le Monde"
+      "Le Monde",
+      "franceinfo"
     ],
     "chemin": "/international/2026/11/28/revue-de-presse/"
   },
@@ -235,52 +571,52 @@
     "rubrique": "Nice & Côte d'Azur",
     "emoji": "🌴",
     "type": "revue",
-    "titre": "Le Saint-Raphaël Var handball a perdu pied en fin de match mais repart de Sélestat avec un point",
+    "titre": "On vous explique comment le célèbre duo d’artistes Anne et Patrick Poirier réveille les pierres millénaires du site de Cimiez, à Nice",
     "chapo": "Ce qui se passe près de chez nous, de Nice à Monaco. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Le Saint-Raphaël Var handball a perdu pied en fin de match mais repart de Sélestat avec un point",
+        "titre": "On vous explique comment le célèbre duo d’artistes Anne et Patrick Poirier réveille les pierres millénaires du site de Cimiez, à Nice",
         "source": "Nice-Matin",
-        "url": "https://www.nicematin.com/sports/le-saint-raphael-var-handball-a-perdu-pied-en-fin-de-match-mais-repart-de-selestat-avec-un-point-10769474",
-        "resume": "Longtemps dominateur, ce vendredi 27 novembre à Sélestat, Saint-Raphaël n’a pas pu contenir le retour des Alsaciens en fin de match et s’en sort avec un match nul presque heureux (30-30).",
-        "heure": "2026-11-27T22:32:52.000Z"
+        "url": "https://www.nicematin.com/culture/expos/on-vous-explique-comment-le-celebre-duo-d-artistes-anne-et-patrick-poirier-reveille-les-pierres-millenaires-du-site-de-cimiez-a-nice-10758202",
+        "resume": "Invité par le Musée d’Art Moderne et d’Art Contemporain de Nice « hors les murs », le célèbre duo d’artistes investit, avec « Mémoire des ruines », les vestiges antiques de Cimiez et les galeries du Musée d’archéologie de Nice. Un dialogue de près de 60 ans de création autour de la fragilité des civilisations, à voir jusqu’au 5 septembre 2027.",
+        "heure": "2026-11-28T13:45:03.000Z"
       },
       {
-        "titre": "Dominés par Marseille dans le derby, les Aigles rentrent dans le rang et plongent dans le doute",
+        "titre": "Héros de la Libération, ce général américain a désormais son portrait à Menton : il a été dévoilé par sa petite-fille",
         "source": "Nice-Matin",
-        "url": "https://www.nicematin.com/sports/hockey/domines-par-marseille-dans-le-derby-les-aigles-rentrent-dans-le-rang-et-plongent-dans-le-doute-10769472",
-        "resume": "Giflés 4-1, les Niçois n’ont pas existé dans le derby face à Marseille ce vendredi soir à Jean-Bouin pour le compte de la 18e journée de Ligue Magnus. Une troisième revers consécutif qui les fait rentrer dans le rang au classement (7es).",
-        "heure": "2026-11-27T22:27:26.000Z"
+        "url": "https://www.nicematin.com/societe/histoire/heros-de-la-liberation-ce-general-americain-a-desormais-son-portrait-a-menton-il-a-ete-devoile-par-sa-petite-fille-10768270",
+        "resume": "La cérémonie de dévoilement d’une photographie de ce héros militaire américain s’est déroulée dans le local de l’association mentonnaise « France - États-Unis - French Riviera & Monaco ».",
+        "heure": "2026-11-28T13:15:01.000Z"
       },
       {
-        "titre": "Saison hiver 2026 : les escapades idéales depuis Nice",
-        "source": "Nice Premium",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFVFanJ2QzRaclltQUhjNWhKbjk4dm0zZkJxQ0tESURHOUNhTC1HRGZ1MlR5Y0prNjRQeFBoaHdXQmVFMHBEM3hVX2s0T1Y5SUVzLWhUVWZfeVFVV29PRF9VWjRpTEUxT2RLanZyTXA1TTJTV1VZWXAzaGVVOHFQazhzZWpVUGRlM0VDbENKR2RGNElNa1B0UG1EakROdw?oc=5",
+        "titre": "Nice : un jeune homme tué par balles près d’une cité",
+        "source": "Ouest-France",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeklZZ0ZWVEllRmkyS0VGQUZBR2hCMnRfWGxCanhfRHNGX3FLQmdjcFRabDlZVG1IUG0xN1lhMXlheTkwaFA4dGRzRlNqVFdMYV9HalhVSmZVcWVkWXRKVkpKMWxSRXlrU3JyZDRlbldydEZReW5HOURGVVpwdWZhdHd5RW8teUZySkVvb1B4b2J2c0hKdEFnbEdzYTg0SGFsbXV4a2ZGNVdFTTd1cElrV2VsZjhtalRSYXBVaXRsUU1SWEV6Si03SGZacy1tNk5GM29hS1JnNWRiZG5MdzR6MW5fWEQwdw?oc=5",
         "resume": "",
-        "heure": "2026-11-27T21:10:18.000Z"
+        "heure": "2026-11-28T12:45:59.000Z"
       },
       {
-        "titre": "\"On peut faire un repas très gourmand qu'avec des légumes\", le chef Mauro Colagreco revisite le menu de la cantine façon trois étoiles",
+        "titre": "Jusqu'à 4 heures de retard : la chute d'un arbre sur les voies SNCF provoque un incendie à Cannes, un train évacué",
         "source": "France 3 Côte d'Azur",
-        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/on-peut-faire-un-repas-tres-gourmand-qu-avec-des-legumes-le-chef-mauro-colagreco-revisite-le-menu-de-la-cantine-facon-trois-etoiles-3457145.html",
-        "resume": "D'habitude le vendredi, c'est poisson dans les cantines de Menton. Mais ce 27 novembre, on casse les codes. C'est un chef trois étoiles qui est aux fourneaux pour faire découvrir une cuisine simple, roborative et réalisée avec des ingrédients de saison. On s'est invité à la table des enfants.",
-        "heure": "2026-11-27T20:12:25.000Z"
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/jusqu-a-4-heures-de-retard-un-arbre-tombe-sur-la-voie-ferree-a-cannes-le-trafic-sncf-interrompu-plusieurs-heures-3457616.html",
+        "resume": "La chute d'un arbre sur les voies à Cannes, survenue en milieu de matinée, provoque d'importants retards et de nombreuses suppressions de train. Le trafic SNCF est totalement interrompu entre Antibes et Saint-Raphaël, ainsi qu'entre Cannes et Grasse, jusqu'à 14 heures au plus tôt.",
+        "heure": "2026-11-28T11:59:48.000Z"
       },
       {
-        "titre": "Programme de David Lisnard : plus de sécurité, moins d’immigration",
-        "source": "BFM Nice Côte d'Azur",
-        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-programme-de-david-lisnard-plus-de-securite-moins-d-immigration_VN-202611270811.html",
+        "titre": "Nice et Cannes : les autocars low-cost Paco débarquent le 15 janvier",
+        "source": "www.nicemag.fr",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYjlaQmo4bF9Mb3AzRXlEaHc3cFN1Q3kzeFM4QXZocWEzWENOdUhnS1A1RXB4SEg2dkV0dFVibG43Y2VNakdBaVVTOUJCSGsyMm0wNl9GMll5SlpwVncwMGp5LW5xZG9qYmNRMTBlT3cwYTFEbTVKTWw1YTVSaVRIWkprc1lSUm9BdElqSlhSX1R3Q29WR0x1bDlidlpIYnpxa04yTA?oc=5",
         "resume": "",
-        "heure": "2026-11-27T17:53:24.000Z"
+        "heure": "2026-11-28T11:00:00.000Z"
       }
     ],
     "auteur": "Lucas Giordano",
     "sources": [
       "Nice-Matin",
-      "Nice Premium",
+      "Ouest-France",
       "France 3 Côte d'Azur",
-      "BFM Nice Côte d'Azur"
+      "www.nicemag.fr"
     ],
     "chemin": "/nice/2026/11/28/revue-de-presse/"
   },
@@ -304,11 +640,18 @@
         "heure": "2026-11-27T22:06:48.000Z"
       },
       {
-        "titre": "Jean Reno à Antibes, Les Tambours du Bronx à Nice, magie de Noël à Cannes : nos idées de sorties ce week-end dans les Alpes-Maritimes",
+        "titre": "« La magie de Noël est universelle, elle rassemble tout le monde » : Cannes lance ses festivités ce vendredi 27 novembre",
         "source": "Nice-Matin",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNekFaRTZFQWNETEYwMEZ3aXBHNEc1eFA5UXcwM254b0lOZHlpSTBZRTN1R0RndWVyampjS3ZSRlE3ckVMQzNCZzN1U25sY2V5NWdFU0JnNW80eEZHc0pVc05CcVNIdmRSdTNHTzctdnZsbjV2SXlDUWMyMy0wRmhNdHZiMVN4eU9PbUVxTnlUZ0RJRklrYl9XSEhud2paaUJxQVRRbXVNQlM3b3QtXzlqZlpvU1JOcXp6amJoMTQxQU1hdUFnUlhsTXFaWDN1Q09PNTM5aXAxc0VuMGtwVF8zUlJjSGxhTXJFdGVHOFNCODE5bURESmhqSlpOd0pSM3dVaVE?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOWWxmbjJzdzRDTk85RlNhNHRMWndLODhuOHgzNGp0a0szOU9xaVgyeG15VUdnR0YxODJJMlZZb0tmM3VNQTZjZEpRbnViZnRybl92dFpJc0haTHVqNV9zdG5XZDUzcS0xcTBabU95RXQtMDExTHRUQTktcGpUNldsbnZHQTBLbjlMWl9ZclNCdFN0V3hZTi16X0pWSVRqZldKTTBiRG9OaTJwOE5hRVZGRWtqRFVKaHhqRlcwbG5WNXl2dnVVMVAtdlJkZWlJelRuQlBVR1ZQR25uRTZNQzJIQXJfTDAyRWtQTXBEM0s0RmZSTUc0ZzBzVGVWNTBieEZPSVZ4d3lrM1NITEk?oc=5",
         "resume": "",
-        "heure": "2026-11-27T08:30:08.000Z"
+        "heure": "2026-11-27T19:15:39.000Z"
+      },
+      {
+        "titre": "Fêtes foraines à Nice et dans les Alpes-Maritimes en 2026",
+        "source": "eVous",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WYXM0NEZCaWZDLTQydVpMeTVianFHY2V3b0lwMzdtUGd4M2xjMTlDQkYtLWtxcXpnTjhPNVlPYlFiVm11WTdfZEpxaFNDekgxLXNnNDd3WHVwRG01NUltU2JwUUNNdXR4STFNZA?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T13:14:03.000Z"
       },
       {
         "titre": "Les rendez-vous du week-end",
@@ -321,6 +664,7 @@
     "auteur": "Théo Marchal",
     "sources": [
       "Nice-Matin",
+      "eVous",
       "l'Essentiel media"
     ],
     "chemin": "/sorties/2026/11/28/revue-de-presse/"
@@ -333,51 +677,51 @@
     "rubrique": "Sport",
     "emoji": "⚽",
     "type": "revue",
-    "titre": "Les footballeuses françaises renversent le Venezuela (4-2) en match amical",
+    "titre": "Lou Jeanmonnot et Eric Perrot troisièmes du relais mixte simple de Kontiolahti, en Coupe du monde biathlon",
     "chapo": "Résultats, transferts et grands moments du sport. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Les footballeuses françaises renversent le Venezuela (4-2) en match amical",
+        "titre": "Lou Jeanmonnot et Eric Perrot troisièmes du relais mixte simple de Kontiolahti, en Coupe du monde biathlon",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/sports/foot/l-equipe-de-france-feminine-renversent-le-venezuela-4-2-en-match-amical_8303850.html#xtor=RSS-3-%5Bsports%5D",
-        "resume": "Avant d'affronter le Maroc le 5 décembre, les Bleues l'ont emporté grâce à Clara Mateo (37e), à Griedge Mbock (48e), à Delphine Cascarino (63e) et à Kadidiatou Diani (69e).",
-        "heure": "2026-11-27T22:27:16.000Z"
+        "url": "https://www.franceinfo.fr/sports/sports-d-hiver/biathlon/lou-jeanmonnot-et-eric-perrot-troisiemes-du-relais-mixte-simple-de-kontiolahti-en-coupe-du-monde-biathlon_8304654.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Les deux tenants du titre du gros globe de cristal étaient associés dans ce format qui deviendra olympique en 2030.",
+        "heure": "2026-11-28T13:00:54.000Z"
       },
       {
-        "titre": "Brest bat le Paris FC (1-0) et grimpe provisoirement sur le podium de la Ligue 1",
+        "titre": "\"Si un jour tu retrouves une vie autonome, ça sera un miracle\" : deux ans après son grave accident qui a failli lui coûter la vie, le phénix Cyprien Sarrazin retrouve la compétition",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/sports/foot/brest-bat-le-paris-fc-1-0-et-grimpe-provisoirement-sur-le-podium-de-la-ligue-1_8303847.html#xtor=RSS-3-%5Bsports%5D",
-        "resume": "Avec cette quatrième victoire d'affilée obtenue grâce à un but de Luck Zogbé en première période, le Stade Brestois devance Lille à la différence de buts.",
-        "heure": "2026-11-27T22:05:49.000Z"
+        "url": "https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin/si-un-jour-tu-retrouves-une-vie-autonome-ca-sera-un-miracle-deux-ans-apres-son-grave-accident-qui-a-failli-lui-coute-la-vie-le-phenix-cyprien-sarrazin-retrouve-la-competition_8297808.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Le skieur français a été sélectionné par l'équipe de France de ski alpin, lundi, pour la reprise de la saison du super-G, qui aura lieu samedi, à Copper Mountain (Colorado, aux Etats-Unis).",
+        "heure": "2026-11-28T12:53:55.000Z"
       },
       {
-        "titre": "Melvin Bard recruté définitivement ?",
-        "source": "Les Transferts",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXRjT0lRaWpFMXVjdnVoZEhBN3RkcFBxS0tITno0YkpHNjBEVE5meWxPclQzeUJsaVA0dkpseElzSFlhTWY0MlYyTndnbzJFdUZFNVZKRlNTWTBKSVhUdEpZVm41VDdVUlJEN2J2RmFtcmNuWldlWVNpSGJqMVFEUG54S1hYaE9XQTZkRGgxamYwcEM5T2w0akRTQ3BlVF9XTHU0?oc=5",
+        "titre": "Tout sur Nice - Troyes (J12 - 2026/27)",
+        "source": "OGC Nice",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMWZXWWo3MjBaeGY4RGJ3b2F6ZGZJaFdUa3JMQlRCTFNVeU42bm9LT2Q3VXJEMjhkYlNZRHlTTThyNXROUDVYVEltaVJlbnVnNzJKRmQxeWVPZ2tsXzhQS1pvTW9VemtrRjg2eFM4bDJ2RXlBaGJGZFpEQ3pJQWJ0aERKb292Zw?oc=5",
         "resume": "",
-        "heure": "2026-11-27T18:55:57.000Z"
+        "heure": "2026-11-28T12:25:23.000Z"
       },
       {
-        "titre": "Ancien coach de l’OGC Nice, Franck Haise mis à pied par son club de Rennes",
-        "source": "Nice-Matin",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajBzOHRlYm1QRmpoVzBWVmptTk1KSC1vSDlXZkpnVkNMOVIzcV8zZmhjX2Rua0FzTzZHMXVkWUdHcFd0MFRETG8yZEJVdThkQWdDMTFjajdjU0ZpbElNNy1DN2ljOW14cW05NGF5aGhlMXRzTndWZXVYN2lDeUx2YzgtaEJud3YteUF0dGRfT25TUU1lRVFkUXJVUEtNV0xIX2cwQVVjZ3kyNkxDY3liMnA3b2syT2pRN3RGa0FEQWk?oc=5",
+        "titre": "OGC Nice : Morgan Sanson, fin de contrat en juin 2027",
+        "source": "Sport.fr",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN2oyUHBqNVdHQ2VjbjNpUWRSZG9HRXJWTlpLalhmSzBYLUdsZVVKcnVOeXlCSzBHTkF6bnJJcC0zQkY1dGpIYnd1bDBTOXZYVmJxTDVEczdHNWtWTTlDT0ROR1JlamM2Rl9JMG5PSUk5QTVGTDdwNEYyZVQ3MGhhLVQyem1teHc2WUd0V3lXTDdHdGRZTjdmdw?oc=5",
         "resume": "",
-        "heure": "2026-11-27T18:26:46.000Z"
+        "heure": "2026-11-28T10:55:37.000Z"
       },
       {
-        "titre": "Vicki Becho, l’ancienne espoir devenue l’une des principales forces offensives de l’équipe de France de football",
+        "titre": "« Je veux voir grandir ma fille et gagner des courses cet hiver » : le biathlète Quentin Fillon Maillet, Français le plus médaillé aux JO et jeune papa, rêve des Jeux de 2030",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/sport/article/2026/11/27/vicki-becho-l-ancienne-espoir-devenue-l-une-des-principales-forces-offensives-de-l-equipe-de-france-de-football_6815888_3242.html",
-        "resume": "A moins d’un an de la Coupe du monde 2027 au Brésil, l’attaquante lyonnaise de 23 ans, de retour en sélection depuis plusieurs mois, s’affirme comme l’un des atouts des Bleues, qui affrontent le Venezuela en match amical, vendredi, à Nancy.",
-        "heure": "2026-11-27T15:30:15.000Z"
+        "url": "https://www.lemonde.fr/sport/article/2026/11/28/je-veux-voir-grandir-ma-fille-et-gagner-des-courses-cet-hiver-le-biathlete-quentin-fillon-maillet-francais-le-plus-medaille-aux-jo-et-jeune-papa-reve-des-jeux-de-2030_6816087_3242.html",
+        "resume": "Le Jurassien de 34 ans évoque, dans un entretien au « Monde », ses ambitions concernant la nouvelle saison, qui a repris jeudi, avec la manche de Kontiolahti, en Finlande.",
+        "heure": "2026-11-28T08:18:10.000Z"
       }
     ],
     "auteur": "Inès Morel",
     "sources": [
       "franceinfo",
-      "Les Transferts",
-      "Nice-Matin",
+      "OGC Nice",
+      "Sport.fr",
       "Le Monde"
     ],
     "chemin": "/sport/2026/11/28/revue-de-presse/"
@@ -390,52 +734,52 @@
     "rubrique": "Tech",
     "emoji": "💻",
     "type": "revue",
-    "titre": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+    "titre": "Etats-Unis : durant une intrusion, le responsable de la cybersécurité du Trésor travaillait sur son jeu vidéo amateur",
     "chapo": "Intelligence artificielle, start-up, cybersécurité : les nouvelles du numérique. Le point du 28 novembre.",
     "corps": [],
     "liens": [
       {
-        "titre": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+        "titre": "Etats-Unis : durant une intrusion, le responsable de la cybersécurité du Trésor travaillait sur son jeu vidéo amateur",
+        "source": "RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQckxsOEY4Z2lKNzRrc0FodWZUZjZxbm1vR0MzZnJ0bWdQMkhGWTFjdXdLd2FsVzhjZkhzNktlTjN1VnFnLVpkYkdUd052SkNXblZ5VDZvdUVPYlNubW5iYWRES0huM1ZRazZRdEM4RW9JZ2diNEl0akJacjZoWmgzeDNPQjhQcXFkb0ZELV9Rc25fYlF6ejRraVpMRXF1Q1k3eGxOd010YTRzM2FpLV9NYWNkaXlYT00xc1pIOW9sVGtsbnJUemtSeUdzaUtSOFV0TFVyVjRuTDVDM25lNjBaNkRhb3hZQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-28T10:00:00.000Z"
+      },
+      {
+        "titre": "« “GTA VI” joue un rôle de déclencheur » : pourquoi la PlayStation 5 est en rupture de stock",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/idees/article/2026/11/27/jensen-huang-le-pdg-de-nvidia-est-deconnecte-de-la-realite-et-son-ego-est-totalement-hors-de-controle_6815895_3232.html",
-        "resume": "La réintégration du patron du leader mondial des puces électroniques, accusé d’avoir été manipulé par une Chinoise soupçonnée d’espionnage, est une « très mauvaise idée » pour la sécurité des Etats-Unis, explique, dans une tribune au « Monde », Charles Ferguson, investisseur et actionnaire de Nvidia.",
-        "heure": "2026-11-27T16:00:01.000Z"
+        "url": "https://www.lemonde.fr/pixels/article/2026/11/28/gta-vi-joue-un-role-de-declencheur-pourquoi-la-playstation-5-est-en-rupture-de-stock_6816081_4408996.html",
+        "resume": "Entre le succès du titre de Rockstar Games et la hausse des prix des composants informatiques, les consoles de jeux vidéo les plus récentes sont quasiment introuvables en magasin à l’approche des fêtes de fin d’année.",
+        "heure": "2026-11-28T07:00:16.000Z"
       },
       {
-        "titre": "Pologne : l’armée annonce qu’elle utilisera l’IA de l’entreprise américaine Palantir",
+        "titre": "Cybersécurité des pharmacies : « Fortement numérisé, le secteur est exposé »",
+        "source": "Le Moniteur des pharmacies",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUkpyLWExWHRIXzR0X0RRaFc3d0Nubm5KLXI5cDE4RUVkS3JJV0FCR0ZSRFlwTXk1RHA5ekRrUWhkb05qOWhYTkhSa3hveEVRdHFoaXh3VFhVdExzYUtPUlg2NmdRanhXSDFaTzE3ejZtUVJzeG5aSTRRdlpVT2ZRT1Vkck92bl9SWEJkaU1VUk9KUy1xLUFoTFlndWJjRW9ZdUtoWGNDTzFWWHRWRDd5V1E3cks1VUUxUEV0V3dtdlpFRS1fejlhS0p1cldCYllGUTZLZXRNb3RrQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-28T06:01:06.000Z"
+      },
+      {
+        "titre": "Le plan France 2030 investit dans une école de cybersécurité à Marseille",
+        "source": "Made in Marseille",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT25YcmdMRW1Yc0RUd2x0Q3Y3TUhHSVFIZTRFb1ZzR19EWVJkQldMLUlKS3J1WmJkMW02V2FqTHJ3RDRIYm80d2ItQXNzV250OXRucUNmS0xJT3ZfaE9BbWVUeTNOV1Y3MVQzR2hCRjFLVUxaYnpOZlJiSWlUZUs0WDNYQzFNUHpTYlRTQzU5SHUtNWxPd2lxNktOejB0ZWpHU0E0?oc=5",
+        "resume": "",
+        "heure": "2026-11-28T05:57:10.000Z"
+      },
+      {
+        "titre": "Le Pentagone assure que ses systèmes informatiques sont « sûrs et sécurisés », après une possible cyberattaque annoncée par des médias",
         "source": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/27/en-pologne-l-armee-choisit-l-ia-de-palantir-pour-l-aide-a-la-decision_6815890_3210.html",
-        "resume": "La firme américaine n’aura accès ni au système ni aux informations qu’il contiendra, a souligné le ministre de la défense polonais, parlant d’un « moment historique ».",
-        "heure": "2026-11-27T15:43:40.000Z"
-      },
-      {
-        "titre": "Moins de 1000 euros par an pour la sécurité informatique... Le manque de moyens reste le premier frein cité par les petites communes pour se protéger des cyberattaques",
-        "source": "L'Usine Digitale",
-        "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNd3J5YllodUkza1Y4Q2RrXzFrOC1yMHotN3ZndS1aYWZTVThaX1d0ZGFKY1lqZHZsenlOdXhVWjFldmFsa0JkZ0hORnhwR3pfTS04OHc1dXR3RnlvRXRTWGthdjdhRnpQY0lUNlNKZWFkajNnd242YkpseHhLTkRDNndqZWxrOTl2Qk56WGNOYUhkNXRtY0w2NDJIOVNxVFJZVzJmb3Rvazc4X01EOU5rNlZBZF9EQzlwOVVHRXJsY3oxSVZ3eFhKSXVacEVHc1psN0tHNEdqdFNUTDZSOW1DblZndEI1SVJUeVd4TFNCTDRzRXQyQWxGYUdRODJ1YzFqeUxnQVRxQV95Vzd3RmxxR29nWXp6QS1jR0NTM2hfSjJ4RURRYzY0Szl2ZjU5d21GdWVqV2xnOEFlYU9BR1RPOTJKVUllUWlHNl9YS3BfS0EwY1drTmxuSndTRVI?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T15:25:16.000Z"
-      },
-      {
-        "titre": "Le podcast “Cybernation”, sur France Inter, un polar haletant qui rend la cybersécurité sexy",
-        "source": "Télérama",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbzh0eTFRd3AxRDBUbDhXXzVESUlqa244U1liY2RGYXlhb2tDaEZYTUc1emRIcG5sTENpaWF5bXpkbEQycUFzREtqZllVUmJWTW5VRk9Xek1HSU0tMVdTUncxYnlLQnhLSGQ2bEhTUUIwUTRWS2p5UGczYnlWSkllUHdfNGVleEpVRUxtaF9vVzJtUDhMbXdEWWRSdFFiOWkyUDlJSjRMZ1NEX2RjQ3JjRnJyR0plM05qNlpCOVdWUHFtM2RTWXQ4blFn?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T11:44:06.000Z"
-      },
-      {
-        "titre": "Cyberattaques et menaces de bombes révèlent les failles de la cybersécurité européenne",
-        "source": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeFB3Y1NJTndnVlJjV1Z1dVFvNXpIeUl2bEdDVVFQekhUb2taaWM4bHlHOFVLTGhKaVd6bko0eFdsb3ZQRzl6N1hRdkFTYl8xT2xpWEVsTXZYdVdlYTFNamRTaWtnVVoyZTJveW1rR3ZqaHIzUmtCaHd4VTNvR0JDUGxYRjd5WDd3U3hENGo4OVRzOXFCQ3RVMEV2dGk4RzBVZ1lNZEVCMUQ3bkw0aE9LMDRhd3AwV1U2aUtVcmV3?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T11:30:14.000Z"
+        "url": "https://www.lemonde.fr/international/article/2026/11/28/le-pentagone-assure-que-ses-systemes-informatiques-sont-surs-et-securises-apres-une-possible-cyberattaque-annoncee-par-des-medias_6816072_3210.html",
+        "resume": "L’agence Reuters puis NBC News ont avancé que le cloud de l’armée de l’air avait été piraté, exposant possiblement « des informations militaires sensibles ».",
+        "heure": "2026-11-28T05:30:17.000Z"
       }
     ],
     "auteur": "Nathan Belkacem",
     "sources": [
+      "RTBF",
       "Le Monde",
-      "L'Usine Digitale",
-      "Télérama",
-      "Euronews.com"
+      "Le Moniteur des pharmacies",
+      "Made in Marseille"
     ],
     "chemin": "/tech/2026/11/28/revue-de-presse/"
   },
@@ -447,16 +791,30 @@
     "rubrique": "Business",
     "emoji": "💼",
     "type": "revue",
-    "titre": "Michigan economic development agency finds replacement for expired business grant program",
+    "titre": "Rate of company creation reveals fatigue",
     "chapo": "Companies, jobs and strategy: the business news that matters. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Michigan economic development agency finds replacement for expired business grant program",
-        "source": "Michigan Public",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOai1nMG1fRVZmaS1DbkpvTWw5LTFWaEo5Y2FjdEVIcHJjMk1DUG1FUmlsZ3NxZk5MdmpXbnlOMFpWMEJIak5HZ3pFTklCNFdLZ29acjBlN3gwQzR6TW5LUjZZeWIwM1doMUpHYlZCR1ZuUnRKX05TZnhUQTFfeXlOMDYxclkxR3ltTVJ0RzJoQjZ1ZHdVcElWVXpjWTJmd013Z3ZGRDhMeXhvalhmOGUyYkJCR3hXbXF4QmJ5dFFXN25qbmc5bDR5LW9xSFFpOWZhaWtycFJ3?oc=5",
+        "titre": "Rate of company creation reveals fatigue",
+        "source": "eKathimerini.com",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMy1KNGY5UHFqYlRoZC0wSWltcjdoUmFGN0RfOUJuYXBrMWdfT3RfYlpqUWZRMzJKQUhMRG93MTdralhyLUppeE9RSDJ5b3hyaGxVeUo5ZndDSEVhcXBCZU91WDZmOC14X3NKS0NoamhOWERLVm56UkxRcEVCb3g3dFF1ZFktb1o2bk1kMTlFSQ?oc=5",
         "resume": "",
-        "heure": "2026-11-27T10:00:00.000Z"
+        "heure": "2026-11-28T11:22:26.000Z"
+      },
+      {
+        "titre": "Small business Saturday trend has big benefits for Michigan economy, group says",
+        "source": "Michigan Public",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVBYblVHUXFxQnByYTI0MUliQ3VzcjJxd3l2M202WEExNlZwSWtUdTJMX3FmMHhUZ0tRLUNpakJ0UlZQSDd5X2hYbFkwQmNaaVFwc01pcDJzV2hnM2hEcHdmaVctamV3a0N0ZkFmWVI2T0k0bExHc1ZLOW5QaW1oVGNWME1qYXFOSEFQeVFOUGlyN2tNT0FPQVpUaEd3TWh4ZTJwbm12ZnI1aWRqMVFHVVpkRU9Nd3Qxc0pSR2g2OFVTVHBvZnFj?oc=5",
+        "resume": "",
+        "heure": "2026-11-28T11:00:00.000Z"
+      },
+      {
+        "titre": "Monaco and China: Growing Trade Ties and New Opportunities for Monegasque Businesses",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOGFERHpzNlUtNjUyaElEaDVDdWYyTEJqRTAzNHQ3VUNNc2lKaXRFQ3lKdVdxZGhxTk9YNGpqaVV1UlY5cWhndWpPaExTUWY3M0ZwRS16Q25VcHZKSjF4Rl9GSnpVMWhqMVgxT1htZXJoUmVMVFo2bmJMQ3Q5OTY0RDNudGczS0hXd2hCSXhvTEVSUG50dlpHS1czSHBla0FmdWJjMXl4RE12UUtGZ3lMUmRrb1IzTURzOTJ4M3VuUVpfM1h3VmhhVQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-28T10:30:03.000Z"
       },
       {
         "titre": "Why is there a shortage of 'wizard' elevator mechanics?",
@@ -475,7 +833,9 @@
     ],
     "auteur": "Camille Rostand",
     "sources": [
+      "eKathimerini.com",
       "Michigan Public",
+      "Nice-Matin",
       "BBC News"
     ],
     "chemin": "/en/business/2026/11/28/press-review/"
@@ -497,20 +857,43 @@
         "source": "MoMA",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBndlZSbHJ6c3luNC1QbVZtMnlYeHFBUWNzRmtseFg3MXk2Q1JZZzg2dGZsdjNaTVFRQTZjX0k4bzh1OTk2MGlyRXhPd0ZyM05kaG52TXc3bmladw?oc=5",
         "resume": "",
-        "heure": "2026-11-27T19:01:48.000Z"
+        "heure": "2026-11-27T21:26:31.000Z"
       },
       {
-        "titre": "Surrealism and performance exhibition to open redeveloped Tate Liverpool in 2027",
-        "source": "maxwell museums",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcEt5RkV4R0lGX0ctVDZDMFlINzNHbWowZTYxd0Z1eHZ2cDluOUlPNzRvU0Q5U3Y3OW9sRUlxUFRIbXJTRC1NVmtTV09tZDg1cEZZMDRIdHNXTGJTTTFaS0QweTNTNEYyNjhXZG1WRXVKUkt5ald4ekpuT25iSTRURV9sbVQ3QnpfTXRxdEp1c1BxU0I2anZIRkg2NXYwcUZ3ZHFvVlVEZnJlLU81bnE3cVFXR1Qxa0k?oc=5",
+        "titre": "2 for 1 tickets to The Secret Life of Colour at Bristol Museum & Art Gallery",
+        "source": "The Observer",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU19iUVMxTjR0QnNxM0d0eDlzRXotRFFGem1UZ1pZa2xoUDV3am80U1RhRTdjaVFfdVZISUFqQm85RHJ6V0RNdzhRTDdCZFdsb1JnUFA1Zl9meWltbEU2blRHcGR1VENfVWN4bXNjend6a0k2dmxHZWtETmlXSkZPYTBkdjcxQy1hNUtXdUV0Qk9uejU4aHk2dV9xWkhMN3ZwM3NFazlVdEhjdm9iTFpQZnk0cHVHcXp3cXdWWG5qeU1SQ3M4?oc=5",
         "resume": "",
-        "heure": "2026-11-26T12:12:41.000Z"
+        "heure": "2026-11-27T13:42:58.000Z"
+      },
+      {
+        "titre": "Jean Reno Dines at Nespo, the Nice Restaurant That’s Become a Celebrity Hot Spot",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUHY0Vm9lMVd6c1ozeTFmVWZvSllDczE5RU43U3p0cXA4RTVrYlhaTGthWl9YdDlRQkxuZHRrNFpINnNqSlpCWWFwNHAyMktjVDFhcmhYOTVUVWxjd3NWQkJhLVFXS0RjY2RTVFljclQ4UkVIRDhtUU5HaWF2TU1zTzg4c1JrQ2Y3RDNMOFhac1ZrT3JHNDVnRVBFeXd5bF9zN1hRT1F0LWt6dmtaMzZFWmVpMU9lSHhTMmh2NFJtVkFjeWpObDUxdXZfY0g?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T15:36:04.000Z"
+      },
+      {
+        "titre": "Brad Pitt and Angelina Jolie Settle Legal Battle Over Château Miraval Wine Estate in Southern France",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTm9pN1dfVzJxYmZ6b3djcnFmVXFoQ1NSTkVFT2luekExd0xVT1l6Q0M1RWt3ZEozY3lFX19INFZXVmZPb01sbzgxbldFdUwybVdCbEVsY28xRzNVUUlrOE1vZFNsNHplUDhRWnZYaElYOEFqMmV3ajh2OXdzQVhEVndLU0lUZGFnVHJ3OTFVME1SbE5XVE14TC1FdkJtYnBCYmVfRS1jdXhhZnY1clhJQWFQZ3FlVWtibzlUNGVwWW5hVWxPQk9kZ0ZVZVdEVVhRbTJEaDItWWJZMnR1Y1VERmt1anBWTkMx?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T14:35:01.000Z"
+      },
+      {
+        "titre": "Brussels unveils huge art museum",
+        "source": "Museums Association",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHFXNWRUNE9PcWo2X3dGSHhPQ2phQTA4bW9pbTF3Y0MxdkNHNERCMlNMQTF1ZWRqX2hZSEU4OHVNNW82a3BIbE5mQUtoeV8xM3dMRmstRVRpWE1YWlNCQXFreHNoNXY1ck1tLXBhNWRkaUFlMkVWNXAwSTFIR3pFb1owdkhsblhmQldxWHVRQVVtczRncVBRbXh5Y21NZw?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T12:16:34.000Z"
       }
     ],
     "auteur": "Clara Venturini",
     "sources": [
       "MoMA",
-      "maxwell museums"
+      "The Observer",
+      "Nice-Matin",
+      "Museums Association"
     ],
     "chemin": "/en/culture/2026/11/28/press-review/"
   },
@@ -522,36 +905,28 @@
     "rubrique": "Events",
     "emoji": "🎪",
     "type": "revue",
-    "titre": "The little Welsh town that transformed a Strictly star’s career",
+    "titre": "Actor and comedian PJ Gallagher dies aged 51",
     "chapo": "Trade shows, festivals, concerts and big gatherings: the events industry today. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "The little Welsh town that transformed a Strictly star's career",
+        "titre": "Actor and comedian PJ Gallagher dies aged 51",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cx7v2r8nr00mo?at_medium=RSS&at_campaign=rss",
-        "resume": "Layton Williams credits living and working in a small Welsh town with transforming his career.",
-        "heure": "2026-11-27T22:03:22.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
+        "resume": "PJ Gallagher appeared on Irish television for more than two decades with shows including Naked Camera and The Young Offenders.",
+        "heure": "2026-11-28T13:34:39.000Z"
       },
       {
-        "titre": "Alun Wyn Jones urges men to talk about hair loss after transplant",
+        "titre": "Take That say 10th number one album feels as special as first",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c5742dygzn31o?at_medium=RSS&at_campaign=rss",
-        "resume": "The former Wales captain said he wanted to encourage more men to talk openly about hair loss.",
-        "heure": "2026-11-27T20:03:11.000Z"
-      },
-      {
-        "titre": "Accor’s Rob McIntyre joins Business Events Industry Aotearoa board",
-        "source": "CIM Business Events",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY0padXNmcmlnS3JpaUIyNkRlejlielhDM2JhcGs4cFc1STNqYkMtUkNnTEJqdkpQY0xJeE5NSDFQaUItdWVpUGpmRVZOSmE3ckdDYkdVTzNURkh1bEpwM3JiQ0FWZkxNczdLbkcxbGxPNzZERmZaNUZ4Z29iZjV1a1lZNGZpSDRnSVlNUUVUQS1tOVhISThoSFYtSUNYLXhtekpYSjNn?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T00:45:17.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/cvlyj7wy7j5go?at_medium=RSS&at_campaign=rss",
+        "resume": "The Manchester group has topped the UK album chart with Dreamers.",
+        "heure": "2026-11-28T12:45:19.000Z"
       }
     ],
     "auteur": "Léa Fontaine",
     "sources": [
-      "BBC News",
-      "CIM Business Events"
+      "BBC News"
     ],
     "chemin": "/en/events/2026/11/28/press-review/"
   },
@@ -563,23 +938,30 @@
     "rubrique": "Finance",
     "emoji": "📈",
     "type": "revue",
-    "titre": "Global markets rally as end of bruising month approaches",
+    "titre": "How to get more UK money into UK equity markets",
     "chapo": "Stocks, markets, interest rates and crypto: what moved today. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Global markets rally as end of bruising month approaches",
-        "source": "Euronext Markets: Real-time Stock Market Data | live",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTHRoZURoRmN5eXcwS002MmVwbllrdUdLZkh6bTA2TEhHTmJqSjFCVk1EaEljUnZSN2g5dGVrWTFuU3NqWHdqVVFmVmJvcndFTUNqUmRtV2hFdmpNYUlxTGxEeE1nemo0UlhVc09uRXNsWnVfU1VfSnNaLTdYaXY5bENxYnNRZm5Yd1dOZXh1bFdYZU45TGFYOFpn?oc=5",
+        "titre": "How to get more UK money into UK equity markets",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXo0b1hzQU82XzUwVzY5WWpBTVRtei1QN28wNTh2TnhjVGxMdWpYRHJyTG1wN0FEMjJiQWdTUFZ5ekFvSTBsNXd6bThfVkxiRWVNajRDQjZRaHViNEVqUnE2TjVabkgyQlVGTHZqWURoT3hkRkx1OUNpNWlPY3VJc3Q2Ny0?oc=5",
         "resume": "",
-        "heure": "2026-11-27T15:56:32.000Z"
+        "heure": "2026-11-28T05:00:41.000Z"
       },
       {
-        "titre": "Stocks gain as tech rebound holds, but Nvidia dips",
-        "source": "Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNW9yYXNPa3ItRFJKSmNzN3lzR1hMM1JlREFCdWRVbkY0VGtBRVBUSFBmOHNJYnBDWTZneWZKX25WQXZndWxyZVVnamE2QmpmQ0FhM1RqdVVMNUNWOFhtQWxFYzhDcDBNSG13OExOTzFaMjY3enpXbVBUdGF3eXlQS1BjaUF3cGJh?oc=5",
+        "titre": "Americans Are More Exposed to the Stock Market Than Ever Before",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwajBpX0pHSkQ3RFZLUTFTZlN4Um0xdWFJOEhJd0ZaT2VYQmVpeEEtWVBqdVZ2YnVyNkUzTC1pMm9mSGd2ZGFwQkZWd25iSHZRV1lYZUpFM2tnVTU3VjNsSXctWTRMM2tuT1BIMk1IX1ZHN2tt?oc=5",
         "resume": "",
-        "heure": "2026-11-27T15:09:29.000Z"
+        "heure": "2026-11-28T02:00:00.000Z"
+      },
+      {
+        "titre": "Wall Street ends higher as battered AI stocks gain in volatile week",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUWJJc3ROZk0wcEN4cGlsTjNfUmVCcmh6bnZrNXkzVjAwdVMwOC1ZQUM2bUVUMHBSbGVSdEFqNTFIUC1XM3lfYTdaUFNUNWhUdlhVVjNCMEJmaG1LaEEwRDF2TndBbk9fTkRucTJPYkhza0hEMk5tWmV1MHI4YUZ2Z3lIOW01dFJ2SGJHSFJSSUR1ZU9wMThUbDlhNXA?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T18:37:33.000Z"
       },
       {
         "titre": "Investors fleeing AI stocks may own more of them than they think: Chart of the Day",
@@ -589,27 +971,18 @@
         "heure": "2026-11-27T11:00:00.000Z"
       },
       {
-        "titre": "Europe joins global stock market rally as AI trade rebounds - as it happened",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTVJ6em5seEtrb1dnM2RzUzlmTmFWVDRjUC03b2V0bjh4c05jZzMxRVlNektCM0xfZ2k0UEFzWjl6bHpTWmxvc0hsQWYyTlhpQVFUbmpzMmZQby1TUFNSRUw0dFQxN19SQ0YwUi1yaVZPYW0ybnNLN25JbW9OejI0SU05NUVqSXJCcTc4b2Vzbk1hcHc3bldFSXF3aEsxbzc1M2Q0RmFwclVVOHd2allNY1dDRU1KMl9rQmhpeFZSTFJ3cWZteHlualkxX3FpcWdjSUxkLWhFbmhsMlQ2MEE?oc=5",
+        "titre": "Trump Can’t Rescue the Stock Market. Here’s What Can.",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUkpRejhPeEh2RnhWZndBWFpzM0pBNVBpaVVpOVBMaGVPSW9oVlgzU3hNVVBqTnZWejQ3QlpYX3BheFh2M3RwanhvdmZESll0UDI4eHRYUEJIUUtYSDB3ZmxNdDNQSVJsZWgybW1VT0RSSWpUb1drY2ozY2E5VDh0OUxxME5oenctV0lpWE1xYk9kY21Zal9jVA?oc=5",
         "resume": "",
-        "heure": "2026-11-27T07:47:00.000Z"
-      },
-      {
-        "titre": "Asian stock markets rise after earlier tech rout",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdGVRWWVjMXZERWVTSkhGRDFoSTFXVE1NeGY4cVdYSmQ0MkQwUFNnSXU2enI2ckEzREZrTmFVWFhMVVNKbnhuc3dQSjB1X3JTN2dNeWNwNGhFcDJmWUYzSnAzeUQyWHlBU21sY1VWWHl6a2RuRWRwdmZ1Y1NtSFpkcGs0RHR0T1RuUVJZREtCMm44RWNra3FyNtIBngFBVV95cUxNZUR4RVgzSXFQeEp5WktydzV5NjF4eU1XblVwdVRnUEh6MEZ5a1hvZmI1QmVuM0VaQkd2dVpQRGhIZ09IeEp4ZTl2WHpfNVIybjJ5X1Z2SElYUzl3UndYNkYyME5rNHoxeUt5Tmd2QVJud3FDb3p5Vk1MRnJRc3l3bkZ0eng3ZzUtVVZuSlVmNUdZMzVGWDZEYmlYWVFaUQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T03:46:18.000Z"
+        "heure": "2026-11-27T10:30:00.000Z"
       }
     ],
     "auteur": "Hugo Marchetti",
     "sources": [
-      "Euronext Markets: Real-time Stock Market Data | live",
-      "Yahoo Finance UK",
-      "Yahoo Finance",
-      "The Guardian",
-      "Al Jazeera"
+      "Financial Times",
+      "WSJ",
+      "Yahoo Finance"
     ],
     "chemin": "/en/finance/2026/11/28/press-review/"
   },
@@ -621,52 +994,52 @@
     "rubrique": "World",
     "emoji": "🌍",
     "type": "revue",
-    "titre": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
+    "titre": "Afghanistan explosion kills 10 students and injures more than 100, official says",
     "chapo": "Around the world in a few headlines. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
+        "titre": "Afghanistan explosion kills 10 students and injures more than 100, official says",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
-        "resume": "The Canadian man, who pleaded guilty to 14 counts of aiding and abetting suicide earlier this year, will be sentenced at a later date.",
-        "heure": "2026-11-27T22:03:46.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+        "resume": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby.",
+        "heure": "2026-11-28T14:10:01.000Z"
       },
       {
-        "titre": "Spanish PM and rivals rally supporters in final pitch for votes",
+        "titre": "Argentina's bid to stop Falklands oil drilling rejected",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
-        "resume": "Prime Minister Pedro Sánchez wants to defy the polls, and his main rivals accuse him of not telling the truth and of \"betrayal\".",
-        "heure": "2026-11-27T21:55:53.000Z"
+        "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+        "resume": "A joint venture between UK-Israeli companies is set to start exploring for oil and gas, but Argentina sought to block it as part of its claim to sovereignty.",
+        "heure": "2026-11-28T13:36:36.000Z"
       },
       {
-        "titre": "Decommissioning projects in Germany and Switzerland near completion",
-        "source": "World Nuclear News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmZNMWdhYzZOUk9RY1NKVWtDbENwWkpaS2xLbUt4N0M1eTROZndCS2xGdDRudmEzdlJpcmd5dW9qQ0JIczFVMG0wZm9BTE1rTVBGT19hX3ZjVXZESThqZm80TFdIeUR0VlhLYW02Wk9jT2otcUYxNDRuYnBWWlRVNF94bnhVNnFzZWpETERoNVEyUUg2RFBkSlJMYVMtekF0ZXNiaV9YQmtSeTA?oc=5",
+        "titre": "Court rejects Argentina's bid to block Falklands oil drilling project",
+        "source": "Sky News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMnQ5S05MSUoycEFyMTBIdW1ZbGdvbFJqaWMtQzBZeEh3NDIxVktUdml0S2hQTkRoMXlvQUstYi1fZUpKVGZZaVdac0lOZFJjVVRtcDZwTzRycHlmbUhSS2xQZUFBcTA2b1J1SGdQVHh1ak1tVVBJVHBwcFFhb0VmalRmenZfWU1LSS1PV2x4UkItaDhCZF93MlhpVTlQQ25JU1NtVUN4cw?oc=5",
         "resume": "",
-        "heure": "2026-11-27T21:41:24.000Z"
+        "heure": "2026-11-28T11:58:42.000Z"
       },
       {
-        "titre": "\"Strange\", \"Killer\": Zelensky Denounces Trump For Calling Putin 'Friend'",
-        "source": "NDTV",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNWNxRXo0V1IxUXJVQTRGZlgwbHJXQnFXZUtkSW1BMEpkczB6T2lZMnlzZ2pZeXdEam1WQUZYOFZxNHJvRVgxUWU5ck02Y3V0dk5SUG9ickVDU0UxNl9SSGI1engxMy14bGkzWWlIT3VRNWtZMm04MXdRYjROSU1VR21tUWtvdm9fdWxab2xzVWJzT2hDakxybENudkg2Smc1WFHSAaoBQVVfeXFMTWhCYkR3RGxHcWttQWE3V3VMODhPSFpIUWg1R2s4dVVKUnJYX3ZiUWliLVR0c2lEbmQyNldPX081OEluVFJITXBTZzIxUjFTSlg2TW11SWViNVpuTGpJb3Y5RWx6bkZuTjc1MEphcmw0UUs1TUNoYm56eTZBYzI0SkhlbTVDdGVmS1pVRmlQeUNxSmR2cnU1NEtGTUZIUl9fOS1hVGNTWExvQlE?oc=5",
+        "titre": "Thompson and Spencer seal Women's World Cup spots | News | Official Site",
+        "source": "Chelsea Football Club",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZEpjMWV0ZVNOMFItYk1lODk0cUZzMjNnNzBYb3laZFRjLWdfcTlSd2dVcHZoaW1aVlBFaEtZWVlYN3I5VkVZQ2hwc2hfWUJYZjNMd09LYUIzZ0laZUxyY3hZYWFDdUpfQnpud2R6VWlEd2s2elZzTjdHZ3VrSEhQcU9OMUpzSDdKdEt1TExrT0J3RkFm?oc=5",
         "resume": "",
-        "heure": "2026-11-27T20:46:40.000Z"
+        "heure": "2026-11-28T10:00:00.000Z"
       },
       {
-        "titre": "UK man jailed for online blackmail of vulnerable girls around the world",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXhYbG1VeDhLQmYxTXpJN2RWa2t6UkRXZ2hic3A4dmJJQ25fNVBRTHE3ZXhNRUVJeG5lQ3l0WWhtaXNQODNMMlpkOG9DZnh4WDFvOUNHbGR2aW1qclJWWDN2MW9aUHM0Z3YxdEFvT3c0XzZidFdaUllvQjctSEhjdHJXU1JVeEdxVG5uYjdhYUlWVUl0R0F5NGN1NWxNc25qTmZoMjVvRFlvWHREbjNUZjdn?oc=5",
+        "titre": "'Fantastic news for world's largest Brontë collection in Haworth'",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YZC1iZlpiTkZMQVdzWFhQNEI4ek1peHVHTlFmc0pvTV9qYUVwZXRXRDY5RUZjSlFsemNNRllaQXNXdDhLR25aLVdGY0tqLTJ2cjY3QlRMaTJ3TDd4d0E?oc=5",
         "resume": "",
-        "heure": "2026-11-27T19:11:00.000Z"
+        "heure": "2026-11-28T09:58:57.000Z"
       }
     ],
     "auteur": "Sofia Delmas",
     "sources": [
       "BBC News",
-      "World Nuclear News",
-      "NDTV",
-      "The Guardian"
+      "Sky News",
+      "Chelsea Football Club",
+      "BBC"
     ],
     "chemin": "/en/world/2026/11/28/press-review/"
   },
@@ -678,52 +1051,52 @@
     "rubrique": "Nice & the Riviera",
     "emoji": "🌴",
     "type": "revue",
-    "titre": "Hearts vs Monaco | UEFA Conference League 2026/27",
+    "titre": "Igniss Restaurant: Mediterranean Twisted",
     "chapo": "What’s happening on the French Riviera, from Nice to Monaco. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Hearts vs Monaco | UEFA Conference League 2026/27",
-        "source": "UEFA.com",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10cjFhaDlQUllablBtSHRJNUJiVFdLVFBxRzhsQ0xFX0wyamtOQXZPcTIyRjBHMlozdms4MHBjakd6am9TSWxyb2FCOUprMHR5cnhsOGQ5ZFRpVzhjakNGZnlmN3NUaFMwUV9UNVJSSXB2M2lzNVM2SUVfU3VvVFk?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T21:31:21.000Z"
-      },
-      {
-        "titre": "Ligue Magnus: Marseille Spartans in demonstration against Nice Eagles",
+        "titre": "Igniss Restaurant: Mediterranean Twisted",
         "source": "Nice Premium",
-        "url": "https://www.nice-premium.com/ligue-magnus-marseille-spartans-in-demonstration-against-nice-eagles/",
-        "resume": "It was a derby evening in Ligue Magnus this Friday night",
-        "heure": "2026-11-27T21:18:35.000Z"
+        "url": "https://www.nice-premium.com/igniss-restaurant-mediterranean-twisted/",
+        "resume": "Located for two years in the Port district in Nice, the Igniss restaurant offers modern Mediterranean cuisine, made from fresh and seasonal products",
+        "heure": "2026-11-28T10:56:00.000Z"
       },
       {
-        "titre": "Pro D2: Nissa Rugby concedes another defeat against Soyaux Angoulême",
+        "titre": "LGBTQ+ in Nice: when school becomes a battleground for rights",
         "source": "Nice Premium",
-        "url": "https://www.nice-premium.com/pro-d2-nissa-rugby-concedes-another-defeat-against-soyaux-angouleme/",
-        "resume": "Too imprecise in attack, Nissa Rugby suffered at the hands of the Angoumoisins this Friday evening",
-        "heure": "2026-11-27T21:08:28.000Z"
+        "url": "https://www.nice-premium.com/lgbtq-in-nice-when-school-becomes-a-battleground-for-rights/",
+        "resume": "In the corridors of middle and high schools in Nice as throughout France, homophobic and transphobic speech seems increasingly unchecked",
+        "heure": "2026-11-28T09:00:00.000Z"
       },
       {
-        "titre": "Bains De Mer Monaco H1 Operating Profit €119 Million",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaTg0eE1SSkR5d0ZiNmJuLU1LYWg4QXFxSUxrb1BLVFJSanRZNW1QeXpwcHM4X3J4YlFBZlQ0ZGlsTVlITUJ4Zl9rLXZMRHk2eUIyUEV3N1NtR1M1aUpuT1VUbFlkN2FyUXp3ak9IWkZVZV9LdDc0R1BtVmNlbW1QcTRmZzMxMXpRNEttQXZBTEhacmhkUEpiSTdMbWJ5T09tT1piUjFlZWxmek5QRF8zbHhfZ211dGhkRk42bFZ3?oc=5",
+        "titre": "Destination Monaco: An F1 fan’s guide",
+        "source": "Formula 1",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkVqYTY2TlZxLV96LU5FRFF5bms3NmRNZXluRVNsT3Z2V25QWWJIRkNSTTVaZTVRLXNNaVJBWXROaWJNU1AwM3hIOVhSWmYyTnVfSjExX2Vja1VzLVZWM3YxZHR5SWJFNE9xcnJZX2lxbF9nZjhlMlJjWDQ5T0xkMmZCS0dobUFaSG9kUmJUTERWa3VUcDZRc3FseFBKR2t4c3Fr?oc=5",
         "resume": "",
-        "heure": "2026-11-27T18:02:17.000Z"
+        "heure": "2026-11-28T02:00:17.000Z"
       },
       {
-        "titre": "Lyon vs Monaco Bet Builder Tips: a 10/1 shot for Sunday night",
-        "source": "Squawka",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdTRJOV9qRmo1YjdYNFhVWjlUN1RuQk94RjBJVTRZS2g2SUZqbTRDdHRVSDNnRnhWUW5fMjVmQ3M5dEpoU3BpLXljT0lsT2U2U3plS2xLWUExVHhhUF9ZbnRiOGxOYlZVTDBsU0xUM1ZYd0t5eXBJSTF6YXprdl9xcw?oc=5",
+        "titre": "Preview: Lyon vs Monaco - prediction, team news, lineups",
+        "source": "Sports Mole",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUjFvclBfLVRlSXZOQm1RbUEzNVRIT2NzSm1OT05nRkstVUp4anlIX19DNmtnV0tjdGM4b3RSNlBhQVJ1TUR0MlpYMUFwbDNOSmRkZ3RWdndVM1BTZmdsYS13QjljSWE3d3RmRi0tUWI0N3J1NTJCQTNvdUhQQnZFLVpEcjdsOURsc2dNQ01GbVJ6UUJyZEhMUmV4bHhXQUx1Q1BJQjh0aXNkdw?oc=5",
         "resume": "",
-        "heure": "2026-11-27T16:57:32.000Z"
+        "heure": "2026-11-27T18:38:11.000Z"
+      },
+      {
+        "titre": "Ferraris look good in red but this black F80 in Monaco is killing it",
+        "source": "The Supercar Blog",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORnZlem1Qb1RHZGJzcUNORml4R292eVJoWkZid3IxQmc0YlRDTGVaQVVMWFpzbEt2dG1HUHhoY2s5MmsyaG1VVVZkV1k4ODdtQnJYSy1qMVlaNWtTQzBwMDcxVmtaWEpVRjVCLUYwSXpGcGswQ1REOGRwSXFOMERleTl6NExfaWZBY2NLZWVGZ1prQlJiM3ZzSFZQdWV0Tl9nT0pV?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T11:51:07.000Z"
       }
     ],
     "auteur": "Lucas Giordano",
     "sources": [
-      "UEFA.com",
       "Nice Premium",
-      "TradingView",
-      "Squawka"
+      "Formula 1",
+      "Sports Mole",
+      "The Supercar Blog"
     ],
     "chemin": "/en/riviera/2026/11/28/press-review/"
   },
@@ -735,21 +1108,21 @@
     "rubrique": "Going out",
     "emoji": "🎟️",
     "type": "revue",
-    "titre": "2027 Season",
+    "titre": "Looking Back at Monaco’s Council of Europe Presidency",
     "chapo": "Where to go and what to do: outings, shows, festivals and tips on the French Riviera. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "2027 Season",
-        "source": "Automobile Club de Monaco",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fcGJTbUFsVkZiemUwdXVaemxNOHcydWxyT0VJWkpCbjFldWxWTWVPMkF0Q2FOUXoyQURpVzd1bWN1YXpzTDhLU0Npel91QTVwVk9WdFVRQnhTdHhXMG5ZN1Uya29mYkhxWWlGTzdyZVBIOGVCMjVF?oc=5",
+        "titre": "Looking Back at Monaco’s Council of Europe Presidency",
+        "source": "HelloMonaco",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTlNXbnE4NHNTQlNfbUJsbDE0dDEwSFJ3bHhyNTg4SW1pVFZ0ekk1ZC1rRmszNm9oQllLR0JJQTNhYlNab0JuUEV0SGkySVctUVM1MHg3ZDRtZzhGcVQxUUtJNWw1RnVpYllFNjVuak8ydVRsaFVWdDd4bkd2aUY0bk16OHJHUUF1cXRMZEVKWVVpLWg4ZzZ2WHd5VzJQT0tibl9mY3hIaHZwRHNibUY2MHo2M3AxT1E?oc=5",
         "resume": "",
-        "heure": "2026-11-27T20:13:24.000Z"
+        "heure": "2026-11-28T13:07:30.000Z"
       },
       {
         "titre": "The Doha Film Festival, BAFTA nerves and 'Remarried Empress' feature in this week's Deadline International Insider. Read more below.",
         "source": "Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdGVYZ25yR2FBYUlIc2dPb1NSRU93TXdkV0stREdDTEVPMDBWOG1RNWQtMjlnLVZZazhOQUpiM0xMVlU2aExSQVNqckNNellLVzV1Z1RPanh1R0ZBRThobWt6Vk1wN0ROVXlyTHZWdzdXckcyZnEtbllIdjVRRkUtUVluUURyQlFrbnFrUTVlTlpCdUY5UV9rRHRBUldudkFVZmt2cXdaTU45RHMxWUQ3X0x3SDlKZUxFRHhSS1YxRm5Hc0hZNnZBaXFhaC1iYnVqYU1Yeg?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRlhabUZweFd4ZEJtbG95VDBMUnFNc0R4UFROZGFSY1NLVGZVRXRRQlFVNnA2Z2xmVjNfMWlNYXZuLUVWY3BHYU1Lbk9tb1h2Y3c1Y2lGUVFQRGFFV29leTRyRUdRWnR4clpXUTVraHZZWDZEY01tVWozY3VNZlk3UjhZMFF3OW44N1ZWSmhvUGJYaUU1cmxEbUdaRHZqQnEzalR0UDhWNmhkSWtXVmJrYTZiQjdKRTZOd3VLTy1lTklDd29LNFlxWm1Ca1NwWklxTG5PWA?oc=5",
         "resume": "",
         "heure": "2026-11-27T19:00:12.000Z"
       },
@@ -761,13 +1134,6 @@
         "heure": "2026-11-27T15:06:17.000Z"
       },
       {
-        "titre": "International digital film distributor Under the Milky Way urges producers to plan beyond the festival circuit",
-        "source": "Cineuropa",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6SWpCa2wzbVVrTzJEME5ZZWxZb2FEQngycWVhbTNqc0VLX1NxZFIxREJtdnlMQXFFQTFhS2pjN05FN2E1UGNzaUhldGJsZTlSbFNEZ0JfdldQYXozcGxONERselhJQQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-26T12:24:54.000Z"
-      },
-      {
         "titre": "Monaco’s waste reduction week brings together 64 projects",
         "source": "Riviera Radio",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQWdXb3Nua2pkdXVkVko3R1ZZUjVtaEZVUFBTM2wyNGs5SkZHUFcwZXZfVkQ2NFJxSjFRWGMwQ3RpVTVwSXMtM2pqMjg4SjY2VXZDdWVJMGtyWHE3eEhNWTViYzlPMlptSTdRdHlrb1drRnlKMnBQb3B6M1NobGE3TG5zQVB2cUFDNzU0VktkZHp3cDFNN2JXV3ZqODRVdjBlTXN6d2pB?oc=5",
@@ -777,9 +1143,9 @@
     ],
     "auteur": "Théo Marchal",
     "sources": [
-      "Automobile Club de Monaco",
+      "HelloMonaco",
       "Facebook",
-      "Cineuropa",
+      "Automobile Club de Monaco",
       "Riviera Radio"
     ],
     "chemin": "/en/going-out/2026/11/28/press-review/"
@@ -792,23 +1158,37 @@
     "rubrique": "Sport",
     "emoji": "⚽",
     "type": "revue",
-    "titre": "Wilshere v Ramsey - Arsenal legends treading similar managerial paths",
+    "titre": "England call up Wubben-Moy for World Cup play-off",
     "chapo": "Results, transfers and the big moments in sport. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "Wilshere v Ramsey - Arsenal legends treading similar managerial paths",
+        "titre": "England call up Wubben-Moy for World Cup play-off",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cm1dvn9w1px4o?at_medium=RSS&at_campaign=rss",
-        "resume": "Eighteen years after making their Premier League debuts two minutes apart, Jack Wilshere and Aaron Ramsey meet as managers.",
-        "heure": "2026-11-27T22:58:49.000Z"
+        "url": "https://www.bbc.co.uk/sport/football/articles/cwe9krv444mjo?at_medium=RSS&at_campaign=rss",
+        "resume": "Arsenal defender Lotte Wubben-Moy is called up to the England squad for next month's Women's World Cup play-off ties against Ukraine, with Lauren Hemp and Jess Carter withdrawing.",
+        "heure": "2026-11-28T13:41:04.000Z"
       },
       {
-        "titre": "Five-try Ireland beat Australia in autumn finale",
+        "titre": "Work in progress but Liverpool find belief again with Iraola",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw987l0ej11mo?at_medium=RSS&at_campaign=rss",
-        "resume": "Ireland secure a fifth-place finish in the inaugural Nations Championship thanks to a 38-14 victory over Australia in London.",
-        "heure": "2026-11-27T22:17:45.000Z"
+        "url": "https://www.bbc.co.uk/sport/football/articles/cmn4k7vdqx4vo?at_medium=RSS&at_campaign=rss",
+        "resume": "With the attack finally firing and Liverpool looking more solid at the back, Andoni Iraola has got the fans believing again. Just in time for derby day.",
+        "heure": "2026-11-28T12:36:26.000Z"
+      },
+      {
+        "titre": "OGC Nice predicted XI v Troyes: Mohamed Abdelmonem to return, Xavier Mandza dropped?",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZFJDTGhFemY5WElsSXE0Yl9xZkZCUjJ6TmtURUt4RkNkU3FmREQxSkFzNGdMMEpGeXVBZW92Nlo1OWV0aU9PTl9LUnB5S1BiTGgzd1JtVnVFRlJGMjlybkc4ZUNQSFVSLUpHYzRLRmdOQ3RVM3V3QTdiN0dBblpqbDZlSjFTQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-28T10:08:00.000Z"
+      },
+      {
+        "titre": "Where to Watch OGC Nice vs. Troyes: TV Channel, Start Time and Live Stream",
+        "source": "Bleacher Nation",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQazBDUW92d2dRUUZXTlgxVXQ2YlVVQXV4VTYtdXhUbHh0SUU0VGtkekVLMFFMb2JmNUVEQy10ZWIzT0NtNXZEcVpBX2NRRWFVci0tTGdCaVljNVh6dzRWX3VXME0zcDlodjhHSlZYdWNNWVlIV0lqVi1RbjRBRURTZ0V6VnFPakNac0twTVhlakphOUt5MVhUODQyRjF6YzFFbkJTNGZhMF92NW11ZlMzT0dIMUtjZE1DenBRUkc3YndwQ3BQNWc?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T23:16:41.000Z"
       },
       {
         "titre": "Nice-Troyes: Nice host with three absentees and 17 points",
@@ -821,6 +1201,8 @@
     "auteur": "Inès Morel",
     "sources": [
       "BBC News",
+      "Yahoo Sports",
+      "Bleacher Nation",
       "Tu Futbolero"
     ],
     "chemin": "/en/sport/2026/11/28/press-review/"
@@ -833,53 +1215,52 @@
     "rubrique": "Tech",
     "emoji": "💻",
     "type": "revue",
-    "titre": "CEE Tech Weekly: Lute Raises €17.2M, Eleven Closes €57M",
+    "titre": "Pensions and benefits services still down after 'cyber incident'",
     "chapo": "Start-ups, cybersecurity and digital life: the latest from the tech world. Our round-up for 28 November.",
     "corps": [],
     "liens": [
       {
-        "titre": "CEE Tech Weekly: Lute Raises €17.2M, Eleven Closes €57M",
-        "source": "The Recursive",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaE01MmlTUEtNQko0b0VJTzN6Zjh6ZFVCVk1ldVMyWEJBT3FqR0VLY0RBLVZUM2QwaWNpYkQxNk9ZRG9GZk41c1pCWlY2Yk1WR0daSkhxdUh1QU1ublFtNjBDeDVLbW9WbU13emdadlZvZ0F6VWdUM0hjQ3JqSkpabUtQc3RsY2ctOGgyeEdYSk4xbnNqcllZYy1jNmVJVmF3VWhsZEhCRVloR1hS?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T17:32:28.000Z"
+        "titre": "Pensions and benefits services still down after 'cyber incident'",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cm1wrgqyq4d8o?at_medium=RSS&at_campaign=rss",
+        "resume": "The UK's former chief technology officer says the Department for Work and Pensions may have been hit by hackers, but the government has not confirmed that.",
+        "heure": "2026-11-28T13:02:10.000Z"
       },
       {
-        "titre": "EIC Pre-Accelerator & Accelerator for Western Balkans SMEs and Start-ups – How to Apply Workshop",
-        "source": "European External Action Service (EEAS)",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNmpIa2xkbUNmVmRIZXRMNFF0N2RaTjU3OFpTbUUtTk0xNnppZVRTckhRRkR1VzBzUU51RnFXYm5LUmFtZ21QNnlRNndKdzNLZWhfbjZGd1pWV0wyT3puQi1yZm9kMmN4WUs1di1GMklPcm5wTTFDUktrSXpTRDlsMnlmdV9fYXM5UW1hM1Z4ek1qMEZXQndiTUtWVlpfUHBYZlhFaHZUcm5DLXo1cnlqUWlzaERkSlZKUy1IOHUzc0ZxRENaZ0x6Zm1ENXk1WkdHVXdXYQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T16:14:05.000Z"
+        "titre": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+        "resume": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.",
+        "heure": "2026-11-28T11:35:34.000Z"
       },
       {
-        "titre": "Belgian cyber insurance startup Inqase raises €1M",
-        "source": "Tech.eu",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDlkbzA0Nlk1TXR4Tm1SLUxxZWhkNzd5NzRJUjBCVkVETFByQ0k2Yzl0RkIyNVpsd1hjS2hmV21sbG5QdHNMMHFfRE1zZWxxSzF5U2JqMFNlUzhCS05RNnlCYWdSQjFVWUFpZS00aTlXLVlwOFlLNTMtamQ2REVaOHo0NUU4UQ?oc=5",
+        "titre": "Could AI break encryption? What mathematical breakthroughs mean for cybersecurity",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNHAxM3BibFJQcXdRTThreUROWVplVFpnQnVjRktrbHJROHZxLWs0a1JnejVVeW93RjVOb0dZX25JcXhVUWttUFNwQnVkenRQM3p6ZHN1ankwazRIWFI2SWdKZlNkQkRxSHJ5cEFsbXZMV28yZTZ5SmZVeWdWbHBpck5uM1BCbEVhQ0tUVWtVRnhTYm52ZmdJdXExOUF5dWtGUVg2NkUwaUZjTUFpd29XbF9IWVMxSlJZVFlLUmR6djJyN3hEMjI3NVZXYw?oc=5",
         "resume": "",
-        "heure": "2026-11-27T15:25:13.000Z"
+        "heure": "2026-11-28T05:07:00.000Z"
       },
       {
-        "titre": "Cricket tech startup Hitz hits £12m valuation with £5m fundraising drive",
-        "source": "Business Live",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSXItUk1EbG9ha3hSbmxCamRkcXVFcjBxMmZPb19MdEJYcXVVSEFwTjJZZnl2TEN6dTM1RU5jV3JqaTZZOGZHTHNvR2FZT3IwQjlaa0doQkVTeWdwQmJIOHZjdFd5RDdnMmpFRi1CbEI2WHBJWlpDSnYweXhlNmJwWXhqdWhFSENuSWfSAY8BQVVfeXFMTUlXczdtZEl3SnVTcnZNSmlUcHdCenc3WlFDQlJFNWVxcjU4clR3Q2pqY1U4ZWtHZWdZWWt6b0JENlBGYmxrVmE1SjRWWGJpcDUtd3NMY2RVUHJvSjVhRDJaQTEtYkpKSldjdkFuMnpMR1cxZW9JOEJmYm5XdVM1N1VQT0FJREluM1RBb19wN1k?oc=5",
+        "titre": "SAP investigates suspected attack impacting source code",
+        "source": "Cybersecurity Dive",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYnlqYmNpYnJYOHBBYzljanhaR3RiaW94OXVKYjVQbjAwZzJQUHlySHV1VURUbGhpUkRSX19SVDZOeUVPMTI5WHhGdkJwci16TVp0TjFhUENjVjZ2dFhndEg1TmhDSHBnMUJNSzlyTkdsWEQ4bUhTSHJBNzc3d2dVWEtqQ0xwa3YyTWc?oc=5",
         "resume": "",
-        "heure": "2026-11-27T14:30:00.000Z"
+        "heure": "2026-11-28T02:01:44.000Z"
       },
       {
-        "titre": "Global news agency AFP reports cyberattack, shuts down content platform",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2VaemhJM3ZTZHpmTnBkWnJQZTVqNlNDSEx3ZnhqanUzX3ZQbURiNURFNUdDc1NTWmtoRVI4ZHRXOFBGcjBuamRmYnJsQnZJd0pmNTBYQkpIYS02b1RkUkkzUWFLMThHLVIwazVIYTV4N0lHRkVGTU4yc0JWTXNFN3ZxaTlJRGNsMS12elNTU21CUGZlY1VkMzY5MERTNHFuVEpmMnRPVDBIY3dxNUVYVHp30gG3AUFVX3lxTE5VVnZOeS16aVVlMGNobmVwcnhVU1FuM0VVUzNTV1VlMXREU3NjVVRMUGxVb1R2cTR6QjhBamJJTmpiX3c1V3pwYndpOU1NNFp5RUNDQ2lwT2doalpaNE9uTk5jQlItSXdHYkpuMVlNdTNMb0JKTm9yd3NFRnhoLW5NQ1R4ZFNLMlBWcnBjelRUcDBmQkw2M2kwZndkWFZHVzBRTkhDS1JmSVJMSVdSaVdlQ2JMSjFWUQ?oc=5",
+        "titre": "Cyber security expert warns of further hacks after ‘serious incident’ at UK government department",
+        "source": "ITVX",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaDhncHppUklndjRWekJzaTlaWUxqU2ZVZHNsT0tUMXFCeEphbXpiY2M1ZHQycTVFSWJVeV9jOHZ4MDdiaUdBeW9jYlB4T2JFZXRrZWhkMElmSVhIdk9vQTktNkZ5d04xNy03Q0NUeDRBMWppMlF0ZHZOTjZQTTFvbTdmV2RSbVl1bzFSbFlYazJVa1JpX3dyaldhVVVXemp5VWs5Rk5SM0xQNXZjSWx1VHJNdXBpSEJnZjZKdHo3ay1lekFsQk9jUC0weTNWNjA?oc=5",
         "resume": "",
-        "heure": "2026-11-27T11:49:06.000Z"
+        "heure": "2026-11-27T22:45:00.000Z"
       }
     ],
     "auteur": "Nathan Belkacem",
     "sources": [
-      "The Recursive",
-      "European External Action Service (EEAS)",
-      "Tech.eu",
-      "Business Live",
-      "Al Jazeera"
+      "BBC News",
+      "The Guardian",
+      "Cybersecurity Dive",
+      "ITVX"
     ],
     "chemin": "/en/tech/2026/11/28/press-review/"
   },

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://echodesanges.fr/en/finance/2026/11/28/hebdo-finance/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-28T08:00:00+01:00</news:publication_date>
+      <news:title>The week in finance: the key stories, 22 to 28 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://echodesanges.fr/finance/2026/11/28/hebdo-finance/</loc>
+    <news:news>
+      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
+      <news:publication_date>2026-11-28T08:00:00+01:00</news:publication_date>
+      <news:title>La semaine financière en 7 sujets, du 22 au 28 novembre</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://echodesanges.fr/en/business/2026/11/27/hebdo-economie/</loc>
     <news:news>
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
@@ -14,22 +30,6 @@
       <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
       <news:publication_date>2026-11-27T08:00:00+01:00</news:publication_date>
       <news:title>La semaine économique en 7 sujets, du 21 au 27 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/en/riviera/2026/11/26/hebdo-nice-cote-d-azur/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-26T08:00:00+01:00</news:publication_date>
-      <news:title>Nice and the French Riviera: the week’s main stories, 20 to 26 November</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://echodesanges.fr/nice/2026/11/26/hebdo-nice-cote-d-azur/</loc>
-    <news:news>
-      <news:publication><news:name>L'Écho des Anges</news:name><news:language>fr</news:language></news:publication>
-      <news:publication_date>2026-11-26T08:00:00+01:00</news:publication_date>
-      <news:title>Nice et la Côte d’Azur : les faits marquants de la semaine du 20 au 26 novembre</news:title>
     </news:news>
   </url>
 </urlset>

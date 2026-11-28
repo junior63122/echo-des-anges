@@ -5,9 +5,18 @@
   <link>https://echodesanges.fr/</link>
   <description>L'Écho des Anges, le quotidien de la Baie des Anges : actualité de Nice, Cannes, Monaco et de la Côte d'Azur, économie, finance, événementiel, tech, international et sport.</description>
   <language>fr-FR</language>
-  <lastBuildDate>Sat, 28 Nov 2026 00:02:23 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 14:19:53 GMT</lastBuildDate>
   <image><url>https://echodesanges.fr/img/logo-512.png</url><title>L'Écho des Anges</title><link>https://echodesanges.fr/</link></image>
   <atom:link href="https://echodesanges.fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>La semaine financière en 7 sujets, du 22 au 28 novembre</title>
+    <link>https://echodesanges.fr/finance/2026/11/28/hebdo-finance/</link>
+    <guid isPermaLink="true">https://echodesanges.fr/finance/2026/11/28/hebdo-finance/</guid>
+    <pubDate>Sat, 28 Nov 2026 07:00:00 GMT</pubDate>
+    <category>Finance</category>
+    <description>15 informations publiées par 7 médias en sept jours. Au programme : « La tech remet le couvert après Thanksgiving, le Cac 40 toujours en hausse avant le…</description>
+    <media:content url="https://echodesanges.fr/img/stock/finance-azur-1.jpg" medium="image"/>
+  </item>
   <item>
     <title>La semaine économique en 7 sujets, du 21 au 27 novembre</title>
     <link>https://echodesanges.fr/economie/2026/11/27/hebdo-economie/</link>
@@ -448,15 +457,6 @@
     <category>Tech</category>
     <description>La start-up azuréenne fondée en 2022 par Pierre Deyris ouvre sa première base commerciale à Antibes. Son drone Beluga dépose jusqu’à 8 kg de marchandises…</description>
     <media:content url="https://echodesanges.fr/img/entreprises/antibes-flyde-livraison-par-drone-yachts-port-gallice.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Fredrik Brag, le Suédois de Sophia Antipolis qui fait entrer l’IA dans le dépistage du cancer du poumon</title>
-    <link>https://echodesanges.fr/tech/2026/07/23/portrait-fredrik-brag-median-technologies/</link>
-    <guid isPermaLink="true">https://echodesanges.fr/tech/2026/07/23/portrait-fredrik-brag-median-technologies/</guid>
-    <pubDate>Thu, 23 Jul 2026 06:00:00 GMT</pubDate>
-    <category>Tech</category>
-    <description>Fondateur de Median Technologies en 2002, il a obtenu cette année l’autorisation américaine puis européenne de son logiciel eyonis LCS. La société…</description>
-    <media:content url="https://echodesanges.fr/img/entreprises/portrait-fredrik-brag-median-technologies.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
