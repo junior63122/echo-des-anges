@@ -1,308 +1,887 @@
 [
   {
-    "id": "2026-11-27-en-hebdo-economie",
-    "lang": "en",
-    "date": "2026-11-27",
+    "id": "2026-11-28-actu-business",
+    "lang": "fr",
+    "date": "2026-11-28",
     "section": "Business",
-    "rubrique": "The week",
+    "rubrique": "Business",
     "emoji": "💼",
-    "type": "article",
-    "genre": "hebdo",
-    "auteur": "Camille Rostand",
-    "titre": "The week in business: the key stories, 21 to 27 November",
-    "chapo": "12 stories from 8 news outlets over seven days. In this round-up: “Asia made a big AI bet on Nvidia. What happens now?”, “Small Businesses Across Australia and New Zealand Defy Economy, Remain Confident Heading into Holiday Shopping Season” and “Editorial: Revology’s amazing feat, Iowa City’s economic gem”.",
-    "corps": [
-      "From 21 November to 27 November, our newsroom followed the news in business through reporting by BBC News, The New York Times, iTWire, Ahram Online, Corridor Business Journal and Radio Iowa and others. Here are the stories that marked the week.",
-      "Leading the week, “Asia made a big AI bet on Nvidia. What happens now?”, BBC News reported on Friday. From the article: “Asian stocks have been on a rollercoaster ride after Jensen Huang’s shock return as Nvidia CEO.” The story was also covered by The New York Times.",
-      "Another major story: “Small Businesses Across Australia and New Zealand Defy Economy, Remain Confident Heading into Holiday Shopping Season”, iTWire reported on Thursday. The story was also covered by Ahram Online.",
-      "Elsewhere, “Editorial: Revology’s amazing feat, Iowa City’s economic gem”, Corridor Business Journal reported on Wednesday. The story was also covered by Radio Iowa.",
-      "Meanwhile, “My self-care ritual is a meal at a fancy restaurant”, BBC News reported on Friday. From the article: “Solo-dining is being embraced as a self-care trend and it’s reshaping the restaurant industry.”",
-      "Also this week, “From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale”, BBC News reported on Friday. It added: “Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.”",
-      "Worth noting, “Niagara family business says $500K weekly in Trump tariffs is forcing production to U.S”, CBC reported on Friday.",
-      "Finally, “Mining For Growth: Ghana Bauxite Company expansion to transform Awaso’s economy”, Modern Ghana reported on Friday.",
-      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
-    ],
-    "sources": [
-      "BBC News",
-      "The New York Times",
-      "iTWire",
-      "Ahram Online",
-      "Corridor Business Journal",
-      "Radio Iowa",
-      "CBC",
-      "Modern Ghana"
-    ],
+    "type": "revue",
+    "titre": "L’activité de l’abattoir de Haute-Saône suspendue par le préfet après avoir été visé par une enquête",
+    "chapo": "Entreprises, emploi, stratégie : l’essentiel de l’actualité économique. Le point du 28 novembre.",
+    "corps": [],
     "liens": [
       {
-        "titre": "Asia made a big AI bet on Nvidia. What happens now?",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
-        "resume": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
-        "heure": "2026-11-26T23:08:12.000Z"
+        "titre": "L'activité de l'abattoir de Haute-Saône suspendue par le préfet après avoir été visé par une enquête",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/environnement/biodiversite/animaux/l-activite-de-l-abattoir-de-haute-saone-suspendue-par-le-prefet-apres-avoir-ete-vise-par-une-enquete_8303862.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Jeudi, l'association de défense des animaux L214 avait annoncé avoir déposé plainte à l'encontre de la Société d'abattage des Vosges saônoises (SAVS), qui gère l'abattoir mis en cause.",
+        "heure": "2026-11-27T22:43:09.000Z"
       },
       {
-        "titre": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-        "resume": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-        "heure": "2026-11-24T01:11:54.000Z"
+        "titre": "Loyers exorbitants, crise des salaires... La face cachée de la croissance espagnole",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/espagne/loyers-exorbitants-crise-des-salaires-la-face-cachee-de-la-croissance-espagnole_8303760.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "En Espagne, qui remportera les élections législatives, dimanche 29 novembre ? Les sondages sont incertains mais semblent favorables à l’opposition au premier ministre socialiste. Alors que le pays bénéfice d’une croissance économique presque insolente, un nuage sombre se dresse dans ce ciel économique.",
+        "heure": "2026-11-27T22:35:51.000Z"
       },
       {
-        "titre": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
-        "resume": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5% in early trading.",
-        "heure": "2026-11-23T15:39:41.000Z"
+        "titre": "OpenAI accuse Apple de vol de secrets et de pressions sur ses fournisseurs",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/27/openai-accuse-apple-de-vol-de-secrets-et-de-pressions-sur-ses-fournisseurs_6815936_3234.html",
+        "resume": "Les deux partenaires se rapprochent de mois en mois d’une situation de rivaux, et se rendent désormais coup pour coup devant la justice.",
+        "heure": "2026-11-27T21:49:36.000Z"
       },
       {
-        "titre": "Jensen Huang Returns to Nvidia, Showing What Trump Will Do for AI",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xWFBzU1YweGFUcWx4ZGQwNG8wRmxRdkdpdEkxR0JLUkNvMWNGWGZJZGdjeExBZmc4TGRJeTNoT094MDl1Vy1HYnhxS1doMUFSdy1RUkoxRUQxc21wejJCS2RxMjQzLVNfTmFsSmU2R2NaVW5NQW5iSWpuckRIYjA?oc=5",
+        "titre": "L’agence S&P menace de dégrader encore la note de la France, entrée en récession",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+        "resume": "Vendredi, l’agence américaine a assorti d’une perspective négative la note actuelle de la dette française. Cela ouvre la voie à une possible dégradation à moyen terme. Le dérapage du déficit inquiète les investisseurs.",
+        "heure": "2026-11-27T21:18:33.000Z"
+      },
+      {
+        "titre": "La croissance pire que prévu, l'économie française en récession",
+        "source": "Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2R0VEtzNk9RWjJPSG1lZTNldjM2VmllMDBScGwwT0lMNnE1RW1McTVOc1VvNWJ5S085c25jSHVnaXpWMWlQM0JhcThsWTdWcExwYi1DTVRxTGdqTGM1Q2lZTUZlTi1ONTA3TURpdVhoQVZtZjJKMXFxcnFBZGNSUGtBMzlyOVJfVE5pei1uOEZyV2R6MTIxREswUndxZElFaU9LZU1sMlA2eHVJb0N6MklR?oc=5",
         "resume": "",
-        "heure": "2026-11-23T20:21:44.000Z"
-      },
-      {
-        "titre": "Small Businesses Across Australia and New Zealand Defy Economy, Remain Confident Heading into Holiday Shopping Season",
-        "source": "iTWire",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRWdHVXBwM2NCMjNkYWVnTDJhM1FhTXNmZjB3Um1VcWJlS2I1U1lNWnZCcGwxcC1UWkJCMmdzamFaT0pCV0kxaGpIcGFHWEhfZ0tYdTM0V3haVG1vaDhDY0EwT092M0g3aGdjM1JxZTFEV1l2VjJnSk1Telh4M19peDE1YThRekJSdXp4MFJMRUJWTGZUZlpkYWlhQmdxX05oVnJlUlFlMVJJd3VDVE5TZ2xmdEN3ZDN1ZzZSaTg2anBGOC1lUy0wZ3Y2bVZXZHVUU2E2bTA0UG1oUm96bDRDLU9Kck1qWndiMjJLQ1ZQd2dxQjBPYVE?oc=5",
-        "resume": "",
-        "heure": "2026-11-26T22:45:21.000Z"
-      },
-      {
-        "titre": "AfDB, EBRD step up partnership to expand financing for Africa’s small businesses - Economy",
-        "source": "Ahram Online",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdUtpeTJlOXM3cm1SSUNaQWhQR294UExPLWZlcmhkVHZmdU85OXJjOEtrcFl4RTFaN003X3FDRlhqa1Q1dGpULXJWY1VDcXJWVUc0UWxzN0JFWkdaYno1OUVFcjFQZDg1eFk4QVhha2lmTWRrdFFaMXNzOERid01oUHF5Y3gzTXJTUHZLY3M5YnV1YXhlN1pVNVRDVUhlQXUtZm4tVHIwbzM5aXlrSzlxZEx1eFV6N0drQUVCNlB3S25UcHN0S2dpTjM4R2kyT3NKeVZnc054Zw?oc=5",
-        "resume": "",
-        "heure": "2026-11-26T06:42:03.000Z"
-      },
-      {
-        "titre": "Editorial: Revology’s amazing feat, Iowa City’s economic gem",
-        "source": "Corridor Business Journal",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTndoNkVRZkNoWlZBQU9zWVVRODZtTXI5d001NkFqMkMwWExJa0xGMGFweG84U2xqWHJiOEZoSk1ZaVR0UU91ZXNtSzRRaTZxQWxtb3RCQW9WVUZoVWFCVlhoOHVLS24zbHdRVllqbWhseDBVekduQzhobUxPdW5yclU2aFJWN0xHTjZFRkRfNA?oc=5",
-        "resume": "",
-        "heure": "2026-11-25T11:11:06.000Z"
-      },
-      {
-        "titre": "Iowa economic incentives approved for Vylor seed company in Johnston, Cambrex in Charles City",
-        "source": "Radio Iowa",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdTU3Qk1wR25SQXJydDlWeGFldlJYNlpKU0FleTVtbDBWcXltcU5WZzJpcWwwMDZHejIxWXM3cnVmRXZnak4zaGZVVy1aNnFEZzNqX2RLMFFMTGNYa3RvVVpqOHkzTHFyOGtBXzIyb3Zfd1pZX1h4dmRoVzhHVkJHNlk1aTBnOHAwejVMMUh6OUE0Nl82ZWdvZGk3RDIzMXF0aXFNcU1FYmVuWC0tbHN2WW5kMlg2Q0QtSEh5Yzg2TnNBZG8?oc=5",
-        "resume": "",
-        "heure": "2026-11-23T16:32:17.000Z"
-      },
-      {
-        "titre": "My self-care ritual is a meal at a fancy restaurant",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
-        "resume": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
-        "heure": "2026-11-27T10:10:36.000Z"
-      },
-      {
-        "titre": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
-        "resume": "Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.",
-        "heure": "2026-11-27T00:58:49.000Z"
-      },
-      {
-        "titre": "Niagara family business says $500K weekly in Trump tariffs is forcing production to U.S",
-        "source": "CBC",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcnk4dVpxT3Raa003UEVUUV9WMGJvY3FPNEY2U2xKd0ZDbWVrN01lQWtRRnQtV0h1ZzFnZWZWdXE0WEFyenJrWkw5RU1waWRYWFhDcWY2MElaTGM0Z0xrMWc2UWZMSzlMYlVOVjNvRVpDU3dtc3B0dzRJYW9UTGtNYlc5djdVR0Mx?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T12:28:26.000Z"
-      },
-      {
-        "titre": "Mining For Growth: Ghana Bauxite Company expansion to transform Awaso's economy",
-        "source": "Modern Ghana",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Ucm1wQWtXc0xsa0pHSmpwTnF2VVJnZVpWRmtzQl9Bd2dLTXJGSkpLZ2lYYlM5eEdWbDIwNThCZnJxRTloU1pKUzF3U0kydFlFSGRHdXVXVzk0UUlkaGNwYU92Y2bSAVxBVV95cUxPOG0wY2l1STc4V25tUnE3Uno3UDNtRlFQZHk5blo3NXZPN3pwQWpIalk4Y3oyajJORnh5Ym5oUk9ENktOMTdSQUZ4dkc2MG5OeEpQV1labXNUSktxNA?oc=5",
-        "resume": "",
-        "heure": "2026-11-27T00:00:00.000Z"
+        "heure": "2026-11-27T08:12:23.000Z"
       }
     ],
-    "redige": true,
-    "chemin": "/en/business/2026/11/27/hebdo-economie/"
+    "auteur": "Camille Rostand",
+    "sources": [
+      "franceinfo",
+      "Le Monde",
+      "Les Echos"
+    ],
+    "chemin": "/economie/2026/11/28/revue-de-presse/"
   },
   {
-    "id": "2026-11-27-hebdo-economie",
+    "id": "2026-11-28-actu-culture",
     "lang": "fr",
-    "date": "2026-11-27",
-    "section": "Business",
-    "rubrique": "La semaine",
-    "emoji": "💼",
-    "type": "article",
-    "genre": "hebdo",
-    "auteur": "Camille Rostand",
-    "titre": "La semaine économique en 7 sujets, du 21 au 27 novembre",
-    "chapo": "33 informations publiées par 13 médias en sept jours. Au programme : « Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises », « \"Millionnaires patriotes\" qui souhaitent payer plus d’impôts : \"Il faut vraiment les féliciter pour ça, mais il faut voir aussi que c’est très insuffisant par rapport à ce dont on aurait besoin\", pointe l’économiste Denis Durand » et « Fin de l’interdiction des passoires thermiques à la location : aux Assises de la rénovation énergétique, la consternation des professionnels du secteur ».",
-    "corps": [
-      "Du 21 novembre au 27 novembre, la rédaction a suivi l’actualité économique à travers les publications de Le Monde, franceinfo, Ouest-France, La Gazette France, economie.gouv.fr et Bourse Direct notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
-      "À la une de la semaine, « Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises », titrait Le Monde jeudi. On peut y lire : « La droite sénatoriale, majoritaire dans l’hémicycle et souvent frileuse sur la taxation des entreprises, a consenti à cette mesure. » Le sujet a également été traité par Ouest-France, La Gazette France, economie.gouv.fr, Bourse Direct, Capital.fr, Yahoo Finance France, Le Monde.fr, France 24, franceinfo, BFM, Les Echos et Sud Ouest.",
-      "Autre sujet marquant, « \"Millionnaires patriotes\" qui souhaitent payer plus d’impôts : \"Il faut vraiment les féliciter pour ça, mais il faut voir aussi que c’est très insuffisant par rapport à ce dont on aurait besoin\", pointe l’économiste Denis Durand », titrait franceinfo vendredi. On peut y lire : « Codirecteur de la revue \"Économie et politique\", ancien directeur adjoint à la Banque de France et membre du Conseil national du PCF, Denis Durand revient dans \"La Matinale\" sur le mouvement des \"millionnaires patriotes\", qui militent pour contribuer… » Le sujet a également été traité par Le Monde.",
-      "Dans un autre registre, « Fin de l’interdiction des passoires thermiques à la location : aux Assises de la rénovation énergétique, la consternation des professionnels du secteur », titrait Le Monde vendredi. Extrait : « L’amendement du Rassemblement national, adopté à l’Assemblée nationale dans le cadre du projet de loi logement voté solennellement mardi 24 novembre, va supprimer l’un « des derniers moteurs de travaux », jugent des acteurs du bâtiment. » Le sujet a également été traité par franceinfo.",
-      "Par ailleurs, « La France entre officiellement en récession », titrait Le Monde vendredi. On peut y lire : « Le produit intérieur brut a reculé de 0,2 % au troisième trimestre 2026, selon l’Insee, alors qu’il avait été initialement estimé en baisse de 0,1 %. » Le sujet a également été traité par BFM.",
-      "Toujours cette semaine, « Airbags Takata : Stellantis et l’équipementier Joyson Safety Systems France perquisitionnés », titrait franceinfo jeudi. Le média précise : « Les investigations, d’une particulière technicité, se poursuivent\", a déclaré le parquet. » Le sujet a également été traité par Le Monde.",
-      "À noter également, « Apprentissage : les fraudes et les abus pourraient coûter 3 milliards d’euros selon la Cour des comptes », titrait franceinfo mercredi. On peut y lire : « Dans un rapport publié mercredi 25 novembre, la Cour des comptes alerte sur les fraudes à l’apprentissage. » Le sujet a également été traité par Le Monde.",
-      "Enfin, « Choose France : trois entreprises de Seine-Maritime parmi les douze pr ... », titrait La Gazette France vendredi.",
-      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
-    ],
-    "sources": [
-      "Le Monde",
-      "franceinfo",
-      "Ouest-France",
-      "La Gazette France",
-      "economie.gouv.fr",
-      "Bourse Direct",
-      "Capital.fr",
-      "Yahoo Finance France",
-      "Le Monde.fr",
-      "France 24",
-      "BFM",
-      "Les Echos",
-      "Sud Ouest"
-    ],
+    "date": "2026-11-28",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "Bruce Lee, un mythe né un 27 novembre et fait roi du kung-fu au cinéma par \"Opération Dragon\"",
+    "chapo": "Expositions, musées, théâtre, cinéma et musique : la vie culturelle, de la Côte d’Azur au reste du monde. Le point du 28 novembre.",
+    "corps": [],
     "liens": [
       {
-        "titre": "Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/26/budget-2027-le-senat-approuve-l-effort-de-cinq-milliards-d-euros-demande-aux-grandes-entreprises_6815197_823448.html",
-        "resume": "La droite sénatoriale, majoritaire dans l’hémicycle et souvent frileuse sur la taxation des entreprises, a consenti à cette mesure. « Regardons l’état de notre déficit. Il faut que tout le monde fasse un effort, sinon on n’y arrivera jamais », a justifié la rapporteure générale, Christine Lavarde, élue Les Républicains.",
-        "heure": "2026-11-25T23:50:44.000Z"
-      },
-      {
-        "titre": "Budget 2027 : le Sénat abaisse le plafond de l’abattement fiscal de 10 % des retraités, refusant sa suppression totale",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/24/budget-2027-le-senat-abaisse-le-plafond-de-l-abattement-fiscal-de-10-des-retraites-refusant-sa-suppression-totale_6814837_823448.html",
-        "resume": "Actuellement, l’abattement dont bénéficient les retraités est plafonné à 4 439 euros. Dans son projet de loi de finances, le gouvernement proposait de réduire ce plafond à 3 000 euros. Les sénateurs ont voté son abaissement à 1 000 euros.",
-        "heure": "2026-11-24T18:15:05.000Z"
-      },
-      {
-        "titre": "Au programme du sommet Choose France qui s'ouvre lundi, 273 projets valorisés et près de 15 milliards d'euros d'investissements nouveaux",
+        "titre": "Bruce Lee, un mythe né un 27 novembre et fait roi du kung-fu au cinéma par \"Opération Dragon\"",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/economie/au-programme-du-sommet-choose-france-qui-s-ouvre-lundi-273-projets-valorises-et-pres-de-15-milliards-d-euros-d-investissements-nouveaux_8295146.html#xtor=RSS-3-%5Beconomie%5D",
-        "resume": "Lors de la première édition de l'\"édition France\", le gouvernement avait valorisé des investissements à hauteur de 30,4 milliards, pour 151 projets.",
-        "heure": "2026-11-22T19:26:56.000Z"
+        "url": "https://www.franceinfo.fr/culture/cinema/bruce-lee-un-mythe-ne-un-27-novembre-et-fait-roi-du-kung-fu-au-cinema-par-operation-dragon_8302965.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "Le documentaire \"Opération Dragon, la révolution Bruce Lee\" et l'ouvrage \"Il était une fois le ciné kung-fu\" retracent la vie et reviennent sur l'héritage cinématographique du légendaire artiste martial, mort il y a plus de cinquante ans.",
+        "heure": "2026-11-27T21:17:37.000Z"
       },
       {
-        "titre": "Choose France : 273 projets industriels seront présentés lors de ce sommet dévolu aux entreprises tricolores",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
-        "resume": "Cette édition, réservée aux entreprises françaises qui investissent dans le pays, décompte 14,9 milliards d’euros d’investissements nouveaux, soit 81 projets inédits, notamment dans les secteurs de la santé, de la cosmétique, ou des biocarburants.",
-        "heure": "2026-11-22T18:42:12.000Z"
-      },
-      {
-        "titre": "INFO FRANCEINFO. Sommet Choose France-Édition France : l'entreprise Blanc Aéro Industries doit investir 39 millions d'euros dans le pays",
+        "titre": "Jodie Foster \"J'ai toujours voulu jouer une méchante\"",
         "source": "franceinfo",
-        "url": "https://www.franceinfo.fr/economie/info-france-info-sommet-choose-france-edition-france-l-entreprise-blanc-aero-industries-doit-investir-39-millions-d-euros-dans-le-pays_8294021.html#xtor=RSS-3-%5Beconomie%5D",
-        "resume": "Cette annonce intervient à l'occasion d'un sommet Choose France, qui s'ouvre lundi à la Cité internationale universitaire de Paris. Cette \"édition France\" réunira plus de 250 entreprises qui ont investi dans l'Hexagone.",
-        "heure": "2026-11-22T05:00:04.000Z"
+        "url": "https://www.franceinfo.fr/culture/cinema/jodie-foster-j-ai-toujours-voulu-jouer-une-mechante_8303235.html#xtor=RSS-3-%5Bculture%5D",
+        "resume": "\"Jouer une méchante\", Jodie Foster en a toujours rêvé. Son rêve est devenu réalité dans le dernier film d’animation des studios Disney “Billie”. L' actrice américaine francophone et francophile a doublé son personnage en anglais et en français.",
+        "heure": "2026-11-27T21:00:01.000Z"
       },
       {
-        "titre": "Budget de l’UE : Antonio Costa, le président du Conseil européen, propose 204 milliards d’euros d’économies et une taxe numérique",
-        "source": "Le Monde",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/21/budget-de-l-ue-antonio-costa-le-president-du-conseil-europeen-propose-204-milliards-d-euros-d-economies-et-une-taxe-numerique_6813983_3234.html",
-        "resume": "La France a rejeté la nouvelle proposition du dirigeant européen. M. Costa soumettra sa proposition de compromis aux dirigeants de l’Union européenne lors d’un sommet organisé jeudi et vendredi à Bruxelles.",
-        "heure": "2026-11-21T11:01:50.000Z"
-      },
-      {
-        "titre": "INFO OUEST-FRANCE. Prêts garantis par l’État : plus de 5 milliards d’euros sont encore à rembourser par les petites et moyennes entreprises",
-        "source": "Ouest-France",
-        "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTk45dmU4LWdEbzlXOXBDdVBYcEdBVWEzc0cxOV9yYU5KQS1icFZQSWtPUlJFMWh2bE1jSzZtQTB5cC0yRHZTaHFkS0VEU3VSOW1sYWlMMFQ5VVNoNmx3b2JuSGJTWHBaalgwRkNfYjUyaGZDeHhEVmhUM1VQdlZYLU5nRVZOU2RZOE56R1U5RFZRS3N2WDBZLURzdFlDeFY1VHg4NW1SUGg4NzhxQzV4cEpVT0xDcE9qQW5oRU1MaVBWNk9SSnA3LTJmN3NYM25pNzBCNGl4bXJnMHVKWE44am4yc1I1cGRoVDJLUXVfSEE5MnAzT2Z0TjBaTENaNmJNRloxckJzME1CTE93a2dLUWJkYVloZmY0NXZsWTJiRkFUVnNnQ1BGc054Mk5lcFlzMTRHLXJFN2NOcjBGMVJ3ODJB?oc=5",
+        "titre": "Crise au Mucem : après la Ville de Marseille, région et département suspendent leur participation au conseil d’administration",
+        "source": "Télérama",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdHBOeklDMHhSMVFzMHRMMnlHaXJOeDdrWUItZmdnemJxM1J1c1pVc3ZYY3pVYm4zdGZITlk1XzVaME9XS2ZDS0RNd0RINWkzazdRSlkycW1xYlpTTExDeFJFX3dEMXFUckpzTlA4VUVTa2lyRGVlZnJtbUdpSWFJaUN4TEVJNGhqbUtzR2c3elREMUJiVXVnbm42SDlCSUVlN0ZTa2NBT3dBczhTdmh1bkpzR0JCckVWUlVwQzc4X3J4MzQ0MkRsT2FKeFROQmdVT2ZLVVVlTF85ZFhNemthZ3liM0djUmlaczB5ZF9ZNWdxRnNWUzVydXFiTW9Nc1JBM2JxZDdn?oc=5",
         "resume": "",
-        "heure": "2026-11-27T09:53:37.000Z"
-      },
-      {
-        "titre": "Choose France flèche des investissements sur cinq entreprises de Meurt ...",
-        "source": "La Gazette France",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbFNpMXpUbjNfZUp5aTFjcC1wX3JRZFE1VjVhblYyUkZ1NnVzemZhZ2czSElCWXpUT2lUQ0ZHeUZnOGw1UnhUcXh0djdQMkhyMFdXVFgxczlqeFhSdnN5VnBPck55TGh3TE1GMV8wMl9VWW9nX0dWZXRURlA5Q1l3MWI2V05RNk9vUVRISzV1UHlIU19IcFFDUUhBeEZ5eUxPUjBGeENKanRXc2o3S0JwbG1xa0NaVFpWMnQydUV5dw?oc=5",
-        "resume": "",
-        "heure": "2026-11-25T06:15:48.000Z"
-      },
-      {
-        "titre": "Choose France - Édition France 2026 : 42,5 milliards d’euros d’investissements annoncés par les entreprises françaises",
-        "source": "economie.gouv.fr",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMFBHZkY5R2x3VUkxY2ZWbVRJRVlmZmdLVjR3V29RdVkybU1DVU1iQU9rd051b184QjBGLXhvZ3pKalpnazBPVl9FVTBLUWI4YUNtSktLYUIyUk91WVhPOHlSUWRYQnc0NXBtQnNHTGVqbklabXdzWk9fZEg2SlkyaFJrVmNkWVhYQWN5NHFYbVdoU0ZKWVpDYzQ2R0VlSGJLamRiY1ZScVpWRnoyZjNHZF9CMVNWTkIxTDl1OEZkaGRMU25lNUZCeGVyRlhyM0xndmxWdEQxSElHemo4cEtCZk5ybFI0QQ?oc=5",
-        "resume": "",
-        "heure": "2026-11-24T15:42:55.000Z"
-      },
-      {
-        "titre": "Dans un contexte morose, Choose France vante les entreprises qui investissent en France",
-        "source": "Bourse Direct",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOekZrRkhBbDF4clpWdHd1N3lmYUV1RXB2ZjZnbm5vU3hia2V1QlQ1WmMwYXZWOVhPY1d0MEpYNWhOV2dHMXRsOG95RERtWFlFemozWEh6Uk41Z3MtRUJiREJJX1pWUTJ4ZlJuWjB0Y3Eta3M0SjNobHV1TmkyUnduOHBmeVBseGhIb2h4cEhJekpNV3FQa0tNRXpQMXJEWVNlYnFHOWUySFFGV2tQUWE4TWVDOGlnOHJEX3gyUDFwRXNvTlRuUWFWRVVLcEFkRF9EQmROUkNDMDRBY3hiYXNfSEhuOHpGZkFGSjJQY1V2aWZIQnA3eVhUeW9GNGZmdFNveHFDU1Y0VHdaR3o1Rnc?oc=5",
-        "resume": "",
-        "heure": "2026-11-23T18:59:00.000Z"
-      },
-      {
-        "titre": "Choose France : avec 42,5 milliards d'euros, le gouvernement met en scène la France qui produit",
-        "source": "Capital.fr",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZm91cy1sU0dIRGdURkRRM1RLaHAyRXV4dU95SDJ0RjhUTDFmRV9RN1RDZDVFWjVBbGQwN2NEQldad2VCWjVseHpCY2dPQTF1ZGMtN3BqT1V6aTk5YnFGVnE2ZnFNUWdZa0pTeEFDMEJpWEY0WDZ5bUxfNDJFMjFnT2FpWWFmMnF1N08xdWxEVmNtS1lxcVE3UmkzSkxodHBfMzl5NVdta0VEMWxUaHZpbEVuVDNId3VLNENOMW9waw?oc=5",
-        "resume": "",
-        "heure": "2026-11-23T18:00:00.000Z"
-      },
-      {
-        "titre": "Dans un contexte morose, Choose France vante les entreprises qui investissent en France",
-        "source": "Yahoo Finance France",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFozZm04am1lSjZTSTBJdGFOYlFWOVQ3YzlJTFdnXy1Cb20yMUIwUTFzbWFYNXdrRDBvcDdySmRNRTVPdWpQbERZczRza1dDaTJtTl9US3QyS2tGQ0k2WkVYVnJ2SnoxeFd1Vnd5d2o4VEpfNnZuZ2JoZE5lZXRUZ0xWLVUzanhRRUl1QTRTRl9zVXFMSHhqRllaeFdDZTdSc0paNVR4ZE45YVlNUEkwaVhEeXc?oc=5",
-        "resume": "",
-        "heure": "2026-11-23T17:55:19.000Z"
-      },
-      {
-        "titre": "Pour Emmanuel Macron, un Choose France 100 % tricolore sur fond de morosité pour les entreprises françaises",
-        "source": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOc001MnJ3X2N4Rk9NakRpM2hkMW1EMUZFYVJVdXltTElLOEtMUFdmWGJTS0wxOVZNYUxjWFJpUUtSYlo3bXJ0RU90NlAtRWx2d3ZORTN3a0FTS3gxVFh6TXZramM4SnlYVVkzM0llRmJuLTU4dnlLc2dVTGVCOThGeDAweEdpem9DU1AyUnZZMXRoOEswU01ZRm5LMk5lSWN6ai1ES0t3eHZQVk50Mkd1TjQ1UW9aY19XcGk3UkRvMGFwTHk1UFFRdEUxWlIyLWpuUVVwQVFSRElDeDE1NG5DN2lpRkRVUGhFTGRYSnpBbm9oS29BeHdHODRpQ00?oc=5",
-        "resume": "",
-        "heure": "2026-11-23T05:00:00.000Z"
-      },
-      {
-        "titre": "Choose France : les entreprises françaises prêtent à investir 42,5 milliards d'euros",
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOVEFHUzlWeTN6Wl9udGllbVZ6d1ZOVC12TXk1eWlwLVo2LU5lMFpQS2ZoUzhkQ182RmE3NGx3VXNVS3lEdUVWTTVCV2Q3c2c0TDEwVFkwQ1l5VVdUNlFSbUZoc2RVMEdkNXV6bFJNT3VKTDhQNGc4ZTFMV3B6YzJJYlh6OGN5ekNGbTFpZTh1VFNqQll4aXdIQm1jMUJ4WFgtWU9NRjFtdmNvRlBCa1F3aUYtLU1EdHJPMHBkQkJvMld6dnFVenozNFRJRXlGeFI5bDVFeWRRanVPRzBnN0ZSRVl6WHlGRE9IaTdPVno5SHlsYjhyQWJBTTVnaF9lV1hDUkdkeC14MTA2RzJJb1E?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T19:58:34.000Z"
-      },
-      {
-        "titre": "Choose France : 273 projets industriels seront présentés lors de ce sommet dévolu aux entreprises tricolores",
-        "source": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOU3hZdTZ4dEtxOTVBeVI5R25qcVl4QW01NzY4a0RHZjhWZ2VfVkpvSVh2Q1FuM2xVeFZMYzdiWXA5eVR3bFN0bkltVk5aOFQtVWpzOGpOSWlSRHVaeFFoSm5rTDc4OHFKUkR3RTRuMHNUb1Y0ZTV2UVcxQ0IyNGItTmlRM3pBWlFEZWtPWGppS0pFZzhScDdGN3hjWHhReFF3emdfY2NLR1BDQkpaTjRfWDBpWlFDbzJSSFptN2I0dzFhSWpfZVQwb2xsb0JieElFUGFfaEw1V2FTZ1F1RUxTTjN0VEkzQnMtdlFsejZYY3EzY2M0NEp1aE9XUzNfZGVqdVV3TjhYdU9hWjQwNGloQ0I2VFl2UUE?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T18:42:12.000Z"
-      },
-      {
-        "titre": "Plus de 273 projets industriels dans 22 régions: à la veille du sommet Choose France, l’Élysée annonce près de 15 milliards d’euros d’investissements nouveaux",
-        "source": "BFM",
-        "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPR0xDYkt2Z2RHMGRmcy02ajF3TUlOODBRQlE0WHRQc3JLckpWYW5jMFF6LTU4Vzc3emFlYnh6MlFycDVkNGZyZDBvMHM3eW9qUndReUVJUkQwQzI4NUJFcGVoWnpsWkNjXzlvdHZqNWgzYXVQbjJ2bGVTeFFtRWxucjNfemFGanV6OUk4LWtHY0tCS25FaEY0aXRjN2NKd2tmY043T1J0Y3J0aE56WHU0TFZQaF9wc3Q5a0VuWHY5amkwTDN6Q21jMXVhX3RuZjZEZnBNYnZOTVJNeklOXzJPT3ZNbDZ5bFI1NHB5MjgwaDU0cExBc0xrV0ZlT1lOelpZUUlOUUQ4NnY5RWdqeXpNVXpRYzFSYkZ5dWlIMHVuVjAtc0FWZXdPZ3NzaFlpYXlSTGc?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T18:05:53.000Z"
-      },
-      {
-        "titre": "Avec 42 milliards d'euros de promesses d'investissements en France, Emmanuel Macron défend son bilan industriel",
-        "source": "Les Echos",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOM3UyMFhpTlh3eGhQcmNwdjg3Z3VQZjhXSE1vNE9ONzA1ZWFqcHBGYWRsSUZxVzlmZ0pKLWJWVVZTTV9fcHZocE85T3hEQ1lua3RFc0JiM0xLVVlUb1JMYjFkN3M4dDFqVWtnR2VMTld2NkVORWkycXcwdUF3OVZWeGZjSXNiejY2dVljd0NGYjZRMmNzbUlrakFEU254QUlZbGtmaXJEQ2NfZEJyWHlROHMxMTd2eFhYR01hU0M4aU4tM3F6eEJjZHdVb3NZWkVCYlZyaHdnSmZyX1pJZXZZTzBoeWdhYm1XRzRXUUJLMzRUMGlFYVA0ODBsU0o?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T18:00:42.000Z"
-      },
-      {
-        "titre": "Le sommet Choose France se déroule lundi à Paris, un rendez-vous aux allures de bilan dans un contexte économique morose",
-        "source": "Sud Ouest",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNajJ1dVZBWGRLU25yazJYSFFfWEhVMXN4V1ozZVNJWjRPaDA4ZWtocUU1b0xtTkJzTU9MUmMtOW1zX2F0OW5wdGtJQ3ZrMlRYQmV3aGZhVmVEMTZSRFNDNVdUcktXc1NsOHNzcnN5QmkzM252VWs0OFBMWFdXbTQ5Mi1fcGV5OFlTbHdFOVF6c0trck5yWk1jTU13TWQ4NWUwXy1IaVVwdjVoYk9UVF9QRWhKazI0TDg5NUlEZDhMTVlhaHBWTVgyejBmdENNOUlMRjV5ZVNMSVZVZEZIUGVOSGxzM0ZINWMtektqWVhqYzRZUy1VU3dqX0RnLW85Z3NhZlN5NDdR?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T08:49:24.000Z"
-      },
-      {
-        "titre": "Choose France : l'investissement des entreprises, nouveau point noir de l'économie française",
-        "source": "Les Echos",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeUt0OHphSE5pWHRWQ2daaHdYdTVnTENDZ1ZiSmtUTTBwbV9jc2F2dk9RdlVpU1hNOE5KUERRT1VtclBsTU44cU1lSDJkRnY0MkUxaVdobmU0Y2Raem44SFdTQ3RLZDljU1FLekx5MWlYZEltQWFKb3gydHpnUVRWaVBOMlQ1M2RJajFROEFkM3pVLTh5MGJYSkVPWFBrSnBfd3dvdm03eHR3Zm5JUnRGTTF3cFpzaXZZOS02eWQxWHlVc2FSaXBpVFBmSHl2REVEeVdJTE9fRzVkbERBaTFMeA?oc=5",
-        "resume": "",
-        "heure": "2026-11-22T08:35:09.000Z"
-      },
-      {
-        "titre": "« Les premiers assistés de France, ce sont les grandes entreprises », selon un économiste qui critique des aides trop importantes et inefficaces",
-        "source": "Sud Ouest",
-        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQWGtTVlRsQXNEUU9CWkVWeFVXdDhRbGE3SHNGelhiZDdGZEhZZ3FJbDdqVTExeWJ4QXB1Z1RyZ2VSWVJ6US1tSTMxdFUzMHE5dDQ3NGFiR0ZadFU1RFNWZjlTcEhzU0pGWDhwM1ljSUJQZm5jb2R3a3FmR1VFV2JZbThPREFXbnJHUjZjQzQzeV9Xb3QzMlZqS0lJdmZTc0R0SEhVNXYyYVZlZ29vZGFOUEM0bkQ0SV9xdXJtRlBOdno4UlJqRWZoVFUzR1F2VHBnaENtN3cwOGVSbnNQT2N5UmVqbWlXZ1lfS0loTXpob0w1NTZkSi1vVWxqLThWaThQX1VxUEJsVVZsb1VxSXZHanVFMEtPZ0duMFliOE9EN1FXN0xVR2tKMg?oc=5",
-        "resume": "",
-        "heure": "2026-11-21T07:00:00.000Z"
+        "heure": "2026-11-27T17:06:20.000Z"
       }
     ],
-    "redige": true,
-    "chemin": "/economie/2026/11/27/hebdo-economie/"
+    "auteur": "Clara Venturini",
+    "sources": [
+      "franceinfo",
+      "Télérama"
+    ],
+    "chemin": "/culture/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-actu-evenementiel",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Événementiel",
+    "rubrique": "Événementiel",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "MC Solaar et Youssoupha célèbrent leur amitié et la musique noire dans « Supersonic Social Club »",
+    "chapo": "Salons, festivals, concerts, grands rendez-vous : l’actualité de l’événementiel. Le point du 28 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "MC Solaar et Youssoupha célèbrent leur amitié et la musique noire dans « Supersonic Social Club »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/27/mc-solaar-et-youssoupha-celebrent-leur-amitie-et-la-musique-noire-dans-supersonic-social-club_6815917_3246.html",
+        "resume": "Avec leur spectacle commun, les deux rappeurs rendent hommage au rap, mais aussi à l’afrobeat, à la rumba congolaise, à la soul… Récit d’une belle complicité née dans un bus en Géorgie, il y a plus de quinze ans.",
+        "heure": "2026-11-27T18:00:12.000Z"
+      },
+      {
+        "titre": "Réédition de « I’ve Known Rivers and Other Bodies », de Gary Bartz : un album mythique célébrant l’afrocentrisme, salué par la jeune génération",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/11/27/reedition-de-i-ve-known-rivers-and-other-bodies-de-gary-bartz-un-album-mythique-celebrant-l-afrocentrisme-salue-par-la-jeune-generation_6815912_3246.html",
+        "resume": "Isaiah Collier et Immanuel Wilkins, deux jeunes musiciens afro-américains, reviennent sur l’héritage et la portée de ce double disque majeur du saxophoniste aujourd’hui âgé de 86 ans, enregistré, avec sa formation NTU Troop, le 7 juillet 1973 au Montreux Jazz Festival, en Suisse.",
+        "heure": "2026-11-27T17:09:12.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "Le Monde"
+    ],
+    "chemin": "/evenementiel/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-actu-finance",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "Retour au vert pour le Cac 40 dans un marché toujours très volatil",
+    "chapo": "Bourse, marchés, taux, crypto et argent au quotidien : ce qui a bougé. Le point du 28 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Retour au vert pour le Cac 40 dans un marché toujours très volatil",
+        "source": "Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNTJVcnhTT0RxdHFoVmxIYTRYU1otdzQ1UmlDcmRGSUhzdHVpSEk0QkxMY3Vyam5CSzliajNhazlnVnFxU1ZVLUZwenpaZVFXS3hhb2dFazJjTzZkZndZZVpWMTJNR0w2VzVqMFNPRXpJYjU5N0xvb1g1RnkycXRoeXd3cXJzeTVRWlpuWG1YQkVZZi12czlHZHZIRmUwWjhiVTJZWjA2NXhKWHhMQUk5VkF6QkhtbXpSR0Q2MUxDQ0NZeElFTVFRZlZUdm9JZ3NBaUpj?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T17:35:09.000Z"
+      },
+      {
+        "titre": "CAC 40 : la Bourse hésite, la décision de l'agence S&P sur la note de la France attendue au tournant",
+        "source": "Capital.fr",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2J5TUt1OHltMno3TWk0YjVveG1SSjhXVkxpLWp5UWZhNGtIR2l5MnVGQVNwYUpEN3k0OHlvUUdsbGt5WGc0eTR4cVQxZUUtZE52d3JQNGIxY1pIdXZCSV9vbTF4bHlQUmRoMjE4ZFNzYWVDeFBQUGFoVjlsOWg2eUdRdEFLSjBVT2NQSFBGaEIza04wQzR1SGl0RjRRQjZpeUs1d3V6WVJSZHRQZDU5RVdEamJhamIwYjFYdllfTGJsbkVDRG9zSHB5UXBqVk51WFVQXzczS3FNWmxGTFg4RA?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T09:42:12.000Z"
+      },
+      {
+        "titre": "Le Cac 40 poursuit sa remontée en attendant la décision de S&P sur la note de la France, Wall Street prépare un retour en hausse après Thanksgiving",
+        "source": "Investir Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNaFp4QlBsT2ZGOUJpazdlMXJ5dFJuLUpELVBkV2VLYllEV2RzMWp0UFlrd3JFLVR0ZTVUM2k0WkhFVTBJdEViYlZsV0VGbnhUS2d2X3FqSEREVUd2b2NXSFFnc1hBRXVMQThxZlB2dW5mamlmN0pMcmFMQTUwVGFDbnVWZG8zU28tV1VMSXY0VFViZGNaQVllQlQtcDVLNnA5SlB1TmJDQmNjYmlidWdNcXNKVU5oZGgxLXNQRk9uZVV5bTEyeWdCTzZZSDVrY2Y5ZVhZdkZMZTBjUDRNMWlyNERINWQyMFNtN3c2cnc2Q2QyY0pzNUI2SVhQSFhsZ1lydFlvb1d2c3NkRXdMZWRSTmRiemtxMm1teEYwWWdwMEpwVnBzeGh6bkM1am9TRmN2anRwNGhqYzFOano4?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T08:16:43.000Z"
+      },
+      {
+        "titre": "Quand le garant de l’agence de voyages en faillite refuse de rembourser le CSE de Renault et 228 salariés",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/argent/article/2026/11/26/quand-le-garant-de-l-agence-de-voyages-en-faillite-refuse-de-rembourser-le-cse-de-renault-et-228-salaries_6815473_1657007.html",
+        "resume": "Le tribunal judiciaire de Paris juge que le comité et le personnel peuvent réclamer le remboursement de 2,2 millions d’euros.",
+        "heure": "2026-11-26T05:00:08.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Les Echos",
+      "Capital.fr",
+      "Investir Les Echos",
+      "Le Monde"
+    ],
+    "chemin": "/finance/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-actu-monde",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Monde",
+    "rubrique": "Monde",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Le bateau naufragé au large d’Ibiza sera remorqué vers le port espagnol de Carthagène",
+    "chapo": "Le tour du monde de l’actualité en quelques titres. Le point du 28 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Le bateau naufragé au large d'Ibiza sera remorqué vers le port espagnol de Carthagène",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/espagne/le-bateau-naufrage-au-large-d-ibiza-sera-remorque-vers-le-port-espagnol-de-carthagene_8303865.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "Le carburant est, pour l'heure, contenu et le navire a été stabilisé en pleine mer. Les autorités font face à une opération de sauvetage complexe, dans un contexte de crainte d'une pollution majeure.",
+        "heure": "2026-11-27T22:56:50.000Z"
+      },
+      {
+        "titre": "Loyers exorbitants, crise des salaires... La face cachée de la croissance espagnole",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/espagne/loyers-exorbitants-crise-des-salaires-la-face-cachee-de-la-croissance-espagnole_8303760.html#xtor=RSS-3-%5Bmonde%5D",
+        "resume": "En Espagne, qui remportera les élections législatives, dimanche 29 novembre ? Les sondages sont incertains mais semblent favorables à l’opposition au premier ministre socialiste. Alors que le pays bénéfice d’une croissance économique presque insolente, un nuage sombre se dresse dans ce ciel économique.",
+        "heure": "2026-11-27T22:35:51.000Z"
+      },
+      {
+        "titre": "La Cour suprême canadienne consacre la laïcité au Québec dans une décision historique",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/27/la-cour-supreme-canadienne-consacre-la-laicite-au-quebec-dans-une-decision-historique_6815937_3210.html",
+        "resume": "Cette loi consacre le fait laïc au Québec et tranche avec le multiculturalisme de l’Etat fédéral canadien, ce qui crée des remous dans la classe politique.",
+        "heure": "2026-11-27T22:06:52.000Z"
+      },
+      {
+        "titre": "En Cisjordanie occupée, la lente asphyxie du système de santé palestinien",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/27/en-cisjordanie-occupee-la-lente-asphyxie-du-systeme-de-sante-palestinien_6815929_3210.html",
+        "resume": "A Naplouse, alors que les checkpoints et les attaques de colons entravent l’accès aux soins des malades et le travail des urgentistes, les impayés de l’Autorité palestinienne fragilisent l’ensemble du maillage sanitaire du territoire.",
+        "heure": "2026-11-27T19:30:04.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "franceinfo",
+      "Le Monde"
+    ],
+    "chemin": "/international/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-actu-nice-cote-d-azur",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & Côte d'Azur",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Le Saint-Raphaël Var handball a perdu pied en fin de match mais repart de Sélestat avec un point",
+    "chapo": "Ce qui se passe près de chez nous, de Nice à Monaco. Le point du 28 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Le Saint-Raphaël Var handball a perdu pied en fin de match mais repart de Sélestat avec un point",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/le-saint-raphael-var-handball-a-perdu-pied-en-fin-de-match-mais-repart-de-selestat-avec-un-point-10769474",
+        "resume": "Longtemps dominateur, ce vendredi 27 novembre à Sélestat, Saint-Raphaël n’a pas pu contenir le retour des Alsaciens en fin de match et s’en sort avec un match nul presque heureux (30-30).",
+        "heure": "2026-11-27T22:32:52.000Z"
+      },
+      {
+        "titre": "Dominés par Marseille dans le derby, les Aigles rentrent dans le rang et plongent dans le doute",
+        "source": "Nice-Matin",
+        "url": "https://www.nicematin.com/sports/hockey/domines-par-marseille-dans-le-derby-les-aigles-rentrent-dans-le-rang-et-plongent-dans-le-doute-10769472",
+        "resume": "Giflés 4-1, les Niçois n’ont pas existé dans le derby face à Marseille ce vendredi soir à Jean-Bouin pour le compte de la 18e journée de Ligue Magnus. Une troisième revers consécutif qui les fait rentrer dans le rang au classement (7es).",
+        "heure": "2026-11-27T22:27:26.000Z"
+      },
+      {
+        "titre": "Saison hiver 2026 : les escapades idéales depuis Nice",
+        "source": "Nice Premium",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFVFanJ2QzRaclltQUhjNWhKbjk4dm0zZkJxQ0tESURHOUNhTC1HRGZ1MlR5Y0prNjRQeFBoaHdXQmVFMHBEM3hVX2s0T1Y5SUVzLWhUVWZfeVFVV29PRF9VWjRpTEUxT2RLanZyTXA1TTJTV1VZWXAzaGVVOHFQazhzZWpVUGRlM0VDbENKR2RGNElNa1B0UG1EakROdw?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T21:10:18.000Z"
+      },
+      {
+        "titre": "\"On peut faire un repas très gourmand qu'avec des légumes\", le chef Mauro Colagreco revisite le menu de la cantine façon trois étoiles",
+        "source": "France 3 Côte d'Azur",
+        "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/on-peut-faire-un-repas-tres-gourmand-qu-avec-des-legumes-le-chef-mauro-colagreco-revisite-le-menu-de-la-cantine-facon-trois-etoiles-3457145.html",
+        "resume": "D'habitude le vendredi, c'est poisson dans les cantines de Menton. Mais ce 27 novembre, on casse les codes. C'est un chef trois étoiles qui est aux fourneaux pour faire découvrir une cuisine simple, roborative et réalisée avec des ingrédients de saison. On s'est invité à la table des enfants.",
+        "heure": "2026-11-27T20:12:25.000Z"
+      },
+      {
+        "titre": "Programme de David Lisnard : plus de sécurité, moins d’immigration",
+        "source": "BFM Nice Côte d'Azur",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-programme-de-david-lisnard-plus-de-securite-moins-d-immigration_VN-202611270811.html",
+        "resume": "",
+        "heure": "2026-11-27T17:53:24.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "Nice-Matin",
+      "Nice Premium",
+      "France 3 Côte d'Azur",
+      "BFM Nice Côte d'Azur"
+    ],
+    "chemin": "/nice/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-actu-sorties",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Sorties",
+    "rubrique": "Sorties & loisirs",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "« Content de la réaction des garçons » : l’AS Cannes souffre mais se qualifie pour les 32es de finale de la Coupe de France",
+    "chapo": "Que faire, où aller : sorties, spectacles, fêtes et bons plans sur la Côte d’Azur. Le point du 28 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "« Content de la réaction des garçons » : l’AS Cannes souffre mais se qualifie pour les 32es de finale de la Coupe de France",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPbG1YUWZfYW44aUQtTWoyMzhkNndlZGliZzRIR0plOUcyQlJ6bzNNWjFQRm5OUmZITGlfc2UxbDNnSTJKRGx1RW5hOHg5UzVtQUtUT3hhSnJxdDZ2OEhtTjQ4dktUcHBXdU8tNTNkdDJrYzkzRjBYMHp3N0xiUm5ZOXFiWDh5RVZ6RF9qN3drdHVBMEloTXAzVWlzS3Z6d3dhemF1M2p2WkVMd3RGQ3RDWlpUVkkwZmFtTHA2WmxaNWZUZWpETXVRbEVRRVd4Qk9CSnNZOUU2RTlzc3pEZUJlRVBxYTg4RHRoc1FWeEQxLWRKUk0yREp0OTZrR2M?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T22:06:48.000Z"
+      },
+      {
+        "titre": "Jean Reno à Antibes, Les Tambours du Bronx à Nice, magie de Noël à Cannes : nos idées de sorties ce week-end dans les Alpes-Maritimes",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNekFaRTZFQWNETEYwMEZ3aXBHNEc1eFA5UXcwM254b0lOZHlpSTBZRTN1R0RndWVyampjS3ZSRlE3ckVMQzNCZzN1U25sY2V5NWdFU0JnNW80eEZHc0pVc05CcVNIdmRSdTNHTzctdnZsbjV2SXlDUWMyMy0wRmhNdHZiMVN4eU9PbUVxTnlUZ0RJRklrYl9XSEhud2paaUJxQVRRbXVNQlM3b3QtXzlqZlpvU1JOcXp6amJoMTQxQU1hdUFnUlhsTXFaWDN1Q09PNTM5aXAxc0VuMGtwVF8zUlJjSGxhTXJFdGVHOFNCODE5bURESmhqSlpOd0pSM3dVaVE?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T08:30:08.000Z"
+      },
+      {
+        "titre": "Les rendez-vous du week-end",
+        "source": "l'Essentiel media",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZVBzVVNWc01nR0d3QW1jYzNKX0N5UWZBc1MtYWNvNVZLd3dzeDBRU2tTVzc5dzRrR2RpOEhuUjZOWE1FRUNkeG5fTG9ZU2puakE1cjB3QUo5cGkwSVFpMUIweF9UZFZEOG9YdXlSYkJ1RTVtNXhESTdNcDNpUVNSUVgyOUZ1aU1uWndSNmVqOU1Xb00?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T06:54:28.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "Nice-Matin",
+      "l'Essentiel media"
+    ],
+    "chemin": "/sorties/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-actu-sport",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Les footballeuses françaises renversent le Venezuela (4-2) en match amical",
+    "chapo": "Résultats, transferts et grands moments du sport. Le point du 28 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Les footballeuses françaises renversent le Venezuela (4-2) en match amical",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/l-equipe-de-france-feminine-renversent-le-venezuela-4-2-en-match-amical_8303850.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Avant d'affronter le Maroc le 5 décembre, les Bleues l'ont emporté grâce à Clara Mateo (37e), à Griedge Mbock (48e), à Delphine Cascarino (63e) et à Kadidiatou Diani (69e).",
+        "heure": "2026-11-27T22:27:16.000Z"
+      },
+      {
+        "titre": "Brest bat le Paris FC (1-0) et grimpe provisoirement sur le podium de la Ligue 1",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/sports/foot/brest-bat-le-paris-fc-1-0-et-grimpe-provisoirement-sur-le-podium-de-la-ligue-1_8303847.html#xtor=RSS-3-%5Bsports%5D",
+        "resume": "Avec cette quatrième victoire d'affilée obtenue grâce à un but de Luck Zogbé en première période, le Stade Brestois devance Lille à la différence de buts.",
+        "heure": "2026-11-27T22:05:49.000Z"
+      },
+      {
+        "titre": "Melvin Bard recruté définitivement ?",
+        "source": "Les Transferts",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXRjT0lRaWpFMXVjdnVoZEhBN3RkcFBxS0tITno0YkpHNjBEVE5meWxPclQzeUJsaVA0dkpseElzSFlhTWY0MlYyTndnbzJFdUZFNVZKRlNTWTBKSVhUdEpZVm41VDdVUlJEN2J2RmFtcmNuWldlWVNpSGJqMVFEUG54S1hYaE9XQTZkRGgxamYwcEM5T2w0akRTQ3BlVF9XTHU0?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T18:55:57.000Z"
+      },
+      {
+        "titre": "Ancien coach de l’OGC Nice, Franck Haise mis à pied par son club de Rennes",
+        "source": "Nice-Matin",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajBzOHRlYm1QRmpoVzBWVmptTk1KSC1vSDlXZkpnVkNMOVIzcV8zZmhjX2Rua0FzTzZHMXVkWUdHcFd0MFRETG8yZEJVdThkQWdDMTFjajdjU0ZpbElNNy1DN2ljOW14cW05NGF5aGhlMXRzTndWZXVYN2lDeUx2YzgtaEJud3YteUF0dGRfT25TUU1lRVFkUXJVUEtNV0xIX2cwQVVjZ3kyNkxDY3liMnA3b2syT2pRN3RGa0FEQWk?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T18:26:46.000Z"
+      },
+      {
+        "titre": "Vicki Becho, l’ancienne espoir devenue l’une des principales forces offensives de l’équipe de France de football",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/sport/article/2026/11/27/vicki-becho-l-ancienne-espoir-devenue-l-une-des-principales-forces-offensives-de-l-equipe-de-france-de-football_6815888_3242.html",
+        "resume": "A moins d’un an de la Coupe du monde 2027 au Brésil, l’attaquante lyonnaise de 23 ans, de retour en sélection depuis plusieurs mois, s’affirme comme l’un des atouts des Bleues, qui affrontent le Venezuela en match amical, vendredi, à Nancy.",
+        "heure": "2026-11-27T15:30:15.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "franceinfo",
+      "Les Transferts",
+      "Nice-Matin",
+      "Le Monde"
+    ],
+    "chemin": "/sport/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-actu-tech",
+    "lang": "fr",
+    "date": "2026-11-28",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+    "chapo": "Intelligence artificielle, start-up, cybersécurité : les nouvelles du numérique. Le point du 28 novembre.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/idees/article/2026/11/27/jensen-huang-le-pdg-de-nvidia-est-deconnecte-de-la-realite-et-son-ego-est-totalement-hors-de-controle_6815895_3232.html",
+        "resume": "La réintégration du patron du leader mondial des puces électroniques, accusé d’avoir été manipulé par une Chinoise soupçonnée d’espionnage, est une « très mauvaise idée » pour la sécurité des Etats-Unis, explique, dans une tribune au « Monde », Charles Ferguson, investisseur et actionnaire de Nvidia.",
+        "heure": "2026-11-27T16:00:01.000Z"
+      },
+      {
+        "titre": "Pologne : l’armée annonce qu’elle utilisera l’IA de l’entreprise américaine Palantir",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/27/en-pologne-l-armee-choisit-l-ia-de-palantir-pour-l-aide-a-la-decision_6815890_3210.html",
+        "resume": "La firme américaine n’aura accès ni au système ni aux informations qu’il contiendra, a souligné le ministre de la défense polonais, parlant d’un « moment historique ».",
+        "heure": "2026-11-27T15:43:40.000Z"
+      },
+      {
+        "titre": "Moins de 1000 euros par an pour la sécurité informatique... Le manque de moyens reste le premier frein cité par les petites communes pour se protéger des cyberattaques",
+        "source": "L'Usine Digitale",
+        "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNd3J5YllodUkza1Y4Q2RrXzFrOC1yMHotN3ZndS1aYWZTVThaX1d0ZGFKY1lqZHZsenlOdXhVWjFldmFsa0JkZ0hORnhwR3pfTS04OHc1dXR3RnlvRXRTWGthdjdhRnpQY0lUNlNKZWFkajNnd242YkpseHhLTkRDNndqZWxrOTl2Qk56WGNOYUhkNXRtY0w2NDJIOVNxVFJZVzJmb3Rvazc4X01EOU5rNlZBZF9EQzlwOVVHRXJsY3oxSVZ3eFhKSXVacEVHc1psN0tHNEdqdFNUTDZSOW1DblZndEI1SVJUeVd4TFNCTDRzRXQyQWxGYUdRODJ1YzFqeUxnQVRxQV95Vzd3RmxxR29nWXp6QS1jR0NTM2hfSjJ4RURRYzY0Szl2ZjU5d21GdWVqV2xnOEFlYU9BR1RPOTJKVUllUWlHNl9YS3BfS0EwY1drTmxuSndTRVI?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T15:25:16.000Z"
+      },
+      {
+        "titre": "Le podcast “Cybernation”, sur France Inter, un polar haletant qui rend la cybersécurité sexy",
+        "source": "Télérama",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbzh0eTFRd3AxRDBUbDhXXzVESUlqa244U1liY2RGYXlhb2tDaEZYTUc1emRIcG5sTENpaWF5bXpkbEQycUFzREtqZllVUmJWTW5VRk9Xek1HSU0tMVdTUncxYnlLQnhLSGQ2bEhTUUIwUTRWS2p5UGczYnlWSkllUHdfNGVleEpVRUxtaF9vVzJtUDhMbXdEWWRSdFFiOWkyUDlJSjRMZ1NEX2RjQ3JjRnJyR0plM05qNlpCOVdWUHFtM2RTWXQ4blFn?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T11:44:06.000Z"
+      },
+      {
+        "titre": "Cyberattaques et menaces de bombes révèlent les failles de la cybersécurité européenne",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeFB3Y1NJTndnVlJjV1Z1dVFvNXpIeUl2bEdDVVFQekhUb2taaWM4bHlHOFVLTGhKaVd6bko0eFdsb3ZQRzl6N1hRdkFTYl8xT2xpWEVsTXZYdVdlYTFNamRTaWtnVVoyZTJveW1rR3ZqaHIzUmtCaHd4VTNvR0JDUGxYRjd5WDd3U3hENGo4OVRzOXFCQ3RVMEV2dGk4RzBVZ1lNZEVCMUQ3bkw0aE9LMDRhd3AwV1U2aUtVcmV3?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T11:30:14.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "Le Monde",
+      "L'Usine Digitale",
+      "Télérama",
+      "Euronews.com"
+    ],
+    "chemin": "/tech/2026/11/28/revue-de-presse/"
+  },
+  {
+    "id": "2026-11-28-en-actu-business",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Business",
+    "rubrique": "Business",
+    "emoji": "💼",
+    "type": "revue",
+    "titre": "Michigan economic development agency finds replacement for expired business grant program",
+    "chapo": "Companies, jobs and strategy: the business news that matters. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Michigan economic development agency finds replacement for expired business grant program",
+        "source": "Michigan Public",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOai1nMG1fRVZmaS1DbkpvTWw5LTFWaEo5Y2FjdEVIcHJjMk1DUG1FUmlsZ3NxZk5MdmpXbnlOMFpWMEJIak5HZ3pFTklCNFdLZ29acjBlN3gwQzR6TW5LUjZZeWIwM1doMUpHYlZCR1ZuUnRKX05TZnhUQTFfeXlOMDYxclkxR3ltTVJ0RzJoQjZ1ZHdVcElWVXpjWTJmd013Z3ZGRDhMeXhvalhmOGUyYkJCR3hXbXF4QmJ5dFFXN25qbmc5bDR5LW9xSFFpOWZhaWtycFJ3?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T10:00:00.000Z"
+      },
+      {
+        "titre": "Why is there a shortage of 'wizard' elevator mechanics?",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss",
+        "resume": "The pay is good and there's lots of work, so what's behind the shortage of elevator mechanics?",
+        "heure": "2026-11-27T00:02:19.000Z"
+      },
+      {
+        "titre": "UK to pay 'participation' fee to deliver EU deals",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
+        "resume": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
+        "heure": "2026-11-26T23:17:12.000Z"
+      }
+    ],
+    "auteur": "Camille Rostand",
+    "sources": [
+      "Michigan Public",
+      "BBC News"
+    ],
+    "chemin": "/en/business/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-culture",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Culture",
+    "rubrique": "Culture",
+    "emoji": "🎭",
+    "type": "revue",
+    "titre": "Freedom and Futures: Emancipatory Art in Africa, 1956–1982",
+    "chapo": "Exhibitions, museums, theatre, film and music: cultural life, from the Riviera to the world. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Freedom and Futures: Emancipatory Art in Africa, 1956–1982",
+        "source": "MoMA",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBndlZSbHJ6c3luNC1QbVZtMnlYeHFBUWNzRmtseFg3MXk2Q1JZZzg2dGZsdjNaTVFRQTZjX0k4bzh1OTk2MGlyRXhPd0ZyM05kaG52TXc3bmladw?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T19:01:48.000Z"
+      },
+      {
+        "titre": "Surrealism and performance exhibition to open redeveloped Tate Liverpool in 2027",
+        "source": "maxwell museums",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcEt5RkV4R0lGX0ctVDZDMFlINzNHbWowZTYxd0Z1eHZ2cDluOUlPNzRvU0Q5U3Y3OW9sRUlxUFRIbXJTRC1NVmtTV09tZDg1cEZZMDRIdHNXTGJTTTFaS0QweTNTNEYyNjhXZG1WRXVKUkt5ald4ekpuT25iSTRURV9sbVQ3QnpfTXRxdEp1c1BxU0I2anZIRkg2NXYwcUZ3ZHFvVlVEZnJlLU81bnE3cVFXR1Qxa0k?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T12:12:41.000Z"
+      }
+    ],
+    "auteur": "Clara Venturini",
+    "sources": [
+      "MoMA",
+      "maxwell museums"
+    ],
+    "chemin": "/en/culture/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-evenementiel",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Événementiel",
+    "rubrique": "Events",
+    "emoji": "🎪",
+    "type": "revue",
+    "titre": "The little Welsh town that transformed a Strictly star’s career",
+    "chapo": "Trade shows, festivals, concerts and big gatherings: the events industry today. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "The little Welsh town that transformed a Strictly star's career",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cx7v2r8nr00mo?at_medium=RSS&at_campaign=rss",
+        "resume": "Layton Williams credits living and working in a small Welsh town with transforming his career.",
+        "heure": "2026-11-27T22:03:22.000Z"
+      },
+      {
+        "titre": "Alun Wyn Jones urges men to talk about hair loss after transplant",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c5742dygzn31o?at_medium=RSS&at_campaign=rss",
+        "resume": "The former Wales captain said he wanted to encourage more men to talk openly about hair loss.",
+        "heure": "2026-11-27T20:03:11.000Z"
+      },
+      {
+        "titre": "Accor’s Rob McIntyre joins Business Events Industry Aotearoa board",
+        "source": "CIM Business Events",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY0padXNmcmlnS3JpaUIyNkRlejlielhDM2JhcGs4cFc1STNqYkMtUkNnTEJqdkpQY0xJeE5NSDFQaUItdWVpUGpmRVZOSmE3ckdDYkdVTzNURkh1bEpwM3JiQ0FWZkxNczdLbkcxbGxPNzZERmZaNUZ4Z29iZjV1a1lZNGZpSDRnSVlNUUVUQS1tOVhISThoSFYtSUNYLXhtekpYSjNn?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T00:45:17.000Z"
+      }
+    ],
+    "auteur": "Léa Fontaine",
+    "sources": [
+      "BBC News",
+      "CIM Business Events"
+    ],
+    "chemin": "/en/events/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-finance",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Finance",
+    "rubrique": "Finance",
+    "emoji": "📈",
+    "type": "revue",
+    "titre": "Global markets rally as end of bruising month approaches",
+    "chapo": "Stocks, markets, interest rates and crypto: what moved today. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Global markets rally as end of bruising month approaches",
+        "source": "Euronext Markets: Real-time Stock Market Data | live",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTHRoZURoRmN5eXcwS002MmVwbllrdUdLZkh6bTA2TEhHTmJqSjFCVk1EaEljUnZSN2g5dGVrWTFuU3NqWHdqVVFmVmJvcndFTUNqUmRtV2hFdmpNYUlxTGxEeE1nemo0UlhVc09uRXNsWnVfU1VfSnNaLTdYaXY5bENxYnNRZm5Yd1dOZXh1bFdYZU45TGFYOFpn?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T15:56:32.000Z"
+      },
+      {
+        "titre": "Stocks gain as tech rebound holds, but Nvidia dips",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNW9yYXNPa3ItRFJKSmNzN3lzR1hMM1JlREFCdWRVbkY0VGtBRVBUSFBmOHNJYnBDWTZneWZKX25WQXZndWxyZVVnamE2QmpmQ0FhM1RqdVVMNUNWOFhtQWxFYzhDcDBNSG13OExOTzFaMjY3enpXbVBUdGF3eXlQS1BjaUF3cGJh?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T15:09:29.000Z"
+      },
+      {
+        "titre": "Investors fleeing AI stocks may own more of them than they think: Chart of the Day",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVWpVWkhDOVFleUpQOTVzN2dZczdjY19zUzlxbFFFbk9VWVEtYjk5eHdIWmFkeGV5TVhpcEhvb1NjTGoyREtqaThyVWZUSXRGdkpfMDZucUQyWEhNQ3hGSDNOTnFZRzRWZjJtRlFsRjd1R3NmUUZqOUhnQkQ2YU5qTF9GWDNJM0ZlZXFDVUZ6LVlabnZoMFJKQW9FODlCelNzVy1wdGNmX2VlNXFtdWpuQ0pHOXBzMGNkMmh4b09HV3R4eVZWbWlDb3FQbVhsTmxDNndzNw?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T11:00:00.000Z"
+      },
+      {
+        "titre": "Europe joins global stock market rally as AI trade rebounds - as it happened",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTVJ6em5seEtrb1dnM2RzUzlmTmFWVDRjUC03b2V0bjh4c05jZzMxRVlNektCM0xfZ2k0UEFzWjl6bHpTWmxvc0hsQWYyTlhpQVFUbmpzMmZQby1TUFNSRUw0dFQxN19SQ0YwUi1yaVZPYW0ybnNLN25JbW9OejI0SU05NUVqSXJCcTc4b2Vzbk1hcHc3bldFSXF3aEsxbzc1M2Q0RmFwclVVOHd2allNY1dDRU1KMl9rQmhpeFZSTFJ3cWZteHlualkxX3FpcWdjSUxkLWhFbmhsMlQ2MEE?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T07:47:00.000Z"
+      },
+      {
+        "titre": "Asian stock markets rise after earlier tech rout",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdGVRWWVjMXZERWVTSkhGRDFoSTFXVE1NeGY4cVdYSmQ0MkQwUFNnSXU2enI2ckEzREZrTmFVWFhMVVNKbnhuc3dQSjB1X3JTN2dNeWNwNGhFcDJmWUYzSnAzeUQyWHlBU21sY1VWWHl6a2RuRWRwdmZ1Y1NtSFpkcGs0RHR0T1RuUVJZREtCMm44RWNra3FyNtIBngFBVV95cUxNZUR4RVgzSXFQeEp5WktydzV5NjF4eU1XblVwdVRnUEh6MEZ5a1hvZmI1QmVuM0VaQkd2dVpQRGhIZ09IeEp4ZTl2WHpfNVIybjJ5X1Z2SElYUzl3UndYNkYyME5rNHoxeUt5Tmd2QVJud3FDb3p5Vk1MRnJRc3l3bkZ0eng3ZzUtVVZuSlVmNUdZMzVGWDZEYmlYWVFaUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T03:46:18.000Z"
+      }
+    ],
+    "auteur": "Hugo Marchetti",
+    "sources": [
+      "Euronext Markets: Real-time Stock Market Data | live",
+      "Yahoo Finance UK",
+      "Yahoo Finance",
+      "The Guardian",
+      "Al Jazeera"
+    ],
+    "chemin": "/en/finance/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-monde",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Monde",
+    "rubrique": "World",
+    "emoji": "🌍",
+    "type": "revue",
+    "titre": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
+    "chapo": "Around the world in a few headlines. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+        "resume": "The Canadian man, who pleaded guilty to 14 counts of aiding and abetting suicide earlier this year, will be sentenced at a later date.",
+        "heure": "2026-11-27T22:03:46.000Z"
+      },
+      {
+        "titre": "Spanish PM and rivals rally supporters in final pitch for votes",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+        "resume": "Prime Minister Pedro Sánchez wants to defy the polls, and his main rivals accuse him of not telling the truth and of \"betrayal\".",
+        "heure": "2026-11-27T21:55:53.000Z"
+      },
+      {
+        "titre": "Decommissioning projects in Germany and Switzerland near completion",
+        "source": "World Nuclear News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmZNMWdhYzZOUk9RY1NKVWtDbENwWkpaS2xLbUt4N0M1eTROZndCS2xGdDRudmEzdlJpcmd5dW9qQ0JIczFVMG0wZm9BTE1rTVBGT19hX3ZjVXZESThqZm80TFdIeUR0VlhLYW02Wk9jT2otcUYxNDRuYnBWWlRVNF94bnhVNnFzZWpETERoNVEyUUg2RFBkSlJMYVMtekF0ZXNiaV9YQmtSeTA?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T21:41:24.000Z"
+      },
+      {
+        "titre": "\"Strange\", \"Killer\": Zelensky Denounces Trump For Calling Putin 'Friend'",
+        "source": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNWNxRXo0V1IxUXJVQTRGZlgwbHJXQnFXZUtkSW1BMEpkczB6T2lZMnlzZ2pZeXdEam1WQUZYOFZxNHJvRVgxUWU5ck02Y3V0dk5SUG9ickVDU0UxNl9SSGI1engxMy14bGkzWWlIT3VRNWtZMm04MXdRYjROSU1VR21tUWtvdm9fdWxab2xzVWJzT2hDakxybENudkg2Smc1WFHSAaoBQVVfeXFMTWhCYkR3RGxHcWttQWE3V3VMODhPSFpIUWg1R2s4dVVKUnJYX3ZiUWliLVR0c2lEbmQyNldPX081OEluVFJITXBTZzIxUjFTSlg2TW11SWViNVpuTGpJb3Y5RWx6bkZuTjc1MEphcmw0UUs1TUNoYm56eTZBYzI0SkhlbTVDdGVmS1pVRmlQeUNxSmR2cnU1NEtGTUZIUl9fOS1hVGNTWExvQlE?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T20:46:40.000Z"
+      },
+      {
+        "titre": "UK man jailed for online blackmail of vulnerable girls around the world",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXhYbG1VeDhLQmYxTXpJN2RWa2t6UkRXZ2hic3A4dmJJQ25fNVBRTHE3ZXhNRUVJeG5lQ3l0WWhtaXNQODNMMlpkOG9DZnh4WDFvOUNHbGR2aW1qclJWWDN2MW9aUHM0Z3YxdEFvT3c0XzZidFdaUllvQjctSEhjdHJXU1JVeEdxVG5uYjdhYUlWVUl0R0F5NGN1NWxNc25qTmZoMjVvRFlvWHREbjNUZjdn?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T19:11:00.000Z"
+      }
+    ],
+    "auteur": "Sofia Delmas",
+    "sources": [
+      "BBC News",
+      "World Nuclear News",
+      "NDTV",
+      "The Guardian"
+    ],
+    "chemin": "/en/world/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-nice-cote-d-azur",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Nice & Côte d'Azur",
+    "rubrique": "Nice & the Riviera",
+    "emoji": "🌴",
+    "type": "revue",
+    "titre": "Hearts vs Monaco | UEFA Conference League 2026/27",
+    "chapo": "What’s happening on the French Riviera, from Nice to Monaco. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Hearts vs Monaco | UEFA Conference League 2026/27",
+        "source": "UEFA.com",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10cjFhaDlQUllablBtSHRJNUJiVFdLVFBxRzhsQ0xFX0wyamtOQXZPcTIyRjBHMlozdms4MHBjakd6am9TSWxyb2FCOUprMHR5cnhsOGQ5ZFRpVzhjakNGZnlmN3NUaFMwUV9UNVJSSXB2M2lzNVM2SUVfU3VvVFk?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T21:31:21.000Z"
+      },
+      {
+        "titre": "Ligue Magnus: Marseille Spartans in demonstration against Nice Eagles",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/ligue-magnus-marseille-spartans-in-demonstration-against-nice-eagles/",
+        "resume": "It was a derby evening in Ligue Magnus this Friday night",
+        "heure": "2026-11-27T21:18:35.000Z"
+      },
+      {
+        "titre": "Pro D2: Nissa Rugby concedes another defeat against Soyaux Angoulême",
+        "source": "Nice Premium",
+        "url": "https://www.nice-premium.com/pro-d2-nissa-rugby-concedes-another-defeat-against-soyaux-angouleme/",
+        "resume": "Too imprecise in attack, Nissa Rugby suffered at the hands of the Angoumoisins this Friday evening",
+        "heure": "2026-11-27T21:08:28.000Z"
+      },
+      {
+        "titre": "Bains De Mer Monaco H1 Operating Profit €119 Million",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaTg0eE1SSkR5d0ZiNmJuLU1LYWg4QXFxSUxrb1BLVFJSanRZNW1QeXpwcHM4X3J4YlFBZlQ0ZGlsTVlITUJ4Zl9rLXZMRHk2eUIyUEV3N1NtR1M1aUpuT1VUbFlkN2FyUXp3ak9IWkZVZV9LdDc0R1BtVmNlbW1QcTRmZzMxMXpRNEttQXZBTEhacmhkUEpiSTdMbWJ5T09tT1piUjFlZWxmek5QRF8zbHhfZ211dGhkRk42bFZ3?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T18:02:17.000Z"
+      },
+      {
+        "titre": "Lyon vs Monaco Bet Builder Tips: a 10/1 shot for Sunday night",
+        "source": "Squawka",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdTRJOV9qRmo1YjdYNFhVWjlUN1RuQk94RjBJVTRZS2g2SUZqbTRDdHRVSDNnRnhWUW5fMjVmQ3M5dEpoU3BpLXljT0lsT2U2U3plS2xLWUExVHhhUF9ZbnRiOGxOYlZVTDBsU0xUM1ZYd0t5eXBJSTF6YXprdl9xcw?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T16:57:32.000Z"
+      }
+    ],
+    "auteur": "Lucas Giordano",
+    "sources": [
+      "UEFA.com",
+      "Nice Premium",
+      "TradingView",
+      "Squawka"
+    ],
+    "chemin": "/en/riviera/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-sorties",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Sorties",
+    "rubrique": "Going out",
+    "emoji": "🎟️",
+    "type": "revue",
+    "titre": "2027 Season",
+    "chapo": "Where to go and what to do: outings, shows, festivals and tips on the French Riviera. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "2027 Season",
+        "source": "Automobile Club de Monaco",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fcGJTbUFsVkZiemUwdXVaemxNOHcydWxyT0VJWkpCbjFldWxWTWVPMkF0Q2FOUXoyQURpVzd1bWN1YXpzTDhLU0Npel91QTVwVk9WdFVRQnhTdHhXMG5ZN1Uya29mYkhxWWlGTzdyZVBIOGVCMjVF?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T20:13:24.000Z"
+      },
+      {
+        "titre": "The Doha Film Festival, BAFTA nerves and 'Remarried Empress' feature in this week's Deadline International Insider. Read more below.",
+        "source": "Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdGVYZ25yR2FBYUlIc2dPb1NSRU93TXdkV0stREdDTEVPMDBWOG1RNWQtMjlnLVZZazhOQUpiM0xMVlU2aExSQVNqckNNellLVzV1Z1RPanh1R0ZBRThobWt6Vk1wN0ROVXlyTHZWdzdXckcyZnEtbllIdjVRRkUtUVluUURyQlFrbnFrUTVlTlpCdUY5UV9rRHRBUldudkFVZmt2cXdaTU45RHMxWUQ3X0x3SDlKZUxFRHhSS1YxRm5Hc0hZNnZBaXFhaC1iYnVqYU1Yeg?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T19:00:12.000Z"
+      },
+      {
+        "titre": "Entries Are Now Open!",
+        "source": "Automobile Club de Monaco",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51cklfM2xmQ0U1MEw3bElqTzF1VEgyZGIzaXlmQXF5RGlEOFVna2hpNmdkTVFKT3E0Vk9JQUIxd3NFR1U2cWZ6Q1lLVVgxN2c3bWRB?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T15:06:17.000Z"
+      },
+      {
+        "titre": "International digital film distributor Under the Milky Way urges producers to plan beyond the festival circuit",
+        "source": "Cineuropa",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6SWpCa2wzbVVrTzJEME5ZZWxZb2FEQngycWVhbTNqc0VLX1NxZFIxREJtdnlMQXFFQTFhS2pjN05FN2E1UGNzaUhldGJsZTlSbFNEZ0JfdldQYXozcGxONERselhJQQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T12:24:54.000Z"
+      },
+      {
+        "titre": "Monaco’s waste reduction week brings together 64 projects",
+        "source": "Riviera Radio",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQWdXb3Nua2pkdXVkVko3R1ZZUjVtaEZVUFBTM2wyNGs5SkZHUFcwZXZfVkQ2NFJxSjFRWGMwQ3RpVTVwSXMtM2pqMjg4SjY2VXZDdWVJMGtyWHE3eEhNWTViYzlPMlptSTdRdHlrb1drRnlKMnBQb3B6M1NobGE3TG5zQVB2cUFDNzU0VktkZHp3cDFNN2JXV3ZqODRVdjBlTXN6d2pB?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T11:20:31.000Z"
+      }
+    ],
+    "auteur": "Théo Marchal",
+    "sources": [
+      "Automobile Club de Monaco",
+      "Facebook",
+      "Cineuropa",
+      "Riviera Radio"
+    ],
+    "chemin": "/en/going-out/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-sport",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Sport",
+    "rubrique": "Sport",
+    "emoji": "⚽",
+    "type": "revue",
+    "titre": "Wilshere v Ramsey - Arsenal legends treading similar managerial paths",
+    "chapo": "Results, transfers and the big moments in sport. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "Wilshere v Ramsey - Arsenal legends treading similar managerial paths",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cm1dvn9w1px4o?at_medium=RSS&at_campaign=rss",
+        "resume": "Eighteen years after making their Premier League debuts two minutes apart, Jack Wilshere and Aaron Ramsey meet as managers.",
+        "heure": "2026-11-27T22:58:49.000Z"
+      },
+      {
+        "titre": "Five-try Ireland beat Australia in autumn finale",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw987l0ej11mo?at_medium=RSS&at_campaign=rss",
+        "resume": "Ireland secure a fifth-place finish in the inaugural Nations Championship thanks to a 38-14 victory over Australia in London.",
+        "heure": "2026-11-27T22:17:45.000Z"
+      },
+      {
+        "titre": "Nice-Troyes: Nice host with three absentees and 17 points",
+        "source": "Tu Futbolero",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQXV6aHpCbkR6NEI0aWFrUEgyNDBQRDRPWTlqZEZtUWdKaVptTFM4Y1VmQlRReHRBaHNTY0pxSzFHUjhCOFh0Q2FoNDBFNVpQV0NTV2xBM0pGMS0ySDJSb21oZnhiWlVRejRVN3pxei05cGJSdFhwV18zRkZsRy1VbEJYUWhyZ0NmSUQ0WG9ZOWVWa0Z5N2U4aHlQUU1CZFp2?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T22:00:54.000Z"
+      }
+    ],
+    "auteur": "Inès Morel",
+    "sources": [
+      "BBC News",
+      "Tu Futbolero"
+    ],
+    "chemin": "/en/sport/2026/11/28/press-review/"
+  },
+  {
+    "id": "2026-11-28-en-actu-tech",
+    "lang": "en",
+    "date": "2026-11-28",
+    "section": "Tech",
+    "rubrique": "Tech",
+    "emoji": "💻",
+    "type": "revue",
+    "titre": "CEE Tech Weekly: Lute Raises €17.2M, Eleven Closes €57M",
+    "chapo": "Start-ups, cybersecurity and digital life: the latest from the tech world. Our round-up for 28 November.",
+    "corps": [],
+    "liens": [
+      {
+        "titre": "CEE Tech Weekly: Lute Raises €17.2M, Eleven Closes €57M",
+        "source": "The Recursive",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaE01MmlTUEtNQko0b0VJTzN6Zjh6ZFVCVk1ldVMyWEJBT3FqR0VLY0RBLVZUM2QwaWNpYkQxNk9ZRG9GZk41c1pCWlY2Yk1WR0daSkhxdUh1QU1ublFtNjBDeDVLbW9WbU13emdadlZvZ0F6VWdUM0hjQ3JqSkpabUtQc3RsY2ctOGgyeEdYSk4xbnNqcllZYy1jNmVJVmF3VWhsZEhCRVloR1hS?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T17:32:28.000Z"
+      },
+      {
+        "titre": "EIC Pre-Accelerator & Accelerator for Western Balkans SMEs and Start-ups – How to Apply Workshop",
+        "source": "European External Action Service (EEAS)",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNmpIa2xkbUNmVmRIZXRMNFF0N2RaTjU3OFpTbUUtTk0xNnppZVRTckhRRkR1VzBzUU51RnFXYm5LUmFtZ21QNnlRNndKdzNLZWhfbjZGd1pWV0wyT3puQi1yZm9kMmN4WUs1di1GMklPcm5wTTFDUktrSXpTRDlsMnlmdV9fYXM5UW1hM1Z4ek1qMEZXQndiTUtWVlpfUHBYZlhFaHZUcm5DLXo1cnlqUWlzaERkSlZKUy1IOHUzc0ZxRENaZ0x6Zm1ENXk1WkdHVXdXYQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T16:14:05.000Z"
+      },
+      {
+        "titre": "Belgian cyber insurance startup Inqase raises €1M",
+        "source": "Tech.eu",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDlkbzA0Nlk1TXR4Tm1SLUxxZWhkNzd5NzRJUjBCVkVETFByQ0k2Yzl0RkIyNVpsd1hjS2hmV21sbG5QdHNMMHFfRE1zZWxxSzF5U2JqMFNlUzhCS05RNnlCYWdSQjFVWUFpZS00aTlXLVlwOFlLNTMtamQ2REVaOHo0NUU4UQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T15:25:13.000Z"
+      },
+      {
+        "titre": "Cricket tech startup Hitz hits £12m valuation with £5m fundraising drive",
+        "source": "Business Live",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSXItUk1EbG9ha3hSbmxCamRkcXVFcjBxMmZPb19MdEJYcXVVSEFwTjJZZnl2TEN6dTM1RU5jV3JqaTZZOGZHTHNvR2FZT3IwQjlaa0doQkVTeWdwQmJIOHZjdFd5RDdnMmpFRi1CbEI2WHBJWlpDSnYweXhlNmJwWXhqdWhFSENuSWfSAY8BQVVfeXFMTUlXczdtZEl3SnVTcnZNSmlUcHdCenc3WlFDQlJFNWVxcjU4clR3Q2pqY1U4ZWtHZWdZWWt6b0JENlBGYmxrVmE1SjRWWGJpcDUtd3NMY2RVUHJvSjVhRDJaQTEtYkpKSldjdkFuMnpMR1cxZW9JOEJmYm5XdVM1N1VQT0FJREluM1RBb19wN1k?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T14:30:00.000Z"
+      },
+      {
+        "titre": "Global news agency AFP reports cyberattack, shuts down content platform",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2VaemhJM3ZTZHpmTnBkWnJQZTVqNlNDSEx3ZnhqanUzX3ZQbURiNURFNUdDc1NTWmtoRVI4ZHRXOFBGcjBuamRmYnJsQnZJd0pmNTBYQkpIYS02b1RkUkkzUWFLMThHLVIwazVIYTV4N0lHRkVGTU4yc0JWTXNFN3ZxaTlJRGNsMS12elNTU21CUGZlY1VkMzY5MERTNHFuVEpmMnRPVDBIY3dxNUVYVHp30gG3AUFVX3lxTE5VVnZOeS16aVVlMGNobmVwcnhVU1FuM0VVUzNTV1VlMXREU3NjVVRMUGxVb1R2cTR6QjhBamJJTmpiX3c1V3pwYndpOU1NNFp5RUNDQ2lwT2doalpaNE9uTk5jQlItSXdHYkpuMVlNdTNMb0JKTm9yd3NFRnhoLW5NQ1R4ZFNLMlBWcnBjelRUcDBmQkw2M2kwZndkWFZHVzBRTkhDS1JmSVJMSVdSaVdlQ2JMSjFWUQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T11:49:06.000Z"
+      }
+    ],
+    "auteur": "Nathan Belkacem",
+    "sources": [
+      "The Recursive",
+      "European External Action Service (EEAS)",
+      "Tech.eu",
+      "Business Live",
+      "Al Jazeera"
+    ],
+    "chemin": "/en/tech/2026/11/28/press-review/"
   },
   {
     "id": "2026-11-27-actu-business",
@@ -1291,6 +1870,311 @@
       "Scottish Enterprise Newsroom"
     ],
     "chemin": "/en/tech/2026/11/27/press-review/"
+  },
+  {
+    "id": "2026-11-27-en-hebdo-economie",
+    "lang": "en",
+    "date": "2026-11-27",
+    "section": "Business",
+    "rubrique": "The week",
+    "emoji": "💼",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Camille Rostand",
+    "titre": "The week in business: the key stories, 21 to 27 November",
+    "chapo": "12 stories from 8 news outlets over seven days. In this round-up: “Asia made a big AI bet on Nvidia. What happens now?”, “Small Businesses Across Australia and New Zealand Defy Economy, Remain Confident Heading into Holiday Shopping Season” and “Editorial: Revology’s amazing feat, Iowa City’s economic gem”.",
+    "corps": [
+      "From 21 November to 27 November, our newsroom followed the news in business through reporting by BBC News, The New York Times, iTWire, Ahram Online, Corridor Business Journal and Radio Iowa and others. Here are the stories that marked the week.",
+      "Leading the week, “Asia made a big AI bet on Nvidia. What happens now?”, BBC News reported on Friday. From the article: “Asian stocks have been on a rollercoaster ride after Jensen Huang’s shock return as Nvidia CEO.” The story was also covered by The New York Times.",
+      "Another major story: “Small Businesses Across Australia and New Zealand Defy Economy, Remain Confident Heading into Holiday Shopping Season”, iTWire reported on Thursday. The story was also covered by Ahram Online.",
+      "Elsewhere, “Editorial: Revology’s amazing feat, Iowa City’s economic gem”, Corridor Business Journal reported on Wednesday. The story was also covered by Radio Iowa.",
+      "Meanwhile, “My self-care ritual is a meal at a fancy restaurant”, BBC News reported on Friday. From the article: “Solo-dining is being embraced as a self-care trend and it’s reshaping the restaurant industry.”",
+      "Also this week, “From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale”, BBC News reported on Friday. It added: “Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.”",
+      "Worth noting, “Niagara family business says $500K weekly in Trump tariffs is forcing production to U.S”, CBC reported on Friday.",
+      "Finally, “Mining For Growth: Ghana Bauxite Company expansion to transform Awaso’s economy”, Modern Ghana reported on Friday.",
+      "This weekly press review is compiled from articles by the outlets cited: their headlines and excerpts are quoted, and the full articles are available through the links at the end of the page."
+    ],
+    "sources": [
+      "BBC News",
+      "The New York Times",
+      "iTWire",
+      "Ahram Online",
+      "Corridor Business Journal",
+      "Radio Iowa",
+      "CBC",
+      "Modern Ghana"
+    ],
+    "liens": [
+      {
+        "titre": "Asia made a big AI bet on Nvidia. What happens now?",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+        "resume": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+        "heure": "2026-11-26T23:08:12.000Z"
+      },
+      {
+        "titre": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+        "resume": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
+        "heure": "2026-11-24T01:11:54.000Z"
+      },
+      {
+        "titre": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+        "resume": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5% in early trading.",
+        "heure": "2026-11-23T15:39:41.000Z"
+      },
+      {
+        "titre": "Jensen Huang Returns to Nvidia, Showing What Trump Will Do for AI",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xWFBzU1YweGFUcWx4ZGQwNG8wRmxRdkdpdEkxR0JLUkNvMWNGWGZJZGdjeExBZmc4TGRJeTNoT094MDl1Vy1HYnhxS1doMUFSdy1RUkoxRUQxc21wejJCS2RxMjQzLVNfTmFsSmU2R2NaVW5NQW5iSWpuckRIYjA?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T20:21:44.000Z"
+      },
+      {
+        "titre": "Small Businesses Across Australia and New Zealand Defy Economy, Remain Confident Heading into Holiday Shopping Season",
+        "source": "iTWire",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRWdHVXBwM2NCMjNkYWVnTDJhM1FhTXNmZjB3Um1VcWJlS2I1U1lNWnZCcGwxcC1UWkJCMmdzamFaT0pCV0kxaGpIcGFHWEhfZ0tYdTM0V3haVG1vaDhDY0EwT092M0g3aGdjM1JxZTFEV1l2VjJnSk1Telh4M19peDE1YThRekJSdXp4MFJMRUJWTGZUZlpkYWlhQmdxX05oVnJlUlFlMVJJd3VDVE5TZ2xmdEN3ZDN1ZzZSaTg2anBGOC1lUy0wZ3Y2bVZXZHVUU2E2bTA0UG1oUm96bDRDLU9Kck1qWndiMjJLQ1ZQd2dxQjBPYVE?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T22:45:21.000Z"
+      },
+      {
+        "titre": "AfDB, EBRD step up partnership to expand financing for Africa’s small businesses - Economy",
+        "source": "Ahram Online",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdUtpeTJlOXM3cm1SSUNaQWhQR294UExPLWZlcmhkVHZmdU85OXJjOEtrcFl4RTFaN003X3FDRlhqa1Q1dGpULXJWY1VDcXJWVUc0UWxzN0JFWkdaYno1OUVFcjFQZDg1eFk4QVhha2lmTWRrdFFaMXNzOERid01oUHF5Y3gzTXJTUHZLY3M5YnV1YXhlN1pVNVRDVUhlQXUtZm4tVHIwbzM5aXlrSzlxZEx1eFV6N0drQUVCNlB3S25UcHN0S2dpTjM4R2kyT3NKeVZnc054Zw?oc=5",
+        "resume": "",
+        "heure": "2026-11-26T06:42:03.000Z"
+      },
+      {
+        "titre": "Editorial: Revology’s amazing feat, Iowa City’s economic gem",
+        "source": "Corridor Business Journal",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTndoNkVRZkNoWlZBQU9zWVVRODZtTXI5d001NkFqMkMwWExJa0xGMGFweG84U2xqWHJiOEZoSk1ZaVR0UU91ZXNtSzRRaTZxQWxtb3RCQW9WVUZoVWFCVlhoOHVLS24zbHdRVllqbWhseDBVekduQzhobUxPdW5yclU2aFJWN0xHTjZFRkRfNA?oc=5",
+        "resume": "",
+        "heure": "2026-11-25T11:11:06.000Z"
+      },
+      {
+        "titre": "Iowa economic incentives approved for Vylor seed company in Johnston, Cambrex in Charles City",
+        "source": "Radio Iowa",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdTU3Qk1wR25SQXJydDlWeGFldlJYNlpKU0FleTVtbDBWcXltcU5WZzJpcWwwMDZHejIxWXM3cnVmRXZnak4zaGZVVy1aNnFEZzNqX2RLMFFMTGNYa3RvVVpqOHkzTHFyOGtBXzIyb3Zfd1pZX1h4dmRoVzhHVkJHNlk1aTBnOHAwejVMMUh6OUE0Nl82ZWdvZGk3RDIzMXF0aXFNcU1FYmVuWC0tbHN2WW5kMlg2Q0QtSEh5Yzg2TnNBZG8?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T16:32:17.000Z"
+      },
+      {
+        "titre": "My self-care ritual is a meal at a fancy restaurant",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+        "resume": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
+        "heure": "2026-11-27T10:10:36.000Z"
+      },
+      {
+        "titre": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
+        "resume": "Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.",
+        "heure": "2026-11-27T00:58:49.000Z"
+      },
+      {
+        "titre": "Niagara family business says $500K weekly in Trump tariffs is forcing production to U.S",
+        "source": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcnk4dVpxT3Raa003UEVUUV9WMGJvY3FPNEY2U2xKd0ZDbWVrN01lQWtRRnQtV0h1ZzFnZWZWdXE0WEFyenJrWkw5RU1waWRYWFhDcWY2MElaTGM0Z0xrMWc2UWZMSzlMYlVOVjNvRVpDU3dtc3B0dzRJYW9UTGtNYlc5djdVR0Mx?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T12:28:26.000Z"
+      },
+      {
+        "titre": "Mining For Growth: Ghana Bauxite Company expansion to transform Awaso's economy",
+        "source": "Modern Ghana",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Ucm1wQWtXc0xsa0pHSmpwTnF2VVJnZVpWRmtzQl9Bd2dLTXJGSkpLZ2lYYlM5eEdWbDIwNThCZnJxRTloU1pKUzF3U0kydFlFSGRHdXVXVzk0UUlkaGNwYU92Y2bSAVxBVV95cUxPOG0wY2l1STc4V25tUnE3Uno3UDNtRlFQZHk5blo3NXZPN3pwQWpIalk4Y3oyajJORnh5Ym5oUk9ENktOMTdSQUZ4dkc2MG5OeEpQV1labXNUSktxNA?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T00:00:00.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/en/business/2026/11/27/hebdo-economie/"
+  },
+  {
+    "id": "2026-11-27-hebdo-economie",
+    "lang": "fr",
+    "date": "2026-11-27",
+    "section": "Business",
+    "rubrique": "La semaine",
+    "emoji": "💼",
+    "type": "article",
+    "genre": "hebdo",
+    "auteur": "Camille Rostand",
+    "titre": "La semaine économique en 7 sujets, du 21 au 27 novembre",
+    "chapo": "33 informations publiées par 13 médias en sept jours. Au programme : « Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises », « \"Millionnaires patriotes\" qui souhaitent payer plus d’impôts : \"Il faut vraiment les féliciter pour ça, mais il faut voir aussi que c’est très insuffisant par rapport à ce dont on aurait besoin\", pointe l’économiste Denis Durand » et « Fin de l’interdiction des passoires thermiques à la location : aux Assises de la rénovation énergétique, la consternation des professionnels du secteur ».",
+    "corps": [
+      "Du 21 novembre au 27 novembre, la rédaction a suivi l’actualité économique à travers les publications de Le Monde, franceinfo, Ouest-France, La Gazette France, economie.gouv.fr et Bourse Direct notamment. Voici les sujets qui ont marqué la semaine, du plus suivi au plus singulier.",
+      "À la une de la semaine, « Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises », titrait Le Monde jeudi. On peut y lire : « La droite sénatoriale, majoritaire dans l’hémicycle et souvent frileuse sur la taxation des entreprises, a consenti à cette mesure. » Le sujet a également été traité par Ouest-France, La Gazette France, economie.gouv.fr, Bourse Direct, Capital.fr, Yahoo Finance France, Le Monde.fr, France 24, franceinfo, BFM, Les Echos et Sud Ouest.",
+      "Autre sujet marquant, « \"Millionnaires patriotes\" qui souhaitent payer plus d’impôts : \"Il faut vraiment les féliciter pour ça, mais il faut voir aussi que c’est très insuffisant par rapport à ce dont on aurait besoin\", pointe l’économiste Denis Durand », titrait franceinfo vendredi. On peut y lire : « Codirecteur de la revue \"Économie et politique\", ancien directeur adjoint à la Banque de France et membre du Conseil national du PCF, Denis Durand revient dans \"La Matinale\" sur le mouvement des \"millionnaires patriotes\", qui militent pour contribuer… » Le sujet a également été traité par Le Monde.",
+      "Dans un autre registre, « Fin de l’interdiction des passoires thermiques à la location : aux Assises de la rénovation énergétique, la consternation des professionnels du secteur », titrait Le Monde vendredi. Extrait : « L’amendement du Rassemblement national, adopté à l’Assemblée nationale dans le cadre du projet de loi logement voté solennellement mardi 24 novembre, va supprimer l’un « des derniers moteurs de travaux », jugent des acteurs du bâtiment. » Le sujet a également été traité par franceinfo.",
+      "Par ailleurs, « La France entre officiellement en récession », titrait Le Monde vendredi. On peut y lire : « Le produit intérieur brut a reculé de 0,2 % au troisième trimestre 2026, selon l’Insee, alors qu’il avait été initialement estimé en baisse de 0,1 %. » Le sujet a également été traité par BFM.",
+      "Toujours cette semaine, « Airbags Takata : Stellantis et l’équipementier Joyson Safety Systems France perquisitionnés », titrait franceinfo jeudi. Le média précise : « Les investigations, d’une particulière technicité, se poursuivent\", a déclaré le parquet. » Le sujet a également été traité par Le Monde.",
+      "À noter également, « Apprentissage : les fraudes et les abus pourraient coûter 3 milliards d’euros selon la Cour des comptes », titrait franceinfo mercredi. On peut y lire : « Dans un rapport publié mercredi 25 novembre, la Cour des comptes alerte sur les fraudes à l’apprentissage. » Le sujet a également été traité par Le Monde.",
+      "Enfin, « Choose France : trois entreprises de Seine-Maritime parmi les douze pr ... », titrait La Gazette France vendredi.",
+      "Cette revue de presse hebdomadaire est établie à partir des articles des médias cités : leurs titres et extraits sont reproduits entre guillemets, et les articles complets sont accessibles par les liens en fin de page."
+    ],
+    "sources": [
+      "Le Monde",
+      "franceinfo",
+      "Ouest-France",
+      "La Gazette France",
+      "economie.gouv.fr",
+      "Bourse Direct",
+      "Capital.fr",
+      "Yahoo Finance France",
+      "Le Monde.fr",
+      "France 24",
+      "BFM",
+      "Les Echos",
+      "Sud Ouest"
+    ],
+    "liens": [
+      {
+        "titre": "Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/26/budget-2027-le-senat-approuve-l-effort-de-cinq-milliards-d-euros-demande-aux-grandes-entreprises_6815197_823448.html",
+        "resume": "La droite sénatoriale, majoritaire dans l’hémicycle et souvent frileuse sur la taxation des entreprises, a consenti à cette mesure. « Regardons l’état de notre déficit. Il faut que tout le monde fasse un effort, sinon on n’y arrivera jamais », a justifié la rapporteure générale, Christine Lavarde, élue Les Républicains.",
+        "heure": "2026-11-25T23:50:44.000Z"
+      },
+      {
+        "titre": "Budget 2027 : le Sénat abaisse le plafond de l’abattement fiscal de 10 % des retraités, refusant sa suppression totale",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/24/budget-2027-le-senat-abaisse-le-plafond-de-l-abattement-fiscal-de-10-des-retraites-refusant-sa-suppression-totale_6814837_823448.html",
+        "resume": "Actuellement, l’abattement dont bénéficient les retraités est plafonné à 4 439 euros. Dans son projet de loi de finances, le gouvernement proposait de réduire ce plafond à 3 000 euros. Les sénateurs ont voté son abaissement à 1 000 euros.",
+        "heure": "2026-11-24T18:15:05.000Z"
+      },
+      {
+        "titre": "Au programme du sommet Choose France qui s'ouvre lundi, 273 projets valorisés et près de 15 milliards d'euros d'investissements nouveaux",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/au-programme-du-sommet-choose-france-qui-s-ouvre-lundi-273-projets-valorises-et-pres-de-15-milliards-d-euros-d-investissements-nouveaux_8295146.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Lors de la première édition de l'\"édition France\", le gouvernement avait valorisé des investissements à hauteur de 30,4 milliards, pour 151 projets.",
+        "heure": "2026-11-22T19:26:56.000Z"
+      },
+      {
+        "titre": "Choose France : 273 projets industriels seront présentés lors de ce sommet dévolu aux entreprises tricolores",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
+        "resume": "Cette édition, réservée aux entreprises françaises qui investissent dans le pays, décompte 14,9 milliards d’euros d’investissements nouveaux, soit 81 projets inédits, notamment dans les secteurs de la santé, de la cosmétique, ou des biocarburants.",
+        "heure": "2026-11-22T18:42:12.000Z"
+      },
+      {
+        "titre": "INFO FRANCEINFO. Sommet Choose France-Édition France : l'entreprise Blanc Aéro Industries doit investir 39 millions d'euros dans le pays",
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/info-france-info-sommet-choose-france-edition-france-l-entreprise-blanc-aero-industries-doit-investir-39-millions-d-euros-dans-le-pays_8294021.html#xtor=RSS-3-%5Beconomie%5D",
+        "resume": "Cette annonce intervient à l'occasion d'un sommet Choose France, qui s'ouvre lundi à la Cité internationale universitaire de Paris. Cette \"édition France\" réunira plus de 250 entreprises qui ont investi dans l'Hexagone.",
+        "heure": "2026-11-22T05:00:04.000Z"
+      },
+      {
+        "titre": "Budget de l’UE : Antonio Costa, le président du Conseil européen, propose 204 milliards d’euros d’économies et une taxe numérique",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/21/budget-de-l-ue-antonio-costa-le-president-du-conseil-europeen-propose-204-milliards-d-euros-d-economies-et-une-taxe-numerique_6813983_3234.html",
+        "resume": "La France a rejeté la nouvelle proposition du dirigeant européen. M. Costa soumettra sa proposition de compromis aux dirigeants de l’Union européenne lors d’un sommet organisé jeudi et vendredi à Bruxelles.",
+        "heure": "2026-11-21T11:01:50.000Z"
+      },
+      {
+        "titre": "INFO OUEST-FRANCE. Prêts garantis par l’État : plus de 5 milliards d’euros sont encore à rembourser par les petites et moyennes entreprises",
+        "source": "Ouest-France",
+        "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTk45dmU4LWdEbzlXOXBDdVBYcEdBVWEzc0cxOV9yYU5KQS1icFZQSWtPUlJFMWh2bE1jSzZtQTB5cC0yRHZTaHFkS0VEU3VSOW1sYWlMMFQ5VVNoNmx3b2JuSGJTWHBaalgwRkNfYjUyaGZDeHhEVmhUM1VQdlZYLU5nRVZOU2RZOE56R1U5RFZRS3N2WDBZLURzdFlDeFY1VHg4NW1SUGg4NzhxQzV4cEpVT0xDcE9qQW5oRU1MaVBWNk9SSnA3LTJmN3NYM25pNzBCNGl4bXJnMHVKWE44am4yc1I1cGRoVDJLUXVfSEE5MnAzT2Z0TjBaTENaNmJNRloxckJzME1CTE93a2dLUWJkYVloZmY0NXZsWTJiRkFUVnNnQ1BGc054Mk5lcFlzMTRHLXJFN2NOcjBGMVJ3ODJB?oc=5",
+        "resume": "",
+        "heure": "2026-11-27T09:53:37.000Z"
+      },
+      {
+        "titre": "Choose France flèche des investissements sur cinq entreprises de Meurt ...",
+        "source": "La Gazette France",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbFNpMXpUbjNfZUp5aTFjcC1wX3JRZFE1VjVhblYyUkZ1NnVzemZhZ2czSElCWXpUT2lUQ0ZHeUZnOGw1UnhUcXh0djdQMkhyMFdXVFgxczlqeFhSdnN5VnBPck55TGh3TE1GMV8wMl9VWW9nX0dWZXRURlA5Q1l3MWI2V05RNk9vUVRISzV1UHlIU19IcFFDUUhBeEZ5eUxPUjBGeENKanRXc2o3S0JwbG1xa0NaVFpWMnQydUV5dw?oc=5",
+        "resume": "",
+        "heure": "2026-11-25T06:15:48.000Z"
+      },
+      {
+        "titre": "Choose France - Édition France 2026 : 42,5 milliards d’euros d’investissements annoncés par les entreprises françaises",
+        "source": "economie.gouv.fr",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMFBHZkY5R2x3VUkxY2ZWbVRJRVlmZmdLVjR3V29RdVkybU1DVU1iQU9rd051b184QjBGLXhvZ3pKalpnazBPVl9FVTBLUWI4YUNtSktLYUIyUk91WVhPOHlSUWRYQnc0NXBtQnNHTGVqbklabXdzWk9fZEg2SlkyaFJrVmNkWVhYQWN5NHFYbVdoU0ZKWVpDYzQ2R0VlSGJLamRiY1ZScVpWRnoyZjNHZF9CMVNWTkIxTDl1OEZkaGRMU25lNUZCeGVyRlhyM0xndmxWdEQxSElHemo4cEtCZk5ybFI0QQ?oc=5",
+        "resume": "",
+        "heure": "2026-11-24T15:42:55.000Z"
+      },
+      {
+        "titre": "Dans un contexte morose, Choose France vante les entreprises qui investissent en France",
+        "source": "Bourse Direct",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOekZrRkhBbDF4clpWdHd1N3lmYUV1RXB2ZjZnbm5vU3hia2V1QlQ1WmMwYXZWOVhPY1d0MEpYNWhOV2dHMXRsOG95RERtWFlFemozWEh6Uk41Z3MtRUJiREJJX1pWUTJ4ZlJuWjB0Y3Eta3M0SjNobHV1TmkyUnduOHBmeVBseGhIb2h4cEhJekpNV3FQa0tNRXpQMXJEWVNlYnFHOWUySFFGV2tQUWE4TWVDOGlnOHJEX3gyUDFwRXNvTlRuUWFWRVVLcEFkRF9EQmROUkNDMDRBY3hiYXNfSEhuOHpGZkFGSjJQY1V2aWZIQnA3eVhUeW9GNGZmdFNveHFDU1Y0VHdaR3o1Rnc?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T18:59:00.000Z"
+      },
+      {
+        "titre": "Choose France : avec 42,5 milliards d'euros, le gouvernement met en scène la France qui produit",
+        "source": "Capital.fr",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZm91cy1sU0dIRGdURkRRM1RLaHAyRXV4dU95SDJ0RjhUTDFmRV9RN1RDZDVFWjVBbGQwN2NEQldad2VCWjVseHpCY2dPQTF1ZGMtN3BqT1V6aTk5YnFGVnE2ZnFNUWdZa0pTeEFDMEJpWEY0WDZ5bUxfNDJFMjFnT2FpWWFmMnF1N08xdWxEVmNtS1lxcVE3UmkzSkxodHBfMzl5NVdta0VEMWxUaHZpbEVuVDNId3VLNENOMW9waw?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T18:00:00.000Z"
+      },
+      {
+        "titre": "Dans un contexte morose, Choose France vante les entreprises qui investissent en France",
+        "source": "Yahoo Finance France",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFozZm04am1lSjZTSTBJdGFOYlFWOVQ3YzlJTFdnXy1Cb20yMUIwUTFzbWFYNXdrRDBvcDdySmRNRTVPdWpQbERZczRza1dDaTJtTl9US3QyS2tGQ0k2WkVYVnJ2SnoxeFd1Vnd5d2o4VEpfNnZuZ2JoZE5lZXRUZ0xWLVUzanhRRUl1QTRTRl9zVXFMSHhqRllaeFdDZTdSc0paNVR4ZE45YVlNUEkwaVhEeXc?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T17:55:19.000Z"
+      },
+      {
+        "titre": "Pour Emmanuel Macron, un Choose France 100 % tricolore sur fond de morosité pour les entreprises françaises",
+        "source": "Le Monde.fr",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOc001MnJ3X2N4Rk9NakRpM2hkMW1EMUZFYVJVdXltTElLOEtMUFdmWGJTS0wxOVZNYUxjWFJpUUtSYlo3bXJ0RU90NlAtRWx2d3ZORTN3a0FTS3gxVFh6TXZramM4SnlYVVkzM0llRmJuLTU4dnlLc2dVTGVCOThGeDAweEdpem9DU1AyUnZZMXRoOEswU01ZRm5LMk5lSWN6ai1ES0t3eHZQVk50Mkd1TjQ1UW9aY19XcGk3UkRvMGFwTHk1UFFRdEUxWlIyLWpuUVVwQVFSRElDeDE1NG5DN2lpRkRVUGhFTGRYSnpBbm9oS29BeHdHODRpQ00?oc=5",
+        "resume": "",
+        "heure": "2026-11-23T05:00:00.000Z"
+      },
+      {
+        "titre": "Choose France : les entreprises françaises prêtent à investir 42,5 milliards d'euros",
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOVEFHUzlWeTN6Wl9udGllbVZ6d1ZOVC12TXk1eWlwLVo2LU5lMFpQS2ZoUzhkQ182RmE3NGx3VXNVS3lEdUVWTTVCV2Q3c2c0TDEwVFkwQ1l5VVdUNlFSbUZoc2RVMEdkNXV6bFJNT3VKTDhQNGc4ZTFMV3B6YzJJYlh6OGN5ekNGbTFpZTh1VFNqQll4aXdIQm1jMUJ4WFgtWU9NRjFtdmNvRlBCa1F3aUYtLU1EdHJPMHBkQkJvMld6dnFVenozNFRJRXlGeFI5bDVFeWRRanVPRzBnN0ZSRVl6WHlGRE9IaTdPVno5SHlsYjhyQWJBTTVnaF9lV1hDUkdkeC14MTA2RzJJb1E?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T19:58:34.000Z"
+      },
+      {
+        "titre": "Choose France : 273 projets industriels seront présentés lors de ce sommet dévolu aux entreprises tricolores",
+        "source": "Le Monde.fr",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOU3hZdTZ4dEtxOTVBeVI5R25qcVl4QW01NzY4a0RHZjhWZ2VfVkpvSVh2Q1FuM2xVeFZMYzdiWXA5eVR3bFN0bkltVk5aOFQtVWpzOGpOSWlSRHVaeFFoSm5rTDc4OHFKUkR3RTRuMHNUb1Y0ZTV2UVcxQ0IyNGItTmlRM3pBWlFEZWtPWGppS0pFZzhScDdGN3hjWHhReFF3emdfY2NLR1BDQkpaTjRfWDBpWlFDbzJSSFptN2I0dzFhSWpfZVQwb2xsb0JieElFUGFfaEw1V2FTZ1F1RUxTTjN0VEkzQnMtdlFsejZYY3EzY2M0NEp1aE9XUzNfZGVqdVV3TjhYdU9hWjQwNGloQ0I2VFl2UUE?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T18:42:12.000Z"
+      },
+      {
+        "titre": "Plus de 273 projets industriels dans 22 régions: à la veille du sommet Choose France, l’Élysée annonce près de 15 milliards d’euros d’investissements nouveaux",
+        "source": "BFM",
+        "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPR0xDYkt2Z2RHMGRmcy02ajF3TUlOODBRQlE0WHRQc3JLckpWYW5jMFF6LTU4Vzc3emFlYnh6MlFycDVkNGZyZDBvMHM3eW9qUndReUVJUkQwQzI4NUJFcGVoWnpsWkNjXzlvdHZqNWgzYXVQbjJ2bGVTeFFtRWxucjNfemFGanV6OUk4LWtHY0tCS25FaEY0aXRjN2NKd2tmY043T1J0Y3J0aE56WHU0TFZQaF9wc3Q5a0VuWHY5amkwTDN6Q21jMXVhX3RuZjZEZnBNYnZOTVJNeklOXzJPT3ZNbDZ5bFI1NHB5MjgwaDU0cExBc0xrV0ZlT1lOelpZUUlOUUQ4NnY5RWdqeXpNVXpRYzFSYkZ5dWlIMHVuVjAtc0FWZXdPZ3NzaFlpYXlSTGc?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T18:05:53.000Z"
+      },
+      {
+        "titre": "Avec 42 milliards d'euros de promesses d'investissements en France, Emmanuel Macron défend son bilan industriel",
+        "source": "Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOM3UyMFhpTlh3eGhQcmNwdjg3Z3VQZjhXSE1vNE9ONzA1ZWFqcHBGYWRsSUZxVzlmZ0pKLWJWVVZTTV9fcHZocE85T3hEQ1lua3RFc0JiM0xLVVlUb1JMYjFkN3M4dDFqVWtnR2VMTld2NkVORWkycXcwdUF3OVZWeGZjSXNiejY2dVljd0NGYjZRMmNzbUlrakFEU254QUlZbGtmaXJEQ2NfZEJyWHlROHMxMTd2eFhYR01hU0M4aU4tM3F6eEJjZHdVb3NZWkVCYlZyaHdnSmZyX1pJZXZZTzBoeWdhYm1XRzRXUUJLMzRUMGlFYVA0ODBsU0o?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T18:00:42.000Z"
+      },
+      {
+        "titre": "Le sommet Choose France se déroule lundi à Paris, un rendez-vous aux allures de bilan dans un contexte économique morose",
+        "source": "Sud Ouest",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNajJ1dVZBWGRLU25yazJYSFFfWEhVMXN4V1ozZVNJWjRPaDA4ZWtocUU1b0xtTkJzTU9MUmMtOW1zX2F0OW5wdGtJQ3ZrMlRYQmV3aGZhVmVEMTZSRFNDNVdUcktXc1NsOHNzcnN5QmkzM252VWs0OFBMWFdXbTQ5Mi1fcGV5OFlTbHdFOVF6c0trck5yWk1jTU13TWQ4NWUwXy1IaVVwdjVoYk9UVF9QRWhKazI0TDg5NUlEZDhMTVlhaHBWTVgyejBmdENNOUlMRjV5ZVNMSVZVZEZIUGVOSGxzM0ZINWMtektqWVhqYzRZUy1VU3dqX0RnLW85Z3NhZlN5NDdR?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T08:49:24.000Z"
+      },
+      {
+        "titre": "Choose France : l'investissement des entreprises, nouveau point noir de l'économie française",
+        "source": "Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeUt0OHphSE5pWHRWQ2daaHdYdTVnTENDZ1ZiSmtUTTBwbV9jc2F2dk9RdlVpU1hNOE5KUERRT1VtclBsTU44cU1lSDJkRnY0MkUxaVdobmU0Y2Raem44SFdTQ3RLZDljU1FLekx5MWlYZEltQWFKb3gydHpnUVRWaVBOMlQ1M2RJajFROEFkM3pVLTh5MGJYSkVPWFBrSnBfd3dvdm03eHR3Zm5JUnRGTTF3cFpzaXZZOS02eWQxWHlVc2FSaXBpVFBmSHl2REVEeVdJTE9fRzVkbERBaTFMeA?oc=5",
+        "resume": "",
+        "heure": "2026-11-22T08:35:09.000Z"
+      },
+      {
+        "titre": "« Les premiers assistés de France, ce sont les grandes entreprises », selon un économiste qui critique des aides trop importantes et inefficaces",
+        "source": "Sud Ouest",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQWGtTVlRsQXNEUU9CWkVWeFVXdDhRbGE3SHNGelhiZDdGZEhZZ3FJbDdqVTExeWJ4QXB1Z1RyZ2VSWVJ6US1tSTMxdFUzMHE5dDQ3NGFiR0ZadFU1RFNWZjlTcEhzU0pGWDhwM1ljSUJQZm5jb2R3a3FmR1VFV2JZbThPREFXbnJHUjZjQzQzeV9Xb3QzMlZqS0lJdmZTc0R0SEhVNXYyYVZlZ29vZGFOUEM0bkQ0SV9xdXJtRlBOdno4UlJqRWZoVFUzR1F2VHBnaENtN3cwOGVSbnNQT2N5UmVqbWlXZ1lfS0loTXpob0w1NTZkSi1vVWxqLThWaThQX1VxUEJsVVZsb1VxSXZHanVFMEtPZ0duMFliOE9EN1FXN0xVR2tKMg?oc=5",
+        "resume": "",
+        "heure": "2026-11-21T07:00:00.000Z"
+      }
+    ],
+    "redige": true,
+    "chemin": "/economie/2026/11/27/hebdo-economie/"
   },
   {
     "id": "2026-11-26-actu-business",
